@@ -1,0 +1,2557 @@
+{
+  "layer": "equipment",
+  "analyst": "equipment research analyst (Claude)",
+  "generated_at": "2026-09-27T00:00:00Z",
+  "sources": [
+    {
+      "id": "src:asml-20f-2025",
+      "title": "ASML Holding N.V. Annual Report on Form 20-F for FY2025",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-011378"
+    },
+    {
+      "id": "src:asml-web-wilton",
+      "title": "ASML Wilton, Connecticut location page",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.asml.com/en/company/about-asml/locations/wilton-ct",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:asml-web-san-diego",
+      "title": "ASML San Diego location page",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.asml.com/en/company/about-asml/locations/san-diego",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:asml-web-berlin",
+      "title": "ASML Berlin location page",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.asml.com/en/company/about-asml/locations/berlin",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:asml-web-veldhoven",
+      "title": "ASML Veldhoven location page",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.asml.com/en/company/about-asml/locations/veldhoven",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amat-10k-fy2025",
+      "title": "Applied Materials, Inc. Form 10-K for fiscal year ended October 26, 2025",
+      "publisher": "Applied Materials, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-12-12",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-25-056742"
+    },
+    {
+      "id": "src:amat-10k-fy2024",
+      "title": "Applied Materials, Inc. Form 10-K for fiscal year ended October 27, 2024",
+      "publisher": "Applied Materials, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2024-12-13",
+      "accessed": "2026-09-27",
+      "identifier": "0000006951-24-000044"
+    },
+    {
+      "id": "src:amat-10k-fy2023",
+      "title": "Applied Materials, Inc. Form 10-K for fiscal year ended October 29, 2023",
+      "publisher": "Applied Materials, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/6951/000000695123000041/amat-20231029.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2023-12-15",
+      "accessed": "2026-09-27",
+      "identifier": "0000006951-23-000041"
+    },
+    {
+      "id": "src:lam-10k-fy2026",
+      "title": "Lam Research Corporation Form 10-K for fiscal year ended June 28, 2026",
+      "publisher": "Lam Research Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-08-07",
+      "accessed": "2026-09-27",
+      "identifier": "0000707549-26-000037"
+    },
+    {
+      "id": "src:lam-web-malaysia",
+      "title": "Lam Manufacturing Malaysia careers/site page",
+      "publisher": "Lam Research Corporation",
+      "url": "https://www.lamresearch.com/careers/global-opportunities/manufacturing-malaysia/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:kla-10k-fy2026",
+      "title": "KLA Corporation Form 10-K for fiscal year ended June 30, 2026",
+      "publisher": "KLA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-08-06",
+      "accessed": "2026-09-27",
+      "identifier": "0000319201-26-000027"
+    },
+    {
+      "id": "src:teradyne-10k-2025",
+      "title": "Teradyne, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Teradyne, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/97210/000119312526059002/ter-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-19",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-059002"
+    },
+    {
+      "id": "src:ichor-10k-2025",
+      "title": "Ichor Holdings, Ltd. Form 10-K for fiscal year ended December 26, 2025",
+      "publisher": "Ichor Holdings, Ltd.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652535/000165253526000012/ichr-20251226.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-20",
+      "accessed": "2026-09-27",
+      "identifier": "0001652535-26-000012"
+    },
+    {
+      "id": "src:uct-10k-2025",
+      "title": "Ultra Clean Holdings, Inc. Form 10-K for fiscal year ended December 26, 2025",
+      "publisher": "Ultra Clean Holdings, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1275014/000162828026010744/uctt-20251226.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-23",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-010744"
+    },
+    {
+      "id": "src:formfactor-10k-2025",
+      "title": "FormFactor, Inc. Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "FormFactor, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1039399/000103939926000009/form-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-20",
+      "accessed": "2026-09-27",
+      "identifier": "0001039399-26-000009"
+    },
+    {
+      "id": "src:tel-integrated-report-2026",
+      "title": "Tokyo Electron Integrated Report 2026",
+      "publisher": "Tokyo Electron Limited",
+      "url": "https://www.tel.com/ir/library/ar/g4alje00000000pq-att/ir2026_all_en.pdf",
+      "doc_type": "investor_presentation",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tel-fy2026-q4-presentation",
+      "title": "Tokyo Electron FY2026 Q4 financial results presentation (April 30, 2026)",
+      "publisher": "Tokyo Electron Limited",
+      "url": "https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4presentations-e.pdf",
+      "doc_type": "investor_presentation",
+      "tier": 2,
+      "document_date": "2026-04-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tel-web-locations",
+      "title": "Tokyo Electron group company / locations page",
+      "publisher": "Tokyo Electron Limited",
+      "url": "https://www.tel.com/about/locations/index.html",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:trumpf-web-euv-drive-laser",
+      "title": "TRUMPF Laser Amplifier - EUV drive laser (solutions page)",
+      "publisher": "TRUMPF SE + Co. KG",
+      "url": "https://www.trumpf.com/en_US/solutions/applications/euv-lithography/euv-drive-laser/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:trumpf-story-ray-of-hope",
+      "title": "Ray of hope for the digital era (TRUMPF newsroom story)",
+      "publisher": "TRUMPF SE + Co. KG",
+      "url": "https://www.trumpf.com/en_INT/newsroom/stories/ray-of-hope-for-the-digital-era/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:trumpf-pr-asml-supplier-award-2025",
+      "title": "ASML honors TRUMPF for new EUV laser (press release)",
+      "publisher": "TRUMPF SE + Co. KG",
+      "url": "https://www.trumpf.com/en_INT/newsroom/global-press-releases/press-release-detail-page/release/asml-honors-trumpf-for-new-euv-laser-9838/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-24",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:screen-spe-web-japan-network",
+      "title": "SCREEN Semiconductor Solutions - Global Network: Japan",
+      "publisher": "SCREEN Holdings Co., Ltd.",
+      "url": "https://www.screen.co.jp/spe/en/company/network/domestic",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:screen-fy2025-results",
+      "title": "SCREEN Holdings consolidated financial results for fiscal year ended March 31, 2026 (May 13, 2026)",
+      "publisher": "SCREEN Holdings Co., Ltd.",
+      "url": "https://www.screen.co.jp/download_file/44983d87-943e-41a2-a30c-0d0df1f58fc4/1169",
+      "doc_type": "investor_presentation",
+      "tier": 2,
+      "document_date": "2026-05-13",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:advantest-web-japan-offices",
+      "title": "Advantest Offices / Subsidiaries: Japan",
+      "publisher": "Advantest Corporation",
+      "url": "https://www.advantest.com/en/about/offices/japan-offices/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:kla-pr-ann-arbor-2021",
+      "title": "KLA Announces Grand Opening of $200 Million Second Headquarters in Ann Arbor, Michigan",
+      "publisher": "KLA Corporation",
+      "url": "https://ir.kla.com/news-events/press-releases/detail/415/kla-announces-grand-opening-of-200-million-second",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-11-05",
+      "accessed": "2026-09-27"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:asml",
+      "name": "ASML Holding N.V.",
+      "country": "NL",
+      "hq": {
+        "lat": 51.4076,
+        "lon": 5.4122,
+        "precision": "site",
+        "address": "De Run 6501, 5504 DR Veldhoven, The Netherlands"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "De Run 6501, 5504 DR Veldhoven, The Netherlands (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Strategic report, EUV product description",
+          "supports": "sole EUV supplier"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Customers in China represented 29.1% of our 2025 total net sales and 36.1% of our 2024 net sales.",
+          "locator": "Risk factors, geopolitical / export control risk",
+          "supports": "china_revenue_share"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "In 2025, four customers each individually exceeded 10% of total net sales, totaling €20.0 billion, or 61.2%, of total net sales.",
+          "locator": "Notes to consolidated financial statements, segment/customer information",
+          "supports": "customer concentration (customers not named)"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "In early April 2025, we shipped our first TWINSCAN EXE:5200B system – the successor to the TWINSCAN EXE:5000",
+          "locator": "Strategic report, TWINSCAN EXE platform (High NA)",
+          "supports": "High-NA EUV products"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ASML",
+        "EURONEXT:ASML"
+      ],
+      "sec_cik": "0000937966"
+    },
+    {
+      "id": "co:zeiss",
+      "name": "Carl Zeiss SMT GmbH (Carl Zeiss AG group)",
+      "country": "DE",
+      "hq": {
+        "lat": 48.7833,
+        "lon": 10.1,
+        "precision": "city",
+        "address": "Oberkochen, Germany"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany.",
+          "locator": "Note 26 Related parties and variable interest entities",
+          "supports": "existence, relationship, location"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "We have a 24.9% interest in Carl Zeiss SMT Holding GmbH & Co. KG (ultimate parent is Carl Zeiss AG), which owns 100% of the shares in Carl Zeiss SMT GmbH.",
+          "locator": "Note 26 Related parties and variable interest entities",
+          "supports": "ownership"
+        }
+      ]
+    },
+    {
+      "id": "co:applied-materials",
+      "name": "Applied Materials, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3772,
+        "lon": -121.979,
+        "precision": "site",
+        "address": "3050 Bowers Avenue, Santa Clara, California 95052"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2025",
+          "quote": "3050 Bowers Avenue, P.O. Box 58039, Santa Clara, California 95052-8039 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:amat-10k-fy2025",
+          "quote": "China $ 8,529 30% $ 10,117 37%",
+          "locator": "Item 7 MD&A, net revenue by geographic region table (FY2025 vs FY2024)",
+          "supports": "china_revenue_share"
+        },
+        {
+          "source": "src:amat-10k-fy2025",
+          "quote": "During fiscal 2025, two customers accounted for approximately 19% and 15%, respectively, of our net revenue.",
+          "locator": "Item 7 MD&A, Semiconductor Systems segment",
+          "supports": "customer concentration (FY2025 customers not named)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMAT"
+      ],
+      "sec_cik": "0000006951"
+    },
+    {
+      "id": "co:lam-research",
+      "name": "Lam Research Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.4903,
+        "lon": -121.946,
+        "precision": "site",
+        "address": "4650 Cushing Parkway, Fremont, California 94538"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "4650 Cushing Parkway, Fremont, California 94538 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Revenue in China, which includes global customers and domestic Chinese customers with manufacturing facilities in China, represented approximately 34%, 34%, and 42% of our total revenue for fiscal years 2026, 2025, and 2024, respectively.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "china_revenue_share"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "In fiscal year 2026, four customers accounted for approximately 16%, 15%, 12%, and 12% of total revenues, respectively.",
+          "locator": "Note 19: Segment, Geographic Information, and Major Customers",
+          "supports": "customer concentration"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:LRCX"
+      ],
+      "sec_cik": "0000707549"
+    },
+    {
+      "id": "co:kla",
+      "name": "KLA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.4163,
+        "lon": -121.914,
+        "precision": "site",
+        "address": "One Technology Drive, Milpitas, California 95035"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "One Technology Drive, Milpitas, California 95035 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "Our revenue from sales of products and provision of services to customers in China was 30%, 33% and 43% for fiscal years 2026, 2025 and",
+          "locator": "Item 1A Risk Factors (sentence continues '2024, respectively' after a page break)",
+          "supports": "china_revenue_share"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:KLAC"
+      ],
+      "sec_cik": "0000319201"
+    },
+    {
+      "id": "co:teradyne",
+      "name": "Teradyne, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 42.5745,
+        "lon": -71.0783,
+        "precision": "site",
+        "address": "600 Riverpark Drive, North Reading, Massachusetts 01864"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:teradyne-10k-2025",
+          "quote": "We own our corporate headquarters in North Reading, Massachusetts, which is approximately 422,000 square feet.",
+          "locator": "Item 2: Properties",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:teradyne-10k-2025",
+          "quote": "China 451,294 375,186 314,899",
+          "locator": "Note V, revenues by country table (2025, 2024, 2023, in thousands)",
+          "supports": "china_revenue_share"
+        },
+        {
+          "source": "src:teradyne-10k-2025",
+          "quote": "In each of the years, 2025, 2024 and 2023, our five largest direct customers in aggregate accounted for 44%, 36%, and 32% of our consolidated revenues, respectively.",
+          "locator": "Item 1 Business, Sales and Distribution",
+          "supports": "customer concentration (customers not named)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:TER"
+      ],
+      "sec_cik": "0000097210"
+    },
+    {
+      "id": "co:tokyo-electron",
+      "name": "Tokyo Electron Limited",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6716,
+        "lon": 139.7367,
+        "precision": "site",
+        "address": "Akasaka Biz Tower, 3-1 Akasaka 5-chome, Minato-ku, Tokyo 107-6325, Japan"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "Akasaka Biz Tower 3-1 Akasaka 5-chome, Minato-ku, Tokyo 107-6325, Japan",
+          "locator": "Corporate information",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:tel-fy2026-q4-presentation",
+          "quote": "China 259.1 277.0 233.9 279.4 224.6 212.1 254.1 175.5 190.7",
+          "locator": "Page 5, quarterly sales by region (billion yen), FY2024 Q4 to FY2026 Q4",
+          "supports": "china_revenue (quarterly, billion yen)"
+        }
+      ],
+      "tickers": [
+        "TSE:8035"
+      ]
+    },
+    {
+      "id": "co:ichor",
+      "name": "Ichor Holdings, Ltd.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4987,
+        "lon": -121.9695,
+        "precision": "site",
+        "address": "3185 Laurelview Ct., Fremont, California 94538"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "Our principal executive offices are located at 3185 Laurelview Ct., Fremont, California 94538.",
+          "locator": "Item 2. Properties",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "We are a leader in the design, engineering and manufacturing of critical fluid delivery subsystems and components primarily for semiconductor capital equipment, as well as other industries such as defense/aerospace and medical.",
+          "locator": "Item 1 Business, Company Overview",
+          "supports": "role"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ICHR"
+      ],
+      "sec_cik": "0001652535"
+    },
+    {
+      "id": "co:ultra-clean",
+      "name": "Ultra Clean Holdings, Inc. (UCT)",
+      "country": "US",
+      "hq": {
+        "lat": 37.6337,
+        "lon": -122.1003,
+        "precision": "site",
+        "address": "26462 Corporate Avenue, Hayward, California 94545"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:uct-10k-2025",
+          "quote": "26462 Corporate Avenue Hayward, California 94545 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:uct-10k-2025",
+          "quote": "We are a leading developer and supplier of critical subsystems, parts, components and ultra-high purity cleaning and analytical services primarily for the semiconductor industry.",
+          "locator": "Item 1 Business",
+          "supports": "role"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:UCTT"
+      ],
+      "sec_cik": "0001275014"
+    },
+    {
+      "id": "co:formfactor",
+      "name": "FormFactor, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.6963,
+        "lon": -121.725,
+        "precision": "site",
+        "address": "7005 Southfront Road, Livermore, California 94551"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:formfactor-10k-2025",
+          "quote": "7005 Southfront Road, Livermore, California 94551 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "hq location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:FORM"
+      ],
+      "sec_cik": "0001039399"
+    },
+    {
+      "id": "co:tsmc",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country": "TW",
+      "hq": {
+        "lat": 24.7736,
+        "lon": 121.0106,
+        "precision": "city",
+        "address": "Hsinchu Science Park, Hsinchu, Taiwan"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "For the fiscal years ended June 30, 2026, 2025 and 2024, the following customers each accounted for more than 10% of total revenues, primarily in the Semiconductor Process Control segment:",
+          "locator": "Item 1 Business (customer table follows, listing Taiwan Semiconductor Manufacturing Company Limited for each year)",
+          "supports": "existence as KLA customer"
+        }
+      ],
+      "tickers": [
+        "NYSE:TSM",
+        "TWSE:2330"
+      ]
+    },
+    {
+      "id": "co:samsung",
+      "name": "Samsung Electronics Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2636,
+        "lon": 127.0286,
+        "precision": "city",
+        "address": "Suwon, Gyeonggi-do, South Korea"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2024",
+          "quote": "Samsung Electronics Co., Ltd. 12% 15%",
+          "locator": "Item 1 Business, customers accounting for at least 10 percent of net revenue (FY2024, FY2023)",
+          "supports": "existence as AMAT customer"
+        }
+      ],
+      "tickers": [
+        "KRX:005930"
+      ]
+    },
+    {
+      "id": "co:micron",
+      "name": "Micron Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 43.578,
+        "lon": -116.214,
+        "precision": "city",
+        "address": "Boise, Idaho"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "existence as Lam customer"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MU"
+      ]
+    },
+    {
+      "id": "co:sk-hynix",
+      "name": "SK hynix Inc.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.272,
+        "lon": 127.435,
+        "precision": "city",
+        "address": "Icheon, Gyeonggi-do, South Korea"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:formfactor-10k-2025",
+          "quote": "SK hynix Inc. 22.9 % 18.9 % *",
+          "locator": "Notes to consolidated financial statements, concentration of credit risk (customers ≥10% of revenues, FY2025, FY2024, FY2023)",
+          "supports": "existence as FormFactor customer"
+        }
+      ],
+      "tickers": [
+        "KRX:000660"
+      ]
+    },
+    {
+      "id": "co:intel",
+      "name": "Intel Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3875,
+        "lon": -121.9637,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:formfactor-10k-2025",
+          "quote": "Intel Corporation * 14.6 % 17.1 %",
+          "locator": "Notes to consolidated financial statements, concentration of credit risk (customers ≥10% of revenues, FY2025, FY2024, FY2023)",
+          "supports": "existence as FormFactor customer"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ]
+    },
+    {
+      "id": "co:trumpf",
+      "name": "TRUMPF SE + Co. KG",
+      "country": "DE",
+      "hq": {
+        "lat": 48.826,
+        "lon": 9.067,
+        "precision": "city",
+        "address": "Ditzingen, Germany"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:trumpf-web-euv-drive-laser",
+          "quote": "The TRUMPF Laser Amplifier sequentially amplifies a laser pulse by more than 10,000 times.",
+          "locator": "EUV drive laser page",
+          "supports": "role"
+        },
+        {
+          "source": "src:trumpf-story-ray-of-hope",
+          "quote": "TRUMPF has now established a separate business unit in Ditzingen with over 500 employees specifically dedicated to developing and producing the EUV laser.",
+          "locator": "Newsroom story",
+          "supports": "EUV unit location"
+        }
+      ]
+    },
+    {
+      "id": "co:screen",
+      "name": "SCREEN Holdings Co., Ltd.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.029,
+        "lon": 135.751,
+        "precision": "site",
+        "address": "Tenjinkita-machi 1-1, Teranouchi-agaru 4-chome, Horikawa-dori, Kamigyo-ku, Kyoto 602-8585"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:screen-spe-web-japan-network",
+          "quote": "Tenjinkita-machi 1-1, Teranouchi-agaru 4-chome, Horikawa-dori, Kamigyo-ku, Kyoto 602-8585",
+          "locator": "Global Network: Japan, Head Office",
+          "supports": "hq location"
+        },
+        {
+          "source": "src:screen-fy2025-results",
+          "quote": "By region, sales to China and U.S. declined, although sales to Taiwan increased.",
+          "locator": "Performance by reportable segment, SPE",
+          "supports": "china revenue trend (no % disclosed in this document)"
+        }
+      ],
+      "tickers": [
+        "TSE:7735"
+      ]
+    },
+    {
+      "id": "co:advantest",
+      "name": "Advantest Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6823,
+        "lon": 139.766,
+        "precision": "site",
+        "address": "Shin Marunouchi Center Bldg., 1-6-2, Marunouchi, Chiyoda-ku, Tokyo 100-0005"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:advantest-web-japan-offices",
+          "quote": "Shin Marunouchi Center Bldg., 1-6-2, Marunouchi, Chiyoda-ku, Tokyo 100-0005",
+          "locator": "Japan offices, Head Office",
+          "supports": "hq location"
+        }
+      ],
+      "tickers": [
+        "TSE:6857"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:asml-veldhoven",
+      "name": "ASML Veldhoven headquarters, R&D and system manufacturing",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "euv_scanner_assembly",
+      "location": {
+        "lat": 51.4076,
+        "lon": 5.4122,
+        "precision": "site",
+        "address": "De Run 6501, 5504 DR Veldhoven, The Netherlands"
+      },
+      "country": "NL",
+      "status": "operational",
+      "products": [
+        "EUV lithography systems (NXE, EXE)",
+        "DUV lithography systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-web-veldhoven",
+          "quote": "Our global headquarters is our biggest R&D and manufacturing site.",
+          "locator": "ASML Veldhoven location page",
+          "supports": "existence, role"
+        },
+        {
+          "source": "src:asml-web-veldhoven",
+          "quote": "Our Manufacturing and Planning (M&P) department assembles, builds and delivers all our systems from the prototype stage onwards.",
+          "locator": "ASML Veldhoven location page, Manufacturing",
+          "supports": "products"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "De Run 6501, 5504 DR Veldhoven, The Netherlands (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "location"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "All of our manufacturing activities, including subassembly, final assembly and system testing, take place in (cleanroom) facilities in Veldhoven, Eindhoven, Oirschot (the Netherlands), Berlin (Germany), Wilton, San Diego (US), Pyeongtaek (South Korea) and Linkou and Tainan (Taiwan).",
+          "locator": "Risk factors, manufacturing concentration",
+          "supports": "existence as manufacturing site"
+        }
+      ]
+    },
+    {
+      "id": "fac:asml-wilton",
+      "name": "ASML Wilton (reticle stages, reticle handlers, optics)",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "lithography_subsystem_manufacturing",
+      "location": {
+        "lat": 41.2152,
+        "lon": -73.4265,
+        "precision": "site",
+        "address": "77 Danbury Road, Wilton, Connecticut"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "reticle stages",
+        "reticle handlers",
+        "optical sensors and optics"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-web-wilton",
+          "quote": "In Wilton, we design, test and assemble two crucial modules of our lithography systems: the reticle handler and the reticle stage.",
+          "locator": "ASML Wilton location page",
+          "supports": "products"
+        },
+        {
+          "source": "src:asml-web-wilton",
+          "quote": "It’s also our only in-house optical fabrication site.",
+          "locator": "ASML Wilton location page",
+          "supports": "role"
+        },
+        {
+          "source": "src:asml-web-wilton",
+          "quote": "77 Danbury Road",
+          "locator": "ASML Wilton location page, address block",
+          "supports": "location"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "All of our manufacturing activities, including subassembly, final assembly and system testing, take place in (cleanroom) facilities in Veldhoven, Eindhoven, Oirschot (the Netherlands), Berlin (Germany), Wilton, San Diego (US), Pyeongtaek (South Korea) and Linkou and Tainan (Taiwan).",
+          "locator": "Risk factors, manufacturing concentration",
+          "supports": "existence as manufacturing site"
+        }
+      ]
+    },
+    {
+      "id": "fac:asml-san-diego",
+      "name": "ASML San Diego / Cymer (DUV and EUV light sources)",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "lithography_light_source_manufacturing",
+      "location": {
+        "lat": 33.018,
+        "lon": -117.083,
+        "precision": "site",
+        "address": "17075 Thornmint Court, San Diego, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "EUV laser-produced-plasma light sources",
+        "EUV droplet generators",
+        "DUV excimer laser light sources (Cymer)"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-web-san-diego",
+          "quote": "In San Diego, ASML focuses on the R&D and manufacturing of deep ultraviolet (DUV) and extreme ultraviolet (EUV) light sources for lithography systems, which are used to make microchips.",
+          "locator": "ASML San Diego location page",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:asml-web-san-diego",
+          "quote": "The team at ASML San Diego designs, develops and qualifies the EUV (extreme ultraviolet) laser-produced plasma light source, and manufactures a critical system component called the droplet generator.",
+          "locator": "ASML San Diego location page",
+          "supports": "products"
+        },
+        {
+          "source": "src:asml-web-san-diego",
+          "quote": "17075 Thornmint Court",
+          "locator": "ASML San Diego location page, address block",
+          "supports": "location"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Patrick O’Keeffe: Together, we set out to show the Technology Committee what we do in San Diego, the lithography light source center of excellence for ASML and how it all came about.",
+          "locator": "Supervisory Board committees, Spotlight: Visit to San Diego",
+          "supports": "role"
+        }
+      ]
+    },
+    {
+      "id": "fac:asml-berlin",
+      "name": "ASML Berlin (wafer tables, clamps, reticle chucks, mirror blocks)",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "lithography_subsystem_manufacturing",
+      "location": {
+        "lat": 52.443,
+        "lon": 13.433,
+        "precision": "city",
+        "address": "Britz, Neukölln, Berlin, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "wafer tables",
+        "wafer clamps",
+        "reticle chucks",
+        "mirror blocks"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-web-berlin",
+          "quote": "Our Berlin factory manufactures lithography components including wafer clamps, wafer tables, reticle chucks and mirror blocks.",
+          "locator": "ASML Berlin location page",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:asml-web-berlin",
+          "quote": "ASML is located to the south of the city in Britz, part of the Neukölln district.",
+          "locator": "ASML Berlin location page",
+          "supports": "location (district)"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "All of our manufacturing activities, including subassembly, final assembly and system testing, take place in (cleanroom) facilities in Veldhoven, Eindhoven, Oirschot (the Netherlands), Berlin (Germany), Wilton, San Diego (US), Pyeongtaek (South Korea) and Linkou and Tainan (Taiwan).",
+          "locator": "Risk factors, manufacturing concentration",
+          "supports": "existence as manufacturing site"
+        }
+      ]
+    },
+    {
+      "id": "fac:asml-oirschot",
+      "name": "ASML Oirschot",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "lithography_subsystem_manufacturing",
+      "location": {
+        "lat": 51.504,
+        "lon": 5.313,
+        "precision": "city",
+        "address": "Oirschot, the Netherlands"
+      },
+      "country": "NL",
+      "status": "operational",
+      "products": [
+        "lithography subassemblies (not itemized in source)"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "All of our manufacturing activities, including subassembly, final assembly and system testing, take place in (cleanroom) facilities in Veldhoven, Eindhoven, Oirschot (the Netherlands), Berlin (Germany), Wilton, San Diego (US), Pyeongtaek (South Korea) and Linkou and Tainan (Taiwan).",
+          "locator": "Risk factors, manufacturing concentration",
+          "supports": "existence, location (city)"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "For our own operations we included our largest manufacturing sites located in Linkou and Tainan (Taiwan), Pyeongtaek (South Korea), Berlin (Germany), San Diego and Wilton (US) and Veldhoven (including our location in Oirschot) in the Netherlands.",
+          "locator": "Sustainability statement, climate risk scope",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "fac:asml-linkou",
+      "name": "ASML Linkou (Taiwan)",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "lithography_subsystem_manufacturing",
+      "location": {
+        "lat": 25.07,
+        "lon": 121.365,
+        "precision": "city",
+        "address": "Linkou, New Taipei City, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "manufacturing and repair (activities not itemized in source)"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "All of our manufacturing activities, including subassembly, final assembly and system testing, take place in (cleanroom) facilities in Veldhoven, Eindhoven, Oirschot (the Netherlands), Berlin (Germany), Wilton, San Diego (US), Pyeongtaek (South Korea) and Linkou and Tainan (Taiwan).",
+          "locator": "Risk factors, manufacturing concentration",
+          "supports": "existence, location (city)"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Localized repair centers Currently, we have repair centers in South Korea (Hwaseong), Taiwan (Linkou), China (Beijing), the US (Wilton; San Diego; Vancouver, WA) and the Netherlands (Veldhoven).",
+          "locator": "Sustainability statement, resource use",
+          "supports": "repair center"
+        }
+      ]
+    },
+    {
+      "id": "fac:asml-tainan",
+      "name": "ASML Tainan (Taiwan)",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "lithography_subsystem_manufacturing",
+      "location": {
+        "lat": 23.0,
+        "lon": 120.227,
+        "precision": "city",
+        "address": "Tainan, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "manufacturing (activities not itemized in source)"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "All of our manufacturing activities, including subassembly, final assembly and system testing, take place in (cleanroom) facilities in Veldhoven, Eindhoven, Oirschot (the Netherlands), Berlin (Germany), Wilton, San Diego (US), Pyeongtaek (South Korea) and Linkou and Tainan (Taiwan).",
+          "locator": "Risk factors, manufacturing concentration",
+          "supports": "existence, location (city)"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "•Tainan (Taiwan): We focused on waste chemical liquid recycling at our Tainan factory and chemical bottle recycling at our Linkou factory.",
+          "locator": "Sustainability statement, waste",
+          "supports": "existence as factory"
+        }
+      ]
+    },
+    {
+      "id": "fac:asml-pyeongtaek",
+      "name": "ASML Pyeongtaek (South Korea)",
+      "operator": "co:asml",
+      "layer": "equipment",
+      "kind": "lithography_subsystem_manufacturing",
+      "location": {
+        "lat": 36.992,
+        "lon": 127.112,
+        "precision": "city",
+        "address": "Pyeongtaek, South Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "manufacturing (activities not itemized in source)"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "All of our manufacturing activities, including subassembly, final assembly and system testing, take place in (cleanroom) facilities in Veldhoven, Eindhoven, Oirschot (the Netherlands), Berlin (Germany), Wilton, San Diego (US), Pyeongtaek (South Korea) and Linkou and Tainan (Taiwan).",
+          "locator": "Risk factors, manufacturing concentration",
+          "supports": "existence, location (city)"
+        }
+      ]
+    },
+    {
+      "id": "fac:zeiss-oberkochen",
+      "name": "Carl Zeiss SMT Oberkochen (lithography optics)",
+      "operator": "co:zeiss",
+      "layer": "equipment",
+      "kind": "lithography_optics_manufacturing",
+      "location": {
+        "lat": 48.7833,
+        "lon": 10.1,
+        "precision": "city",
+        "address": "Oberkochen, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "optical columns (projection optics)",
+        "illuminators",
+        "EUV collectors and mirrors"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany.",
+          "locator": "Note 26 Related parties and variable interest entities",
+          "supports": "existence, location, products"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "The number of lithography systems we are able to produce is limited by the production capacity of one of our key suppliers, Carl Zeiss SMT, our sole supplier of lenses, mirrors, illuminators, collectors and other critical optical components (which we refer to as optics). We have an exclusive arrangement with Carl Zeiss SMT.",
+          "locator": "Risk factors, supply chain",
+          "supports": "products, sole-supplier status"
+        }
+      ]
+    },
+    {
+      "id": "fac:zeiss-wetzlar",
+      "name": "Carl Zeiss SMT Wetzlar (lithography optics)",
+      "operator": "co:zeiss",
+      "layer": "equipment",
+      "kind": "lithography_optics_manufacturing",
+      "location": {
+        "lat": 50.558,
+        "lon": 8.504,
+        "precision": "city",
+        "address": "Wetzlar, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "optical columns / optical components for lithography systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany.",
+          "locator": "Note 26 Related parties and variable interest entities",
+          "supports": "existence, location, products"
+        }
+      ]
+    },
+    {
+      "id": "fac:applied-materials-santa-clara",
+      "name": "Applied Materials Santa Clara headquarters",
+      "operator": "co:applied-materials",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_hq_rd",
+      "location": {
+        "lat": 37.3772,
+        "lon": -121.979,
+        "precision": "site",
+        "address": "3050 Bowers Avenue, Santa Clara, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "corporate HQ and R&D for deposition, etch, CMP, implant, inspection equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2025",
+          "quote": "Our headquarters are in Santa Clara, California.",
+          "locator": "Item 2: Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amat-10k-fy2025",
+          "quote": "3050 Bowers Avenue, P.O. Box 58039, Santa Clara, California 95052-8039 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:applied-materials-austin",
+      "name": "Applied Materials Austin manufacturing",
+      "operator": "co:applied-materials",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "precision": "city",
+        "address": "Austin, Texas"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Semiconductor Systems products",
+        "remanufactured equipment (Applied Global Services)"
+      ],
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2023",
+          "quote": "Products in Semiconductor Systems are manufactured primarily in Singapore; Austin, Texas; Gloucester, Massachusetts; and Rehovot, Israel. Remanufactured equipment products in the Applied Global Services segment are produced primarily in Austin, Texas.",
+          "locator": "Item 2: Properties (FY2023 10-K; later 10-Ks list countries only)",
+          "supports": "existence, location, products"
+        }
+      ]
+    },
+    {
+      "id": "fac:applied-materials-gloucester",
+      "name": "Applied Materials Gloucester (Varian Semiconductor, ion implant)",
+      "operator": "co:applied-materials",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 42.6159,
+        "lon": -70.662,
+        "precision": "city",
+        "address": "Gloucester, Massachusetts"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Semiconductor Systems products"
+      ],
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2023",
+          "quote": "Products in Semiconductor Systems are manufactured primarily in Singapore; Austin, Texas; Gloucester, Massachusetts; and Rehovot, Israel.",
+          "locator": "Item 2: Properties (FY2023 10-K)",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:applied-materials-singapore",
+      "name": "Applied Materials Singapore manufacturing",
+      "operator": "co:applied-materials",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "precision": "country",
+        "address": "Singapore"
+      },
+      "country": "SG",
+      "status": "operational",
+      "products": [
+        "Semiconductor Systems products"
+      ],
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2023",
+          "quote": "Products in Semiconductor Systems are manufactured primarily in Singapore; Austin, Texas; Gloucester, Massachusetts; and Rehovot, Israel.",
+          "locator": "Item 2: Properties (FY2023 10-K)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amat-10k-fy2025",
+          "quote": "Our products are manufactured primarily in the United States, Singapore, Taiwan and Israel.",
+          "locator": "Item 2: Properties (FY2025 10-K)",
+          "supports": "current status"
+        }
+      ]
+    },
+    {
+      "id": "fac:applied-materials-rehovot",
+      "name": "Applied Materials Rehovot (process diagnostics and control)",
+      "operator": "co:applied-materials",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 31.8928,
+        "lon": 34.8113,
+        "precision": "city",
+        "address": "Rehovot, Israel"
+      },
+      "country": "IL",
+      "status": "operational",
+      "products": [
+        "Semiconductor Systems products"
+      ],
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2023",
+          "quote": "Products in Semiconductor Systems are manufactured primarily in Singapore; Austin, Texas; Gloucester, Massachusetts; and Rehovot, Israel.",
+          "locator": "Item 2: Properties (FY2023 10-K)",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:lam-research-fremont",
+      "name": "Lam Research Fremont headquarters and operations",
+      "operator": "co:lam-research",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_hq_rd",
+      "location": {
+        "lat": 37.4903,
+        "lon": -121.946,
+        "precision": "site",
+        "address": "4650 Cushing Parkway, Fremont, California 94538"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "etch and deposition equipment (HQ, R&D, operations)"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our executive offices and principal operating and R&D facilities are located in Fremont and Livermore, California; Tualatin, Oregon; Yongin, Gyeonggi Province, Korea; Bengaluru, India; Salzburg, Austria; and Villach, Austria.",
+          "locator": "Item 2. Properties",
+          "supports": "existence"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "4650 Cushing Parkway, Fremont, California 94538 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:lam-research-livermore",
+      "name": "Lam Research Livermore",
+      "operator": "co:lam-research",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 37.6819,
+        "lon": -121.768,
+        "precision": "city",
+        "address": "Livermore, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "etch and deposition equipment operations"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "The Company owns the majority of the Fremont, Livermore, and Tualatin facilities, as well as the manufacturing facilities in Sherwood, Oregon; Ohio; and Malaysia.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:lam-research-tualatin",
+      "name": "Lam Research Tualatin",
+      "operator": "co:lam-research",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 45.384,
+        "lon": -122.764,
+        "precision": "city",
+        "address": "Tualatin, Oregon"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "deposition equipment operations and R&D"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our executive offices and principal operating and R&D facilities are located in Fremont and Livermore, California; Tualatin, Oregon; Yongin, Gyeonggi Province, Korea; Bengaluru, India; Salzburg, Austria; and Villach, Austria.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:lam-research-sherwood",
+      "name": "Lam Research Sherwood manufacturing",
+      "operator": "co:lam-research",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 45.3565,
+        "lon": -122.8401,
+        "precision": "city",
+        "address": "Sherwood, Oregon"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "semiconductor equipment manufacturing"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "The Company owns the majority of the Fremont, Livermore, and Tualatin facilities, as well as the manufacturing facilities in Sherwood, Oregon; Ohio; and Malaysia.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:lam-research-batu-kawan",
+      "name": "Lam Research Batu Kawan, Penang manufacturing",
+      "operator": "co:lam-research",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 5.24,
+        "lon": 100.44,
+        "precision": "city",
+        "address": "Batu Kawan, Penang, Malaysia"
+      },
+      "country": "MY",
+      "status": "operational",
+      "products": [
+        "wafer fabrication equipment (full portfolio)"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-web-malaysia",
+          "quote": "This state-of-the-art new manufacturing site in Penang’s Batu Kawan was opened in August 2021 and is the largest in our network.",
+          "locator": "Lam Manufacturing Malaysia page",
+          "supports": "existence, location, start"
+        },
+        {
+          "source": "src:lam-web-malaysia",
+          "quote": "Lam Research International will work on the entire portfolio of our leading-edge products",
+          "locator": "Lam Manufacturing Malaysia page",
+          "supports": "products"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "The Company owns the majority of the Fremont, Livermore, and Tualatin facilities, as well as the manufacturing facilities in Sherwood, Oregon; Ohio; and Malaysia.",
+          "locator": "Item 2. Properties",
+          "supports": "existence (owned)"
+        }
+      ],
+      "start_year": 2021
+    },
+    {
+      "id": "fac:lam-research-villach",
+      "name": "Lam Research Villach (wet clean)",
+      "operator": "co:lam-research",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_hq_rd",
+      "location": {
+        "lat": 46.6103,
+        "lon": 13.8558,
+        "precision": "city",
+        "address": "Villach, Austria"
+      },
+      "country": "AT",
+      "status": "operational",
+      "products": [
+        "operations and R&D (products not itemized in source)"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our Villach, Austria facility is leased; the lease includes an option to renew the lease or purchase the facilities.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:lam-research-yongin",
+      "name": "Lam Research Korea (Yongin)",
+      "operator": "co:lam-research",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_hq_rd",
+      "location": {
+        "lat": 37.2411,
+        "lon": 127.1776,
+        "precision": "city",
+        "address": "Yongin, Gyeonggi Province, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "operations and R&D"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our executive offices and principal operating and R&D facilities are located in Fremont and Livermore, California; Tualatin, Oregon; Yongin, Gyeonggi Province, Korea; Bengaluru, India; Salzburg, Austria; and Villach, Austria.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:kla-milpitas",
+      "name": "KLA Milpitas headquarters",
+      "operator": "co:kla",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_hq_rd",
+      "location": {
+        "lat": 37.4163,
+        "lon": -121.914,
+        "precision": "site",
+        "address": "One Technology Drive, Milpitas, California 95035"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "process control / inspection and metrology (HQ, R&D, manufacturing)"
+      ],
+      "evidence": [
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "Our headquarters are located in Milpitas, California.",
+          "locator": "Item 2. Properties",
+          "supports": "existence"
+        },
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "One Technology Drive, Milpitas, California 95035 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tokyo-electron-kyushu",
+      "name": "Tokyo Electron Kyushu (Koshi, Kumamoto)",
+      "operator": "co:tokyo-electron",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 32.885,
+        "lon": 130.79,
+        "precision": "city",
+        "address": "Koshi City, Kumamoto Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "coater/developers",
+        "cleaning systems",
+        "3D packaging systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:tel-web-locations",
+          "quote": "Tokyo Electron Kyushu Ltd. Development and manufacture of coater/developers, cleaning systems, and 3D packaging systems",
+          "locator": "Group company list",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "This was primarily due to the completion of development buildings in Koshi City, Kumamoto Prefecture and Taiwa Town, Miyagi Prefecture and a production and logistics center in Oshu City, Iwate Prefecture.",
+          "locator": "Financial review, non-current assets",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tokyo-electron-miyagi",
+      "name": "Tokyo Electron Miyagi (Taiwa, Miyagi)",
+      "operator": "co:tokyo-electron",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 38.437,
+        "lon": 140.887,
+        "precision": "city",
+        "address": "Taiwa Town, Miyagi Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "plasma etch systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:tel-web-locations",
+          "quote": "Tokyo Electron Miyagi Ltd. Development and manufacturing of plasma etch system",
+          "locator": "Group company list",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "This was primarily due to the completion of development buildings in Koshi City, Kumamoto Prefecture and Taiwa Town, Miyagi Prefecture and a production and logistics center in Oshu City, Iwate Prefecture.",
+          "locator": "Financial review, non-current assets",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tokyo-electron-oshu",
+      "name": "Tokyo Electron Technology Solutions, Tohoku Production and Logistics Center (Oshu, Iwate)",
+      "operator": "co:tokyo-electron",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 39.1444,
+        "lon": 141.1392,
+        "precision": "city",
+        "address": "Oshu City, Iwate Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "thermal processing systems",
+        "single wafer deposition systems",
+        "gas chemical etch systems",
+        "test systems (wafer probers)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "construction of the Tohoku Production and Logistics Center at Tokyo Electron Technology Solutions.",
+          "locator": "CEO/CFO message on growth investment",
+          "supports": "existence"
+        },
+        {
+          "source": "src:tel-web-locations",
+          "quote": "Tokyo Electron Technology Solutions Ltd. Development and manufacturing of thermal processing system, single wafer deposition system, gas chemical etch system, test system and plasma etch/ash system",
+          "locator": "Group company list",
+          "supports": "products (company level)"
+        },
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "This was primarily due to the completion of development buildings in Koshi City, Kumamoto Prefecture and Taiwa Town, Miyagi Prefecture and a production and logistics center in Oshu City, Iwate Prefecture.",
+          "locator": "Financial review, non-current assets",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:teradyne-cebu",
+      "name": "Teradyne Cebu (Semiconductor Test production)",
+      "operator": "co:teradyne",
+      "layer": "equipment",
+      "kind": "semiconductor_test_equipment_manufacturing",
+      "location": {
+        "lat": 10.3157,
+        "lon": 123.8854,
+        "precision": "city",
+        "address": "Cebu, Philippines"
+      },
+      "country": "PH",
+      "status": "operational",
+      "products": [
+        "semiconductor test systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:teradyne-10k-2025",
+          "quote": "In 2025, we completed the purchase of an approximately 290,000 square foot building in Cebu, Philippines for Semiconductor Test production",
+          "locator": "Item 2: Properties",
+          "supports": "existence, location, products"
+        }
+      ]
+    },
+    {
+      "id": "fac:teradyne-north-reading",
+      "name": "Teradyne North Reading headquarters",
+      "operator": "co:teradyne",
+      "layer": "equipment",
+      "kind": "semiconductor_test_equipment_hq",
+      "location": {
+        "lat": 42.5745,
+        "lon": -71.0783,
+        "precision": "site",
+        "address": "600 Riverpark Drive, North Reading, Massachusetts 01864"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "semiconductor test systems (HQ, engineering)"
+      ],
+      "evidence": [
+        {
+          "source": "src:teradyne-10k-2025",
+          "quote": "We own our corporate headquarters in North Reading, Massachusetts, which is approximately 422,000 square feet.",
+          "locator": "Item 2: Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:formfactor-livermore",
+      "name": "FormFactor Livermore headquarters",
+      "operator": "co:formfactor",
+      "layer": "equipment",
+      "kind": "probe_card_manufacturing",
+      "location": {
+        "lat": 37.6963,
+        "lon": -121.725,
+        "precision": "site",
+        "address": "7005 Southfront Road, Livermore, California 94551"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "probe cards",
+        "probe stations"
+      ],
+      "evidence": [
+        {
+          "source": "src:formfactor-10k-2025",
+          "quote": "7005 Southfront Road, Livermore, California 94551 (Address of principal executive offices)",
+          "locator": "Cover page",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:trumpf-ditzingen",
+      "name": "TRUMPF Ditzingen EUV laser business unit",
+      "operator": "co:trumpf",
+      "layer": "equipment",
+      "kind": "euv_drive_laser_manufacturing",
+      "location": {
+        "lat": 48.826,
+        "lon": 9.067,
+        "precision": "city",
+        "address": "Ditzingen, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "TRUMPF Laser Amplifier (pulsed CO2 drive laser for EUV sources)"
+      ],
+      "evidence": [
+        {
+          "source": "src:trumpf-story-ray-of-hope",
+          "quote": "TRUMPF has now established a separate business unit in Ditzingen with over 500 employees specifically dedicated to developing and producing the EUV laser.",
+          "locator": "Newsroom story",
+          "supports": "existence, location, products"
+        },
+        {
+          "source": "src:trumpf-web-euv-drive-laser",
+          "quote": "The TRUMPF Laser Amplifier sequentially amplifies a laser pulse by more than 10,000 times.",
+          "locator": "EUV drive laser page",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:screen-hikone",
+      "name": "SCREEN Hikone Plant (Process Technology Center, S3 factories)",
+      "operator": "co:screen",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 35.2385,
+        "lon": 136.2375,
+        "precision": "site",
+        "address": "Takamiya-cho 480-1, Hikone, Shiga 522-0292"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "wafer cleaning systems",
+        "coat/develop tracks (SPE portfolio; plant-level mix not itemized)"
+      ],
+      "evidence": [
+        {
+          "source": "src:screen-spe-web-japan-network",
+          "quote": "(Hikone Plant) Takamiya-cho 480-1, Hikone, Shiga 522-0292",
+          "locator": "Global Network: Japan, Branch Sites",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:screen-taga",
+      "name": "SCREEN Taga Plant",
+      "operator": "co:screen",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_manufacturing",
+      "location": {
+        "lat": 35.221,
+        "lon": 136.29,
+        "precision": "site",
+        "address": "Suwa 976-5, Shide, Taga-cho, Inugami-gun, Shiga 522-0314"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "semiconductor production equipment (plant-level mix not itemized)"
+      ],
+      "evidence": [
+        {
+          "source": "src:screen-spe-web-japan-network",
+          "quote": "Taga Plant Suwa 976-5, Shide, Taga-cho, Inugami-gun, Shiga 522-0314",
+          "locator": "Global Network: Japan, Branch Sites",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:advantest-gunma",
+      "name": "Advantest Gunma Factory",
+      "operator": "co:advantest",
+      "layer": "equipment",
+      "kind": "semiconductor_test_equipment_manufacturing",
+      "location": {
+        "lat": 36.39,
+        "lon": 139.06,
+        "precision": "region",
+        "address": "Gunma Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "semiconductor test systems (not itemized in source)"
+      ],
+      "evidence": [
+        {
+          "source": "src:advantest-web-japan-offices",
+          "quote": "Gunma Factory",
+          "locator": "Japan offices, R&D/Factory list (no address shown)",
+          "supports": "existence, region"
+        }
+      ]
+    },
+    {
+      "id": "fac:kla-ann-arbor",
+      "name": "KLA Ann Arbor second U.S. headquarters and R&D campus",
+      "operator": "co:kla",
+      "layer": "equipment",
+      "kind": "semiconductor_equipment_hq_rd",
+      "location": {
+        "lat": 42.293,
+        "lon": -83.67,
+        "precision": "city",
+        "address": "Ann Arbor Township, Michigan"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "process control tool R&D (51,000 sq ft clean room)",
+        "AI Center of Excellence"
+      ],
+      "evidence": [
+        {
+          "source": "src:kla-pr-ann-arbor-2021",
+          "quote": "KLA Corporation (NASDAQ: KLAC) today announced the official opening of its second U.S. headquarters, a $200 million facility in Ann Arbor, Michigan.",
+          "locator": "Press release, first paragraph",
+          "supports": "existence, location, investment"
+        },
+        {
+          "source": "src:kla-pr-ann-arbor-2021",
+          "quote": "Also constructed on campus is a 51,000-square foot clean room—one of the largest in Michigan—to support the R&D of KLA's semiconductor manufacturing tools used around the world.",
+          "locator": "Press release",
+          "supports": "products/role"
+        }
+      ],
+      "start_year": 2021
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:zeiss-oberkochen-to-asml-veldhoven",
+      "from": "fac:zeiss-oberkochen",
+      "to": "fac:asml-veldhoven",
+      "commodity": "EUV/DUV optical columns, illuminators, collectors (optics)",
+      "description": "Carl Zeiss SMT is ASML's sole supplier of lithography optics, produced in Oberkochen and Wetzlar. ASML's filing names both parties; the Veldhoven destination follows from Veldhoven being ASML's system assembly site.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "The number of lithography systems we are able to produce is limited by the production capacity of one of our key suppliers, Carl Zeiss SMT, our sole supplier of lenses, mirrors, illuminators, collectors and other critical optical components (which we refer to as optics). We have an exclusive arrangement with Carl Zeiss SMT.",
+          "locator": "Risk factors, supply chain",
+          "supports": "relationship, sole-supplier status"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany.",
+          "locator": "Note 26 Related parties and variable interest entities",
+          "supports": "relationship, origin site"
+        }
+      ]
+    },
+    {
+      "id": "flow:zeiss-wetzlar-to-asml-veldhoven",
+      "from": "fac:zeiss-wetzlar",
+      "to": "fac:asml-veldhoven",
+      "commodity": "optical columns / optical components",
+      "description": "Zeiss SMT optics manufactured/tested at Wetzlar for ASML lithography systems.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany.",
+          "locator": "Note 26 Related parties and variable interest entities",
+          "supports": "relationship, origin site"
+        }
+      ]
+    },
+    {
+      "id": "flow:asml-san-diego-to-asml-veldhoven",
+      "from": "fac:asml-san-diego",
+      "to": "fac:asml-veldhoven",
+      "commodity": "EUV light sources and droplet generators; DUV excimer light sources",
+      "description": "Intra-company: San Diego develops and manufactures EUV and DUV light sources used in ASML lithography systems.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-web-san-diego",
+          "quote": "In San Diego, ASML focuses on the R&D and manufacturing of deep ultraviolet (DUV) and extreme ultraviolet (EUV) light sources for lithography systems, which are used to make microchips.",
+          "locator": "ASML San Diego location page",
+          "supports": "origin role"
+        },
+        {
+          "source": "src:asml-web-veldhoven",
+          "quote": "Our Manufacturing and Planning (M&P) department assembles, builds and delivers all our systems from the prototype stage onwards.",
+          "locator": "ASML Veldhoven location page",
+          "supports": "destination role"
+        }
+      ],
+      "inference_note": "ASML's filing names Veldhoven among its manufacturing sites and its Veldhoven page says M&P there 'assembles, builds and delivers all our systems'; the component site's products are documented on ASML's location page. That the component is shipped specifically to Veldhoven is deduced, not stated."
+    },
+    {
+      "id": "flow:asml-wilton-to-asml-veldhoven",
+      "from": "fac:asml-wilton",
+      "to": "fac:asml-veldhoven",
+      "commodity": "reticle stages and reticle handlers",
+      "description": "Intra-company: Wilton designs, tests and assembles reticle stage and reticle handler modules.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-web-wilton",
+          "quote": "In Wilton, we design, test and assemble two crucial modules of our lithography systems: the reticle handler and the reticle stage.",
+          "locator": "ASML Wilton location page",
+          "supports": "origin role"
+        },
+        {
+          "source": "src:asml-web-veldhoven",
+          "quote": "Our Manufacturing and Planning (M&P) department assembles, builds and delivers all our systems from the prototype stage onwards.",
+          "locator": "ASML Veldhoven location page",
+          "supports": "destination role"
+        }
+      ],
+      "inference_note": "ASML's filing names Veldhoven among its manufacturing sites and its Veldhoven page says M&P there 'assembles, builds and delivers all our systems'; the component site's products are documented on ASML's location page. That the component is shipped specifically to Veldhoven is deduced, not stated."
+    },
+    {
+      "id": "flow:asml-berlin-to-asml-veldhoven",
+      "from": "fac:asml-berlin",
+      "to": "fac:asml-veldhoven",
+      "commodity": "wafer tables, wafer clamps, reticle chucks, mirror blocks",
+      "description": "Intra-company: ASML Berlin manufactures key lithography components.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-web-berlin",
+          "quote": "Our Berlin factory manufactures lithography components including wafer clamps, wafer tables, reticle chucks and mirror blocks.",
+          "locator": "ASML Berlin location page",
+          "supports": "origin role"
+        },
+        {
+          "source": "src:asml-web-veldhoven",
+          "quote": "Our Manufacturing and Planning (M&P) department assembles, builds and delivers all our systems from the prototype stage onwards.",
+          "locator": "ASML Veldhoven location page",
+          "supports": "destination role"
+        }
+      ],
+      "inference_note": "ASML's filing names Veldhoven among its manufacturing sites and its Veldhoven page says M&P there 'assembles, builds and delivers all our systems'; the component site's products are documented on ASML's location page. That the component is shipped specifically to Veldhoven is deduced, not stated."
+    },
+    {
+      "id": "flow:ichor-to-lam-research",
+      "from": "co:ichor",
+      "to": "co:lam-research",
+      "commodity": "gas and chemical (fluid) delivery subsystems",
+      "description": "Ichor names Lam Research as a >10% customer for its fluid delivery subsystems.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "For 2025, two customers with individual sales over 10%, Lam Research and Applied Materials, accounted for a combined 76% of total sales.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "Our primary product offerings include gas and chemical delivery subsystems, collectively known as fluid delivery subsystems",
+          "locator": "Item 1 Business",
+          "supports": "commodity"
+        }
+      ],
+      "to_hint": "fac:lam-research-fremont"
+    },
+    {
+      "id": "flow:ichor-to-applied-materials",
+      "from": "co:ichor",
+      "to": "co:applied-materials",
+      "commodity": "gas and chemical (fluid) delivery subsystems",
+      "description": "Ichor names Applied Materials as a >10% customer for its fluid delivery subsystems.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "For 2025, two customers with individual sales over 10%, Lam Research and Applied Materials, accounted for a combined 76% of total sales.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "Our primary product offerings include gas and chemical delivery subsystems, collectively known as fluid delivery subsystems",
+          "locator": "Item 1 Business",
+          "supports": "commodity"
+        }
+      ]
+    },
+    {
+      "id": "flow:ichor-to-asml",
+      "from": "co:ichor",
+      "to": "co:asml",
+      "commodity": "fluid delivery subsystems/components (2023 >10% customer)",
+      "description": "Ichor disclosed ASML as a >10% customer in 2023 (below 10% in 2024 and 2025).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "ASML did not represent 10% or more of sales in 2025 and 2024.",
+          "locator": "Note 10, major customers table footnote (table lists ASML $85,589 thousand in 2023)",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:uct-to-lam-research",
+      "from": "co:ultra-clean",
+      "to": "co:lam-research",
+      "commodity": "critical subsystems, parts and components",
+      "description": "UCT's largest customer is Lam Research.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:uct-10k-2025",
+          "quote": "Our two largest revenue customers in fiscal years 2025, 2024 and 2023 were Applied Materials, Inc. and Lam Research Corporation, each of which accounted for more than 10% of our total revenues in those three years.",
+          "locator": "Item 1 Business",
+          "supports": "relationship"
+        }
+      ],
+      "to_hint": "fac:lam-research-fremont"
+    },
+    {
+      "id": "flow:uct-to-applied-materials",
+      "from": "co:ultra-clean",
+      "to": "co:applied-materials",
+      "commodity": "critical subsystems, parts and components",
+      "description": "UCT names Applied Materials as one of its two largest customers.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:uct-10k-2025",
+          "quote": "Our two largest revenue customers in fiscal years 2025, 2024 and 2023 were Applied Materials, Inc. and Lam Research Corporation, each of which accounted for more than 10% of our total revenues in those three years.",
+          "locator": "Item 1 Business",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:uct-to-asml",
+      "from": "co:ultra-clean",
+      "to": "co:asml",
+      "commodity": "subsystems, parts, components or services (not itemized)",
+      "description": "UCT disclosed ASML among customers with >10% of gross accounts receivable at December 27, 2024.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:uct-10k-2025",
+          "quote": "Three customers’ gross accounts receivable balances, Applied Materials, Inc., Lam Research Corporation and ASML Holding NV were individually greater than 10.0% of gross accounts receivable as of December 27, 2024",
+          "locator": "Notes to consolidated financial statements, concentration of credit risk",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:trumpf-to-asml",
+      "from": "fac:trumpf-ditzingen",
+      "to": "co:asml",
+      "commodity": "EUV CO2 drive lasers (TRUMPF Laser Amplifier)",
+      "description": "TRUMPF develops and produces the pulsed CO2 drive laser for EUV sources in Ditzingen; ASML presented TRUMPF a supplier award for a new EUV high-energy laser with series production from 2026. Receiving ASML site not stated.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:trumpf-pr-asml-supplier-award-2025",
+          "quote": "Yesterday, the Dutch technology company ASML honored TRUMPF with the prestigious Supplier Award",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:trumpf-pr-asml-supplier-award-2025",
+          "quote": "TRUMPF recently successfully tested the laser for the first time, and series production is scheduled to begin in 2026.",
+          "locator": "Press release, first paragraph",
+          "supports": "status"
+        },
+        {
+          "source": "src:trumpf-web-euv-drive-laser",
+          "quote": "ASML, Zeiss, and TRUMPF joined forces to develop a technology to produce extreme ultraviolet (EUV) light with a wavelength of 13.5 nanometers for industrial use",
+          "locator": "EUV drive laser page",
+          "supports": "relationship"
+        }
+      ],
+      "to_hint": "fac:asml-veldhoven"
+    }
+  ],
+  "financial_links": [
+    {
+      "id": "fin:tsmc-kla-revenue-concentration",
+      "from": "co:tsmc",
+      "to": "co:kla",
+      "kind": "revenue_concentration",
+      "date": "2026-08-06",
+      "description": "TSMC accounted for more than 10% of KLA total revenues in each of FY2024, FY2025 and FY2026 (exact % not disclosed).",
+      "evidence": [
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "The following customer accounted for more than 10% of our total revenues, primarily in our Semiconductor Process Control segment, for the indicated periods:",
+          "locator": "Item 7 MD&A, major customer table lead-in",
+          "supports": "relationship, >10%"
+        },
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "Taiwan Semiconductor Manufacturing Company Limited",
+          "locator": "Item 7 MD&A, major customer table (listed under FY2026, FY2025 and FY2024 columns)",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:tsmc-applied-materials-revenue-concentration",
+      "from": "co:tsmc",
+      "to": "co:applied-materials",
+      "kind": "revenue_concentration",
+      "date": "2024-12-13",
+      "description": "TSMC accounted for 11% (FY2024) and 19% (FY2023) of Applied Materials net revenue. FY2025 10-K reports two unnamed customers at ~19% and ~15%.",
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2024",
+          "quote": "The following companies accounted for at least 10 percent of our net revenue for the following fiscal years for products and services in multiple reportable segments.",
+          "locator": "Item 1 Business, customers table lead-in",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:amat-10k-fy2024",
+          "quote": "Taiwan Semiconductor Manufacturing Company Limited 11% 19%",
+          "locator": "Item 1 Business, customers table (FY2024, FY2023)",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 11,
+        "currency": "PCT",
+        "period": "FY2024",
+        "note": "percent of net revenue; FY2023: 19%"
+      }
+    },
+    {
+      "id": "fin:samsung-applied-materials-revenue-concentration",
+      "from": "co:samsung",
+      "to": "co:applied-materials",
+      "kind": "revenue_concentration",
+      "date": "2024-12-13",
+      "description": "Samsung accounted for 12% (FY2024) and 15% (FY2023) of Applied Materials net revenue.",
+      "evidence": [
+        {
+          "source": "src:amat-10k-fy2024",
+          "quote": "The following companies accounted for at least 10 percent of our net revenue for the following fiscal years for products and services in multiple reportable segments.",
+          "locator": "Item 1 Business, customers table lead-in",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:amat-10k-fy2024",
+          "quote": "Samsung Electronics Co., Ltd. 12% 15%",
+          "locator": "Item 1 Business, customers table (FY2024, FY2023)",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 12,
+        "currency": "PCT",
+        "period": "FY2024",
+        "note": "percent of net revenue; FY2023: 15%"
+      }
+    },
+    {
+      "id": "fin:micron-lam-revenue-concentration",
+      "from": "co:micron",
+      "to": "co:lam-research",
+      "kind": "revenue_concentration",
+      "date": "2026-08-07",
+      "description": "Micron named among Lam's most significant customers FY2024-FY2026; Lam reports four unnamed customers at ~16/15/12/12% of FY2026 revenue without attributing percentages.",
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "In fiscal year 2026, four customers accounted for approximately 16%, 15%, 12%, and 12% of total revenues, respectively.",
+          "locator": "Note 19",
+          "supports": "concentration (unattributed)"
+        }
+      ]
+    },
+    {
+      "id": "fin:samsung-lam-revenue-concentration",
+      "from": "co:samsung",
+      "to": "co:lam-research",
+      "kind": "revenue_concentration",
+      "date": "2026-08-07",
+      "description": "Samsung named among Lam's most significant customers FY2024-FY2026 (percentage not attributed).",
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "In fiscal year 2026, four customers accounted for approximately 16%, 15%, 12%, and 12% of total revenues, respectively.",
+          "locator": "Note 19",
+          "supports": "concentration (unattributed)"
+        }
+      ]
+    },
+    {
+      "id": "fin:sk-hynix-lam-revenue-concentration",
+      "from": "co:sk-hynix",
+      "to": "co:lam-research",
+      "kind": "revenue_concentration",
+      "date": "2026-08-07",
+      "description": "SK hynix named among Lam's most significant customers FY2024-FY2026 (percentage not attributed).",
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "In fiscal year 2026, four customers accounted for approximately 16%, 15%, 12%, and 12% of total revenues, respectively.",
+          "locator": "Note 19",
+          "supports": "concentration (unattributed)"
+        }
+      ]
+    },
+    {
+      "id": "fin:tsmc-lam-revenue-concentration",
+      "from": "co:tsmc",
+      "to": "co:lam-research",
+      "kind": "revenue_concentration",
+      "date": "2026-08-07",
+      "description": "TSMC named among Lam's most significant customers FY2024-FY2026 (percentage not attributed).",
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "In fiscal year 2026, four customers accounted for approximately 16%, 15%, 12%, and 12% of total revenues, respectively.",
+          "locator": "Note 19",
+          "supports": "concentration (unattributed)"
+        }
+      ]
+    },
+    {
+      "id": "fin:samsung-tokyo-electron-revenue-concentration",
+      "from": "co:samsung",
+      "to": "co:tokyo-electron",
+      "kind": "revenue_concentration",
+      "date": "2026",
+      "description": "Samsung Electronics (incl. subsidiaries) accounted for ¥368,079 million, 15.1% of TEL sales in FY2026 (FY2025: ¥286,800 million, 11.8%).",
+      "evidence": [
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "Samsung Electronics Co., Ltd. 368,079 15.1",
+          "locator": "Financial section, sales results by major customers, Fiscal 2026",
+          "supports": "amount"
+        },
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "Sales results by major customers and their ratio to total sales results are as shown below.",
+          "locator": "Financial section, Production, Orders, and Sales Results",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 368079,
+        "currency": "JPY",
+        "period": "FY2026 (year ended 2026-03-31)",
+        "note": "millions of yen; 15.1% of sales"
+      }
+    },
+    {
+      "id": "fin:tsmc-tokyo-electron-revenue-concentration",
+      "from": "co:tsmc",
+      "to": "co:tokyo-electron",
+      "kind": "revenue_concentration",
+      "date": "2026",
+      "description": "TSMC (incl. subsidiaries) accounted for ¥315,813 million, 12.9% of TEL sales in FY2026 (FY2025: ¥280,618 million, 11.5%).",
+      "evidence": [
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "Taiwan Semiconductor Manufacturing Company, Ltd. 315,813 12.9",
+          "locator": "Financial section, sales results by major customers, Fiscal 2026",
+          "supports": "amount"
+        },
+        {
+          "source": "src:tel-integrated-report-2026",
+          "quote": "Sales results by major customers and their ratio to total sales results are as shown below.",
+          "locator": "Financial section, Production, Orders, and Sales Results",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 315813,
+        "currency": "JPY",
+        "period": "FY2026 (year ended 2026-03-31)",
+        "note": "millions of yen; 12.9% of sales"
+      }
+    },
+    {
+      "id": "fin:sk-hynix-formfactor-revenue-concentration",
+      "from": "co:sk-hynix",
+      "to": "co:formfactor",
+      "kind": "revenue_concentration",
+      "date": "2026-02-20",
+      "description": "SK hynix accounted for 22.9% of FormFactor revenues in FY2025 (18.9% in FY2024).",
+      "evidence": [
+        {
+          "source": "src:formfactor-10k-2025",
+          "quote": "SK hynix Inc. 22.9 % 18.9 % *",
+          "locator": "Notes, customers representing 10% or more of revenues",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 22.9,
+        "currency": "PCT",
+        "period": "FY2025",
+        "note": "percent of revenues"
+      }
+    },
+    {
+      "id": "fin:intel-formfactor-revenue-concentration",
+      "from": "co:intel",
+      "to": "co:formfactor",
+      "kind": "revenue_concentration",
+      "date": "2026-02-20",
+      "description": "Intel accounted for 14.6% (FY2024) and 17.1% (FY2023) of FormFactor revenues; below 10% in FY2025.",
+      "evidence": [
+        {
+          "source": "src:formfactor-10k-2025",
+          "quote": "Intel Corporation * 14.6 % 17.1 %",
+          "locator": "Notes, customers representing 10% or more of revenues",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 14.6,
+        "currency": "PCT",
+        "period": "FY2024",
+        "note": "percent of revenues"
+      }
+    },
+    {
+      "id": "fin:lam-ichor-revenue-concentration",
+      "from": "co:lam-research",
+      "to": "co:ichor",
+      "kind": "revenue_concentration",
+      "date": "2026-02-20",
+      "description": "Lam Research purchases from Ichor: $351.4M in 2025 ($319.1M 2024).",
+      "evidence": [
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "The following table sets forth our major customers with 10% or more of sales, which comprised 76%, 73%, and 82% of net sales in 2025, 2024, and 2023, respectively:",
+          "locator": "Note 10, major customers lead-in",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "Lam Research $ 351,418 $ 319,099 $ 286,836",
+          "locator": "Note 10, major customers table (2025, 2024, 2023; $ thousands)",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 351418000,
+        "currency": "USD",
+        "period": "FY2025"
+      }
+    },
+    {
+      "id": "fin:applied-materials-ichor-revenue-concentration",
+      "from": "co:applied-materials",
+      "to": "co:ichor",
+      "kind": "revenue_concentration",
+      "date": "2026-02-20",
+      "description": "Applied Materials purchases from Ichor: $371.7M in 2025 ($300.3M 2024).",
+      "evidence": [
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "The following table sets forth our major customers with 10% or more of sales, which comprised 76%, 73%, and 82% of net sales in 2025, 2024, and 2023, respectively:",
+          "locator": "Note 10, major customers lead-in",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:ichor-10k-2025",
+          "quote": "Applied Materials $ 371,697 $ 300,263 $ 295,082",
+          "locator": "Note 10, major customers table (2025, 2024, 2023; $ thousands)",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 371697000,
+        "currency": "USD",
+        "period": "FY2025"
+      }
+    },
+    {
+      "id": "fin:lam-uct-revenue-concentration",
+      "from": "co:lam-research",
+      "to": "co:ultra-clean",
+      "kind": "revenue_concentration",
+      "date": "2026-02-23",
+      "description": "Lam Research accounted for 37.0% of UCT revenue in 2025 (31.9% 2024, 34.0% 2023).",
+      "evidence": [
+        {
+          "source": "src:uct-10k-2025",
+          "quote": "Lam Research Corporation 37.0 % 31.9 % 34.0 %",
+          "locator": "Notes, most significant customers table",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 37.0,
+        "currency": "PCT",
+        "period": "FY2025",
+        "note": "percent of total revenues"
+      }
+    },
+    {
+      "id": "fin:applied-materials-uct-revenue-concentration",
+      "from": "co:applied-materials",
+      "to": "co:ultra-clean",
+      "kind": "revenue_concentration",
+      "date": "2026-02-23",
+      "description": "Applied Materials accounted for 21.7% of UCT revenue in 2025 (22.6% 2024, 23.4% 2023).",
+      "evidence": [
+        {
+          "source": "src:uct-10k-2025",
+          "quote": "Applied Materials, Inc. 21.7 22.6 23.4",
+          "locator": "Notes, most significant customers table",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 21.7,
+        "currency": "PCT",
+        "period": "FY2025",
+        "note": "percent of total revenues"
+      }
+    }
+  ],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "ASML named customers",
+      "why": "The ASML 20-F reports four customers each above 10% of 2025 net sales (61.2% combined) but does not name them.",
+      "would_need": "An ASML filing or customer filing that names the customers with percentages"
+    },
+    {
+      "topic": "Teradyne named customers",
+      "why": "The Teradyne 10-K gives percentages for unnamed 'specifying' and direct customers (12%, 10%, 19% in 2025) without names.",
+      "would_need": "A Teradyne disclosure naming the customers"
+    },
+    {
+      "topic": "Applied Materials FY2025 named customers",
+      "why": "The FY2025 10-K gives two customers at ~19% and ~15% without naming them. Named data (Samsung, TSMC) comes from the FY2024 10-K.",
+      "would_need": "A later AMAT filing naming the FY2025 customers"
+    },
+    {
+      "topic": "Applied Materials site-level facilities after FY2023",
+      "why": "The FY2024 and FY2025 10-Ks list manufacturing countries only. Austin, Gloucester, Singapore and Rehovot sites are sourced to the FY2023 10-K.",
+      "would_need": "A current AMAT filing or site page that names the manufacturing sites"
+    },
+    {
+      "topic": "Onto Innovation customers",
+      "why": "The Onto 10-K reports Customer A/B/C at 20%/15%/14% without names in the prose (XBRL tags reference Samsung).",
+      "would_need": "Named customer disclosure in prose"
+    },
+    {
+      "topic": "Tokyo Electron statutory securities report",
+      "why": "Customer figures are taken from TEL's English Integrated Report 2026, which reproduces the securities-report table. The EDINET Yuho (Japanese) was not fetched.",
+      "would_need": "EDINET Annual Securities Report (E02652) for FY ended 2026-03-31"
+    },
+    {
+      "topic": "TRUMPF quotes captured via rendered fetch",
+      "why": "trumpf.com blocks scripted downloads (Akamai 'Access Denied'). The TRUMPF quotes were taken from a browser-style fetch and could not be diffed against a saved local copy.",
+      "would_need": "Counsel re-fetch of the three trumpf.com URLs, or TRUMPF annual report text"
+    },
+    {
+      "topic": "SCREEN and Advantest China revenue share and named customers",
+      "why": "SCREEN's results release gives only directional regional commentary. Advantest reports 'Asia' without a China split in its FY2025 results. Neither names >10% customers in the English documents fetched.",
+      "would_need": "EDINET Yuho (Japanese) for SCREEN (7735) and Advantest (6857): segment/region notes and major-customer tables"
+    },
+    {
+      "topic": "Advantest Gunma Factory address",
+      "why": "Advantest's Japan offices page lists 'Gunma Factory' with no address in the static page text.",
+      "would_need": "Advantest securities report 'Status of Facilities' table, or a site page with address"
+    }
+  ]
+}

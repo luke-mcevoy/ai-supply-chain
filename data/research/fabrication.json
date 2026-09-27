@@ -1,0 +1,1934 @@
+{
+  "layer": "fabrication",
+  "analyst": "fabrication-analyst (Claude)",
+  "generated_at": "2026-09-27T00:00:00Z",
+  "sources": [
+    {
+      "id": "src:tsmc-20f-2025",
+      "title": "TSMC Annual Report on Form 20-F for fiscal year 2025",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-04-16",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-025362"
+    },
+    {
+      "id": "src:tsmc-gigafab-page",
+      "title": "GIGAFAB® Facilities",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://www.tsmc.com/english/dedicatedFoundry/manufacturing/gigafab",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tsmc-pr-2025-supply-chain-forum",
+      "title": "TSMC 2025 Supply Chain Management Forum Presents Awards to Outstanding Suppliers",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://pr.tsmc.com/english/news/3274",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-26",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nist-chips-tsmc-arizona",
+      "title": "CHIPS for America: TSMC Arizona (Phoenix, AZ) award page",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS Program Office",
+      "url": "https://www.nist.gov/chips/tsmc-arizona-phoenix",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-11-15",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nist-chips-samsung-taylor",
+      "title": "CHIPS for America: Samsung Electronics (Taylor, TX) award page",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS Program Office",
+      "url": "https://www.nist.gov/chips/samsung-electronics-texas-taylor",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-20",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nist-chips-gf-malta",
+      "title": "CHIPS for America: GlobalFoundries (Malta, NY) award page",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS Program Office",
+      "url": "https://www.nist.gov/chips/globalfoundries-new-york-malta",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-11-20",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:asml-20f-2025",
+      "title": "ASML Holding N.V. Annual Report on Form 20-F for fiscal year 2025",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-011378"
+    },
+    {
+      "id": "src:kla-10k-fy2026",
+      "title": "KLA Corporation Form 10-K for fiscal year ended June 30, 2026",
+      "publisher": "KLA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-08-06",
+      "accessed": "2026-09-27",
+      "identifier": "0000319201-26-000027"
+    },
+    {
+      "id": "src:lam-10k-fy2026",
+      "title": "Lam Research Corporation Form 10-K for fiscal year ended June 28, 2026",
+      "publisher": "Lam Research Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-08-07",
+      "accessed": "2026-09-27",
+      "identifier": "0000707549-26-000037"
+    },
+    {
+      "id": "src:intel-10k-2025",
+      "title": "Intel Corporation Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "Intel Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-01-23",
+      "accessed": "2026-09-27",
+      "identifier": "0000050863-26-000011"
+    },
+    {
+      "id": "src:gfs-20f-2025",
+      "title": "GlobalFoundries Inc. Annual Report on Form 20-F for fiscal year 2025",
+      "publisher": "GlobalFoundries Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000022/gfs-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-02-27",
+      "accessed": "2026-09-27",
+      "identifier": "0001709048-26-000022"
+    },
+    {
+      "id": "src:smic-ar-2025",
+      "title": "SMIC 2025 Annual Report (HKEX filing)",
+      "publisher": "Semiconductor Manufacturing International Corporation",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0408/2026040801181.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-04-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:smic-fab-info",
+      "title": "SMIC Fab Information",
+      "publisher": "Semiconductor Manufacturing International Corporation",
+      "url": "https://www.smics.com/en/site/factory_summary",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:smic-company-info",
+      "title": "SMIC Company Information",
+      "publisher": "Semiconductor Manufacturing International Corporation",
+      "url": "https://www.smics.com/en/site/company_info",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:fr-85-83416",
+      "title": "Addition of Entities to the Entity List, Revision of Entry on the Entity List, and Removal of Entities From the Entity List",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2020/12/22/2020-28031/addition-of-entities-to-the-entity-list-revision-of-entry-on-the-entity-list-and-removal-of-entities",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2020-12-22",
+      "accessed": "2026-09-27",
+      "identifier": "85 FR 83416"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:tsmc",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country": "TW",
+      "hq": {
+        "lat": 24.7736,
+        "lon": 121.0126,
+        "precision": "city",
+        "address": "Hsinchu Science Park, Hsinchu, Taiwan"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Our 2-nanometer technology entered volume production in 2025.",
+          "locator": "Item 4, Semiconductor Manufacturing Capacity and Technology",
+          "supports": "existence, technology"
+        }
+      ],
+      "tickers": [
+        "TWSE:2330",
+        "NYSE:TSM"
+      ],
+      "sec_cik": "0001046179"
+    },
+    {
+      "id": "co:intel",
+      "name": "Intel Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3875,
+        "lon": -121.9637,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "fabrication",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ],
+      "sec_cik": "0000050863"
+    },
+    {
+      "id": "co:globalfoundries",
+      "name": "GlobalFoundries Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 42.9735,
+        "lon": -73.759,
+        "precision": "site",
+        "address": "400 Stonebreak Road Extension, Malta, NY 12020"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "Our principal executive offices are located at 400 Stonebreak Road Extension, Malta, New York, 12020, United States, and our telephone number is +1 (518) 305-9013.",
+          "locator": "Item 4, History and Development",
+          "supports": "existence, location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GFS"
+      ],
+      "sec_cik": "0001709048"
+    },
+    {
+      "id": "co:samsung",
+      "name": "Samsung Electronics Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2586,
+        "lon": 127.046,
+        "precision": "city",
+        "address": "Suwon, Gyeonggi-do, Korea"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:nist-chips-samsung-taylor",
+          "quote": "The U.S. Department of Commerce awarded Samsung Austin Semiconductor, LLC, a subsidiary of Samsung Electronics (Samsung), up to $4.745 billion in direct funding under the CHIPS and Science Act",
+          "locator": "Key Facts, Project Summary",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "KRX:005930"
+      ]
+    },
+    {
+      "id": "co:smic",
+      "name": "Semiconductor Manufacturing International Corporation",
+      "country": "CN",
+      "hq": {
+        "lat": 31.2037,
+        "lon": 121.5993,
+        "precision": "site",
+        "address": "18 Zhangjiang Road, Pudong New Area, Shanghai, PRC"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:smic-ar-2025",
+          "quote": "The Company was added to the U.S. Entity List in 2020, and some of its affiliated companies were added to the U.S. Entity List “Footnote 5” in 2024, bringing certain challenges to the Company’s supply chain security and business stability.",
+          "locator": "Section 4 (MD&A), risk factors: The risk of geopolitics",
+          "supports": "status, export-control exposure"
+        },
+        {
+          "source": "src:smic-company-info",
+          "quote": "SMIC has 8-inch and 12-inch wafer fabrication facilities in Shanghai, Beijing, Tianjin and Shenzhen.",
+          "locator": "Company Information, Overview",
+          "supports": "existence, locations"
+        }
+      ],
+      "tickers": [
+        "HKEX:0981",
+        "SSE:688981"
+      ]
+    },
+    {
+      "id": "co:asml",
+      "name": "ASML Holding N.V.",
+      "country": "NL",
+      "hq": {
+        "lat": 51.4053,
+        "lon": 5.4136,
+        "precision": "city",
+        "address": "Veldhoven, Netherlands"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Strategic report, risk factors",
+          "supports": "existence, sole EUV supplier"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ASML",
+        "AEX:ASML"
+      ],
+      "sec_cik": "0000937966"
+    },
+    {
+      "id": "co:applied-materials",
+      "name": "Applied Materials, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Applied Materials, Inc. - Excellent Contribution in Green Manufacturing and Excellent Technology Development and Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMAT"
+      ],
+      "sec_cik": "0000006951"
+    },
+    {
+      "id": "co:lam-research",
+      "name": "Lam Research Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.5485,
+        "lon": -121.9886,
+        "precision": "city",
+        "address": "Fremont, California"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our customers include many of the world’s leading semiconductor manufacturers.",
+          "locator": "Item 1, Customers",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:LRCX"
+      ],
+      "sec_cik": "0000707549"
+    },
+    {
+      "id": "co:kla",
+      "name": "KLA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.4323,
+        "lon": -121.8996,
+        "precision": "city",
+        "address": "Milpitas, California"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "For the fiscal years ended June 30, 2026, 2025 and 2024, the following customers each accounted for more than 10% of total revenues, primarily in the Semiconductor Process Control segment:",
+          "locator": "Item 1, Customers",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:KLAC"
+      ],
+      "sec_cik": "0000319201"
+    },
+    {
+      "id": "co:shin-etsu",
+      "name": "Shin-Etsu Chemical Co., Ltd. (Shin-Etsu Handotai Co., Ltd.)",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Shin-Etsu Handotai Co., Ltd. - Excellent Technology Development and Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:4063"
+      ]
+    },
+    {
+      "id": "co:sumco",
+      "name": "SUMCO Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "SUMCO CORPORATION - Excellent Contribution in Green Manufacturing and Excellent Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:3436"
+      ]
+    },
+    {
+      "id": "co:jsr",
+      "name": "JSR Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "JSR Corporation - Excellent Technology Development and Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:screen",
+      "name": "SCREEN Semiconductor Solutions Co., Ltd.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.0116,
+        "lon": 135.7681,
+        "precision": "city",
+        "address": "Kyoto, Japan"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "SCREEN Semiconductor Solutions Co., Ltd. - Excellent Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:7735"
+      ]
+    },
+    {
+      "id": "co:canon",
+      "name": "Canon Inc.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.57,
+        "lon": 139.696,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Canon Inc. - Excellent Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:7751"
+      ]
+    },
+    {
+      "id": "co:merck-kgaa",
+      "name": "Merck KGaA",
+      "country": "DE",
+      "hq": {
+        "lat": 49.8728,
+        "lon": 8.6512,
+        "precision": "city",
+        "address": "Darmstadt, Germany"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Merck - Excellent Contribution in Green Manufacturing",
+          "locator": "Award winners list",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "ETR:MRK"
+      ]
+    },
+    {
+      "id": "co:resonac",
+      "name": "Resonac Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Resonac Corporation - Excellent Technology Development and Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:4004"
+      ]
+    },
+    {
+      "id": "co:kokusai-electric",
+      "name": "Kokusai Electric Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "KOKUSAI ELECTRIC - Excellent Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:6525"
+      ]
+    },
+    {
+      "id": "co:ebara",
+      "name": "EBARA Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.7528,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "EBARA CORPORATION - Excellent Production Support",
+          "locator": "Award winner table",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:6361"
+      ]
+    },
+    {
+      "id": "co:soitec",
+      "name": "Soitec S.A.",
+      "country": "FR",
+      "hq": {
+        "lat": 45.2566,
+        "lon": 5.8736,
+        "precision": "city",
+        "address": "Bernin, France"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "In 2025, Soitec accounted for approximately 71% of our SOI wafer spend.",
+          "locator": "Item 3.D Risk Factors",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "EPA:SOI"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:tsmc-fab12-hsinchu",
+      "name": "TSMC Fab 12 (GIGAFAB, Hsinchu)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 24.778,
+        "lon": 121.009,
+        "precision": "region",
+        "address": "Hsinchu Science Park, Hsinchu, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers (most advanced volume node listed: 40 nm, as of 2025 year-end)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D Property, Plant and Equipment, fab table; row '12 | 2001 | 12-inch | 40'",
+          "supports": "existence, status, start year, most advanced volume node"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Fabs 2, 3, 5, 8, 12 and Fab 20 are located in Hsinchu Science Park.",
+          "locator": "Item 4.D, footnote (1) to fab table",
+          "supports": "location"
+        },
+        {
+          "source": "src:tsmc-gigafab-page",
+          "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
+          "locator": "GIGAFAB® Facilities page",
+          "supports": "existence, GIGAFAB status"
+        }
+      ],
+      "start_year": 2001
+    },
+    {
+      "id": "fac:tsmc-fab14-tainan",
+      "name": "TSMC Fab 14 (GIGAFAB, Tainan)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 23.107,
+        "lon": 120.281,
+        "precision": "region",
+        "address": "Southern Taiwan Science Park, Tainan, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers (most advanced volume node listed: 16 nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D Property, Plant and Equipment, fab table; row '14 | 2004 | 12-inch | 16'",
+          "supports": "existence, status, start year, most advanced volume node"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Fab 6, Fab 14, Fab 18, and Fab 22 are located in the Southern Taiwan Science Park.",
+          "locator": "Item 4.D, footnote (1) to fab table",
+          "supports": "location"
+        },
+        {
+          "source": "src:tsmc-gigafab-page",
+          "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
+          "locator": "GIGAFAB® Facilities page",
+          "supports": "existence, GIGAFAB status"
+        }
+      ],
+      "start_year": 2004
+    },
+    {
+      "id": "fac:tsmc-fab15-taichung",
+      "name": "TSMC Fab 15 (GIGAFAB, Taichung)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 24.21,
+        "lon": 120.617,
+        "precision": "region",
+        "address": "Central Taiwan Science Park, Taichung, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers (most advanced volume node listed: 7 nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D Property, Plant and Equipment, fab table; row '15 | 2012 | 12-inch | 7'",
+          "supports": "existence, status, start year, most advanced volume node"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Fab 15 is located in Central Taiwan Science Park.",
+          "locator": "Item 4.D, footnote (1) to fab table",
+          "supports": "location"
+        },
+        {
+          "source": "src:tsmc-gigafab-page",
+          "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
+          "locator": "GIGAFAB® Facilities page",
+          "supports": "existence, GIGAFAB status"
+        }
+      ],
+      "start_year": 2012
+    },
+    {
+      "id": "fac:tsmc-fab18-tainan",
+      "name": "TSMC Fab 18 (GIGAFAB, Tainan)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 23.107,
+        "lon": 120.281,
+        "precision": "region",
+        "address": "Southern Taiwan Science Park, Tainan, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers (most advanced volume node listed: 3 nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D Property, Plant and Equipment, fab table; row '18 | 2020 | 12-inch | 3'",
+          "supports": "existence, status, start year, most advanced volume node"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Fab 6, Fab 14, Fab 18, and Fab 22 are located in the Southern Taiwan Science Park.",
+          "locator": "Item 4.D, footnote (1) to fab table",
+          "supports": "location"
+        },
+        {
+          "source": "src:tsmc-gigafab-page",
+          "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
+          "locator": "GIGAFAB® Facilities page",
+          "supports": "existence, GIGAFAB status"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "This increase was primarily from the expansion of our 3-nanometer advanced technologies.",
+          "locator": "Item 4.D, capacity paragraph",
+          "supports": "context: 2025 capacity growth from 3nm"
+        }
+      ],
+      "start_year": 2020
+    },
+    {
+      "id": "fac:tsmc-fab20-hsinchu",
+      "name": "TSMC Fab 20 (GIGAFAB, Hsinchu Baoshan)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 24.778,
+        "lon": 121.009,
+        "precision": "region",
+        "address": "Hsinchu Science Park, Hsinchu, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers (most advanced volume node listed: 2 nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D Property, Plant and Equipment, fab table; row '20 | 2025 | 12-inch | 2'",
+          "supports": "existence, status, start year, most advanced volume node"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Fabs 2, 3, 5, 8, 12 and Fab 20 are located in Hsinchu Science Park.",
+          "locator": "Item 4.D, footnote (1) to fab table",
+          "supports": "location"
+        },
+        {
+          "source": "src:tsmc-gigafab-page",
+          "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
+          "locator": "GIGAFAB® Facilities page",
+          "supports": "existence, GIGAFAB status"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Our 2-nanometer technology entered volume production in 2025.",
+          "locator": "Item 4.D",
+          "supports": "2nm volume production"
+        }
+      ],
+      "start_year": 2025
+    },
+    {
+      "id": "fac:tsmc-fab22-kaohsiung",
+      "name": "TSMC Fab 22 (GIGAFAB, Kaohsiung)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 22.721,
+        "lon": 120.315,
+        "precision": "region",
+        "address": "Southern Taiwan Science Park (Kaohsiung park), Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers (most advanced volume node listed: 2 nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D Property, Plant and Equipment, fab table; row '22 | 2025 | 12-inch | 2'",
+          "supports": "existence, status, start year, most advanced volume node"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Fab 6, Fab 14, Fab 18, and Fab 22 are located in the Southern Taiwan Science Park.",
+          "locator": "Item 4.D, footnote (1) to fab table",
+          "supports": "location"
+        },
+        {
+          "source": "src:tsmc-gigafab-page",
+          "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
+          "locator": "GIGAFAB® Facilities page",
+          "supports": "existence, GIGAFAB status"
+        }
+      ],
+      "start_year": 2025
+    },
+    {
+      "id": "fac:tsmc-fab21-arizona-p1",
+      "name": "TSMC Arizona Fab 21, phase 1 (Phoenix)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 33.75,
+        "lon": -112.13,
+        "precision": "city",
+        "address": "Phoenix, AZ 85083"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "N4 / N5 FinFET logic wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "TSMC Arizona plans to build and operate multiple advanced semiconductor manufacturing facilities in Phoenix, Arizona. Our first facility successfully entered high volume production at the end of 2024.",
+          "locator": "Item 4, Our Subsidiaries and Affiliates: TSMC Arizona",
+          "supports": "existence, location, status"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "TSMC Arizona owns a parcel of land of approximately 4,775,885 square meters in the State of Arizona where Fab 21 and related offices are located.",
+          "locator": "Item 4.D Property",
+          "supports": "location, fab number"
+        },
+        {
+          "source": "src:nist-chips-tsmc-arizona",
+          "quote": "As part of this award, TSMC Arizona plans to manufacture its N3, N4, and N5 FinFET process technologies, and N2 and A16 nanosheet process technologies in the United States.",
+          "locator": "Key Facts",
+          "supports": "products"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D fab table; row '21 | 2024 | 12-inch | 5'",
+          "supports": "start year, node (5 nm family)"
+        }
+      ],
+      "start_year": 2024
+    },
+    {
+      "id": "fac:tsmc-fab21-arizona-p2",
+      "name": "TSMC Arizona Fab 21, phase 2 (Phoenix)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 33.75,
+        "lon": -112.13,
+        "precision": "city",
+        "address": "Phoenix, AZ 85083"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "N3 FinFET logic wafers (planned)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Construction of our second facility is ongoing, and the construction of our third facility commenced in 2025.",
+          "locator": "Item 4, TSMC Arizona",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:nist-chips-tsmc-arizona",
+          "quote": "TSMC Arizona is on track to begin high-volume production in the first fab by the first half of 2025, with production in the second fab targeted for the second half in 2027 and in the third by the end of the decade.",
+          "locator": "Key Facts",
+          "supports": "planned timing"
+        },
+        {
+          "source": "src:nist-chips-tsmc-arizona",
+          "quote": "As part of this award, TSMC Arizona plans to manufacture its N3, N4, and N5 FinFET process technologies, and N2 and A16 nanosheet process technologies in the United States.",
+          "locator": "Key Facts; Facility Summary lists Fab 2 as 3nm FinFET",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-fab21-arizona-p3",
+      "name": "TSMC Arizona Fab 21, phase 3 (Phoenix)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 33.75,
+        "lon": -112.13,
+        "precision": "city",
+        "address": "Phoenix, AZ 85083"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "N2 / A16 nanosheet logic wafers (planned)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Construction of our second facility is ongoing, and the construction of our third facility commenced in 2025.",
+          "locator": "Item 4, TSMC Arizona",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:nist-chips-tsmc-arizona",
+          "quote": "TSMC’s A16 technology integrates TSMC’s N2 nanosheet transistor process with next-generation backside power delivery, improving total performance and power consumption.",
+          "locator": "Key Facts; Facility Summary lists Fab 3 as A16 and 2nm",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-jasm-kumamoto",
+      "name": "JASM Fab 23 (Kumamoto), first fab",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "specialty_logic_fab",
+      "location": {
+        "lat": 32.885,
+        "lon": 130.843,
+        "precision": "region",
+        "address": "Kumamoto Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers (most advanced volume node listed: 28 nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "JASM owns a parcel of land of approximately 476,290 square meters in Kumamoto Prefecture, Japan, where Fab 23 and related offices are located.",
+          "locator": "Item 4.D Property",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Construction on the site commenced in April 2022 and volume production commenced in December 2024.",
+          "locator": "Item 4, Our Subsidiaries and Affiliates: JASM",
+          "supports": "status"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D fab table; row '23 | 2024 | 12-inch | 28'",
+          "supports": "node"
+        }
+      ],
+      "start_year": 2024
+    },
+    {
+      "id": "fac:tsmc-jasm-kumamoto-2",
+      "name": "JASM second fab (Kumamoto)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "specialty_logic_fab",
+      "location": {
+        "lat": 32.885,
+        "lon": 130.843,
+        "precision": "region",
+        "address": "Kumamoto Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "under_construction",
+      "products": [],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "In February 2024, we, Sony, DENSO and Toyota Motor Corporation (“Toyota”) announced further investment into JASM to build and operate a second semiconductor manufacturing facility. Construction on the second site commenced in October 2025.",
+          "locator": "Item 4, Our Subsidiaries and Affiliates: JASM",
+          "supports": "existence, status"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-esmc-dresden",
+      "name": "ESMC Fab 24 (Dresden)",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "specialty_logic_fab",
+      "location": {
+        "lat": 51.126,
+        "lon": 13.713,
+        "precision": "city",
+        "address": "City of Dresden, Germany"
+      },
+      "country": "DE",
+      "status": "under_construction",
+      "products": [],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "ESMC owns a parcel of land of approximately 513,557 square meters in the City of Dresden in Germany, where Fab 24 and related facilities will be located.",
+          "locator": "Item 4.D Property",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Construction on the site commenced in 2024. As of February 28, 2026, we owned 70.0% of the equity interest in ESMC.",
+          "locator": "Item 4, Our Subsidiaries and Affiliates: ESMC",
+          "supports": "status, ownership"
+        }
+      ]
+    },
+    {
+      "id": "fac:samsung-taylor",
+      "name": "Samsung Taylor fab (Texas)",
+      "operator": "co:samsung",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 30.57,
+        "lon": -97.41,
+        "precision": "city",
+        "address": "Taylor, Texas"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "2nm logic wafers (planned)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nist-chips-samsung-taylor",
+          "quote": "This ecosystem would include two leading-edge logic foundry fabs focused on mass production of 2nm process technologies and an R&D fab dedicated to research and development of manufacturing process nodes at least several generations ahead of the current one in production.",
+          "locator": "Economic and National Security Impact: Taylor, Texas",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:nist-chips-samsung-taylor",
+          "quote": "Recipient Samsung Austin Semiconductor, LLC, a subsidiary of Samsung Electronics Location(s) Taylor, Texas Austin, Texas",
+          "locator": "Project Overview table",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:intel-oregon",
+      "name": "Intel Oregon fabs incl. D1X (Hillsboro)",
+      "operator": "co:intel",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 45.543,
+        "lon": -122.962,
+        "precision": "region",
+        "address": "Hillsboro, Oregon (10-K names Oregon only)"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Intel 18A wafers (ramping); process R&D"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "existence, status, products"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "Recently, in addition to our Oregon location performing R&D on our latest and next generation process nodes, we are utilizing our Oregon fab assets to perform high volume manufacturing.",
+          "locator": "Item 1, Process Technology",
+          "supports": "role"
+        }
+      ]
+    },
+    {
+      "id": "fac:intel-arizona",
+      "name": "Intel Arizona fabs incl. Fab 52 (Chandler)",
+      "operator": "co:intel",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 33.271,
+        "lon": -111.883,
+        "precision": "region",
+        "address": "Chandler, Arizona (10-K names Arizona; Chandler bonds)"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Intel 7 wafers",
+        "Intel 18A wafers (ramping)"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "existence, status, products"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2024, we remarketed $438 million aggregate principal amount of bonds issued by the Industrial Development Authority of the City of Chandler, Arizona.",
+          "locator": "Note 13: Borrowings, Arizona Bonds",
+          "supports": "location (Chandler)"
+        }
+      ]
+    },
+    {
+      "id": "fac:intel-ireland",
+      "name": "Intel Ireland fabs incl. Fab 34 (Leixlip)",
+      "operator": "co:intel",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 53.365,
+        "lon": -6.505,
+        "precision": "region",
+        "address": "Leixlip, Ireland (10-K names Ireland)"
+      },
+      "country": "IE",
+      "status": "operational",
+      "products": [
+        "Intel 4 wafers",
+        "Intel 3 wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "existence, status, products"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "We anticipate that net income attributable to non-controlling interests will continue to increase in 2026 as additional tranches of Arizona SCIP’s manufacturing assets are placed into service, and to increase significantly in 2027 following our expected completion of construction of Fab 34 in Ireland.",
+          "locator": "MD&A, Non-Controlling Interests",
+          "supports": "Fab 34 construction status"
+        }
+      ]
+    },
+    {
+      "id": "fac:intel-israel",
+      "name": "Intel Israel fab (Kiryat Gat)",
+      "operator": "co:intel",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 31.6,
+        "lon": 34.77,
+        "precision": "country",
+        "address": "Israel (10-K names country only)"
+      },
+      "country": "IL",
+      "status": "operational",
+      "products": [
+        "Intel 7 wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "existence, status, products"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "As a significant portion of our revenues are generated from products using our Intel 7 node that are manufactured at our fabrication facility in Israel and we are not insured for business interruptions resulting from war or political violence, a disruption of that facility could have a significant adverse impact on our business.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "role"
+        }
+      ]
+    },
+    {
+      "id": "fac:intel-ohio",
+      "name": "Intel Ohio fab (New Albany / Licking County)",
+      "operator": "co:intel",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 40.09,
+        "lon": -82.75,
+        "precision": "region",
+        "address": "Ohio (10-K names state only)"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "While we remain focused on continued development of Intel 14A and securing such a significant external customer, we have taken steps to reduce our overall investment and have further slowed down the construction of the new leading-edge fabrication facilities we are building in Ohio.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "existence, status (slowed)"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "For example, we would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "status risk"
+        }
+      ]
+    },
+    {
+      "id": "fac:globalfoundries-fab8-malta",
+      "name": "GlobalFoundries Fab 8 (Malta, NY)",
+      "operator": "co:globalfoundries",
+      "layer": "fabrication",
+      "kind": "logic_fab",
+      "location": {
+        "lat": 42.9735,
+        "lon": -73.759,
+        "precision": "site",
+        "address": "400 Stonebreak Road Extension, Malta, NY 12020"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "300mm FinFET logic wafers",
+        "silicon photonics",
+        "feature-rich CMOS"
+      ],
+      "evidence": [
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "We currently operate four manufacturing sites in the following locations: Dresden, Germany; Singapore; Malta, New York; and Burlington, Vermont.",
+          "locator": "Item 4.D Property, Plant and Equipment",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "The funding supports three GF projects: expansion of our existing Fab 8 facility, construction of a new state-of-the-art fab on the Fab 8 campus, and modernization of our Fab 9 facility in Burlington, Vermont.",
+          "locator": "Item 4, CHIPS funding",
+          "supports": "Fab 8 expansion"
+        },
+        {
+          "source": "src:nist-chips-gf-malta",
+          "quote": "Malta, New York – New State-of-the-Art 300mm Fab: The construction of a new, large-scale 300mm fabrication facility that is expected to produce high value technologies not currently available in the United States.",
+          "locator": "Key Facts",
+          "supports": "expansion plan"
+        }
+      ]
+    },
+    {
+      "id": "fac:smic-shanghai",
+      "name": "SMIC Shanghai 200mm and 300mm fabs (Zhangjiang)",
+      "operator": "co:smic",
+      "layer": "fabrication",
+      "kind": "logic_fab",
+      "location": {
+        "lat": 31.2037,
+        "lon": 121.5993,
+        "precision": "site",
+        "address": "No.18 Zhangjiang Road, Pudong New Area, Shanghai"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "8-inch and 12-inch logic wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:smic-fab-info",
+          "quote": "SH 200mm Fab & SH 300mm Fab Location：No.18 Zhangjiang Road, Pudong New Area, Shanghai ,China",
+          "locator": "Fab Information",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:fr-85-83416",
+          "quote": "For eleven of the seventy-seven entities--SMIC and ten related entities-- BIS imposes a license review policy of Presumption of Denial for items uniquely required for production of semiconductors at advanced technology nodes (10 nanometers and below, including extreme ultraviolet technology) and case by case for all other items.",
+          "locator": "Supplementary Information",
+          "supports": "export-control status"
+        }
+      ]
+    },
+    {
+      "id": "fac:smic-beijing",
+      "name": "SMIC Beijing 300mm fabs (Phase 1 & 2)",
+      "operator": "co:smic",
+      "layer": "fabrication",
+      "kind": "logic_fab",
+      "location": {
+        "lat": 39.793,
+        "lon": 116.505,
+        "precision": "site",
+        "address": "No.18 Wenchang Avenue, Economic Technological Development Area, Beijing"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "12-inch logic wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:smic-fab-info",
+          "quote": "BJ 300mm Fab Phase 1 & BJ 300mm Fab Phase 2 Location：No.18 Wenchang Avenue, Economic Technological Development Area, Beijing, China",
+          "locator": "Fab Information",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:fr-85-83416",
+          "quote": "This rule adds SMIC and the following ten entities related to SMIC: Semiconductor Manufacturing International (Beijing) Corporation; Semiconductor Manufacturing International (Tianjin) Corporation; Semiconductor Manufacturing International (Shenzhen) Corporation; SMIC Semiconductor Manufacturing (Shanghai) Co.",
+          "locator": "Supplementary Information",
+          "supports": "export-control status (Beijing entity listed)"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:asml-to-tsmc",
+      "from": "co:asml",
+      "to": "co:tsmc",
+      "commodity": "lithography systems (EUV and DUV)",
+      "description": "ASML supplies lithography systems to TSMC; both companies name the relationship (ASML 20-F cites TSMC's 2025 supplier award; TSMC's 2025 supplier award list names ASML). Facility-level allocation is not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "In November 2025, we were honored to receive the TSMC Supplier ‘Excellence in Green Manufacturing’ Award",
+          "locator": "Strategic report, sustainability / product energy efficiency",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "ASML - Excellent Contribution in Green Manufacturing and Excellent Production Support",
+          "locator": "Award winners list",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ],
+      "from_hint": "fac:asml-veldhoven"
+    },
+    {
+      "id": "flow:applied-materials-to-tsmc",
+      "from": "co:applied-materials",
+      "to": "co:tsmc",
+      "commodity": "wafer fabrication equipment (deposition, etch, CMP, inspection)",
+      "description": "Applied Materials is a named 2025 TSMC supplier award winner (Green Manufacturing; Technology Development and Production Support).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Applied Materials, Inc. - Excellent Contribution in Green Manufacturing and Excellent Technology Development and Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:lam-research-to-tsmc",
+      "from": "co:lam-research",
+      "to": "co:tsmc",
+      "commodity": "wafer fabrication equipment (etch, deposition)",
+      "description": "Lam Research names TSMC among its most significant customers in FY2024-FY2026; TSMC named Lam a 2025 supplier award winner.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+          "locator": "Item 1, Customers",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Lam Research Corporation - Excellent Technology Development and Production Support",
+          "locator": "Award winners table",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:lam-research-to-samsung",
+      "from": "co:lam-research",
+      "to": "co:samsung",
+      "commodity": "wafer fabrication equipment (etch, deposition)",
+      "description": "Lam Research names Samsung Electronics among its most significant customers in FY2024-FY2026. The filing does not split Samsung purchases between memory and foundry fabs.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:lam-10k-fy2026",
+          "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
+          "locator": "Item 1, Customers",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:kla-to-tsmc",
+      "from": "co:kla",
+      "to": "co:tsmc",
+      "commodity": "process control / inspection and metrology systems",
+      "description": "KLA reports TSMC as a >10% of revenue customer in FY2024, FY2025 and FY2026 (named in the customer table that follows the quoted sentence); TSMC named KLA a 2025 supplier award winner.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:kla-10k-fy2026",
+          "quote": "For the fiscal years ended June 30, 2026, 2025 and 2024, the following customers each accounted for more than 10% of total revenues, primarily in the Semiconductor Process Control segment:",
+          "locator": "Item 1, Customers; table immediately following lists Taiwan Semiconductor Manufacturing Company Limited for each year",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "KLA Corporation - Excellent Production Support",
+          "locator": "Award winners table",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:shin-etsu-to-tsmc",
+      "from": "co:shin-etsu",
+      "to": "co:tsmc",
+      "commodity": "silicon wafers",
+      "description": "Shin-Etsu Handotai (Shin-Etsu Chemical's silicon wafer subsidiary) is a named 2025 TSMC supplier award winner (Technology Development and Production Support). TSMC's 20-F says its raw wafers come from a limited number of suppliers in Taiwan, Japan, Germany and Singapore.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
+          "locator": "Item 4, Raw Materials",
+          "supports": "commodity context"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Shin-Etsu Handotai Co., Ltd. - Excellent Technology Development and Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:sumco-to-tsmc",
+      "from": "co:sumco",
+      "to": "co:tsmc",
+      "commodity": "silicon wafers",
+      "description": "SUMCO is a named 2025 TSMC supplier award winner (Green Manufacturing; Production Support).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
+          "locator": "Item 4, Raw Materials",
+          "supports": "commodity context"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "SUMCO CORPORATION - Excellent Contribution in Green Manufacturing and Excellent Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:jsr-to-tsmc",
+      "from": "co:jsr",
+      "to": "co:tsmc",
+      "commodity": "photoresists and process materials",
+      "description": "JSR is a named 2025 TSMC supplier award winner (Technology Development and Production Support). The release does not name the product.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "JSR Corporation - Excellent Technology Development and Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:screen-to-tsmc",
+      "from": "co:screen",
+      "to": "co:tsmc",
+      "commodity": "wafer cleaning / processing equipment",
+      "description": "SCREEN Semiconductor Solutions is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "SCREEN Semiconductor Solutions Co., Ltd. - Excellent Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:canon-to-tsmc",
+      "from": "co:canon",
+      "to": "co:tsmc",
+      "commodity": "lithography equipment",
+      "description": "Canon is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Canon Inc. - Excellent Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:merck-to-tsmc",
+      "from": "co:merck-kgaa",
+      "to": "co:tsmc",
+      "commodity": "semiconductor materials",
+      "description": "Merck is a named 2025 TSMC supplier award winner (Green Manufacturing). The release does not name the product.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Merck - Excellent Contribution in Green Manufacturing",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:resonac-to-tsmc",
+      "from": "co:resonac",
+      "to": "co:tsmc",
+      "commodity": "semiconductor materials / chemicals",
+      "description": "Resonac is a named 2025 TSMC supplier award winner (Technology Development and Production Support). The release does not name the product.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "Resonac Corporation - Excellent Technology Development and Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:kokusai-electric-to-tsmc",
+      "from": "co:kokusai-electric",
+      "to": "co:tsmc",
+      "commodity": "deposition equipment",
+      "description": "Kokusai Electric is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "KOKUSAI ELECTRIC - Excellent Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:ebara-to-tsmc",
+      "from": "co:ebara",
+      "to": "co:tsmc",
+      "commodity": "CMP systems / vacuum pumps",
+      "description": "EBARA is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "EBARA CORPORATION - Excellent Production Support",
+          "locator": "2025 TSMC Excellent Performance Award winners table",
+          "supports": "relationship (named TSMC supplier)"
+        },
+        {
+          "source": "src:tsmc-pr-2025-supply-chain-forum",
+          "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
+          "locator": "Paragraph 1",
+          "supports": "relationship context (supplier to TSMC)"
+        }
+      ]
+    },
+    {
+      "id": "flow:asml-to-intel",
+      "from": "co:asml",
+      "to": "co:intel",
+      "commodity": "EUV lithography systems",
+      "description": "Intel's 10-K names ASML as the sole supplier of the EUV tools Intel deploys for Intel 4, Intel 3, Intel 18A and future nodes.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+          "locator": "Item 1A Risk Factors, supply chain",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:asml-to-intel-oregon",
+      "from": "co:asml",
+      "to": "fac:intel-oregon",
+      "commodity": "EUV lithography systems",
+      "description": "EUV tools at Intel's Oregon fabs, which ramp Intel 18A.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "ASML role"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "fab node"
+        }
+      ],
+      "inference_note": "ASML is the sole supplier of the EUV tools Intel deploys for Intel 18A [Intel 10-K]; Oregon fabs are ramping Intel 18A [Intel 10-K] => ASML EUV tools at Oregon. Intel does not name the site in the ASML sentence."
+    },
+    {
+      "id": "flow:asml-to-intel-arizona",
+      "from": "co:asml",
+      "to": "fac:intel-arizona",
+      "commodity": "EUV lithography systems",
+      "description": "EUV tools at Intel's Arizona fabs, which ramp Intel 18A.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "ASML role"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "fab node"
+        }
+      ],
+      "inference_note": "ASML is the sole supplier of the EUV tools Intel deploys for Intel 18A [Intel 10-K]; Arizona fabs are ramping Intel 18A [Intel 10-K] => ASML EUV tools at Arizona."
+    },
+    {
+      "id": "flow:asml-to-intel-ireland",
+      "from": "co:asml",
+      "to": "fac:intel-ireland",
+      "commodity": "EUV lithography systems",
+      "description": "EUV tools at Intel's Ireland fabs, which run Intel 4 and Intel 3.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "ASML role"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1, Manufacturing",
+          "supports": "fab node"
+        }
+      ],
+      "inference_note": "ASML is the sole supplier of the EUV tools Intel deploys for Intel 4 and Intel 3 [Intel 10-K]; Ireland fabs run Intel 4 and Intel 3 [Intel 10-K] => ASML EUV tools at Ireland."
+    },
+    {
+      "id": "flow:soitec-to-globalfoundries",
+      "from": "co:soitec",
+      "to": "co:globalfoundries",
+      "commodity": "300mm SOI wafers",
+      "description": "GlobalFoundries names Soitec as its primary 300mm SOI wafer supplier and largest principal wafer supplier (about 71% of 2025 SOI wafer spend).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "If we are unable to obtain 300mm SOI wafers from Soitec S.A. (“Soitec”), our primary supplier, for any reason, we expect that it would take us an extended period to find a replacement supplier on commercially acceptable terms.",
+          "locator": "Item 3.D Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "In 2025, Soitec accounted for approximately 71% of our SOI wafer spend.",
+          "locator": "Item 3.D Risk Factors",
+          "supports": "volume share"
+        },
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "In order to secure a reliable and flexible supply of high-quality wafers, we have entered into multiple long-term agreements with the majority of our principal suppliers, the largest of which is Soitec.",
+          "locator": "Item 4, Raw Materials",
+          "supports": "relationship, long-term agreement"
+        }
+      ]
+    }
+  ],
+  "financial_links": [
+    {
+      "id": "fin:tsmc-customer-concentration-2025",
+      "from": "co:tsmc",
+      "to": "co:tsmc",
+      "kind": "revenue_concentration",
+      "date": "2026-04-16",
+      "description": "TSMC 20-F: largest customer = 19% of 2025 net revenue (22% in 2024), second largest = 17% (12% in 2024), ten largest = 78% (76%). Customers are not named, so this is recorded as a self-referencing disclosure on TSMC; the paying customers are unidentified.",
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "While we generate revenue from hundreds of customers worldwide, our ten largest customers in 2023, 2024 and 2025 accounted for approximately, 70%, 76% and 78% of our net revenue in the respective year. Our largest customer in 2023, 2024 and 2025 accounted for 25%, 22% and 19% of our net revenue in the respective year. Our second largest customer in 2023, 2024 and 2025 accounted for 11%, 12%, and 17% of our net revenue in the respective year.",
+          "locator": "Item 3.D Risk Factors",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:intel-customer-concentration-2025",
+      "from": "co:intel",
+      "to": "co:intel",
+      "kind": "revenue_concentration",
+      "date": "2026-01-23",
+      "description": "Intel 10-K: three largest customers = 43% of 2025 net revenue (45% in 2024, 40% in 2023), mainly Intel Products sales. Customers are not named in the quoted passage; recorded as a self-referencing disclosure.",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "Collectively, our three largest customers accounted for 43% of our net revenue in 2025, 45% of our net revenue in 2024 and 40% of our net revenue in 2023.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:globalfoundries-customer-concentration-2025",
+      "from": "co:globalfoundries",
+      "to": "co:globalfoundries",
+      "kind": "revenue_concentration",
+      "date": "2026-02-27",
+      "description": "GlobalFoundries 20-F: ten largest customers = ~63% of 2025 wafer shipment volume (65% in 2024, 72% in 2023). Measured by volume, not revenue. Customers not named; self-referencing disclosure.",
+      "evidence": [
+        {
+          "source": "src:gfs-20f-2025",
+          "quote": "Our ten largest customers in 2025, 2024 and 2023 accounted for approximately 63%, 65% and 72% of our wafer shipment volume, respectively.",
+          "locator": "Item 3.D Risk Factors",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:smic-customer-concentration-2025",
+      "from": "co:smic",
+      "to": "co:smic",
+      "kind": "revenue_concentration",
+      "date": "2026-04-08",
+      "description": "SMIC 2025 annual report: largest customer = 8.0% of revenue, five largest = 35.8%. Customers not named; self-referencing disclosure.",
+      "evidence": [
+        {
+          "source": "src:smic-ar-2025",
+          "quote": "During the Reporting Period, sales to the largest customer and the five largest customers accounted for 8.0% and 35.8% of the revenue for the year, respectively.",
+          "locator": "Section 4, Major customers and suppliers",
+          "supports": "amount"
+        }
+      ]
+    }
+  ],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "Identity of TSMC's, Intel's, GF's and SMIC's largest customers",
+      "why": "The filings give concentration percentages but do not name the customers in the quoted passages. Pairing them with a customer would be speculation.",
+      "would_need": "A customer-side filing that names the foundry and a matching revenue share, or a 20-F that names the customer."
+    },
+    {
+      "topic": "Per-fab capacity (wafers/month) for TSMC fabs",
+      "why": "TSMC's 20-F gives only company-wide annual capacity (>17 million 12-inch equivalent wafers in 2025), and its GIGAFAB page gives only a combined >13 million figure for the six GIGAFABs.",
+      "would_need": "A TSMC disclosure with per-fab capacity (not published in the 20-F or on the GIGAFAB page)."
+    },
+    {
+      "topic": "Facility-level allocation of equipment and wafer supply to specific TSMC fabs",
+      "why": "Supplier filings and TSMC's supplier award release name TSMC at company level only. TSMC's 20-F does not mention EUV or name tool suppliers.",
+      "would_need": "Import records, supplier disclosures naming specific fabs, or TSMC statements tying EUV to specific fabs and nodes."
+    },
+    {
+      "topic": "Intel fab site addresses (Hillsboro D1X, Chandler Fab 52, Leixlip, Kiryat Gat, New Albany)",
+      "why": "The 10-K names states or countries only. Precise site names come from Intel newsroom pages, which were unreachable here (redirects / socket errors).",
+      "would_need": "Reachable Intel newsroom or permit documents naming each site."
+    }
+  ]
+}

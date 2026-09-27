@@ -1,0 +1,2644 @@
+{
+  "layer": "power",
+  "analyst": "power-analyst (Claude)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:ceg-crane-microsoft-ppa-release",
+      "title": "Constellation to Launch Crane Clean Energy Center, Restoring Jobs and Carbon-Free Power to The Grid",
+      "publisher": "Constellation Energy Corporation",
+      "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-09-20",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:ceg-meta-clinton-release",
+      "title": "Constellation, Meta Sign 20-Year Deal for Clean, Reliable Nuclear Energy in Illinois",
+      "publisher": "Constellation Energy Corporation",
+      "url": "https://www.constellationenergy.com/news/2025/constellation-meta-sign-20-year-deal-for-clean-reliable-nuclear-energy-in-illinois.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-03",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:ceg-10k-2025",
+      "title": "Constellation Energy Corp. Form 10-K for fiscal year 2025",
+      "publisher": "Constellation Energy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-24",
+      "accessed": "2026-09-27",
+      "identifier": "0001868275-26-000032"
+    },
+    {
+      "id": "src:doe-crane-loan",
+      "title": "Energy Department Closes Loan to Restart Nuclear Power Plant in Pennsylvania",
+      "publisher": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/articles/energy-department-closes-loan-restart-nuclear-power-plant-pennsylvania",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-11-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:talen-8k-2025-06-11",
+      "title": "Talen Energy Corp. Form 8-K Exhibit 99.1: Talen Energy Expands Nuclear Energy Relationship with Amazon",
+      "publisher": "Talen Energy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025030559/a20250611pressreleasebusin.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-06-11",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-25-030559"
+    },
+    {
+      "id": "src:talen-10k-2025",
+      "title": "Talen Energy Corp. Form 10-K for fiscal year 2025",
+      "publisher": "Talen Energy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001622536-26-000017"
+    },
+    {
+      "id": "src:nee-google-duane-arnold-release",
+      "title": "NextEra Energy and Google Announce New Collaboration to Accelerate Nuclear Energy Deployment in the U.S.",
+      "publisher": "NextEra Energy, Inc.",
+      "url": "https://newsroom.nexteraenergy.com/NextEra-Energy-and-Google-Announce-New-Collaboration-to-Accelerate-Nuclear-Energy-Deployment-in-the-U-S",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:doe-duane-arnold-loan",
+      "title": "Energy Department Closes $1.9 Billion Loan to Restart Duane Arnold Nuclear Plant",
+      "publisher": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/articles/energy-department-closes-19-billion-loan-restart-duane-arnold-nuclear-plant",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2026-09-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:kairos-google-tva-release",
+      "title": "Google, Kairos Power, TVA Collaborate to Meet America's Growing Energy Needs",
+      "publisher": "Kairos Power LLC",
+      "url": "https://www.kairospower.com/updates/google-kairos-power-tva-collaborate-to-meet-americas-growing-energy-needs",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nrc-hermes-cp",
+      "title": "Kairos Power LLC, Docket No. 50-7513, Hermes Test Reactor Construction Permit No. CPTR-6",
+      "publisher": "U.S. Nuclear Regulatory Commission",
+      "url": "https://www.nrc.gov/docs/ML2333/ML23338A258.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2023-12-14",
+      "accessed": "2026-09-27",
+      "identifier": "NRC Docket 50-7513; ADAMS ML23338A258"
+    },
+    {
+      "id": "src:xe-10q-2026q2",
+      "title": "X-Energy, Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "X-Energy, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2088896/000119312526347752/xe-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-13",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-347752"
+    },
+    {
+      "id": "src:vst-8k-2026-01-09",
+      "title": "Vistra Corp. Form 8-K (Item 7.01): 20-year PPAs with Meta Platforms",
+      "publisher": "Vistra Corp.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-01-09",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-008508"
+    },
+    {
+      "id": "src:meta-nuclear-2026",
+      "title": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:lpsc-order-u-37425",
+      "title": "LPSC Order No. U-37425: Entergy Louisiana, LLC, ex parte (generation and transmission for single customer project in North Louisiana)",
+      "publisher": "Louisiana Public Service Commission",
+      "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/ViewFile?fileId=nDWn/juc2+A%3D",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-08-20",
+      "accessed": "2026-09-27",
+      "identifier": "LPSC Docket U-37425"
+    },
+    {
+      "id": "src:etr-10k-2025",
+      "title": "Entergy Corporation Form 10-K for fiscal year 2025",
+      "publisher": "Entergy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-19",
+      "accessed": "2026-09-27",
+      "identifier": "0000065984-26-000174"
+    },
+    {
+      "id": "src:etr-10q-2026q2",
+      "title": "Entergy Corporation Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Entergy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000283/etr-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-07-31",
+      "accessed": "2026-09-27",
+      "identifier": "0000065984-26-000283"
+    },
+    {
+      "id": "src:naacp-appeal-shelby-01156",
+      "title": "Appeal of Air Permit No. 01156-01PC for CTC Property LLC, filed with the Memphis and Shelby County Air Pollution Control Board by NAACP and Young, Gifted & Green (copy hosted by Ars Technica)",
+      "publisher": "NAACP / Young, Gifted & Green (appellants), Memphis and Shelby County Air Pollution Control Board",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/NAACP-and-YGGs-xAI-Air-Permit-Appeal-7-15-2025.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-07-15",
+      "accessed": "2026-09-27",
+      "identifier": "Shelby County Health Department Air Permit No. 01156-01PC"
+    },
+    {
+      "id": "src:gev-8k-2026q2-release",
+      "title": "GE Vernova Inc. Form 8-K Exhibit 99: GE Vernova reports second quarter 2026 financial results",
+      "publisher": "GE Vernova Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-07-22",
+      "accessed": "2026-09-27",
+      "identifier": "0001996810-26-000147"
+    },
+    {
+      "id": "src:gev-10k-2025",
+      "title": "GE Vernova Inc. Form 10-K for fiscal year 2025",
+      "publisher": "GE Vernova Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-01-29",
+      "accessed": "2026-09-27",
+      "identifier": "0001996810-26-000015"
+    },
+    {
+      "id": "src:gev-greenville-release",
+      "title": "GE Vernova announces more than $160 million investment in Greenville facility",
+      "publisher": "GE Vernova Inc.",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-announces-more-160-million-investment-greenville-facility",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-01-29",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:gev-crusoe-release",
+      "title": "GE Vernova and Crusoe announce major 29-unit aeroderivative gas turbine deal to deliver power to AI data centers",
+      "publisher": "GE Vernova Inc.",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-crusoe-announce-major-29-unit-aeroderivative-gas-turbine-deliver-ai-data-centers",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-07-22",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:siemens-energy-ar-2025",
+      "title": "Siemens Energy Annual Report 2025",
+      "publisher": "Siemens Energy AG",
+      "url": "https://assets.siemens-energy.com/dam/32b27e9a-af91-4915-8b51-b3af012d0d98/A-Siemens_Energy_Annual_Report_2025-pdf_Original%20file.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2025-12-04",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tceq-abilene-dc1-177263",
+      "title": "TCEQ Electric Generating Unit Standard Permit Technical Review, Abilene DC 1, LLC (Longhorn Data Center), Registration No. 177263, Project 387309",
+      "publisher": "Texas Commission on Environmental Quality",
+      "url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&dID=8600163&Rendition=Web",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-01-22",
+      "accessed": "2026-09-27",
+      "identifier": "TCEQ Standard Permit Registration 177263; RN112029079"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:constellation",
+      "name": "Constellation Energy Corporation",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:CEG"
+      ],
+      "sec_cik": "1868275",
+      "hq": {
+        "lat": 39.2847,
+        "lon": -76.6205,
+        "precision": "city",
+        "address": "Baltimore, MD"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:ceg-10k-2025",
+          "quote": "The restart is supported by a 20-year PPA with Microsoft to purchase the output generated from the renewed plant.",
+          "locator": "Item 7 MD&A, 'Crane Clean Energy Center'",
+          "supports": "relationship, term"
+        },
+        {
+          "source": "src:ceg-10k-2025",
+          "quote": "In June 2025, we signed a 20-year PPA with Meta Platforms, Inc. (Meta) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with emissions-free nuclear energy.",
+          "locator": "Item 7 MD&A, 'Clinton Clean Energy Center'",
+          "supports": "relationship, term"
+        }
+      ]
+    },
+    {
+      "id": "co:microsoft",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:MSFT"
+      ],
+      "sec_cik": "789019",
+      "hq": {
+        "lat": 47.674,
+        "lon": -122.1215,
+        "precision": "city",
+        "address": "Redmond, WA"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:ceg-crane-microsoft-ppa-release",
+          "quote": "Under the agreement, Microsoft will purchase energy from the renewed plant as part of its goal to help match the power its data centers in PJM use with carbon-free energy.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, commodity"
+        }
+      ]
+    },
+    {
+      "id": "co:meta",
+      "name": "Meta Platforms, Inc.",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:META"
+      ],
+      "sec_cik": "1326801",
+      "hq": {
+        "lat": 37.4848,
+        "lon": -122.1484,
+        "precision": "city",
+        "address": "Menlo Park, CA"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:ceg-meta-clinton-release",
+          "quote": "Constellation (Nasdaq: CEG) and Meta have signed a 20-year power purchase agreement (PPA) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with 1,121 megawatts of emissions-free nuclear energy.",
+          "locator": "Press release, first paragraph (CLINTON, IL – JUNE 3, 2025)",
+          "supports": "relationship, term, capacity"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "The projects we’re announcing today will deliver power to the grids that support our operations, including our Prometheus supercluster in New Albany, Ohio.",
+          "locator": "Meta Newsroom post, Takeaways/intro",
+          "supports": "destination"
+        }
+      ]
+    },
+    {
+      "id": "co:talen",
+      "name": "Talen Energy Corporation",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:TLN"
+      ],
+      "sec_cik": "1622536",
+      "hq": {
+        "lat": 29.7604,
+        "lon": -95.3698,
+        "precision": "city",
+        "address": "Houston, TX"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "in June 2025, we and AWS entered into an expanded power purchase agreement for the long-term, fixed-price supply of up to 1,920 MW of power annually from Susquehanna to the adjacent AWS data center campus through 2042.",
+          "locator": "Item 1. Business, overview",
+          "supports": "relationship, volume, term"
+        },
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "Susquehanna. A nuclear-powered generation facility located near Berwick, Pennsylvania. A subsidiary of Talen Energy Supply operates and owns a 90% undivided interest in Susquehanna.",
+          "locator": "Glossary of Terms and Abbreviations",
+          "supports": "existence, location, ownership"
+        }
+      ]
+    },
+    {
+      "id": "co:amazon",
+      "name": "Amazon.com, Inc. (Amazon Web Services)",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:AMZN"
+      ],
+      "sec_cik": "1018724",
+      "hq": {
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "precision": "city",
+        "address": "Seattle, WA"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of a new power purchase agreement (“PPA”), Talen will supply electricity to Amazon for operations that support AI and other cloud technologies at Amazon’s data center campus adjacent to Susquehanna, with the ability to deliver to other sites throughout Pennsylvania.",
+          "locator": "Exhibit 99.1, first paragraph",
+          "supports": "relationship, destination"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "relationship, capacity"
+        }
+      ]
+    },
+    {
+      "id": "co:nextera",
+      "name": "NextEra Energy, Inc.",
+      "country": "US",
+      "tickers": [
+        "NYSE:NEE"
+      ],
+      "sec_cik": "753308",
+      "hq": {
+        "lat": 26.8798,
+        "lon": -80.0534,
+        "precision": "city",
+        "address": "Juno Beach, FL"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "Once operational, Google will purchase power from the 615-MW plant as a 24/7 carbon-free energy source to help power Google’s growing cloud and AI infrastructure in Iowa",
+          "locator": "Press release, second paragraph",
+          "supports": "relationship, capacity, destination"
+        },
+        {
+          "source": "src:doe-duane-arnold-loan",
+          "quote": "The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF) today announced the financial close of a loan of up to $1.9 billion to NextEra Energy to help finance the restart of the Duane Arnold Energy Center in Linn County, Iowa.",
+          "locator": "DOE release, first paragraph (September 8, 2026)",
+          "supports": "amount, relationship, location"
+        }
+      ]
+    },
+    {
+      "id": "co:alphabet",
+      "name": "Alphabet Inc. (Google)",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:GOOGL"
+      ],
+      "sec_cik": "1652044",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "city",
+        "address": "Mountain View, CA"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "Once operational, Google will purchase power from the 615-MW plant as a 24/7 carbon-free energy source to help power Google’s growing cloud and AI infrastructure in Iowa",
+          "locator": "Press release, second paragraph",
+          "supports": "relationship, capacity, destination"
+        },
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through this agreement, Google will receive the clean energy attributes from the plant through the TVA system to further decarbonize its data center operations in Montgomery County, Tennessee, and Jackson County, Alabama, and support future growth in the region.",
+          "locator": "Press release, second paragraph",
+          "supports": "relationship, destination"
+        }
+      ]
+    },
+    {
+      "id": "co:kairos",
+      "name": "Kairos Power LLC",
+      "country": "US",
+      "hq": {
+        "lat": 37.7652,
+        "lon": -122.2416,
+        "precision": "city",
+        "address": "Alameda, CA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:nrc-hermes-cp",
+          "quote": "The utilization facility, known as Hermes, owned by Kairos Power, LLC, will be located at the site of the former Oak Ridge Gaseous Diffusion Plant, within the East Tennessee Technology Park in Oak Ridge, Tennessee, and is described in the application.",
+          "locator": "Construction Permit No. CPTR-6, finding 2",
+          "supports": "existence, location, ownership"
+        },
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through a new power purchase agreement (PPA) between Kairos Power and TVA, Kairos Power’s Hermes 2 Plant in Oak Ridge, Tenn., will deliver up to 50 megawatts (MW) of reliable, 24/7 energy to the TVA grid that powers Google data centers in Tennessee and Alabama.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, capacity, location"
+        }
+      ]
+    },
+    {
+      "id": "co:tva",
+      "name": "Tennessee Valley Authority",
+      "country": "US",
+      "hq": {
+        "lat": 35.9606,
+        "lon": -83.9207,
+        "precision": "city",
+        "address": "Knoxville, TN"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through a new power purchase agreement (PPA) between Kairos Power and TVA, Kairos Power’s Hermes 2 Plant in Oak Ridge, Tenn., will deliver up to 50 megawatts (MW) of reliable, 24/7 energy to the TVA grid that powers Google data centers in Tennessee and Alabama.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, capacity, location"
+        }
+      ]
+    },
+    {
+      "id": "co:x-energy",
+      "name": "X-Energy, Inc.",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:XE"
+      ],
+      "sec_cik": "2088896",
+      "hq": {
+        "lat": 39.084,
+        "lon": -77.1528,
+        "precision": "city",
+        "address": "Rockville, MD"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "The Company was formed as a Delaware corporation on September 18, 2025, and is headquartered in Rockville, Maryland.",
+          "locator": "Notes to financial statements, Note 1",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "The first deployment under this 5 GWe total potential target is a project with Energy Northwest in central Washington.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "existence, location (region), relationship"
+        }
+      ]
+    },
+    {
+      "id": "co:energy-northwest",
+      "name": "Energy Northwest",
+      "country": "US",
+      "hq": {
+        "lat": 46.2856,
+        "lon": -119.2845,
+        "precision": "region",
+        "address": "Washington State (Richland area)"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "relationship, capacity"
+        }
+      ]
+    },
+    {
+      "id": "co:vistra",
+      "name": "Vistra Corp.",
+      "country": "US",
+      "tickers": [
+        "NYSE:VST"
+      ],
+      "sec_cik": "1692819",
+      "hq": {
+        "lat": 32.814,
+        "lon": -96.9489,
+        "precision": "city",
+        "address": "Irving, TX"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "In January 2026, Vistra Corp. (“Vistra” or the “Company”) announced that it has entered into 20-year power purchase agreements (“PPAs”) with Meta Platforms, Inc. (“Meta”), pursuant to which the Company has agreed to supply Meta with a total of 2,609 MW of carbon-free power and capacity from the Company’s PJM nuclear power plants as follows:",
+          "locator": "Item 7.01 Regulation FD Disclosure",
+          "supports": "relationship, term, volume"
+        }
+      ]
+    },
+    {
+      "id": "co:oklo",
+      "name": "Oklo Inc.",
+      "country": "US",
+      "tickers": [
+        "NYSE:OKLO"
+      ],
+      "hq": {
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "precision": "city",
+        "address": "Santa Clara, CA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Our partnership with Oklo helps advance the development of entirely new nuclear energy in Pike County, Ohio. This advanced nuclear technology campus — which may come online as early as 2030 — is poised to add up to 1.2 GW of clean baseload power directly into the PJM market and support our operations in the region.",
+          "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+          "supports": "existence, location, capacity, relationship"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "“Meta’s funding commitment in support of early procurement and development activity is a major step in moving advanced nuclear forward,” said Jacob DeWitte, Oklo’s co-founder and CEO.",
+          "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+          "supports": "relationship (funding)"
+        }
+      ]
+    },
+    {
+      "id": "co:terrapower",
+      "name": "TerraPower, LLC",
+      "country": "US",
+      "hq": {
+        "lat": 47.6101,
+        "lon": -122.2015,
+        "precision": "city",
+        "address": "Bellevue, WA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Our agreement with TerraPower will provide funding that supports the development of two new Natrium® units capable of generating up to 690 MW of firm power with delivery as early as 2032.",
+          "locator": "Section 'TerraPower: Investing in Advanced Nuclear Technology'",
+          "supports": "relationship, capacity"
+        }
+      ]
+    },
+    {
+      "id": "co:entergy",
+      "name": "Entergy Corporation (Entergy Louisiana, LLC)",
+      "country": "US",
+      "tickers": [
+        "NYSE:ETR"
+      ],
+      "sec_cik": "65984",
+      "hq": {
+        "lat": 29.9511,
+        "lon": -90.0715,
+        "precision": "city",
+        "address": "New Orleans, LA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In October 2024, Entergy Louisiana filed an application with the LPSC seeking approval of a variety of generation and transmission resources proposed in connection with establishing service to a new data center to be developed by a subsidiary of Meta Platforms, Inc. in north Louisiana, for which an electric service agreement has been executed.",
+          "locator": "Item 7 MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "approval by the Commission for the Company to construct the generation and transmission resources needed to serve significant new load associated with a data center being developed by Meta Platforms, Inc., through its subsidiary, Laidley LLC (the “Customer”), in Richland Parish, Louisiana (the “Project”).",
+          "locator": "Order No. U-37425, Section I, Overview and Procedural History",
+          "supports": "relationship, destination"
+        }
+      ]
+    },
+    {
+      "id": "co:xai",
+      "name": "xAI (X.AI Corp.)",
+      "country": "US",
+      "hq": {
+        "lat": 37.4419,
+        "lon": -122.143,
+        "precision": "city",
+        "address": "Palo Alto, CA"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "The Department suggests that perhaps the temporary combustion turbines on xAI’s Paul R. Lowry site will be removed by the end of July 2025.",
+          "locator": "Appeal, Section on justiciability",
+          "supports": "relationship (xAI site), location"
+        }
+      ]
+    },
+    {
+      "id": "co:ge-vernova",
+      "name": "GE Vernova Inc.",
+      "country": "US",
+      "tickers": [
+        "NYSE:GEV"
+      ],
+      "sec_cik": "1996810",
+      "hq": {
+        "lat": 42.3736,
+        "lon": -71.1097,
+        "precision": "city",
+        "address": "Cambridge, MA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:gev-crusoe-release",
+          "quote": "GE Vernova is headquartered in Cambridge, Massachusetts, U.S., with approximately 85,000 employees across approximately 100 countries around the world.",
+          "locator": "About GE Vernova",
+          "supports": "hq"
+        },
+        {
+          "source": "src:gev-8k-2026q2-release",
+          "quote": "Gas Power equipment backlog and slot reservation agreements grew from 100 to 116 GW; now anticipate reaching at least 125 GW by year-end 2026",
+          "locator": "Exhibit 99, Second Quarter 2026 Highlights",
+          "supports": "bottleneck (gas turbine backlog)"
+        },
+        {
+          "source": "src:gev-8k-2026q2-release",
+          "quote": "To meet this demand, we remain on track to deliver 20 GW of annual gas turbine output in the third quarter of 2026, with 24 GW in 2028, and we are implementing actions to produce 30 GW in 2030 .",
+          "locator": "Exhibit 99, CEO quote",
+          "supports": "capacity (annual output)"
+        },
+        {
+          "source": "src:gev-10k-2025",
+          "quote": "serving as a fundamental source of reliable and dispatchable power to support industrialization, grid stability needs, and rising electricity demand from hyperscalers and data centers .",
+          "locator": "Item 7 MD&A, Power segment",
+          "supports": "demand driver"
+        }
+      ]
+    },
+    {
+      "id": "co:siemens-energy",
+      "name": "Siemens Energy AG",
+      "country": "DE",
+      "tickers": [
+        "XETRA:ENR"
+      ],
+      "hq": {
+        "lat": 48.1351,
+        "lon": 11.582,
+        "precision": "city",
+        "address": "Munich, Germany"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:siemens-energy-ar-2025",
+          "quote": "Operators of data centers are increasingly becoming key customers for GS’ products and services across its entire portfolio of gas and steam turbines.",
+          "locator": "Combined Management Report, Business Areas — Gas Services",
+          "supports": "relationship (data centers as turbine customers)"
+        },
+        {
+          "source": "src:siemens-energy-ar-2025",
+          "quote": "With an order intake of €58.9 billion, our order backlog reached a new record of €138 billion,",
+          "locator": "Letter to shareholders",
+          "supports": "bottleneck (backlog)"
+        },
+        {
+          "source": "src:siemens-energy-ar-2025",
+          "quote": "The accelerated demand for electricity from data centers contributed significantly to growth, particularly in the United States, with favorable trends also observed in other regions.",
+          "locator": "Combined Management Report, Energy market",
+          "supports": "demand driver"
+        },
+        {
+          "source": "src:siemens-energy-ar-2025",
+          "quote": "Around 30% of the funds were allocated to capacity expansions in the area of large gas turbines (particularly to prepare for increased order volumes and to secure market share)",
+          "locator": "Combined Management Report, Investments — GS",
+          "supports": "capacity expansion"
+        }
+      ]
+    },
+    {
+      "id": "co:crusoe",
+      "name": "Crusoe Energy Systems, LLC",
+      "country": "US",
+      "hq": {
+        "lat": 39.7392,
+        "lon": -104.9903,
+        "precision": "city",
+        "address": "Denver, CO"
+      },
+      "layers": [
+        "datacenter",
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:gev-crusoe-release",
+          "quote": "GE Vernova Inc. (NYSE: GEV) and Crusoe, the industry’s first vertically integrated AI infrastructure provider, today announced a significant deal to deliver 29 units of GE Vernova’s breakthrough LM2500XPRESS aeroderivative gas turbine packages to Crusoe AI data centers.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, volume"
+        },
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "Abilene DC 1, LLC (Abilene DC) dba Crusoe Energy Systems, LLC (Crusoe), has submitted the following modification application for a standard permit for electric generating units for the Longhorn Data Center in Abilene within Taylor County, Texas.",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "existence, operator, location"
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:constellation-crane",
+      "name": "Crane Clean Energy Center (former Three Mile Island Unit 1)",
+      "operator": "co:constellation",
+      "layer": "power",
+      "kind": "nuclear_plant",
+      "location": {
+        "lat": 40.1533,
+        "lon": -76.725,
+        "precision": "site",
+        "address": "Three Mile Island, Susquehanna River, Londonderry Township, Dauphin County, PA"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "start_year": 2028,
+      "capacity": {
+        "value": 835,
+        "unit": "MW",
+        "as_of": "2025-11-18",
+        "note": "Restart capacity per DOE; NRC restart approval pending at time of source.",
+        "evidence": [
+          {
+            "source": "src:doe-crane-loan",
+            "quote": "The $1 billion loan to Constellation Energy Generation, LLC (Constellation) will help finance the Crane Clean Energy Center, an 835 MW plant located on the Susquehanna River in Londonderry Township, Pennsylvania.",
+            "locator": "DOE release, first paragraph",
+            "supports": "existence, location, capacity, amount"
+          }
+        ]
+      },
+      "products": [
+        "electricity (nuclear, PJM)"
+      ],
+      "evidence": [
+        {
+          "source": "src:doe-crane-loan",
+          "quote": "The $1 billion loan to Constellation Energy Generation, LLC (Constellation) will help finance the Crane Clean Energy Center, an 835 MW plant located on the Susquehanna River in Londonderry Township, Pennsylvania.",
+          "locator": "DOE release, first paragraph",
+          "supports": "existence, location, capacity, amount"
+        },
+        {
+          "source": "src:ceg-crane-microsoft-ppa-release",
+          "quote": "Constellation (Nasdaq: CEG) announced today the signing of a 20-year power purchase agreement with Microsoft that will pave the way for the launch of the Crane Clean Energy Center (CCEC) and restart of Three Mile Island Unit 1",
+          "locator": "Press release, first paragraph (Londonderry, PA, Sept 20, 2024)",
+          "supports": "relationship, term"
+        },
+        {
+          "source": "src:ceg-crane-microsoft-ppa-release",
+          "quote": "The CCEC is expected to be online in 2028.",
+          "locator": "Press release body",
+          "supports": "status, start_year"
+        }
+      ]
+    },
+    {
+      "id": "fac:constellation-clinton",
+      "name": "Clinton Clean Energy Center",
+      "operator": "co:constellation",
+      "layer": "power",
+      "kind": "nuclear_plant",
+      "location": {
+        "lat": 40.1719,
+        "lon": -88.8347,
+        "precision": "city",
+        "address": "Clinton, IL (DeWitt County)"
+      },
+      "country": "US",
+      "status": "operational",
+      "capacity": {
+        "value": 1121,
+        "unit": "MW",
+        "as_of": "2025-06-03",
+        "note": "Output covered by the Meta PPA, including a 30 MW uprate.",
+        "evidence": [
+          {
+            "source": "src:ceg-meta-clinton-release",
+            "quote": "Constellation (Nasdaq: CEG) and Meta have signed a 20-year power purchase agreement (PPA) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with 1,121 megawatts of emissions-free nuclear energy.",
+            "locator": "Press release, first paragraph (CLINTON, IL – JUNE 3, 2025)",
+            "supports": "relationship, term, capacity"
+          }
+        ]
+      },
+      "products": [
+        "electricity (nuclear, MISO)"
+      ],
+      "evidence": [
+        {
+          "source": "src:ceg-meta-clinton-release",
+          "quote": "CLINTON, IL – JUNE 3, 2025 – Constellation (Nasdaq: CEG) and Meta have signed",
+          "locator": "Press release dateline",
+          "supports": "location (city)"
+        },
+        {
+          "source": "src:ceg-meta-clinton-release",
+          "quote": "Constellation (Nasdaq: CEG) and Meta have signed a 20-year power purchase agreement (PPA) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with 1,121 megawatts of emissions-free nuclear energy.",
+          "locator": "Press release, first paragraph (CLINTON, IL – JUNE 3, 2025)",
+          "supports": "relationship, term, capacity"
+        },
+        {
+          "source": "src:ceg-10k-2025",
+          "quote": "In June 2025, we signed a 20-year PPA with Meta Platforms, Inc. (Meta) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with emissions-free nuclear energy.",
+          "locator": "Item 7 MD&A, 'Clinton Clean Energy Center'",
+          "supports": "relationship, term"
+        }
+      ]
+    },
+    {
+      "id": "fac:talen-susquehanna",
+      "name": "Susquehanna Steam Electric Station",
+      "operator": "co:talen",
+      "layer": "power",
+      "kind": "nuclear_plant",
+      "location": {
+        "lat": 41.0892,
+        "lon": -76.1464,
+        "precision": "city",
+        "address": "near Berwick (Salem Township), Luzerne County, PA"
+      },
+      "country": "US",
+      "status": "operational",
+      "capacity": {
+        "value": 2494,
+        "unit": "MW",
+        "as_of": "2025-12-31",
+        "note": "Total plant capacity; Talen owns 90% (2,245 MW).",
+        "evidence": [
+          {
+            "source": "src:talen-10k-2025",
+            "quote": "PJM Susquehanna (b) 2,494 90 % 2,245 Nuclear Baseload PA",
+            "locator": "Item 2. Properties, 'Generation Fleet as of December 31, 2025' table",
+            "supports": "capacity"
+          }
+        ]
+      },
+      "products": [
+        "electricity (nuclear, PJM)"
+      ],
+      "evidence": [
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "Susquehanna. A nuclear-powered generation facility located near Berwick, Pennsylvania. A subsidiary of Talen Energy Supply operates and owns a 90% undivided interest in Susquehanna.",
+          "locator": "Glossary of Terms and Abbreviations",
+          "supports": "existence, location, ownership"
+        },
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of a new power purchase agreement (“PPA”), Talen will supply electricity to Amazon for operations that support AI and other cloud technologies at Amazon’s data center campus adjacent to Susquehanna, with the ability to deliver to other sites throughout Pennsylvania.",
+          "locator": "Exhibit 99.1, first paragraph",
+          "supports": "relationship, destination"
+        },
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "in November 2024, the FERC issued an order denying an Amended Interconnection Service Agreement (the “ISA Amendment”) between PJM, a subsidiary of PPL Corporation, and Susquehanna that would have permitted Susquehanna to decrease by up to 480 MW the amount of power it would have otherwise supplied to the grid and instead supply that power directly to AWS in a co-located “behind-the-meter” arrangement.",
+          "locator": "Item 3. Legal Proceedings, 'Susquehanna ISA Amendment'",
+          "supports": "regulatory history (FERC Docket ER24-2172)"
+        }
+      ]
+    },
+    {
+      "id": "fac:nextera-duane-arnold",
+      "name": "Duane Arnold Energy Center",
+      "operator": "co:nextera",
+      "layer": "power",
+      "kind": "nuclear_plant",
+      "location": {
+        "lat": 42.1006,
+        "lon": -91.7772,
+        "precision": "city",
+        "address": "Palo, Linn County, IA"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "start_year": 2029,
+      "capacity": {
+        "value": 615,
+        "unit": "MW",
+        "as_of": "2025-10-28",
+        "evidence": [
+          {
+            "source": "src:nee-google-duane-arnold-release",
+            "quote": "Once operational, Google will purchase power from the 615-MW plant as a 24/7 carbon-free energy source to help power Google’s growing cloud and AI infrastructure in Iowa",
+            "locator": "Press release, second paragraph",
+            "supports": "relationship, capacity, destination"
+          },
+          {
+            "source": "src:doe-duane-arnold-loan",
+            "quote": "The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF) today announced the financial close of a loan of up to $1.9 billion to NextEra Energy to help finance the restart of the Duane Arnold Energy Center in Linn County, Iowa.",
+            "locator": "DOE release, first paragraph (September 8, 2026)",
+            "supports": "amount, relationship, location"
+          }
+        ]
+      },
+      "products": [
+        "electricity (nuclear, MISO)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "The cornerstone of this collaboration is the planned restart of the Duane Arnold Energy Center (Duane Arnold), Iowa’s only nuclear facility, which is located in Palo, near Cedar Rapids.",
+          "locator": "Press release, second paragraph",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "Duane Arnold, which was shut down in 2020, is expected to be online and delivering electricity onto the grid by the first quarter of 2029, pending regulatory approvals to restart the plant.",
+          "locator": "Press release, fourth paragraph",
+          "supports": "status, start_year"
+        },
+        {
+          "source": "src:doe-duane-arnold-loan",
+          "quote": "The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF) today announced the financial close of a loan of up to $1.9 billion to NextEra Energy to help finance the restart of the Duane Arnold Energy Center in Linn County, Iowa.",
+          "locator": "DOE release, first paragraph (September 8, 2026)",
+          "supports": "amount, relationship, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:kairos-hermes-2",
+      "name": "Kairos Power Hermes 2 Plant",
+      "operator": "co:kairos",
+      "layer": "power",
+      "kind": "advanced_nuclear_plant",
+      "location": {
+        "lat": 35.928,
+        "lon": -84.395,
+        "precision": "city",
+        "address": "Oak Ridge, TN"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "start_year": 2030,
+      "capacity": {
+        "value": 50,
+        "unit": "MW",
+        "as_of": "2025-08-18",
+        "evidence": [
+          {
+            "source": "src:kairos-google-tva-release",
+            "quote": "To accelerate the delivery of clean energy to Google, Kairos Power will increase Hermes 2’s output from 28 MW to 50 MW generated by a single reactor, scheduled to begin operations in 2030.",
+            "locator": "Press release, first paragraph",
+            "supports": "capacity, start_year"
+          }
+        ]
+      },
+      "products": [
+        "electricity (KP-FHR, TVA grid)"
+      ],
+      "evidence": [
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through a new power purchase agreement (PPA) between Kairos Power and TVA, Kairos Power’s Hermes 2 Plant in Oak Ridge, Tenn., will deliver up to 50 megawatts (MW) of reliable, 24/7 energy to the TVA grid that powers Google data centers in Tennessee and Alabama.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, capacity, location"
+        },
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "To accelerate the delivery of clean energy to Google, Kairos Power will increase Hermes 2’s output from 28 MW to 50 MW generated by a single reactor, scheduled to begin operations in 2030.",
+          "locator": "Press release, first paragraph",
+          "supports": "capacity, start_year"
+        }
+      ]
+    },
+    {
+      "id": "fac:kairos-hermes",
+      "name": "Kairos Power Hermes Test Reactor",
+      "operator": "co:kairos",
+      "layer": "power",
+      "kind": "nuclear_test_reactor",
+      "location": {
+        "lat": 35.9306,
+        "lon": -84.395,
+        "precision": "site",
+        "address": "Former Oak Ridge Gaseous Diffusion Plant site, East Tennessee Technology Park, Oak Ridge, Roane County, TN"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "non-power test reactor (KP-FHR demonstration)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nrc-hermes-cp",
+          "quote": "The utilization facility, known as Hermes, owned by Kairos Power, LLC, will be located at the site of the former Oak Ridge Gaseous Diffusion Plant, within the East Tennessee Technology Park in Oak Ridge, Tennessee, and is described in the application.",
+          "locator": "Construction Permit No. CPTR-6, finding 2",
+          "supports": "existence, location, ownership"
+        },
+        {
+          "source": "src:nrc-hermes-cp",
+          "quote": "The construction permit authorizes the applicant to construct a non-power test reactor facility described in the application and the hearing record",
+          "locator": "Construction Permit No. CPTR-6, condition 3.C",
+          "supports": "kind, status"
+        }
+      ]
+    },
+    {
+      "id": "fac:energy-northwest-cascade",
+      "name": "Cascade Advanced Energy Facility (Xe-100 SMRs)",
+      "operator": "co:energy-northwest",
+      "layer": "power",
+      "kind": "advanced_nuclear_plant",
+      "location": {
+        "lat": 46.47,
+        "lon": -119.33,
+        "precision": "region",
+        "address": "central Washington (near Richland, WA)"
+      },
+      "country": "US",
+      "status": "planned",
+      "capacity": {
+        "value": 320,
+        "unit": "MW",
+        "as_of": "2026-08-13",
+        "note": "Initial four reactors; potential upsize to 960 MWe.",
+        "evidence": [
+          {
+            "source": "src:xe-10q-2026q2",
+            "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+            "locator": "Part I, Item 2 MD&A, Overview",
+            "supports": "relationship, capacity"
+          }
+        ]
+      },
+      "products": [
+        "electricity (Xe-100 HTGR)"
+      ],
+      "evidence": [
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "The first deployment under this 5 GWe total potential target is a project with Energy Northwest in central Washington.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "existence, location (region), relationship"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "relationship, capacity"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "We expect operations of these reactors to commence in the early 2030s.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:vistra-perry",
+      "name": "Perry Nuclear Power Plant",
+      "operator": "co:vistra",
+      "layer": "power",
+      "kind": "nuclear_plant",
+      "location": {
+        "lat": 41.8006,
+        "lon": -81.1433,
+        "precision": "region",
+        "address": "Ohio (Lake County)"
+      },
+      "country": "US",
+      "status": "operational",
+      "capacity": {
+        "value": 1481,
+        "unit": "MW",
+        "as_of": "2026-01-09",
+        "note": "Contracted to Meta: 1,268 MW operating + 213 MW uprate. Not total plant capacity.",
+        "evidence": [
+          {
+            "source": "src:vst-8k-2026-01-09",
+            "quote": "1,268 MW of energy and capacity from the Company’s operating Perry Nuclear Power Plant (“Perry”) and 908 MW of energy and capacity from the Company’s operating Davis-Besse Nuclear Power Plant (“Davis-Besse”); and",
+            "locator": "Item 7.01, first bullet",
+            "supports": "volume per plant"
+          },
+          {
+            "source": "src:vst-8k-2026-01-09",
+            "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+            "locator": "Item 7.01, second bullet",
+            "supports": "volume per plant (uprates)"
+          }
+        ]
+      },
+      "products": [
+        "electricity (nuclear, PJM)"
+      ],
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "1,268 MW of energy and capacity from the Company’s operating Perry Nuclear Power Plant (“Perry”) and 908 MW of energy and capacity from the Company’s operating Davis-Besse Nuclear Power Plant (“Davis-Besse”); and",
+          "locator": "Item 7.01, first bullet",
+          "supports": "volume per plant"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Through additional 20-year nuclear energy agreements, we will purchase more than 2.1 GW of energy from two operating Vistra nuclear power plants in Ohio (Perry and Davis-Besse), in addition to the energy from expansions (uprates) at these two Ohio plants and a third Vistra nuclear plant in Pennsylvania (Beaver Valley).",
+          "locator": "Section 'Vistra: Extending and Expanding Operational Nuclear Energy'",
+          "supports": "relationship, location (state)"
+        }
+      ]
+    },
+    {
+      "id": "fac:vistra-davis-besse",
+      "name": "Davis-Besse Nuclear Power Plant",
+      "operator": "co:vistra",
+      "layer": "power",
+      "kind": "nuclear_plant",
+      "location": {
+        "lat": 41.5967,
+        "lon": -83.0864,
+        "precision": "region",
+        "address": "Ohio (Ottawa County)"
+      },
+      "country": "US",
+      "status": "operational",
+      "capacity": {
+        "value": 988,
+        "unit": "MW",
+        "as_of": "2026-01-09",
+        "note": "Contracted to Meta: 908 MW operating + 80 MW uprate. Not total plant capacity.",
+        "evidence": [
+          {
+            "source": "src:vst-8k-2026-01-09",
+            "quote": "1,268 MW of energy and capacity from the Company’s operating Perry Nuclear Power Plant (“Perry”) and 908 MW of energy and capacity from the Company’s operating Davis-Besse Nuclear Power Plant (“Davis-Besse”); and",
+            "locator": "Item 7.01, first bullet",
+            "supports": "volume per plant"
+          },
+          {
+            "source": "src:vst-8k-2026-01-09",
+            "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+            "locator": "Item 7.01, second bullet",
+            "supports": "volume per plant (uprates)"
+          }
+        ]
+      },
+      "products": [
+        "electricity (nuclear, PJM)"
+      ],
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "1,268 MW of energy and capacity from the Company’s operating Perry Nuclear Power Plant (“Perry”) and 908 MW of energy and capacity from the Company’s operating Davis-Besse Nuclear Power Plant (“Davis-Besse”); and",
+          "locator": "Item 7.01, first bullet",
+          "supports": "volume per plant"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Through additional 20-year nuclear energy agreements, we will purchase more than 2.1 GW of energy from two operating Vistra nuclear power plants in Ohio (Perry and Davis-Besse), in addition to the energy from expansions (uprates) at these two Ohio plants and a third Vistra nuclear plant in Pennsylvania (Beaver Valley).",
+          "locator": "Section 'Vistra: Extending and Expanding Operational Nuclear Energy'",
+          "supports": "relationship, location (state)"
+        }
+      ]
+    },
+    {
+      "id": "fac:vistra-beaver-valley",
+      "name": "Beaver Valley Nuclear Power Plant",
+      "operator": "co:vistra",
+      "layer": "power",
+      "kind": "nuclear_plant",
+      "location": {
+        "lat": 40.6219,
+        "lon": -80.4339,
+        "precision": "region",
+        "address": "Pennsylvania (Beaver County)"
+      },
+      "country": "US",
+      "status": "operational",
+      "capacity": {
+        "value": 140,
+        "unit": "MW",
+        "as_of": "2026-01-09",
+        "note": "Uprate energy contracted to Meta only. Not total plant capacity.",
+        "evidence": [
+          {
+            "source": "src:vst-8k-2026-01-09",
+            "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+            "locator": "Item 7.01, second bullet",
+            "supports": "volume per plant (uprates)"
+          }
+        ]
+      },
+      "products": [
+        "electricity (nuclear, PJM)"
+      ],
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+          "locator": "Item 7.01, second bullet",
+          "supports": "volume per plant (uprates)"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Through additional 20-year nuclear energy agreements, we will purchase more than 2.1 GW of energy from two operating Vistra nuclear power plants in Ohio (Perry and Davis-Besse), in addition to the energy from expansions (uprates) at these two Ohio plants and a third Vistra nuclear plant in Pennsylvania (Beaver Valley).",
+          "locator": "Section 'Vistra: Extending and Expanding Operational Nuclear Energy'",
+          "supports": "relationship, location (state)"
+        }
+      ]
+    },
+    {
+      "id": "fac:oklo-pike-county",
+      "name": "Oklo Aurora Powerhouse campus, Pike County, Ohio",
+      "operator": "co:oklo",
+      "layer": "power",
+      "kind": "advanced_nuclear_plant",
+      "location": {
+        "lat": 39.07,
+        "lon": -83.05,
+        "precision": "region",
+        "address": "Pike County, OH"
+      },
+      "country": "US",
+      "status": "planned",
+      "start_year": 2030,
+      "capacity": {
+        "value": 1200,
+        "unit": "MW",
+        "as_of": "2026-01-09",
+        "note": "Up to 1.2 GW; 'may come online as early as 2030'.",
+        "evidence": [
+          {
+            "source": "src:meta-nuclear-2026",
+            "quote": "Our partnership with Oklo helps advance the development of entirely new nuclear energy in Pike County, Ohio. This advanced nuclear technology campus — which may come online as early as 2030 — is poised to add up to 1.2 GW of clean baseload power directly into the PJM market and support our operations in the region.",
+            "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+            "supports": "existence, location, capacity, relationship"
+          }
+        ]
+      },
+      "products": [
+        "electricity (Aurora fast reactors, PJM)"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Our partnership with Oklo helps advance the development of entirely new nuclear energy in Pike County, Ohio. This advanced nuclear technology campus — which may come online as early as 2030 — is poised to add up to 1.2 GW of clean baseload power directly into the PJM market and support our operations in the region.",
+          "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+          "supports": "existence, location, capacity, relationship"
+        }
+      ]
+    },
+    {
+      "id": "fac:entergy-franklin-farms",
+      "name": "Franklin Farms Power Station Units 1 and 2",
+      "operator": "co:entergy",
+      "layer": "power",
+      "kind": "gas_combined_cycle_plant",
+      "location": {
+        "lat": 32.47,
+        "lon": -91.63,
+        "precision": "region",
+        "address": "Richland Parish, LA (near the Meta customer site)"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "start_year": 2028,
+      "capacity": {
+        "value": 2262,
+        "unit": "MW",
+        "as_of": "2025-12-31",
+        "note": "Combined total of three CCCTs (Franklin Farms 1-2 plus Waterford 5); per-unit split not in source.",
+        "evidence": [
+          {
+            "source": "src:etr-10k-2025",
+            "quote": "The filing requested LPSC certification of three new combined cycle combustion turbine generation resources totaling 2,262 MW, each of which will be enabled for future carbon capture and storage",
+            "locator": "Item 7 MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+            "supports": "capacity"
+          }
+        ]
+      },
+      "products": [
+        "electricity (natural gas CCCT)"
+      ],
+      "evidence": [
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "the three new 1x1 Combined Cycle Combustion Turbine (“CCCT”) generators (the “Planned Generators”) referenced in the Application—two of which will be located near the Customer’s site and one of which will be located at the Company’s existing Waterford site near Killona, Louisiana",
+          "locator": "Order No. U-37425, Section I",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "Two of the CCCT generators will be constructed in Richland Parish. The third CCCT generator will be constructed in Killona, Louisiana.",
+          "locator": "Order No. U-37425, Exhibit A (Final Stipulated Settlement), footnote 1",
+          "supports": "location"
+        },
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "Franklin Farms Power Station Units 1 and 2 are expected to be in service in 2028, and Waterford 5 Power Station is expected to be in service in 2029.",
+          "locator": "Item 7 MD&A",
+          "supports": "status, start_year"
+        },
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "The combined cost of Franklin Farms Power Station Units 1 and 2 is estimated to be approximately $2,387 million.",
+          "locator": "Item 7 MD&A",
+          "supports": "cost"
+        }
+      ]
+    },
+    {
+      "id": "fac:entergy-waterford-5",
+      "name": "Waterford 5 Power Station",
+      "operator": "co:entergy",
+      "layer": "power",
+      "kind": "gas_combined_cycle_plant",
+      "location": {
+        "lat": 29.9981,
+        "lon": -90.4736,
+        "precision": "site",
+        "address": "Entergy Louisiana existing Waterford site, Killona, St. Charles Parish, LA"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "start_year": 2029,
+      "products": [
+        "electricity (natural gas CCCT)"
+      ],
+      "evidence": [
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In February 2025, Entergy Louisiana filed supplemental testimony with the LPSC stating that the third combined cycle combustion turbine resource presented in the October 2024 application (Waterford 5 Power Station) would be sited at Entergy Louisiana’s Waterford site in Killona, Louisiana, alongside existing Entergy Louisiana generation resources.",
+          "locator": "Item 7 MD&A",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "Two of the CCCT generators will be constructed in Richland Parish. The third CCCT generator will be constructed in Killona, Louisiana.",
+          "locator": "Order No. U-37425, Exhibit A (Final Stipulated Settlement), footnote 1",
+          "supports": "location"
+        },
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "Franklin Farms Power Station Units 1 and 2 are expected to be in service in 2028, and Waterford 5 Power Station is expected to be in service in 2029.",
+          "locator": "Item 7 MD&A",
+          "supports": "status, start_year"
+        }
+      ]
+    },
+    {
+      "id": "fac:entergy-richland-parish-units-1-4",
+      "name": "Richland Parish Units 1-4 (proposed)",
+      "operator": "co:entergy",
+      "layer": "power",
+      "kind": "gas_combined_cycle_plant",
+      "location": {
+        "lat": 32.47,
+        "lon": -91.63,
+        "precision": "region",
+        "address": "near the customer site, north Louisiana (Richland Parish)"
+      },
+      "country": "US",
+      "status": "planned",
+      "start_year": 2030,
+      "products": [
+        "electricity (natural gas CCCT)"
+      ],
+      "evidence": [
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "Also in March 2026, Entergy Louisiana filed an application with the LPSC for certification to construct seven new combined cycle combustion turbine generation resources totaling 5,278 MW at a total cost of approximately $12.9 billion, each of which will be enabled for future carbon capture and storage",
+          "locator": "Part I, MD&A",
+          "supports": "capacity, cost"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "(Richland Parish Units 1-4), while the remaining three units will be located near the existing Big Cajun site in Pointe Coupee Parish (Pointe Coupee Units 1-3). The seven new combined cycle combustion turbine generation resources have various estimated in-service dates in 2030 and 2031.",
+          "locator": "Part I, MD&A",
+          "supports": "location, start_year"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "The application is pending before the LPSC.",
+          "locator": "Part I, MD&A",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:entergy-pointe-coupee-units-1-3",
+      "name": "Pointe Coupee Units 1-3 (proposed)",
+      "operator": "co:entergy",
+      "layer": "power",
+      "kind": "gas_combined_cycle_plant",
+      "location": {
+        "lat": 30.73,
+        "lon": -91.37,
+        "precision": "region",
+        "address": "near the existing Big Cajun site, Pointe Coupee Parish, LA"
+      },
+      "country": "US",
+      "status": "planned",
+      "start_year": 2030,
+      "products": [
+        "electricity (natural gas CCCT)"
+      ],
+      "evidence": [
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "Also in March 2026, Entergy Louisiana filed an application with the LPSC for certification to construct seven new combined cycle combustion turbine generation resources totaling 5,278 MW at a total cost of approximately $12.9 billion, each of which will be enabled for future carbon capture and storage",
+          "locator": "Part I, MD&A",
+          "supports": "capacity, cost"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "(Richland Parish Units 1-4), while the remaining three units will be located near the existing Big Cajun site in Pointe Coupee Parish (Pointe Coupee Units 1-3). The seven new combined cycle combustion turbine generation resources have various estimated in-service dates in 2030 and 2031.",
+          "locator": "Part I, MD&A",
+          "supports": "location, start_year"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "The application is pending before the LPSC.",
+          "locator": "Part I, MD&A",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:xai-colossus-turbines-memphis",
+      "name": "Gas turbines at xAI Colossus site, Paul R. Lowry Road (Air Permit 01156-01PC, CTC Property LLC)",
+      "operator": "co:xai",
+      "layer": "power",
+      "kind": "onsite_gas_turbines",
+      "location": {
+        "lat": 35.06,
+        "lon": -90.154,
+        "precision": "site",
+        "address": "3231 Paul R. Lowry Road, Memphis, TN"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "electricity (onsite natural gas turbines)"
+      ],
+      "evidence": [
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "hereby appeal the Shelby County Health Department’s (“SCHD” or “Health Department”) issuance of Air Permit No. 01156-01PC (the “CTC Permit”) to CTC Property LLC (“CTC”) (“Permit Decision”).",
+          "locator": "Appeal letter, introduction",
+          "supports": "existence (permit), permit holder"
+        },
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "The Department suggests that perhaps the temporary combustion turbines on xAI’s Paul R. Lowry site will be removed by the end of July 2025.",
+          "locator": "Appeal, Section on justiciability",
+          "supports": "relationship (xAI site), location"
+        },
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "The Department’s permit, meanwhile, authorizes the construction and permanent operation of 15 SMT-130 turbines with the potential to emit more than 80 tons of NOx",
+          "locator": "Appeal, Section II",
+          "supports": "capacity (unit count)"
+        }
+      ]
+    },
+    {
+      "id": "fac:crusoe-abilene-longhorn-turbines",
+      "name": "Longhorn Data Center onsite gas turbines (TCEQ Standard Permit 177263)",
+      "operator": "co:crusoe",
+      "layer": "power",
+      "kind": "onsite_gas_turbines",
+      "location": {
+        "lat": 32.4487,
+        "lon": -99.7331,
+        "precision": "city",
+        "address": "Abilene, Taylor County, TX"
+      },
+      "country": "US",
+      "status": "operational",
+      "capacity": {
+        "value": 360.5,
+        "unit": "MW",
+        "as_of": "2025-01-22",
+        "note": "Derived: 5 x 38 MW Titan 350 + 5 x 34.1 MW GE LM2500 site-rated. Status 'operational' is not stated in the permit; the permit authorizes the units.",
+        "evidence": [
+          {
+            "source": "src:tceq-abilene-dc1-177263",
+            "quote": "Reduce the count of Titan 350 simple-cycle turbines from six to five and increase the site-rated power to 38 MW per turbine",
+            "locator": "Technical Review p.1, Project Description",
+            "supports": "capacity"
+          },
+          {
+            "source": "src:tceq-abilene-dc1-177263",
+            "quote": "Reduce the count of GE LM2500 simple-cycle turbines from six to five, reduce the site-rated power to 34.1 MW per turbine, and increase the annual hours of operation from 5,880 hours to 8,760 hours per turbine.",
+            "locator": "Technical Review p.1, Project Description",
+            "supports": "capacity, supplier (GE LM2500)"
+          }
+        ]
+      },
+      "products": [
+        "electricity (behind-the-meter simple-cycle gas turbines)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "Abilene DC 1, LLC (Abilene DC) dba Crusoe Energy Systems, LLC (Crusoe), has submitted the following modification application for a standard permit for electric generating units for the Longhorn Data Center in Abilene within Taylor County, Texas.",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "existence, operator, location"
+        },
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "The purpose of the equipment is to generate power for onsite use only for data centers and computing.",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "relationship (behind-the-meter data center supply)"
+        },
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "Reduce the count of GE LM2500 simple-cycle turbines from six to five, reduce the site-rated power to 34.1 MW per turbine, and increase the annual hours of operation from 5,880 hours to 8,760 hours per turbine.",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "capacity, supplier (GE LM2500)"
+        },
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "Reduce the count of Titan 350 simple-cycle turbines from six to five and increase the site-rated power to 38 MW per turbine",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "capacity"
+        }
+      ]
+    },
+    {
+      "id": "fac:ge-vernova-greenville",
+      "name": "GE Vernova Greenville gas turbine factory",
+      "operator": "co:ge-vernova",
+      "layer": "power",
+      "kind": "gas_turbine_factory",
+      "location": {
+        "lat": 34.8526,
+        "lon": -82.394,
+        "precision": "city",
+        "address": "Greenville, SC"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "heavy-duty gas turbines"
+      ],
+      "evidence": [
+        {
+          "source": "src:gev-greenville-release",
+          "quote": "“Beyond the immediate jobs additions and capacity expansion, this investment will allow Greenville to maintain and strengthen its position as the world’s center of gas turbine manufacturing.”",
+          "locator": "Press release, quote from Shane Long",
+          "supports": "existence, product"
+        },
+        {
+          "source": "src:gev-greenville-release",
+          "quote": "GREENVILLE, SC (January 29, 2025) – With global energy needs forecasted to double, GE Vernova Inc. (NYSE:GEV), America’s leading energy manufacturing company, announced plans today to invest more than $160 million and hire more than 650 new employees at its Greenville facility.",
+          "locator": "Press release, first paragraph",
+          "supports": "location, capex"
+        },
+        {
+          "source": "src:gev-greenville-release",
+          "quote": "The factory has produced gas turbines for markets across the U.S. and globally since 1968.",
+          "locator": "Press release body",
+          "supports": "status"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:crane-to-microsoft",
+      "from": "fac:constellation-crane",
+      "to": "co:microsoft",
+      "commodity": "electricity (nuclear; energy, capacity and attributes)",
+      "description": "Output of the restarted Crane Clean Energy Center contracted to Microsoft under a 20-year PPA, to match power used by Microsoft data centers in PJM. Delivered via the PJM grid (not a physical dedicated line).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:ceg-crane-microsoft-ppa-release",
+          "quote": "Constellation (Nasdaq: CEG) announced today the signing of a 20-year power purchase agreement with Microsoft that will pave the way for the launch of the Crane Clean Energy Center (CCEC) and restart of Three Mile Island Unit 1",
+          "locator": "Press release, first paragraph (Londonderry, PA, Sept 20, 2024)",
+          "supports": "relationship, term"
+        },
+        {
+          "source": "src:ceg-crane-microsoft-ppa-release",
+          "quote": "Under the agreement, Microsoft will purchase energy from the renewed plant as part of its goal to help match the power its data centers in PJM use with carbon-free energy.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, commodity"
+        },
+        {
+          "source": "src:ceg-10k-2025",
+          "quote": "The restart is supported by a 20-year PPA with Microsoft to purchase the output generated from the renewed plant.",
+          "locator": "Item 7 MD&A, 'Crane Clean Energy Center'",
+          "supports": "relationship, term"
+        }
+      ]
+    },
+    {
+      "id": "flow:clinton-to-meta",
+      "from": "fac:constellation-clinton",
+      "to": "co:meta",
+      "commodity": "electricity (nuclear; 1,121 MW output)",
+      "description": "Output of Clinton Clean Energy Center contracted to Meta for 20 years beginning June 2027, to support Meta's operations in the region.",
+      "basis": "documented",
+      "volume": {
+        "value": 1121,
+        "unit": "MW",
+        "as_of": "2025-06-03",
+        "evidence": [
+          {
+            "source": "src:ceg-meta-clinton-release",
+            "quote": "Constellation (Nasdaq: CEG) and Meta have signed a 20-year power purchase agreement (PPA) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with 1,121 megawatts of emissions-free nuclear energy.",
+            "locator": "Press release, first paragraph (CLINTON, IL – JUNE 3, 2025)",
+            "supports": "relationship, term, capacity"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:ceg-meta-clinton-release",
+          "quote": "Constellation (Nasdaq: CEG) and Meta have signed a 20-year power purchase agreement (PPA) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with 1,121 megawatts of emissions-free nuclear energy.",
+          "locator": "Press release, first paragraph (CLINTON, IL – JUNE 3, 2025)",
+          "supports": "relationship, term, capacity"
+        },
+        {
+          "source": "src:ceg-meta-clinton-release",
+          "quote": "Beginning in June of 2027, the agreement supports the relicensing and continued operations of Constellation’s high-performing Clinton nuclear facility for another two decades after the state’s ratepayer funded zero emission credit (ZEC) program expires.",
+          "locator": "Press release, second paragraph",
+          "supports": "status, term start"
+        },
+        {
+          "source": "src:ceg-10k-2025",
+          "quote": "In June 2025, we signed a 20-year PPA with Meta Platforms, Inc. (Meta) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with emissions-free nuclear energy.",
+          "locator": "Item 7 MD&A, 'Clinton Clean Energy Center'",
+          "supports": "relationship, term"
+        }
+      ]
+    },
+    {
+      "id": "flow:susquehanna-to-amazon",
+      "from": "fac:talen-susquehanna",
+      "to": "co:amazon",
+      "to_hint": "fac:amazon-susquehanna-salem-township",
+      "commodity": "electricity (nuclear, up to 1,920 MW)",
+      "description": "Susquehanna supplies AWS under an expanded PPA; ramps to 1,920 MW no later than 2032 and runs through 2042, for the adjacent AWS data center campus with ability to deliver to other Pennsylvania sites. Transitioning from co-located (behind-the-meter) to front-of-the-meter delivery with PPL as transmission provider; the FERC ER24-2172 ISA amendment for expanded co-location was denied in Nov 2024.",
+      "basis": "documented",
+      "volume": {
+        "value": 1920,
+        "unit": "MW",
+        "as_of": "2026-02-26",
+        "note": "Full contract quantity; ramps over time.",
+        "evidence": [
+          {
+            "source": "src:talen-10k-2025",
+            "quote": "in June 2025, we and AWS entered into an expanded power purchase agreement for the long-term, fixed-price supply of up to 1,920 MW of power annually from Susquehanna to the adjacent AWS data center campus through 2042.",
+            "locator": "Item 1. Business, overview",
+            "supports": "relationship, volume, term"
+          },
+          {
+            "source": "src:talen-8k-2025-06-11",
+            "quote": "Under the expanded PPA, at the full contract quantity, Talen will provide Amazon with 1,920 megawatts of carbon-free nuclear power through 2042, with options to further extend its duration.",
+            "locator": "Exhibit 99.1, second paragraph",
+            "supports": "volume, term"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "in June 2025, we and AWS entered into an expanded power purchase agreement for the long-term, fixed-price supply of up to 1,920 MW of power annually from Susquehanna to the adjacent AWS data center campus through 2042.",
+          "locator": "Item 1. Business, overview",
+          "supports": "relationship, volume, term"
+        },
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of a new power purchase agreement (“PPA”), Talen will supply electricity to Amazon for operations that support AI and other cloud technologies at Amazon’s data center campus adjacent to Susquehanna, with the ability to deliver to other sites throughout Pennsylvania.",
+          "locator": "Exhibit 99.1, first paragraph",
+          "supports": "relationship, destination"
+        },
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of the new agreement, Susquehanna will provide its carbon-free power to the PJM grid, Talen will act as the retail electric generation supplier to Amazon, and PPL Electric Utilities (“PPL”) will be responsible for transmission and delivery.",
+          "locator": "Exhibit 99.1",
+          "supports": "delivery arrangement"
+        },
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "in November 2024, the FERC issued an order denying an Amended Interconnection Service Agreement (the “ISA Amendment”) between PJM, a subsidiary of PPL Corporation, and Susquehanna that would have permitted Susquehanna to decrease by up to 480 MW the amount of power it would have otherwise supplied to the grid and instead supply that power directly to AWS in a co-located “behind-the-meter” arrangement.",
+          "locator": "Item 3. Legal Proceedings, 'Susquehanna ISA Amendment'",
+          "supports": "regulatory history (FERC Docket ER24-2172)"
+        }
+      ]
+    },
+    {
+      "id": "flow:duane-arnold-to-alphabet",
+      "from": "fac:nextera-duane-arnold",
+      "to": "co:alphabet",
+      "commodity": "electricity (nuclear, 24/7 carbon-free)",
+      "description": "Google to purchase power from the restarted 615 MW Duane Arnold plant under a 25-year agreement, for Google cloud and AI infrastructure in Iowa (CIPCO takes the remaining output).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "Once operational, Google will purchase power from the 615-MW plant as a 24/7 carbon-free energy source to help power Google’s growing cloud and AI infrastructure in Iowa",
+          "locator": "Press release, second paragraph",
+          "supports": "relationship, capacity, destination"
+        },
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "In addition to Google’s 25-year agreement to purchase carbon-free nuclear energy from the Duane Arnold plant, one of the plant's current minority owners, Central Iowa Power Cooperative (CIPCO), will purchase the remaining portion of the plant's output on the same terms as Google.",
+          "locator": "Press release, third paragraph",
+          "supports": "term, relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:hermes-2-to-alphabet",
+      "from": "fac:kairos-hermes-2",
+      "to": "co:alphabet",
+      "to_hint": "fac:alphabet-montgomery-county-tn",
+      "commodity": "electricity / clean energy attributes (via TVA)",
+      "description": "Hermes 2 delivers up to 50 MW to the TVA grid under a Kairos-TVA PPA; Google receives the clean energy attributes for its data center operations in Montgomery County, TN and Jackson County, AL.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through a new power purchase agreement (PPA) between Kairos Power and TVA, Kairos Power’s Hermes 2 Plant in Oak Ridge, Tenn., will deliver up to 50 megawatts (MW) of reliable, 24/7 energy to the TVA grid that powers Google data centers in Tennessee and Alabama.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, capacity, location"
+        },
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through this agreement, Google will receive the clean energy attributes from the plant through the TVA system to further decarbonize its data center operations in Montgomery County, Tennessee, and Jackson County, Alabama, and support future growth in the region.",
+          "locator": "Press release, second paragraph",
+          "supports": "relationship, destination"
+        }
+      ]
+    },
+    {
+      "id": "flow:cascade-to-amazon",
+      "from": "fac:energy-northwest-cascade",
+      "to": "co:amazon",
+      "commodity": "electricity (Xe-100 SMRs)",
+      "description": "Planned Amazon-funded Xe-100 deployment with Energy Northwest (four reactors, 320 MWe, upsizable to 960 MWe).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "relationship, capacity"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "we are required to make payments to Amazon reflecting the cost efficiencies we have achieved relative to the power purchase agreement prices applicable to the initial projects.",
+          "locator": "Part I, Item 1A Risk Factors",
+          "supports": "relationship (PPA pricing on Amazon-sponsored projects)"
+        }
+      ]
+    },
+    {
+      "id": "flow:x-energy-to-cascade",
+      "from": "co:x-energy",
+      "to": "fac:energy-northwest-cascade",
+      "commodity": "Xe-100 reactor modules and TRISO-X fuel",
+      "description": "X-energy's Xe-100 reactors are the technology for the first Amazon-backed deployment with Energy Northwest.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "The first deployment under this 5 GWe total potential target is a project with Energy Northwest in central Washington.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "existence, location (region), relationship"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "relationship, capacity"
+        }
+      ]
+    },
+    {
+      "id": "flow:perry-to-meta",
+      "from": "fac:vistra-perry",
+      "to": "co:meta",
+      "to_hint": "fac:meta-prometheus-new-albany",
+      "commodity": "electricity and capacity (nuclear, PJM)",
+      "description": "20-year PPA: 1,268 MW operating plus 213 MW uprate from Perry to Meta; Meta says these projects deliver power to grids supporting its Prometheus supercluster in New Albany, Ohio.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "In January 2026, Vistra Corp. (“Vistra” or the “Company”) announced that it has entered into 20-year power purchase agreements (“PPAs”) with Meta Platforms, Inc. (“Meta”), pursuant to which the Company has agreed to supply Meta with a total of 2,609 MW of carbon-free power and capacity from the Company’s PJM nuclear power plants as follows:",
+          "locator": "Item 7.01 Regulation FD Disclosure",
+          "supports": "relationship, term, volume"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "1,268 MW of energy and capacity from the Company’s operating Perry Nuclear Power Plant (“Perry”) and 908 MW of energy and capacity from the Company’s operating Davis-Besse Nuclear Power Plant (“Davis-Besse”); and",
+          "locator": "Item 7.01, first bullet",
+          "supports": "volume per plant"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+          "locator": "Item 7.01, second bullet",
+          "supports": "volume per plant (uprates)"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "The projects we’re announcing today will deliver power to the grids that support our operations, including our Prometheus supercluster in New Albany, Ohio.",
+          "locator": "Meta Newsroom post, Takeaways/intro",
+          "supports": "destination"
+        }
+      ]
+    },
+    {
+      "id": "flow:davis-besse-to-meta",
+      "from": "fac:vistra-davis-besse",
+      "to": "co:meta",
+      "to_hint": "fac:meta-prometheus-new-albany",
+      "commodity": "electricity and capacity (nuclear, PJM)",
+      "description": "20-year PPA: 908 MW operating plus 80 MW uprate from Davis-Besse to Meta.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "In January 2026, Vistra Corp. (“Vistra” or the “Company”) announced that it has entered into 20-year power purchase agreements (“PPAs”) with Meta Platforms, Inc. (“Meta”), pursuant to which the Company has agreed to supply Meta with a total of 2,609 MW of carbon-free power and capacity from the Company’s PJM nuclear power plants as follows:",
+          "locator": "Item 7.01 Regulation FD Disclosure",
+          "supports": "relationship, term, volume"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "1,268 MW of energy and capacity from the Company’s operating Perry Nuclear Power Plant (“Perry”) and 908 MW of energy and capacity from the Company’s operating Davis-Besse Nuclear Power Plant (“Davis-Besse”); and",
+          "locator": "Item 7.01, first bullet",
+          "supports": "volume per plant"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+          "locator": "Item 7.01, second bullet",
+          "supports": "volume per plant (uprates)"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "The projects we’re announcing today will deliver power to the grids that support our operations, including our Prometheus supercluster in New Albany, Ohio.",
+          "locator": "Meta Newsroom post, Takeaways/intro",
+          "supports": "destination"
+        }
+      ]
+    },
+    {
+      "id": "flow:beaver-valley-to-meta",
+      "from": "fac:vistra-beaver-valley",
+      "to": "co:meta",
+      "to_hint": "fac:meta-prometheus-new-albany",
+      "commodity": "uprate electricity and capacity (nuclear, PJM)",
+      "description": "20-year PPA: 140 MW of uprate energy and capacity from Beaver Valley to Meta, full delivery by year end 2034.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "In January 2026, Vistra Corp. (“Vistra” or the “Company”) announced that it has entered into 20-year power purchase agreements (“PPAs”) with Meta Platforms, Inc. (“Meta”), pursuant to which the Company has agreed to supply Meta with a total of 2,609 MW of carbon-free power and capacity from the Company’s PJM nuclear power plants as follows:",
+          "locator": "Item 7.01 Regulation FD Disclosure",
+          "supports": "relationship, term, volume"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+          "locator": "Item 7.01, second bullet",
+          "supports": "volume per plant (uprates)"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "The projects we’re announcing today will deliver power to the grids that support our operations, including our Prometheus supercluster in New Albany, Ohio.",
+          "locator": "Meta Newsroom post, Takeaways/intro",
+          "supports": "destination"
+        }
+      ]
+    },
+    {
+      "id": "flow:oklo-pike-to-meta",
+      "from": "fac:oklo-pike-county",
+      "to": "co:meta",
+      "to_hint": "fac:meta-prometheus-new-albany",
+      "commodity": "electricity (advanced nuclear, into PJM)",
+      "description": "Planned Oklo campus in Pike County, Ohio, up to 1.2 GW into PJM supporting Meta's operations in the region, with Meta funding early procurement and development.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Our partnership with Oklo helps advance the development of entirely new nuclear energy in Pike County, Ohio. This advanced nuclear technology campus — which may come online as early as 2030 — is poised to add up to 1.2 GW of clean baseload power directly into the PJM market and support our operations in the region.",
+          "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+          "supports": "existence, location, capacity, relationship"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "“Meta’s funding commitment in support of early procurement and development activity is a major step in moving advanced nuclear forward,” said Jacob DeWitte, Oklo’s co-founder and CEO.",
+          "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+          "supports": "relationship (funding)"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "The projects we’re announcing today will deliver power to the grids that support our operations, including our Prometheus supercluster in New Albany, Ohio.",
+          "locator": "Meta Newsroom post, Takeaways/intro",
+          "supports": "destination"
+        }
+      ]
+    },
+    {
+      "id": "flow:franklin-farms-to-meta",
+      "from": "fac:entergy-franklin-farms",
+      "to": "co:meta",
+      "to_hint": "fac:meta-hyperion-richland-parish",
+      "commodity": "electricity (natural gas CCCT)",
+      "description": "Two new CCCTs sited near Meta's Richland Parish data center (customer: Laidley LLC, a Meta subsidiary), approved by LPSC Order U-37425.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "approval by the Commission for the Company to construct the generation and transmission resources needed to serve significant new load associated with a data center being developed by Meta Platforms, Inc., through its subsidiary, Laidley LLC (the “Customer”), in Richland Parish, Louisiana (the “Project”).",
+          "locator": "Order No. U-37425, Section I, Overview and Procedural History",
+          "supports": "relationship, destination"
+        },
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "the three new 1x1 Combined Cycle Combustion Turbine (“CCCT”) generators (the “Planned Generators”) referenced in the Application—two of which will be located near the Customer’s site and one of which will be located at the Company’s existing Waterford site near Killona, Louisiana",
+          "locator": "Order No. U-37425, Section I",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In October 2024, Entergy Louisiana filed an application with the LPSC seeking approval of a variety of generation and transmission resources proposed in connection with establishing service to a new data center to be developed by a subsidiary of Meta Platforms, Inc. in north Louisiana, for which an electric service agreement has been executed.",
+          "locator": "Item 7 MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:waterford-5-to-meta",
+      "from": "fac:entergy-waterford-5",
+      "to": "co:meta",
+      "to_hint": "fac:meta-hyperion-richland-parish",
+      "commodity": "electricity (natural gas CCCT, via Entergy Louisiana system)",
+      "description": "Third CCCT approved in LPSC Order U-37425 as part of resources to serve Meta's Richland Parish load; sited at Killona, so delivery is over the Entergy Louisiana transmission system.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "approval by the Commission for the Company to construct the generation and transmission resources needed to serve significant new load associated with a data center being developed by Meta Platforms, Inc., through its subsidiary, Laidley LLC (the “Customer”), in Richland Parish, Louisiana (the “Project”).",
+          "locator": "Order No. U-37425, Section I, Overview and Procedural History",
+          "supports": "relationship, destination"
+        },
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "the three new 1x1 Combined Cycle Combustion Turbine (“CCCT”) generators (the “Planned Generators”) referenced in the Application—two of which will be located near the Customer’s site and one of which will be located at the Company’s existing Waterford site near Killona, Louisiana",
+          "locator": "Order No. U-37425, Section I",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In February 2025, Entergy Louisiana filed supplemental testimony with the LPSC stating that the third combined cycle combustion turbine resource presented in the October 2024 application (Waterford 5 Power Station) would be sited at Entergy Louisiana’s Waterford site in Killona, Louisiana, alongside existing Entergy Louisiana generation resources.",
+          "locator": "Item 7 MD&A",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "flow:richland-units-to-meta",
+      "from": "fac:entergy-richland-parish-units-1-4",
+      "to": "co:meta",
+      "to_hint": "fac:meta-hyperion-richland-parish",
+      "commodity": "electricity (natural gas CCCT, proposed)",
+      "description": "Proposed four CCCTs near the customer site in north Louisiana, filed March 2026 alongside an electric service agreement with Evest LLC, a Meta subsidiary, for a second data center; application pending.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "In March 2026, Entergy Louisiana entered into an electric service agreement with Evest LLC (Evest), a subsidiary of Meta Platforms, Inc., in connection with establishing service to a second new data center to be developed by Evest in north Louisiana.",
+          "locator": "Part I, MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "Also in March 2026, Entergy Louisiana filed an application with the LPSC for certification to construct seven new combined cycle combustion turbine generation resources totaling 5,278 MW at a total cost of approximately $12.9 billion, each of which will be enabled for future carbon capture and storage",
+          "locator": "Part I, MD&A",
+          "supports": "capacity, cost"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "(Richland Parish Units 1-4), while the remaining three units will be located near the existing Big Cajun site in Pointe Coupee Parish (Pointe Coupee Units 1-3). The seven new combined cycle combustion turbine generation resources have various estimated in-service dates in 2030 and 2031.",
+          "locator": "Part I, MD&A",
+          "supports": "location, start_year"
+        }
+      ]
+    },
+    {
+      "id": "flow:pointe-coupee-units-to-meta",
+      "from": "fac:entergy-pointe-coupee-units-1-3",
+      "to": "co:meta",
+      "to_hint": "fac:meta-hyperion-richland-parish",
+      "commodity": "electricity (natural gas CCCT, proposed)",
+      "description": "Proposed three CCCTs near Big Cajun in the same March 2026 filing tied to the Evest (Meta) electric service agreement; application pending.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "In March 2026, Entergy Louisiana entered into an electric service agreement with Evest LLC (Evest), a subsidiary of Meta Platforms, Inc., in connection with establishing service to a second new data center to be developed by Evest in north Louisiana.",
+          "locator": "Part I, MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "Also in March 2026, Entergy Louisiana filed an application with the LPSC for certification to construct seven new combined cycle combustion turbine generation resources totaling 5,278 MW at a total cost of approximately $12.9 billion, each of which will be enabled for future carbon capture and storage",
+          "locator": "Part I, MD&A",
+          "supports": "capacity, cost"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "(Richland Parish Units 1-4), while the remaining three units will be located near the existing Big Cajun site in Pointe Coupee Parish (Pointe Coupee Units 1-3). The seven new combined cycle combustion turbine generation resources have various estimated in-service dates in 2030 and 2031.",
+          "locator": "Part I, MD&A",
+          "supports": "location, start_year"
+        }
+      ]
+    },
+    {
+      "id": "flow:colossus-turbines-to-xai",
+      "from": "fac:xai-colossus-turbines-memphis",
+      "to": "co:xai",
+      "to_hint": "fac:xai-colossus-memphis",
+      "commodity": "electricity (onsite gas turbines)",
+      "description": "Gas turbines permitted (Air Permit 01156-01PC, 15 SMT-130 units) to CTC Property LLC at the xAI Paul R. Lowry Road site in Memphis.",
+      "basis": "inferred",
+      "inference_note": "Source is an appellants' filing (not the permit itself), hosted by a news outlet. It names CTC Property LLC as permit holder and calls the Paul R. Lowry site 'xAI's'. It does not say in a primary xAI or agency document that CTC Property LLC is an xAI affiliate or that the turbines power the Colossus data center.",
+      "evidence": [
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "hereby appeal the Shelby County Health Department’s (“SCHD” or “Health Department”) issuance of Air Permit No. 01156-01PC (the “CTC Permit”) to CTC Property LLC (“CTC”) (“Permit Decision”).",
+          "locator": "Appeal letter, introduction",
+          "supports": "existence (permit), permit holder"
+        },
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "The Department suggests that perhaps the temporary combustion turbines on xAI’s Paul R. Lowry site will be removed by the end of July 2025.",
+          "locator": "Appeal, Section on justiciability",
+          "supports": "relationship (xAI site), location"
+        },
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "The Department’s permit, meanwhile, authorizes the construction and permanent operation of 15 SMT-130 turbines with the potential to emit more than 80 tons of NOx",
+          "locator": "Appeal, Section II",
+          "supports": "capacity (unit count)"
+        }
+      ]
+    },
+    {
+      "id": "flow:longhorn-turbines-to-crusoe",
+      "from": "fac:crusoe-abilene-longhorn-turbines",
+      "to": "co:crusoe",
+      "to_hint": "fac:oracle-stargate-abilene",
+      "commodity": "electricity (behind-the-meter gas turbines)",
+      "description": "TCEQ-permitted simple-cycle turbines generating power for onsite use only for data centers at Crusoe's Longhorn Data Center, Abilene.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "Abilene DC 1, LLC (Abilene DC) dba Crusoe Energy Systems, LLC (Crusoe), has submitted the following modification application for a standard permit for electric generating units for the Longhorn Data Center in Abilene within Taylor County, Texas.",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "existence, operator, location"
+        },
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "The purpose of the equipment is to generate power for onsite use only for data centers and computing.",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "relationship (behind-the-meter data center supply)"
+        }
+      ]
+    },
+    {
+      "id": "flow:ge-vernova-to-longhorn",
+      "from": "co:ge-vernova",
+      "to": "fac:crusoe-abilene-longhorn-turbines",
+      "commodity": "GE LM2500 aeroderivative gas turbines",
+      "description": "TCEQ review lists five GE LM2500 simple-cycle turbines at the Longhorn Data Center; GE Vernova separately announced LM2500XPRESS packages for Crusoe AI data centers.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "Reduce the count of GE LM2500 simple-cycle turbines from six to five, reduce the site-rated power to 34.1 MW per turbine, and increase the annual hours of operation from 5,880 hours to 8,760 hours per turbine.",
+          "locator": "Technical Review p.1, Project Description",
+          "supports": "capacity, supplier (GE LM2500)"
+        },
+        {
+          "source": "src:gev-crusoe-release",
+          "quote": "GE Vernova Inc. (NYSE: GEV) and Crusoe, the industry’s first vertically integrated AI infrastructure provider, today announced a significant deal to deliver 29 units of GE Vernova’s breakthrough LM2500XPRESS aeroderivative gas turbine packages to Crusoe AI data centers.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, volume"
+        }
+      ]
+    },
+    {
+      "id": "flow:ge-vernova-to-crusoe",
+      "from": "co:ge-vernova",
+      "to": "co:crusoe",
+      "commodity": "LM2500XPRESS aeroderivative gas turbine packages (29 units)",
+      "description": "29 LM2500XPRESS units (10 ordered Dec 2024, 19 booked June 2025), nearly 1 GW, for Crusoe AI data centers.",
+      "basis": "documented",
+      "volume": {
+        "value": 29,
+        "unit": "turbine packages",
+        "as_of": "2025-07-22",
+        "note": "Combined nearly 1 GW.",
+        "evidence": [
+          {
+            "source": "src:gev-crusoe-release",
+            "quote": "GE Vernova Inc. (NYSE: GEV) and Crusoe, the industry’s first vertically integrated AI infrastructure provider, today announced a significant deal to deliver 29 units of GE Vernova’s breakthrough LM2500XPRESS aeroderivative gas turbine packages to Crusoe AI data centers.",
+            "locator": "Press release, first paragraph",
+            "supports": "relationship, volume"
+          },
+          {
+            "source": "src:gev-crusoe-release",
+            "quote": "The announced order of 19 units, booked in June 2025, builds on the first series of 10 units Crusoe ordered in December 2024, and combined, is expected to provide nearly 1GW of electricity.",
+            "locator": "Press release, first paragraph",
+            "supports": "volume, dates"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:gev-crusoe-release",
+          "quote": "GE Vernova Inc. (NYSE: GEV) and Crusoe, the industry’s first vertically integrated AI infrastructure provider, today announced a significant deal to deliver 29 units of GE Vernova’s breakthrough LM2500XPRESS aeroderivative gas turbine packages to Crusoe AI data centers.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, volume"
+        },
+        {
+          "source": "src:gev-crusoe-release",
+          "quote": "The announced order of 19 units, booked in June 2025, builds on the first series of 10 units Crusoe ordered in December 2024, and combined, is expected to provide nearly 1GW of electricity.",
+          "locator": "Press release, first paragraph",
+          "supports": "volume, dates"
+        }
+      ]
+    }
+  ],
+  "financial_links": [
+    {
+      "id": "fin:microsoft-constellation-crane-ppa",
+      "from": "co:microsoft",
+      "to": "co:constellation",
+      "kind": "ppa",
+      "date": "2024-09-20",
+      "description": "20-year PPA for the output (energy, capacity, attributes) of the restarted ~835 MW Crane Clean Energy Center. Price not disclosed.",
+      "evidence": [
+        {
+          "source": "src:ceg-crane-microsoft-ppa-release",
+          "quote": "Constellation (Nasdaq: CEG) announced today the signing of a 20-year power purchase agreement with Microsoft that will pave the way for the launch of the Crane Clean Energy Center (CCEC) and restart of Three Mile Island Unit 1",
+          "locator": "Press release, first paragraph (Londonderry, PA, Sept 20, 2024)",
+          "supports": "relationship, term"
+        },
+        {
+          "source": "src:ceg-10k-2025",
+          "quote": "The restart is supported by a 20-year PPA with Microsoft to purchase the output generated from the renewed plant.",
+          "locator": "Item 7 MD&A, 'Crane Clean Energy Center'",
+          "supports": "relationship, term"
+        }
+      ]
+    },
+    {
+      "id": "fin:meta-constellation-clinton-ppa",
+      "from": "co:meta",
+      "to": "co:constellation",
+      "kind": "ppa",
+      "date": "2025-06-03",
+      "description": "20-year PPA for 1,121 MW output of Clinton Clean Energy Center beginning June 2027. Price not disclosed.",
+      "evidence": [
+        {
+          "source": "src:ceg-meta-clinton-release",
+          "quote": "Constellation (Nasdaq: CEG) and Meta have signed a 20-year power purchase agreement (PPA) for the output of the Clinton Clean Energy Center to support Meta’s clean energy goals and operations in the region with 1,121 megawatts of emissions-free nuclear energy.",
+          "locator": "Press release, first paragraph (CLINTON, IL – JUNE 3, 2025)",
+          "supports": "relationship, term, capacity"
+        },
+        {
+          "source": "src:ceg-meta-clinton-release",
+          "quote": "Beginning in June of 2027, the agreement supports the relicensing and continued operations of Constellation’s high-performing Clinton nuclear facility for another two decades after the state’s ratepayer funded zero emission credit (ZEC) program expires.",
+          "locator": "Press release, second paragraph",
+          "supports": "status, term start"
+        }
+      ]
+    },
+    {
+      "id": "fin:amazon-talen-susquehanna-ppa",
+      "from": "co:amazon",
+      "to": "co:talen",
+      "kind": "ppa",
+      "date": "2025-06-11",
+      "description": "Expanded fixed-price PPA for up to 1,920 MW from Susquehanna through 2042 (ramping, full volume no later than 2032). Dollar value not stated in the cited filings.",
+      "evidence": [
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "in June 2025, we and AWS entered into an expanded power purchase agreement for the long-term, fixed-price supply of up to 1,920 MW of power annually from Susquehanna to the adjacent AWS data center campus through 2042.",
+          "locator": "Item 1. Business, overview",
+          "supports": "relationship, volume, term"
+        },
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the expanded PPA, at the full contract quantity, Talen will provide Amazon with 1,920 megawatts of carbon-free nuclear power through 2042, with options to further extend its duration.",
+          "locator": "Exhibit 99.1, second paragraph",
+          "supports": "volume, term"
+        }
+      ]
+    },
+    {
+      "id": "fin:alphabet-nextera-duane-arnold-ppa",
+      "from": "co:alphabet",
+      "to": "co:nextera",
+      "kind": "ppa",
+      "date": "2025-10-28",
+      "description": "25-year agreement for Google to purchase power from the restarted 615 MW Duane Arnold Energy Center. Price not disclosed.",
+      "evidence": [
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "Once operational, Google will purchase power from the 615-MW plant as a 24/7 carbon-free energy source to help power Google’s growing cloud and AI infrastructure in Iowa",
+          "locator": "Press release, second paragraph",
+          "supports": "relationship, capacity, destination"
+        },
+        {
+          "source": "src:nee-google-duane-arnold-release",
+          "quote": "In addition to Google’s 25-year agreement to purchase carbon-free nuclear energy from the Duane Arnold plant, one of the plant's current minority owners, Central Iowa Power Cooperative (CIPCO), will purchase the remaining portion of the plant's output on the same terms as Google.",
+          "locator": "Press release, third paragraph",
+          "supports": "term, relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:doe-constellation-crane-loan",
+      "from": "gov:us-doe",
+      "to": "co:constellation",
+      "kind": "government_loan",
+      "amount": {
+        "value": 1000000000,
+        "currency": "USD",
+        "note": "up to; guaranteed FFB loan"
+      },
+      "date": "2025-11-18",
+      "description": "DOE (Energy Dominance Financing / LPO) guarantee of up to $1.0 billion Federal Financing Bank loan for the Crane restart; matures 2055.",
+      "evidence": [
+        {
+          "source": "src:doe-crane-loan",
+          "quote": "The $1 billion loan to Constellation Energy Generation, LLC (Constellation) will help finance the Crane Clean Energy Center, an 835 MW plant located on the Susquehanna River in Londonderry Township, Pennsylvania.",
+          "locator": "DOE release, first paragraph",
+          "supports": "existence, location, capacity, amount"
+        },
+        {
+          "source": "src:ceg-10k-2025",
+          "quote": "In November 2025, the DOE Office of Energy Dominance Financing issued a guarantee for up to $1.0 billion for an unsecured loan from the Federal Financing Bank to support the restart of the Crane Clean Energy Center.",
+          "locator": "Item 7 MD&A, 'Crane Clean Energy Center'",
+          "supports": "amount, relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:doe-nextera-duane-arnold-loan",
+      "from": "gov:us-doe",
+      "to": "co:nextera",
+      "kind": "government_loan",
+      "amount": {
+        "value": 1900000000,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2026-09-08",
+      "description": "DOE Office of Energy Dominance Financing loan of up to $1.9 billion to finance the Duane Arnold restart.",
+      "evidence": [
+        {
+          "source": "src:doe-duane-arnold-loan",
+          "quote": "The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF) today announced the financial close of a loan of up to $1.9 billion to NextEra Energy to help finance the restart of the Duane Arnold Energy Center in Linn County, Iowa.",
+          "locator": "DOE release, first paragraph (September 8, 2026)",
+          "supports": "amount, relationship, location"
+        }
+      ]
+    },
+    {
+      "id": "fin:tva-kairos-hermes-2-ppa",
+      "from": "co:tva",
+      "to": "co:kairos",
+      "kind": "ppa",
+      "date": "2025-08-18",
+      "description": "PPA for up to 50 MW from Hermes 2 to the TVA grid; Google receives the clean energy attributes.",
+      "evidence": [
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through a new power purchase agreement (PPA) between Kairos Power and TVA, Kairos Power’s Hermes 2 Plant in Oak Ridge, Tenn., will deliver up to 50 megawatts (MW) of reliable, 24/7 energy to the TVA grid that powers Google data centers in Tennessee and Alabama.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, capacity, location"
+        },
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through this agreement, Google will receive the clean energy attributes from the plant through the TVA system to further decarbonize its data center operations in Montgomery County, Tennessee, and Jackson County, Alabama, and support future growth in the region.",
+          "locator": "Press release, second paragraph",
+          "supports": "relationship, destination"
+        }
+      ]
+    },
+    {
+      "id": "fin:alphabet-kairos-500mw",
+      "from": "co:alphabet",
+      "to": "co:kairos",
+      "kind": "ppa",
+      "date": "2025-08-18",
+      "description": "Kairos-Google agreement to enable 500 MW of advanced nuclear capacity by 2035; Hermes 2 is the first deployment (date is of the citing release, not the original agreement).",
+      "evidence": [
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Hermes 2 is the first deployment under Kairos Power’s landmark deal with Google to enable 500 MW of new, advanced nuclear capacity to come online by 2035 in support of Google’s load growth.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, amount (MW)"
+        }
+      ]
+    },
+    {
+      "id": "fin:meta-vistra-nuclear-ppas",
+      "from": "co:meta",
+      "to": "co:vistra",
+      "kind": "ppa",
+      "date": "2026-01-09",
+      "description": "20-year PPAs for 2,609 MW of power and capacity from Perry, Davis-Besse (operating + uprates) and Beaver Valley (uprate). Price not disclosed.",
+      "evidence": [
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "In January 2026, Vistra Corp. (“Vistra” or the “Company”) announced that it has entered into 20-year power purchase agreements (“PPAs”) with Meta Platforms, Inc. (“Meta”), pursuant to which the Company has agreed to supply Meta with a total of 2,609 MW of carbon-free power and capacity from the Company’s PJM nuclear power plants as follows:",
+          "locator": "Item 7.01 Regulation FD Disclosure",
+          "supports": "relationship, term, volume"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "1,268 MW of energy and capacity from the Company’s operating Perry Nuclear Power Plant (“Perry”) and 908 MW of energy and capacity from the Company’s operating Davis-Besse Nuclear Power Plant (“Davis-Besse”); and",
+          "locator": "Item 7.01, first bullet",
+          "supports": "volume per plant"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "213 MW of uprate energy and capacity from Perry, 80 MW of uprate energy and capacity from Davis-Besse, and 140 MW of uprate energy and capacity from the Company’s Beaver Valley Nuclear Power Plant.",
+          "locator": "Item 7.01, second bullet",
+          "supports": "volume per plant (uprates)"
+        },
+        {
+          "source": "src:vst-8k-2026-01-09",
+          "quote": "Under the terms of the PPAs, the Company anticipates commencing delivery on a portion of the operating energy and capacity in late 2026 and full delivery of the operating energy and capacity by year end 2027.",
+          "locator": "Item 7.01",
+          "supports": "status, timing"
+        }
+      ]
+    },
+    {
+      "id": "fin:meta-oklo-pike-county",
+      "from": "co:meta",
+      "to": "co:oklo",
+      "kind": "prepayment",
+      "date": "2026-01-09",
+      "description": "Meta funding commitment for early procurement and development of Oklo's Pike County, Ohio campus (up to 1.2 GW). Amount not disclosed.",
+      "evidence": [
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Our partnership with Oklo helps advance the development of entirely new nuclear energy in Pike County, Ohio. This advanced nuclear technology campus — which may come online as early as 2030 — is poised to add up to 1.2 GW of clean baseload power directly into the PJM market and support our operations in the region.",
+          "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+          "supports": "existence, location, capacity, relationship"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "“Meta’s funding commitment in support of early procurement and development activity is a major step in moving advanced nuclear forward,” said Jacob DeWitte, Oklo’s co-founder and CEO.",
+          "locator": "Section 'Oklo: Adding New Nuclear Energy in Ohio'",
+          "supports": "relationship (funding)"
+        }
+      ]
+    },
+    {
+      "id": "fin:meta-terrapower-natrium",
+      "from": "co:meta",
+      "to": "co:terrapower",
+      "kind": "ppa",
+      "date": "2026-01-09",
+      "description": "Meta funding for two Natrium units (up to 690 MW, delivery as early as 2032) with rights to energy from up to six more (2.1 GW by 2035). Amount not disclosed.",
+      "evidence": [
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "Our agreement with TerraPower will provide funding that supports the development of two new Natrium® units capable of generating up to 690 MW of firm power with delivery as early as 2032.",
+          "locator": "Section 'TerraPower: Investing in Advanced Nuclear Technology'",
+          "supports": "relationship, capacity"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "The agreement also provides Meta with rights for energy from up to six other Natrium units capable of producing 2.1 GW and targeted for delivery by 2035.",
+          "locator": "Section 'TerraPower: Investing in Advanced Nuclear Technology'",
+          "supports": "option volume"
+        }
+      ]
+    },
+    {
+      "id": "fin:amazon-energy-northwest-cascade",
+      "from": "co:amazon",
+      "to": "co:energy-northwest",
+      "kind": "ppa",
+      "date": "2026-08-13",
+      "description": "Carbon Free Development and Funding Agreement for four Xe-100 reactors (320 MWe, up to 960 MWe); X-energy refers to PPA prices on Amazon-sponsored initial projects. Date is the citing 10-Q.",
+      "evidence": [
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "relationship, capacity"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "we are required to make payments to Amazon reflecting the cost efficiencies we have achieved relative to the power purchase agreement prices applicable to the initial projects.",
+          "locator": "Part I, Item 1A Risk Factors",
+          "supports": "relationship (PPA pricing on Amazon-sponsored projects)"
+        }
+      ]
+    },
+    {
+      "id": "fin:meta-entergy-louisiana-esa",
+      "from": "co:meta",
+      "to": "co:entergy",
+      "kind": "purchase_commitment",
+      "amount": {
+        "value": 2387000000,
+        "currency": "USD",
+        "note": "Entergy's estimated cost of Franklin Farms Units 1-2 (utility capex), not a payment amount"
+      },
+      "date": "2025-08-20",
+      "description": "Electric service agreement between Entergy Louisiana and Meta subsidiary Laidley LLC underpinning ~2,262 MW of new CCCTs, approved by LPSC Order U-37425 with customer protection conditions. Franklin Farms 1-2 cost ~$2,387 million.",
+      "evidence": [
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In October 2024, Entergy Louisiana filed an application with the LPSC seeking approval of a variety of generation and transmission resources proposed in connection with establishing service to a new data center to be developed by a subsidiary of Meta Platforms, Inc. in north Louisiana, for which an electric service agreement has been executed.",
+          "locator": "Item 7 MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "approval by the Commission for the Company to construct the generation and transmission resources needed to serve significant new load associated with a data center being developed by Meta Platforms, Inc., through its subsidiary, Laidley LLC (the “Customer”), in Richland Parish, Louisiana (the “Project”).",
+          "locator": "Order No. U-37425, Section I, Overview and Procedural History",
+          "supports": "relationship, destination"
+        },
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "The combined cost of Franklin Farms Power Station Units 1 and 2 is estimated to be approximately $2,387 million.",
+          "locator": "Item 7 MD&A",
+          "supports": "cost"
+        }
+      ]
+    },
+    {
+      "id": "fin:meta-evest-entergy-esa",
+      "from": "co:meta",
+      "to": "co:entergy",
+      "kind": "purchase_commitment",
+      "amount": {
+        "value": 12900000000,
+        "currency": "USD",
+        "note": "Entergy's estimated generation cost in the pending application, not a payment amount"
+      },
+      "date": "2026-03-01",
+      "description": "Electric service agreement with Evest LLC (Meta subsidiary) for a second north Louisiana data center; accompanying LPSC application for 5,278 MW of CCCTs at ~$12.9 billion (pending).",
+      "evidence": [
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "In March 2026, Entergy Louisiana entered into an electric service agreement with Evest LLC (Evest), a subsidiary of Meta Platforms, Inc., in connection with establishing service to a second new data center to be developed by Evest in north Louisiana.",
+          "locator": "Part I, MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:etr-10q-2026q2",
+          "quote": "Also in March 2026, Entergy Louisiana filed an application with the LPSC for certification to construct seven new combined cycle combustion turbine generation resources totaling 5,278 MW at a total cost of approximately $12.9 billion, each of which will be enabled for future carbon capture and storage",
+          "locator": "Part I, MD&A",
+          "supports": "capacity, cost"
+        }
+      ]
+    },
+    {
+      "id": "fin:crusoe-ge-vernova-turbines",
+      "from": "co:crusoe",
+      "to": "co:ge-vernova",
+      "kind": "purchase_commitment",
+      "date": "2025-07-22",
+      "description": "Orders for 29 LM2500XPRESS aeroderivative gas turbine packages (10 in Dec 2024, 19 in June 2025). Price not disclosed.",
+      "evidence": [
+        {
+          "source": "src:gev-crusoe-release",
+          "quote": "GE Vernova Inc. (NYSE: GEV) and Crusoe, the industry’s first vertically integrated AI infrastructure provider, today announced a significant deal to deliver 29 units of GE Vernova’s breakthrough LM2500XPRESS aeroderivative gas turbine packages to Crusoe AI data centers.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, volume"
+        },
+        {
+          "source": "src:gev-crusoe-release",
+          "quote": "The announced order of 19 units, booked in June 2025, builds on the first series of 10 units Crusoe ordered in December 2024, and combined, is expected to provide nearly 1GW of electricity.",
+          "locator": "Press release, first paragraph",
+          "supports": "volume, dates"
+        }
+      ]
+    }
+  ],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "xAI Memphis (Colossus) turbine permit text",
+      "why": "Shelby County Health Department does not publish Air Permit 01156-01PC in a fetchable location; x.ai pages return 403. Only an appellants' filing (hosted on a news CDN) was retrieved.",
+      "would_need": "SCHD Air Permit No. 01156-01PC and its Construction Permit Application Evaluation (July 2, 2025) from the SCHD Pollution Control Section; TVA Board minutes (Nov 2024, Feb 2026) approving MLGW supply to xAI."
+    },
+    {
+      "topic": "xAI Southaven, MS turbines for Colossus 2 (MZX Tech LLC, 41 turbines)",
+      "why": "MDEQ permit (Air Ref. No. 0680-00119) not retrieved from an MDEQ domain; copies found only on news/advocacy sites (one returned Access Denied).",
+      "would_need": "MDEQ Permit Board PSD construction permit for MZX Tech LLC, 2875 Stanton Road, Southaven (approved March 10, 2026)."
+    },
+    {
+      "topic": "FERC Docket ER24-2172 order text",
+      "why": "ferc.gov and eLibrary pages returned a bot-challenge page; the order is cited via Talen's 10-K Item 3 instead.",
+      "would_need": "FERC Order Rejecting Amended ISA, 189 FERC ¶ 61,078 (Nov. 1, 2024), from FERC eLibrary."
+    },
+    {
+      "topic": "PPA prices / dollar values",
+      "why": "None of the Tier 1/2 documents retrieved disclose contract prices for the Microsoft-Crane, Meta-Clinton, Google-Duane Arnold, Meta-Vistra or Amazon-Talen PPAs. The widely reported ~$18B Talen-Amazon value was not found in the Talen 8-K exhibit fetched.",
+      "would_need": "Talen investor presentation for June 11, 2025 or contract exhibits; utility commission filings with PPA pricing."
+    },
+    {
+      "topic": "Turbine OEMs for Entergy's Meta-serving CCCTs",
+      "why": "Neither the LPSC order text searched nor Entergy's 10-K/10-Q names the gas turbine supplier.",
+      "would_need": "Entergy Louisiana testimony/exhibits in LPSC Docket U-37425 identifying the turbine vendor (e.g., Mitsubishi Power or GE Vernova)."
+    },
+    {
+      "topic": "Link between Crusoe's Longhorn Data Center and Oracle/OpenAI Stargate",
+      "why": "The TCEQ permit names Abilene DC 1, LLC / Crusoe only; no Tier 1/2 document retrieved yet ties that permit to the Oracle/OpenAI Stargate campus.",
+      "would_need": "OpenAI/Oracle/Crusoe primary release naming the Abilene campus and its onsite generation; Oracle 10-K/10-Q."
+    }
+  ]
+}

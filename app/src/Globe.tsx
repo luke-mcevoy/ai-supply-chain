@@ -1,9 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import DeckGL, { type DeckGLRef } from "@deck.gl/react";
-import { GlobeView, LinearInterpolator, type PickingInfo } from "@deck.gl/core";
-import { SolidPolygonLayer, GeoJsonLayer, PathLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
+import { _GlobeView as GlobeView, LinearInterpolator, type PickingInfo, type GlobeViewState } from "@deck.gl/core";
+import { GeoJsonLayer, PathLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
 import { TripsLayer } from "@deck.gl/geo-layers";
-import { PathStyleExtension } from "@deck.gl/extensions";
+import { SimpleMeshLayer } from "@deck.gl/mesh-layers";
+import { SphereGeometry } from "@luma.gl/engine";
+import { COORDINATE_SYSTEM } from "@deck.gl/core";
+import { PathStyleExtension, type PathStyleExtensionProps } from "@deck.gl/extensions";
 import type { Feature, Geometry } from "geojson";
 import {
   type Index, type Facility, type Flow, type FinancialLink, type Control,
@@ -18,7 +21,11 @@ type RGBA = [number, number, number, number];
 const rgba = (c: RGB, a: number): RGBA => [c[0], c[1], c[2], Math.round(a)];
 
 const VIEW = new GlobeView({ id: "globe", resolution: 5 });
-const INITIAL = { longitude: -168, latitude: 28, zoom: 1.05, minZoom: 0.4, maxZoom: 9 };
+// Size the globe to ~38% of the short viewport edge (radius ≈ 170 px at zoom 1.05 on a 950 px-tall viewport).
+const fitZoom = () => 1.05 + Math.log2((0.4 * Math.min(window.innerWidth, window.innerHeight - 90)) / 170);
+const INITIAL = { longitude: -168, latitude: 28, zoom: fitZoom(), minZoom: 0.4, maxZoom: 9 };
+// Ocean: a mesh sphere a hair under Earth's radius, so tessellated land polygons never z-fight with it.
+const OCEAN_MESH = new SphereGeometry({ radius: 6.36e6, nlat: 48, nlong: 96 });
 const GRATICULE = graticule(20);
 const DASH = new PathStyleExtension({ dash: true, highPrecisionDash: true });
 
@@ -241,11 +248,11 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   };
 
   const layers = [
-    new SolidPolygonLayer({
-      id: "ocean",
-      data: [[[-180, 90], [0, 90], [180, 90], [180, -90], [0, -90], [-180, -90]]],
-      getPolygon: (d: number[][]) => d,
-      getFillColor: rgba(C.ocean, 255),
+    new SimpleMeshLayer({
+      id: "ocean", data: [0], mesh: OCEAN_MESH, coordinateSystem: COORDINATE_SYSTEM.CARTESIAN,
+      getPosition: [0, 0, 0], getColor: rgba(C.ocean, 255),
+      // flat, unlit: a matte instrument surface, no specular hot-spot
+      material: { ambient: 1, diffuse: 0, shininess: 0, specularColor: [0, 0, 0] },
     }),
     new PathLayer({
       id: "graticule", data: GRATICULE, getPath: (d: [number, number][]) => d,
@@ -273,7 +280,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
 
     // ─── NETWORK ───
     ...(mode === "network" ? [
-      new PathLayer<ArcDatum>({
+      new PathLayer<ArcDatum, PathStyleExtensionProps<ArcDatum>>({
         id: "flows", data: flowArcs, pickable: true, getPath: (d) => d.path,
         getColor: (d) => rgba(d.color, selectedFlowIds.has(d.id) ? 255 : dim(inFocusFlow(d.id), d.dashed ? 120 : 150)),
         getWidth: (d) => (selectedFlowIds.has(d.id) ? 3 : focus && inFocusFlow(d.id) ? 2.2 : 1.2),
@@ -326,7 +333,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
 
     // ─── CAPITAL ───
     ...(mode === "capital" ? [
-      new PathLayer<ArcDatum>({
+      new PathLayer<ArcDatum, PathStyleExtensionProps<ArcDatum>>({
         id: "fin-arcs", data: finArcs, pickable: true, getPath: (d) => d.path,
         getColor: (d) => rgba(d.color, d.id === s.selected ? 255 : s.selected ? 70 : 150),
         getWidth: (d) => d.width + (d.id === s.selected ? 2 : 0), widthUnits: "pixels",
@@ -363,7 +370,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         getPosition: (f) => [f.location.lon, f.location.lat, 10_000], getRadius: 2.5, radiusUnits: "pixels",
         getFillColor: (f) => rgba(LAYER_COLOR[f.layer], 110), onHover, onClick,
       }),
-      new PathLayer<(typeof ctlArcs)[number]>({
+      new PathLayer<(typeof ctlArcs)[number], PathStyleExtensionProps<(typeof ctlArcs)[number]>>({
         id: "ctl-routes", data: ctlArcs, pickable: true, getPath: (d) => d.path,
         getColor: rgba(C.danger, 210), getWidth: (d) => d.width, widthUnits: "pixels",
         getDashArray: [6, 4], extensions: [DASH], onHover, onClick,
@@ -403,7 +410,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       <DeckGL
         ref={deckRef}
         views={VIEW}
-        viewState={viewState}
+        viewState={viewState as unknown as GlobeViewState}
         controller={{ inertia: 400, scrollZoom: { speed: 0.02, smooth: true } }}
         onViewStateChange={({ viewState: v, interactionState }) => {
           if (interactionState?.isDragging || interactionState?.isZooming || interactionState?.isPanning) idleSpin.current = false;

@@ -1,0 +1,2055 @@
+{
+  "layer": "materials",
+  "analyst": "materials-analyst (Claude)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:usgs-mcs2026-gallium",
+      "title": "Mineral Commodity Summaries 2026: Gallium",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gallium.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-02",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:usgs-mcs2026-germanium",
+      "title": "Mineral Commodity Summaries 2026: Germanium",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-germanium.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-02",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:usgs-mcs2026-rare-earths",
+      "title": "Mineral Commodity Summaries 2026: Rare Earths",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-02",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:usgs-mcs2026-silicon",
+      "title": "Mineral Commodity Summaries 2026: Silicon",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-silicon.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-02",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:usgs-mcs2026-quartz",
+      "title": "Mineral Commodity Summaries 2026: Quartz (High-Purity and Industrial Cultured Crystal)",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-quartz.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-02",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:usgs-mcs2026-tungsten",
+      "title": "Mineral Commodity Summaries 2026: Tungsten",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-02",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:mp-8k-2025-07-10",
+      "title": "MP Materials Corp. Form 8-K (DoD public-private partnership)",
+      "publisher": "MP Materials Corp.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000119312525157310/d43796d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-07-10",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-25-157310"
+    },
+    {
+      "id": "src:mp-10k-2025",
+      "title": "MP Materials Corp. Form 10-K for fiscal year 2025",
+      "publisher": "MP Materials Corp.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001801368-26-000008"
+    },
+    {
+      "id": "src:corning-10k-2025",
+      "title": "Corning Incorporated Form 10-K for fiscal year 2025",
+      "publisher": "Corning Incorporated",
+      "url": "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/glw-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-12",
+      "accessed": "2026-09-27",
+      "identifier": "0000024741-26-000124"
+    },
+    {
+      "id": "src:siltronic-ar-2025",
+      "title": "Siltronic AG Annual Report 2025",
+      "publisher": "Siltronic AG",
+      "url": "https://www.siltronic.com/fileadmin/investorrelations/Archiv/2025/Q4/260312_Siltronic_Annual_Report_2025_safe.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-03-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:lynas-ar-2025",
+      "title": "Lynas Rare Earths Ltd Appendix 4E and 2025 Annual Report (ASX)",
+      "publisher": "Lynas Rare Earths Ltd",
+      "url": "https://announcements.asx.com.au/asxpdf/20250828/pdf/06ngtkbmf2fb5g.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2025-08-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:lynas-ar-2026",
+      "title": "Lynas Rare Earths Ltd Appendix 4E and 2026 Annual Report (ASX)",
+      "publisher": "Lynas Rare Earths Ltd",
+      "url": "https://asx.api.markitdigital.com/asx-research/1.0/file/2924-03126303-6A1340354",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-08-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wacker-ar-2025-polysilicon",
+      "title": "Wacker Chemie AG Annual Report 2025, Management Report, Segments: Polysilicon",
+      "publisher": "Wacker Chemie AG",
+      "url": "https://reports.wacker.com/2025/annual-report/management-report/segments/polysilicon.html",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-03-11",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wacker-ar-2025-business-model",
+      "title": "Wacker Chemie AG Annual Report 2025, Group Business Fundamentals: Business Model",
+      "publisher": "Wacker Chemie AG",
+      "url": "https://reports.wacker.com/2025/annual-report/management-report/group-business-fundamentals/business-model.html",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-03-11",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wacker-polysilicon-division",
+      "title": "The Polysilicon division (company website)",
+      "publisher": "Wacker Chemie AG",
+      "url": "https://www.wacker.com/cms/en-us/about-wacker/profile-and-organization/wacker-polysilicon.html",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wacker-charleston-site",
+      "title": "Charleston, Tennessee, USA (production site page)",
+      "publisher": "Wacker Chemie AG",
+      "url": "https://www.wacker.com/cms/en-us/about-wacker/production-sites/charleston.html",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wacker-pr-2025-etching-line",
+      "title": "WACKER commissions new production line for semiconductor-grade polysilicon at Burghausen site",
+      "publisher": "Wacker Chemie AG",
+      "url": "https://www.wacker.com/cms/en-us/press-and-media/press/press-releases/2025/press-releases-detail-2025-257922.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-07-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wacker-pr-2024-iatf",
+      "title": "WACKER's Polysilicon Production Successfully Certified to IATF 16949",
+      "publisher": "Wacker Chemie AG",
+      "url": "https://www.wacker.com/cms/en-us/press-and-media/press/press-releases/2024/detail-228484.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-02-22",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:hsc-about",
+      "title": "About Hemlock Semiconductor (company website)",
+      "publisher": "Hemlock Semiconductor Operations LLC",
+      "url": "https://www.hscpoly.com/about/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:hsc-contact",
+      "title": "Contact Hemlock Semiconductor (company website)",
+      "publisher": "Hemlock Semiconductor Operations LLC",
+      "url": "https://www.hscpoly.com/contact/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tqc-high-purity-quartz",
+      "title": "High Purity Quartz (company website)",
+      "publisher": "The Quartz Corp",
+      "url": "https://www.thequartzcorp.com/high-purity-quartz",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tqc-contact",
+      "title": "Contact (company website)",
+      "publisher": "The Quartz Corp",
+      "url": "https://www.thequartzcorp.com/contact",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:umicore-germanium-refining",
+      "title": "Germanium Recycling & Refining (company website)",
+      "publisher": "Umicore",
+      "url": "https://www.umicore.com/en/markets-products/metals/germanium/germanium-refining/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sibelco-spruce-pine-location",
+      "title": "Spruce Pine (location page)",
+      "publisher": "Sibelco",
+      "url": "https://www.sibelco.com/en/locations/spruce-pine",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sibelco-iota-hpq",
+      "title": "High purity quartz (IOTA) materials page",
+      "publisher": "Sibelco",
+      "url": "https://www.sibelco.com/en/materials/high-purity-quartz",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sibelco-pr-2023-spruce-pine-expansion",
+      "title": "Sibelco announces a major expansion of its Spruce Pine (USA) high purity quartz operations",
+      "publisher": "Sibelco",
+      "url": "https://www.sibelco.com/en/news/sibelco-announces-a-major-expansion-of-its-spruce-pine-usa-high-purity-quartz-operations",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-04",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sibelco-pr-2023-expansion-update",
+      "title": "Sibelco provides an update on the expansion of its Spruce Pine (USA) high purity quartz operations",
+      "publisher": "Sibelco",
+      "url": "https://www.sibelco.com/en/news/sibelco-provides-an-update-on-the-expansion-of-its-spruce-pine-usa-high-purity-quartz-operations",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-11-10",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:umicore-all-sites",
+      "title": "All sites (company website)",
+      "publisher": "Umicore",
+      "url": "https://www.umicore.com/en/locations/all-sites/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:teck-aif-2025",
+      "title": "Teck Resources Limited Annual Information Form for 2025 (Exhibit 99.1 to Form 40-F)",
+      "publisher": "Teck Resources Limited",
+      "url": "https://www.sec.gov/Archives/edgar/data/886986/000088698626000004/teck-20251231xexx991aif.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-02-19",
+      "accessed": "2026-09-27",
+      "identifier": "0000886986-26-000004"
+    },
+    {
+      "id": "src:globalwafers-ar-2025",
+      "title": "GlobalWafers Co., Ltd. Annual Report 2025",
+      "publisher": "GlobalWafers Co., Ltd.",
+      "url": "https://www.sas-globalwafers.com/wp-content/uploads/2026/04/GlobalWafers_2025-Annual-Report-EN.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-04",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:bis-2025-0028-0036-globalwafers",
+      "title": "GlobalWafers Co. Ltd. comment, Section 232 National Security Investigation of Imports of Polysilicon and its Derivatives (XRIN 0694-XC128)",
+      "publisher": "GlobalWafers Co., Ltd. (filed with U.S. Department of Commerce, BIS)",
+      "url": "https://downloads.regulations.gov/BIS-2025-0028-0036/attachment_1.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-08-06",
+      "accessed": "2026-09-27",
+      "identifier": "BIS-2025-0028-0036"
+    },
+    {
+      "id": "src:bis-2025-0028-0022-sia",
+      "title": "Semiconductor Industry Association comment, Section 232 National Security Investigation of Imports of Polysilicon and its Derivatives (XRIN 0694-XC128)",
+      "publisher": "Semiconductor Industry Association (filed with U.S. Department of Commerce, BIS)",
+      "url": "https://www.semiconductors.org/wp-content/uploads/2025/08/Semiconductor-Industry-Association-SIA-Comments-Polysilicon-Section-232-Investigation.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-08-06",
+      "accessed": "2026-09-27",
+      "identifier": "BIS-2025-0028-0022"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:mp-materials",
+      "name": "MP Materials Corp.",
+      "country": "US",
+      "tickers": [
+        "NYSE:MP"
+      ],
+      "sec_cik": "0001801368",
+      "hq": {
+        "lat": 36.0699,
+        "lon": -115.283,
+        "precision": "city",
+        "address": "1700 S. Pavilion Center Drive, Suite 800, Las Vegas, Nevada 89135"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "is the largest producer of rare earth materials in the Western Hemisphere. Headquartered in Las Vegas, Nevada, the Company owns and operates the Mountain Pass Rare Earth Mine and Processing Facility",
+          "locator": "Item 1. Business",
+          "supports": "existence, hq"
+        }
+      ]
+    },
+    {
+      "id": "co:lynas",
+      "name": "Lynas Rare Earths Ltd",
+      "country": "AU",
+      "tickers": [
+        "ASX:LYC"
+      ],
+      "hq": {
+        "lat": -31.9523,
+        "lon": 115.8613,
+        "precision": "city",
+        "address": "Level 4, 1 Howard Street, Perth, WA 6000"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2026",
+          "quote": "Business activities undertaken by Lynas include exploration, mining and production of a rare earths concentrate at Lynas’ Mt Weld site in Western Australia",
+          "locator": "Directors' Report, principal activities (p. 32)",
+          "supports": "existence, business"
+        }
+      ]
+    },
+    {
+      "id": "co:wacker",
+      "name": "Wacker Chemie AG",
+      "country": "DE",
+      "tickers": [
+        "XETRA:WCH"
+      ],
+      "hq": {
+        "lat": 48.1351,
+        "lon": 11.582,
+        "precision": "city",
+        "address": "Munich, Germany"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:wacker-polysilicon-division",
+          "quote": "We draw on our 70 years of experience to produce hyperpure polysilicon for the semiconductor and photovoltaic industries at the following three sites:",
+          "locator": "Worldwide production sites",
+          "supports": "existence, business"
+        },
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "Wacker and Hemlock account for approximately three-quarters of the global semiconductor polysilicon market share.",
+          "locator": "p. 4",
+          "supports": "market share"
+        }
+      ]
+    },
+    {
+      "id": "co:hemlock",
+      "name": "Hemlock Semiconductor Operations LLC",
+      "country": "US",
+      "hq": {
+        "lat": 43.4148,
+        "lon": -84.2311,
+        "precision": "city",
+        "address": "12334 Geddes Road, Hemlock, Michigan 48626"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:hsc-about",
+          "quote": "HSC is owned by two world-leading applied science and technology companies: Corning Inc. and Shin-Etsu Handotai.",
+          "locator": "HSC Joint Venture Partners",
+          "supports": "ownership"
+        },
+        {
+          "source": "src:corning-10k-2025",
+          "quote": "This group is primarily comprised of the results of Hemlock Semiconductor Group (“HSG”). HSG is a leading provider of high-purity polysilicon products for the solar power and electronics industries.",
+          "locator": "Item 1. Business, Hemlock and Emerging Growth Businesses",
+          "supports": "existence, consolidation by Corning"
+        },
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "Wacker and Hemlock account for approximately three-quarters of the global semiconductor polysilicon market share.",
+          "locator": "p. 4",
+          "supports": "market share"
+        }
+      ]
+    },
+    {
+      "id": "co:corning",
+      "name": "Corning Incorporated",
+      "country": "US",
+      "tickers": [
+        "NYSE:GLW"
+      ],
+      "sec_cik": "0000024741",
+      "hq": {
+        "lat": 42.1428,
+        "lon": -77.0547,
+        "precision": "city",
+        "address": "Corning, New York"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:corning-10k-2025",
+          "quote": "The non-controlling interest as recorded on the consolidated financial statements represents amounts attributable to the minority shareholders of less-than-wholly-owned consolidated subsidiaries, including Hemlock Semiconductor Group (“HSG”)",
+          "locator": "Notes to consolidated financial statements, noncontrolling interest",
+          "supports": "ownership of Hemlock"
+        }
+      ]
+    },
+    {
+      "id": "co:shin-etsu",
+      "name": "Shin-Etsu Chemical Co., Ltd. (incl. Shin-Etsu Handotai)",
+      "country": "JP",
+      "tickers": [
+        "TSE:4063"
+      ],
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.766,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:hsc-about",
+          "quote": "HSC is owned by two world-leading applied science and technology companies: Corning Inc. and Shin-Etsu Handotai.",
+          "locator": "HSC Joint Venture Partners",
+          "supports": "existence, Hemlock co-ownership"
+        },
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "namely Shin-Etsu Handotai and Sumco headquartered in Japan but with U.S.-based capacity in Washington and Arizona, and New Mexico, respectively",
+          "locator": "p. 4, wafer suppliers",
+          "supports": "existence, wafer maker"
+        }
+      ]
+    },
+    {
+      "id": "co:siltronic",
+      "name": "Siltronic AG",
+      "country": "DE",
+      "tickers": [
+        "XETRA:WAF"
+      ],
+      "hq": {
+        "lat": 48.1351,
+        "lon": 11.582,
+        "precision": "city",
+        "address": "Munich, Germany"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "Our main raw material is polysilicon, most of which we obtain from Wacker Chemie AG on the basis of long-term supply agreements.",
+          "locator": "Combined management report, procurement (p. 20)",
+          "supports": "existence, supplier relationship"
+        }
+      ]
+    },
+    {
+      "id": "co:the-quartz-corp",
+      "name": "The Quartz Corp",
+      "country": "NO",
+      "hq": {
+        "lat": 68.058,
+        "lon": 16.08,
+        "precision": "city",
+        "address": "Postbox 14, 8271 Drag, Norway"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:tqc-contact",
+          "quote": "Postbox 14 8271 Drag, Norway",
+          "locator": "Contact page, registered office",
+          "supports": "hq"
+        },
+        {
+          "source": "src:tqc-high-purity-quartz",
+          "quote": "Quartz crucibles are a critical component in the manufacture of photovoltaic cells and semiconductor chips.",
+          "locator": "Applications",
+          "supports": "business"
+        }
+      ]
+    },
+    {
+      "id": "co:umicore",
+      "name": "Umicore SA",
+      "country": "BE",
+      "tickers": [
+        "EBR:UMI"
+      ],
+      "hq": {
+        "lat": 50.8503,
+        "lon": 4.3517,
+        "precision": "city",
+        "address": "Brussels, Belgium"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:umicore-germanium-refining",
+          "quote": "Umicore refines any type of material or waste that contains at least 0.5% germanium.",
+          "locator": "Germanium Recycling & Refining",
+          "supports": "business"
+        }
+      ]
+    },
+    {
+      "id": "co:shenghe",
+      "name": "Shenghe Resources (Singapore) International Trading Pte. Ltd. (Shenghe Resources Holding Co., Ltd. group)",
+      "country": "SG",
+      "hq": {
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "precision": "country",
+        "address": "Singapore"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "In 2024, the Company entered into an offtake agreement with Shenghe Resources (Singapore) International Trading Pte. Ltd. (“Shenghe”), a majority-owned subsidiary of Leshan Shenghe Rare Earth Co., Ltd. whose ultimate parent is Shenghe Resources Holding Co., Ltd.",
+          "locator": "Note 21, Related-Party Transactions",
+          "supports": "existence, ownership"
+        }
+      ]
+    },
+    {
+      "id": "co:cn-gallium-producers",
+      "name": "China primary gallium producers (USGS country aggregate)",
+      "country": "CN",
+      "hq": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-gallium",
+          "quote": "China accounted for 99% of worldwide primary low-purity gallium production.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, share"
+        }
+      ]
+    },
+    {
+      "id": "co:cn-germanium-producers",
+      "name": "China germanium refiners (USGS country aggregate)",
+      "country": "CN",
+      "hq": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-germanium",
+          "quote": "China continued to be the leading global producer and exporter of germanium metal in 2025.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, rank"
+        }
+      ]
+    },
+    {
+      "id": "co:cn-rare-earth-producers",
+      "name": "China rare-earth miners and processors (USGS country aggregate)",
+      "country": "CN",
+      "hq": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-rare-earths",
+          "quote": "In April 2025, China tightened its export controls on rare-earth elements",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, export controls context"
+        }
+      ]
+    },
+    {
+      "id": "co:cn-tungsten-producers",
+      "name": "China tungsten producers (USGS country aggregate)",
+      "country": "CN",
+      "hq": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-tungsten",
+          "quote": "China continued to be the world’s leading producer, importer, and consumer of tungsten concentrates.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, rank"
+        }
+      ]
+    },
+    {
+      "id": "co:cn-silicon-producers",
+      "name": "China silicon-materials producers (USGS country aggregate)",
+      "country": "CN",
+      "hq": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-silicon",
+          "quote": "China accounted for almost 80% of total global estimated production of silicon materials in 2025.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, share"
+        }
+      ]
+    },
+    {
+      "id": "co:sibelco",
+      "name": "Sibelco (SCR-Sibelco NV)",
+      "country": "BE",
+      "hq": {
+        "lat": 51.2194,
+        "lon": 4.4025,
+        "precision": "city",
+        "address": "Antwerp, Belgium"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:sibelco-pr-2023-expansion-update",
+          "quote": "Our investments will ensure that Spruce Pine remains the world’s leading source of HPQ.",
+          "locator": "Press release, CEO quote",
+          "supports": "business (company claim)"
+        }
+      ]
+    },
+    {
+      "id": "co:teck",
+      "name": "Teck Resources Limited",
+      "country": "CA",
+      "tickers": [
+        "NYSE:TECK",
+        "TSX:TECK.B"
+      ],
+      "sec_cik": "0000886986",
+      "hq": {
+        "lat": 49.2827,
+        "lon": -123.1207,
+        "precision": "city",
+        "address": "Vancouver, British Columbia"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:teck-aif-2025",
+          "quote": "We primarily sell refined zinc and lead, and specialty metals such as germanium, indium and sulphur products from Canada into the United States from our Trail Operations in British Columbia.",
+          "locator": "Risk factors, tariffs",
+          "supports": "business, germanium sales to US"
+        }
+      ]
+    },
+    {
+      "id": "co:globalwafers",
+      "name": "GlobalWafers Co., Ltd.",
+      "country": "TW",
+      "tickers": [
+        "TPEx:6488"
+      ],
+      "hq": {
+        "lat": 24.7736,
+        "lon": 121.01,
+        "precision": "city",
+        "address": "Hsinchu, Taiwan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:globalwafers-ar-2025",
+          "quote": "The Company sources polycrystalline silicon from top-tier global suppliers under supply contracts to ensure consistent quality and availability.",
+          "locator": "Risk management, shortage in key materials (p. 136)",
+          "supports": "polysilicon sourcing"
+        },
+        {
+          "source": "src:bis-2025-0028-0036-globalwafers",
+          "quote": "GlobalWafers Co. Ltd (GWC) is the third largest of five global suppliers of semiconductor wafers",
+          "locator": "GlobalWafers Background",
+          "supports": "existence, market position"
+        }
+      ]
+    },
+    {
+      "id": "co:sumco",
+      "name": "SUMCO Corporation",
+      "country": "JP",
+      "tickers": [
+        "TSE:3436"
+      ],
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.766,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals",
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "Wacker Chemie (Germany), Hemlock Semiconductor (USA), Tokuyama Corporation (Japan), Sumco (Japan), and OCI (Korea).",
+          "locator": "p. 4, polysilicon suppliers",
+          "supports": "existence, also a polysilicon producer"
+        }
+      ]
+    },
+    {
+      "id": "co:sk-siltron",
+      "name": "SK Siltron Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 36.1195,
+        "lon": 128.3446,
+        "precision": "city",
+        "address": "Gumi, South Korea"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "SK Siltron, headquartered in South Korea but with U.S.-based capacity in Michigan",
+          "locator": "p. 4, wafer suppliers",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:tokuyama",
+      "name": "Tokuyama Corporation",
+      "country": "JP",
+      "tickers": [
+        "TSE:4043"
+      ],
+      "hq": {
+        "lat": 35.6852,
+        "lon": 139.766,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "Five suppliers represent the majority of global semiconductor-grade polysilicon manufacturing:",
+          "locator": "p. 4",
+          "supports": "existence, role (listed among five)"
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:the-quartz-corp-spruce-pine",
+      "name": "The Quartz Corp Spruce Pine high-purity quartz operations",
+      "operator": "co:the-quartz-corp",
+      "layer": "materials",
+      "kind": "high_purity_quartz_mine_and_plant",
+      "location": {
+        "lat": 35.9154,
+        "lon": -82.0646,
+        "precision": "city",
+        "address": "Spruce Pine, NC 28777"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "high-purity quartz sand (crucible grade)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tqc-high-purity-quartz",
+          "quote": "quartz from Spruce Pine is uniquely prized for its chemical composition",
+          "locator": "High Purity Quartz page",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:tqc-contact",
+          "quote": "Spruce Pine, NC 28777",
+          "locator": "Contact page, US office",
+          "supports": "location"
+        },
+        {
+          "source": "src:usgs-mcs2026-quartz",
+          "quote": "In 2025, there were two companies that produced HPQ in the United States around Spruce Pine, NC.",
+          "locator": "Domestic Production and Use",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:usgs-mcs2026-quartz",
+          "quote": "fused quartz crucibles (for manufacturing silicon metal ingots that are later processed into silicon wafers for the photovoltaic cell and semiconductor markets)",
+          "locator": "Domestic Production and Use",
+          "supports": "product use"
+        }
+      ]
+    },
+    {
+      "id": "fac:hemlock-hemlock-mi",
+      "name": "Hemlock Semiconductor polysilicon plant, Hemlock, Michigan",
+      "operator": "co:hemlock",
+      "layer": "materials",
+      "kind": "polysilicon_plant",
+      "location": {
+        "lat": 43.4148,
+        "lon": -84.2311,
+        "precision": "site",
+        "address": "12334 Geddes Road, Hemlock, Michigan 48626"
+      },
+      "country": "US",
+      "status": "operational",
+      "start_year": 1961,
+      "products": [
+        "semiconductor-grade polysilicon",
+        "solar-grade polysilicon"
+      ],
+      "evidence": [
+        {
+          "source": "src:hsc-about",
+          "quote": "HSC is a chemical processing facility located in Hemlock, Michigan that plays an essential role in the semiconductor and solar industries",
+          "locator": "About page",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:hsc-contact",
+          "quote": "12334 Geddes Road",
+          "locator": "Contact page",
+          "supports": "address"
+        },
+        {
+          "source": "src:hsc-about",
+          "quote": "HSC is just one of five major manufacturers in the world that makes polysilicon used to create semiconductor wafers.",
+          "locator": "About page",
+          "supports": "product, market position (company claim)"
+        }
+      ]
+    },
+    {
+      "id": "fac:wacker-burghausen",
+      "name": "Wacker Burghausen polysilicon production (incl. Etching Line Next)",
+      "operator": "co:wacker",
+      "layer": "materials",
+      "kind": "polysilicon_plant",
+      "location": {
+        "lat": 48.172,
+        "lon": 12.833,
+        "precision": "city",
+        "address": "Burghausen, Bavaria, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "hyperpure semiconductor-grade polysilicon",
+        "solar-grade polysilicon"
+      ],
+      "evidence": [
+        {
+          "source": "src:wacker-pr-2025-etching-line",
+          "quote": "Wacker Chemie AG today commissioned the Etching Line Next, its new production line for the manufacture of ultra-pure semiconductor-grade polysilicon, at its Burghausen production site in Germany.",
+          "locator": "Press release, first paragraph",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:wacker-ar-2025-polysilicon",
+          "quote": "Investments centered on expanding capacity for semiconductor-grade polysilicon, particularly on the new cleaning line in Burghausen, which went into operation in May. This increased capacities for hyperpure semiconductor-grade polysilicon by more than 50 percent.",
+          "locator": "Segments: Polysilicon",
+          "supports": "status, capacity change"
+        },
+        {
+          "source": "src:wacker-ar-2025-business-model",
+          "quote": "The Group’s key production site is Burghausen, Germany.",
+          "locator": "Business model, 27 production sites",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:wacker-nunchritz",
+      "name": "Wacker Nünchritz polysilicon production",
+      "operator": "co:wacker",
+      "layer": "materials",
+      "kind": "polysilicon_plant",
+      "location": {
+        "lat": 51.299,
+        "lon": 13.403,
+        "precision": "city",
+        "address": "Nünchritz, Saxony, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "polysilicon"
+      ],
+      "evidence": [
+        {
+          "source": "src:wacker-polysilicon-division",
+          "quote": "We draw on our 70 years of experience to produce hyperpure polysilicon for the semiconductor and photovoltaic industries at the following three sites:",
+          "locator": "Worldwide production sites",
+          "supports": "existence"
+        },
+        {
+          "source": "src:wacker-polysilicon-division",
+          "quote": "Nünchritz (Germany)",
+          "locator": "Worldwide production sites list",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:wacker-charleston",
+      "name": "Wacker Polysilicon North America, Charleston, Tennessee",
+      "operator": "co:wacker",
+      "layer": "materials",
+      "kind": "polysilicon_plant",
+      "location": {
+        "lat": 35.293,
+        "lon": -84.744,
+        "precision": "site",
+        "address": "553 Wacker Blvd, Charleston, TN 37310-0446"
+      },
+      "country": "US",
+      "status": "operational",
+      "start_year": 2016,
+      "products": [
+        "hyperpure polysilicon",
+        "pyrogenic silica"
+      ],
+      "evidence": [
+        {
+          "source": "src:wacker-charleston-site",
+          "quote": "With the launch of the Charleston production site in the US state of Tennessee in April 2016, WACKER achieved a historic milestone for a number of reasons.",
+          "locator": "Site page",
+          "supports": "existence, start"
+        },
+        {
+          "source": "src:wacker-charleston-site",
+          "quote": "553 Wacker Blvd",
+          "locator": "Site page, address",
+          "supports": "address"
+        },
+        {
+          "source": "src:wacker-pr-2024-iatf",
+          "quote": "its facilities for the production of semiconductor-grade polysilicon in Burghausen, Germany, and at its US site in Charleston, Tennessee, have now also been awarded the coveted certificate.",
+          "locator": "Press release, first paragraph",
+          "supports": "semiconductor-grade production"
+        }
+      ]
+    },
+    {
+      "id": "fac:mp-materials-mountain-pass",
+      "name": "Mountain Pass Rare Earth Mine and Processing Facility",
+      "operator": "co:mp-materials",
+      "layer": "materials",
+      "kind": "rare_earth_mine_and_separation",
+      "location": {
+        "lat": 35.478,
+        "lon": -115.533,
+        "precision": "site",
+        "address": "near Mountain Pass, San Bernardino County, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "rare earth concentrate",
+        "NdPr oxide"
+      ],
+      "capacity": {
+        "value": 50692,
+        "unit": "t REO in concentrate produced",
+        "as_of": "2025",
+        "note": "Actual 2025 production (REO Production Volume, MTs), not nameplate capacity. NdPr oxide output was a record 2,599 t in 2025.",
+        "evidence": [
+          {
+            "source": "src:mp-10k-2025",
+            "quote": "REO Production Volume (MTs) 50,692 45,455 41,557",
+            "locator": "Item 7, MD&A, Key Performance Indicators table (2025, 2024, 2023)",
+            "supports": "amount"
+          },
+          {
+            "source": "src:mp-10k-2025",
+            "quote": "producing a record 2,599 metric tons",
+            "locator": "Item 7, MD&A overview",
+            "supports": "NdPr oxide output"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "the Company owns and operates the Mountain Pass Rare Earth Mine and Processing Facility (“Mountain Pass”) located near Mountain Pass, San Bernardino County, California, the only rare earth mining and processing site of scale in North America.",
+          "locator": "Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:usgs-mcs2026-rare-earths",
+          "quote": "Bastnaesite was mined as a primary product in Mountain Pass, CA.",
+          "locator": "Domestic Production and Use",
+          "supports": "existence (government source)"
+        }
+      ]
+    },
+    {
+      "id": "fac:mp-materials-independence",
+      "name": "MP Materials Independence Facility (metal, alloy and magnet plant)",
+      "operator": "co:mp-materials",
+      "layer": "materials",
+      "kind": "rare_earth_magnet_plant",
+      "location": {
+        "lat": 32.7555,
+        "lon": -97.3308,
+        "precision": "city",
+        "address": "Fort Worth, Texas"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "NdPr metal",
+        "NdFeB alloy flake",
+        "NdFeB permanent magnets"
+      ],
+      "capacity": {
+        "value": 3000,
+        "unit": "t magnets/yr (projected)",
+        "as_of": "2025",
+        "note": "Committed expansion target under the DoD partnership, not current output.",
+        "evidence": [
+          {
+            "source": "src:mp-10k-2025",
+            "quote": "the Company committed to expand capacity of the Independence Facility to a projected 3,000 MTs of magnets annually.",
+            "locator": "Item 1. Business",
+            "supports": "amount"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "The Company owns and operates Independence , a rare earth metal, alloy and magnet manufacturing facility, which is located on approximately 18 acres of land in Fort Worth, Texas.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "commenced the manufacturing of neodymium-iron-boron (“NdFeB”) permanent magnets in December 2025.",
+          "locator": "Item 1. Business",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:lynas-mt-weld",
+      "name": "Lynas Mt Weld mine and concentration plant",
+      "operator": "co:lynas",
+      "layer": "materials",
+      "kind": "rare_earth_mine",
+      "location": {
+        "lat": -28.86,
+        "lon": 122.55,
+        "precision": "region",
+        "address": "Mt Weld, near Laverton, Western Australia"
+      },
+      "country": "AU",
+      "status": "operational",
+      "products": [
+        "rare earth concentrate"
+      ],
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2026",
+          "quote": "exploration, mining and production of a rare earths concentrate at Lynas’ Mt Weld site in Western Australia",
+          "locator": "Directors' Report, principal activities (p. 32)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "The Mt Weld Rare Earth Ore Reserves are now 32.0 million tonnes at 6.4% TREO for 2.0 million tonnes of contained TREO.",
+          "locator": "Review of operations, Mt Weld",
+          "supports": "reserves"
+        }
+      ]
+    },
+    {
+      "id": "fac:lynas-kalgoorlie",
+      "name": "Lynas Kalgoorlie Rare Earths Processing Facility",
+      "operator": "co:lynas",
+      "layer": "materials",
+      "kind": "rare_earth_cracking_leaching",
+      "location": {
+        "lat": -30.749,
+        "lon": 121.466,
+        "precision": "city",
+        "address": "Kalgoorlie, Western Australia"
+      },
+      "country": "AU",
+      "status": "operational",
+      "start_year": 2024,
+      "products": [
+        "mixed rare earth carbonate (MREC)"
+      ],
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "The Kalgoorlie Rare Earths Processing Facility commenced first production in the June 2024 quarter.",
+          "locator": "Review of operations, Kalgoorlie (p. 15)",
+          "supports": "existence, start"
+        },
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "The Kalgoorlie Rare Earths Processing Facility is now fully integrated into our global operations.",
+          "locator": "Chair/CEO review (p. 8)",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:lynas-malaysia-gebeng",
+      "name": "Lynas Malaysia advanced materials plant, Gebeng (Kuantan)",
+      "operator": "co:lynas",
+      "layer": "materials",
+      "kind": "rare_earth_separation_refinery",
+      "location": {
+        "lat": 3.97,
+        "lon": 103.38,
+        "precision": "city",
+        "address": "Gebeng, near Kuantan, Pahang, Malaysia"
+      },
+      "country": "MY",
+      "status": "operational",
+      "products": [
+        "NdPr oxide",
+        "separated dysprosium oxide",
+        "separated terbium oxide"
+      ],
+      "capacity": {
+        "value": 10.5,
+        "unit": "kt/yr NdPr finished product (nameplate)",
+        "as_of": "2025",
+        "evidence": [
+          {
+            "source": "src:lynas-ar-2025",
+            "quote": "Solvent Extraction and Product Finishing production which provide an uplift in capacity to 10.5 kt p.a..",
+            "locator": "Chair/CEO review (p. 8)",
+            "supports": "amount"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2026",
+          "quote": "cracking and leaching of the rare earth concentrate at the Lynas Malaysia plant in Gebeng and at the Kalgoorlie Rare Earths Processing Facility; and solvent extraction and product finishing (drying and calcination) at the Lynas Malaysia plant.",
+          "locator": "Directors' Report, principal activities (p. 32)",
+          "supports": "existence, location, process"
+        },
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "first production of separated Dysprosium and Terbium was achieved at Lynas Malaysia in May and June 2025 respectively.",
+          "locator": "Review of operations, Lynas Malaysia",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:lynas-seadrift",
+      "name": "Lynas proposed heavy rare earths processing facility, Seadrift, Texas",
+      "operator": "co:lynas",
+      "layer": "materials",
+      "kind": "rare_earth_separation_refinery",
+      "location": {
+        "lat": 28.4155,
+        "lon": -96.7133,
+        "precision": "city",
+        "address": "Seadrift, Texas"
+      },
+      "country": "US",
+      "status": "cancelled",
+      "products": [
+        "heavy rare earth oxides (planned)"
+      ],
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "Lynas has an expenditure-based contract with the US Department of Defence (DoD) for the construction of a Heavy Rare Earths processing facility at Seadrift, Texas.",
+          "locator": "Chair/CEO review (p. 9)",
+          "supports": "existence (planned), location"
+        },
+        {
+          "source": "src:lynas-ar-2026",
+          "quote": "Funding for the supply agreement has been reallocated from funds previously intended for the construction of a HRE facility in Texas which will no longer proceed.",
+          "locator": "Review of operations, Lynas USA (p. 19)",
+          "supports": "status: cancelled"
+        }
+      ]
+    },
+    {
+      "id": "fac:cn-gallium-primary-production",
+      "name": "China primary low-purity gallium production (country aggregate)",
+      "operator": "co:cn-gallium-producers",
+      "layer": "materials",
+      "kind": "country_aggregate_refining",
+      "location": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "primary low-purity gallium"
+      ],
+      "capacity": {
+        "value": 99,
+        "unit": "% of world primary low-purity gallium production",
+        "as_of": "2025",
+        "evidence": [
+          {
+            "source": "src:usgs-mcs2026-gallium",
+            "quote": "China accounted for 99% of worldwide primary low-purity gallium production.",
+            "locator": "Events, Trends, and Issues",
+            "supports": "share"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-gallium",
+          "quote": "China accounted for 99% of worldwide primary low-purity gallium production.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, location (country)"
+        },
+        {
+          "source": "src:usgs-mcs2026-gallium",
+          "quote": "In November 2025, China lifted its ban on gallium exports to the United States for 1 year.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "trade status"
+        }
+      ]
+    },
+    {
+      "id": "fac:cn-germanium-production",
+      "name": "China germanium refinery production (country aggregate)",
+      "operator": "co:cn-germanium-producers",
+      "layer": "materials",
+      "kind": "country_aggregate_refining",
+      "location": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "germanium metal",
+        "germanium dioxide"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-germanium",
+          "quote": "China continued to be the leading global producer and exporter of germanium metal in 2025.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, location (country)"
+        },
+        {
+          "source": "src:usgs-mcs2026-germanium",
+          "quote": "In December 2024, China banned all exports of germanium to the United States.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "trade status"
+        }
+      ]
+    },
+    {
+      "id": "fac:cn-rare-earth-mine-production",
+      "name": "China rare-earth mine production (country aggregate)",
+      "operator": "co:cn-rare-earth-producers",
+      "layer": "materials",
+      "kind": "country_aggregate_mining",
+      "location": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "rare-earth concentrates",
+        "rare-earth compounds and metals"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-rare-earths",
+          "quote": "Rare-earth compounds and metals: China,8 71%; Malaysia, 13%; Japan, 5%; Estonia,",
+          "locator": "Import Sources (2021–24)",
+          "supports": "existence, U.S. import share"
+        },
+        {
+          "source": "src:usgs-mcs2026-rare-earths",
+          "quote": "In October, China expanded its rare-earths export controls to include europium, holmium, erbium, thulium, and ytterbium. In November, China suspended the October export controls for 1 year.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "trade status"
+        }
+      ]
+    },
+    {
+      "id": "fac:cn-tungsten-production",
+      "name": "China tungsten mine production (country aggregate)",
+      "operator": "co:cn-tungsten-producers",
+      "layer": "materials",
+      "kind": "country_aggregate_mining",
+      "location": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "tungsten concentrates",
+        "APT"
+      ],
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-tungsten",
+          "quote": "China continued to be the world’s leading producer, importer, and consumer of tungsten concentrates.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, location (country)"
+        },
+        {
+          "source": "src:usgs-mcs2026-tungsten",
+          "quote": "in February 2025 China implemented new export controls on selected tungsten items.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "trade status"
+        }
+      ]
+    },
+    {
+      "id": "fac:cn-silicon-materials-production",
+      "name": "China silicon-materials production (country aggregate)",
+      "operator": "co:cn-silicon-producers",
+      "layer": "materials",
+      "kind": "country_aggregate_refining",
+      "location": {
+        "lat": 35.0,
+        "lon": 103.0,
+        "precision": "country"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "silicon metal",
+        "ferrosilicon",
+        "polysilicon"
+      ],
+      "capacity": {
+        "value": 80,
+        "unit": "% of world silicon-materials production (approx., 'almost 80%')",
+        "as_of": "2025",
+        "evidence": [
+          {
+            "source": "src:usgs-mcs2026-silicon",
+            "quote": "China accounted for almost 80% of total global estimated production of silicon materials in 2025.",
+            "locator": "Events, Trends, and Issues",
+            "supports": "share"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:usgs-mcs2026-silicon",
+          "quote": "China accounted for almost 80% of total global estimated production of silicon materials in 2025.",
+          "locator": "Events, Trends, and Issues",
+          "supports": "existence, location (country)"
+        }
+      ]
+    },
+    {
+      "id": "fac:sibelco-spruce-pine",
+      "name": "Sibelco Spruce Pine (Crystal site) high-purity quartz operations",
+      "operator": "co:sibelco",
+      "layer": "materials",
+      "kind": "high_purity_quartz_mine_and_plant",
+      "location": {
+        "lat": 35.9154,
+        "lon": -82.0646,
+        "precision": "city",
+        "address": "136 Crystal Dr, Spruce Pine, NC 28777"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "IOTA high-purity quartz"
+      ],
+      "evidence": [
+        {
+          "source": "src:sibelco-spruce-pine-location",
+          "quote": "Sibelco Crystal site produces High Purity Quartz.",
+          "locator": "Location page",
+          "supports": "existence"
+        },
+        {
+          "source": "src:sibelco-spruce-pine-location",
+          "quote": "136 Crystal Dr",
+          "locator": "Location page, address",
+          "supports": "address"
+        },
+        {
+          "source": "src:sibelco-iota-hpq",
+          "quote": "for the manufacture of fused quartz crucibles used in the Czochralski (CZ) process, and the production of fused quartz tubing and ingots used to create fabricated quartzware for the semiconductor wafer process.",
+          "locator": "Applications, Semiconductor",
+          "supports": "product use"
+        },
+        {
+          "source": "src:sibelco-pr-2023-spruce-pine-expansion",
+          "quote": "announces an estimated $200 million investment to double high purity quartz (HPQ) installed capacity at its Spruce Pine facility in North Carolina, USA.",
+          "locator": "Press release, first paragraph",
+          "supports": "location, expansion"
+        },
+        {
+          "source": "src:usgs-mcs2026-quartz",
+          "quote": "In 2025, there were two companies that produced HPQ in the United States around Spruce Pine, NC.",
+          "locator": "Domestic Production and Use",
+          "supports": "existence (government source)"
+        }
+      ]
+    },
+    {
+      "id": "fac:umicore-olen",
+      "name": "Umicore Olen (germanium- and cobalt-based materials)",
+      "operator": "co:umicore",
+      "layer": "materials",
+      "kind": "germanium_refining_and_materials",
+      "location": {
+        "lat": 51.159,
+        "lon": 4.89,
+        "precision": "city",
+        "address": "Watertorenstraat 33, 2250 Olen, Belgium"
+      },
+      "country": "BE",
+      "status": "operational",
+      "products": [
+        "germanium-based materials",
+        "germanium substrates"
+      ],
+      "evidence": [
+        {
+          "source": "src:umicore-all-sites",
+          "quote": "Olen is a center of excellence for research and development, clean technologies, and the production of advanced cobalt- and germanium-based materials.",
+          "locator": "All sites, Umicore Olen",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:umicore-all-sites",
+          "quote": "Watertorenstraat 33",
+          "locator": "All sites, Umicore Olen address",
+          "supports": "address"
+        }
+      ]
+    },
+    {
+      "id": "fac:umicore-quapaw",
+      "name": "Umicore Optical Materials Quapaw (germanium tetrachloride and optics)",
+      "operator": "co:umicore",
+      "layer": "materials",
+      "kind": "germanium_refining_and_materials",
+      "location": {
+        "lat": 36.927,
+        "lon": -94.788,
+        "precision": "city",
+        "address": "2976 South 614 Road, Quapaw, Oklahoma 74363-1884"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "GeCl4 (optical fiber grade)",
+        "zone-refined germanium",
+        "infrared optics",
+        "sputtering targets"
+      ],
+      "evidence": [
+        {
+          "source": "src:umicore-all-sites",
+          "quote": "Through Ge recycling, GeCl4 purification, zone refining, and crystal growth, this business line reinforces Umicore’s commitment to sustainability and dependability.",
+          "locator": "All sites, Umicore Optical Materials Quapaw",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:umicore-all-sites",
+          "quote": "2976 South 614 Road",
+          "locator": "All sites, address",
+          "supports": "address"
+        },
+        {
+          "source": "src:usgs-mcs2026-germanium",
+          "quote": "A company in Quapaw, OK, produced germanium tetrachloride for the production of fiber optics from imported and recycled germanium materials.",
+          "locator": "Domestic Production and Use",
+          "supports": "existence, product (government source)"
+        }
+      ]
+    },
+    {
+      "id": "fac:teck-red-dog",
+      "name": "Teck Red Dog zinc-lead mine, Alaska",
+      "operator": "co:teck",
+      "layer": "materials",
+      "kind": "mine",
+      "location": {
+        "lat": 68.07,
+        "lon": -162.83,
+        "precision": "region",
+        "address": "Northwest Arctic Borough, approx. 144 km north of Kotzebue, Alaska"
+      },
+      "country": "US",
+      "status": "operational",
+      "start_year": 1989,
+      "products": [
+        "zinc concentrate (germanium-bearing)",
+        "lead concentrate"
+      ],
+      "evidence": [
+        {
+          "source": "src:teck-aif-2025",
+          "quote": "The Red Dog zinc-lead mine, concentrator and shipping facility in the Northwest Arctic Borough, approximately 144 kilometres north of Kotzebue, Alaska, commenced production in 1989 and began shipping concentrates in 1990.",
+          "locator": "Description of the business, Red Dog Mine",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:usgs-mcs2026-germanium",
+          "quote": "In 2025, zinc concentrates containing germanium were produced at a mine in Alaska.",
+          "locator": "Domestic Production and Use",
+          "supports": "germanium content (government source; mine not named)"
+        }
+      ]
+    },
+    {
+      "id": "fac:teck-trail",
+      "name": "Teck Trail Operations smelting and refining complex",
+      "operator": "co:teck",
+      "layer": "materials",
+      "kind": "refinery",
+      "location": {
+        "lat": 49.0966,
+        "lon": -117.7117,
+        "precision": "city",
+        "address": "Trail, British Columbia"
+      },
+      "country": "CA",
+      "status": "operational",
+      "products": [
+        "refined zinc",
+        "refined lead",
+        "germanium",
+        "indium"
+      ],
+      "capacity": {
+        "value": 300000,
+        "unit": "t refined zinc/yr",
+        "as_of": "2025",
+        "note": "Germanium output is not disclosed.",
+        "evidence": [
+          {
+            "source": "src:teck-aif-2025",
+            "quote": "the facility has an annual capacity of approximately 300,000 tonnes of refined zinc.",
+            "locator": "Trail Operations",
+            "supports": "amount"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:teck-aif-2025",
+          "quote": "Teck Metals Ltd. (\"Teck Metals\") owns and operates the integrated smelting and refining complex at Trail, British Columbia.",
+          "locator": "Trail Operations",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:teck-aif-2025",
+          "quote": "Other valuable metals, including indium and germanium, are also recovered as co-products in the zinc circuit.",
+          "locator": "Trail Operations",
+          "supports": "germanium production"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:wacker-to-siltronic-polysilicon",
+      "from": "co:wacker",
+      "to": "co:siltronic",
+      "to_hint": "fac:siltronic-burghausen",
+      "commodity": "semiconductor-grade polysilicon",
+      "basis": "documented",
+      "description": "Siltronic states it obtains most of its polysilicon from Wacker Chemie AG under long-term supply agreements. Wacker is also Siltronic's largest shareholder. Siltronic does not state which Wacker site supplies it.",
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "Our main raw material is polysilicon, most of which we obtain from Wacker Chemie AG on the basis of long-term supply agreements.",
+          "locator": "Combined management report, procurement (p. 20)",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In particular we purchase polysilicon from Wacker Chemie AG under a long-term agreement.",
+          "locator": "Risk report, procurement risks (p. 41)",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:mp-mountain-pass-to-independence-ndpr",
+      "from": "fac:mp-materials-mountain-pass",
+      "to": "fac:mp-materials-independence",
+      "commodity": "NdPr oxide",
+      "basis": "documented",
+      "description": "MP Materials' Independence Facility converts NdPr oxide produced at Mountain Pass into magnets and precursor products.",
+      "evidence": [
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "converts NdPr oxide produced at Mountain Pass into permanent magnets and its precursor products, with integrated capabilities to support magnet recycling.",
+          "locator": "Item 1. Business",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:mp-mountain-pass-to-shenghe-concentrate",
+      "from": "fac:mp-materials-mountain-pass",
+      "to": "co:shenghe",
+      "commodity": "rare earth concentrate (historical; ceased July 2025)",
+      "basis": "documented",
+      "description": "Historically MP Materials sold most of its rare earth concentrate to Shenghe as its principal distributor in China. MP states it ceased all sales to China in July 2025.",
+      "evidence": [
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "Historically, the Company sold the vast majority of its rare earth concentrate to a single, principal distributor in China under the terms of the Shenghe Offtake Agreement",
+          "locator": "Item 1. Business, Customers",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "the Company ceased all sales of its products to China.",
+          "locator": "Item 1. Business, Customers",
+          "supports": "status: ceased"
+        }
+      ]
+    },
+    {
+      "id": "flow:mp-10x-magnets-to-dod",
+      "from": "co:mp-materials",
+      "to": "gov:us-dod",
+      "commodity": "NdFeB permanent magnets (10X Facility offtake, planned)",
+      "basis": "documented",
+      "description": "Under a 10-year offtake agreement, the MP project company is to sell the DoD all magnets produced at the planned 10X Facility, with provisions to syndicate production to commercial customers. The 10X Facility site was not documented in the sources reviewed.",
+      "evidence": [
+        {
+          "source": "src:mp-8k-2025-07-10",
+          "quote": "the Project Company will sell and deliver to the Department of Defense the entire amount of magnets produced at the 10X Facility",
+          "locator": "Item 1.01, Offtake Agreement",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:mp-10k-2025",
+          "quote": "The 10X Facility is expected to begin commissioning in 2028, and once completed and scaled, it will produce an estimated 7,000 MTs of magnets per year.",
+          "locator": "Item 1. Business",
+          "supports": "timing, volume"
+        }
+      ]
+    },
+    {
+      "id": "flow:lynas-mt-weld-to-kalgoorlie",
+      "from": "fac:lynas-mt-weld",
+      "to": "fac:lynas-kalgoorlie",
+      "commodity": "rare earth concentrate",
+      "basis": "documented",
+      "description": "Mt Weld concentrate feeds both the Kalgoorlie processing facility and Lynas Malaysia.",
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "sufficient feedstock to supply both Lynas Malaysia and the Kalgoorlie Rare Earths Processing Facility.",
+          "locator": "Review of operations, Mt Weld (p. 17)",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:lynas-mt-weld-to-malaysia",
+      "from": "fac:lynas-mt-weld",
+      "to": "fac:lynas-malaysia-gebeng",
+      "commodity": "rare earth concentrate",
+      "basis": "documented",
+      "description": "Mt Weld concentrate is cracked and leached at the Lynas Malaysia plant in Gebeng.",
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "sufficient feedstock to supply both Lynas Malaysia and the Kalgoorlie Rare Earths Processing Facility.",
+          "locator": "Review of operations, Mt Weld (p. 17)",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:lynas-kalgoorlie-to-malaysia-mrec",
+      "from": "fac:lynas-kalgoorlie",
+      "to": "fac:lynas-malaysia-gebeng",
+      "commodity": "mixed rare earth carbonate (MREC)",
+      "basis": "documented",
+      "description": "Kalgoorlie produces MREC that is shipped to Lynas Malaysia for separation.",
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2025",
+          "quote": "the facility is ramping up MREC production to supply the Lynas Malaysia facility.",
+          "locator": "Chair/CEO review (p. 8)",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:hemlock-to-shin-etsu-polysilicon",
+      "from": "fac:hemlock-hemlock-mi",
+      "to": "co:shin-etsu",
+      "commodity": "semiconductor-grade polysilicon",
+      "basis": "inferred",
+      "inference_note": "Hemlock Semiconductor is co-owned by Shin-Etsu Handotai [HSC website] and makes polysilicon used to create semiconductor wafers [HSC website]; Shin-Etsu Handotai is a silicon wafer maker. No reviewed document states that Hemlock sells polysilicon to Shin-Etsu Handotai.",
+      "description": "Inferred: Hemlock polysilicon to its co-owner, the wafer maker Shin-Etsu Handotai.",
+      "evidence": [
+        {
+          "source": "src:hsc-about",
+          "quote": "HSC is owned by two world-leading applied science and technology companies: Corning Inc. and Shin-Etsu Handotai.",
+          "locator": "HSC Joint Venture Partners",
+          "supports": "ownership"
+        },
+        {
+          "source": "src:hsc-about",
+          "quote": "HSC is just one of five major manufacturers in the world that makes polysilicon used to create semiconductor wafers.",
+          "locator": "About page",
+          "supports": "role"
+        }
+      ]
+    },
+    {
+      "id": "flow:wacker-to-shin-etsu-polysilicon",
+      "from": "co:wacker",
+      "to": "co:shin-etsu",
+      "commodity": "semiconductor-grade polysilicon",
+      "basis": "inferred",
+      "inference_note": "Wacker says it has long supplied ultrapure polysilicon to all major wafer manufacturers [Wacker 2024 release]; Shin-Etsu is a major wafer manufacturer. No reviewed document names Shin-Etsu as a Wacker customer.",
+      "description": "Inferred: Wacker semiconductor-grade polysilicon to Shin-Etsu (wafer maker).",
+      "evidence": [
+        {
+          "source": "src:wacker-pr-2024-iatf",
+          "quote": "we have been a long-standing supplier of ultrapure polysilicon to all major wafer manufacturers in the semiconductor industry",
+          "locator": "Press release, quote from Tobias Brandis",
+          "supports": "role"
+        },
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "The semiconductor wafer market is similarly concentrated, with five suppliers representing the majority of semiconductor wafer production,",
+          "locator": "p. 4",
+          "supports": "counterparty role"
+        }
+      ]
+    },
+    {
+      "id": "flow:teck-red-dog-to-trail-zinc-concentrate",
+      "from": "fac:teck-red-dog",
+      "to": "fac:teck-trail",
+      "commodity": "zinc and lead concentrates (germanium-bearing)",
+      "basis": "documented",
+      "description": "Part of Red Dog's zinc concentrate, and some of its lead concentrate, is shipped to Teck's Trail complex, which recovers germanium as a co-product. USGS separately reports germanium-bearing Alaskan concentrates going to a Canadian refinery (unnamed) for germanium recovery.",
+      "evidence": [
+        {
+          "source": "src:teck-aif-2025",
+          "quote": "In 2025, the majority of the zinc concentrate produced at Red Dog was shipped to customers in Asia, Australia and Europe, with the balance being shipped to our metallurgical facilities at Trail, British Columbia.",
+          "locator": "Description of the business, Red Dog",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:usgs-mcs2026-germanium",
+          "quote": "Some of the germanium-containing concentrates produced in Alaska were exported to a refinery in Canada for processing and germanium recovery in the form of dioxide and tetrachloride.",
+          "locator": "Domestic Production and Use",
+          "supports": "germanium recovery (parties unnamed)"
+        }
+      ]
+    },
+    {
+      "id": "flow:wacker-to-sumco-polysilicon",
+      "from": "co:wacker",
+      "to": "co:sumco",
+      "commodity": "semiconductor-grade polysilicon",
+      "basis": "inferred",
+      "inference_note": "Wacker states it has long supplied ultrapure polysilicon to all major wafer manufacturers [Wacker 2024 release]. SIA's BIS filing lists Sumco among the five main wafer suppliers [BIS-2025-0028-0022]. No reviewed document names Sumco as a Wacker customer, and the supplying Wacker site is not stated.",
+      "description": "Inferred: Wacker semiconductor-grade polysilicon to Sumco (wafer maker).",
+      "evidence": [
+        {
+          "source": "src:wacker-pr-2024-iatf",
+          "quote": "we have been a long-standing supplier of ultrapure polysilicon to all major wafer manufacturers in the semiconductor industry",
+          "locator": "Press release, quote from Tobias Brandis",
+          "supports": "role"
+        },
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "The semiconductor wafer market is similarly concentrated, with five suppliers representing the majority of semiconductor wafer production,",
+          "locator": "p. 4",
+          "supports": "counterparty role"
+        }
+      ]
+    },
+    {
+      "id": "flow:wacker-to-globalwafers-polysilicon",
+      "from": "co:wacker",
+      "to": "co:globalwafers",
+      "commodity": "semiconductor-grade polysilicon",
+      "basis": "inferred",
+      "inference_note": "Wacker states it has long supplied ultrapure polysilicon to all major wafer manufacturers [Wacker 2024 release]. SIA's BIS filing lists GlobalWafers among the five main wafer suppliers [BIS-2025-0028-0022]. No reviewed document names GlobalWafers as a Wacker customer, and the supplying Wacker site is not stated.",
+      "description": "Inferred: Wacker semiconductor-grade polysilicon to GlobalWafers (wafer maker).",
+      "evidence": [
+        {
+          "source": "src:wacker-pr-2024-iatf",
+          "quote": "we have been a long-standing supplier of ultrapure polysilicon to all major wafer manufacturers in the semiconductor industry",
+          "locator": "Press release, quote from Tobias Brandis",
+          "supports": "role"
+        },
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "The semiconductor wafer market is similarly concentrated, with five suppliers representing the majority of semiconductor wafer production,",
+          "locator": "p. 4",
+          "supports": "counterparty role"
+        }
+      ]
+    },
+    {
+      "id": "flow:wacker-to-sk-siltron-polysilicon",
+      "from": "co:wacker",
+      "to": "co:sk-siltron",
+      "commodity": "semiconductor-grade polysilicon",
+      "basis": "inferred",
+      "inference_note": "Wacker states it has long supplied ultrapure polysilicon to all major wafer manufacturers [Wacker 2024 release]. SIA's BIS filing lists SK Siltron among the five main wafer suppliers [BIS-2025-0028-0022]. No reviewed document names SK Siltron as a Wacker customer, and the supplying Wacker site is not stated.",
+      "description": "Inferred: Wacker semiconductor-grade polysilicon to SK Siltron (wafer maker).",
+      "evidence": [
+        {
+          "source": "src:wacker-pr-2024-iatf",
+          "quote": "we have been a long-standing supplier of ultrapure polysilicon to all major wafer manufacturers in the semiconductor industry",
+          "locator": "Press release, quote from Tobias Brandis",
+          "supports": "role"
+        },
+        {
+          "source": "src:bis-2025-0028-0022-sia",
+          "quote": "The semiconductor wafer market is similarly concentrated, with five suppliers representing the majority of semiconductor wafer production,",
+          "locator": "p. 4",
+          "supports": "counterparty role"
+        }
+      ]
+    }
+  ],
+  "financial_links": [
+    {
+      "id": "fin:dod-mp-materials-preferred-equity",
+      "from": "gov:us-dod",
+      "to": "co:mp-materials",
+      "kind": "equity_investment",
+      "amount": {
+        "value": 400000000,
+        "currency": "USD",
+        "note": "Series A Preferred Stock; plus commitment for up to $350 million additional preferred and a warrant"
+      },
+      "date": "2025-07-09",
+      "description": "DoD equity investment in MP Materials Series A Preferred Stock, part of the July 2025 public-private partnership for a domestic rare-earth magnet supply chain.",
+      "evidence": [
+        {
+          "source": "src:mp-8k-2025-07-10",
+          "quote": "The agreements include a $400 million equity investment by the Department of Defense in newly authorized and issued Series A Preferred Stock",
+          "locator": "Introductory section",
+          "supports": "amount, parties"
+        }
+      ]
+    },
+    {
+      "id": "fin:dod-mp-materials-samarium-loan",
+      "from": "gov:us-dod",
+      "to": "co:mp-materials",
+      "kind": "government_loan",
+      "amount": {
+        "value": 150000000,
+        "currency": "USD",
+        "note": "Loan to support heavy rare earth separation expansion (Samarium Project Loan)"
+      },
+      "date": "2025-07-09",
+      "description": "DoD commitment to lend $150 million to MP Materials for expansion of heavy rare earth separation at Mountain Pass.",
+      "evidence": [
+        {
+          "source": "src:mp-8k-2025-07-10",
+          "quote": "the Department of Defense will extend a loan to the Company in the aggregate principal amount of $150,000,000",
+          "locator": "Item 1.01, Transaction Agreement",
+          "supports": "amount, parties"
+        }
+      ]
+    },
+    {
+      "id": "fin:dod-mp-materials-ndpr-price-floor",
+      "from": "gov:us-dod",
+      "to": "co:mp-materials",
+      "kind": "purchase_commitment",
+      "amount": {
+        "value": 110,
+        "currency": "USD",
+        "period": "per kg NdPr, 10 years",
+        "note": "Price floor: DoD pays the shortfall between $110/kg and a benchmark price"
+      },
+      "date": "2025-07-09",
+      "description": "10-year NdPr price floor protection agreement between DoD and MP Materials.",
+      "evidence": [
+        {
+          "source": "src:mp-8k-2025-07-10",
+          "quote": "the Department of Defense will pay to the Company at the end of each quarter a quarterly payment per kilogram (kg) of Neodymium-Praseodymium (“NdPr”) produced by the Company equal to the shortfall between $110 per kg and the Benchmark Quarterly Average Volume Weighted Price",
+          "locator": "Item 1.01, Price Protection Agreement",
+          "supports": "amount, terms"
+        }
+      ]
+    },
+    {
+      "id": "fin:us-gov-lynas-rare-earth-oxide-supply",
+      "from": "gov:us",
+      "to": "co:lynas",
+      "kind": "purchase_commitment",
+      "amount": {
+        "value": 96000000,
+        "currency": "USD",
+        "period": "approx. 4 years",
+        "note": "Binding Letter of Intent; NdPr floor price US$110/kg; funded from money previously intended for the Texas HRE facility"
+      },
+      "date": "2026-03",
+      "description": "Binding Letter of Intent for the U.S. Government to buy about US$96 million of light and heavy rare earth oxides from Lynas over four years.",
+      "evidence": [
+        {
+          "source": "src:lynas-ar-2026",
+          "quote": "Lynas signed a binding Letter of Intent with the U.S. Government in March 2026 for the supply of approximately US$96 million of light and heavy rare earth oxides over a 4 year period.",
+          "locator": "Review of operations, Lynas USA (p. 19)",
+          "supports": "amount, parties, date"
+        }
+      ]
+    }
+  ],
+  "controls": [],
+  "gaps": []
+}

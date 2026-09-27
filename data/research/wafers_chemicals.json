@@ -1,0 +1,1602 @@
+{
+  "layer": "wafers_chemicals",
+  "analyst": "wafers_chemicals research analyst (Claude)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:entegris-10k-fy2025",
+      "title": "Entegris, Inc. Annual Report on Form 10-K for fiscal year 2025",
+      "publisher": "Entegris, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000012/entg-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-11",
+      "accessed": "2026-09-27",
+      "identifier": "0001101302-26-000012"
+    },
+    {
+      "id": "src:tsmc-20f-fy2025",
+      "title": "Taiwan Semiconductor Manufacturing Company Limited Annual Report on Form 20-F for fiscal year 2025",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-04-16",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-025362"
+    },
+    {
+      "id": "src:gf-20f-fy2024",
+      "title": "GLOBALFOUNDRIES Inc. Annual Report on Form 20-F for fiscal year 2024",
+      "publisher": "GLOBALFOUNDRIES Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1709048/000170904825000024/gfs-20241231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2025-03-20",
+      "accessed": "2026-09-27",
+      "identifier": "0001709048-25-000024"
+    },
+    {
+      "id": "src:skhynix-424b4-2026",
+      "title": "SK hynix Inc. prospectus (Rule 424(b)(4)) for ADS offering, Registration No. 333-296987",
+      "publisher": "SK hynix Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm",
+      "doc_type": "sec_s1",
+      "tier": 1,
+      "document_date": "2026-07-09",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-299963"
+    },
+    {
+      "id": "src:siltronic-ar-2025",
+      "title": "Siltronic AG Annual Report 2025",
+      "publisher": "Siltronic AG",
+      "url": "https://www.siltronic.com/fileadmin/investorrelations/Archiv/2025/Q4/260420_Siltronic_Annual_Report_2025_safe.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-03-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:globalwafers-ar-2025",
+      "title": "GlobalWafers Co., Ltd. 2025 Annual Report (English translation of TWSE/TPEx statutory annual report)",
+      "publisher": "GlobalWafers Co., Ltd.",
+      "url": "https://www.sas-globalwafers.com/wp-content/uploads/2026/04/GlobalWafers_2025-Annual-Report-EN.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-04",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nist-chips-globalwafers-2024-12",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Awards with GlobalWafers to Support Domestic Production of Silicon Wafers",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-awards-globalwafers",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-12-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nist-chips-globalwafers-texas",
+      "title": "CHIPS for America award page: GlobalWafers (Texas)",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS for America",
+      "url": "https://www.nist.gov/chips/globalwafers-texas-sherman",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nist-chips-entegris-2024-12",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Awards with Absolics and Entegris to Support Development of Advanced Packaging Technology and Onshore Material for Leading-Edge Chip Production",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-awards-absolics-and",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-12-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nist-chips-entegris-colorado",
+      "title": "CHIPS for America award page: Entegris (Colorado)",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS for America",
+      "url": "https://www.nist.gov/chips/entegris-colorado-colorado-springs",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:doe-lpo-sk-siltron",
+      "title": "Loan Programs Office project page: SK Siltron",
+      "publisher": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/edf/sk-siltron",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2025-03-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:entegris-chips-pr-2024",
+      "title": "Entegris and U.S. Department of Commerce Announce Entry into Award Agreement Under CHIPS Act",
+      "publisher": "Entegris, Inc.",
+      "url": "https://www.entegris.com/en/home/about-us/news/entegris-us-department-of-commerce-announce-award-agreement-under-chips-act.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-12-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sumco-sr-2026",
+      "title": "SUMCO Sustainability Report 2026",
+      "publisher": "SUMCO Corporation",
+      "url": "https://www.sumcosi.com/english/pdf/csr/csr_rep26en.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:globalwafers-gwa-opening-2025",
+      "title": "GlobalWafers America Officially Opens for Business",
+      "publisher": "GlobalWafers Co., Ltd.",
+      "url": "https://www.sas-globalwafers.com/en/gwc_news_en_20250516/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-05-16",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sk-siltron-offices",
+      "title": "SK siltron: Offices (domestic sites)",
+      "publisher": "SK siltron Co., Ltd.",
+      "url": "https://www.sksiltron.com/en/company/office01.do",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tok-at-a-glance",
+      "title": "What is TOK (at a glance)",
+      "publisher": "Tokyo Ohka Kogyo Co., Ltd.",
+      "url": "https://www.tok.co.jp/eng/who-we-are/glance",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tok-sites-japan",
+      "title": "Sites in Japan",
+      "publisher": "Tokyo Ohka Kogyo Co., Ltd.",
+      "url": "https://www.tok.co.jp/eng/company/internal",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tok-sites-overseas",
+      "title": "Sites Overseas",
+      "publisher": "Tokyo Ohka Kogyo Co., Ltd.",
+      "url": "https://www.tok.co.jp/eng/company/overseas",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tok-koriyama-2023",
+      "title": "Notice regarding Construction of New Manufacturing Building in Koriyama Plant",
+      "publisher": "Tokyo Ohka Kogyo Co., Ltd.",
+      "url": "https://www.tok.co.jp/eng/news/2023/230808_4",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-08-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tok-aso-kumamoto-2024",
+      "title": "Notice regarding Completion of a New plant in “Aso Kumamoto Site” of Aso Plant",
+      "publisher": "Tokyo Ohka Kogyo Co., Ltd.",
+      "url": "https://www.tok.co.jp/eng/news/2024/240606",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-06-06",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:jsr-photoresist-expansion-2024",
+      "title": "JSR Expands Global Development and Production Functions for Leading-Edge Photoresists",
+      "publisher": "JSR Corporation",
+      "url": "https://www.jsr.co.jp/jsr_e/news/2024/20240830.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-08-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:jsr-inpria-2021",
+      "title": "JSR Agrees to Acquire EUV Pioneer Inpria Corporation",
+      "publisher": "JSR Corporation",
+      "url": "https://www.jsr.co.jp/jsr_e/news/2021/20210917.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-09-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:inpria-home",
+      "title": "Inpria home page",
+      "publisher": "Inpria Corporation (a JSR company)",
+      "url": "https://www.inpria.com/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:jsr-offices",
+      "title": "Offices and Sites",
+      "publisher": "JSR Corporation",
+      "url": "https://www.jsr.co.jp/jsr_e/company/office.html",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:jsr-overseas-group",
+      "title": "Main Overseas Group Enterprise",
+      "publisher": "JSR Corporation",
+      "url": "https://www.jsr.co.jp/jsr_e/company/group_oversea.html",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:jsr-taiwan-jv-2026",
+      "title": "JSR Establishes a Joint Venture in Taiwan for Advanced Electronic Materials Manufacturing",
+      "publisher": "JSR Corporation",
+      "url": "https://www.jsr.co.jp/jsr_e/news/2026/20260410_01.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-04-10",
+      "accessed": "2026-09-27"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:siltronic",
+      "name": "Siltronic AG",
+      "country": "DE",
+      "hq": {
+        "lat": 48.1351,
+        "lon": 11.582,
+        "precision": "city",
+        "address": "Munich, Germany"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "Our main competitors are the two Japanese manufacturers Shin-Etsu and SUMCO Corporation, as well as GlobalWafers (Taiwan) and SK Siltron (South Korea).",
+          "locator": "Combined management report, Competitive situation (p. 20)",
+          "supports": "existence; competitive position"
+        }
+      ],
+      "tickers": [
+        "XETRA:WAF"
+      ]
+    },
+    {
+      "id": "co:shin-etsu",
+      "name": "Shin-Etsu Chemical Co., Ltd. (incl. Shin-Etsu Handotai Co., Ltd.)",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6812,
+        "lon": 139.7671,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:gf-20f-fy2024",
+          "quote": "The principal suppliers for our wafers are MEMC LLC, Shin-Etsu Handotai (“S.E.H.”) and Soitec.",
+          "locator": "Item 4.B Business Overview, Raw Materials",
+          "supports": "existence; role as wafer supplier"
+        }
+      ],
+      "tickers": [
+        "TSE:4063"
+      ]
+    },
+    {
+      "id": "co:sumco",
+      "name": "SUMCO Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6581,
+        "lon": 139.7516,
+        "precision": "city",
+        "address": "Minato-ku, Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:sumco-sr-2026",
+          "quote": "We continued to boast a worldwide share of over 50% in wafers for leading-edge logic chips.",
+          "locator": "SUMCO Sustainability Report 2026, Materiality KPIs: Contributions as a development partner",
+          "supports": "existence; market share"
+        }
+      ],
+      "tickers": [
+        "TSE:3436"
+      ]
+    },
+    {
+      "id": "co:globalwafers",
+      "name": "GlobalWafers Co., Ltd.",
+      "country": "TW",
+      "hq": {
+        "lat": 24.7806,
+        "lon": 121.0122,
+        "precision": "city",
+        "address": "No.8, Industrial East Road 2, Hsinchu Science Park, Hsinchu, Taiwan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:globalwafers-ar-2025",
+          "quote": "According to financial disclosures from industry peers, the Company’s shipments account for approximately 15–20% of global semiconductor wafer output, ranking third among the world’s semiconductor wafer manufacturers.",
+          "locator": "Operational Highlights, Market Analysis, 2. Market Share",
+          "supports": "existence; market share"
+        },
+        {
+          "source": "src:globalwafers-ar-2025",
+          "quote": "Headquarter Address: No.8, Industrial East Road 2, Hsinchu Science Park, Hsinchu, Taiwan",
+          "locator": "Front matter, 2. Address and Telephone Number of The Company Headquarter, Subsidiaries, and Plants",
+          "supports": "hq"
+        }
+      ],
+      "tickers": [
+        "TPEX:6488"
+      ]
+    },
+    {
+      "id": "co:sk-siltron",
+      "name": "SK siltron Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 36.1196,
+        "lon": 128.3445,
+        "precision": "city",
+        "address": "Gumi, Gyeongsangbuk-do, Korea"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:sk-siltron-offices",
+          "quote": "132-11, 3gongdan 3-ro, Gumi City,",
+          "locator": "Offices page, Gumi Plant 3 (Head Office)",
+          "supports": "existence; hq"
+        }
+      ]
+    },
+    {
+      "id": "co:entegris",
+      "name": "Entegris, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 42.5584,
+        "lon": -71.2689,
+        "precision": "city",
+        "address": "Billerica, Massachusetts, USA"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:entegris-10k-fy2025",
+          "quote": "Our principal executive offices are located in Billerica, Massachusetts.",
+          "locator": "Item 2. Properties",
+          "supports": "existence; hq"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ENTG"
+      ],
+      "sec_cik": "0001101302"
+    },
+    {
+      "id": "co:tok",
+      "name": "Tokyo Ohka Kogyo Co., Ltd. (TOK)",
+      "country": "JP",
+      "hq": {
+        "lat": 35.577,
+        "lon": 139.6598,
+        "precision": "city",
+        "address": "150 Nakamaruko, Nakahara-ku, Kawasaki City, Kanagawa, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tok-at-a-glance",
+          "quote": "TOK has the top share of the global market for semiconductor photoresists.",
+          "locator": "What is TOK, market share panel",
+          "supports": "existence; market share"
+        },
+        {
+          "source": "src:tok-sites-japan",
+          "quote": "150 Nakamaruko, Nakahara-ku, Kawasaki City, Kanagawa 211-0012",
+          "locator": "Sites in Japan, Headquarter",
+          "supports": "hq"
+        }
+      ],
+      "tickers": [
+        "TSE:4186"
+      ]
+    },
+    {
+      "id": "co:jsr",
+      "name": "JSR Corporation (incl. Inpria Corporation)",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6655,
+        "lon": 139.76,
+        "precision": "city",
+        "address": "Higashi-Shimbashi, Minato-ku, Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:jsr-offices",
+          "quote": "Shiodome Sumitomo Bldg., 1-9-2, Higashi-Shimbashi, Minato-ku, Tokyo 105-8640, Japan",
+          "locator": "Offices and Sites, JSR Headquarters",
+          "supports": "existence; hq"
+        },
+        {
+          "source": "src:jsr-inpria-2021",
+          "quote": "JSR announced today that it has signed an agreement for the acquisition of Corvallis, OR based Inpria Corporation, the world’s leading innovator of metal oxide photoresist design, development and manufacturing for extreme ultraviolet (EUV) lithography.",
+          "locator": "Press release, first paragraph",
+          "supports": "ownership of Inpria"
+        }
+      ]
+    },
+    {
+      "id": "co:wacker",
+      "name": "Wacker Chemie AG",
+      "country": "DE",
+      "hq": {
+        "lat": 48.1351,
+        "lon": 11.582,
+        "precision": "city",
+        "address": "Munich, Germany"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "Our main raw material is polysilicon, most of which we obtain from Wacker Chemie AG on the basis of long-term supply agreements.",
+          "locator": "Combined management report, Business and economic conditions (p. 20)",
+          "supports": "existence; role as polysilicon supplier"
+        }
+      ],
+      "tickers": [
+        "XETRA:WCH"
+      ]
+    },
+    {
+      "id": "co:tsmc",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country": "TW",
+      "hq": {
+        "lat": 24.7736,
+        "lon": 121.0106,
+        "precision": "city",
+        "address": "Hsinchu Science Park, Hsinchu, Taiwan"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-20f-fy2025",
+          "quote": "The most important raw material used in our production is silicon wafer, which is the basic raw material from which integrated circuits are made.",
+          "locator": "Item 4.B Business Overview, Raw Materials",
+          "supports": "existence; wafer demand"
+        }
+      ],
+      "tickers": [
+        "NYSE:TSM",
+        "TWSE:2330"
+      ],
+      "sec_cik": "0001046179"
+    },
+    {
+      "id": "co:samsung",
+      "name": "Samsung Electronics Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2636,
+        "lon": 127.0286,
+        "precision": "city",
+        "address": "Suwon, Korea"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In 2025, our three largest customers were (in alphabetical order) Intel Corporation, Samsung Electronics and Taiwan Semiconductor Manufacturing Company (TSMC).",
+          "locator": "Siltronic Annual Report 2025, Combined management report, Business model / customers section (p. 19)",
+          "supports": "existence; customer of Siltronic"
+        }
+      ],
+      "tickers": [
+        "KRX:005930"
+      ]
+    },
+    {
+      "id": "co:intel",
+      "name": "Intel Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3875,
+        "lon": -121.9637,
+        "precision": "city",
+        "address": "Santa Clara, California, USA"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In 2025, our three largest customers were (in alphabetical order) Intel Corporation, Samsung Electronics and Taiwan Semiconductor Manufacturing Company (TSMC).",
+          "locator": "Siltronic Annual Report 2025, Combined management report, Business model / customers section (p. 19)",
+          "supports": "existence; customer of Siltronic"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ],
+      "sec_cik": "0000050863"
+    },
+    {
+      "id": "co:sk-hynix",
+      "name": "SK hynix Inc.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2723,
+        "lon": 127.435,
+        "precision": "city",
+        "address": "Icheon, Gyeonggi-do, Korea"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:skhynix-424b4-2026",
+          "quote": "The raw materials used in our semiconductor fabrication process include polished silicon wafers, chemicals, metals such as titanium and aluminum, gases and subsidiary materials.",
+          "locator": "Business, Raw Materials and Supplies",
+          "supports": "existence; wafer demand"
+        }
+      ],
+      "tickers": [
+        "KRX:000660"
+      ],
+      "sec_cik": "0002120882"
+    },
+    {
+      "id": "co:globalfoundries",
+      "name": "GLOBALFOUNDRIES Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 42.9709,
+        "lon": -73.7937,
+        "precision": "city",
+        "address": "Malta, New York, USA"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:gf-20f-fy2024",
+          "quote": "The principal suppliers for our wafers are MEMC LLC, Shin-Etsu Handotai (“S.E.H.”) and Soitec.",
+          "locator": "Item 4.B Business Overview, Raw Materials",
+          "supports": "existence; wafer suppliers"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GFS"
+      ],
+      "sec_cik": "0001709048"
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:globalwafers-sherman-gwa",
+      "name": "GlobalWafers America (GWA) 300 mm wafer fab, Sherman",
+      "operator": "co:globalwafers",
+      "layer": "wafers_chemicals",
+      "kind": "silicon_wafer_fab",
+      "location": {
+        "lat": 33.5954,
+        "lon": -96.6202,
+        "precision": "site",
+        "address": "3200 Northgate Drive, Sherman, Texas 75092, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "300 mm polished silicon wafers",
+        "300 mm epitaxial wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:globalwafers-ar-2025",
+          "quote": "Texas New Plant: 3200 Northgate Drive, Sherman, Texas, USA 75092",
+          "locator": "Front matter, 2. Address and Telephone Number ... Plants, US Subsidiary",
+          "supports": "location"
+        },
+        {
+          "source": "src:nist-chips-globalwafers-2024-12",
+          "quote": "The GWA facility in Texas will be the first advanced high-volume 300mm silicon wafer facility in the United States; silicon wafers from this facility will be used in the manufacturing of advanced leading-edge and memory devices.",
+          "locator": "Press release, paragraph 4",
+          "supports": "existence; products"
+        },
+        {
+          "source": "src:globalwafers-gwa-opening-2025",
+          "quote": "GlobalWafers America, the industry’s most advanced fully integrated 300mm semiconductor wafer facility, officially opens for business.",
+          "locator": "Press release, headline/subhead",
+          "supports": "status: operational"
+        },
+        {
+          "source": "src:nist-chips-globalwafers-texas",
+          "quote": "Project Type Construction of a 300mm silicon wafer manufacturing facility",
+          "locator": "Award page, Project Statistics: Sherman, Texas",
+          "supports": "existence; CHIPS award (policy layer owns the grant)"
+        }
+      ],
+      "start_year": 2025
+    },
+    {
+      "id": "fac:globalwafers-sherman-epi",
+      "name": "GlobalWafers America legacy epitaxy plant, Sherman",
+      "operator": "co:globalwafers",
+      "layer": "wafers_chemicals",
+      "kind": "silicon_epitaxy_wafer_fab",
+      "location": {
+        "lat": 33.64,
+        "lon": -96.61,
+        "precision": "city",
+        "address": "200 F.M. 1417 West, Sherman, Texas 75092, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "silicon epitaxial wafers",
+        "150/200 mm SiC epitaxial wafers (conversion under CHIPS award terms)"
+      ],
+      "evidence": [
+        {
+          "source": "src:globalwafers-ar-2025",
+          "quote": "Texas Plant: 200 F.M. 1417 West Sherman, Texas, USA 75092",
+          "locator": "Front matter, 2. Address and Telephone Number ... Plants, US Subsidiary",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:nist-chips-globalwafers-texas",
+          "quote": "GlobalWafers has agreed to convert a portion of its existing silicon epitaxy wafer manufacturing facility in Sherman, Texas to silicon carbide (SiC) epitaxy wafer manufacturing, producing 150mm and 200mm SiC epitaxy wafers.",
+          "locator": "Award page, project description, final paragraph",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:globalwafers-memc-st-peters",
+      "name": "MEMC LLC (GlobalWafers) wafer plant, St. Peters",
+      "operator": "co:globalwafers",
+      "layer": "wafers_chemicals",
+      "kind": "soi_wafer_fab",
+      "location": {
+        "lat": 38.8003,
+        "lon": -90.6265,
+        "precision": "city",
+        "address": "501 Pearl Drive, St. Peters, Missouri 63376, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "300 mm silicon-on-insulator (SOI) wafers",
+        "silicon wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:globalwafers-ar-2025",
+          "quote": "Missouri Plant: 501 Pearl Drive, St. Peters, Missouri, USA 63376",
+          "locator": "Front matter, 2. Address and Telephone Number ... Plants, US Subsidiary",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:nist-chips-globalwafers-2024-12",
+          "quote": "The MEMC facility in Missouri will serve as a key domestic production site for 300mm silicon-on-insulator (SOI) wafers; SOI wafers from this facility will be a key input for devices used across the defense and aerospace sectors.",
+          "locator": "Press release, paragraph 4",
+          "supports": "products; expansion under CHIPS award"
+        }
+      ]
+    },
+    {
+      "id": "fac:siltronic-singapore",
+      "name": "Siltronic 300 mm wafer fabs, Singapore (incl. FabNext)",
+      "operator": "co:siltronic",
+      "layer": "wafers_chemicals",
+      "kind": "silicon_wafer_fab",
+      "location": {
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "precision": "country",
+        "address": "Singapore"
+      },
+      "country": "SG",
+      "status": "operational",
+      "products": [
+        "300 mm polished and epitaxial silicon wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "we have built state-of-the-art production fabs for the volume production of these wafers at our German sites in Freiberg (Saxony) and Burghausen (Bavaria) as well as in Singapore.",
+          "locator": "Combined management report, Synergies through standardized production processes (p. 21)",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "Disruptions at our largest and most efficient production site, Singapore, are particularly critical.",
+          "locator": "Risk report, production risks",
+          "supports": "scale: largest site"
+        },
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In 2025, the new Fab in Singapore achieved qualification for products",
+          "locator": "Letter / highlights section",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:siltronic-freiberg",
+      "name": "Siltronic 300 mm wafer fab, Freiberg",
+      "operator": "co:siltronic",
+      "layer": "wafers_chemicals",
+      "kind": "silicon_wafer_fab",
+      "location": {
+        "lat": 50.9169,
+        "lon": 13.3429,
+        "precision": "city",
+        "address": "Freiberg, Saxony, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "300 mm silicon wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "we have built state-of-the-art production fabs for the volume production of these wafers at our German sites in Freiberg (Saxony) and Burghausen (Bavaria) as well as in Singapore.",
+          "locator": "Combined management report, Synergies through standardized production processes (p. 21)",
+          "supports": "existence; location"
+        }
+      ]
+    },
+    {
+      "id": "fac:siltronic-burghausen",
+      "name": "Siltronic wafer fab, Burghausen",
+      "operator": "co:siltronic",
+      "layer": "wafers_chemicals",
+      "kind": "silicon_wafer_fab",
+      "location": {
+        "lat": 48.1692,
+        "lon": 12.8317,
+        "precision": "city",
+        "address": "Burghausen, Bavaria, Germany"
+      },
+      "country": "DE",
+      "status": "operational",
+      "products": [
+        "300 mm silicon wafers",
+        "float-zone wafers up to 200 mm"
+      ],
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "we have built state-of-the-art production fabs for the volume production of these wafers at our German sites in Freiberg (Saxony) and Burghausen (Bavaria) as well as in Singapore.",
+          "locator": "Combined management report, Synergies through standardized production processes (p. 21)",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "We procure supplies and services from Wacker Chemie AG at the Burghausen site, as well as polysilicon, a raw material that is",
+          "locator": "Risk report, procurement risks",
+          "supports": "co-location with Wacker"
+        }
+      ]
+    },
+    {
+      "id": "fac:sumco-kyushu-imari",
+      "name": "SUMCO Kyushu Factory (Imari: Kubara / Nagahama)",
+      "operator": "co:sumco",
+      "layer": "wafers_chemicals",
+      "kind": "silicon_wafer_fab",
+      "location": {
+        "lat": 33.2645,
+        "lon": 129.8808,
+        "precision": "city",
+        "address": "Imari, Saga Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "300 mm polished and epitaxial silicon wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:sumco-sr-2026",
+          "quote": "Kyushu Factory (Kubara, Imari)",
+          "locator": "Environment section, site table",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:sumco-sr-2026",
+          "quote": "We continued to boast a worldwide share of over 50% in wafers for leading-edge logic chips.",
+          "locator": "Materiality KPIs",
+          "supports": "products: leading-edge logic wafers (company-level)"
+        }
+      ]
+    },
+    {
+      "id": "fac:sk-siltron-gumi-plant3",
+      "name": "SK siltron Gumi Plant 3 (Head Office)",
+      "operator": "co:sk-siltron",
+      "layer": "wafers_chemicals",
+      "kind": "silicon_wafer_fab",
+      "location": {
+        "lat": 36.1196,
+        "lon": 128.3445,
+        "precision": "city",
+        "address": "132-11, 3gongdan 3-ro, Gumi City, Gyeongsangbuk-do, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "300 mm crystal growing / wafering",
+        "300 mm and 200 mm epitaxial wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:sk-siltron-offices",
+          "quote": "132-11, 3gongdan 3-ro, Gumi City,",
+          "locator": "Offices page, Gumi Plant 3 (Head Office)",
+          "supports": "location"
+        },
+        {
+          "source": "src:sk-siltron-offices",
+          "quote": "300㎜ Growing / Wafering",
+          "locator": "Offices page, Gumi Plant 3 (Head Office)",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:sk-siltron-css-bay-city",
+      "name": "SK Siltron CSS silicon carbide wafer plant, Bay City",
+      "operator": "co:sk-siltron",
+      "layer": "wafers_chemicals",
+      "kind": "sic_wafer_fab",
+      "location": {
+        "lat": 43.5962,
+        "lon": -83.8882,
+        "precision": "city",
+        "address": "Bay City, Michigan, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "silicon carbide (SiC) wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:doe-lpo-sk-siltron",
+          "quote": "In October 2024, LPO announced the closing of a $544 million loan to SK Siltron CCS, LLC to expand American manufacturing of high-quality silicon carbide (SiC) wafers for electric vehicle (EV) power electronics.",
+          "locator": "Project Summary",
+          "supports": "existence; DOE loan (policy/finance layers own the money)"
+        },
+        {
+          "source": "src:doe-lpo-sk-siltron",
+          "quote": "Located in Bay City, Michigan, the SK Siltron CCS facility is projected to be among the top five manufacturers of SiC wafers globally",
+          "locator": "Project Summary",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:entegris-colorado-springs",
+      "name": "Entegris manufacturing center, Colorado Springs",
+      "operator": "co:entegris",
+      "layer": "wafers_chemicals",
+      "kind": "filtration_and_wafer_carrier_plant",
+      "location": {
+        "lat": 38.834,
+        "lon": -104.8253,
+        "precision": "city",
+        "address": "Colorado Springs, Colorado, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "liquid filtration products / filter membranes",
+        "Front Opening Unified Pods (FOUPs)",
+        "fluid handling solutions (phase 2)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nist-chips-entegris-colorado",
+          "quote": "The Department of Commerce awarded Entegris up to $77 million in direct funding to support the construction of a state-of-the-art manufacturing center in Colorado Springs, Colorado.",
+          "locator": "Award page, project description",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:nist-chips-entegris-colorado",
+          "quote": "the first phase will support the production of Front Opening Unified Pods (FOUPs) and liquid filter membranes, and the second phase is expected to support the production of advanced liquid filters and fluid handling solutions.",
+          "locator": "Award page, project description",
+          "supports": "products"
+        },
+        {
+          "source": "src:entegris-chips-pr-2024",
+          "quote": "The center, which is targeted to begin initial commercial operations in 2025, will support production of liquid filtration products, as well as semiconductor wafer carriers known as Front-Opening-Unified Pods (FOUPs).",
+          "locator": "Press release, paragraph 3",
+          "supports": "start year (target)"
+        },
+        {
+          "source": "src:nist-chips-entegris-2024-12",
+          "quote": "The manufacturing center, which is targeted to begin initial commercial operations in 2025, will initially support production of liquid filtration products, as well as Front-Opening-Unified Pods (FOUPs).",
+          "locator": "Press release, Entegris paragraph",
+          "supports": "products; start year"
+        }
+      ],
+      "start_year": 2025
+    },
+    {
+      "id": "fac:tok-koriyama",
+      "name": "TOK Koriyama Plant",
+      "operator": "co:tok",
+      "layer": "wafers_chemicals",
+      "kind": "photoresist_plant",
+      "location": {
+        "lat": 37.4005,
+        "lon": 140.3597,
+        "precision": "city",
+        "address": "1-23 Machiikedai, Koriyama City, Fukushima 963-0215, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "EUV photoresists",
+        "ArF photoresists",
+        "KrF photoresists"
+      ],
+      "evidence": [
+        {
+          "source": "src:tok-sites-japan",
+          "quote": "1-23 Machiikedai, Koriyama City, Fukushima 963-0215",
+          "locator": "Sites in Japan, Koriyama Plant",
+          "supports": "location"
+        },
+        {
+          "source": "src:tok-koriyama-2023",
+          "quote": "The Koriyama Plant manufactures various types of photoresists including EUV/ArF/ KrF photoresists for semiconductor manufacturing processes.",
+          "locator": "Press release, paragraph 2",
+          "supports": "existence; products"
+        },
+        {
+          "source": "src:tok-koriyama-2023",
+          "quote": "The construction is scheduled to begin in July 2024, with operations scheduled to commence in the second half of 2026.",
+          "locator": "Press release, paragraph 1",
+          "supports": "expansion status (new building)"
+        }
+      ]
+    },
+    {
+      "id": "fac:tok-aso-kumamoto",
+      "name": "TOK Aso Plant, Aso Kumamoto Site (Kikuchi)",
+      "operator": "co:tok",
+      "layer": "wafers_chemicals",
+      "kind": "high_purity_chemicals_plant",
+      "location": {
+        "lat": 32.9798,
+        "lon": 130.8132,
+        "precision": "city",
+        "address": "987-2, Ninohigashioki, Kyokushikawabe, Kikuchi City, Kumamoto 869-1205, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "high-purity process chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tok-sites-japan",
+          "quote": "987-2, Ninohigashioki, Kyokushikawabe, Kikuchi City, Kumamoto",
+          "locator": "Sites in Japan, Aso Kumamoto Site of Aso Plant",
+          "supports": "location"
+        },
+        {
+          "source": "src:tok-aso-kumamoto-2024",
+          "quote": "In 2022, We acquired new land for commercial use in Kikuchi City, Kumamoto Prefecture to open the Aso Kumamoto Site in response to the recent expansion of semiconductor production in Kyushu area.",
+          "locator": "Press release, paragraph 2",
+          "supports": "existence; rationale"
+        },
+        {
+          "source": "src:tok-aso-kumamoto-2024",
+          "quote": "Investment amount: Approximately 13 billion yen",
+          "locator": "Press release, Outline",
+          "supports": "investment"
+        }
+      ]
+    },
+    {
+      "id": "fac:tok-america-hillsboro",
+      "name": "TOKYO OHKA KOGYO AMERICA Oregon Plant, Hillsboro",
+      "operator": "co:tok",
+      "layer": "wafers_chemicals",
+      "kind": "photoresist_plant",
+      "location": {
+        "lat": 45.5543,
+        "lon": -122.924,
+        "precision": "site",
+        "address": "4600 NE Brookwood Parkway, Hillsboro, Oregon 97124, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "i-line photoresists",
+        "high-purity chemicals for photolithography"
+      ],
+      "evidence": [
+        {
+          "source": "src:tok-sites-overseas",
+          "quote": "4600 NE Brookwood Parkway, Hillsboro Oregon 97124, U.S.A.",
+          "locator": "Sites Overseas, TOKYO OHKA KOGYO AMERICA, INC.",
+          "supports": "location"
+        },
+        {
+          "source": "src:tok-sites-overseas",
+          "quote": "The Oregon Plant of TOKYO OHKA KOGYO AMERICA, INC., located in Hillsboro, Oregon, produces i-line semiconductor photoresists and high-purity chemical agents used mainly in photolithography processes in the field of semiconductors.",
+          "locator": "Sites Overseas, TOKYO OHKA KOGYO AMERICA, INC.",
+          "supports": "existence; products"
+        }
+      ]
+    },
+    {
+      "id": "fac:tok-advanced-materials-incheon",
+      "name": "TOK Advanced Materials Incheon Plant",
+      "operator": "co:tok",
+      "layer": "wafers_chemicals",
+      "kind": "photoresist_plant",
+      "location": {
+        "lat": 37.4098,
+        "lon": 126.6787,
+        "precision": "city",
+        "address": "45, Cheomdan-Daero 60Beon-Gil, Yeonsu-Gu, Incheon, 21990, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "semiconductor photoresists",
+        "photoresist-related high-purity chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:tok-sites-overseas",
+          "quote": "45, Cheomdan-Daero 60Beon-Gil, Yeonsu-Gu, Incheon, 21990, Republic of Korea",
+          "locator": "Sites Overseas, TOK ADVANCED MATERIALS CO., LTD. Headquarters / Incheon Plant",
+          "supports": "location"
+        },
+        {
+          "source": "src:tok-sites-overseas",
+          "quote": "TOK Advanced Materials Co., Ltd. develops, Manufactures, and sells photoresists for semiconductors and sells photoresist-related high-purity chemicals.",
+          "locator": "Sites Overseas, TOK ADVANCED MATERIALS CO., LTD.",
+          "supports": "existence; products"
+        }
+      ]
+    },
+    {
+      "id": "fac:tok-taiwan-tongluo",
+      "name": "TOK Taiwan Tongluo Plant (Miaoli)",
+      "operator": "co:tok",
+      "layer": "wafers_chemicals",
+      "kind": "photoresist_plant",
+      "location": {
+        "lat": 24.487,
+        "lon": 120.7879,
+        "precision": "city",
+        "address": "No.1, Tongke 1st Rd., Tongluo Township, Miaoli County 36645, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "semiconductor photoresists",
+        "high-purity chemicals for photolithography"
+      ],
+      "evidence": [
+        {
+          "source": "src:tok-sites-overseas",
+          "quote": "No.1, Tongke 1st Rd.,Tongluo Township, Miaoli County 36645, TAIWAN",
+          "locator": "Sites Overseas, TOK TAIWAN CO., LTD. Tongluo Plant",
+          "supports": "location"
+        },
+        {
+          "source": "src:tok-sites-overseas",
+          "quote": "TOK TAIWAN CO., LTD. is engaged in the manufacture and sales of photoresists used to manufacture semiconductors, and high purity chemicals used in photolithography processes",
+          "locator": "Sites Overseas, TOK TAIWAN CO., LTD.",
+          "supports": "existence; products"
+        }
+      ]
+    },
+    {
+      "id": "fac:jsr-inpria-corvallis",
+      "name": "Inpria (JSR) EUV metal-oxide photoresist plant, Corvallis",
+      "operator": "co:jsr",
+      "layer": "wafers_chemicals",
+      "kind": "euv_photoresist_plant",
+      "location": {
+        "lat": 44.5889,
+        "lon": -123.2418,
+        "precision": "site",
+        "address": "1100 NE Circle Blvd., Suite 360, Corvallis, Oregon 97330, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "EUV metal oxide photoresists (MOR)"
+      ],
+      "evidence": [
+        {
+          "source": "src:inpria-home",
+          "quote": "We produce EUV photoresists in our advanced manufacturing plant in Corvallis, Oregon.",
+          "locator": "Home page, Manufacturing",
+          "supports": "existence; products"
+        },
+        {
+          "source": "src:inpria-home",
+          "quote": "1100 NE Circle Blvd., Suite 360",
+          "locator": "Home page footer",
+          "supports": "location (corporate address)"
+        }
+      ]
+    },
+    {
+      "id": "fac:jsr-yokkaichi",
+      "name": "JSR Yokkaichi Plant & Research Laboratories (Fine Electronic Materials Development Center)",
+      "operator": "co:jsr",
+      "layer": "wafers_chemicals",
+      "kind": "photoresist_rd_center",
+      "location": {
+        "lat": 34.9289,
+        "lon": 136.6081,
+        "precision": "city",
+        "address": "100 Kawajiricho, Yokkaichi-shi, Mie 510-8552, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "photoresist development (Fine Electronic Materials Development Center)"
+      ],
+      "evidence": [
+        {
+          "source": "src:jsr-offices",
+          "quote": "100 Kawajiricho, Yokkaichi-shi, Mie 510-8552 Japan",
+          "locator": "Offices and Sites, Yokkaichi Plant & Research Laboratories",
+          "supports": "location"
+        },
+        {
+          "source": "src:jsr-photoresist-expansion-2024",
+          "quote": "In Japan, in addition to the Fine Electronic Materials Development Center located in our Yokkaichi Plant, we have recently decided to establish a new R&D center for MOR in the Kanto area",
+          "locator": "Press release, paragraph 2",
+          "supports": "existence; function"
+        }
+      ]
+    },
+    {
+      "id": "fac:jsr-micro-korea-cheongju",
+      "name": "JSR Micro Korea photoresist (MOR) plant, Ochang, Cheongju",
+      "operator": "co:jsr",
+      "layer": "wafers_chemicals",
+      "kind": "euv_photoresist_plant",
+      "location": {
+        "lat": 36.6864,
+        "lon": 127.3618,
+        "precision": "city",
+        "address": "97, Gwahaksaneop 4-ro, Oksan-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, Korea"
+      },
+      "country": "KR",
+      "status": "under_construction",
+      "products": [
+        "EUV metal oxide photoresists (final production process)"
+      ],
+      "evidence": [
+        {
+          "source": "src:jsr-overseas-group",
+          "quote": "97, Gwahaksaneop 4-ro, Oksan-myeon, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, 28122 Korea",
+          "locator": "Main Overseas Group Enterprise, JSR Micro Korea Co., Ltd.",
+          "supports": "location (subsidiary address)"
+        },
+        {
+          "source": "src:jsr-photoresist-expansion-2024",
+          "quote": "The new plant to be built in Korea will execute the final production process for MOR.",
+          "locator": "Press release, paragraph 3",
+          "supports": "existence; products"
+        },
+        {
+          "source": "src:jsr-photoresist-expansion-2024",
+          "quote": "The plant is expected to start operation in 2026.",
+          "locator": "Press release, paragraph 3",
+          "supports": "status/start year"
+        }
+      ],
+      "start_year": 2026
+    },
+    {
+      "id": "fac:jsr-micro-amt-taiwan-yunlin",
+      "name": "JSR Micro Advanced Manufacturing Taiwan, Huwei, Yunlin",
+      "operator": "co:jsr",
+      "layer": "wafers_chemicals",
+      "kind": "electronic_materials_plant",
+      "location": {
+        "lat": 23.7082,
+        "lon": 120.4453,
+        "precision": "city",
+        "address": "No. 11, Kehu 1st Road, Huwei Township, Yunlin County 63247, Taiwan"
+      },
+      "country": "TW",
+      "status": "announced",
+      "products": [
+        "semiconductor materials (production and sales)"
+      ],
+      "evidence": [
+        {
+          "source": "src:jsr-overseas-group",
+          "quote": "No. 11, Kehu 1st Road, Huwei Township, Yunlin County 63247, Taiwan",
+          "locator": "Main Overseas Group Enterprise, JSR Micro Advanced Manufacturing Taiwan Co., Ltd.",
+          "supports": "location"
+        },
+        {
+          "source": "src:jsr-taiwan-jv-2026",
+          "quote": "has established a joint venture, JSR Micro Advanced Manufacturing Taiwan Co., Ltd., with LCY Chemical Corp. and Wah Lee Industrial Corp.",
+          "locator": "Press release, paragraph 1",
+          "supports": "existence; ownership"
+        },
+        {
+          "source": "src:jsr-taiwan-jv-2026",
+          "quote": "The joint venture will serve as a manufacturing base in Taiwan for advanced electronic materials and will establish a stable supply system for the growing advanced semiconductor market.",
+          "locator": "Press release, paragraph 2",
+          "supports": "function"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:siltronic-to-tsmc-wafers",
+      "from": "co:siltronic",
+      "to": "co:tsmc",
+      "commodity": "300 mm silicon wafers",
+      "description": "Siltronic names TSMC among its three largest customers in 2025. The supplying Siltronic site and receiving fab are not disclosed; hints are guesses.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In 2025, our three largest customers were (in alphabetical order) Intel Corporation, Samsung Electronics and Taiwan Semiconductor Manufacturing Company (TSMC).",
+          "locator": "Siltronic Annual Report 2025, Combined management report, Business model / customers section (p. 19)",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:tsmc-20f-fy2025",
+          "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
+          "locator": "Item 4.B Business Overview, Raw Materials",
+          "supports": "relationship (consistent: TSMC sources raw wafers from Germany and Singapore)"
+        }
+      ],
+      "from_hint": "fac:siltronic-singapore",
+      "to_hint": "fac:tsmc-fab18-tainan"
+    },
+    {
+      "id": "flow:siltronic-to-samsung-wafers",
+      "from": "co:siltronic",
+      "to": "co:samsung",
+      "commodity": "300 mm silicon wafers",
+      "description": "Siltronic names Samsung Electronics among its three largest customers in 2025. The supplying Siltronic site and receiving fab are not disclosed; hints are guesses.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In 2025, our three largest customers were (in alphabetical order) Intel Corporation, Samsung Electronics and Taiwan Semiconductor Manufacturing Company (TSMC).",
+          "locator": "Siltronic Annual Report 2025, Combined management report, Business model / customers section (p. 19)",
+          "supports": "relationship"
+        }
+      ],
+      "from_hint": "fac:siltronic-singapore",
+      "to_hint": "fac:samsung-pyeongtaek"
+    },
+    {
+      "id": "flow:siltronic-to-intel-wafers",
+      "from": "co:siltronic",
+      "to": "co:intel",
+      "commodity": "300 mm silicon wafers",
+      "description": "Siltronic names Intel among its three largest customers in 2025. The supplying Siltronic site and receiving fab are not disclosed; hints are guesses.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In 2025, our three largest customers were (in alphabetical order) Intel Corporation, Samsung Electronics and Taiwan Semiconductor Manufacturing Company (TSMC).",
+          "locator": "Siltronic Annual Report 2025, Combined management report, Business model / customers section (p. 19)",
+          "supports": "relationship"
+        }
+      ],
+      "from_hint": "fac:siltronic-singapore",
+      "to_hint": "fac:intel-fab52-chandler"
+    },
+    {
+      "id": "flow:wacker-to-siltronic-polysilicon",
+      "from": "co:wacker",
+      "to": "co:siltronic",
+      "commodity": "semiconductor-grade polysilicon",
+      "description": "Siltronic obtains most of its polysilicon from Wacker Chemie AG under long-term supply agreements; Wacker also supplies services at the shared Burghausen site.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "Our main raw material is polysilicon, most of which we obtain from Wacker Chemie AG on the basis of long-term supply agreements.",
+          "locator": "Combined management report, Business and economic conditions (p. 20)",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:siltronic-ar-2025",
+          "quote": "In particular we purchase polysilicon from Wacker Chemie AG under a long-term agreement.",
+          "locator": "Risk report, procurement risks",
+          "supports": "relationship; contract form"
+        }
+      ],
+      "from_hint": "fac:wacker-burghausen",
+      "to_hint": "fac:siltronic-burghausen"
+    },
+    {
+      "id": "flow:sumco-to-tsmc-wafers",
+      "from": "co:sumco",
+      "to": "co:tsmc",
+      "commodity": "300 mm silicon wafers",
+      "description": "SUMCO reports receiving TSMC's supplier Excellent Performance Award for the twelfth consecutive year (2025). Receiving fab not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:sumco-sr-2026",
+          "quote": "In 2025, we received the 2025 Excellent Performance Award for the twelve consecutive year from Taiwan Semiconductor Manufacturing Co., Ltd. (TSMC), the world's largest foundry.",
+          "locator": "Top message / supplier recognition section",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:tsmc-20f-fy2025",
+          "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
+          "locator": "Item 4.B Business Overview, Raw Materials",
+          "supports": "relationship (consistent: TSMC sources raw wafers from Japan)"
+        }
+      ],
+      "from_hint": "fac:sumco-kyushu-imari",
+      "to_hint": "fac:tsmc-fab18-tainan"
+    },
+    {
+      "id": "flow:sumco-to-samsung-wafers",
+      "from": "co:sumco",
+      "to": "co:samsung",
+      "commodity": "300 mm silicon wafers",
+      "description": "SUMCO reports receiving Samsung's 2025 Best Partner Award for its contribution in developing silicon wafers for advanced devices. Receiving fab not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:sumco-sr-2026",
+          "quote": "also received the 2025 Best Partner Award from",
+          "locator": "Top message / supplier recognition section",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:sumco-sr-2026",
+          "quote": "such as developing silicon wafers for advanced devices.",
+          "locator": "Top message / supplier recognition section",
+          "supports": "commodity"
+        }
+      ],
+      "from_hint": "fac:sumco-kyushu-imari",
+      "to_hint": "fac:samsung-pyeongtaek"
+    },
+    {
+      "id": "flow:sk-siltron-to-sk-hynix-wafers",
+      "from": "co:sk-siltron",
+      "to": "co:sk-hynix",
+      "commodity": "silicon wafers",
+      "description": "SK hynix's audited related-party note lists purchases from SK Siltron Co., Ltd. of KRW 502,707 million in 2025 (column 'Purchase and others'). SK hynix states wafers are its most significant raw material by cost. Receiving fab not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:skhynix-424b4-2026",
+          "quote": "Significant transactions with related parties for the years ended December 31, 2025, 2024 and 2023 are as follows:",
+          "locator": "Audited Financial Statements, Note 31 Transactions with Related Parties and Others, table row 'SK Siltron Co., Ltd.' (Sales and others 39,232; Purchase and others 502,707; KRW millions)",
+          "supports": "relationship; amount"
+        },
+        {
+          "source": "src:skhynix-424b4-2026",
+          "quote": "SK Siltron Co., Ltd.",
+          "locator": "Note 31, 2025 table, Other related parties",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:skhynix-424b4-2026",
+          "quote": "Wafers are the most significant raw material in terms of cost, representing approximately 10% of our cost of sales in recent years.",
+          "locator": "Business, Raw Materials and Supplies",
+          "supports": "commodity"
+        }
+      ],
+      "from_hint": "fac:sk-siltron-gumi-plant3",
+      "to_hint": "fac:sk-hynix-icheon-m16",
+      "volume": {
+        "value": 502707,
+        "unit": "KRW million (purchases and others, all goods/services)",
+        "as_of": "2025",
+        "note": "Related-party purchases from SK Siltron; not broken out by product, so may include non-wafer items.",
+        "evidence": [
+          {
+            "source": "src:skhynix-424b4-2026",
+            "quote": "SK Siltron Co., Ltd.",
+            "locator": "Note 31, 2025 table: 'Purchase and others' column = 502,707 (KRW millions)",
+            "supports": "amount"
+          }
+        ]
+      }
+    },
+    {
+      "id": "flow:entegris-to-tsmc",
+      "from": "co:entegris",
+      "to": "co:tsmc",
+      "commodity": "filtration, fluid handling, specialty materials and wafer carriers",
+      "description": "Entegris reports TSMC as its largest customer: 16% of net sales in 2025 (16% in 2024, 11% in 2023). Supplying Entegris sites and receiving fabs not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:entegris-10k-fy2025",
+          "quote": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+          "locator": "Item 1 Business, Customers table 'Percentage of net sales to top customers' (TSMC 16% / 16% / 11% for 2025 / 2024 / 2023)",
+          "supports": "relationship; share of sales"
+        },
+        {
+          "source": "src:entegris-10k-fy2025",
+          "quote": "Our top ten customers accounted for 50%, 48% and 43% of our net sales in 2025, 2024 and 2023, respectively.",
+          "locator": "Item 1A Risk Factors",
+          "supports": "customer concentration"
+        }
+      ],
+      "to_hint": "fac:tsmc-fab18-tainan",
+      "volume": {
+        "value": 16,
+        "unit": "% of Entegris net sales",
+        "as_of": "2025",
+        "evidence": [
+          {
+            "source": "src:entegris-10k-fy2025",
+            "quote": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+            "locator": "Item 1 Business, Customers table (16% in 2025)",
+            "supports": "amount"
+          }
+        ]
+      }
+    },
+    {
+      "id": "flow:globalwafers-memc-to-globalfoundries",
+      "from": "co:globalwafers",
+      "to": "co:globalfoundries",
+      "commodity": "silicon wafers (incl. SOI)",
+      "description": "GlobalFoundries names MEMC LLC (a GlobalWafers subsidiary) as a principal wafer supplier; a GlobalFoundries executive is quoted as a longstanding strategic partner at the GWA opening.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:gf-20f-fy2024",
+          "quote": "The principal suppliers for our wafers are MEMC LLC, Shin-Etsu Handotai (“S.E.H.”) and Soitec.",
+          "locator": "Item 4.B Business Overview, Raw Materials",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nist-chips-globalwafers-2024-12",
+          "quote": "the U.S. Department of Commerce issued direct funding awards to GlobalWafers America, LLC (GWA) and MEMC LLC (MEMC), subsidiaries of GlobalWafers Co., Ltd. (GlobalWafers)",
+          "locator": "Press release, paragraph 1",
+          "supports": "MEMC is a GlobalWafers subsidiary"
+        },
+        {
+          "source": "src:globalwafers-gwa-opening-2025",
+          "quote": "As a longstanding strategic partner, we are pleased to see GlobalWafers increasing domestic supply of silicon wafers critical to the essential semiconductors we manufacture.",
+          "locator": "Press release, paragraph quoting GlobalFoundries SVP Global Supply Chain",
+          "supports": "relationship"
+        }
+      ],
+      "from_hint": "fac:globalwafers-memc-st-peters",
+      "to_hint": "fac:globalfoundries-malta-fab8"
+    },
+    {
+      "id": "flow:shin-etsu-to-globalfoundries-wafers",
+      "from": "co:shin-etsu",
+      "to": "co:globalfoundries",
+      "commodity": "silicon wafers",
+      "description": "GlobalFoundries names Shin-Etsu Handotai (S.E.H.) as a principal wafer supplier. Supplying S.E.H. site and receiving fab not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:gf-20f-fy2024",
+          "quote": "The principal suppliers for our wafers are MEMC LLC, Shin-Etsu Handotai (“S.E.H.”) and Soitec.",
+          "locator": "Item 4.B Business Overview, Raw Materials",
+          "supports": "relationship"
+        }
+      ],
+      "to_hint": "fac:globalfoundries-malta-fab8"
+    },
+    {
+      "id": "flow:jsr-inpria-to-jsr-micro-korea-mor",
+      "from": "fac:jsr-inpria-corvallis",
+      "to": "fac:jsr-micro-korea-cheongju",
+      "commodity": "EUV metal oxide photoresist (MOR) intermediates",
+      "description": "JSR's Korean plant is to execute the final production process for MOR, the photoresist platform acquired with Inpria.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:jsr-photoresist-expansion-2024",
+          "quote": "Since the acquisition of Inpria Corporation of the U.S. in 2021, we have been promoting the commercialization of Metal Oxide Resist (MOR), the most advanced photoresist for EUV, on a global scale.",
+          "locator": "Press release, paragraph 2",
+          "supports": "MOR originates from Inpria"
+        },
+        {
+          "source": "src:jsr-photoresist-expansion-2024",
+          "quote": "The new plant to be built in Korea will execute the final production process for MOR.",
+          "locator": "Press release, paragraph 3",
+          "supports": "Korea plant role"
+        }
+      ],
+      "inference_note": "JSR says the Korea plant performs the 'final production process' for MOR and that MOR came from Inpria, whose Corvallis plant produces EUV photoresists [inpria.com] => upstream MOR material likely moves Corvallis -> Cheongju. No document states the shipment route."
+    }
+  ],
+  "financial_links": [],
+  "controls": [],
+  "gaps": []
+}

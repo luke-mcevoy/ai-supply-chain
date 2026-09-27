@@ -1,0 +1,2410 @@
+{
+  "layer": "finance",
+  "analyst": "finance-analyst (Claude)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:nvidia-10k-fy2026",
+      "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000021"
+    },
+    {
+      "id": "src:nvidia-10q-q2fy2027",
+      "title": "NVIDIA Corporation Form 10-Q for quarter ended July 26, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000075"
+    },
+    {
+      "id": "src:nvidia-8k-2026-08-17",
+      "title": "NVIDIA Corporation Form 8-K (SB Energy PORTS residual value guaranties)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-08-17",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000069"
+    },
+    {
+      "id": "src:nvidia-8k-2026-09-02",
+      "title": "NVIDIA Corporation Form 8-K (agreement to acquire Hugging Face)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-09-03",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000078"
+    },
+    {
+      "id": "src:coreweave-10k-2025",
+      "title": "CoreWeave, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-03-02",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000104"
+    },
+    {
+      "id": "src:coreweave-10q-q2-2026",
+      "title": "CoreWeave, Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-12",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000366"
+    },
+    {
+      "id": "src:coreweave-8k-2025-09-09",
+      "title": "CoreWeave, Inc. Form 8-K (NVIDIA order form under MSA)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000047/crwv-20250909.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-09-15",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-25-000047"
+    },
+    {
+      "id": "src:coreweave-8k-2025-09-23",
+      "title": "CoreWeave, Inc. Form 8-K (OpenAI order form under MSA)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525216497/d17274d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-09-25",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-25-216497"
+    },
+    {
+      "id": "src:coreweave-8k-2025-09-25",
+      "title": "CoreWeave, Inc. Form 8-K (Meta order form under MSA)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000050/crwv-20250925.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-09-30",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-25-000050"
+    },
+    {
+      "id": "src:coreweave-8k-2025-12-08",
+      "title": "CoreWeave, Inc. Form 8-K (1.75% Convertible Senior Notes due 2031)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000105/crwv-20251208.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-12-11",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-25-000105"
+    },
+    {
+      "id": "src:coreweave-8k-2026-01-23",
+      "title": "CoreWeave, Inc. Form 8-K (NVIDIA private placement)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000044/crwv-20260123.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-01-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000044"
+    },
+    {
+      "id": "src:coreweave-8k-2026-03-30",
+      "title": "CoreWeave, Inc. Form 8-K (DDTL 4.0 Facility)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000129/crwv-20260330.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-03-31",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000129"
+    },
+    {
+      "id": "src:coreweave-8k-2026-03-31",
+      "title": "CoreWeave, Inc. Form 8-K (Meta order form, March 2026)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000154/crwv-20260331.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-04-09",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000154"
+    },
+    {
+      "id": "src:coreweave-8k-2026-04-16",
+      "title": "CoreWeave, Inc. Form 8-K (9.750% Senior Notes due 2031, additional notes)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000183/crwv-20260416.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-04-21",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000183"
+    },
+    {
+      "id": "src:coreweave-8k-2026-05-15",
+      "title": "CoreWeave, Inc. Form 8-K (DDTL 5.0 Facility)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000236/crwv-20260515.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-05-18",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000236"
+    },
+    {
+      "id": "src:coreweave-8k-2026-06-18",
+      "title": "CoreWeave, Inc. Form 8-K (USD and EUR Senior Notes due 2032)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000291/crwv-20260618.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-06-18",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000291"
+    },
+    {
+      "id": "src:coreweave-8k-2026-08-07",
+      "title": "CoreWeave, Inc. Form 8-K (DDTL 5.5 Facility)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000357/crwv-20260807.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-08-10",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000357"
+    },
+    {
+      "id": "src:coreweave-8k-2026-09-17",
+      "title": "CoreWeave, Inc. Form 8-K (convertible notes offering launch)",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000429/crwv-20260917.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-09-17",
+      "accessed": "2026-09-27",
+      "identifier": "0001769628-26-000429"
+    },
+    {
+      "id": "src:microsoft-10k-fy2026",
+      "title": "Microsoft Corporation Form 10-K for fiscal year ended June 30, 2026",
+      "publisher": "Microsoft Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-07-29",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-323660"
+    },
+    {
+      "id": "src:amazon-10k-2025",
+      "title": "Amazon.com, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-06",
+      "accessed": "2026-09-27",
+      "identifier": "0001018724-26-000004"
+    },
+    {
+      "id": "src:amazon-10q-q2-2026",
+      "title": "Amazon.com, Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-07-31",
+      "accessed": "2026-09-27",
+      "identifier": "0001018724-26-000026"
+    },
+    {
+      "id": "src:amd-8k-2025-10-05",
+      "title": "Advanced Micro Devices, Inc. Form 8-K (OpenAI warrant and product purchase agreement)",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-10-06",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-25-230895"
+    },
+    {
+      "id": "src:amd-8k-2026-02-23",
+      "title": "Advanced Micro Devices, Inc. Form 8-K (Meta warrant and purchase agreement amendment)",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-02-24",
+      "accessed": "2026-09-27",
+      "identifier": "0000002488-26-000045"
+    },
+    {
+      "id": "src:amd-10q-q2-2026",
+      "title": "Advanced Micro Devices, Inc. Form 10-Q for quarter ended June 27, 2026",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-05",
+      "accessed": "2026-09-27",
+      "identifier": "0000002488-26-000123"
+    },
+    {
+      "id": "src:amd-10k-2025",
+      "title": "Advanced Micro Devices, Inc. Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-04",
+      "accessed": "2026-09-27",
+      "identifier": "0000002488-26-000018"
+    },
+    {
+      "id": "src:broadcom-10k-fy2025",
+      "title": "Broadcom Inc. Form 10-K for fiscal year ended November 2, 2025",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-12-18",
+      "accessed": "2026-09-27",
+      "identifier": "0001730168-25-000121"
+    },
+    {
+      "id": "src:broadcom-10q-q3fy2026",
+      "title": "Broadcom Inc. Form 10-Q for quarter ended August 2, 2026",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-09-10",
+      "accessed": "2026-09-27",
+      "identifier": "0001730168-26-000080"
+    },
+    {
+      "id": "src:broadcom-8k-2026-04-06",
+      "title": "Broadcom Inc. Form 8-K (Google TPU Long Term Agreement; Anthropic compute)",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-04-06",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-144028"
+    },
+    {
+      "id": "src:alphabet-10k-2025",
+      "title": "Alphabet Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Alphabet Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-05",
+      "accessed": "2026-09-27",
+      "identifier": "0001652044-26-000018"
+    },
+    {
+      "id": "src:alphabet-10q-q2-2026",
+      "title": "Alphabet Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Alphabet Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-07-23",
+      "accessed": "2026-09-27",
+      "identifier": "0001652044-26-000071"
+    },
+    {
+      "id": "src:meta-10k-2025",
+      "title": "Meta Platforms, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-01-29",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-003942"
+    },
+    {
+      "id": "src:meta-10q-q2-2026",
+      "title": "Meta Platforms, Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-07-30",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-050705"
+    },
+    {
+      "id": "src:meta-pr-hyperion-blue-owl",
+      "title": "Meta Announces Joint Venture With Funds Managed by Blue Owl Capital to Develop Hyperion Data Center",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://about.fb.com/news/2025/10/meta-blue-owl-capital-develop-hyperion-data-center/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-21",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:oracle-10k-fy2026",
+      "title": "Oracle Corporation Form 10-K for fiscal year ended May 31, 2026",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-06-22",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-277521"
+    },
+    {
+      "id": "src:oracle-10q-q1fy2027",
+      "title": "Oracle Corporation Form 10-Q for quarter ended August 31, 2026",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-09-11",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-389274"
+    },
+    {
+      "id": "src:oracle-8k-2026-02-02",
+      "title": "Oracle Corporation Form 8-K ($25B notes; ATM equity program)",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526037840/d23732d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-02-04",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-037840"
+    },
+    {
+      "id": "src:oracle-8k-2025-09-26",
+      "title": "Oracle Corporation Form 8-K ($18B notes)",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220445/d31817d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-09-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-25-220445"
+    },
+    {
+      "id": "src:intel-8k-2025-12-26",
+      "title": "Intel Corporation Form 8-K (sale of common stock to NVIDIA)",
+      "publisher": "Intel Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000204/intc-20251226.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-12-29",
+      "accessed": "2026-09-27",
+      "identifier": "0000050863-25-000204"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:nvidia",
+      "name": "NVIDIA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3708,
+        "lon": -121.9637,
+        "precision": "city",
+        "address": "2788 San Tomas Expressway, Santa Clara, CA 95051"
+      },
+      "layers": [
+        "design",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "NVIDIA Corporation",
+          "locator": "Cover page",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:NVDA"
+      ],
+      "sec_cik": "0001045810"
+    },
+    {
+      "id": "co:openai",
+      "name": "OpenAI Group PBC",
+      "country": "US",
+      "hq": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "precision": "city"
+      },
+      "layers": [
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "an affiliate of OpenAI Group PBC (OpenAI)",
+          "locator": "Note 10, SB Energy Corp. guarantees",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:sb-energy",
+      "name": "SB Energy Corp.",
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "layers": [
+        "power",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "announced a multi-year partnership with SB Energy Corp.",
+          "locator": "Item 1.01",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:coreweave",
+      "name": "CoreWeave, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 40.7959,
+        "lon": -74.3149,
+        "precision": "city",
+        "address": "290 W Mt. Pleasant Ave., Suite 4100, Livingston, NJ 07039"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:coreweave-10k-2025",
+          "quote": "Livingston, NJ",
+          "locator": "Cover page, Address of Principal Executive Offices",
+          "supports": "location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:CRWV"
+      ],
+      "sec_cik": "0001769628"
+    },
+    {
+      "id": "co:meta",
+      "name": "Meta Platforms, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4848,
+        "lon": -122.1484,
+        "precision": "city"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2025-09-25",
+          "quote": "Meta Platforms, Inc.",
+          "locator": "Item 1.01",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:META"
+      ],
+      "sec_cik": "0001326801"
+    },
+    {
+      "id": "co:microsoft",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 47.674,
+        "lon": -122.1215,
+        "precision": "city"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "We have a long-term strategic partnership with OpenAI which was originally established in 2019.",
+          "locator": "Part II, Item 7, MD&A overview",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MSFT"
+      ],
+      "sec_cik": "0000789019"
+    },
+    {
+      "id": "co:amazon",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "precision": "city",
+        "address": "410 Terry Avenue North, Seattle, Washington 98109-5210"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "410 Terry Avenue North, Seattle, Washington 98109-5210",
+          "locator": "Cover page",
+          "supports": "location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMZN"
+      ],
+      "sec_cik": "0001018724"
+    },
+    {
+      "id": "co:anthropic",
+      "name": "Anthropic PBC",
+      "country": "US",
+      "hq": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "precision": "city"
+      },
+      "layers": [
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "we invested $5.0 billion in Anthropic Series G nonvoting preferred stock",
+          "locator": "Note 4 — Investments, Anthropic",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:amd",
+      "name": "Advanced Micro Devices, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3824,
+        "lon": -121.97,
+        "precision": "city",
+        "address": "2485 Augustine Drive, Santa Clara, California 95054"
+      },
+      "layers": [
+        "design",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-2025",
+          "quote": "2485 Augustine Drive",
+          "locator": "Cover page",
+          "supports": "location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMD"
+      ],
+      "sec_cik": "0000002488"
+    },
+    {
+      "id": "co:broadcom",
+      "name": "Broadcom Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4419,
+        "lon": -122.143,
+        "precision": "city"
+      },
+      "layers": [
+        "design",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:broadcom-8k-2026-04-06",
+          "quote": "Broadcom Inc. (“Broadcom”) and Google LLC (“Google”) have entered into a Long Term Agreement",
+          "locator": "Item 8.01",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AVGO"
+      ],
+      "sec_cik": "0001730168"
+    },
+    {
+      "id": "co:alphabet",
+      "name": "Alphabet Inc. (Google LLC)",
+      "country": "US",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "city"
+      },
+      "layers": [
+        "datacenter",
+        "design",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:broadcom-8k-2026-04-06",
+          "quote": "Google LLC (“Google”)",
+          "locator": "Item 8.01",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GOOGL"
+      ],
+      "sec_cik": "0001652044"
+    },
+    {
+      "id": "co:hugging-face",
+      "name": "Hugging Face, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "layers": [
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2026-09-02",
+          "quote": "Hugging Face operates a platform and community for developing, sharing and deploying open-source models, datasets and applications.",
+          "locator": "Item 8.01",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:groq",
+      "name": "Groq, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "layers": [
+        "design",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "we entered into a non‑exclusive license agreement with Groq, Inc., or Groq, for its language processing unit technology",
+          "locator": "Note 2 - Groq",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:jane-street",
+      "name": "Jane Street",
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "layers": [
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:coreweave-10q-q2-2026",
+          "quote": "we announced that Jane Street, a private company, had committed approximately $6.0 billion to use our AI cloud platform",
+          "locator": "Part II, Item 1A, Risk Factors",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:oracle",
+      "name": "Oracle Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "precision": "city"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:oracle-8k-2025-09-26",
+          "quote": "Oracle Corporation (“Oracle”) consummated the issuance and sale",
+          "locator": "Item 8.01",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NYSE:ORCL"
+      ],
+      "sec_cik": "0001341439"
+    },
+    {
+      "id": "co:intel",
+      "name": "Intel Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3875,
+        "lon": -121.9636,
+        "precision": "city"
+      },
+      "layers": [
+        "fabrication",
+        "design",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-8k-2025-12-26",
+          "quote": "Intel Corporation (the “Company”) completed the issuance and sale of 214,776,632 shares",
+          "locator": "Item 3.02",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ],
+      "sec_cik": "0000050863"
+    },
+    {
+      "id": "co:blue-owl",
+      "name": "Blue Owl Capital Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 40.7128,
+        "lon": -74.006,
+        "precision": "city"
+      },
+      "layers": [
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-pr-hyperion-blue-owl",
+          "quote": "Meta and funds managed by Blue Owl Capital entered into a joint venture agreement which will develop and own the Hyperion data center campus.",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NYSE:OWL"
+      ]
+    },
+    {
+      "id": "co:scale-ai",
+      "name": "Scale AI",
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "layers": [
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-10k-2025",
+          "quote": "mostly consist of our minority investments in Scale AI for $13.80 billion",
+          "locator": "Note 6, Non-Marketable Equity Investments",
+          "supports": "existence"
+        }
+      ]
+    }
+  ],
+  "facilities": [],
+  "flows": [],
+  "financial_links": [
+    {
+      "id": "fin:nvidia-sb-energy-ports-guarantee",
+      "from": "co:nvidia",
+      "to": "co:sb-energy",
+      "kind": "debt_financing",
+      "date": "2026-08-17",
+      "description": "Credit support, not a cash payment: NVIDIA entered into residual value guaranties with SB Energy (lessor) covering leases for ~4.25 GW of IT load at the PORTS Technology Campus, Pike County, Ohio, where an OpenAI affiliate is the tenant. NVIDIA's aggregate obligation is capped at $105B for the initial commitment; payment is triggered only on OpenAI insolvency/payment default and is conditioned on ready-for-service conditions. OpenAI agreed to reimburse NVIDIA for amounts paid. NVIDIA holds an option (not an obligation) to support ~3.8 GW more.",
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "NVIDIA’s aggregate payment obligation is cumulatively capped at $105 billion for its initial commitment under the Agreements.",
+          "locator": "Item 1.01, Residual Value Guaranties",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "NVIDIA entered into multiple residual value guaranties (collectively, the “Agreements”) with SB Energy (the “Lessor”) relating to leases for approximately 4.25 gigawatts of IT load in the aggregate at the Portsmouth Site.",
+          "locator": "Item 1.01, Residual Value Guaranties",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "OpenAI has agreed to reimburse and indemnify NVIDIA for any and all amounts actually paid by NVIDIA to the Lessor under the Agreements.",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "The campus will exclusively host our compute under 20-year leases to OpenAI, subject to limited exceptions, with our obligation capped at $105 billion in the aggregate",
+          "locator": "Part I, Item 2, MD&A, Recent Developments",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 105000000000.0,
+        "currency": "USD",
+        "period": "cap on contingent guarantee obligation over 20-year lease terms",
+        "note": "Maximum exposure (cap), contingent; not funded"
+      }
+    },
+    {
+      "id": "fin:openai-sb-energy-ports-leases",
+      "from": "co:openai",
+      "to": "co:sb-energy",
+      "kind": "lease_commitment",
+      "date": "2026-08-17",
+      "description": "An OpenAI affiliate is the tenant under 20-year leases with SB Energy for ~4.25 GW of IT load at the PORTS Technology Campus (Pike County, Ohio), to deploy NVIDIA's DSX AI factory platform. Lease payment amounts are not disclosed in NVIDIA's filings; NVIDIA guarantees defined portions of the lease and power payments.",
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "An affiliate of OpenAI Group PBC (such affiliate, “OpenAI”) will be the tenant.",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "OpenAI, as the tenant, will utilize capacity at the Portsmouth Site supporting approximately 4.25 gigawatts of IT load to deploy NVIDIA’s full-stack DSX AI factory platform, subject to limited exceptions.",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "The campus will exclusively host our compute under 20-year leases to OpenAI",
+          "locator": "Part I, Item 2, MD&A, Recent Developments",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fin:nvidia-supply-capacity-commitments",
+      "from": "co:nvidia",
+      "to": "co:nvidia",
+      "kind": "purchase_commitment",
+      "date": "2026-08-26",
+      "description": "Self-link: NVIDIA's aggregate supply and capacity commitments to its (unnamed in this disclosure) supply chain, primarily memory and manufacturing facilities, rose from $119B to $279B in one quarter. Counterparties are not named in the note; some agreements may be cancelable or adjustable prior to firm orders.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand.",
+          "locator": "Part I, Item 2, MD&A, Recent Developments",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "These supply commitments are for our data center infrastructure systems, primarily memory and manufacturing facilities, to produce our products for long-term demand across current and future product architectures.",
+          "locator": "Note 10, Commitments and Contingencies",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 279000000000.0,
+        "currency": "USD",
+        "period": "as of 2026-07-26, payable FY2027-FY2032+",
+        "note": "Suppliers not named in the disclosure"
+      }
+    },
+    {
+      "id": "fin:nvidia-ai-cloud-agreements",
+      "from": "co:nvidia",
+      "to": "co:nvidia",
+      "kind": "cloud_contract",
+      "date": "2026-08-26",
+      "description": "Self-link: NVIDIA's 'AI cloud agreements' — AI clouds buy NVIDIA infrastructure and NVIDIA commits to buy back cloud services (typically six years), which the AI clouds may stop providing and resell to third parties; commitments decline as third parties use the capacity. Counterparty AI clouds are not named in the 10-Q.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "Under these agreements, AI clouds procure our data center infrastructure products and we commit to cloud service agreements, which the AI clouds can unilaterally stop providing to us and sell to third-party customers at more advantageous rates. Our commitments, which are typically six years in duration, totaled $36 billion as of July 26, 2026",
+          "locator": "Part I, Item 2, MD&A, Recent Developments",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 36000000000.0,
+        "currency": "USD",
+        "period": "as of 2026-07-26, typically six-year terms",
+        "note": "Counterparties not named"
+      }
+    },
+    {
+      "id": "fin:nvidia-cloud-service-agreements-fy2026",
+      "from": "co:nvidia",
+      "to": "co:nvidia",
+      "kind": "cloud_contract",
+      "date": "2026-02-25",
+      "description": "Self-link: NVIDIA's multi-year cloud service agreement commitments (buying cloud capacity from CSPs for its own R&D) as of fiscal year-end 2026. CSP counterparties are not named in this note; capacity may be reduced or resold by the CSPs.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "Multi-year cloud service agreement commitments as of January 25, 2026, were $27 billion, for which $7 billion, $6 billion, $5 billion, $5 billion, $2 billion, and $2 billion will be paid in fiscal years 2027, 2028, 2029, 2030, 2031, and 2032 and thereafter, respectively.",
+          "locator": "Note 13, Commitments and Contingencies",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 27000000000.0,
+        "currency": "USD",
+        "period": "FY2027-FY2032+",
+        "note": "CSP counterparties not named"
+      }
+    },
+    {
+      "id": "fin:nvidia-equity-investments-total",
+      "from": "co:nvidia",
+      "to": "co:nvidia",
+      "kind": "equity_investment",
+      "date": "2026-08-26",
+      "description": "Self-link: NVIDIA's aggregate ecosystem equity investments ($99B) and further equity investment commitments ($25B) as of July 26, 2026, which NVIDIA describes as including AI model makers and infrastructure financiers. Individual investees are not itemized in the 10-Q.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "These include equity investments of $99 billion and equity investment commitments of $25 billion as of July 26, 2026.",
+          "locator": "Part I, Item 2, MD&A, Recent Developments",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "We committed to make certain equity investments in AI model makers, infrastructure financiers, and other private companies, subject to certain contingencies.",
+          "locator": "Note 10, Commitments and Contingencies",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 99000000000.0,
+        "currency": "USD",
+        "period": "cumulative as of 2026-07-26",
+        "note": "Plus $25B of commitments subject to contingencies; investees not itemized"
+      }
+    },
+    {
+      "id": "fin:nvidia-direct-customer-concentration-fy2026",
+      "from": "co:nvidia",
+      "to": "co:nvidia",
+      "kind": "revenue_concentration",
+      "date": "2026-02-25",
+      "description": "Self-link (customers unnamed): in fiscal 2026 one direct customer was 22% and another 14% of NVIDIA's total revenue. NVIDIA does not name them ('Customer A/B' style); direct customers include ODMs, OEMs, CSPs and system integrators, so these are not necessarily end users. [Two unnamed direct customers: 22% and 14% of revenue; period FY2026 (ended 2026-01-25).]",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment.",
+          "locator": "Item 1A, Risk Factors",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:nvidia-direct-customer-concentration-h1fy2027",
+      "from": "co:nvidia",
+      "to": "co:nvidia",
+      "kind": "revenue_concentration",
+      "date": "2026-08-26",
+      "description": "Self-link (customers unnamed): for the first half of fiscal 2027 three unnamed direct customers represented 16%, 15% and 13% of NVIDIA revenue; in Q2 FY2027 one direct customer was 16%. [Three unnamed direct customers: 16%, 15%, 13%; period H1 FY2027 (to 2026-07-26).]",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "For the first half of fiscal year 2027, three direct customers represented 16%, 15%, and 13% of total revenue, all of which was primarily attributable to the Compute & Networking segment.",
+          "locator": "Part I, Item 2, MD&A, Concentration of Revenue",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:nvidia-indirect-ai-company-concentration",
+      "from": "co:nvidia",
+      "to": "co:nvidia",
+      "kind": "revenue_concentration",
+      "date": "2026-08-26",
+      "description": "Self-link (customer unnamed): NVIDIA estimates that one unnamed 'AI research and deployment company' contributed a meaningful amount of revenue by buying cloud services from NVIDIA's customers. NVIDIA does not name the company; no percentage is given. Not attributed to any named firm here.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2fy2027",
+          "quote": "We estimate that one AI research and deployment company contributed a meaningful amount of our revenue by purchasing cloud services from our customers in the second quarter and first half of fiscal year 2027.",
+          "locator": "Part I, Item 2, MD&A, Concentration of Revenue",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:nvidia-hugging-face-acquisition",
+      "from": "co:nvidia",
+      "to": "co:hugging-face",
+      "kind": "acquisition",
+      "date": "2026-09-02",
+      "description": "Definitive agreement (not yet closed; expected H1 2027, subject to regulatory approvals) for NVIDIA to acquire Hugging Face for ~$11.9B plus up to ~$1.0B equity-based retention.",
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2026-09-02",
+          "quote": "The transaction includes an approximately $11.9 billion purchase price payable to Hugging Face stockholders, subject to certain adjustments, and an equity-based retention program of up to approximately $1.0 billion for Hugging Face employees joining NVIDIA.",
+          "locator": "Item 8.01",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-8k-2026-09-02",
+          "quote": "The transaction is expected to close in the first half of 2027, subject to the satisfaction or waiver of customary closing conditions, including receipt of required regulatory approvals.",
+          "locator": "Item 8.01",
+          "supports": "status"
+        }
+      ],
+      "amount": {
+        "value": 11900000000.0,
+        "currency": "USD",
+        "period": "one-time, pending close",
+        "note": "Plus up to ~$1.0B retention program"
+      }
+    },
+    {
+      "id": "fin:nvidia-groq-license",
+      "from": "co:nvidia",
+      "to": "co:groq",
+      "kind": "acquisition",
+      "date": "2025-12",
+      "description": "Non-exclusive technology license plus hiring of certain Groq employees, accounted for with goodwill; NVIDIA states no customer contracts, products or equity interests were purchased. Consideration: $13.0B paid at closing plus $4B payable within one year.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "No customer contracts, existing products, or equity interests were purchased.",
+          "locator": "Note 2 - Groq",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "Total consideration consists of $13.0 billion paid at closing and $4 billion, inclusive of imputed interest, payable within one year included in Accrued and Other Current Liabilities on our Consolidated Balance Sheets.",
+          "locator": "Note 2 - Groq",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 17000000000.0,
+        "currency": "USD",
+        "period": "$13.0B at closing (Dec 2025) + $4B within one year",
+        "note": "License + acqui-hire, not an equity acquisition"
+      }
+    },
+    {
+      "id": "fin:nvidia-coreweave-capacity-2025",
+      "from": "co:nvidia",
+      "to": "co:coreweave",
+      "kind": "cloud_contract",
+      "date": "2025-09-09",
+      "description": "Contractual order form (initial value $6.3B) under the April 2023 CoreWeave–NVIDIA MSA: NVIDIA is obligated to buy CoreWeave's residual unsold cloud capacity through April 13, 2032, subject to termination and service-delivery conditions.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2025-09-09",
+          "quote": "which has an initial value of $6.3 billion, that establishes an arrangement with respect to the sale by the Company of reserved cloud computing capacity to its customers and provides NVIDIA access to any residual unsold cloud computing capacity.",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        },
+        {
+          "source": "src:coreweave-8k-2025-09-09",
+          "quote": "NVIDIA is obligated to purchase the residual unsold capacity through April 13, 2032",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 6300000000.0,
+        "currency": "USD",
+        "period": "through 2032-04-13",
+        "note": "Initial value of order form"
+      }
+    },
+    {
+      "id": "fin:nvidia-coreweave-equity-2026",
+      "from": "co:nvidia",
+      "to": "co:coreweave",
+      "kind": "equity_investment",
+      "date": "2026-01-23",
+      "description": "NVIDIA bought 22,935,780 CoreWeave Class A shares at $87.20 in a private placement ($2B cash), alongside a collaboration framework for CoreWeave's planned >5 GW AI-factory buildout by 2030.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-01-23",
+          "quote": "at a price of $87.20 per share for an aggregate purchase price of $2 billion in cash. The Shares were issued and sold to NVIDIA in a private placement",
+          "locator": "Item 3.02",
+          "supports": "amount"
+        },
+        {
+          "source": "src:coreweave-10k-2025",
+          "quote": "In January 2026, NVIDIA Corporation invested $2 billion in the Company's Class A common stock at a purchase price of $87.20 per share.",
+          "locator": "Notes to Consolidated Financial Statements, Subsequent Events",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 2000000000.0,
+        "currency": "USD",
+        "period": "one-time"
+      }
+    },
+    {
+      "id": "fin:openai-coreweave-msa-2025-03",
+      "from": "co:openai",
+      "to": "co:coreweave",
+      "kind": "cloud_contract",
+      "date": "2025-03",
+      "description": "Contractual take-or-pay style commitment: under a March 2025 master services agreement OpenAI committed to pay CoreWeave up to ~$11.9B through October 2030 ('up to').",
+      "evidence": [
+        {
+          "source": "src:coreweave-10k-2025",
+          "quote": "in March 2025, we entered into a master services agreement with OpenAI, a private company, pursuant to which OpenAI has committed to pay us up to approximately $11.9 billion through October 2030.",
+          "locator": "Item 1A, Risk Factors",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 11900000000.0,
+        "currency": "USD",
+        "period": "through October 2030",
+        "note": "'up to' amount"
+      }
+    },
+    {
+      "id": "fin:openai-coreweave-order-2025-09",
+      "from": "co:openai",
+      "to": "co:coreweave",
+      "kind": "cloud_contract",
+      "date": "2025-09-23",
+      "description": "Contractual order form under the May 8, 2025 CoreWeave–OpenAI MSA: OpenAI committed to pay up to ~$6.5B through May 31, 2031, subject to delivery/availability requirements.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2025-09-23",
+          "quote": "OpenAI has committed to pay the Company up to approximately $6.5 billion through May 31, 2031 under the Order Form.",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 6500000000.0,
+        "currency": "USD",
+        "period": "through 2031-05-31",
+        "note": "'up to' amount"
+      }
+    },
+    {
+      "id": "fin:meta-coreweave-order-2025-09",
+      "from": "co:meta",
+      "to": "co:coreweave",
+      "kind": "cloud_contract",
+      "date": "2025-09-25",
+      "description": "Contractual order form under the December 2023 MSA: Meta initially committed up to ~$14.2B through December 14, 2031, with an option to expand.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2025-09-25",
+          "quote": "Meta has initially committed to pay the Company up to approximately $14.2 billion through December 14, 2031 under the Order Form, with the option to materially expand its commitment through 2032 for additional cloud computing capacity under the Order Form.",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 14200000000.0,
+        "currency": "USD",
+        "period": "through 2031-12-14",
+        "note": "'up to' initial commitment"
+      }
+    },
+    {
+      "id": "fin:meta-coreweave-order-2026-03",
+      "from": "co:meta",
+      "to": "co:coreweave",
+      "kind": "cloud_contract",
+      "date": "2026-03-31",
+      "description": "Contractual order form: Meta initially committed ~$21B, including new capacity through December 20, 2032 and exercise of an existing option under a prior order form through April 10, 2032.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-03-31",
+          "quote": "Meta has initially committed to pay the Company approximately $21 billion, inclusive of (i) access to new computing capacity under the Order Form through December 20, 2032 and (ii) the exercise of an existing option to access additional computing capacity under a previous order form through April 10, 2032.",
+          "locator": "Item 8.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 21000000000.0,
+        "currency": "USD",
+        "period": "through 2032-12-20"
+      }
+    },
+    {
+      "id": "fin:microsoft-coreweave-revenue-concentration-2025",
+      "from": "co:microsoft",
+      "to": "co:coreweave",
+      "kind": "revenue_concentration",
+      "date": "2026-03-02",
+      "description": "Microsoft was CoreWeave's top customer, ~67% of CoreWeave's 2025 revenue (named in the 10-K). [Share of CoreWeave revenue; period FY2025.]",
+      "evidence": [
+        {
+          "source": "src:coreweave-10k-2025",
+          "quote": "We recognized an aggregate of approximately 67% of our revenue from our top customer, Microsoft, for the year ended December 31, 2025.",
+          "locator": "Item 1A, Risk Factors",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:coreweave-top-customers-q2-2026",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "revenue_concentration",
+      "date": "2026-08-12",
+      "description": "Self-link (customers unnamed in this sentence): CoreWeave's top three customers were ~36%, 26% and 10% of Q2 2026 revenue. The filing names Microsoft, OpenAI and Meta as significant customers but does not map them to these percentages. [Top three unnamed: 36%, 26%, 10%; period Q2 2026.]",
+      "evidence": [
+        {
+          "source": "src:coreweave-10q-q2-2026",
+          "quote": "We recognized an aggregate of approximately 36%, 26%, and 10% of our revenue from our top three customers for the three months ended June 30, 2026, with no other customer representing 10% or more of our revenue for that period.",
+          "locator": "Part II, Item 1A, Risk Factors",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:coreweave-rpo-q2-2026",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "cloud_contract",
+      "date": "2026-08-12",
+      "description": "Self-link: CoreWeave's contracted backlog (remaining performance obligations) across all customers as of June 30, 2026.",
+      "evidence": [
+        {
+          "source": "src:coreweave-10q-q2-2026",
+          "quote": "As of June 30, 2026, the Company had $103.7 billion of unsatisfied RPO",
+          "locator": "Note 2, Revenue, Remaining Performance Obligations",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 103700000000.0,
+        "currency": "USD",
+        "period": "as of 2026-06-30, recognized over ~78 months"
+      }
+    },
+    {
+      "id": "fin:jane-street-coreweave-2026",
+      "from": "co:jane-street",
+      "to": "co:coreweave",
+      "kind": "cloud_contract",
+      "date": "2026-04",
+      "description": "Jane Street (a private trading firm) committed ~$6.0B to use CoreWeave's AI cloud platform (as characterized by CoreWeave).",
+      "evidence": [
+        {
+          "source": "src:coreweave-10q-q2-2026",
+          "quote": "we announced that Jane Street, a private company, had committed approximately $6.0 billion to use our AI cloud platform",
+          "locator": "Part II, Item 1A, Risk Factors",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 6000000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:coreweave-ddtl-2-0",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2024-05",
+      "description": "Self-link (lender syndicate): DDTL 2.0 delayed-draw term loan facility of up to $7.6B, later amended (DDTL 2.1) to add a $3.0B tranche drawable through March 2026. GPU-backed facilities held by CoreWeave Compute Acquisition Co. IV.",
+      "evidence": [
+        {
+          "source": "src:coreweave-10k-2025",
+          "quote": "In May 2024, the Company entered into a Delayed Draw Term Loan 2.0 Facility (as amended, the \"DDTL 2.0 Facility\"), which provides for a delayed draw term loan facility of up to $7.6 billion.",
+          "locator": "Note 11, Debt",
+          "supports": "amount"
+        },
+        {
+          "source": "src:coreweave-10k-2025",
+          "quote": "to create a new tranche of delayed draw term loan facility up to $3.0 billion that may be drawn through March 2026.",
+          "locator": "Note 11, Debt",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 10600000000.0,
+        "currency": "USD",
+        "period": "$7.6B (May 2024) + $3.0B DDTL 2.1 tranche (Sep 2025)"
+      }
+    },
+    {
+      "id": "fin:coreweave-ddtl-3-0",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2025-07-28",
+      "description": "Self-link (lender syndicate led by MUFG as administrative agent): DDTL 3.0 delayed-draw term loan facility up to $2.6B drawable through July 2026; covenants amended Dec 31, 2025.",
+      "evidence": [
+        {
+          "source": "src:coreweave-10k-2025",
+          "quote": "In July 2025, the Company entered into a Delayed Draw Term Loan 3.0 Facility (as amended, the \"DDTL 3.0 Facility\"), which provides for a delayed draw term loan facility of up to $2.6 billion that may be drawn through July 2026.",
+          "locator": "Note 11, Debt",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 2600000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:coreweave-ddtl-4-0",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2026-03-30",
+      "description": "Self-link (MUFG administrative agent; MUFG and Morgan Stanley lead arrangers): $8.5B DDTL 4.0 facility at CoreWeave Compute Acquisition Co. VIII to finance GPU servers for a customer contract; matures March 31, 2032.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-03-30",
+          "quote": "providing for an $8.5 billion delayed draw term loan facility (the “DDTL 4.0 Facility”). The DDTL 4.0 Facility was entered into primarily to finance capital expenditures required to perform a customer contract, including the acquisition of GPU servers and related infrastructure.",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 8500000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:coreweave-ddtl-5-0",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2026-05-15",
+      "description": "Self-link (Morgan Stanley Senior Funding administrative agent): $3.1B DDTL 5.0 facility to finance GPU servers for certain customer contracts; SOFR + 4.50%; matures Nov 15, 2031.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-05-15",
+          "quote": "providing for a $3.1 billion delayed draw term loan facility (the “DDTL 5.0 Facility”).",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 3100000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:coreweave-ddtl-5-5",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2026-08-07",
+      "description": "Self-link (JPMorgan Chase Bank administrative agent): $2.6B DDTL 5.5 facility to finance GPU servers for certain customer contracts; Term SOFR + 5.50%; matures Sept 1, 2031.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-08-07",
+          "quote": "providing for a $2.6 billion delayed draw term loan facility (the “DDTL 5.5 Facility”).",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 2600000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:coreweave-convertible-notes-2031",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2025-12-11",
+      "description": "Self-link (Rule 144A investors): $2.5875B of 1.75% Convertible Senior Notes due 2031.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2025-12-08",
+          "quote": "completed its previously announced private offering of $2,587,500,000 aggregate principal amount of its 1.75% Convertible Senior Notes due 2031",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 2587500000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:coreweave-senior-notes-2031",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2026-04-21",
+      "description": "Self-link (Rule 144A investors): 9.750% Senior Notes due 2031 — $1.75B issued April 14, 2026 plus $1.0B additional notes April 21, 2026.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-04-16",
+          "quote": "completed its previously announced private offering of $1,000,000,000 aggregate principal amount of its 9.750% Senior Notes due 2031",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        },
+        {
+          "source": "src:coreweave-8k-2026-04-16",
+          "quote": "on April 14, 2026, CoreWeave issued $1,750,000,000 aggregate principal amount of 9.750% Senior Notes due 2031",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 2750000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:coreweave-senior-notes-2032",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2026-06-18",
+      "description": "Self-link (Rule 144A investors): $1.25B of 9.625% USD Senior Notes and EUR 2.0B of 8.500% EUR Senior Notes, both due July 15, 2032. Amount field records the USD tranche only.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-06-18",
+          "quote": "completed its previously announced private offering of $1,250 million in aggregate principal amount of its dollar-denominated 9.625% Senior Notes due 2032 (the “USD Notes”) and €2,000 million in aggregate principal amount of its euro-denominated 8.500% Senior Notes due 2032",
+          "locator": "Item 1.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 1250000000.0,
+        "currency": "USD",
+        "note": "Plus EUR 2,000 million euro tranche"
+      }
+    },
+    {
+      "id": "fin:coreweave-convertible-notes-2033",
+      "from": "co:coreweave",
+      "to": "co:coreweave",
+      "kind": "debt_financing",
+      "date": "2026-09-17",
+      "description": "Self-link: CoreWeave announced a $3.0B convertible senior notes due 2033 private offering (plus $500M option); an 8-K filed Sept 22, 2026 reports pricing of an upsized offering (final size not captured here). Amount is the announced base size.",
+      "evidence": [
+        {
+          "source": "src:coreweave-8k-2026-09-17",
+          "quote": "announced that it intends to offer, subject to market and other customary conditions, $3.0 billion in aggregate principal amount of its convertible senior notes due 2033",
+          "locator": "Item 7.01",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 3000000000.0,
+        "currency": "USD",
+        "note": "Announced base size; final upsized amount not verified"
+      }
+    },
+    {
+      "id": "fin:openai-amd-mi450-purchase",
+      "from": "co:openai",
+      "to": "co:amd",
+      "kind": "purchase_commitment",
+      "date": "2025-10-05",
+      "description": "Binding commitment for only the initial 1 GW of AMD Instinct MI450 GPUs; the 'up to 6 GW' deployment is not binding. In connection, AMD issued OpenAI a warrant for up to 160M AMD shares at $0.01, vesting with GPU purchase milestones (full vesting at 6 GW) and AMD stock-price targets up to $600. Dollar value of the purchase commitment is not disclosed.",
+      "evidence": [
+        {
+          "source": "src:amd-8k-2025-10-05",
+          "quote": "Concurrent with signing, Warrantholder agreed to a binding commitment to purchase (directly or through its affiliates or Authorized Purchasers) the initial one (1) gigawatt of AMD Instinct MI450 Series GPU products.",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:amd-8k-2025-10-05",
+          "quote": "a warrant (the “Warrant”) to purchase up to an aggregate of 160 million shares of common stock of the Company (the “Warrant Shares”) at an exercise price of $0.01 per share.",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:amd-10q-q2-2026",
+          "quote": "under which each customer intends to deploy up to 6 gigawatts of AMD data center GPUs, with the first gigawatt of each deployment powered by our AMD Instinct MI450 series products.",
+          "locator": "Part I, Item 2, MD&A",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fin:meta-amd-instinct-purchase",
+      "from": "co:meta",
+      "to": "co:amd",
+      "kind": "purchase_commitment",
+      "date": "2026-02-23",
+      "description": "Binding commitment for the initial 1 GW-equivalent of AMD Instinct GPUs under an amended 2023 Master Purchase Agreement; 'up to 6 GW' is intent, not binding. AMD issued Meta a performance warrant for up to 160M shares at $0.01. Dollar value not disclosed.",
+      "evidence": [
+        {
+          "source": "src:amd-8k-2026-02-23",
+          "quote": "Meta agreed to a binding commitment under the Agreement to purchase (directly or through its affiliates, or indirectly through authorized third parties (“Authorized Purchasers”)) the initial one (1) gigawatt equivalent of certain AMD Instinct GPU products.",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:amd-8k-2026-02-23",
+          "quote": "AMD issued to Meta a performance-based warrant (the “Warrant”) to purchase up to an aggregate of 160 million shares of common stock of AMD",
+          "locator": "Item 1.01",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:broadcom-top-customer-fy2025",
+      "from": "co:broadcom",
+      "to": "co:broadcom",
+      "kind": "revenue_concentration",
+      "date": "2025-12-18",
+      "description": "Self-link (customer unnamed): one customer accounted for 32% of Broadcom's fiscal 2025 net revenue (28% FY2024, 21% FY2023). The filing does not name the customer. [Share of revenue: 32%; period FY2025 (ended 2025-11-02).]",
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "During fiscal years 2025, 2024 and 2023, one customer accounted for 32%, 28% and 21% of our net revenue, respectively.",
+          "locator": "Note 2 / Concentrations of Credit Risk",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:alphabet-broadcom-tpu-lta",
+      "from": "co:alphabet",
+      "to": "co:broadcom",
+      "kind": "purchase_commitment",
+      "date": "2026-04-06",
+      "description": "Long Term Agreement for Broadcom to develop and supply custom TPUs for future Google TPU generations, plus a Supply Assurance Agreement for networking and other components for Google's next-generation AI racks through up to 2031. No dollar value disclosed.",
+      "evidence": [
+        {
+          "source": "src:broadcom-8k-2026-04-06",
+          "quote": "have entered into a Long Term Agreement for Broadcom to develop and supply custom Tensor Processing Units (“TPUs”) for Google’s future generations of TPUs and a Supply Assurance Agreement for Broadcom to supply networking and other components to be used in Google’s next-generation AI racks through up to 2031.",
+          "locator": "Item 8.01",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:anthropic-broadcom-tpu-capacity",
+      "from": "co:anthropic",
+      "to": "co:broadcom",
+      "kind": "cloud_contract",
+      "date": "2026-04-06",
+      "description": "Anthropic will access ~3.5 GW of next-generation TPU-based compute through Broadcom beginning 2027, part of multiple GW committed by Anthropic; Broadcom states consumption depends on Anthropic's commercial success and financing partners are under discussion. No dollar value disclosed.",
+      "evidence": [
+        {
+          "source": "src:broadcom-8k-2026-04-06",
+          "quote": "Anthropic, beginning in 2027, will access through Broadcom approximately 3.5 gigawatts as part of the multiple gigawatts of next generation TPU-based AI compute capacity committed by Anthropic.",
+          "locator": "Item 8.01",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:broadcom-8k-2026-04-06",
+          "quote": "The consumption of such expanded AI compute capacity by Anthropic is dependent on Anthropic’s continued commercial success.",
+          "locator": "Item 8.01",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fin:microsoft-openai-equity",
+      "from": "co:microsoft",
+      "to": "co:openai",
+      "kind": "equity_investment",
+      "date": "2025-10",
+      "description": "Microsoft holds an equity-method investment in OpenAI of ~25% on an as-converted basis after the October 2025 OpenAI recapitalization; total funding commitments $13.0B, of which $11.9B funded as of June 30, 2026.",
+      "evidence": [
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "We have an investment accounted for under the equity method that represents an approximate 25% interest on an as-converted basis.",
+          "locator": "Note 4 (Investments) / related party disclosure",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "We have made total funding commitments of $13.0 billion related to our investment, of which $11.9 billion has been funded as of June 30, 2026.",
+          "locator": "Note 4 (Investments) / related party disclosure",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 13000000000.0,
+        "currency": "USD",
+        "period": "cumulative commitments",
+        "note": "$11.9B funded as of 2026-06-30"
+      }
+    },
+    {
+      "id": "fin:openai-microsoft-revenue-fy2026",
+      "from": "co:openai",
+      "to": "co:microsoft",
+      "kind": "cloud_contract",
+      "date": "2026-07-29",
+      "description": "Microsoft recorded $24.1B of FY2026 revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments (so not solely Azure consumption).",
+      "evidence": [
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "For fiscal year 2026, we recorded revenue from commercial arrangements with OpenAI, inclusive of revenue-sharing payments, of $24.1 billion, and accounts receivable from OpenAI as of June 30, 2026 was $6.0 billion.",
+          "locator": "Related party disclosure (OpenAI)",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 24100000000.0,
+        "currency": "USD",
+        "period": "FY2026 (July 2025-June 2026)",
+        "note": "Includes revenue-sharing payments"
+      }
+    },
+    {
+      "id": "fin:microsoft-capex-fy2026",
+      "from": "co:microsoft",
+      "to": "co:microsoft",
+      "kind": "capex",
+      "date": "2026-07-29",
+      "description": "Self-link: Microsoft FY2026 additions to property and equipment were $115,948M (cash flow statement), up $51.4B year over year, driven by datacenters and AI infrastructure. Amount taken from the cash-flow statement table; quote is the MD&A narrative.",
+      "evidence": [
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "Cash used in investing increased $66.9 billion to $139.5 billion for fiscal year 2026, primarily due to a $51.4 billion increase in additions to property and equipment",
+          "locator": "Part II, Item 7, MD&A, Cash Flows",
+          "supports": "amount"
+        },
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
+          "locator": "Part II, Item 7, MD&A, Liquidity",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 115948000000.0,
+        "currency": "USD",
+        "period": "FY2026 (ended 2026-06-30)",
+        "note": "Cash flow statement: Additions to property and equipment (115,948) $M; excludes finance leases"
+      }
+    },
+    {
+      "id": "fin:microsoft-leases-not-commenced",
+      "from": "co:microsoft",
+      "to": "co:microsoft",
+      "kind": "lease_commitment",
+      "date": "2026-07-29",
+      "description": "Self-link (lessors unnamed): additional leases, primarily datacenters, not yet commenced as of June 30, 2026, commencing FY2027-FY2033 with 1-20 year terms; some subject to contractual conditions.",
+      "evidence": [
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "As of June 30, 2026, we had additional leases, primarily for datacenters, that had not yet commenced of $329.1 billion, with some arrangements subject to certain contractual conditions being met.",
+          "locator": "Note — Leases",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 329100000000.0,
+        "currency": "USD",
+        "period": "commencing FY2027-FY2033"
+      }
+    },
+    {
+      "id": "fin:amazon-capex-2025",
+      "from": "co:amazon",
+      "to": "co:amazon",
+      "kind": "capex",
+      "date": "2026-02-06",
+      "description": "Self-link: Amazon 2025 cash capital expenditures (net of proceeds and incentives), primarily technology infrastructure for AWS; Amazon expected an increase in 2026.",
+      "evidence": [
+        {
+          "source": "src:amazon-10k-2025",
+          "quote": "Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth) and in additional capacity to support our fulfillment network, both of which we expect to increase in 2026.",
+          "locator": "Part II, Item 7, Liquidity",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 128300000000.0,
+        "currency": "USD",
+        "period": "FY2025"
+      }
+    },
+    {
+      "id": "fin:amazon-anthropic-convertible-notes",
+      "from": "co:amazon",
+      "to": "co:anthropic",
+      "kind": "equity_investment",
+      "date": "2025-12-31",
+      "description": "Amazon invested $8.0B in Anthropic convertible notes from Q3 2023 through Q4 2025 (portions converted to nonvoting preferred stock).",
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "From Q3 2023 to Q4 2025, we invested $8.0 billion in convertible notes from Anthropic",
+          "locator": "Note — Investments, Anthropic",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 8000000000.0,
+        "currency": "USD",
+        "period": "Q3 2023 - Q4 2025"
+      }
+    },
+    {
+      "id": "fin:amazon-anthropic-2026-equity",
+      "from": "co:amazon",
+      "to": "co:anthropic",
+      "kind": "equity_investment",
+      "date": "2026-06-30",
+      "description": "In Q2 2026 Amazon invested $5.0B in Anthropic Series G nonvoting preferred stock and a further $5.0B in Series H nonvoting preferred stock (the latter under the new financing arrangement).",
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "In Q2 2026, we invested $5.0 billion in Anthropic Series G nonvoting preferred stock.",
+          "locator": "Note — Investments, Anthropic",
+          "supports": "amount"
+        },
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "we exercised our option to participate in subsequent Anthropic equity financings by investing $5.0 billion in Anthropic Series H nonvoting preferred stock",
+          "locator": "Note — Investments, Anthropic",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 10000000000.0,
+        "currency": "USD",
+        "period": "Q2 2026"
+      }
+    },
+    {
+      "id": "fin:amazon-anthropic-financing-facility",
+      "from": "co:amazon",
+      "to": "co:anthropic",
+      "kind": "debt_financing",
+      "date": "2026-06-30",
+      "description": "Financing arrangement: an Anthropic facility of up to $20.0B, made available in steps as AWS compute-capacity delivery milestones are reached; draws take the form of Anthropic convertible notes (or post-IPO common stock). $5.0B was used for the Series H investment, leaving $15.0B.",
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "we entered into a financing arrangement to make available to Anthropic an aggregate facility not to exceed $20.0 billion that will expire 30 months after an Anthropic liquidity event, including an initial public offering (“IPO”).",
+          "locator": "Note — Investments, Anthropic",
+          "supports": "amount"
+        },
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "which reduced the amount available under the facility to $15.0 billion.",
+          "locator": "Note — Investments, Anthropic",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 20000000000.0,
+        "currency": "USD",
+        "note": "Cap; availability tied to compute delivery milestones"
+      }
+    },
+    {
+      "id": "fin:anthropic-aws-commitment-expansion",
+      "from": "co:anthropic",
+      "to": "co:amazon",
+      "kind": "cloud_contract",
+      "date": "2026-06-30",
+      "description": "AWS and Anthropic expanded their existing multi-year commitment by more than $100B over 10 years, including obligations tied to AWS chip performance ('more than' figure as announced).",
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "In Q2 2026, AWS and Anthropic announced an expansion of the strategic collaboration and existing multi-year commitment by more than $100.0 billion over 10.0 years, which includes contractual obligations related to the performance of AWS chips.",
+          "locator": "Note — Commitments",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 100000000000.0,
+        "currency": "USD",
+        "period": "10 years",
+        "note": "'more than' $100B expansion"
+      }
+    },
+    {
+      "id": "fin:openai-aws-commitment",
+      "from": "co:openai",
+      "to": "co:amazon",
+      "kind": "cloud_contract",
+      "date": "2026-03-31",
+      "description": "AWS–OpenAI: an existing $38.0B multi-year commitment expanded by $100.0B over 8 years in Q1 2026, including obligations tied to AWS chips.",
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "In Q1 2026, AWS and OpenAI Group PBC (“OpenAI”) announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips.",
+          "locator": "Note — Commitments",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 138000000000.0,
+        "currency": "USD",
+        "period": "$38.0B original + $100.0B over 8 years"
+      }
+    },
+    {
+      "id": "fin:amazon-openai-equity",
+      "from": "co:amazon",
+      "to": "co:openai",
+      "kind": "equity_investment",
+      "date": "2026-03-31",
+      "description": "Amazon invested $15.0B in OpenAI Series C Preferred Stock in Q1 2026 and committed $35.0B more under an equity commitment letter; $13.7B funded in Q2 2026 and the remaining $21.3B after June 30, 2026 — $50.0B in total.",
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "We also invested $15.0 billion in Series C Preferred Stock of OpenAI and entered into an equity commitment letter agreement (the “Letter Agreement”), pursuant to which we agreed to purchase additional shares of Series C Preferred Stock (the “Commitment Shares”) with an aggregate purchase price of $35.0 billion (the “Commitment Amount”).",
+          "locator": "Note — Investments, OpenAI",
+          "supports": "amount"
+        },
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "Subsequent to June 30, 2026, we invested the remaining $21.3 billion Commitment Amount in shares of Series C Preferred Stock of OpenAI.",
+          "locator": "Note — Investments, OpenAI",
+          "supports": "status"
+        }
+      ],
+      "amount": {
+        "value": 50000000000.0,
+        "currency": "USD",
+        "period": "2026"
+      }
+    },
+    {
+      "id": "fin:amazon-leases-not-commenced",
+      "from": "co:amazon",
+      "to": "co:amazon",
+      "kind": "lease_commitment",
+      "date": "2026-07-31",
+      "description": "Self-link (lessors unnamed): Amazon leases not yet commenced totaled $137,214M as of June 30, 2026 (table), versus $96,373M at Dec 31, 2025. Includes all lease types, not only data centers.",
+      "evidence": [
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "Leases not yet commenced 4,018 11,732 9,278 9,483 9,227 93,476 137,214",
+          "locator": "Note — Commitments and Contingencies, commitments table",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 137214000000.0,
+        "currency": "USD",
+        "period": "as of 2026-06-30",
+        "note": "Not limited to data centers"
+      }
+    },
+    {
+      "id": "fin:alphabet-capex-2025",
+      "from": "co:alphabet",
+      "to": "co:alphabet",
+      "kind": "capex",
+      "date": "2026-02-05",
+      "description": "Self-link: Alphabet 2025 purchases of property and equipment were $91,447M (vs $52,535M in 2024), driven by technical infrastructure, particularly for AI; Alphabet guided to a significant increase in 2026.",
+      "evidence": [
+        {
+          "source": "src:alphabet-10k-2025",
+          "quote": "Purchases of property and equipment (32,251) (52,535) (91,447)",
+          "locator": "Consolidated Statements of Cash Flows (2023, 2024, 2025, $M)",
+          "supports": "amount"
+        },
+        {
+          "source": "src:alphabet-10k-2025",
+          "quote": "We invested heavily in capital expenditures in 2025 and in 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
+          "locator": "Item 7, MD&A, Trends",
+          "supports": "status"
+        }
+      ],
+      "amount": {
+        "value": 91447000000.0,
+        "currency": "USD",
+        "period": "FY2025"
+      }
+    },
+    {
+      "id": "fin:alphabet-capex-h1-2026",
+      "from": "co:alphabet",
+      "to": "co:alphabet",
+      "kind": "capex",
+      "date": "2026-07-23",
+      "description": "Self-link: Alphabet purchases of property and equipment for the six months ended June 30, 2026 were $80,598M (vs $39,643M in H1 2025).",
+      "evidence": [
+        {
+          "source": "src:alphabet-10q-q2-2026",
+          "quote": "Purchases of property and equipment (39,643) (80,598)",
+          "locator": "Condensed Consolidated Statements of Cash Flows (six months, $M)",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 80598000000.0,
+        "currency": "USD",
+        "period": "H1 2026"
+      }
+    },
+    {
+      "id": "fin:alphabet-leases-not-commenced",
+      "from": "co:alphabet",
+      "to": "co:alphabet",
+      "kind": "lease_commitment",
+      "date": "2026-07-23",
+      "description": "Self-link (lessors unnamed): Alphabet leases, primarily data centers, not yet commenced as of June 30, 2026, commencing 2026-2031 with 1-26 year terms (up from $58.5B at Dec 31, 2025).",
+      "evidence": [
+        {
+          "source": "src:alphabet-10q-q2-2026",
+          "quote": "As of June 30, 2026, we have entered into leases, primarily related to data centers, that have not yet commenced with future lease payments of $85.2 billion that are not yet recorded.",
+          "locator": "Note 4, Leases",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 85200000000.0,
+        "currency": "USD",
+        "period": "commencing 2026-2031"
+      }
+    },
+    {
+      "id": "fin:meta-capex-2025",
+      "from": "co:meta",
+      "to": "co:meta",
+      "kind": "capex",
+      "date": "2026-01-29",
+      "description": "Self-link: Meta 2025 capital expenditures including principal payments on finance leases ($69.69B of which were purchases of property and equipment).",
+      "evidence": [
+        {
+          "source": "src:meta-10k-2025",
+          "quote": "Capital expenditures, including principal payments on finance leases, were $72.22 billion for the year ended December 31, 2025.",
+          "locator": "Item 7, MD&A, Executive Overview",
+          "supports": "amount"
+        },
+        {
+          "source": "src:meta-10k-2025",
+          "quote": "Cash used in investing activities during 2025 mostly consisted of $69.69 billion of purchases of property and equipment as we continued to invest in servers, data centers, and network infrastructure",
+          "locator": "Item 7, Liquidity",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 72220000000.0,
+        "currency": "USD",
+        "period": "FY2025"
+      }
+    },
+    {
+      "id": "fin:meta-capex-q2-2026",
+      "from": "co:meta",
+      "to": "co:meta",
+      "kind": "capex",
+      "date": "2026-07-30",
+      "description": "Self-link: Meta Q2 2026 capital expenditures including finance-lease principal ($50.92B for H1 2026).",
+      "evidence": [
+        {
+          "source": "src:meta-10q-q2-2026",
+          "quote": "Capital expenditures, including principal payments on finance leases, were $31.08 billion for the three months ended June 30, 2026.",
+          "locator": "Item 2, MD&A, Executive Overview",
+          "supports": "amount"
+        },
+        {
+          "source": "src:meta-10q-q2-2026",
+          "quote": "These increases were partially offset by $50.92 billion of capital expenditures, which includes purchases of property and equipment and principal payments on finance leases",
+          "locator": "Item 2, Liquidity",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 31080000000.0,
+        "currency": "USD",
+        "period": "Q2 2026"
+      }
+    },
+    {
+      "id": "fin:meta-leases-not-commenced",
+      "from": "co:meta",
+      "to": "co:meta",
+      "kind": "lease_commitment",
+      "date": "2026-07-30",
+      "description": "Self-link (lessors unnamed): Meta operating/finance leases not yet commenced (data centers, colocations, network) of ~$278.99B as of June 30, 2026, commencing 2026-2036; plus ~$68B of additional data center leases signed in July 2026.",
+      "evidence": [
+        {
+          "source": "src:meta-10q-q2-2026",
+          "quote": "These lease obligations were approximately $278.99 billion, consisting of data centers, colocations, and certain network infrastructure, which will commence during the remainder of 2026 through 2036 with lease terms ranging from greater than one year to 30 years.",
+          "locator": "Item 2, Liquidity / Note — Leases",
+          "supports": "amount"
+        },
+        {
+          "source": "src:meta-10q-q2-2026",
+          "quote": "In July 2026, we entered into additional data center leases with lease obligations of approximately $68 billion, which are expected to commence in 2027 and 2028, with lease terms of 18 to 20 years.",
+          "locator": "Item 2, Liquidity",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 278990000000.0,
+        "currency": "USD",
+        "period": "as of 2026-06-30",
+        "note": "Plus ~$68B signed July 2026"
+      }
+    },
+    {
+      "id": "fin:blue-owl-meta-hyperion-jv",
+      "from": "co:blue-owl",
+      "to": "co:meta",
+      "kind": "joint_venture",
+      "date": "2025-10-21",
+      "description": "Hyperion (Richland Parish, Louisiana) joint venture: funds managed by Blue Owl own 80%, Meta 20%; parties committed pro rata to ~$27B of development costs. Blue Owl funds contributed ~$7B cash; Meta received a ~$3B one-time distribution (Meta's 10-K: $4.30B assets contributed, $2.55B distribution). Part of Blue Owl's capital is funded by debt sold to PIMCO and other bond investors (the bond issuer is not named in these sources). Meta accounts for its 20% under the equity method.",
+      "evidence": [
+        {
+          "source": "src:meta-pr-hyperion-blue-owl",
+          "quote": "Funds managed by Blue Owl Capital will own an 80% interest in the joint venture, while Meta will retain the remaining 20% ownership. The parties have committed to fund their respective pro rata share of the approximately $27 billion in total development costs",
+          "locator": "Paragraph 3",
+          "supports": "amount"
+        },
+        {
+          "source": "src:meta-pr-hyperion-blue-owl",
+          "quote": "The funds managed by Blue Owl Capital made a cash contribution of approximately $7 billion to the joint venture, and Meta received a one-time distribution from the joint venture in the amount of approximately $3 billion.",
+          "locator": "Paragraph 4",
+          "supports": "amount"
+        },
+        {
+          "source": "src:meta-pr-hyperion-blue-owl",
+          "quote": "A portion of capital raised by Blue Owl will be funded by debt issued to PIMCO and select other bond investors through a private securities offering.",
+          "locator": "Paragraph 7",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:meta-10k-2025",
+          "quote": "We hold a 20% membership interest in the Venture, which is accounted for under the equity method included within non-marketable equity investments on the consolidated balance sheets.",
+          "locator": "Note 6, Non-Marketable Equity Investments Under Equity Method",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 27000000000.0,
+        "currency": "USD",
+        "period": "total estimated development cost, pro rata funding",
+        "note": "Blue Owl funds ~$7B initial cash contribution"
+      }
+    },
+    {
+      "id": "fin:meta-hyperion-venture-leases",
+      "from": "co:meta",
+      "to": "co:blue-owl",
+      "kind": "lease_commitment",
+      "date": "2025-10",
+      "description": "Meta leases the Hyperion campus properties back from the Venture (80% owned by Blue Owl-managed funds) starting 2029: ~$12.31B aggregate initial commitment (4-year initial terms, renewable to 20 years), plus residual value guarantees with a ~$28B aggregate threshold (not probable, no liability recorded). The payee is the Venture, not Blue Owl directly.",
+      "evidence": [
+        {
+          "source": "src:meta-10k-2025",
+          "quote": "We also entered into lease agreements with the Venture for the use of properties on the data center campus, which will commence in 2029. The aggregate initial lease commitment is approximately $12.31 billion",
+          "locator": "Note 6, Non-Marketable Equity Investments Under Equity Method",
+          "supports": "amount"
+        },
+        {
+          "source": "src:meta-10k-2025",
+          "quote": "In addition, we have provided residual value guarantees (RVG) with an aggregate threshold of approximately $28 billion that decreases over time.",
+          "locator": "Note 6",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 12310000000.0,
+        "currency": "USD",
+        "period": "initial 4-year terms from 2029",
+        "note": "Plus RVG threshold ~$28B (contingent)"
+      }
+    },
+    {
+      "id": "fin:meta-el-paso-venture",
+      "from": "co:meta",
+      "to": "co:meta",
+      "kind": "joint_venture",
+      "date": "2026-07",
+      "description": "Self-link (partner unnamed): July 2026 exclusivity agreement to co-develop an El Paso, Texas data center campus via a venture in which Meta would hold 20%; not yet definitive. Meta expects to contribute ~$2.3B of assets, receive ~$1B distribution, and provide RVGs up to ~$13B.",
+      "evidence": [
+        {
+          "source": "src:meta-10q-q2-2026",
+          "quote": "In July 2026, we entered into an exclusivity agreement to co-develop a data center campus in El Paso, Texas, through a venture in which we would hold a 20% membership interest. The transaction is subject to the execution of definitive agreements and customary closing conditions.",
+          "locator": "Note 13, Subsequent Event",
+          "supports": "status"
+        },
+        {
+          "source": "src:meta-10q-q2-2026",
+          "quote": "We will also provide residual value guarantees with a maximum aggregate exposure of approximately $13 billion.",
+          "locator": "Note 13, Subsequent Event",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 13000000000.0,
+        "currency": "USD",
+        "note": "Maximum RVG exposure; counterparty not named; not definitive"
+      }
+    },
+    {
+      "id": "fin:meta-scale-ai-investment",
+      "from": "co:meta",
+      "to": "co:scale-ai",
+      "kind": "equity_investment",
+      "date": "2025",
+      "description": "Meta's minority investment in Scale AI (AI training data), carried at $13.80B, closed during 2025.",
+      "evidence": [
+        {
+          "source": "src:meta-10k-2025",
+          "quote": "mostly consist of our minority investments in Scale AI for $13.80 billion, which was closed during 2025",
+          "locator": "Note 6, Non-Marketable Equity Investments Under Measurement Alternative",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 13800000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:oracle-capex-fy2026",
+      "from": "co:oracle",
+      "to": "co:oracle",
+      "kind": "capex",
+      "date": "2026-06-22",
+      "description": "Self-link: Oracle FY2026 capital expenditures, driven by data center expansion; Oracle expects the upward trend to continue.",
+      "evidence": [
+        {
+          "source": "src:oracle-10k-fy2026",
+          "quote": "Capital Expenditures: Cash used for capital expenditures increased from $21.2 billion in fiscal 2025 to $55.7 billion in fiscal 2026 primarily due to the expansion of our data centers.",
+          "locator": "Item 7, Liquidity",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 55700000000.0,
+        "currency": "USD",
+        "period": "FY2026 (ended 2026-05-31)"
+      }
+    },
+    {
+      "id": "fin:oracle-capex-q1fy2027",
+      "from": "co:oracle",
+      "to": "co:oracle",
+      "kind": "capex",
+      "date": "2026-09-11",
+      "description": "Self-link: Oracle Q1 FY2027 capital expenditures.",
+      "evidence": [
+        {
+          "source": "src:oracle-10q-q1fy2027",
+          "quote": "Capital Expenditures: Cash used for capital expenditures increased from $8.5 billion in the first quarter of fiscal 2026 to $28.5 billion in the first quarter of fiscal 2027 primarily due to the expansion of our data centers.",
+          "locator": "Item 2, Liquidity",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 28500000000.0,
+        "currency": "USD",
+        "period": "Q1 FY2027 (Jun-Aug 2026)"
+      }
+    },
+    {
+      "id": "fin:oracle-rpo",
+      "from": "co:oracle",
+      "to": "co:oracle",
+      "kind": "cloud_contract",
+      "date": "2026-09-11",
+      "description": "Self-link (customers unnamed): Oracle remaining performance obligations of $664B as of Aug 31, 2026 (vs $455B a year earlier), attributed to 'certain significant cloud contracts'. Oracle's filings do not name the counterparties; no single customer was >=10% of FY2026 revenue.",
+      "evidence": [
+        {
+          "source": "src:oracle-10q-q1fy2027",
+          "quote": "Remaining performance obligations were $664 billion and $455 billion as of August 31, 2026 and 2025, respectively. The increase in remaining performance obligations as of August 31, 2026 in comparison to August 31, 2025 was primarily attributable to certain significant cloud contracts that were entered into during the period.",
+          "locator": "Item 2, MD&A",
+          "supports": "amount"
+        },
+        {
+          "source": "src:oracle-10k-fy2026",
+          "quote": "No single customer accounted for 10% or more of our total revenues in fiscal 2026, 2025 or 2024.",
+          "locator": "Note 1, Concentrations of Credit Risk",
+          "supports": "status"
+        }
+      ],
+      "amount": {
+        "value": 664000000000.0,
+        "currency": "USD",
+        "period": "as of 2026-08-31"
+      }
+    },
+    {
+      "id": "fin:oracle-leases-not-commenced",
+      "from": "co:oracle",
+      "to": "co:oracle",
+      "kind": "lease_commitment",
+      "date": "2026-09-11",
+      "description": "Self-link (lessors unnamed): Oracle had $288B of additional lease commitments, substantially all data centers, commencing Q2 FY2027-FY2029 with 15-19 year terms, not on the balance sheet (was $260B at May 31, 2026, including a lease where Oracle guaranteed up to $3.3B of the lessor's borrowing).",
+      "evidence": [
+        {
+          "source": "src:oracle-10q-q1fy2027",
+          "quote": "As of August 31, 2026, we had $288 billion of additional lease commitments, substantially all related to data center arrangements, that are generally expected to commence between the second quarter of fiscal 2027 and fiscal 2029 and for terms of fifteen to nineteen years",
+          "locator": "Note — Leases",
+          "supports": "amount"
+        },
+        {
+          "source": "src:oracle-10k-fy2026",
+          "quote": "These additional lease commitments include a lease for which we have guaranteed up to $3.3 billion of the lessor’s borrowing, which matures in September 2026.",
+          "locator": "Note — Leases",
+          "supports": "relationship"
+        }
+      ],
+      "amount": {
+        "value": 288000000000.0,
+        "currency": "USD",
+        "period": "15-19 year terms"
+      }
+    },
+    {
+      "id": "fin:oracle-cloud-infra-purchase-commitments",
+      "from": "co:oracle",
+      "to": "co:oracle",
+      "kind": "purchase_commitment",
+      "date": "2026-06-22",
+      "description": "Self-link (suppliers unnamed): after May 31, 2026 Oracle entered into $19B of additional unconditional purchase commitments for cloud infrastructure assets (five-year term).",
+      "evidence": [
+        {
+          "source": "src:oracle-10k-fy2026",
+          "quote": "Subsequent to May 31, 2026, we entered into an additional $19 billion of unconditional purchase commitments for cloud infrastructure assets that commence in fiscal 2027 and have a term of five years.",
+          "locator": "Notes, Commitments",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 19000000000.0,
+        "currency": "USD",
+        "period": "five years from FY2027"
+      }
+    },
+    {
+      "id": "fin:oracle-notes-2025-09",
+      "from": "co:oracle",
+      "to": "co:oracle",
+      "kind": "debt_financing",
+      "date": "2025-09-26",
+      "description": "Self-link (public bondholders): $18B of senior notes across six tranches (2030-2065); proceeds for general corporate purposes which may include capex.",
+      "evidence": [
+        {
+          "source": "src:oracle-8k-2025-09-26",
+          "quote": "Issuance of $18 Billion Aggregate Principal Amount of Notes",
+          "locator": "Item 8.01 heading",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 18000000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:oracle-notes-2026-02",
+      "from": "co:oracle",
+      "to": "co:oracle",
+      "kind": "debt_financing",
+      "date": "2026-02-04",
+      "description": "Self-link (public bondholders): $25B of senior notes across eight tranches (2029-2066), alongside an up-to-$20.0B at-the-market common equity program entered Feb 2, 2026 (fully utilized by Q1 FY2027: $19.9B net).",
+      "evidence": [
+        {
+          "source": "src:oracle-8k-2026-02-02",
+          "quote": "Issuance of $25 Billion Aggregate Principal Amount of Notes",
+          "locator": "Item 8.01 heading",
+          "supports": "amount"
+        },
+        {
+          "source": "src:oracle-10q-q1fy2027",
+          "quote": "During the first quarter ended August 31, 2026, we fully utilized the ATM Program and issued 141 million shares of common stock under the ATM Program for net proceeds of $19.9 billion.",
+          "locator": "Notes, Stockholders' Equity",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 25000000000.0,
+        "currency": "USD",
+        "note": "Plus $19.9B net ATM equity proceeds"
+      }
+    },
+    {
+      "id": "fin:nvidia-intel-equity",
+      "from": "co:nvidia",
+      "to": "co:intel",
+      "kind": "equity_investment",
+      "date": "2025-12-26",
+      "description": "NVIDIA bought 214,776,632 Intel shares at $23.28 for $5.0B cash (Securities Purchase Agreement dated Sept 15, 2025; closed Dec 26, 2025).",
+      "evidence": [
+        {
+          "source": "src:intel-8k-2025-12-26",
+          "quote": "to NVIDIA Corporation (“NVIDIA”), for an aggregate purchase price in cash of $5.0 billion, representing a price per share of $23.28 per share.",
+          "locator": "Item 3.02",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 5000000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:broadcom-top-five-customers-2026",
+      "from": "co:broadcom",
+      "to": "co:broadcom",
+      "kind": "revenue_concentration",
+      "date": "2026-09-10",
+      "description": "Self-link (customers unnamed): Broadcom believes its top five end customers were ~50% of net revenue for the first three quarters of FY2026 (up from ~40% in FY2025). [Share of revenue: 50%; period first three quarters FY2026.]",
+      "evidence": [
+        {
+          "source": "src:broadcom-10q-q3fy2026",
+          "quote": "We believe aggregate sales, through all channels, to our top five end customers accounted for approximately 50% of our net revenue for the three fiscal quarters ended August 2, 2026.",
+          "locator": "Part II, Item 1A, Risk Factors",
+          "supports": "amount"
+        }
+      ]
+    }
+  ],
+  "controls": [],
+  "gaps": []
+}

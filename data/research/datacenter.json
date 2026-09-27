@@ -1,0 +1,3134 @@
+{
+  "layer": "datacenter",
+  "analyst": "datacenter-analyst (Claude)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+      "title": "Blue Owl Real Estate Net Lease Trust Form 10-K (FY2025), Exhibit 99.3: Abilene DC 1, LLC Financial Statements",
+      "publisher": "Blue Owl Real Estate Net Lease Trust (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1944366/000194436626000020/exhibit993-2025abelinedc1l.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-03-13",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001944366-26-000020"
+    },
+    {
+      "id": "src:sb-energy-s1a-2026-09-21",
+      "title": "SB Energy, Inc. Form S-1/A (Amendment No. 2) Registration Statement",
+      "publisher": "SB Energy, Inc. (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm",
+      "doc_type": "sec_s1",
+      "tier": 1,
+      "document_date": "2026-09-21",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001628280-26-062846"
+    },
+    {
+      "id": "src:spacex-s1a-2026-06-03",
+      "title": "Space Exploration Technologies Corp. Form S-1/A Registration Statement (xAI COLOSSUS / COLOSSUS II disclosures)",
+      "publisher": "Space Exploration Technologies Corp. (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+      "doc_type": "sec_s1",
+      "tier": 1,
+      "document_date": "2026-06-03",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001628280-26-040364"
+    },
+    {
+      "id": "src:mlgw-xai-update-2025-05-05",
+      "title": "MLGW update to the public regarding utility support for xAI",
+      "publisher": "Memphis Light, Gas and Water Division",
+      "url": "https://www.mlgw.com/images/content/files/pdf/new/5-5-25%20xAI%20Update.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-05-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:dona-ana-county-project-jupiter",
+      "title": "Doña Ana County economic development projects page: Project Jupiter",
+      "publisher": "Doña Ana County, New Mexico",
+      "url": "https://www.donaana.gov/about_us/economic_development_projects.php",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:la-gov-meta-richland-2024-12-04",
+      "title": "Landry Announces Meta Selects North Louisiana as Site of $10 Billion Artificial Intelligence Optimized Data Center",
+      "publisher": "Office of Governor Jeff Landry (Louisiana)",
+      "url": "https://gov.louisiana.gov/news/4697",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-12-04",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:in-gov-aws-11b-2024-04-25",
+      "title": "Gov. Holcomb announces Amazon Web Services plans to invest $11B to create a new data center campus in Northern Indiana",
+      "publisher": "State of Indiana, Office of the Governor",
+      "url": "https://events.in.gov/event/gov-holcomb-announces-amazon-web-services-plans-to-invest-11b-to-create-a-new-data-center-campus-in-northern-indiana",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-04-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:mda-aws-10b-2024-01-25",
+      "title": "Amazon Web Services plans to invest $10 billion, creating 1,000 jobs to establish data center complexes in Mississippi",
+      "publisher": "Mississippi Development Authority",
+      "url": "https://mississippi.org/news/amazon-web-services-to-invest-record-shattering-10-billion/",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-01-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:pa-gov-amazon-20b-2025-06-09",
+      "title": "Governor Josh Shapiro Announces Amazon Plans to Invest $20 Billion in Pennsylvania for AI Infrastructure",
+      "publisher": "Commonwealth of Pennsylvania, Office of the Governor",
+      "url": "https://www.pa.gov/governor/newsroom/2025-press-releases/gov-announces-amazon-to-invest--20b-in-pa--largest-capital-inves",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-06-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:ok-commerce-google-2025-08-13",
+      "title": "Google is investing in infrastructure and an AI-ready workforce in Oklahoma",
+      "publisher": "Oklahoma Department of Commerce",
+      "url": "https://www.okcommerce.gov/google-is-investing-in-infrastructure-and-an-ai-ready-workforce-in-oklahoma/",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-08-13",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:softbank-five-stargate-sites-2025-09-24",
+      "title": "OpenAI, Oracle, and SoftBank expand Stargate with five new AI data center sites",
+      "publisher": "SoftBank Group Corp.",
+      "url": "https://group.softbank/en/news/press/20250924",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-24",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:crusoe-abilene-1-2gw-2025-03-18",
+      "title": "Crusoe expands AI data center campus in Abilene to 1.2 gigawatts",
+      "publisher": "Crusoe Energy Systems",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-expands-ai-data-center-campus-in-abilene-to-1-2-gigawatts",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-03-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:oracle-zettascale10-2025-10-14",
+      "title": "Oracle Unveils Next-Generation Oracle Cloud Infrastructure Zettascale10 Cluster for AI",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-unveils-next-generation-oci-zettascale10-cluster-for-ai-2025-10-14/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-14",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:oracle-saline-construction-2026-06-01",
+      "title": "Oracle, Related Digital, Blackstone, OpenAI, Walbridge and Governor Whitmer Celebrate Construction of Stargate Campus in Saline Township",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.oracle.com/news/announcement/related-digital-oracle-openai-walbridge-and-governor-whitmer-celebrate-construction-of-stargate-campus-in-saline-township-2026-06-01/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-01",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:related-saline-2025-10-30",
+      "title": "OpenAI, Oracle and Related Digital announce Stargate data center site in Michigan",
+      "publisher": "Related Companies / Related Digital",
+      "url": "https://www.related.com/press-releases/2025-10-30/openai-oracle-and-related-digital-announce-stargate-data-center-site",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:vantage-port-washington-2025-10-22",
+      "title": "OpenAI, Oracle and Vantage Data Centers Announce Stargate Data Center Site in Wisconsin",
+      "publisher": "Vantage Data Centers",
+      "url": "https://vantage-dc.com/news/openai-oracle-and-vantage-data-centers-announce-stargate-data-center-site-in-wisconsin/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-22",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:vantage-frontier-2025-08-19",
+      "title": "Vantage Data Centers Unveils Plans for “Frontier,” a $25B Mega-campus in Texas to Meet Unprecedented AI Demand",
+      "publisher": "Vantage Data Centers",
+      "url": "https://vantage-dc.com/news/vantage-data-centers-unveils-plans-for-frontier-a-25b-mega-campus-in-texas-to-meet-unprecedented-ai-demand/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-19",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sb-energy-openai-2026-01-09",
+      "title": "OpenAI and SoftBank Group Partner with SB Energy to Build and Operate Next-Generation AI Data Centers to Advance Stargate",
+      "publisher": "SB Energy",
+      "url": "https://sbenergy.com/openai-and-softbank-group-partner-with-sb-energy/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-xai-colossus-2024-10-28",
+      "title": "NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:supermicro-xai-colossus-story",
+      "title": "How Supermicro Built the xAI Colossus Supercomputer",
+      "publisher": "Super Micro Computer, Inc.",
+      "url": "https://learn-more.supermicro.com/data-center-stories/how-supermicro-built-the-xai-colossus-supercomputer",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:meta-richland-parish-page",
+      "title": "The largest Meta data center yet brings big impact to Louisiana (Richland Parish Data Center)",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://datacenters.atmeta.com/richland-parish-data-center/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:meta-q2-2025-call",
+      "title": "Meta Q2 2025 Earnings Call Transcript",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q2/META-Q2-2025-Earnings-Call-Transcript.pdf",
+      "doc_type": "earnings_call",
+      "tier": 2,
+      "document_date": "2025-07-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:meta-nuclear-2026-01-09",
+      "title": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:meta-el-paso-blackrock-2026-07-28",
+      "title": "Meta Announces New Strategic Venture With BlackRock to Develop Data Center in El Paso",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-meta-partnership-2026-02-17",
+      "title": "Meta Builds AI Infrastructure With NVIDIA",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-02-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-made-in-wisconsin-2025-09-18",
+      "title": "Made in Wisconsin: The world’s most powerful AI datacenter",
+      "publisher": "Microsoft Corporation (Microsoft On the Issues)",
+      "url": "https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-inside-fairwater-2025-09-18",
+      "title": "Inside the world’s most powerful AI datacenter",
+      "publisher": "Microsoft Corporation (Official Microsoft Blog)",
+      "url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-superfactory-arch-2025-11-12",
+      "title": "Infinite scale: The architecture behind the Azure AI superfactory",
+      "publisher": "Microsoft Corporation (Official Microsoft Blog)",
+      "url": "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-wisconsin-to-atlanta-2025-11-12",
+      "title": "From Wisconsin to Atlanta: Microsoft connects datacenters to build its first AI superfactory",
+      "publisher": "Microsoft Corporation (Source)",
+      "url": "https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-mount-pleasant-complete-2026-06-23",
+      "title": "Microsoft completes construction on first datacenter facility in Mount Pleasant, Wisconsin",
+      "publisher": "Microsoft Corporation (Source)",
+      "url": "https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-23",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amazon-indiana-11b-2024-04-25",
+      "title": "AWS plans to invest $11 billion in Indiana, the largest capital investment in the state's history",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.aboutamazon.com/news/aws/aws-indiana-investment-11-billion",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amazon-project-rainier-2025-10-29",
+      "title": "AWS activates Project Rainier: One of the world’s largest AI compute clusters comes online",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-29",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:google-texas-40b-2025-11-14",
+      "title": "Google announces new $40 billion investment in Texas",
+      "publisher": "Google LLC (Alphabet Inc.)",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-texas/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-14",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:core-scientific-denton-2025-02-26",
+      "title": "Core Scientific and CoreWeave Announce $1.2 Billion Expansion at Denton, TX Site",
+      "publisher": "Core Scientific, Inc.",
+      "url": "https://investors.corescientific.com/news-events/press-releases/detail/110/core-scientific-and-coreweave-announce-1-2-billion-expansion-at-denton-tx-site",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-02-26",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:coreweave-lancaster-2025-07-15",
+      "title": "Building Pennsylvania Into the Mid-Atlantic AI Hub",
+      "publisher": "CoreWeave, Inc.",
+      "url": "https://www.coreweave.com/blog/building-pennsylvania-into-the-mid-atlantic-ai-hub",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-07-15",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:applied-digital-pf1-rfs-2025-11-24",
+      "title": "Applied Digital Completes Phase II Ready for Service at Polaris Forge 1, Fully Energizing First 100 MW Building",
+      "publisher": "Applied Digital Corporation",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/137/applied-digital-completes-phase-ii-ready-for-service-at",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-24",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:applied-digital-150mw-2025-08-29",
+      "title": "Applied Digital Finalizes Additional 150MW Lease with CoreWeave in North Dakota",
+      "publisher": "Applied Digital Corporation",
+      "url": "https://ir.applieddigital.com/news-events/press-releases/detail/128/applied-digital-finalizes-additional-150mw-lease-with",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-29",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:galaxy-helios-phase1-2026-07-06",
+      "title": "Galaxy Completes Phase I of Its Helios Data Center Campus, Delivering 133 Megawatts of Critical IT Load to CoreWeave",
+      "publisher": "Galaxy Digital Inc. (via PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/galaxy-completes-phase-i-of-its-helios-data-center-campus-delivering-133-megawatts-of-critical-it-load-to-coreweave-302818664.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-06",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:galaxy-helios-financing-2025-08-15",
+      "title": "Galaxy Closes $1.4 Billion Project Financing Facility to Accelerate Helios AI Datacenter Development",
+      "publisher": "Galaxy Digital Inc. (via PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/galaxy-closes-1-4-billion-project-financing-facility-to-accelerate-helios-ai-datacenter-development-302530804.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-15",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:anthropic-50b-2025-11-12",
+      "title": "Anthropic invests $50 billion in American AI infrastructure",
+      "publisher": "Anthropic PBC",
+      "url": "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:memphis-chamber-xai-expansion-2024-12-04",
+      "title": "xAI Memphis Announces Expansion Of Supercomputer with Addition Of Tech Companies In Digital Delta",
+      "publisher": "Greater Memphis Chamber (private nonprofit economic development organization)",
+      "url": "https://memphischamber.com/blog/press-release/xai-memphis-announces-expansion-of-supercomputer-with-addition-of-tech-companies-in-digital-delta/",
+      "doc_type": "other",
+      "tier": 3,
+      "document_date": "2024-12-04",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:core-scientific-8k-2026-04-21-ex992",
+      "title": "Core Scientific, Inc. Form 8-K, Exhibit 99.2: Supplemental Information regarding Core Scientific, Inc., dated April 21, 2026",
+      "publisher": "Core Scientific, Inc. (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526165121/d149019dex992.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-04-21",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001193125-26-165121"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:openai",
+      "name": "OpenAI",
+      "country": "US",
+      "hq": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "precision": "city",
+        "address": "San Francisco, CA"
+      },
+      "layers": [
+        "datacenter",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "OpenAI, Oracle, and SoftBank are announcing five new U.S. AI data center sites under Stargate, OpenAI’s overarching AI infrastructure platform.",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:oracle",
+      "name": "Oracle Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "precision": "city",
+        "address": "Austin, TX"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "OCI Zettascale10 is the fabric underpinning the flagship supercluster built in collaboration with OpenAI in Abilene, Texas, as part of Stargate.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NYSE:ORCL"
+      ],
+      "sec_cik": "1341439"
+    },
+    {
+      "id": "co:softbank",
+      "name": "SoftBank Group Corp.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6655,
+        "lon": 139.7597,
+        "precision": "city",
+        "address": "Minato, Tokyo"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "These sites will be developed through a partnership by SoftBank and OpenAI that can scale to multiple gigawatts of AI infrastructure.",
+          "locator": "Paragraph 3",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:9984"
+      ]
+    },
+    {
+      "id": "co:crusoe",
+      "name": "Crusoe",
+      "country": "US",
+      "hq": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "precision": "city",
+        "address": "San Francisco, CA (release dateline)"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+          "quote": "Crusoe began constructing the AI data center in Abilene in June 2024.",
+          "locator": "Paragraph 2",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:vantage-data-centers",
+      "name": "Vantage Data Centers",
+      "country": "US",
+      "hq": {
+        "lat": 39.7392,
+        "lon": -104.9903,
+        "precision": "city",
+        "address": "Denver, CO (release dateline)"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:vantage-frontier-2025-08-19",
+          "quote": "Vantage Data Centers, a leading global provider of hyperscale data centers, today announced its largest investment to date of over $25 billion to develop a mega-scale 1.4GW data center campus in Shackelford County, Texas.",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:related-digital",
+      "name": "Related Digital",
+      "country": "US",
+      "hq": {
+        "lat": 40.7128,
+        "lon": -74.006,
+        "precision": "city",
+        "address": "New York, NY"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:related-saline-2025-10-30",
+          "quote": "OpenAI, Oracle, and Related Digital, a vertically integrated data center development and investment platform, today announced plans to develop a data center campus with more than a gigawatt of capacity in Saline Township, Michigan.",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:sb-energy",
+      "name": "SB Energy, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "precision": "city",
+        "address": "Redwood City, CA (release dateline)"
+      },
+      "layers": [
+        "datacenter",
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:sb-energy-openai-2026-01-09",
+          "quote": "OpenAI has also selected SB Energy to build and operate its previously-announced 1.2 GW data center site in Milam County.",
+          "locator": "Paragraph 2",
+          "supports": "existence"
+        }
+      ],
+      "sec_cik": "2133037"
+    },
+    {
+      "id": "co:stack-infrastructure",
+      "name": "STACK Infrastructure",
+      "country": "US",
+      "hq": {
+        "lat": 39.7392,
+        "lon": -104.9903,
+        "precision": "city",
+        "address": "Denver, CO"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:dona-ana-county-project-jupiter",
+          "quote": "The project is being led by STACK Infrastructure in partnership with BorderPlex Digital Assets.",
+          "locator": "Project Jupiter section",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:xai",
+      "name": "xAI (subsidiary of Space Exploration Technologies Corp.)",
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "layers": [
+        "datacenter",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "We own and operate what we believe to be the largest AI training data center clusters on Earth, including COLOSSUS and COLOSSUS II.",
+          "locator": "Prospectus Summary",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:meta",
+      "name": "Meta Platforms, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4848,
+        "lon": -122.1484,
+        "precision": "city",
+        "address": "Menlo Park, CA"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:la-gov-meta-richland-2024-12-04",
+          "quote": "Meta, will build a massive $10 billion artificial intelligence data center in northeast Louisiana",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:META"
+      ],
+      "sec_cik": "1326801"
+    },
+    {
+      "id": "co:microsoft",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 47.674,
+        "lon": -122.1215,
+        "precision": "city",
+        "address": "Redmond, WA"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:microsoft-inside-fairwater-2025-09-18",
+          "quote": "Microsoft’s AI datacenters power OpenAI, Microsoft AI, our Copilot capabilities and many more leading AI workloads.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MSFT"
+      ],
+      "sec_cik": "789019"
+    },
+    {
+      "id": "co:amazon",
+      "name": "Amazon.com, Inc. (Amazon Web Services)",
+      "country": "US",
+      "hq": {
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "precision": "city",
+        "address": "Seattle, WA"
+      },
+      "layers": [
+        "datacenter",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:amazon-indiana-11b-2024-04-25",
+          "quote": "Today, Amazon Web Services (AWS) announced plans to invest an estimated $11 billion in Indiana, creating at least 1,000 new jobs and marking the largest capital investment in the state’s history.",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMZN"
+      ],
+      "sec_cik": "1018724"
+    },
+    {
+      "id": "co:alphabet",
+      "name": "Alphabet Inc. (Google)",
+      "country": "US",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "city",
+        "address": "Mountain View, CA"
+      },
+      "layers": [
+        "datacenter",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:google-texas-40b-2025-11-14",
+          "quote": "This funding will help build new cloud and AI infrastructure, including new data center campuses in Armstrong and Haskell Counties.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GOOGL"
+      ],
+      "sec_cik": "1652044"
+    },
+    {
+      "id": "co:coreweave",
+      "name": "CoreWeave, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 40.7876,
+        "lon": -74.3148,
+        "precision": "city",
+        "address": "Livingston, NJ"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:coreweave-lancaster-2025-07-15",
+          "quote": "With room to grow up to 300 MW, our cloud facility in Lancaster will be one of the largest AI data centers in the region.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:CRWV"
+      ],
+      "sec_cik": "1769628"
+    },
+    {
+      "id": "co:core-scientific",
+      "name": "Core Scientific, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "precision": "city",
+        "address": "Austin, TX"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "The 70 MW of additional contracted power at the Denton site increases the full critical IT load to approximately 260 MW.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:CORZ"
+      ]
+    },
+    {
+      "id": "co:applied-digital",
+      "name": "Applied Digital Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 32.7767,
+        "lon": -96.797,
+        "precision": "city",
+        "address": "Dallas, TX"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:applied-digital-pf1-rfs-2025-11-24",
+          "quote": "The Polaris Forge 1 campus is part of a 400 MW fully contracted deployment for CoreWeave under long-term lease agreements.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:APLD"
+      ],
+      "sec_cik": "1144879"
+    },
+    {
+      "id": "co:galaxy-digital",
+      "name": "Galaxy Digital Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 40.7128,
+        "lon": -74.006,
+        "precision": "city",
+        "address": "New York, NY (release dateline)"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:galaxy-helios-phase1-2026-07-06",
+          "quote": "Our 1.6 GW Helios campus in Texas positions Galaxy among the largest and fastest-growing data center developers in North America.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GLXY"
+      ]
+    },
+    {
+      "id": "co:anthropic",
+      "name": "Anthropic PBC",
+      "country": "US",
+      "hq": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "precision": "city",
+        "address": "San Francisco, CA"
+      },
+      "layers": [
+        "datacenter",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:anthropic-50b-2025-11-12",
+          "quote": "Today, we are announcing a $50 billion investment in American computing infrastructure, building data centers with Fluidstack in Texas and New York, with more sites to come.",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:fluidstack",
+      "name": "Fluidstack",
+      "country": "GB",
+      "hq": {
+        "lat": 51.5074,
+        "lon": -0.1278,
+        "precision": "country"
+      },
+      "layers": [
+        "datacenter"
+      ],
+      "evidence": [
+        {
+          "source": "src:anthropic-50b-2025-11-12",
+          "quote": "We selected Fluidstack as our partner for its ability to move with exceptional agility, enabling rapid delivery of gigawatts of power.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:nvidia",
+      "name": "NVIDIA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3708,
+        "lon": -121.9637,
+        "precision": "city",
+        "address": "Santa Clara, CA"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-xai-colossus-2024-10-28",
+          "quote": "NVIDIA today announced that xAI’s Colossus supercomputer cluster comprising 100,000 NVIDIA Hopper GPUs in Memphis, Tennessee, achieved this massive scale",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:NVDA"
+      ],
+      "sec_cik": "1045810"
+    },
+    {
+      "id": "co:supermicro",
+      "name": "Super Micro Computer, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3382,
+        "lon": -121.8863,
+        "precision": "city",
+        "address": "San Jose, CA"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:supermicro-xai-colossus-story",
+          "quote": "xAI's Colossus supercomputer cluster achieves remarkable scale by utilizing Supermicro 4U liquid cooled servers containing NVIDIA Hopper Tensor Core GPUs.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:SMCI"
+      ]
+    },
+    {
+      "id": "co:dell",
+      "name": "Dell Technologies Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 30.5083,
+        "lon": -97.6789,
+        "precision": "city",
+        "address": "Round Rock, TX"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:memphis-chamber-xai-expansion-2024-12-04",
+          "quote": "Additionally, Fortune 500 tech giants Nvidia, Dell, and Supermicro Computer (SMC) will be establishing operations in Memphis",
+          "locator": "Paragraph 3",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NYSE:DELL"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:crusoe-abilene",
+      "name": "Stargate Abilene (Lancium Clean Campus) — Crusoe-built, Oracle OCI for OpenAI",
+      "operator": "co:crusoe",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 32.5029,
+        "lon": -99.7834,
+        "precision": "site",
+        "address": "Lancium Clean Campus, Abilene, Taylor County, TX"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AI training and inference capacity (Oracle Cloud Infrastructure for OpenAI)",
+        "NVIDIA GB200 NVL72 racks"
+      ],
+      "evidence": [
+        {
+          "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+          "quote": "announced construction has begun on the next phase of its AI data center at the Lancium Clean Campus in Abilene, Texas.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+          "quote": "The Company was formed for the purpose of owning, developing, leasing, and operating a data center campus located in Abilene, Texas (the “Investment”), which is comprised of two buildings each containing four data halls, and a power station.",
+          "locator": "Note 1, Organization and Nature of the Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+          "quote": "During the year ended December 31, 2025, the buildings were substantially completed and delivered to the tenant.",
+          "locator": "Note 1",
+          "supports": "status (phase 1)"
+        },
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "The new Stargate sites being developed by Oracle will join the flagship Stargate campus in Abilene, Texas, which is already up and running on Oracle Cloud Infrastructure (OCI) and continues to progress rapidly.",
+          "locator": "Paragraph 5",
+          "supports": "status, tenant (Oracle/OpenAI)"
+        },
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "This architecture is being deployed with OpenAI at the Stargate site in Abilene.",
+          "locator": "Body",
+          "supports": "tenant (OpenAI)"
+        }
+      ],
+      "capacity": {
+        "value": 1.2,
+        "unit": "GW",
+        "as_of": "2025-03-18",
+        "evidence": [
+          {
+            "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+            "quote": "The second phase of construction, expected to be completed in mid-2026, includes six additional buildings, bringing the total facility to eight buildings, approximately 4 million square feet, and a total power capacity of 1.2 gigawatts (GW).",
+            "locator": "Paragraph 1",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Total planned power capacity across eight buildings (phase 1: two buildings, 200+ MW). Phase 2 expected mid-2026 per March 2025 release; current completion of phase 2 not confirmed in a Tier 1/2 source."
+      },
+      "start_year": 2025
+    },
+    {
+      "id": "fac:vantage-frontier-shackelford",
+      "name": "Vantage Frontier campus, Shackelford County (Stargate site developed with Oracle)",
+      "operator": "co:vantage-data-centers",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 32.7237,
+        "lon": -99.2973,
+        "precision": "region",
+        "address": "Shackelford County, TX"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI data center capacity (liquid-cooled, 250kW+ racks)"
+      ],
+      "evidence": [
+        {
+          "source": "src:vantage-frontier-2025-08-19",
+          "quote": "Vantage Data Centers, a leading global provider of hyperscale data centers, today announced its largest investment to date of over $25 billion to develop a mega-scale 1.4GW data center campus in Shackelford County, Texas.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location, amount"
+        },
+        {
+          "source": "src:vantage-frontier-2025-08-19",
+          "quote": "Construction on the campus has already begun, with the first building scheduled for delivery in the second half of 2026.",
+          "locator": "Paragraph 2",
+          "supports": "status"
+        },
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "The three new sites – located in Shackelford County, Texas; Doña Ana County, New Mexico; and a site in the Midwest, which we expect to announce soon; combined with an additional potential expansion of 600 megawatts near the flagship Stargate site in Abilene, Texas – can deliver over 5.5 gigawatts of capacity.",
+          "locator": "Paragraph 2",
+          "supports": "Stargate site in Shackelford County (Oracle-developed)"
+        }
+      ],
+      "capacity": {
+        "value": 1.4,
+        "unit": "GW",
+        "as_of": "2025-08-19",
+        "evidence": [
+          {
+            "source": "src:vantage-frontier-2025-08-19",
+            "quote": "the launch of our Frontier campus with 1.4GW of GPU compute capacity marks a watershed moment for Vantage",
+            "locator": "Quote, Dana Adams",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Vantage: >$25B investment, 1,200 acres, 10 data centers. That the Oracle/OpenAI Stargate Shackelford County site is the Frontier campus is inferred (Vantage is the documented developer of a Shackelford County campus; no fetched Tier 1/2 document names Oracle/OpenAI as Frontier tenant)."
+      },
+      "start_year": 2026
+    },
+    {
+      "id": "fac:stack-project-jupiter-dona-ana",
+      "name": "Project Jupiter, Santa Teresa (Doña Ana County) — Stargate site",
+      "operator": "co:stack-infrastructure",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 31.87,
+        "lon": -106.6866,
+        "precision": "city",
+        "address": "Santa Teresa, Doña Ana County, NM"
+      },
+      "country": "US",
+      "status": "planned",
+      "products": [
+        "AI data center campus with microgrid"
+      ],
+      "evidence": [
+        {
+          "source": "src:dona-ana-county-project-jupiter",
+          "quote": "Project Jupiter is a large-scale data center campus proposed for development in Doña Ana County, in Santa Teresa, New Mexico.",
+          "locator": "Project Jupiter section",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:dona-ana-county-project-jupiter",
+          "quote": "Phase 1 completion (400 acres + microgrid) — Anticipated Q3 2028",
+          "locator": "Project Jupiter Companies' Commitments",
+          "supports": "status/timeline"
+        },
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "The three new sites – located in Shackelford County, Texas; Doña Ana County, New Mexico; and a site in the Midwest, which we expect to announce soon;",
+          "locator": "Paragraph 2",
+          "supports": "Stargate site (Oracle-developed)"
+        }
+      ],
+      "capacity": {
+        "value": 165000000000,
+        "unit": "USD",
+        "as_of": "2026",
+        "evidence": [
+          {
+            "source": "src:dona-ana-county-project-jupiter",
+            "quote": "Potential total investment: up to $165 billion over 30 years",
+            "locator": "Project Jupiter Companies' Commitments",
+            "supports": "amount"
+          },
+          {
+            "source": "src:dona-ana-county-project-jupiter",
+            "quote": "Minimum initial investment: $50 billion",
+            "locator": "Project Jupiter Companies' Commitments",
+            "supports": "amount"
+          }
+        ],
+        "note": "Investment amount (not power). Minimum initial investment $50B; up to $165B over 30 years per county. Power capacity not found in a fetched Tier 1/2 source."
+      },
+      "start_year": 2028
+    },
+    {
+      "id": "fac:vantage-lighthouse-port-washington",
+      "name": "Vantage Lighthouse campus, Port Washington — Stargate site (OpenAI/Oracle)",
+      "operator": "co:vantage-data-centers",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 43.3873,
+        "lon": -87.8756,
+        "precision": "city",
+        "address": "Port Washington, Ozaukee County, WI"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "AI data center capacity for Oracle/OpenAI"
+      ],
+      "evidence": [
+        {
+          "source": "src:vantage-port-washington-2025-10-22",
+          "quote": "OpenAI, Oracle and Vantage Data Centers, a leading global provider of hyperscale data center campuses, today announced plans to develop a data center campus outside Milwaukee in Port Washington, Wisconsin.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location, tenant"
+        },
+        {
+          "source": "src:vantage-port-washington-2025-10-22",
+          "quote": "Construction will begin soon and is scheduled for completion in 2028.",
+          "locator": "Paragraph 2",
+          "supports": "status"
+        },
+        {
+          "source": "src:vantage-port-washington-2025-10-22",
+          "quote": "Vantage’s $15B+ investment in Port Washington represents the future of sustainable digital infrastructure",
+          "locator": "Subheading",
+          "supports": "amount"
+        }
+      ],
+      "capacity": {
+        "value": 1,
+        "unit": "GW",
+        "as_of": "2025-10-22",
+        "evidence": [
+          {
+            "source": "src:vantage-port-washington-2025-10-22",
+            "quote": "The campus will feature four cutting-edge data centers providing close to a gigawatt of AI capacity.",
+            "locator": "Paragraph 2",
+            "supports": "capacity"
+          }
+        ],
+        "note": "'Close to a gigawatt'. Status as of Oct 2025 announcement; current construction status not confirmed in a fetched Tier 1/2 source."
+      },
+      "start_year": 2028
+    },
+    {
+      "id": "fac:related-digital-saline-township",
+      "name": "The Barn — Stargate campus, Saline Township (Oracle / OpenAI)",
+      "operator": "co:related-digital",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 42.1245,
+        "lon": -83.8386,
+        "precision": "city",
+        "address": "Saline Township, Washtenaw County, MI (site off Michigan Avenue)"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI data center capacity developed exclusively for Oracle (OpenAI Stargate)"
+      ],
+      "evidence": [
+        {
+          "source": "src:related-saline-2025-10-30",
+          "quote": "The Saline Township project—dubbed the ‘The Barn’ for the historic red barn being preserved by the entrance to the site off Michigan Avenue—consists of three 550,000 square-feet single-story buildings.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:related-saline-2025-10-30",
+          "quote": "We are proud to be developing this critical project exclusively for Oracle and contributing to keeping our nation competitive in the global AI race",
+          "locator": "Quote, Jeff T. Blau",
+          "supports": "tenant (Oracle)"
+        },
+        {
+          "source": "src:oracle-saline-construction-2026-06-01",
+          "quote": "Oracle, Related Digital, Blackstone, OpenAI, Walbridge, and Governor Gretchen Whitmer today celebrated construction of The Barn, the multi-billion-dollar Stargate data center campus under construction in Saline Township, which is the single largest economic investment in Michigan’s history.",
+          "locator": "Paragraph 1",
+          "supports": "status"
+        },
+        {
+          "source": "src:oracle-saline-construction-2026-06-01",
+          "quote": "More than $5 billion invested in site construction will directly benefit Michigan contractors and suppliers",
+          "locator": "Economic impact list",
+          "supports": "amount (site construction)"
+        }
+      ],
+      "capacity": {
+        "value": 1,
+        "unit": "GW",
+        "as_of": "2025-10-30",
+        "evidence": [
+          {
+            "source": "src:related-saline-2025-10-30",
+            "quote": "The 1+ gigawatt campus in Saline Township will create more than 2,500 union construction jobs and 2,000 permanent jobs county-wide to support the project.",
+            "locator": "Subheading",
+            "supports": "capacity"
+          }
+        ],
+        "note": "'1+ gigawatt'; 250-acre site."
+      }
+    },
+    {
+      "id": "fac:softbank-lordstown",
+      "name": "Stargate Lordstown site (SoftBank)",
+      "operator": "co:softbank",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 41.1656,
+        "lon": -80.8573,
+        "precision": "city",
+        "address": "Lordstown, OH"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI data center (SoftBank/OpenAI partnership)"
+      ],
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "One site is located in Lordstown, Ohio, where SoftBank has broken ground on an advanced data center design which is on track to be operational next year.",
+          "locator": "Paragraph 3",
+          "supports": "existence, location, status (as of 2025-09)"
+        }
+      ]
+    },
+    {
+      "id": "fac:sb-energy-milam-county",
+      "name": "SB Energy Milam County Data Center (Buildings 1 and 2) — OpenAI Stargate site",
+      "operator": "co:sb-energy",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 30.853,
+        "lon": -96.977,
+        "precision": "region",
+        "address": "Milam County, TX"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI data center capacity leased to OpenAI"
+      ],
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "We are progressing our first wave of data centers at the Cosmos Technology Campus, in Austin, Texas, Milam County Buildings 1 and 2 in Milam County, Texas, and the PORTS-Pike Technology Campus in Pike County, Ohio, while advancing the balance of our pipeline.",
+          "locator": "Prospectus Summary",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "Our first data center projects, the Cosmos Technology Campus and Milam County Data Center, are under construction.",
+          "locator": "Prospectus Summary",
+          "supports": "status"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "OpenAI is the tenant under both our PORTS-Pike Technology Campus, which makes up a substantial majority of our backlog, and leases for Milam County Buildings 1 and 2",
+          "locator": "Risk Factors",
+          "supports": "tenant (OpenAI)"
+        },
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "The second site is located in Milam County, Texas, and will be developed in partnership with SB Energy, a SoftBank Group company, which is providing powered infrastructure for a fast-build data center site.",
+          "locator": "Paragraph 3",
+          "supports": "Stargate site"
+        }
+      ],
+      "capacity": {
+        "value": 1.2,
+        "unit": "GW",
+        "as_of": "2026-01-09",
+        "evidence": [
+          {
+            "source": "src:sb-energy-openai-2026-01-09",
+            "quote": "OpenAI has also selected SB Energy to build and operate its previously-announced 1.2 GW data center site in Milam County.",
+            "locator": "Paragraph 2",
+            "supports": "capacity"
+          }
+        ],
+        "note": "1.2 GW per SB Energy Jan 2026 release. SB Energy S-1/A portfolio table lists Milam County 1 (308 MW-IT) and Milam County 2 (445 MW-IT), last RFS 2028."
+      },
+      "start_year": 2028
+    },
+    {
+      "id": "fac:sb-energy-ports-pike",
+      "name": "SB Energy PORTS-Pike Technology Campus — OpenAI tenant",
+      "operator": "co:sb-energy",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 39.0681,
+        "lon": -83.0143,
+        "precision": "region",
+        "address": "Pike County, OH"
+      },
+      "country": "US",
+      "status": "planned",
+      "products": [
+        "AI data center capacity leased to OpenAI (17 leases)"
+      ],
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "On August 17, 2026, 17 of our subsidiaries, each as landlord, and an affiliate of OpenAI, as tenant, entered into individual lease agreements for the PORTS-Pike Technology Campus",
+          "locator": "Recent Developments",
+          "supports": "existence, tenant, capacity"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "Of this capacity, approximately 0.8 GW-IT is under construction, and 8.0 GW-IT is the contracted PORTS-Pike Technology Campus capacity attributable to OpenAI.",
+          "locator": "Risk Factors",
+          "supports": "status (contracted, not under construction)"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "The PORTS-Pike leases are expected to commence in stages between early 2028 and 2032, with rent commencement for each phase expected to occur on the date the RFS conditions for such phase have been satisfied.",
+          "locator": "Risk Factors",
+          "supports": "timeline"
+        }
+      ],
+      "capacity": {
+        "value": 8.0,
+        "unit": "GW-IT",
+        "as_of": "2026-09-21",
+        "evidence": [
+          {
+            "source": "src:sb-energy-s1a-2026-09-21",
+            "quote": "Of this capacity, approximately 0.8 GW-IT is under construction, and 8.0 GW-IT is the contracted PORTS-Pike Technology Campus capacity attributable to OpenAI.",
+            "locator": "Risk Factors",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Critical IT capacity contracted; S-1/A, not yet effective as of filing date."
+      },
+      "start_year": 2028
+    },
+    {
+      "id": "fac:xai-colossus-memphis",
+      "name": "xAI COLOSSUS (Paul R. Lowry Road, Memphis)",
+      "operator": "co:xai",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 35.06,
+        "lon": -90.152,
+        "precision": "site",
+        "address": "Paul R. Lowry Road (former Electrolux plant, Frank C. Pidgeon Industrial Park), Memphis, TN"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AI training compute (Grok models)",
+        "NVIDIA H100/Hopper GPU cluster"
+      ],
+      "evidence": [
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "“COLOSSUS” refers to our flagship data center, located on Paul R. Lowry Road in Memphis, Tennessee.",
+          "locator": "Glossary of Terms",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:mlgw-xai-update-2025-05-05",
+          "quote": "xAI is located on Paul Lowery Rd in the former Electrolux manufacturing facility at Frank C. Pidgeon Industrial Park.",
+          "locator": "Background of Utility Support for xAI",
+          "supports": "location"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "At COLOSSUS, we brought online the first cluster of approximately 100,000 H100 processors, approximately 130 megawatts of compute power, in just 122 days, repurposing the shell of an existing factory.",
+          "locator": "Business",
+          "supports": "status, accelerator"
+        }
+      ],
+      "capacity": {
+        "value": 150,
+        "unit": "MW",
+        "as_of": "2025-05-05",
+        "evidence": [
+          {
+            "source": "src:mlgw-xai-update-2025-05-05",
+            "quote": "xAI is receiving 150MW of power at the Paul Lowry site. xAI requested an additional 150MW at this location, for a total of 300MW.",
+            "locator": "Background of Utility Support for xAI",
+            "supports": "capacity (grid service)"
+          }
+        ],
+        "note": "Grid electric service from MLGW/TVA as of May 2025, with a request for 300 MW total. S-1/A: first cluster ~130 MW compute; COLOSSUS and COLOSSUS II together ~1.0 GW of compute power."
+      },
+      "start_year": 2024
+    },
+    {
+      "id": "fac:xai-colossus-2-memphis",
+      "name": "xAI COLOSSUS II (Tulane Road, Memphis; plus Southaven, MS)",
+      "operator": "co:xai",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 34.998,
+        "lon": -90.0349,
+        "precision": "city",
+        "address": "Tulane Rd near the TN/MS state line, Memphis, TN"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AI training compute (Grok-5)",
+        "GB200 and GB300 processors"
+      ],
+      "evidence": [
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "“COLOSSUS II” refers to our data centers in Memphis, Tennessee and in Southaven, Mississippi.",
+          "locator": "Glossary of Terms",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:mlgw-xai-update-2025-05-05",
+          "quote": "xAI has secured a second large facility located on Tulane Rd very near the TN/MS state line.",
+          "locator": "Background of Utility Support for xAI",
+          "supports": "location"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "At COLOSSUS II, we brought online the first cluster of approximately 110,000 GB200 processors, approximately 210 megawatts of compute power, even faster in 91 days.",
+          "locator": "Business",
+          "supports": "status, accelerator"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "Furthermore, in the case of COLOSSUS II, following the initial cluster, we brought online the second cluster of 110,000 GB300 processors and 220 megawatts of compute power in 64 days, demonstrating our ability to rapidly scale our facilities once built.",
+          "locator": "Business",
+          "supports": "status, accelerator"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "For example, in May 2026, we entered into Cloud Services Agreements with Anthropic PBC (“Anthropic”), an AI research and development public benefit corporation, with respect to access to compute capacity across COLOSSUS and COLOSSUS II.",
+          "locator": "Business — Compute Services Agreements with Third Parties",
+          "supports": "third-party user (Anthropic)"
+        }
+      ],
+      "capacity": {
+        "value": 430,
+        "unit": "MW",
+        "as_of": "2026-06-03",
+        "evidence": [
+          {
+            "source": "src:spacex-s1a-2026-06-03",
+            "quote": "At COLOSSUS II, we brought online the first cluster of approximately 110,000 GB200 processors, approximately 210 megawatts of compute power, even faster in 91 days.",
+            "locator": "Business",
+            "supports": "capacity (cluster 1)"
+          },
+          {
+            "source": "src:spacex-s1a-2026-06-03",
+            "quote": "we brought online the second cluster of 110,000 GB300 processors and 220 megawatts of compute power in 64 days",
+            "locator": "Business",
+            "supports": "capacity (cluster 2)"
+          }
+        ],
+        "note": "Sum of the two disclosed clusters (~210 MW + 220 MW compute power). S-1/A also expects a next phase of 220,000+ GB300 and 400+ additional MW."
+      },
+      "start_year": 2025
+    },
+    {
+      "id": "fac:meta-hyperion-richland-parish",
+      "name": "Meta Hyperion — Richland Parish Data Center",
+      "operator": "co:meta",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 32.47,
+        "lon": -91.67,
+        "precision": "region",
+        "address": "Former Franklin Farm mega site, Richland Parish, LA"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI training capacity (Hyperion cluster)"
+      ],
+      "evidence": [
+        {
+          "source": "src:la-gov-meta-richland-2024-12-04",
+          "quote": "Expansive technology campus will occupy 4 million square feet on the 2,250-acre former Franklin Farm mega site.",
+          "locator": "Subheading",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:meta-richland-parish-page",
+          "quote": "This data center will play a vital role in accelerating our AI progress, delivering 5 gigawatts of compute capacity to house Hyperion, our largest multi-gigawatt AI cluster.",
+          "locator": "Paragraph 1",
+          "supports": "existence, capacity"
+        },
+        {
+          "source": "src:meta-richland-parish-page",
+          "quote": "More than $1.6 billion in contracts have gone to Louisiana businesses since construction began",
+          "locator": "Partnering with Richland Parish",
+          "supports": "status"
+        },
+        {
+          "source": "src:meta-q2-2025-call",
+          "quote": "We're also building out Hyperion, which will be able to scale up to 5GW over several years.",
+          "locator": "Prepared remarks, Mark Zuckerberg",
+          "supports": "capacity, status"
+        }
+      ],
+      "capacity": {
+        "value": 5,
+        "unit": "GW",
+        "as_of": "2026",
+        "evidence": [
+          {
+            "source": "src:meta-richland-parish-page",
+            "quote": "This data center will play a vital role in accelerating our AI progress, delivering 5 gigawatts of compute capacity to house Hyperion, our largest multi-gigawatt AI cluster.",
+            "locator": "Paragraph 1",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Scale-up target; Louisiana governor release (Dec 2024) cited a $10B investment."
+      }
+    },
+    {
+      "id": "fac:meta-prometheus-new-albany",
+      "name": "Meta Prometheus supercluster — New Albany",
+      "operator": "co:meta",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 40.0812,
+        "lon": -82.8088,
+        "precision": "city",
+        "address": "New Albany, OH"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI training capacity (Prometheus 1GW+ cluster)"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-nuclear-2026-01-09",
+          "quote": "The projects we’re announcing today will deliver power to the grids that support our operations, including our Prometheus supercluster in New Albany, Ohio.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:meta-q2-2025-call",
+          "quote": "Our Prometheus cluster is coming online next year and we think it'll be the world's first 1GW+ cluster.",
+          "locator": "Prepared remarks, Mark Zuckerberg",
+          "supports": "capacity, status (expected online 2026)"
+        }
+      ],
+      "capacity": {
+        "value": 1,
+        "unit": "GW",
+        "as_of": "2025-07-30",
+        "evidence": [
+          {
+            "source": "src:meta-q2-2025-call",
+            "quote": "Our Prometheus cluster is coming online next year and we think it'll be the world's first 1GW+ cluster.",
+            "locator": "Prepared remarks",
+            "supports": "capacity"
+          }
+        ],
+        "note": "'1GW+'. Status set to under_construction: Meta said July 2025 it would come online in 2026; no fetched Tier 1/2 document confirms it is now online."
+      },
+      "start_year": 2026
+    },
+    {
+      "id": "fac:meta-el-paso",
+      "name": "Meta El Paso data center (Meta/BlackRock venture)",
+      "operator": "co:meta",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 31.7619,
+        "lon": -106.485,
+        "precision": "city",
+        "address": "El Paso, TX"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI training and inference capacity"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-el-paso-blackrock-2026-07-28",
+          "quote": "The state-of-the-art data center campus, currently under construction in El Paso, Texas, will have 1 gigawatt of compute capacity and will play an essential role in bringing Meta’s AI technologies to life",
+          "locator": "Body",
+          "supports": "existence, location, status, capacity"
+        },
+        {
+          "source": "src:meta-el-paso-blackrock-2026-07-28",
+          "quote": "The El Paso data center represents an investment of over $10 billion from Meta — supporting more than 4,000 construction jobs at peak and 300 operational jobs once complete.",
+          "locator": "Empowering El Paso’s Economy",
+          "supports": "amount"
+        },
+        {
+          "source": "src:meta-el-paso-blackrock-2026-07-28",
+          "quote": "The transaction is expected to close in the coming days and the venture expects to begin bringing this capacity online in 2028.",
+          "locator": "Body",
+          "supports": "timeline"
+        }
+      ],
+      "capacity": {
+        "value": 1,
+        "unit": "GW",
+        "as_of": "2026-07-28",
+        "evidence": [
+          {
+            "source": "src:meta-el-paso-blackrock-2026-07-28",
+            "quote": "will have 1 gigawatt of compute capacity",
+            "locator": "Body",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Venture ownership (BlackRock 80% / Meta 20%) and ~$14B development cost belong to the finance layer."
+      },
+      "start_year": 2028
+    },
+    {
+      "id": "fac:microsoft-fairwater-mount-pleasant",
+      "name": "Microsoft Fairwater AI datacenter — Mount Pleasant (first facility)",
+      "operator": "co:microsoft",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 42.7192,
+        "lon": -87.8543,
+        "precision": "city",
+        "address": "Mount Pleasant, Racine County, WI"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AI supercomputer (NVIDIA GB200 cluster) for OpenAI, Microsoft AI, Copilot"
+      ],
+      "evidence": [
+        {
+          "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+          "quote": "We’re in the final phases of building Fairwater, the world’s most powerful AI datacenter in Mount Pleasant, Wisconsin — part of a region forged by generations of hard work and ingenuity.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:microsoft-inside-fairwater-2025-09-18",
+          "quote": "The new Fairwater AI datacenter in Wisconsin stands as a remarkable feat of engineering, covering 315 acres and housing three massive buildings with a combined 1.2 million square feet under roofs.",
+          "locator": "Body",
+          "supports": "existence, site"
+        },
+        {
+          "source": "src:microsoft-mount-pleasant-complete-2026-06-23",
+          "quote": "With our Fairwater datacenter now fully operational, Wisconsin is now home to the world’s most powerful supercomputer,",
+          "locator": "Quote, Brad Smith",
+          "supports": "status"
+        }
+      ],
+      "capacity": {
+        "value": 3300000000,
+        "unit": "USD",
+        "as_of": "2025-09-18",
+        "evidence": [
+          {
+            "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+            "quote": "We are on track to complete construction and bring this AI datacenter online in early 2026, fulfilling our initial $3.3 billion investment pledge.",
+            "locator": "Body",
+            "supports": "amount"
+          }
+        ],
+        "note": "Investment amount (power capacity not disclosed in fetched Tier 1/2 sources)."
+      },
+      "start_year": 2026
+    },
+    {
+      "id": "fac:microsoft-fairwater-mount-pleasant-2",
+      "name": "Microsoft Mount Pleasant second AI datacenter (adjacent to Fairwater)",
+      "operator": "co:microsoft",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 42.72,
+        "lon": -87.856,
+        "precision": "city",
+        "address": "Mount Pleasant, Racine County, WI"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI datacenter of similar size and scale to Fairwater"
+      ],
+      "evidence": [
+        {
+          "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+          "quote": "Today, we’re committing an additional $4 billion to be spent in the next three years to build our second datacenter of similar size and scale — bringing our total investment in Wisconsin to more than $7 billion.",
+          "locator": "Body",
+          "supports": "existence, amount"
+        },
+        {
+          "source": "src:microsoft-mount-pleasant-complete-2026-06-23",
+          "quote": "Construction of Microsoft’s second facility in Mount Pleasant immediately adjacent to the first is ongoing.",
+          "locator": "Body",
+          "supports": "status, location"
+        }
+      ],
+      "capacity": {
+        "value": 4000000000,
+        "unit": "USD",
+        "as_of": "2025-09-18",
+        "evidence": [
+          {
+            "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+            "quote": "Today, we’re committing an additional $4 billion to be spent in the next three years to build our second datacenter of similar size and scale",
+            "locator": "Body",
+            "supports": "amount"
+          }
+        ],
+        "note": "Investment amount."
+      }
+    },
+    {
+      "id": "fac:microsoft-fairwater-atlanta",
+      "name": "Microsoft Fairwater AI datacenter — Atlanta",
+      "operator": "co:microsoft",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 33.749,
+        "lon": -84.388,
+        "precision": "city",
+        "address": "Atlanta, GA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AI supercomputer (NVIDIA GB200 NVL72) — part of Azure AI superfactory"
+      ],
+      "evidence": [
+        {
+          "source": "src:microsoft-wisconsin-to-atlanta-2025-11-12",
+          "quote": "which began operation in October, is the second in Microsoft’s Fairwater family.",
+          "locator": "Body",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:microsoft-superfactory-arch-2025-11-12",
+          "quote": "The Atlanta site was selected with resilient utility power in mind and is capable of achieving 4×9 availability at 3×9 cost.",
+          "locator": "Body",
+          "supports": "location"
+        }
+      ],
+      "start_year": 2025
+    },
+    {
+      "id": "fac:amazon-rainier-new-carlisle",
+      "name": "AWS Project Rainier — New Carlisle / St. Joseph County campus (Anthropic)",
+      "operator": "co:amazon",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 41.7057,
+        "lon": -86.5098,
+        "precision": "city",
+        "address": "New Carlisle, St. Joseph County, IN"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AWS Trainium2 UltraCluster used by Anthropic"
+      ],
+      "evidence": [
+        {
+          "source": "src:in-gov-aws-11b-2024-04-25",
+          "quote": "plans to invest $11 billion to build a data center campus in north central Indiana and create at least 1,000 new jobs.",
+          "locator": "Paragraph 1",
+          "supports": "existence, amount"
+        },
+        {
+          "source": "src:amazon-project-rainier-2025-10-29",
+          "quote": "Joseph County, Indiana—one of the Project Rainier sites—will maximize the use of outside air for cooling.",
+          "locator": "Sustainability at scale",
+          "supports": "location, Project Rainier site"
+        },
+        {
+          "source": "src:amazon-project-rainier-2025-10-29",
+          "quote": "Project Rainier, one of the world's largest AI compute clusters, is now fully operational, less than one year after it was first announced.",
+          "locator": "Body",
+          "supports": "status"
+        },
+        {
+          "source": "src:amazon-project-rainier-2025-10-29",
+          "quote": "Anthropic is actively using Project Rainier to build and deploy its industry-leading AI model, Claude, now on more than 1 million Trainium2 chips.",
+          "locator": "Summary",
+          "supports": "tenant (Anthropic)"
+        }
+      ],
+      "capacity": {
+        "value": 11000000000,
+        "unit": "USD",
+        "as_of": "2024-04-25",
+        "evidence": [
+          {
+            "source": "src:amazon-indiana-11b-2024-04-25",
+            "quote": "Today, Amazon Web Services (AWS) announced plans to invest an estimated $11 billion in Indiana, creating at least 1,000 new jobs and marking the largest capital investment in the state’s history.",
+            "locator": "Paragraph 1",
+            "supports": "amount"
+          }
+        ],
+        "note": "Investment amount. Power capacity (reported ~2.2 GW in news) not found in a fetched Tier 1/2 source."
+      },
+      "start_year": 2025
+    },
+    {
+      "id": "fac:amazon-madison-county-ms",
+      "name": "AWS Madison County data center complexes",
+      "operator": "co:amazon",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 32.6126,
+        "lon": -90.0368,
+        "precision": "region",
+        "address": "Madison County, MS"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "AWS cloud and AI data center complexes"
+      ],
+      "evidence": [
+        {
+          "source": "src:mda-aws-10b-2024-01-25",
+          "quote": "The high-quality, good-paying employment opportunities AWS is bringing to Madison County exemplifies our commitment to creating a stronger Mississippi and advancing the overall well-being of our communities.",
+          "locator": "Quote, MDA",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:mda-aws-10b-2024-01-25",
+          "quote": "The project is a planned $10 billion corporate investment and will create at least 1,000 high-paying, high-tech jobs.",
+          "locator": "Body",
+          "supports": "amount"
+        }
+      ],
+      "capacity": {
+        "value": 10000000000,
+        "unit": "USD",
+        "as_of": "2024-01-25",
+        "evidence": [
+          {
+            "source": "src:mda-aws-10b-2024-01-25",
+            "quote": "The project is a planned $10 billion corporate investment and will create at least 1,000 high-paying, high-tech jobs.",
+            "locator": "Body",
+            "supports": "amount"
+          }
+        ],
+        "note": "Investment amount; status as announced Jan 2024 (later groundbreaking/expansions not verified in a fetched Tier 1/2 source)."
+      }
+    },
+    {
+      "id": "fac:amazon-salem-township-pa",
+      "name": "AWS Salem Township campus (Luzerne County)",
+      "operator": "co:amazon",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 41.092,
+        "lon": -76.149,
+        "precision": "city",
+        "address": "Salem Township, Luzerne County, PA"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "AWS cloud computing and AI innovation campus"
+      ],
+      "evidence": [
+        {
+          "source": "src:pa-gov-amazon-20b-2025-06-09",
+          "quote": "Salem Township and Falls Township are the first communities identified as sites for these future campuses.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:pa-gov-amazon-20b-2025-06-09",
+          "quote": "Governor Josh Shapiro today announced that Amazon is planning to invest at least $20 billion to establish multiple high-tech cloud computing and artificial intelligence (AI) innovation campuses across the Commonwealth of Pennsylvania.",
+          "locator": "Paragraph 1",
+          "supports": "amount (statewide, shared with Falls Township)"
+        }
+      ]
+    },
+    {
+      "id": "fac:amazon-falls-township-pa",
+      "name": "AWS Falls Township campus (Bucks County)",
+      "operator": "co:amazon",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 40.172,
+        "lon": -74.784,
+        "precision": "city",
+        "address": "Falls Township, Bucks County, PA"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "AWS cloud computing and AI innovation campus"
+      ],
+      "evidence": [
+        {
+          "source": "src:pa-gov-amazon-20b-2025-06-09",
+          "quote": "Salem Township and Falls Township are the first communities identified as sites for these future campuses.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:pa-gov-amazon-20b-2025-06-09",
+          "quote": "build, maintain, and operate the first two data center campuses in Luzerne County and Bucks County.",
+          "locator": "Quote, Governor Shapiro",
+          "supports": "location (county)"
+        }
+      ]
+    },
+    {
+      "id": "fac:google-armstrong-county",
+      "name": "Google Armstrong County data center campus",
+      "operator": "co:alphabet",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 35.11,
+        "lon": -101.36,
+        "precision": "region",
+        "address": "Armstrong County, TX"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "Google cloud and AI infrastructure"
+      ],
+      "evidence": [
+        {
+          "source": "src:google-texas-40b-2025-11-14",
+          "quote": "This funding will help build new cloud and AI infrastructure, including new data center campuses in Armstrong and Haskell Counties.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:google-texas-40b-2025-11-14",
+          "quote": "we're announcing a new $40 billion investment in the Lone Star State through 2027.",
+          "locator": "Paragraph 1",
+          "supports": "amount (statewide)"
+        }
+      ]
+    },
+    {
+      "id": "fac:google-haskell-county",
+      "name": "Google Haskell County data center campus (incl. site paired with solar + storage)",
+      "operator": "co:alphabet",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 33.1576,
+        "lon": -99.7334,
+        "precision": "region",
+        "address": "Haskell County, TX"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "Google cloud and AI infrastructure"
+      ],
+      "evidence": [
+        {
+          "source": "src:google-texas-40b-2025-11-14",
+          "quote": "This funding will help build new cloud and AI infrastructure, including new data center campuses in Armstrong and Haskell Counties.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:google-texas-40b-2025-11-14",
+          "quote": "One of our new Haskell County data centers will be built alongside a new solar and battery storage plant.",
+          "locator": "Body",
+          "supports": "site detail"
+        }
+      ]
+    },
+    {
+      "id": "fac:google-stillwater",
+      "name": "Google Stillwater data center campus",
+      "operator": "co:alphabet",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 36.1156,
+        "lon": -97.0584,
+        "precision": "city",
+        "address": "Stillwater, OK"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "Google cloud and AI infrastructure"
+      ],
+      "evidence": [
+        {
+          "source": "src:ok-commerce-google-2025-08-13",
+          "quote": "This investment supports the development of a new data center campus in Stillwater and the expansion of our existing facility in Pryor, as well as expanded education and workforce development programs.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:ok-commerce-google-2025-08-13",
+          "quote": "Google is investing an additional $9 billion in Oklahoma within the next two years in cloud and AI infrastructure.",
+          "locator": "Paragraph 1",
+          "supports": "amount (statewide, shared with Pryor)"
+        }
+      ]
+    },
+    {
+      "id": "fac:core-scientific-denton",
+      "name": "Core Scientific Denton campus (licensed 100% to CoreWeave)",
+      "operator": "co:core-scientific",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 33.2196,
+        "lon": -97.1971,
+        "precision": "site",
+        "address": "8171 Jim Christal Road, Denton, TX"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "HPC/AI colocation for CoreWeave (NVIDIA GPUs)"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "The Denton campus (“Denton Campus”) is located at 8171 Jim Christal Road in Denton, Texas on property owned by the City of Denton and leased to Core Scientific (the “Denton Ground Lease”) totaling approximately 64 acres to accommodate the initial development of a 262 MW data center and subsequent conversion of the campus from cryptocurrency mining to HPC and AI workloads.",
+          "locator": "The Denton Campus",
+          "supports": "existence, location, capacity"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Core Scientific Finance is developing six data center facilities across five sites that have been 100% licensed to CoreWeave, Inc.",
+          "locator": "Overview of the Projects",
+          "supports": "tenant (CoreWeave)"
+        },
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "The new agreement brings an additional $1.2 billion in contracted revenue across Core Scientific’s Denton TX location, solidifying Core Scientific’s position as a premier provider of application-specific data centers for HPC workloads.",
+          "locator": "Body",
+          "supports": "relationship"
+        }
+      ],
+      "capacity": {
+        "value": 262,
+        "unit": "MW",
+        "as_of": "2026-04-21",
+        "evidence": [
+          {
+            "source": "src:core-scientific-8k-2026-04-21-ex992",
+            "quote": "CoreWeave’s power allocation for each facility, as set forth in the CoreWeave Licensing Agreements, is as follows: (i) Dalton 1 – 30 MW, (ii) Dalton 4 – 145 MW, (iii) Marble Campus – 65 MW, (iv) Muskogee Campus – 70 MW, (v) Denton Campus – 262 MW, and (vi) Austin Campus – 16.5 MW.",
+            "locator": "CoreWeave Licensing Agreements",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Critical IT MW licensed to CoreWeave; total potential campus load ~394 MW from Denton Municipal Electric. Deliveries have started; substantial completion anticipated H2 2026."
+      },
+      "start_year": 2025
+    },
+    {
+      "id": "fac:core-scientific-dalton-4",
+      "name": "Core Scientific Dalton 4 campus (licensed to CoreWeave)",
+      "operator": "co:core-scientific",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 34.7698,
+        "lon": -84.9702,
+        "precision": "city",
+        "address": "3024 Old Tilton Road, Dalton, GA"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "HPC/AI colocation for CoreWeave"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "the Dalton 4 campus located at 3024 Old Tilton Road in Dalton, Georgia on approximately 167 acres (“Dalton 4”).",
+          "locator": "The Dalton Campuses",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Dalton 4 will feature a 145 MW data center and is a greenfield development.",
+          "locator": "The Dalton Campuses",
+          "supports": "capacity, status"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Core Scientific Finance is developing six data center facilities across five sites that have been 100% licensed to CoreWeave, Inc.",
+          "locator": "Overview of the Projects",
+          "supports": "tenant (CoreWeave)"
+        }
+      ],
+      "capacity": {
+        "value": 145,
+        "unit": "MW",
+        "as_of": "2026-04-21",
+        "evidence": [
+          {
+            "source": "src:core-scientific-8k-2026-04-21-ex992",
+            "quote": "Dalton 4 will feature a 145 MW data center and is a greenfield development.",
+            "locator": "The Dalton Campuses",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Critical IT MW; anticipated starting delivery H2 2026, substantial completion H1 2027 per timeline table. Dalton 1 (30 MW) is a separate small facility nearby."
+      }
+    },
+    {
+      "id": "fac:core-scientific-muskogee",
+      "name": "Core Scientific Muskogee campus (licensed to CoreWeave)",
+      "operator": "co:core-scientific",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 35.6969,
+        "lon": -95.3839,
+        "precision": "site",
+        "address": "1525 W. Smith Ferry Road, Muskogee, OK"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "HPC/AI colocation for CoreWeave"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Smith Ferry Road in Muskogee, Oklahoma on 64 acres and will feature a 70 MW data center.",
+          "locator": "The Muskogee Campus",
+          "supports": "existence, location, capacity"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Core Scientific Finance is developing six data center facilities across five sites that have been 100% licensed to CoreWeave, Inc.",
+          "locator": "Overview of the Projects",
+          "supports": "tenant (CoreWeave)"
+        }
+      ],
+      "capacity": {
+        "value": 70,
+        "unit": "MW",
+        "as_of": "2026-04-21",
+        "evidence": [
+          {
+            "source": "src:core-scientific-8k-2026-04-21-ex992",
+            "quote": "Smith Ferry Road in Muskogee, Oklahoma on 64 acres and will feature a 70 MW data center.",
+            "locator": "The Muskogee Campus",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Critical IT MW; anticipated starting delivery and substantial completion H1 2026 per the April 2026 timeline table (completion not confirmed)."
+      }
+    },
+    {
+      "id": "fac:core-scientific-marble",
+      "name": "Core Scientific Marble campus (licensed to CoreWeave)",
+      "operator": "co:core-scientific",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 35.185,
+        "lon": -83.9141,
+        "precision": "site",
+        "address": "155 Palmer Lane, Marble, NC"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "HPC/AI colocation for CoreWeave"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "The Marble campus (“Marble Campus”) is located at 155 Palmer Lane in Marble, North Carolina.",
+          "locator": "The Marble Campus",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Core Scientific Finance is developing six data center facilities across five sites that have been 100% licensed to CoreWeave, Inc.",
+          "locator": "Overview of the Projects",
+          "supports": "tenant (CoreWeave)"
+        }
+      ],
+      "capacity": {
+        "value": 65,
+        "unit": "MW",
+        "as_of": "2026-04-21",
+        "evidence": [
+          {
+            "source": "src:core-scientific-8k-2026-04-21-ex992",
+            "quote": "(iii) Marble Campus – 65 MW",
+            "locator": "CoreWeave Licensing Agreements",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Critical IT MW; starting delivery complete, substantial completion anticipated H1 2026 per timeline table."
+      }
+    },
+    {
+      "id": "fac:coreweave-lancaster",
+      "name": "CoreWeave Lancaster AI data center",
+      "operator": "co:coreweave",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 40.0379,
+        "lon": -76.3055,
+        "precision": "city",
+        "address": "Lancaster, PA"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "AI cloud capacity"
+      ],
+      "evidence": [
+        {
+          "source": "src:coreweave-lancaster-2025-07-15",
+          "quote": "That’s why CoreWeave is committing an initial $6 billion to equip a new, state-of-the-art data center outside of Philadelphia in Lancaster, Pennsylvania, purpose-built to power the most cutting-edge AI workloads.",
+          "locator": "Body",
+          "supports": "existence, location, amount"
+        }
+      ],
+      "capacity": {
+        "value": 300,
+        "unit": "MW",
+        "as_of": "2025-07-15",
+        "evidence": [
+          {
+            "source": "src:coreweave-lancaster-2025-07-15",
+            "quote": "With room to grow up to 300 MW, our cloud facility in Lancaster will be one of the largest AI data centers in the region.",
+            "locator": "Body",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Maximum ('room to grow up to 300 MW'); initial $6B commitment."
+      }
+    },
+    {
+      "id": "fac:applied-digital-polaris-forge-1",
+      "name": "Applied Digital Polaris Forge 1 (CoreWeave)",
+      "operator": "co:applied-digital",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 46.0027,
+        "lon": -98.527,
+        "precision": "city",
+        "address": "Ellendale, ND"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AI factory capacity leased to CoreWeave"
+      ],
+      "evidence": [
+        {
+          "source": "src:applied-digital-150mw-2025-08-29",
+          "quote": "The Polaris Forge 1 Campus in Ellendale is engineered to scale up to 1 gigawatt over time, designed for high-density compute through proprietary innovation.",
+          "locator": "Body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:applied-digital-pf1-rfs-2025-11-24",
+          "quote": "After achieving this milestone, Building 1 now operates at its full 100 MW critical IT load, marking the completion of the first of three contracted buildings at the campus.",
+          "locator": "Body",
+          "supports": "status"
+        },
+        {
+          "source": "src:applied-digital-pf1-rfs-2025-11-24",
+          "quote": "The Polaris Forge 1 campus is part of a 400 MW fully contracted deployment for CoreWeave under long-term lease agreements.",
+          "locator": "Body",
+          "supports": "tenant"
+        }
+      ],
+      "capacity": {
+        "value": 400,
+        "unit": "MW",
+        "as_of": "2025-08-29",
+        "evidence": [
+          {
+            "source": "src:applied-digital-150mw-2025-08-29",
+            "quote": "With this new long-term lease agreement, the total critical IT capacity across these three long-term lease agreements will encompass 400MW across Applied Digital’s sprawling, purpose-built Polaris Forge 1 Campus",
+            "locator": "Body",
+            "supports": "capacity"
+          }
+        ],
+        "note": "Contracted critical IT capacity; Building 1 (100 MW) operational Nov 2025, others under construction/planned at that date."
+      },
+      "start_year": 2025
+    },
+    {
+      "id": "fac:galaxy-helios",
+      "name": "Galaxy Helios data center campus (CoreWeave)",
+      "operator": "co:galaxy-digital",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 33.6,
+        "lon": -100.8,
+        "precision": "region",
+        "address": "West Texas"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AI/HPC capacity leased to CoreWeave"
+      ],
+      "evidence": [
+        {
+          "source": "src:galaxy-helios-phase1-2026-07-06",
+          "quote": "today announced that it has completed delivery of the first phase of power at its Helios data center campus (\"Helios\") in West Texas, delivering approximately 200 megawatts (\"MW\") of gross power — 133 MW of critical IT load — to CoreWeave under the Company's 15-year lease agreement.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location, status, tenant"
+        },
+        {
+          "source": "src:galaxy-helios-phase1-2026-07-06",
+          "quote": "Greenfield development is underway on the 260 MW of critical IT Phase II build, with civil and structural work advancing and Phase II data hall deliveries expected to commence in the first half of 2027.",
+          "locator": "Body",
+          "supports": "status (phase II)"
+        }
+      ],
+      "capacity": {
+        "value": 800,
+        "unit": "MW",
+        "as_of": "2026-07-06",
+        "evidence": [
+          {
+            "source": "src:galaxy-helios-phase1-2026-07-06",
+            "quote": "Across Phases I through III, CoreWeave has committed to 526 MW of critical IT load — the full 800 MW of gross power currently approved and contracted at Helios",
+            "locator": "Body",
+            "supports": "capacity"
+          }
+        ],
+        "note": "800 MW gross / 526 MW critical IT contracted to CoreWeave; Phase I (133 MW IT) delivered July 2026."
+      },
+      "start_year": 2026
+    },
+    {
+      "id": "fac:fluidstack-anthropic-texas",
+      "name": "Anthropic custom data center(s) with Fluidstack — Texas",
+      "operator": "co:fluidstack",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 31.0,
+        "lon": -99.0,
+        "precision": "region",
+        "address": "Texas (specific site not disclosed)"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "AI compute for Anthropic"
+      ],
+      "evidence": [
+        {
+          "source": "src:anthropic-50b-2025-11-12",
+          "quote": "Today, we are announcing a $50 billion investment in American computing infrastructure, building data centers with Fluidstack in Texas and New York, with more sites to come.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location (state), amount (combined)"
+        },
+        {
+          "source": "src:anthropic-50b-2025-11-12",
+          "quote": "The project will create approximately 800 permanent jobs and 2,400 construction jobs, with sites coming online throughout 2026.",
+          "locator": "Body",
+          "supports": "timeline"
+        }
+      ]
+    },
+    {
+      "id": "fac:fluidstack-anthropic-new-york",
+      "name": "Anthropic custom data center(s) with Fluidstack — New York",
+      "operator": "co:fluidstack",
+      "layer": "datacenter",
+      "kind": "ai_datacenter_campus",
+      "location": {
+        "lat": 43.0,
+        "lon": -75.5,
+        "precision": "region",
+        "address": "New York (specific site not disclosed)"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "AI compute for Anthropic"
+      ],
+      "evidence": [
+        {
+          "source": "src:anthropic-50b-2025-11-12",
+          "quote": "Today, we are announcing a $50 billion investment in American computing infrastructure, building data centers with Fluidstack in Texas and New York, with more sites to come.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location (state), amount (combined)"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:nvidia-gb200-to-stargate-abilene",
+      "from": "co:nvidia",
+      "to": "fac:crusoe-abilene",
+      "commodity": "NVIDIA GB200 NVL72 racks",
+      "description": "NVIDIA GB200 systems deployed at the Stargate Abilene campus (Oracle OCI for OpenAI).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "Oracle began delivering the first NVIDIA GB200 racks in June.",
+          "locator": "Paragraph 5",
+          "supports": "NVIDIA GB200 racks deployed by Oracle at Stargate"
+        },
+        {
+          "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+          "quote": "Each building is designed to operate up to 50,000 NVIDIA GB200 NVL72s on a single integrated network fabric, advancing the frontier of data center design and scale for AI training and inference workloads.",
+          "locator": "Paragraph 2",
+          "supports": "relationship, commodity"
+        },
+        {
+          "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+          "quote": "The Abilene campus will help drive breakthroughs across a variety of industries and accelerate large-scale AI training and inference.",
+          "locator": "Quote, Shar Narasimhan (NVIDIA)",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:oracle-oci-racks-to-stargate-abilene",
+      "from": "co:oracle",
+      "to": "fac:crusoe-abilene",
+      "commodity": "OCI GPU cloud infrastructure (GB200 racks, Zettascale10 fabric)",
+      "description": "Oracle, as tenant/cloud provider, installs OCI GPU racks and the Zettascale10 network fabric at Abilene for OpenAI.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "Oracle began delivering the first NVIDIA GB200 racks in June.",
+          "locator": "Paragraph 5",
+          "supports": "NVIDIA GB200 racks deployed by Oracle at Stargate"
+        },
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "OCI Zettascale10 is the fabric underpinning the flagship supercluster built in collaboration with OpenAI in Abilene, Texas, as part of Stargate.",
+          "locator": "Body",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-hopper-to-xai-colossus",
+      "from": "co:nvidia",
+      "to": "fac:xai-colossus-memphis",
+      "commodity": "NVIDIA Hopper (H100) GPUs; Spectrum-X Ethernet",
+      "description": "100,000 NVIDIA Hopper GPUs networked with NVIDIA Spectrum-X at xAI COLOSSUS, Memphis.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-xai-colossus-2024-10-28",
+          "quote": "NVIDIA today announced that xAI’s Colossus supercomputer cluster comprising 100,000 NVIDIA Hopper GPUs in Memphis, Tennessee, achieved this massive scale",
+          "locator": "Paragraph 1",
+          "supports": "relationship, volume"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "At COLOSSUS, we brought online the first cluster of approximately 100,000 H100 processors, approximately 130 megawatts of compute power, in just 122 days, repurposing the shell of an existing factory.",
+          "locator": "Business",
+          "supports": "volume"
+        }
+      ]
+    },
+    {
+      "id": "flow:supermicro-servers-to-xai-colossus",
+      "from": "co:supermicro",
+      "to": "fac:xai-colossus-memphis",
+      "commodity": "Liquid-cooled 4U GPU servers (NVIDIA HGX Hopper)",
+      "description": "Supermicro liquid-cooled GPU servers used in xAI's Colossus cluster.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:supermicro-xai-colossus-story",
+          "quote": "xAI's Colossus supercomputer cluster achieves remarkable scale by utilizing Supermicro 4U liquid cooled servers containing NVIDIA Hopper Tensor Core GPUs.",
+          "locator": "Body",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:dell-servers-to-xai-colossus",
+      "from": "co:dell",
+      "to": "fac:xai-colossus-memphis",
+      "commodity": "AI servers",
+      "description": "Dell as a server supplier to xAI's Colossus expansion in Memphis.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:memphis-chamber-xai-expansion-2024-12-04",
+          "quote": "Additionally, Fortune 500 tech giants Nvidia, Dell, and Supermicro Computer (SMC) will be establishing operations in Memphis",
+          "locator": "Paragraph 3",
+          "supports": "relationship (Tier 3)"
+        },
+        {
+          "source": "src:memphis-chamber-xai-expansion-2024-12-04",
+          "quote": "In a landmark announcement at the Greater Memphis Chamber Annual Chairman’s Luncheon, xAI revealed plans for an expansion of its “Colossus” supercomputer facility.",
+          "locator": "Paragraph 1",
+          "supports": "context"
+        }
+      ],
+      "inference_note": "Only a Tier 3 source (Greater Memphis Chamber, a private nonprofit) ties Dell to the xAI Colossus expansion; it says Dell will establish operations in Memphis alongside the expansion, not that Dell supplied specific servers. Neither Dell nor xAI Tier 1/2 documents fetched name the relationship. Treat as unconfirmed."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-xai-colossus-2",
+      "from": "co:nvidia",
+      "to": "fac:xai-colossus-2-memphis",
+      "commodity": "NVIDIA GB200 / GB300",
+      "description": "NVIDIA GPUs (GB200 then GB300 clusters) at xAI COLOSSUS II.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "Compute capacity provided includes approximately 325,000 NVIDIA GPUs, backed by hyperscale-class CPUs, exabyte-scale storage and high-speed networking and interconnects purpose-built for AI workloads.",
+          "locator": "Business — Compute Services Agreements with Third Parties",
+          "supports": "relationship (NVIDIA GPUs across COLOSSUS and COLOSSUS II)"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "At COLOSSUS II, we brought online the first cluster of approximately 110,000 GB200 processors, approximately 210 megawatts of compute power, even faster in 91 days.",
+          "locator": "Business",
+          "supports": "volume, commodity"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-gb200-to-fairwater-wisconsin",
+      "from": "co:nvidia",
+      "to": "fac:microsoft-fairwater-mount-pleasant",
+      "commodity": "NVIDIA GB200 servers/racks",
+      "description": "NVIDIA GB200 cluster at Microsoft Fairwater, Mount Pleasant.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:microsoft-inside-fairwater-2025-09-18",
+          "quote": "This datacenter runs a single, massive cluster of interconnected NVIDIA GB200 servers and millions of compute cores and exabytes of storage, all engineered for the most demanding AI workloads.",
+          "locator": "Body",
+          "supports": "relationship, commodity"
+        },
+        {
+          "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+          "quote": "our Mount Pleasant facility will house hundreds of thousands of the world’s most powerful NVIDIA GPUs",
+          "locator": "Body",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-gb200-to-fairwater-atlanta",
+      "from": "co:nvidia",
+      "to": "fac:microsoft-fairwater-atlanta",
+      "commodity": "NVIDIA GB200 NVL72 rack-scale systems",
+      "description": "NVIDIA GB200 NVL72 systems at Microsoft Fairwater Atlanta.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:microsoft-wisconsin-to-atlanta-2025-11-12",
+          "quote": "NVIDIA GB200 NVL72 rack-scale systems that can scale to hundreds of thousands of NVIDIA Blackwell GPUs",
+          "locator": "Atlanta features list",
+          "supports": "relationship, commodity"
+        },
+        {
+          "source": "src:microsoft-superfactory-arch-2025-11-12",
+          "quote": "Fairwater is a departure from the traditional cloud datacenter model and uses a single flat network that can integrate hundreds of thousands of the latest NVIDIA GB200 and GB300 GPUs into a massive supercomputer.",
+          "locator": "Body",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-gpus-to-fairwater-wisconsin-2",
+      "from": "co:nvidia",
+      "to": "fac:microsoft-fairwater-mount-pleasant-2",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "Expected NVIDIA GPU deployment at Microsoft's second Mount Pleasant AI datacenter.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+          "quote": "Today, we’re committing an additional $4 billion to be spent in the next three years to build our second datacenter of similar size and scale",
+          "locator": "Body",
+          "supports": "facility role"
+        },
+        {
+          "source": "src:microsoft-superfactory-arch-2025-11-12",
+          "quote": "Each Fairwater datacenter runs a single, coherent cluster of interconnected NVIDIA Blackwell GPUs",
+          "locator": "Body",
+          "supports": "Fairwater design uses NVIDIA"
+        }
+      ],
+      "inference_note": "Microsoft describes the second facility as 'of similar size and scale' to Fairwater, and each Fairwater datacenter runs NVIDIA Blackwell GPUs; the accelerator for the second facility is not specifically documented."
+    },
+    {
+      "id": "flow:amazon-trainium2-to-project-rainier",
+      "from": "co:amazon",
+      "to": "fac:amazon-rainier-new-carlisle",
+      "commodity": "AWS Trainium2 accelerators (Trn2 UltraServers)",
+      "description": "AWS-designed Trainium2 chips deployed in Project Rainier; St. Joseph County, Indiana is one Rainier site.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:amazon-project-rainier-2025-10-29",
+          "quote": "on Project Rainier, which features nearly half a million Trainium2 chips and provides more than five times the compute power Anthropic used to train its previous AI models.",
+          "locator": "Body",
+          "supports": "commodity, volume"
+        },
+        {
+          "source": "src:amazon-project-rainier-2025-10-29",
+          "quote": "Joseph County, Indiana—one of the Project Rainier sites—will maximize the use of outside air for cooling.",
+          "locator": "Sustainability at scale",
+          "supports": "site"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-units-to-ports-pike",
+      "from": "co:nvidia",
+      "to": "fac:sb-energy-ports-pike",
+      "commodity": "NVIDIA units (GPU systems) for OpenAI tenant",
+      "description": "NVIDIA delivery of units underpins OpenAI's leases at PORTS-Pike; NVIDIA is also a residual value guarantor.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "We and OpenAI are highly dependent on NVIDIA for the success of our PORTS-Pike Technology Campus and performance under the PORTS-Pike leases.",
+          "locator": "Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "Failure by NVIDIA to deliver the units as currently expected, for any reason including, but not limited to, any delays, increase in costs, or decline in NVIDIA’s creditworthiness, could impact OpenAI’s ability or willingness to perform under the PORTS-Pike leases",
+          "locator": "Risk Factors",
+          "supports": "relationship, commodity"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-gpus-to-core-scientific-denton",
+      "from": "co:nvidia",
+      "to": "fac:core-scientific-denton",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "NVIDIA GPUs operated by CoreWeave at the Core Scientific Denton campus.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Body",
+          "supports": "CoreWeave runs NVIDIA GPUs"
+        },
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "By expanding our capacity in Denton, we’re building one of the largest GPU supercomputers in North America",
+          "locator": "Quote",
+          "supports": "GPU deployment at Denton"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-gpus-to-core-scientific-dalton-4",
+      "from": "co:nvidia",
+      "to": "fac:core-scientific-dalton-4",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "NVIDIA GPUs expected at the CoreWeave-licensed Core Scientific Dalton 4 campus.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Body",
+          "supports": "CoreWeave runs NVIDIA GPUs"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Core Scientific Finance is developing six data center facilities across five sites that have been 100% licensed to CoreWeave, Inc.",
+          "locator": "Overview of the Projects",
+          "supports": "tenant"
+        }
+      ],
+      "inference_note": "The Dalton 4 campus is 100% licensed to CoreWeave [Core Scientific 8-K]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model and volume not documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-core-scientific-muskogee",
+      "from": "co:nvidia",
+      "to": "fac:core-scientific-muskogee",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "NVIDIA GPUs expected at the CoreWeave-licensed Core Scientific Muskogee campus.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Body",
+          "supports": "CoreWeave runs NVIDIA GPUs"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Core Scientific Finance is developing six data center facilities across five sites that have been 100% licensed to CoreWeave, Inc.",
+          "locator": "Overview of the Projects",
+          "supports": "tenant"
+        }
+      ],
+      "inference_note": "The Muskogee campus is 100% licensed to CoreWeave [Core Scientific 8-K]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model and volume not documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-core-scientific-marble",
+      "from": "co:nvidia",
+      "to": "fac:core-scientific-marble",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "NVIDIA GPUs expected at the CoreWeave-licensed Core Scientific Marble campus.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Body",
+          "supports": "CoreWeave runs NVIDIA GPUs"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Core Scientific Finance is developing six data center facilities across five sites that have been 100% licensed to CoreWeave, Inc.",
+          "locator": "Overview of the Projects",
+          "supports": "tenant"
+        }
+      ],
+      "inference_note": "The Marble campus is 100% licensed to CoreWeave [Core Scientific 8-K]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model and volume not documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-polaris-forge-1",
+      "from": "co:nvidia",
+      "to": "fac:applied-digital-polaris-forge-1",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "NVIDIA GPUs expected at CoreWeave-leased Polaris Forge 1.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Body",
+          "supports": "CoreWeave runs NVIDIA GPUs"
+        },
+        {
+          "source": "src:applied-digital-pf1-rfs-2025-11-24",
+          "quote": "The Polaris Forge 1 campus is part of a 400 MW fully contracted deployment for CoreWeave under long-term lease agreements.",
+          "locator": "Body",
+          "supports": "tenant"
+        }
+      ],
+      "inference_note": "CoreWeave is the documented tenant of Polaris Forge 1 [Applied Digital]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs at Polaris Forge 1. GPU model not documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-galaxy-helios",
+      "from": "co:nvidia",
+      "to": "fac:galaxy-helios",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "NVIDIA GPUs expected at CoreWeave-leased Helios.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Body",
+          "supports": "CoreWeave runs NVIDIA GPUs"
+        },
+        {
+          "source": "src:galaxy-helios-financing-2025-08-15",
+          "quote": "The Debt Facility will fully fund the initial retrofit and expansion of Helios to deliver the first phase of power for AI and high-performance computing (HPC) operations under a long-term agreement with CoreWeave Inc.",
+          "locator": "Body",
+          "supports": "tenant"
+        }
+      ],
+      "inference_note": "CoreWeave is the documented Helios tenant [Galaxy]; CoreWeave's infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs at Helios. GPU model not documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-coreweave-lancaster",
+      "from": "co:nvidia",
+      "to": "fac:coreweave-lancaster",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "NVIDIA GPUs expected at CoreWeave Lancaster.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Body",
+          "supports": "CoreWeave runs NVIDIA GPUs"
+        },
+        {
+          "source": "src:coreweave-lancaster-2025-07-15",
+          "quote": "That’s why CoreWeave is committing an initial $6 billion to equip a new, state-of-the-art data center outside of Philadelphia in Lancaster, Pennsylvania, purpose-built to power the most cutting-edge AI workloads.",
+          "locator": "Body",
+          "supports": "facility role"
+        }
+      ],
+      "inference_note": "CoreWeave will equip the Lancaster site [CoreWeave]; CoreWeave's infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model/volume undocumented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-meta-hyperion",
+      "from": "co:nvidia",
+      "to": "fac:meta-hyperion-richland-parish",
+      "commodity": "NVIDIA Blackwell / Rubin GPUs",
+      "description": "Likely NVIDIA GPU deployment in Meta's Hyperion cluster.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:nvidia-meta-partnership-2026-02-17",
+          "quote": "This partnership will enable the large-scale deployment of NVIDIA CPUs and millions of NVIDIA Blackwell and Rubin GPUs, as well as the integration of NVIDIA Spectrum-X™ Ethernet switches for Meta’s Facebook Open Switching System platform.",
+          "locator": "Body",
+          "supports": "NVIDIA supplies GPUs to Meta"
+        },
+        {
+          "source": "src:nvidia-meta-partnership-2026-02-17",
+          "quote": "Meta will build hyperscale data centers optimized for both training and inference in support of the company’s long-term AI infrastructure roadmap.",
+          "locator": "Body",
+          "supports": "deployment in Meta data centers"
+        }
+      ],
+      "inference_note": "NVIDIA–Meta partnership covers millions of Blackwell and Rubin GPUs for Meta hyperscale data centers [NVIDIA]; Hyperion is Meta's largest AI cluster [Meta] ⇒ NVIDIA→Hyperion. Site-level allocation not documented; Meta also deploys in-house MTIA accelerators."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-meta-prometheus",
+      "from": "co:nvidia",
+      "to": "fac:meta-prometheus-new-albany",
+      "commodity": "NVIDIA Blackwell GPUs",
+      "description": "Likely NVIDIA GPU deployment in Meta's Prometheus cluster.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:nvidia-meta-partnership-2026-02-17",
+          "quote": "This partnership will enable the large-scale deployment of NVIDIA CPUs and millions of NVIDIA Blackwell and Rubin GPUs, as well as the integration of NVIDIA Spectrum-X™ Ethernet switches for Meta’s Facebook Open Switching System platform.",
+          "locator": "Body",
+          "supports": "NVIDIA supplies GPUs to Meta"
+        },
+        {
+          "source": "src:nvidia-meta-partnership-2026-02-17",
+          "quote": "Meta will build hyperscale data centers optimized for both training and inference in support of the company’s long-term AI infrastructure roadmap.",
+          "locator": "Body",
+          "supports": "deployment in Meta data centers"
+        }
+      ],
+      "inference_note": "As for Hyperion: NVIDIA–Meta partnership [NVIDIA] + Prometheus is a Meta 1GW+ AI cluster [Meta] ⇒ NVIDIA→Prometheus. Not site-documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-meta-el-paso",
+      "from": "co:nvidia",
+      "to": "fac:meta-el-paso",
+      "commodity": "NVIDIA Blackwell / Rubin GPUs",
+      "description": "Likely NVIDIA GPU deployment at Meta El Paso.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:nvidia-meta-partnership-2026-02-17",
+          "quote": "This partnership will enable the large-scale deployment of NVIDIA CPUs and millions of NVIDIA Blackwell and Rubin GPUs, as well as the integration of NVIDIA Spectrum-X™ Ethernet switches for Meta’s Facebook Open Switching System platform.",
+          "locator": "Body",
+          "supports": "NVIDIA supplies GPUs to Meta"
+        },
+        {
+          "source": "src:nvidia-meta-partnership-2026-02-17",
+          "quote": "Meta will build hyperscale data centers optimized for both training and inference in support of the company’s long-term AI infrastructure roadmap.",
+          "locator": "Body",
+          "supports": "deployment in Meta data centers"
+        }
+      ],
+      "inference_note": "NVIDIA–Meta partnership [NVIDIA] + El Paso is a 1 GW Meta AI campus [Meta] ⇒ NVIDIA→El Paso. Not site-documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-stargate-saline",
+      "from": "co:nvidia",
+      "to": "fac:related-digital-saline-township",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "Likely NVIDIA GPUs deployed by Oracle OCI at the Saline Township Stargate campus.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "Oracle began delivering the first NVIDIA GB200 racks in June.",
+          "locator": "Paragraph 5",
+          "supports": "NVIDIA GB200 racks deployed by Oracle at Stargate"
+        },
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "OCI Zettascale10 connects hundreds of thousands of NVIDIA GPUs across multiple data centers to form multi-gigawatt clusters that deliver up to an unprecedented 16 zettaFLOPS of peak performance.",
+          "locator": "Body",
+          "supports": "Oracle OCI clusters use NVIDIA GPUs"
+        }
+      ],
+      "inference_note": "Saline Township is developed exclusively for Oracle as a Stargate site [Related, Oracle]; Oracle's Stargate/OCI clusters use NVIDIA GPUs [SoftBank release, Oracle] ⇒ NVIDIA→Saline. Accelerator for this site not documented (Oracle also offers AMD GPUs)."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-stargate-port-washington",
+      "from": "co:nvidia",
+      "to": "fac:vantage-lighthouse-port-washington",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "Likely NVIDIA GPUs deployed by Oracle OCI at the Port Washington Stargate campus.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "Oracle began delivering the first NVIDIA GB200 racks in June.",
+          "locator": "Paragraph 5",
+          "supports": "NVIDIA GB200 racks deployed by Oracle at Stargate"
+        },
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "OCI Zettascale10 connects hundreds of thousands of NVIDIA GPUs across multiple data centers to form multi-gigawatt clusters that deliver up to an unprecedented 16 zettaFLOPS of peak performance.",
+          "locator": "Body",
+          "supports": "Oracle OCI clusters use NVIDIA GPUs"
+        }
+      ],
+      "inference_note": "Port Washington is an OpenAI/Oracle Stargate site [Vantage]; Oracle's Stargate/OCI clusters use NVIDIA GPUs [SoftBank release, Oracle] ⇒ NVIDIA→Port Washington. Not site-documented."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-stargate-shackelford",
+      "from": "co:nvidia",
+      "to": "fac:vantage-frontier-shackelford",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "Likely NVIDIA GPUs at the Shackelford County Stargate site.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "Oracle began delivering the first NVIDIA GB200 racks in June.",
+          "locator": "Paragraph 5",
+          "supports": "NVIDIA GB200 racks deployed by Oracle at Stargate"
+        },
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "OCI Zettascale10 connects hundreds of thousands of NVIDIA GPUs across multiple data centers to form multi-gigawatt clusters that deliver up to an unprecedented 16 zettaFLOPS of peak performance.",
+          "locator": "Body",
+          "supports": "Oracle OCI clusters use NVIDIA GPUs"
+        }
+      ],
+      "inference_note": "Shackelford County is an Oracle-developed Stargate site [SoftBank release] and Vantage Frontier is the documented campus there [Vantage]; Oracle Stargate clusters use NVIDIA GPUs ⇒ NVIDIA→Frontier. Tenant link and accelerator both inferred."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-stargate-jupiter",
+      "from": "co:nvidia",
+      "to": "fac:stack-project-jupiter-dona-ana",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "Likely NVIDIA GPUs at the Doña Ana County Stargate site.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "Oracle began delivering the first NVIDIA GB200 racks in June.",
+          "locator": "Paragraph 5",
+          "supports": "NVIDIA GB200 racks deployed by Oracle at Stargate"
+        },
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "OCI Zettascale10 connects hundreds of thousands of NVIDIA GPUs across multiple data centers to form multi-gigawatt clusters that deliver up to an unprecedented 16 zettaFLOPS of peak performance.",
+          "locator": "Body",
+          "supports": "Oracle OCI clusters use NVIDIA GPUs"
+        }
+      ],
+      "inference_note": "Doña Ana County is an Oracle-developed Stargate site [SoftBank release]; Oracle Stargate clusters use NVIDIA GPUs ⇒ NVIDIA→Project Jupiter. Not site-documented; site not yet built."
+    },
+    {
+      "id": "flow:nvidia-gpus-to-stargate-milam",
+      "from": "co:nvidia",
+      "to": "fac:sb-energy-milam-county",
+      "commodity": "NVIDIA data center GPUs",
+      "description": "Likely NVIDIA GPUs for the OpenAI tenant at Milam County.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "OpenAI is the tenant under both our PORTS-Pike Technology Campus, which makes up a substantial majority of our backlog, and leases for Milam County Buildings 1 and 2",
+          "locator": "Risk Factors",
+          "supports": "tenant"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "We and OpenAI are highly dependent on NVIDIA for the success of our PORTS-Pike Technology Campus and performance under the PORTS-Pike leases.",
+          "locator": "Risk Factors",
+          "supports": "OpenAI's dependence on NVIDIA (PORTS-Pike)"
+        }
+      ],
+      "inference_note": "OpenAI is the Milam County tenant [SB Energy S-1/A]; the S-1/A documents NVIDIA dependence for OpenAI's PORTS-Pike leases but not for Milam ⇒ NVIDIA→Milam inferred."
+    }
+  ],
+  "financial_links": [],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "openai.com Stargate primary releases",
+      "why": "openai.com returns HTTP 403 to automated fetches (curl and WebFetch); the SoftBank-hosted copy of the five-sites release was used instead. OpenAI's July 2025 Oracle 4.5 GW release and the Jan 2026 SB Energy release on openai.com were not retrievable.",
+      "would_need": "A retrievable copy of openai.com/index/stargate-advances-with-partnership-with-oracle and /index/five-new-stargate-sites (or an SEC filing quoting them)."
+    },
+    {
+      "topic": "Project Jupiter force majeure / current status",
+      "why": "Reports (Bloomberg, CNBC, TechCrunch, 2026-09-24) that Oracle sent a force majeure notice on Project Jupiter are Tier 3 only; Oracle's tenancy was likewise only found in news. Facility status left as 'planned' from the county page.",
+      "would_need": "Oracle 8-K/10-Q disclosure, Doña Ana County IRB ordinance and lease documents, or the notice itself."
+    },
+    {
+      "topic": "Frontier (Shackelford County) as the Oracle/OpenAI Stargate site",
+      "why": "Vantage documents the Frontier campus; SoftBank/OpenAI document an Oracle-developed Stargate site in Shackelford County. No fetched Tier 1/2 document explicitly names Oracle/OpenAI as Frontier's tenant.",
+      "would_need": "Vantage/Oracle release naming the tenant, or Shackelford County abatement agreement."
+    },
+    {
+      "topic": "Lordstown, Ohio status",
+      "why": "SoftBank's Sept 2025 release says ground was broken and operations expected in 2026. News reports a local permit moratorium and a pivot to Foxconn/SoftBank equipment manufacturing; no Tier 1/2 confirmation found.",
+      "would_need": "Village of Lordstown council records / permits, or a SoftBank or Foxconn filing on the site."
+    },
+    {
+      "topic": "Meta Prometheus online date and Hyperion power capacity phasing",
+      "why": "Meta said (Jul 2025) Prometheus would come online in 2026; no fetched Tier 1/2 source confirms it is online as of 2026-09. Hyperion's 2 GW-by-2030 phasing is in news only.",
+      "would_need": "Meta Q2/Q3 2026 earnings call transcript or 10-Q language on Prometheus, Louisiana PSC docket U-37425 filings (Entergy/Meta)."
+    },
+    {
+      "topic": "Shelby County Health Department xAI turbine permit",
+      "why": "The permit (15 turbines at 3231 Paul R. Lowry Rd) could not be located on shelbycountytn.gov; only news and appeal documents hosted by third parties were found. Turbine/power flows belong to the power layer anyway.",
+      "would_need": "SCHD Pollution Control permit document for CTC Property LLC."
+    },
+    {
+      "topic": "Dell–xAI server supply",
+      "why": "Only the Greater Memphis Chamber (Tier 3) and news/X posts link Dell servers to Colossus; not found in Dell SEC filings or Dell releases.",
+      "would_need": "Dell earnings call transcript or 10-K naming xAI, or an xAI/SpaceX filing naming Dell."
+    },
+    {
+      "topic": "ODM/OEM rack suppliers for Stargate, Meta, Microsoft, Google, AWS sites (Foxconn, Quanta, Wistron, Wiwynn)",
+      "why": "No Tier 1/2 document found naming a specific ODM for a specific campus. Foxconn–OpenAI rack partnership and Foxconn's Lordstown manufacturing role are documented in news only in this research pass.",
+      "would_need": "Hon Hai / Quanta / Wistron annual reports or releases naming customers and sites; OpenAI–Foxconn release."
+    },
+    {
+      "topic": "AMD accelerators at specific campuses",
+      "why": "OpenAI–AMD (MI450, 6 GW) and Oracle–AMD deployments are announced but no fetched source ties them to a specific campus.",
+      "would_need": "AMD/OpenAI/Oracle disclosure naming a site for MI450 deployment."
+    },
+    {
+      "topic": "Google TPU deployment at Armstrong/Haskell/Stillwater; AWS Trainium at Mississippi and Pennsylvania",
+      "why": "Google and AWS announcements describe 'cloud and AI infrastructure' without naming accelerators per site; AWS says Project Rainier spans multiple US data centers but only St. Joseph County, IN was named in the fetched source.",
+      "would_need": "Company disclosures naming accelerators per site; AWS statement listing Rainier sites."
+    },
+    {
+      "topic": "Power capacity (MW) for Rainier (New Carlisle), Fairwater (Mount Pleasant, Atlanta), Google and AWS campuses",
+      "why": "Fetched Tier 1/2 sources give investment amounts, not MW; ~2.2 GW for New Carlisle appears only in news.",
+      "would_need": "Utility/IURC filings (NIPSCO GenCo), PSC Wisconsin We Energies dockets, Georgia PSC dockets."
+    },
+    {
+      "topic": "Anthropic/Fluidstack site locations",
+      "why": "Anthropic's release names only states (Texas, New York). Specific sites (e.g., TeraWulf Lake Mariner, Cipher/Fluidstack) appear only in news speculation.",
+      "would_need": "Anthropic/Fluidstack/landlord releases or filings naming site addresses."
+    },
+    {
+      "topic": "Non-US Stargate sites (UAE, Norway)",
+      "why": "Not researched in this pass; primary releases are on openai.com (blocked).",
+      "would_need": "G42/Oracle/NVIDIA/Cisco releases for Stargate UAE; Nscale/Aker for Stargate Norway."
+    }
+  ]
+}

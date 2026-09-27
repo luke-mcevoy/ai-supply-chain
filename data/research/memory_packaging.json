@@ -1,0 +1,1995 @@
+{
+  "layer": "memory_packaging",
+  "analyst": "claude-opus-5.5 (memory_packaging analyst)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:micron-10k-fy2025",
+      "title": "Micron Technology, Inc. Form 10-K for fiscal year ended August 28, 2025",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-10-03",
+      "accessed": "2026-09-27",
+      "identifier": "0000723125-25-000028"
+    },
+    {
+      "id": "src:micron-10q-fq3-2026",
+      "title": "Micron Technology, Inc. Form 10-Q for quarter ended May 28, 2026",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-06-25",
+      "accessed": "2026-09-27",
+      "identifier": "0000723125-26-000015"
+    },
+    {
+      "id": "src:tsmc-20f-2025",
+      "title": "Taiwan Semiconductor Manufacturing Company Limited Form 20-F for fiscal year 2025",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-04-16",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-025362"
+    },
+    {
+      "id": "src:tsmc-annual-report-2025",
+      "title": "TSMC 2025 Annual Report (English)",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20TSMC%20Annual%20Report.E.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tsmc-pr-ap6-2023",
+      "title": "TSMC Announces the Opening of Advanced Backend Fab 6, Marking a Milestone in the Expansion of 3DFabric System Integration Technology",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://pr.tsmc.com/english/news/3033",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-06-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amkor-10k-2025",
+      "title": "Amkor Technology, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Amkor Technology, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-20",
+      "accessed": "2026-09-27",
+      "identifier": "0001047127-26-000014"
+    },
+    {
+      "id": "src:amkor-tsmc-mou-2024",
+      "title": "Amkor and TSMC to Expand Partnership and Collaborate on Advanced Packaging in Arizona",
+      "publisher": "Amkor Technology, Inc.",
+      "url": "https://amkor.com/blog/amkor-and-tsmc-to-expand-partnership-and-collaborate-on-advanced-packaging-in-arizona/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-03",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amkor-peoria-site-2025",
+      "title": "Amkor Announces New Site for U.S. Semiconductor Facility",
+      "publisher": "Amkor Technology, Inc.",
+      "url": "https://amkor.com/blog/amkor-announces-new-site-for-u-s-semiconductor-facility/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amkor-peoria-groundbreaking-2025",
+      "title": "Amkor Breaks Ground on Advanced Packaging Facility in Peoria",
+      "publisher": "Amkor Technology, Inc.",
+      "url": "https://amkor.com/blog/amkor-semiconductor-packaging-facility-peoria-arizona/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-06",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:intel-10k-2025",
+      "title": "Intel Corporation Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "Intel Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-01-23",
+      "accessed": "2026-09-27",
+      "identifier": "0000050863-26-000011"
+    },
+    {
+      "id": "src:nist-chips-sk-hynix-indiana",
+      "title": "SK hynix (Indiana) — CHIPS for America award project page",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS Program Office",
+      "url": "https://www.nist.gov/chips/sk-hynix-indiana-west-lafayette",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-19",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:skhynix-m15x-2024",
+      "title": "SK hynix to Produce DRAM From M15X in Cheongju",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/sk-hynix-to-produce-dram-from-m15x-in-cheongju/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-24",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:skhynix-sites-2024",
+      "title": "[Semiconductor 101] “Where” in the World Are Semiconductors Made and Applied? SK hynix Reveals All",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/semiconductor-101-sk-hynix-on-where-chips-are-made-and-used/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024-09-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:skhynix-pt7-2026",
+      "title": "What Does P&T7 Mean for Cheongju? A New AI Memory Production Hub and Catalyst for the Local Economy",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/skhynix-chungju-pt7/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-04-22",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:skhynix-fy25-results",
+      "title": "SK hynix Announces FY25 Financial Results",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:skhynix-2q26-results",
+      "title": "SK hynix Announces 2Q26 Financial Results",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/q2-2026-business-results/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-29",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:skhynix-tsmc-mou-2024",
+      "title": "SK hynix Partners with TSMC to Strengthen HBM Technological Leadership",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-19",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-locations",
+      "title": "Locations | About Us | Samsung Semiconductor Global",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://semiconductor.samsung.com/about-us/locations/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-business-report-2025",
+      "title": "Samsung Electronics 2025 Business Report (English translation of statutory annual report)",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-03",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-2q26-results",
+      "title": "Samsung Electronics Announces Second Quarter 2026 Results",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-onyang-iatf",
+      "title": "IATF 16949:2016 Certificate of Registration — Samsung Electronics Device Solution, Test & System Package Onyang (hosted by Samsung)",
+      "publisher": "Samsung Electronics Co., Ltd. (certificate issued by BSI)",
+      "url": "https://download.semiconductor.samsung.com/resources/others/Onyang_IATF16949_Certificate_20240930.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2022-10-21",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-cheonan-iatf",
+      "title": "IATF 16949:2016 Letter of Conformance — Samsung Electronics Device Solutions, Test & System Package, Cheonan (hosted by Samsung)",
+      "publisher": "Samsung Electronics Co., Ltd. (letter issued by BSI)",
+      "url": "https://download.semiconductor.samsung.com/resources/others/IATF_Cheonan.pdf",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2021-07-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:micron-pr-amd-hbm3e-2025",
+      "title": "Micron HBM Designed into Leading AMD AI Platform (GlobeNewswire release, Nasdaq.com copy)",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://www.nasdaq.com/press-release/micron-hbm-designed-leading-amd-ai-platform-2025-06-12",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:micron-pr-hbm3e-h200-2024",
+      "title": "Micron Commences Volume Production of Industry-Leading HBM3E Solution to Accelerate the Growth of AI (GlobeNewswire release, Nasdaq.com copy)",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://www.nasdaq.com/press-release/micron-commences-volume-production-of-industry-leading-hbm3e-solution-to-accelerate",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-02-26",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:micron-8k-fq3-2026-pr",
+      "title": "Micron Technology, Inc. Form 8-K Exhibit 99.1 — fiscal Q3 2026 results press release",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/a2026q3ex991-pressrelease.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-06-24",
+      "accessed": "2026-09-27",
+      "identifier": "0000723125-26-000013"
+    },
+    {
+      "id": "src:skhynix-sk-nvidia-2026",
+      "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/skhynix-nvidia-partnership-2026/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:skhynix-nvidia-multiyear-2026",
+      "title": "SK hynix and NVIDIA Announce Multi-year Technology Partnership to Advance Memory for AI Factories",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/multi-year-tech-partnership-with-nvidia/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:ase-20f-2025",
+      "title": "ASE Technology Holding Co., Ltd. Form 20-F for fiscal year 2025",
+      "publisher": "ASE Technology Holding Co., Ltd.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1122411/000119312526135585/d50802d20f.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-04-01",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-135585"
+    },
+    {
+      "id": "src:ibiden-ono-2025",
+      "title": "Notice Regarding the Opening Ceremony of the Ono Plant",
+      "publisher": "IBIDEN Co., Ltd.",
+      "url": "https://www.ibiden.com/company/2025/10/notice-regarding-the-opening-ceremony-of-the-ono-plant.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-10",
+      "accessed": "2026-09-27"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:micron",
+      "name": "Micron Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 43.5287,
+        "lon": -116.1459,
+        "precision": "site",
+        "address": "8000 S. Federal Way, Boise, Idaho 83716"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10k-fy2025",
+          "quote": "Our corporate headquarters are located in Boise, Idaho.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, hq"
+        },
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "In connection with these strategic customer agreements, we expect to receive cash deposits and related financial commitments of $22 billion for agreements concluded to date. Approximately $18 billion of these commitments will be in the form of cash deposits.",
+          "locator": "Part I, Item 2. MD&A — Liquidity",
+          "supports": "customer deposits (counterparties unnamed)"
+        },
+        {
+          "source": "src:micron-8k-fq3-2026-pr",
+          "quote": "HBM4, built on 1-beta DRAM technology, is in high-volume shipments for our lead customer's platform, and qualification samples have been shipped to multiple end-customers.",
+          "locator": "Business highlights",
+          "supports": "HBM4 status"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MU"
+      ],
+      "sec_cik": "0000723125"
+    },
+    {
+      "id": "co:sk-hynix",
+      "name": "SK hynix Inc.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.24,
+        "lon": 127.48,
+        "precision": "city",
+        "address": "Icheon, Gyeonggi-do, Korea"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:skhynix-m15x-2024",
+          "quote": "SK hynix Inc., headquartered in Korea, is the world’s top tier semiconductor supplier offering Dynamic Random Access Memory chips (“DRAM”), flash memory chips (“NAND flash”) and CMOS Image Sensors (“CIS”)",
+          "locator": "About SK hynix Inc.",
+          "supports": "existence, hq country"
+        },
+        {
+          "source": "src:skhynix-sites-2024",
+          "quote": "SK hynix operates three fabs at its headquarters in Icheon—M10, M14, and M16.",
+          "locator": "body",
+          "supports": "hq city"
+        },
+        {
+          "source": "src:skhynix-2q26-results",
+          "quote": "The company has finalized Long-Term Agreements (LTAs) with around 10 customers, including key strategic partners, and is continuing further discussions with major industry clients.",
+          "locator": "body",
+          "supports": "HBM/memory supply commitments (customers unnamed)"
+        }
+      ],
+      "tickers": [
+        "KRX:000660"
+      ]
+    },
+    {
+      "id": "co:samsung",
+      "name": "Samsung Electronics Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2636,
+        "lon": 127.0286,
+        "precision": "city",
+        "address": "Suwon, Gyeonggi-do, Korea"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-2025",
+          "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan.",
+          "locator": "I. Company Overview / D. Production facilities and investment, p.25",
+          "supports": "existence, operations"
+        }
+      ],
+      "tickers": [
+        "KRX:005930"
+      ]
+    },
+    {
+      "id": "co:tsmc",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country": "TW",
+      "hq": {
+        "lat": 24.7736,
+        "lon": 121.0106,
+        "precision": "site",
+        "address": "8, Li-Hsin Rd. 6, Hsinchu Science Park, Hsinchu 300-096, Taiwan"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Corporate Headquarters & Fab 12A 8, Li-Hsin Rd. 6, Hsinchu Science Park, Hsinchu 300-096, Taiwan, R.O.C.",
+          "locator": "Contact Information (inside front cover)",
+          "supports": "hq"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "We currently operate one 150mm wafer fab, six 200mm wafer fabs , nine 300mm wafer fabs , and seven advanced",
+          "locator": "Item 4. Our Semiconductor Facilities",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TWSE:2330",
+        "NYSE:TSM"
+      ],
+      "sec_cik": "0001046179"
+    },
+    {
+      "id": "co:amkor",
+      "name": "Amkor Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 33.37,
+        "lon": -111.9,
+        "precision": "city",
+        "address": "Tempe, AZ 85284"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:amkor-10k-2025",
+          "quote": "Amkor is the world’s largest U.S. headquartered outsourced semiconductor assembly and test service provider (“OSAT”)",
+          "locator": "Item 1. Business",
+          "supports": "existence"
+        },
+        {
+          "source": "src:amkor-10k-2025",
+          "quote": "Our executive offices, which are leased, are located in Arizona and Singapore.",
+          "locator": "Item 2. Properties",
+          "supports": "hq"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMKR"
+      ],
+      "sec_cik": "0001047127"
+    },
+    {
+      "id": "co:intel",
+      "name": "Intel Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3875,
+        "lon": -121.9636,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key assembly and test facilities were in China, New Mexico, Vietnam and Malaysia, with New Mexico being our key advanced packaging facility and a new advanced packaging facility being built in Malaysia.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, packaging operations"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ],
+      "sec_cik": "0000050863"
+    },
+    {
+      "id": "co:ase",
+      "name": "ASE Technology Holding Co., Ltd.",
+      "country": "TW",
+      "hq": {
+        "lat": 22.73,
+        "lon": 120.31,
+        "precision": "city",
+        "address": "26, Chin 3rd Rd., Nanzih Dist., Kaohsiung 811, Taiwan"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:ase-20f-2025",
+          "quote": "ASEH directly controls ASE Group, SPIL Group, USI Group, ASE Social Enterprise Co., Ltd., and ASE Global Integrated Solutions Co., Ltd.",
+          "locator": "Item 4. Information on the Company",
+          "supports": "existence, structure"
+        }
+      ],
+      "tickers": [
+        "TWSE:3711",
+        "NYSE:ASX"
+      ],
+      "sec_cik": "0001122411"
+    },
+    {
+      "id": "co:ibiden",
+      "name": "IBIDEN Co., Ltd.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.359,
+        "lon": 136.612,
+        "precision": "city",
+        "address": "Ogaki City, Gifu Prefecture, Japan"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibiden-ono-2025",
+          "quote": "IBIDEN Co., Ltd. (Head Office: Ogaki City, Gifu Prefecture; President: Koji Kawashima)",
+          "locator": "body",
+          "supports": "existence, hq"
+        }
+      ],
+      "tickers": [
+        "TSE:4062"
+      ]
+    },
+    {
+      "id": "co:nvidia",
+      "name": "NVIDIA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.37,
+        "lon": -121.964,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:skhynix-sk-nvidia-2026",
+          "quote": "NVIDIA (NASDAQ: NVDA) is the world leader in AI and accelerated computing.",
+          "locator": "About NVIDIA",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:NVDA"
+      ],
+      "sec_cik": "0001045810"
+    },
+    {
+      "id": "co:amd",
+      "name": "Advanced Micro Devices, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.383,
+        "lon": -121.971,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-pr-amd-hbm3e-2025",
+          "quote": "Micron HBM3E 36GB 12-high solution brings industry-leading memory technology to AMD Instinct™ MI350 Series GPU platforms, providing outstanding bandwidth and lower power consumption.",
+          "locator": "body",
+          "supports": "existence (as customer platform)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMD"
+      ],
+      "sec_cik": "0000002488"
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:micron-boise-id1",
+      "name": "Micron Boise leading-edge memory fab (ID1)",
+      "operator": "co:micron",
+      "layer": "memory_packaging",
+      "kind": "dram_fab",
+      "location": {
+        "lat": 43.5287,
+        "lon": -116.1459,
+        "precision": "city",
+        "address": "Boise, Idaho (Micron campus, 8000 S. Federal Way)"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "DRAM wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "As part of this plan, in September 2022, we broke ground on a leading-edge memory manufacturing fab in Boise, Idaho. Construction of the fab began in October 2023, with first DRAM wafer output projected in mid-calendar 2027.",
+          "locator": "Part I, Item 2. MD&A — Liquidity and Capital Resources",
+          "supports": "existence, location, status"
+        },
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "We plan to begin construction of the second Idaho fab in 2026, and expect initial wafer output by late calendar 2028.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "second fab status"
+        }
+      ]
+    },
+    {
+      "id": "fac:micron-clay-ny",
+      "name": "Micron New York megafab (Clay, NY)",
+      "operator": "co:micron",
+      "layer": "memory_packaging",
+      "kind": "dram_fab",
+      "location": {
+        "lat": 43.186,
+        "lon": -76.17,
+        "precision": "city",
+        "address": "Clay, New York"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "DRAM wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "Our investment plan for New York includes construction of a leading-edge DRAM memory manufacturing site, consisting of up to four fabs to be built over the next 20-plus years, in Clay, New York. In January 2026, we broke ground on our first New York fab, which will provide supply in 2030 and beyond.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "fac:micron-manassas-va",
+      "name": "Micron Manassas fab",
+      "operator": "co:micron",
+      "layer": "memory_packaging",
+      "kind": "dram_fab",
+      "location": {
+        "lat": 38.7509,
+        "lon": -77.4753,
+        "precision": "city",
+        "address": "Manassas, Virginia"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "DRAM"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10k-fy2025",
+          "quote": "On June 11, 2025, we also entered into a direct funding agreement with the U.S. Department of Commerce for up to $275 million in direct funding to expand and modernize our fab in Manassas, Virginia.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:micron-hiroshima",
+      "name": "Micron Hiroshima DRAM fab",
+      "operator": "co:micron",
+      "layer": "memory_packaging",
+      "kind": "dram_fab",
+      "location": {
+        "lat": 34.426,
+        "lon": 132.743,
+        "precision": "city",
+        "address": "Higashihiroshima, Hiroshima, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "DRAM (EUV nodes)",
+        "AI memory"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "Japan: We are modernizing our Hiroshima manufacturing facility to support future DRAM nodes and AI memory production;",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "existence, location, products"
+        },
+        {
+          "source": "src:micron-10k-fy2025",
+          "quote": "Japan R&D, wafer fabrication",
+          "locator": "Item 2. Properties — principal facilities table",
+          "supports": "function"
+        }
+      ]
+    },
+    {
+      "id": "fac:micron-taiwan-dram-hbm",
+      "name": "Micron Taiwan DRAM and HBM manufacturing (Taichung/Taoyuan)",
+      "operator": "co:micron",
+      "layer": "memory_packaging",
+      "kind": "hbm_dram_fab",
+      "location": {
+        "lat": 24.15,
+        "lon": 120.67,
+        "precision": "region",
+        "address": "Taiwan (Micron's Taiwan fabs; individual sites not itemized in filings)"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "DRAM",
+        "HBM3E",
+        "HBM4"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "Taiwan: We are modernizing and expanding our production capacity for DRAM and HBM products to meet rising market demand.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "A majority of our DRAM production output in 2025 was from our fabrication facilities in Taiwan, and any loss of output could have a material adverse effect on us.",
+          "locator": "Part II, Item 1A. Risk Factors",
+          "supports": "significance"
+        },
+        {
+          "source": "src:micron-10k-fy2025",
+          "quote": "Taiwan R&D, wafer fabrication, component assembly and test, module assembly and test",
+          "locator": "Item 2. Properties — principal facilities table",
+          "supports": "function"
+        }
+      ]
+    },
+    {
+      "id": "fac:micron-tongluo-miaoli",
+      "name": "Micron Tongluo fab (acquired from PSMC)",
+      "operator": "co:micron",
+      "layer": "memory_packaging",
+      "kind": "dram_fab",
+      "location": {
+        "lat": 24.489,
+        "lon": 120.788,
+        "precision": "city",
+        "address": "Tongluo, Miaoli County, Taiwan"
+      },
+      "country": "TW",
+      "status": "under_construction",
+      "products": [
+        "DRAM wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "In March 2026, we completed the acquisition of a wafer fabrication facility in Tongluo, Miaoli County, Taiwan, from Powerchip Semiconductor Manufacturing Corporation for cash consideration of $1.8 billion. We expect this site to support meaningful product shipments from the existing fab beginning in mid-calendar 2027.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "fac:micron-singapore-hbm-packaging",
+      "name": "Micron Singapore HBM advanced packaging facility",
+      "operator": "co:micron",
+      "layer": "memory_packaging",
+      "kind": "hbm_packaging",
+      "location": {
+        "lat": 1.3521,
+        "lon": 103.8198,
+        "precision": "country",
+        "address": "Singapore"
+      },
+      "country": "SG",
+      "status": "under_construction",
+      "products": [
+        "HBM stacks (advanced packaging)"
+      ],
+      "evidence": [
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "Singapore: We broke ground in January 2025 on an HBM advanced packaging facility to meaningfully expand our total advanced packaging capacity beginning in the first half of calendar 2027.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "existence, location, status"
+        }
+      ]
+    },
+    {
+      "id": "fac:sk-hynix-icheon-m16",
+      "name": "SK hynix Icheon M16",
+      "operator": "co:sk-hynix",
+      "layer": "memory_packaging",
+      "kind": "hbm_dram_fab",
+      "location": {
+        "lat": 37.24,
+        "lon": 127.48,
+        "precision": "city",
+        "address": "Icheon, Gyeonggi-do, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "DRAM"
+      ],
+      "evidence": [
+        {
+          "source": "src:skhynix-sites-2024",
+          "quote": "SK hynix operates three fabs at its headquarters in Icheon—M10, M14, and M16. The most recent facility is M16, which was built in 2021 to mainly produce DRAM products.",
+          "locator": "body",
+          "supports": "existence, location, products"
+        }
+      ],
+      "start_year": 2021
+    },
+    {
+      "id": "fac:sk-hynix-cheongju-m15x",
+      "name": "SK hynix Cheongju M15X",
+      "operator": "co:sk-hynix",
+      "layer": "memory_packaging",
+      "kind": "hbm_dram_fab",
+      "location": {
+        "lat": 36.645,
+        "lon": 127.405,
+        "precision": "city",
+        "address": "Cheongju Technopolis, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "DRAM",
+        "HBM"
+      ],
+      "evidence": [
+        {
+          "source": "src:skhynix-m15x-2024",
+          "quote": "As the board of directors approves the plan, the company will build the M15X fab in Cheongju, North Chungcheong Province, for a new DRAM production base, and invest about 5.3 trillion won for fab construction.",
+          "locator": "body",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:skhynix-m15x-2024",
+          "quote": "Being located near the M15, which has been expanding TSV * capabilities, the M15X is the best conditioned for optimization of HBM production.",
+          "locator": "body",
+          "supports": "products"
+        },
+        {
+          "source": "src:skhynix-2q26-results",
+          "quote": "SK hynix is accelerating the mass production schedule for M15X",
+          "locator": "body",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:sk-hynix-cheongju-pt7",
+      "name": "SK hynix P&T7 advanced packaging fab (Cheongju)",
+      "operator": "co:sk-hynix",
+      "layer": "memory_packaging",
+      "kind": "hbm_packaging",
+      "location": {
+        "lat": 36.645,
+        "lon": 127.405,
+        "precision": "city",
+        "address": "Cheongju Technopolis Industrial Complex, Oebuk-dong, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do"
+      },
+      "country": "KR",
+      "status": "under_construction",
+      "products": [
+        "HBM (wafer-level packaging, wafer test)"
+      ],
+      "evidence": [
+        {
+          "source": "src:skhynix-pt7-2026",
+          "quote": "At the far edge of the Cheongju Technopolis Industrial Complex in Oebuk-dong, Heungdeok-gu, Cheongju-si, Chungcheongbuk-do, the imposing silhouette of SK hynix’s nearby Cheongju Campus M15X stretches long across the horizon",
+          "locator": "body",
+          "supports": "location"
+        },
+        {
+          "source": "src:skhynix-pt7-2026",
+          "quote": "P&T7 is a dedicated advanced packaging fab essential for manufacturing AI memory products such as HBM * .",
+          "locator": "body",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:skhynix-pt7-2026",
+          "quote": "Following the groundbreaking, construction is set to proceed with the WT line targeted for completion by October 2027",
+          "locator": "body",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:sk-hynix-yongin-cluster",
+      "name": "SK hynix Yongin Semiconductor Cluster (Phase 1)",
+      "operator": "co:sk-hynix",
+      "layer": "memory_packaging",
+      "kind": "hbm_dram_fab",
+      "location": {
+        "lat": 37.14,
+        "lon": 127.32,
+        "precision": "region",
+        "address": "Yongin, Gyeonggi-do, Korea"
+      },
+      "country": "KR",
+      "status": "under_construction",
+      "products": [
+        "DRAM",
+        "HBM (AI memory)"
+      ],
+      "evidence": [
+        {
+          "source": "src:skhynix-sites-2024",
+          "quote": "Scheduled for completion in 2027, the Yongin Semiconductor Cluster will enable SK hynix to boost production of AI memory products. The 4.15 million-square-meter site, the equivalent of around 580 soccer fields, will include four state-of-the-art fabs and a semiconductor cooperation complex.",
+          "locator": "body",
+          "supports": "existence, location, products"
+        },
+        {
+          "source": "src:skhynix-2q26-results",
+          "quote": "following the opening of the Yongin Phase 1 cleanroom in early 2027",
+          "locator": "body",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "fac:sk-hynix-west-lafayette",
+      "name": "SK hynix Indiana HBM advanced packaging fab (West Lafayette)",
+      "operator": "co:sk-hynix",
+      "layer": "memory_packaging",
+      "kind": "hbm_packaging",
+      "location": {
+        "lat": 40.456,
+        "lon": -86.94,
+        "precision": "city",
+        "address": "Purdue University Research Park, West Lafayette, Indiana"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "next-generation HBM (back-end/advanced packaging)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nist-chips-sk-hynix-indiana",
+          "quote": "SK hynix’s West Lafayette facility at the Purdue University Research Park will be home to an advanced semiconductor packaging line that will mass-produce next generation HBM",
+          "locator": "project page",
+          "supports": "existence, location, products"
+        },
+        {
+          "source": "src:nist-chips-sk-hynix-indiana",
+          "quote": "Project Type Construction of a HBM Back – end line & advanced packaging fabrication and R&D testbed facility",
+          "locator": "project summary table",
+          "supports": "kind"
+        },
+        {
+          "source": "src:skhynix-fy25-results",
+          "quote": "The construction of the advanced packaging facilities in Cheongju and Indiana, the U.S., are also progressing smoothly.",
+          "locator": "body",
+          "supports": "status"
+        }
+      ],
+      "capacity": {
+        "value": 3870000000.0,
+        "unit": "USD (expected capital expenditure)",
+        "as_of": "2024-12",
+        "evidence": [
+          {
+            "source": "src:nist-chips-sk-hynix-indiana",
+            "quote": "Expected Capital Expenditure $3.87 billion",
+            "locator": "project summary table",
+            "supports": "amount"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fac:samsung-pyeongtaek",
+      "name": "Samsung Pyeongtaek campus",
+      "operator": "co:samsung",
+      "layer": "memory_packaging",
+      "kind": "hbm_dram_fab",
+      "location": {
+        "lat": 37.0206,
+        "lon": 127.048,
+        "precision": "city",
+        "address": "114, Samsung-ro, Godeok-myun, Pyeongtaek-si, Gyeonggi-do 17786, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "memory (DRAM, NAND)"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-locations",
+          "quote": "114, Samsung-ro, Godeok-myun, Pyeongtaek-si, Gyeonggi-do 17786, Korea",
+          "locator": "Locations — Pyeongtaek",
+          "supports": "location"
+        },
+        {
+          "source": "src:samsung-business-report-2025",
+          "quote": "The DS Division’s memory output in 1Gb equivalents was 2,245,908 million (major production sites: Korea [Hwaseong, Pyeongtaek, etc.] and China).",
+          "locator": "I. Company Overview / Output, p.24",
+          "supports": "existence, products"
+        }
+      ]
+    },
+    {
+      "id": "fac:samsung-hwaseong",
+      "name": "Samsung Hwaseong campus",
+      "operator": "co:samsung",
+      "layer": "memory_packaging",
+      "kind": "hbm_dram_fab",
+      "location": {
+        "lat": 37.219,
+        "lon": 127.073,
+        "precision": "city",
+        "address": "1, Samsungjeonja-ro, Hwaseong-si, Gyeonggi-do 18448, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "memory",
+        "chip fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-locations",
+          "quote": "1, Samsungjeonja-ro, Hwaseong-si, Gyeonggi-do 18448 Chip fabrication",
+          "locator": "Locations — Hwaseong",
+          "supports": "location, function"
+        },
+        {
+          "source": "src:samsung-business-report-2025",
+          "quote": "The DS Division’s memory output in 1Gb equivalents was 2,245,908 million (major production sites: Korea [Hwaseong, Pyeongtaek, etc.] and China).",
+          "locator": "I. Company Overview / Output, p.24",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:samsung-cheonan",
+      "name": "Samsung Cheonan Test & System Package site",
+      "operator": "co:samsung",
+      "layer": "memory_packaging",
+      "kind": "memory_packaging_test",
+      "location": {
+        "lat": 36.848,
+        "lon": 127.14,
+        "precision": "city",
+        "address": "465, Beonyeong-ro, Seobuk-gu, Cheonan-si, Chungcheongnam-do 31086, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "memory packaging and test"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-cheonan-iatf",
+          "quote": "Samsung Electronics Co., Ltd. Device Solutions, Test & System Package 465, Beonyeong-ro Seobuk-gu, Cheonan-si Chungcheongnam-do 31086 Republic of Korea",
+          "locator": "Letter of Conformance, p.1",
+          "supports": "existence, location, function"
+        },
+        {
+          "source": "src:samsung-locations",
+          "quote": "465, Beonyeong-ro, Seobuk-gu, Cheonan-si, Chungcheongnam-do 31086, Korea",
+          "locator": "Locations — Cheonan",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:samsung-onyang",
+      "name": "Samsung Onyang Test & System Package site",
+      "operator": "co:samsung",
+      "layer": "memory_packaging",
+      "kind": "memory_packaging_test",
+      "location": {
+        "lat": 36.77,
+        "lon": 127.06,
+        "precision": "city",
+        "address": "158, Baebang-ro, Baebang-eup, Asan-si, Chungcheongnam-do 31489, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "memory and foundry device packaging and test (components and modules)"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-onyang-iatf",
+          "quote": "Samsung Electronics Co., Ltd. Device Solution, Test & System Package Onyang 158, Baebang-ro Baebang-eup, Asan-si Chungcheongnam-do 31489 Republic of Korea",
+          "locator": "Certificate of Registration, p.1",
+          "supports": "existence, location, function"
+        },
+        {
+          "source": "src:samsung-onyang-iatf",
+          "quote": "The design and manufacture of memory and foundry(non-memory) semiconductor devices(Component and module).",
+          "locator": "Certificate scope",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-ap1-hsinchu",
+      "name": "TSMC Advanced Backend Fab 1 (Hsinchu)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 24.774,
+        "lon": 121.012,
+        "precision": "city",
+        "address": "6, Creation Rd. 2, Hsinchu Science Park, Hsinchu 300-093, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "advanced packaging and test"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 1 6, Creation Rd. 2, Hsinchu Science Park, Hsinchu 300-093, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-ap2-tainan",
+      "name": "TSMC Advanced Backend Fab 2 (Tainan)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 23.107,
+        "lon": 120.278,
+        "precision": "city",
+        "address": "1, Sanbaozhu Rd., Southern Taiwan Science Park, Tainan 741-013, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "advanced packaging and test"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 2 1, Sanbaozhu Rd., Southern Taiwan Science Park, Tainan 741-013, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-ap3-longtan",
+      "name": "TSMC Advanced Backend Fab 3 (Longtan, Taoyuan)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 24.864,
+        "lon": 121.213,
+        "precision": "city",
+        "address": "101, Longyuan 6th Rd., Longtan Dist., Taoyuan 325-002, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "advanced packaging and test"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 3 101, Longyuan 6th Rd., Longtan Dist., Taoyuan 325-002, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-ap5-taichung",
+      "name": "TSMC Advanced Backend Fab 5 (Taichung)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 24.211,
+        "lon": 120.618,
+        "precision": "city",
+        "address": "5, Keya W. Rd., Central Taiwan Science Park, Taichung 428-303, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "advanced packaging and test"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 5 5, Keya W. Rd., Central Taiwan Science Park, Taichung 428-303, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-ap6-zhunan",
+      "name": "TSMC Advanced Backend Fab 6 (Zhunan, Miaoli)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "cowos_soic_packaging",
+      "location": {
+        "lat": 24.69,
+        "lon": 120.89,
+        "precision": "city",
+        "address": "1, Kezhuan 1st Rd., Zhunan Township, Miaoli 350-012, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "TSMC-SoIC",
+        "InFO",
+        "CoWoS",
+        "advanced testing"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 6 1, Kezhuan 1st Rd., Zhunan Township, Miaoli 350-012, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:tsmc-pr-ap6-2023",
+          "quote": "Advanced Backend Fab 6 enables TSMC to flexibly allocate capacity for TSMC 3DFabricTM advanced packaging and silicon stacking technologies, such as SoIC, InFO, CoWoS and advanced testing, improving production yield and efficiency.",
+          "locator": "body",
+          "supports": "products"
+        }
+      ],
+      "start_year": 2023,
+      "capacity": {
+        "value": 1000000,
+        "unit": "12-inch wafer equivalents/yr (3DFabric), estimated",
+        "as_of": "2023-06-08",
+        "note": "TSMC's own estimate at opening; 'more than 1 million'",
+        "evidence": [
+          {
+            "source": "src:tsmc-pr-ap6-2023",
+            "quote": "TSMC estimates that the fab will have the capacity to produce more than 1 million 12-inch wafer equivalent 3DFabric process technology per year, and more than 10 million hours of testing services per year.",
+            "locator": "body",
+            "supports": "capacity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fac:tsmc-ap7-chiayi",
+      "name": "TSMC Advanced Backend Fab 7 (Chiayi)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 23.463,
+        "lon": 120.287,
+        "precision": "city",
+        "address": "68, Jiake 5st Rd., Taibao City, Chiayi County 612-013, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "advanced packaging and test"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 7 68, Jiake 5st Rd., Taibao City, Chiayi County 612-013, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-ap8-tainan",
+      "name": "TSMC Advanced Backend Fab 8 (Xinshi, Tainan)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 23.085,
+        "lon": 120.295,
+        "precision": "city",
+        "address": "168, Fenghua, Xinshi Dist., Tainan City 744-010, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "advanced packaging and test"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 8 168, Fenghua, Xinshi Dist., Tainan City,744-010, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:tsmc-arizona-advanced-packaging",
+      "name": "TSMC Arizona advanced packaging facilities (planned, two)",
+      "operator": "co:tsmc",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 33.75,
+        "lon": -112.13,
+        "precision": "region",
+        "address": "Phoenix, Arizona (site not specified in filings)"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "advanced packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Also in 2025, TSMC announced its intention to expand its investment in advanced semiconductor manufacturing in the United States, including",
+          "locator": "Letter to Shareholders, p.10 (PDF)",
+          "supports": "status"
+        },
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "plans for three additional fabrication plants, two advanced packaging facilities and a major R&D team center.",
+          "locator": "Letter to Shareholders, p.10 (PDF), continuation",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "fac:amkor-peoria-az",
+      "name": "Amkor Arizona advanced packaging and test campus (Peoria)",
+      "operator": "co:amkor",
+      "layer": "memory_packaging",
+      "kind": "osat_advanced_packaging",
+      "location": {
+        "lat": 33.76,
+        "lon": -112.28,
+        "precision": "city",
+        "address": "Peoria Innovation Core, north Peoria, Arizona"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "advanced packaging and test (incl. TSMC CoWoS/InFO under MOU)"
+      ],
+      "evidence": [
+        {
+          "source": "src:amkor-peoria-site-2025",
+          "quote": "The facility will be constructed on a 104-acre site within the Peoria Innovation Core, in north Peoria, AZ.",
+          "locator": "body",
+          "supports": "location"
+        },
+        {
+          "source": "src:amkor-10k-2025",
+          "quote": "During 2025, we began construction of the first phase of the Arizona Facility, which will have approximately 1.8 million square feet of space. Manufacturing is expected to begin in the first half of 2028.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, status"
+        },
+        {
+          "source": "src:amkor-peoria-groundbreaking-2025",
+          "quote": "Spanning over 750,000 square feet of cleanroom manufacturing space built in two phases, the new Peoria campus is on track to become the largest and most advanced outsourced semiconductor packaging plant in the United States.",
+          "locator": "body",
+          "supports": "scale"
+        }
+      ]
+    },
+    {
+      "id": "fac:amkor-bac-ninh-vietnam",
+      "name": "Amkor Vietnam Facility (Bac Ninh)",
+      "operator": "co:amkor",
+      "layer": "memory_packaging",
+      "kind": "osat_advanced_packaging",
+      "location": {
+        "lat": 21.1861,
+        "lon": 106.0763,
+        "precision": "city",
+        "address": "Bac Ninh, Vietnam"
+      },
+      "country": "VN",
+      "status": "operational",
+      "products": [
+        "advanced packages"
+      ],
+      "evidence": [
+        {
+          "source": "src:amkor-10k-2025",
+          "quote": "our manufacturing facility in Bac Ninh, Vietnam (the “Vietnam Facility”)",
+          "locator": "Forward-looking statements",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amkor-10k-2025",
+          "quote": "We began delivering advanced packages from the Vietnam Facility in the third quarter of 2024",
+          "locator": "Item 1A. Risk Factors",
+          "supports": "status"
+        }
+      ],
+      "start_year": 2024
+    },
+    {
+      "id": "fac:ase-kaohsiung",
+      "name": "ASE Inc. Kaohsiung packaging facility (Nanzih)",
+      "operator": "co:ase",
+      "layer": "memory_packaging",
+      "kind": "osat_advanced_packaging",
+      "location": {
+        "lat": 22.73,
+        "lon": 120.31,
+        "precision": "city",
+        "address": "Kaohsiung Nanzih Technology Industrial Park, Kaohsiung, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "flip chip",
+        "wafer bumping",
+        "fan-out (FOCoS) incl. HBM integration"
+      ],
+      "evidence": [
+        {
+          "source": "src:ase-20f-2025",
+          "quote": "Our primary packaging facility, which offers complete semiconductor manufacturing solutions in conjunction with ASE Test Taiwan and foundries. Focuses primarily on packaging services such as flip chip, wafer bumping, and fine-pitch wire bonding.",
+          "locator": "Item 4.D Property, Plants and Equipment — ASE Inc., Kaohsiung",
+          "supports": "existence, function"
+        },
+        {
+          "source": "src:ase-20f-2025",
+          "quote": "We have leased land in the Kaohsiung Nanzih Technology Industrial Park from Bureau of Industrial Parks, Ministry of Economic Affairs",
+          "locator": "Item 4.D",
+          "supports": "location"
+        },
+        {
+          "source": "src:ase-20f-2025",
+          "quote": "A fan-out package flip-chip mounted on a high pin count BGA substrate. It incorporates an RDL facilitating shorter die-to-die interconnections between multiple chips.",
+          "locator": "Item 4 — leading-edge advanced packages table (FOCoS)",
+          "supports": "technology"
+        },
+        {
+          "source": "src:ase-20f-2025",
+          "quote": "ASICs and HBM for HPC, networking, server and AI/ML applications.",
+          "locator": "Item 4 — leading-edge advanced packages table (FOCoS applications)",
+          "supports": "HBM relevance"
+        }
+      ],
+      "start_year": 1984
+    },
+    {
+      "id": "fac:spil-taichung",
+      "name": "SPIL (Siliconware) packaging and testing facilities, central Taiwan",
+      "operator": "co:ase",
+      "layer": "memory_packaging",
+      "kind": "osat_advanced_packaging",
+      "location": {
+        "lat": 24.15,
+        "lon": 120.6,
+        "precision": "region",
+        "address": "Taichung, Changhua, Yunlin and Hsinchu, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "semiconductor packaging and testing"
+      ],
+      "evidence": [
+        {
+          "source": "src:ase-20f-2025",
+          "quote": "Packaging and testing facility, which offers semiconductor packaging and testing services.",
+          "locator": "Item 4.D — Siliconware Precision Industries Co., Ltd.",
+          "supports": "function"
+        },
+        {
+          "source": "src:ase-20f-2025",
+          "quote": "We have leased land from the Central Taiwan Science Park Administration in Taichung with 19-year to 20-year terms that will expire in December 2041.",
+          "locator": "Item 4.D",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:ibiden-ono",
+      "name": "IBIDEN Ono Plant (IC package substrates)",
+      "operator": "co:ibiden",
+      "layer": "memory_packaging",
+      "kind": "ic_substrate_plant",
+      "location": {
+        "lat": 35.47,
+        "lon": 136.63,
+        "precision": "city",
+        "address": "237-1 Shimoiso, Ono Town, Ibi District, Gifu Prefecture, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "advanced IC package substrates for AI servers and networking"
+      ],
+      "evidence": [
+        {
+          "source": "src:ibiden-ono-2025",
+          "quote": "237-1 Shimoiso, Ono Town, Ibi District, Gifu Prefecture",
+          "locator": "Overview and Features of the Ono Plant",
+          "supports": "location"
+        },
+        {
+          "source": "src:ibiden-ono-2025",
+          "quote": "As our largest domestic production area and a world-leading IC package substrate manufacturing facility, it is scheduled to sequentially begin mass production starting in October 2025, primarily for AI server products.",
+          "locator": "body",
+          "supports": "existence, status, products"
+        }
+      ],
+      "start_year": 2025
+    },
+    {
+      "id": "fac:intel-new-mexico-packaging",
+      "name": "Intel New Mexico advanced packaging (Rio Rancho)",
+      "operator": "co:intel",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 35.244,
+        "lon": -106.662,
+        "precision": "city",
+        "address": "Rio Rancho, New Mexico"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "EMIB",
+        "Foveros advanced packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key assembly and test facilities were in China, New Mexico, Vietnam and Malaysia, with New Mexico being our key advanced packaging facility",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, location, function"
+        }
+      ]
+    },
+    {
+      "id": "fac:intel-malaysia-advanced-packaging",
+      "name": "Intel Malaysia advanced packaging facility (under construction)",
+      "operator": "co:intel",
+      "layer": "memory_packaging",
+      "kind": "advanced_packaging",
+      "location": {
+        "lat": 4.2105,
+        "lon": 101.9758,
+        "precision": "country",
+        "address": "Malaysia"
+      },
+      "country": "MY",
+      "status": "under_construction",
+      "products": [
+        "advanced packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "a new advanced packaging facility being built in Malaysia",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, status"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:tsmc-to-sk-hynix-hbm4-base-die",
+      "from": "co:tsmc",
+      "to": "co:sk-hynix",
+      "commodity": "HBM4 base (logic) die wafers",
+      "description": "SK hynix disclosed it would adopt TSMC's logic process for the HBM4 base die, replacing its in-house base die used through HBM3E. Receiving SK hynix facility not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:skhynix-tsmc-mou-2024",
+          "quote": "SK hynix has used a proprietary technology to make base dies up to HBM3E, but plans to adopt TSMC’s advanced logic process for HBM4’s base die so additional functionality can be packed into limited space.",
+          "locator": "body",
+          "supports": "relationship, commodity"
+        }
+      ]
+    },
+    {
+      "id": "flow:sk-hynix-hbm-to-tsmc-cowos",
+      "from": "co:sk-hynix",
+      "to": "co:tsmc",
+      "commodity": "HBM stacks for CoWoS integration",
+      "description": "SK hynix and TSMC state they integrate SK hynix HBM with TSMC logic via CoWoS for common customers; the specific TSMC advanced backend fab is not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:skhynix-tsmc-mou-2024",
+          "quote": "SK hynix and TSMC also agreed to collaborate to optimize the integration of SK hynix’s HBM and TSMC’s CoWoS ®2 technology, while cooperating in responding to common customers’ requests related to HBM.",
+          "locator": "body",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:skhynix-tsmc-mou-2024",
+          "quote": "We’ve worked together in integrating the most advanced logic and state-of-the art HBM in providing the world’s leading AI solutions",
+          "locator": "quote of Dr. Kevin Zhang, TSMC",
+          "supports": "relationship (existing)"
+        },
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "CoWoS® advanced packaging service integrates multiple system-on-chip (SoC) chips and the high-bandwidth memory (HBM) stacks to enhance HPC products with superior compute power and memory bandwidth.",
+          "locator": "Technology Development / Advanced Packaging, p.53 (PDF)",
+          "supports": "role of HBM in CoWoS"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-arizona-to-amkor-peoria",
+      "from": "co:tsmc",
+      "to": "fac:amkor-peoria-az",
+      "commodity": "wafers for turnkey advanced packaging and test (InFO/CoWoS)",
+      "description": "Under an MOU, TSMC will contract turnkey advanced packaging and test services from Amkor's planned Peoria facility to serve customers of TSMC's Phoenix wafer fabs. Planned; Amkor manufacturing expected to begin in 1H 2028.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:amkor-tsmc-mou-2024",
+          "quote": "Under the agreement, TSMC will contract turnkey advanced packaging and test services from Amkor in their planned facility in Peoria, Arizona. TSMC will leverage these services to support its customers, particularly those using TSMC’s advanced wafer fabrication facilities in Phoenix.",
+          "locator": "body",
+          "supports": "relationship, endpoints"
+        },
+        {
+          "source": "src:amkor-tsmc-mou-2024",
+          "quote": "The companies will jointly define the specific packaging technologies, such as TSMC’s Integrated Fan-Out (InFO) and Chip on Wafer on Substrate (CoWoS ® ) that will be employed to address common customers’ needs.",
+          "locator": "body",
+          "supports": "commodity"
+        }
+      ],
+      "from_hint": "fac:tsmc-fab21-arizona"
+    },
+    {
+      "id": "flow:tsmc-fab18-to-tsmc-ap6",
+      "from": "co:tsmc",
+      "to": "fac:tsmc-ap6-zhunan",
+      "commodity": "leading-edge logic wafers (SoC dies) for SoIC/CoWoS",
+      "description": "Intra-TSMC flow of leading-edge logic wafers into the Zhunan advanced backend fab for 3DFabric integration.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:tsmc-pr-ap6-2023",
+          "quote": "the Company’s first all-in-one automated advanced packaging and testing fab to realize 3DFabricTM integration of front-end to back-end process and testing services.",
+          "locator": "body",
+          "supports": "AP6 integrates front-end output"
+        },
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "CoWoS® advanced packaging service integrates multiple system-on-chip (SoC) chips and the high-bandwidth memory (HBM) stacks to enhance HPC products with superior compute power and memory bandwidth.",
+          "locator": "Technology Development / Advanced Packaging, p.53 (PDF)",
+          "supports": "role of HBM in CoWoS"
+        }
+      ],
+      "from_hint": "fac:tsmc-fab18-tainan",
+      "inference_note": "TSMC states AP6 integrates front-end and back-end 3DFabric processes and that CoWoS integrates SoC chips with HBM [TSMC AR 2025, AP6 release]; TSMC's leading-edge logic is fabricated in its wafer fabs (e.g., Fab 18, Southern Taiwan Science Park, 3nm per 20-F). No document maps a specific wafer fab to AP6 ⇒ Fab 18 → AP6 is inferred."
+    },
+    {
+      "id": "flow:tsmc-fab18-to-tsmc-ap8",
+      "from": "co:tsmc",
+      "to": "fac:tsmc-ap8-tainan",
+      "commodity": "leading-edge logic wafers for advanced packaging",
+      "description": "Intra-TSMC flow of leading-edge logic wafers from Southern Taiwan Science Park fabs to the Tainan AP8 advanced backend fab.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "Advanced Backend Fab 8 168, Fenghua, Xinshi Dist., Tainan City,744-010, Taiwan, R.O.C.",
+          "locator": "Contact Information",
+          "supports": "AP8 location"
+        },
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "CoWoS® advanced packaging service integrates multiple system-on-chip (SoC) chips and the high-bandwidth memory (HBM) stacks to enhance HPC products with superior compute power and memory bandwidth.",
+          "locator": "Technology Development / Advanced Packaging, p.53 (PDF)",
+          "supports": "role of HBM in CoWoS"
+        }
+      ],
+      "from_hint": "fac:tsmc-fab18-tainan",
+      "inference_note": "AP8 and Fab 18 are both in the Tainan area [TSMC AR 2025 contact list]; CoWoS integrates TSMC-made SoC dies with HBM [TSMC AR 2025]. The specific wafer-fab-to-AP8 routing is not disclosed ⇒ inferred by proximity and function."
+    },
+    {
+      "id": "flow:sk-hynix-m15x-to-pt7",
+      "from": "fac:sk-hynix-cheongju-m15x",
+      "to": "fac:sk-hynix-cheongju-pt7",
+      "commodity": "HBM DRAM core-die wafers",
+      "description": "DRAM wafers from M15X expected to feed the adjacent P&T7 HBM packaging fab (planned; P&T7 WT line targeted Oct 2027).",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:skhynix-m15x-2024",
+          "quote": "Being located near the M15, which has been expanding TSV * capabilities, the M15X is the best conditioned for optimization of HBM production.",
+          "locator": "body",
+          "supports": "M15X role in HBM"
+        },
+        {
+          "source": "src:skhynix-pt7-2026",
+          "quote": "Once completed and fully operational alongside the adjacent production sites, Cheongju will firmly establish itself as SK hynix’s new core hub for AI memory.",
+          "locator": "body",
+          "supports": "co-location"
+        }
+      ],
+      "inference_note": "SK hynix describes M15X as optimized for HBM production and P&T7 as a dedicated HBM advanced packaging fab adjacent to M15X in Cheongju; no document states M15X wafers go to P&T7 specifically ⇒ inferred."
+    },
+    {
+      "id": "flow:sk-hynix-korea-dram-to-west-lafayette",
+      "from": "co:sk-hynix",
+      "to": "fac:sk-hynix-west-lafayette",
+      "commodity": "HBM DRAM wafers for back-end stacking",
+      "description": "Korean-fabricated DRAM wafers expected to supply the Indiana HBM back-end line (planned).",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:nist-chips-sk-hynix-indiana",
+          "quote": "Project Type Construction of a HBM Back – end line & advanced packaging fabrication and R&D testbed facility",
+          "locator": "project summary table",
+          "supports": "back-end only"
+        },
+        {
+          "source": "src:skhynix-sites-2024",
+          "quote": "SK hynix operates three fabs at its headquarters in Icheon—M10, M14, and M16. The most recent facility is M16, which was built in 2021 to mainly produce DRAM products.",
+          "locator": "body",
+          "supports": "DRAM fabs in Korea"
+        }
+      ],
+      "from_hint": "fac:sk-hynix-icheon-m16",
+      "inference_note": "The Indiana project is a back-end/packaging line [NIST]; SK hynix's DRAM fabs are in Korea [SK hynix]. No US SK hynix DRAM fab is documented ⇒ DRAM wafers must be supplied from Korean fabs; the specific source fab is undisclosed."
+    },
+    {
+      "id": "flow:micron-dram-to-singapore-hbm-packaging",
+      "from": "fac:micron-taiwan-dram-hbm",
+      "to": "fac:micron-singapore-hbm-packaging",
+      "commodity": "DRAM wafers for HBM stacking",
+      "description": "DRAM wafers from Micron fabs expected to supply the Singapore HBM advanced packaging facility (planned, 1H 2027).",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "A majority of our DRAM production output in 2025 was from our fabrication facilities in Taiwan, and any loss of output could have a material adverse effect on us.",
+          "locator": "Part II, Item 1A",
+          "supports": "DRAM source"
+        },
+        {
+          "source": "src:micron-10q-fq3-2026",
+          "quote": "Singapore: We broke ground in January 2025 on an HBM advanced packaging facility to meaningfully expand our total advanced packaging capacity beginning in the first half of calendar 2027.",
+          "locator": "Part I, Item 2",
+          "supports": "packaging destination"
+        }
+      ],
+      "inference_note": "Micron states most DRAM output is from Taiwan fabs and that Singapore will host an HBM advanced packaging facility; Micron's Singapore wafer fabs are NAND per its filings. The DRAM-wafer route Taiwan → Singapore is deduced, not disclosed."
+    },
+    {
+      "id": "flow:micron-hbm-to-tsmc-cowos",
+      "from": "fac:micron-taiwan-dram-hbm",
+      "to": "co:tsmc",
+      "commodity": "HBM3E stacks",
+      "description": "Micron HBM3E ships into GPU platforms assembled on TSMC CoWoS; the handoff to TSMC is not named in a Micron or TSMC document.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:micron-10k-fy2025",
+          "quote": "In the fourth quarter of 2025, HBM3E 12-high represented the majority of our HBM shipments.",
+          "locator": "Item 1. Business — CMBU",
+          "supports": "Micron HBM3E production"
+        },
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "CoWoS® advanced packaging service integrates multiple system-on-chip (SoC) chips and the high-bandwidth memory (HBM) stacks to enhance HPC products with superior compute power and memory bandwidth.",
+          "locator": "Technology Development / Advanced Packaging, p.53 (PDF)",
+          "supports": "role of HBM in CoWoS"
+        }
+      ],
+      "to_hint": "fac:tsmc-ap6-zhunan",
+      "inference_note": "Micron produces HBM3E [10-K]; TSMC's CoWoS integrates SoC dies with HBM stacks [TSMC AR 2025]. Neither company names the other in these documents ⇒ inferred. Micron's Taiwan operations are used as origin because Micron discloses Taiwan DRAM/HBM production expansion."
+    },
+    {
+      "id": "flow:intel-fabs-to-new-mexico-packaging",
+      "from": "co:intel",
+      "to": "fac:intel-new-mexico-packaging",
+      "commodity": "finished logic wafers for EMIB/Foveros packaging",
+      "description": "Intel states finished wafers from its production fabs are sent to its assembly and test facilities, with New Mexico its key advanced packaging facility.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "Finished wafers from our production fabs are then sent to our assembly and test facilities where the individual die are packaged and the finished semiconductor is tested.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "origin fabs"
+        }
+      ],
+      "from_hint": "fac:intel-oregon"
+    },
+    {
+      "id": "flow:samsung-memory-fabs-to-onyang",
+      "from": "fac:samsung-pyeongtaek",
+      "to": "fac:samsung-onyang",
+      "commodity": "DRAM wafers for packaging and test",
+      "description": "Memory wafers from Samsung fabs to its Onyang Test & System Package site.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-2025",
+          "quote": "The DS Division’s memory output in 1Gb equivalents was 2,245,908 million (major production sites: Korea [Hwaseong, Pyeongtaek, etc.] and China).",
+          "locator": "p.24",
+          "supports": "memory fabs"
+        },
+        {
+          "source": "src:samsung-onyang-iatf",
+          "quote": "The design and manufacture of memory and foundry(non-memory) semiconductor devices(Component and module).",
+          "locator": "Certificate scope",
+          "supports": "Onyang packages memory"
+        }
+      ],
+      "inference_note": "Samsung's memory is produced mainly at Hwaseong and Pyeongtaek [Business Report]; Onyang is a Test & System Package site manufacturing memory components and modules [IATF certificate on Samsung site]. Routing between specific sites, and HBM-specific stacking at Onyang, are not disclosed in Tier 1/2 documents ⇒ inferred."
+    },
+    {
+      "id": "flow:micron-hbm3e-to-amd-mi350",
+      "from": "fac:micron-taiwan-dram-hbm",
+      "to": "co:amd",
+      "commodity": "HBM3E 36GB 12-high",
+      "description": "Micron HBM3E 12-high is integrated into AMD Instinct MI350 Series GPUs (Micron release with AMD quote). Physical delivery point (AMD's packaging partner) and Micron origin fab are not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:micron-pr-amd-hbm3e-2025",
+          "quote": "today announced the integration of its HBM3E 36GB 12-high offering into the upcoming AMD Instinct™ MI350 Series solutions.",
+          "locator": "first paragraph",
+          "supports": "relationship, commodity"
+        },
+        {
+          "source": "src:micron-pr-amd-hbm3e-2025",
+          "quote": "The Micron HBM3E 36GB 12-high product is instrumental in unlocking the performance and energy efficiency of AMD Instinct™ MI350 Series accelerators",
+          "locator": "quote of AMD executive",
+          "supports": "relationship (AMD confirms)"
+        }
+      ]
+    },
+    {
+      "id": "flow:micron-hbm3e-to-nvidia-h200",
+      "from": "fac:micron-taiwan-dram-hbm",
+      "to": "co:nvidia",
+      "commodity": "HBM3E 24GB 8-high",
+      "description": "Micron stated its 24GB 8H HBM3E would be part of NVIDIA H200 Tensor Core GPUs shipping from Q2 CY2024. Micron origin fab not disclosed.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:micron-pr-hbm3e-h200-2024",
+          "quote": "Micron’s 24GB 8H HBM3E will be part of NVIDIA H200 Tensor Core GPUs",
+          "locator": "first paragraph",
+          "supports": "relationship, commodity"
+        }
+      ]
+    },
+    {
+      "id": "flow:sk-hynix-hbm4-to-nvidia-vera-rubin",
+      "from": "co:sk-hynix",
+      "to": "co:nvidia",
+      "commodity": "HBM4",
+      "description": "SK Group/NVIDIA joint release: NVIDIA Vera Rubin systems for SK Telecom's AI cloud are powered by SK hynix HBM4; SK hynix and NVIDIA also entered a long-term AI memory supply partnership (terms undisclosed).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:skhynix-sk-nvidia-2026",
+          "quote": "deploy NVIDIA Vera Rubin accelerated computing powered by SK hynix HBM4, with the first AI factory planned to come online in 2027.",
+          "locator": "body",
+          "supports": "relationship, commodity"
+        },
+        {
+          "source": "src:skhynix-sk-nvidia-2026",
+          "quote": "SK hynix is also entering into a long-term AI memory partnership with NVIDIA. As a follow-up measure to solidify their previous long-term technical partnership, this agreement allows NVIDIA to secure a stable supply of next-generation AI memory, while enabling SK hynix to expand the foundation for growth.",
+          "locator": "body",
+          "supports": "supply commitment"
+        },
+        {
+          "source": "src:skhynix-nvidia-multiyear-2026",
+          "quote": "The multi-year agreement supports supply to address the extended development cycles of advanced memory.",
+          "locator": "body",
+          "supports": "supply commitment"
+        }
+      ]
+    },
+    {
+      "id": "flow:ibiden-ono-to-tsmc-cowos",
+      "from": "fac:ibiden-ono",
+      "to": "co:tsmc",
+      "commodity": "IC package substrates for AI servers",
+      "description": "AI-server IC substrates from Ibiden's Ono plant into CoWoS-class module assembly.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:ibiden-ono-2025",
+          "quote": "Advanced IC Package Substrates (for AI servers and networking)",
+          "locator": "Overview and Features of the Ono Plant",
+          "supports": "product"
+        },
+        {
+          "source": "src:tsmc-annual-report-2025",
+          "quote": "CoWoS®-L advanced packaging service enables larger HPC products by combining Chip on Wafer on Substrate with RDL-based interposer",
+          "locator": "Technology Development, p.53 (PDF)",
+          "supports": "CoWoS uses a package substrate"
+        }
+      ],
+      "to_hint": "fac:tsmc-ap6-zhunan",
+      "inference_note": "Ibiden makes advanced IC package substrates for AI servers [Ibiden]; TSMC's CoWoS mounts chip-on-wafer assemblies on a package substrate [TSMC AR 2025]. Neither document names the other party, and the substrate may be attached by TSMC or by a downstream OSAT ⇒ inferred, illustrative only."
+    },
+    {
+      "id": "flow:samsung-foundry-hbm4-base-die-to-memory",
+      "from": "co:samsung",
+      "to": "fac:samsung-onyang",
+      "commodity": "HBM4 base dies (4nm logic)",
+      "description": "Samsung Foundry produces HBM4 base dies for Samsung's memory business; the stacking/packaging site is not disclosed.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-2025",
+          "quote": "HBM4 base-die mass production has commenced, backed by stable yields from the 4nm process",
+          "locator": "II. Business Overview — Foundry, p.41",
+          "supports": "base-die production"
+        },
+        {
+          "source": "src:samsung-2q26-results",
+          "quote": "Earnings for the Foundry Business improved significantly prior to incentive-related provisions, driven by HBM base-die demand",
+          "locator": "Foundry",
+          "supports": "base-die demand"
+        }
+      ],
+      "from_hint": "fac:samsung-hwaseong",
+      "inference_note": "Samsung discloses in-house 4nm HBM4 base-die production [Business Report] and that Onyang is a Test & System Package site for memory [IATF certificate]. Which Samsung site stacks HBM4 on these base dies is not in Tier 1/2 sources ⇒ destination inferred."
+    }
+  ],
+  "financial_links": [],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "Micron largest-customer identity (HBM)",
+      "why": "Micron 10-K/10-Q disclose one customer at 17% (FY2025) and 10% (9M FY2026) of revenue, primarily CMBU, but do not name it.",
+      "would_need": "A filing or Micron release naming the customer; otherwise not attributable."
+    },
+    {
+      "topic": "Which TSMC advanced backend fab performs CoWoS for which customer/HBM supplier",
+      "why": "TSMC's annual report lists AP1–AP8 addresses but not per-site technology or customers; only AP6 has a TSMC release naming its technologies.",
+      "would_need": "TSMC disclosure mapping CoWoS capacity by site, or customer filings naming packaging site."
+    },
+    {
+      "topic": "Samsung HBM packaging at Onyang/Cheonan and Samsung HBM customers",
+      "why": "Samsung Tier 1/2 documents confirm these are Test & System Package sites and that Samsung sells HBM4, but HBM-specific stacking at these sites and named HBM customers are reported only in news (Tier 3).",
+      "would_need": "Samsung business report or press release naming HBM packaging site and customers."
+    }
+  ]
+}

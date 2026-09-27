@@ -1,0 +1,1188 @@
+{
+  "layer": "systems",
+  "analyst": "systems research analyst (Claude)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:nvidia-us-ai-supercomputer-manufacturing-2025-04-14",
+      "title": "NVIDIA to Manufacture American-Made AI Supercomputers in US for First Time",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-04-14",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+      "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-21",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-build-in-america-2026-08-05",
+      "title": "NVIDIA and Partners Build in America, for America (updated Aug. 5, 2026)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-us-ai-manufacturing-page",
+      "title": "US AI Manufacturing (Thank You to Our Manufacturing Partners)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.nvidia.com/en-us/made-in-usa/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-10k-fy2026",
+      "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000021"
+    },
+    {
+      "id": "src:supermicro-10k-fy2026",
+      "title": "Super Micro Computer, Inc. Form 10-K for fiscal year ended June 30, 2026",
+      "publisher": "Super Micro Computer, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-08-31",
+      "accessed": "2026-09-27",
+      "identifier": "0001375365-26-000022"
+    },
+    {
+      "id": "src:dell-10k-fy2026",
+      "title": "Dell Technologies Inc. Form 10-K for fiscal year ended January 30, 2026",
+      "publisher": "Dell Technologies Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/dell-20260130.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-03-16",
+      "accessed": "2026-09-27",
+      "identifier": "0001571996-26-000008"
+    },
+    {
+      "id": "src:hpe-10k-fy2025",
+      "title": "Hewlett Packard Enterprise Company Form 10-K for fiscal year ended October 31, 2025",
+      "publisher": "Hewlett Packard Enterprise Company",
+      "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-12-18",
+      "accessed": "2026-09-27",
+      "identifier": "0001645590-25-000130"
+    },
+    {
+      "id": "src:arista-10k-2025",
+      "title": "Arista Networks, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Arista Networks, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-17",
+      "accessed": "2026-09-27",
+      "identifier": "0001596532-26-000013"
+    },
+    {
+      "id": "src:celestica-10k-2025",
+      "title": "Celestica Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Celestica Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000011/cls-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-27",
+      "accessed": "2026-09-27",
+      "identifier": "0001030894-26-000011"
+    },
+    {
+      "id": "src:honhai-mops-2024-11-26-foxconn-assembly-houston-land",
+      "title": "Hon Hai material information: 代子公司FOXCONN ASSEMBLY LLC.公告取得土地及廠房 (subsidiary Foxconn Assembly LLC acquires land and plant)",
+      "publisher": "Hon Hai Precision Industry Co., Ltd. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2317&spoke_date=20241126&spoke_time=180028&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2024-11-26",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2317 2024-11-26 seq 1"
+    },
+    {
+      "id": "src:honhai-mops-2025-06-03-foxconn-assembly-houston-lease",
+      "title": "Hon Hai material information: 代子公司Foxconn Assembly LLC公告取得廠房之使用權資產 (subsidiary Foxconn Assembly LLC acquires right-of-use assets for plants)",
+      "publisher": "Hon Hai Precision Industry Co., Ltd. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2317&spoke_date=20250603&spoke_time=192720&seq_no=2",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-06-03",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2317 2025-06-03 seq 2"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:nvidia",
+      "name": "NVIDIA Corporation",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:NVDA"
+      ],
+      "sec_cik": "0001045810",
+      "hq": {
+        "lat": 37.3708,
+        "lon": -121.965,
+        "precision": "site",
+        "address": "2788 San Tomas Expressway, Santa Clara, California 95051"
+      },
+      "layers": [
+        "design",
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "2788 San Tomas Expressway, Santa Clara, California",
+          "locator": "Form 10-K cover page",
+          "supports": "existence, hq location"
+        }
+      ]
+    },
+    {
+      "id": "co:foxconn",
+      "name": "Hon Hai Precision Industry Co., Ltd. (Foxconn)",
+      "country": "TW",
+      "tickers": [
+        "TWSE:2317"
+      ],
+      "hq": {
+        "lat": 24.986,
+        "lon": 121.427,
+        "precision": "city",
+        "address": "Tucheng District, New Taipei City, Taiwan"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, role as NVIDIA contract manufacturer"
+        }
+      ]
+    },
+    {
+      "id": "co:wistron",
+      "name": "Wistron Corporation",
+      "country": "TW",
+      "tickers": [
+        "TWSE:3231"
+      ],
+      "hq": {
+        "lat": 25.06,
+        "lon": 121.6,
+        "precision": "city",
+        "address": "Taipei, Taiwan"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, role as NVIDIA contract manufacturer"
+        }
+      ]
+    },
+    {
+      "id": "co:fabrinet",
+      "name": "Fabrinet",
+      "country": "TH",
+      "tickers": [
+        "NYSE:FN"
+      ],
+      "hq": {
+        "lat": 14.02,
+        "lon": 100.53,
+        "precision": "region",
+        "address": "Pathum Thani, Thailand (principal manufacturing base)"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, role as NVIDIA contract manufacturer"
+        }
+      ]
+    },
+    {
+      "id": "co:supermicro",
+      "name": "Super Micro Computer, Inc.",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:SMCI"
+      ],
+      "sec_cik": "0001375365",
+      "hq": {
+        "lat": 37.3892,
+        "lon": -121.9049,
+        "precision": "site",
+        "address": "980 Rock Avenue, San Jose, CA 95131"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "Our principal executive offices and headquarters are located in San Jose, California.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, hq location"
+        }
+      ]
+    },
+    {
+      "id": "co:dell",
+      "name": "Dell Technologies Inc.",
+      "country": "US",
+      "tickers": [
+        "NYSE:DELL"
+      ],
+      "sec_cik": "0001571996",
+      "hq": {
+        "lat": 30.4845,
+        "lon": -97.6625,
+        "precision": "site",
+        "address": "One Dell Way, Round Rock, Texas 78682"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:dell-10k-fy2026",
+          "quote": "Our principal executive offices and global headquarters are located at One Dell Way, Round Rock, Texas.",
+          "locator": "Item 2 — Properties",
+          "supports": "existence, hq location"
+        }
+      ]
+    },
+    {
+      "id": "co:hpe",
+      "name": "Hewlett Packard Enterprise Company",
+      "country": "US",
+      "tickers": [
+        "NYSE:HPE"
+      ],
+      "sec_cik": "0001645590",
+      "hq": {
+        "lat": 30.087,
+        "lon": -95.418,
+        "precision": "site",
+        "address": "1701 East Mossy Oaks Road, Spring, Texas 77389"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:hpe-10k-fy2025",
+          "quote": "1701 East Mossy Oaks Road,",
+          "locator": "Form 10-K cover page",
+          "supports": "existence, hq location"
+        }
+      ]
+    },
+    {
+      "id": "co:arista",
+      "name": "Arista Networks, Inc.",
+      "country": "US",
+      "tickers": [
+        "NYSE:ANET"
+      ],
+      "sec_cik": "0001596532",
+      "hq": {
+        "lat": 37.4163,
+        "lon": -121.976,
+        "precision": "site",
+        "address": "5453 Great America Parkway, Santa Clara, California 95054"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "5453 Great America Parkway",
+          "locator": "Form 10-K cover page",
+          "supports": "existence, hq location"
+        }
+      ]
+    },
+    {
+      "id": "co:broadcom",
+      "name": "Broadcom Inc.",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:AVGO"
+      ],
+      "sec_cik": "0001730168",
+      "hq": {
+        "lat": 37.4136,
+        "lon": -122.1462,
+        "precision": "city",
+        "address": "Palo Alto, California"
+      },
+      "layers": [
+        "design",
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "In particular, we are primarily reliant upon our predominant merchant silicon vendor, Broadcom, for our switching chips.",
+          "locator": "Item 1. Business — Manufacturing / suppliers",
+          "supports": "existence, role as switch-silicon supplier"
+        }
+      ]
+    },
+    {
+      "id": "co:celestica",
+      "name": "Celestica Inc.",
+      "country": "CA",
+      "tickers": [
+        "NYSE:CLS",
+        "TSX:CLS"
+      ],
+      "sec_cik": "0001030894",
+      "hq": {
+        "lat": 43.766,
+        "lon": -79.414,
+        "precision": "site",
+        "address": "5140 Yonge Street, Suite 1900, Toronto, Ontario M2N 6L7"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:celestica-10k-2025",
+          "quote": "Our principal executive offices and global headquarters are located at 5140 Yonge Street, Suite 1900, Toronto, Ontario, Canada M2N 6L7.",
+          "locator": "Item 1. Business — Corporate information",
+          "supports": "existence, hq location"
+        }
+      ]
+    },
+    {
+      "id": "co:jabil",
+      "name": "Jabil Inc.",
+      "country": "US",
+      "tickers": [
+        "NYSE:JBL"
+      ],
+      "hq": {
+        "lat": 27.7676,
+        "lon": -82.6403,
+        "precision": "city",
+        "address": "St. Petersburg, Florida"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, role as Arista contract manufacturer"
+        }
+      ]
+    },
+    {
+      "id": "co:sanmina",
+      "name": "Sanmina Corporation",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:SANM"
+      ],
+      "hq": {
+        "lat": 37.3382,
+        "lon": -121.8863,
+        "precision": "city",
+        "address": "San Jose, California"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "existence, role as Arista contract manufacturer"
+        }
+      ]
+    },
+    {
+      "id": "co:coherent",
+      "name": "Coherent Corp.",
+      "country": "US",
+      "tickers": [
+        "NYSE:COHR"
+      ],
+      "hq": {
+        "lat": 40.7934,
+        "lon": -79.8117,
+        "precision": "city",
+        "address": "Saxonburg, Pennsylvania"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "In Sherman, Texas, Coherent, a key networking supplier across NVIDIA’s AI stack, broke ground this month on its expanded facility, scaling what it calls the world’s first volume production 6-inch indium phosphide fab.",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "existence, role as NVIDIA networking supplier"
+        }
+      ]
+    },
+    {
+      "id": "co:lumentum",
+      "name": "Lumentum Holdings Inc.",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:LITE"
+      ],
+      "hq": {
+        "lat": 37.3382,
+        "lon": -121.8863,
+        "precision": "city",
+        "address": "San Jose, California"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-us-ai-manufacturing-page",
+          "quote": "Lumentum is establishing a new US manufacturing facility in Greensboro, North Carolina, to produce advanced indium phosphide (InP)-based optical devices and lasers.",
+          "locator": "partner card 'Lumentum'",
+          "supports": "existence"
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:foxconn-houston",
+      "name": "Foxconn (Foxconn Assembly LLC) AI server plants, Houston, Texas",
+      "operator": "co:foxconn",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 29.92,
+        "lon": -95.55,
+        "precision": "city",
+        "address": "Houston, TX 77064 — Foxconn Assembly LLC sites per TWSE filings: 9625 Fallbrook Pines Drive (owned land and plant) and 8228 / 8118 Houston Avenue (leased plants)"
+      },
+      "country": "US",
+      "status": "operational",
+      "start_year": 2025,
+      "products": [
+        "NVIDIA AI systems",
+        "NVIDIA GB300 tray modules",
+        "AI servers"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-us-ai-supercomputer-manufacturing-2025-04-14",
+          "quote": "NVIDIA is building supercomputer manufacturing plants in Texas, with Foxconn in Houston and with Wistron in Dallas. Mass production at both plants is expected to ramp up in the next 12-15 months.",
+          "locator": "body, paragraph 3",
+          "supports": "existence, location (city), relationship"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "In Houston, Texas, Foxconn is building a state-of-the-art factory for manufacturing NVIDIA AI systems, including NVIDIA GB300 tray modules.",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:honhai-mops-2024-11-26-foxconn-assembly-houston-land",
+          "quote": "坐落於9625 Fallbrook Pines Drive, Houston, Harris County,",
+          "locator": "說明 item 1 (subject of transaction)",
+          "supports": "location (Foxconn Assembly LLC owned site)"
+        },
+        {
+          "source": "src:honhai-mops-2024-11-26-foxconn-assembly-houston-land",
+          "quote": "交易單位數量：土地478,036平方英呎及廠房200,200平方英呎",
+          "locator": "說明 item 3",
+          "supports": "site size (478,036 sq ft land; 200,200 sq ft plant)"
+        },
+        {
+          "source": "src:honhai-mops-2025-06-03-foxconn-assembly-houston-lease",
+          "quote": "坐落於8228、8118 Houston Avenue, Houston TX77064廠房之使用權資產",
+          "locator": "說明 item 1",
+          "supports": "location (Foxconn Assembly LLC leased plants)"
+        },
+        {
+          "source": "src:honhai-mops-2025-06-03-foxconn-assembly-houston-lease",
+          "quote": "交易單位數量：601,680平方英呎",
+          "locator": "說明 item 3",
+          "supports": "leased plant area (601,680 sq ft)"
+        }
+      ]
+    },
+    {
+      "id": "fac:wistron-fort-worth",
+      "name": "Wistron D1 AI systems plant, Fort Worth, Texas",
+      "operator": "co:wistron",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 32.7532,
+        "lon": -97.3327,
+        "precision": "city",
+        "address": "Fort Worth, Texas"
+      },
+      "country": "US",
+      "status": "operational",
+      "start_year": 2026,
+      "products": [
+        "NVIDIA GB300 Grace Blackwell Ultra Superchip boards",
+        "NVIDIA Vera Rubin Superchip boards (planned)",
+        "NVIDIA AI systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+          "quote": "Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant producing superchips at the heart of some of the world’s most capable AI systems.",
+          "locator": "body, paragraph 2",
+          "supports": "existence, location, size, status (opened 2026-07-21)"
+        },
+        {
+          "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+          "quote": "The plant — Wistron’s D1 facility — currently runs two manufacturing cells: one producing the NVIDIA GB300 Grace Blackwell Ultra Superchip and one that will produce the NVIDIA Vera Rubin Superchip.",
+          "locator": "body",
+          "supports": "products"
+        },
+        {
+          "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+          "quote": "D1 is scaling up this year to produce tens of thousands of boards per month of the most advanced technology in the industry.",
+          "locator": "body",
+          "supports": "capacity (qualitative)"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "Wistron and NVIDIA will assemble and test NVIDIA AI systems at a new advanced manufacturing facility in Fort Worth, Texas,",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fac:supermicro-san-jose",
+      "name": "Supermicro headquarters and manufacturing campus, San Jose, California",
+      "operator": "co:supermicro",
+      "layer": "systems",
+      "kind": "server_rack_assembly",
+      "location": {
+        "lat": 37.3892,
+        "lon": -121.9049,
+        "precision": "site",
+        "address": "980 Rock Avenue, San Jose, CA 95131 (headquarters; campus extends to nearby Silicon Valley sites)"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "NVIDIA GB300 NVL72 / GB200 NVL72 rack-scale systems",
+        "NVIDIA HGX B300 / B200 systems",
+        "liquid-cooled AI racks (DCBBS)"
+      ],
+      "evidence": [
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "We manufacture the majority of our systems at our San Jose, California headquarters.",
+          "locator": "Item 1. Business — Manufacturing and Quality Control",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "980 Rock Avenue",
+          "locator": "Form 10-K cover page",
+          "supports": "location (address)"
+        },
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "We delivered a comprehensive portfolio of AI-focused solutions specifically designed to support the latest AI workloads, including products compatible with NVIDIA's Blackwell and Blackwell Ultra generation platforms, such as the NVIDIA GB300 NVL72, GB200 NVL72, and HGX B300 and B200 systems, in air-cooled and liquid-cooled configurations;",
+          "locator": "Item 1. Business — fiscal year 2026 highlights",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:supermicro-taiwan",
+      "name": "Supermicro manufacturing facilities, Taiwan",
+      "operator": "co:supermicro",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 23.7,
+        "lon": 121.0,
+        "precision": "country",
+        "address": "Taiwan (sites not itemized in 10-K)"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "servers",
+        "AI systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "Global assembly, test and quality control of our servers are performed at our manufacturing facilities in San Jose, California, Taiwan, the Netherlands, and Malaysia.",
+          "locator": "Item 1. Business — Manufacturing and Quality Control",
+          "supports": "existence, location (country)"
+        }
+      ]
+    },
+    {
+      "id": "fac:supermicro-malaysia",
+      "name": "Supermicro manufacturing campus, Malaysia",
+      "operator": "co:supermicro",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 4.2,
+        "lon": 101.9,
+        "precision": "country",
+        "address": "Malaysia (site not itemized in 10-K)"
+      },
+      "country": "MY",
+      "status": "operational",
+      "products": [
+        "servers",
+        "AI systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "Global assembly, test and quality control of our servers are performed at our manufacturing facilities in San Jose, California, Taiwan, the Netherlands, and Malaysia.",
+          "locator": "Item 1. Business — Manufacturing and Quality Control",
+          "supports": "existence, location (country)"
+        },
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "Each of Ablecom and Compuware are also developing campuses in close proximity to the campus we developed in Malaysia to expand our manufacturing.",
+          "locator": "Item 1A. Risk Factors — related parties",
+          "supports": "existence (campus)"
+        }
+      ]
+    },
+    {
+      "id": "fac:supermicro-netherlands",
+      "name": "Supermicro manufacturing facility, the Netherlands",
+      "operator": "co:supermicro",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 52.2,
+        "lon": 5.3,
+        "precision": "country",
+        "address": "the Netherlands (site not itemized in 10-K)"
+      },
+      "country": "NL",
+      "status": "operational",
+      "products": [
+        "servers",
+        "AI systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "Global assembly, test and quality control of our servers are performed at our manufacturing facilities in San Jose, California, Taiwan, the Netherlands, and Malaysia.",
+          "locator": "Item 1. Business — Manufacturing and Quality Control",
+          "supports": "existence, location (country)"
+        }
+      ]
+    },
+    {
+      "id": "fac:nvidia-israel-networking",
+      "name": "NVIDIA networking operations (former Mellanox), Israel",
+      "operator": "co:nvidia",
+      "layer": "systems",
+      "kind": "networking_rnd_and_manufacturing",
+      "location": {
+        "lat": 31.4,
+        "lon": 35.0,
+        "precision": "country",
+        "address": "Israel (sites not itemized in 10-K)"
+      },
+      "country": "IL",
+      "status": "operational",
+      "products": [
+        "networking products (InfiniBand/Ethernet switches, NICs, DPUs)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "restrict business with the State of Israel, where we have engineering, sales support operations and manufacturing,",
+          "locator": "Item 1A. Risk Factors",
+          "supports": "existence, location (country)"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "including the health and safety of our approximately 6,000 employees in the region who primarily support the research and development, operations, and sales and marketing of our networking products.",
+          "locator": "Item 1A. Risk Factors",
+          "supports": "function (networking), headcount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "Our acquisition of Mellanox in 2020 expanded our offerings to include networking,",
+          "locator": "Item 1. Business",
+          "supports": "origin (Mellanox)"
+        }
+      ]
+    },
+    {
+      "id": "fac:coherent-sherman",
+      "name": "Coherent 6-inch indium phosphide fab and optics plant, Sherman, Texas",
+      "operator": "co:coherent",
+      "layer": "systems",
+      "kind": "optical_components_fab",
+      "location": {
+        "lat": 33.6399,
+        "lon": -96.6089,
+        "precision": "city",
+        "address": "Sherman, Texas"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "lasers",
+        "optical components",
+        "compound semiconductors (6-inch InP)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "In Sherman, Texas, Coherent, a key networking supplier across NVIDIA’s AI stack, broke ground this month on its expanded facility, scaling what it calls the world’s first volume production 6-inch indium phosphide fab.",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "existence, location, status (expansion groundbreaking)"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "Coherent’s new Texas-based factory will produce the lasers, optical components and compound semiconductors that wire AI systems together",
+          "locator": "section 'Nationwide Progress' (caption)",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:lumentum-greensboro",
+      "name": "Lumentum InP optical devices and lasers plant, Greensboro, North Carolina",
+      "operator": "co:lumentum",
+      "layer": "systems",
+      "kind": "optical_components_fab",
+      "location": {
+        "lat": 36.0726,
+        "lon": -79.792,
+        "precision": "city",
+        "address": "Greensboro, North Carolina"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "indium phosphide (InP) optical devices",
+        "lasers"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-us-ai-manufacturing-page",
+          "quote": "Lumentum is establishing a new US manufacturing facility in Greensboro, North Carolina, to produce advanced indium phosphide (InP)-based optical devices and lasers.",
+          "locator": "partner card 'Lumentum'",
+          "supports": "existence, location, products"
+        }
+      ]
+    },
+    {
+      "id": "fac:celestica-texas",
+      "name": "Celestica Texas operations",
+      "operator": "co:celestica",
+      "layer": "systems",
+      "kind": "server_networking_assembly",
+      "location": {
+        "lat": 31.0,
+        "lon": -97.5,
+        "precision": "region",
+        "address": "Texas (city not itemized in 10-K property table)"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "networking switches",
+        "data center racks",
+        "servers (CCS segment)"
+      ],
+      "evidence": [
+        {
+          "source": "src:celestica-10k-2025",
+          "quote": "Our CCS segment revenue for 2025 increased 42% to $9.19 billion compared to $6.49 billion in 2024.",
+          "locator": "Item 1. Business",
+          "supports": "segment scale"
+        },
+        {
+          "source": "src:celestica-10k-2025",
+          "quote": "These sites are used to provide manufacturing, design and engineering and other services with a total of approximately 8.0 million square feet of productive capacity.",
+          "locator": "Item 2. Properties (table lists 'Texas(4) 673 ATS/CCS Leased 2032')",
+          "supports": "existence of Texas site in property table"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:nvidia-to-foxconn-houston",
+      "to": "fac:foxconn-houston",
+      "commodity": "NVIDIA GPUs / Grace Blackwell superchip components for GB300 tray modules",
+      "description": "NVIDIA and Foxconn are building NVIDIA AI supercomputers in Houston; the plant manufactures NVIDIA AI systems including GB300 tray modules.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-us-ai-supercomputer-manufacturing-2025-04-14",
+          "quote": "NVIDIA is building supercomputer manufacturing plants in Texas, with Foxconn in Houston and with Wistron in Dallas.",
+          "locator": "body",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "In Houston, Texas, Foxconn is building a state-of-the-art factory for manufacturing NVIDIA AI systems, including NVIDIA GB300 tray modules.",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "relationship, commodity"
+        }
+      ],
+      "from": "co:nvidia"
+    },
+    {
+      "id": "flow:nvidia-to-wistron-fort-worth",
+      "to": "fac:wistron-fort-worth",
+      "commodity": "NVIDIA Grace Blackwell Ultra (GB300) and Vera Rubin superchip components",
+      "description": "Wistron's Fort Worth D1 plant assembles and tests NVIDIA AI systems and produces GB300 superchip boards.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+          "quote": "The plant — Wistron’s D1 facility — currently runs two manufacturing cells: one producing the NVIDIA GB300 Grace Blackwell Ultra Superchip and one that will produce the NVIDIA Vera Rubin Superchip.",
+          "locator": "body",
+          "supports": "relationship, commodity"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "Wistron and NVIDIA will assemble and test NVIDIA AI systems at a new advanced manufacturing facility in Fort Worth, Texas,",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "relationship"
+        }
+      ],
+      "from": "co:nvidia"
+    },
+    {
+      "id": "flow:foxconn-to-nvidia-assembly-services",
+      "to": "co:nvidia",
+      "commodity": "assembly, test and packaging of NVIDIA final products",
+      "description": "NVIDIA's 10-K names Hon Hai among contract manufacturers performing assembly, testing and packaging of its final products.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "from": "co:foxconn"
+    },
+    {
+      "id": "flow:wistron-to-nvidia-assembly-services",
+      "to": "co:nvidia",
+      "commodity": "assembly, test and packaging of NVIDIA final products",
+      "description": "NVIDIA's 10-K names Wistron among contract manufacturers performing assembly, testing and packaging of its final products.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "from": "co:wistron"
+    },
+    {
+      "id": "flow:fabrinet-to-nvidia-assembly-services",
+      "to": "co:nvidia",
+      "commodity": "assembly, test and packaging of NVIDIA final products (incl. optical/networking)",
+      "description": "NVIDIA's 10-K names Fabrinet among contract manufacturers performing assembly, testing and packaging of its final products.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "from": "co:fabrinet"
+    },
+    {
+      "id": "flow:nvidia-to-supermicro-san-jose",
+      "to": "fac:supermicro-san-jose",
+      "commodity": "NVIDIA Blackwell / Blackwell Ultra GPUs and platforms (GB300 NVL72, GB200 NVL72, HGX B300/B200)",
+      "description": "Supermicro builds NVIDIA GB300/GB200 NVL72 and HGX systems and manufactures most systems in San Jose.",
+      "basis": "inferred",
+      "inference_note": "Supermicro 10-K names NVIDIA platforms it delivers (GB300 NVL72, GB200 NVL72, HGX B300/B200) and says it works closely with NVIDIA, and that the majority of systems are manufactured at San Jose [10-K]. It discloses one unnamed supplier at 63.1% of FY2026 purchases but does not name that supplier or the purchase channel (direct vs distributor), so the NVIDIA→San Jose supply link is deduced.",
+      "evidence": [
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "We work closely with NVIDIA, Intel and AMD, among others, to develop products that are compatible with the latest generation of industry-standard technologies under development.",
+          "locator": "Item 1. Business — Research and Development",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "One supplier accounted for 63.1%, 64.4%, and 65.4% of total purchases for the fiscal years ended June 30, 2026, 2025, and 2024.",
+          "locator": "Note 1 — Concentration of Supplier Risk",
+          "supports": "supplier concentration (counterparty unnamed)"
+        }
+      ],
+      "from": "co:nvidia"
+    },
+    {
+      "id": "flow:nvidia-to-hpe",
+      "to": "co:hpe",
+      "commodity": "GPUs (NVIDIA single-source)",
+      "description": "HPE's 10-K identifies NVIDIA as a single-source supplier of graphics processing units.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:hpe-10k-fy2025",
+          "quote": "NVIDIA for Graphics Processing Units",
+          "locator": "Item 1. Business — Manufacturing and Materials",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:hpe-10k-fy2025",
+          "quote": "In the AI space, we have invested in building turn-key integrated systems co-engineered with Nvidia",
+          "locator": "Item 1A. Risk Factors",
+          "supports": "relationship"
+        }
+      ],
+      "from": "co:nvidia"
+    },
+    {
+      "id": "flow:nvidia-to-dell",
+      "to": "co:dell",
+      "commodity": "NVIDIA accelerated computing for Dell AI-optimized servers",
+      "description": "NVIDIA lists Dell as a partner building AI factories with NVIDIA; Dell reports an AI-optimized servers product category.",
+      "basis": "inferred",
+      "inference_note": "NVIDIA's US manufacturing page names Dell as working with NVIDIA on AI factories [company website]; Dell's 10-K reports an 'AI-optimized servers' category but does not name GPU suppliers. GPU supply from NVIDIA to Dell is deduced.",
+      "evidence": [
+        {
+          "source": "src:nvidia-us-ai-manufacturing-page",
+          "quote": "Dell Technologies is working with NVIDIA to help enterprises build and deploy AI factories at scale.",
+          "locator": "partner card 'Dell Technologies'",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:dell-10k-fy2026",
+          "quote": "We offer a specialized portfolio of AI-optimized servers designed to handle the most demanding compute-intensive workloads, including AI model training, fine-tuning, and inferencing.",
+          "locator": "Item 1. Business — ISG",
+          "supports": "product category"
+        }
+      ],
+      "from": "co:nvidia"
+    },
+    {
+      "id": "flow:broadcom-to-arista",
+      "to": "co:arista",
+      "commodity": "merchant switching silicon (Ethernet switch ASICs)",
+      "description": "Arista's 10-K states it is primarily reliant on Broadcom for its switching chips.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "In particular, we are primarily reliant upon our predominant merchant silicon vendor, Broadcom, for our switching chips.",
+          "locator": "Item 1. Business",
+          "supports": "relationship"
+        }
+      ],
+      "from": "co:broadcom"
+    },
+    {
+      "id": "flow:jabil-to-arista",
+      "to": "co:arista",
+      "commodity": "contract manufacturing of Arista switches",
+      "description": "Arista names Jabil as a primary manufacturing partner; production is in Malaysia, Vietnam, Mexico and other countries.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai. These partners manufacture our products internationally in Malaysia, Vietnam, Mexico and other countries.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "relationship, locations"
+        }
+      ],
+      "from": "co:jabil"
+    },
+    {
+      "id": "flow:sanmina-to-arista",
+      "to": "co:arista",
+      "commodity": "contract manufacturing of Arista switches",
+      "description": "Arista names Sanmina as a primary manufacturing partner.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai. These partners manufacture our products internationally in Malaysia, Vietnam, Mexico and other countries.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "relationship, locations"
+        }
+      ],
+      "from": "co:sanmina"
+    },
+    {
+      "id": "flow:foxconn-to-arista",
+      "to": "co:arista",
+      "commodity": "contract manufacturing of Arista switches",
+      "description": "Arista names Foxconn Hon Hai as a primary manufacturing partner.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:arista-10k-2025",
+          "quote": "Our primary manufacturing partners are Jabil Inc., Sanmina Corporation and Foxconn Hon Hai. These partners manufacture our products internationally in Malaysia, Vietnam, Mexico and other countries.",
+          "locator": "Item 1. Business — Manufacturing",
+          "supports": "relationship, locations"
+        }
+      ],
+      "from": "co:foxconn"
+    },
+    {
+      "id": "flow:coherent-to-nvidia",
+      "to": "co:nvidia",
+      "commodity": "lasers, optical components, InP compound semiconductors for AI networking",
+      "description": "NVIDIA describes Coherent as a key networking supplier across its AI stack; the Sherman expansion will produce lasers and optical components.",
+      "basis": "inferred",
+      "inference_note": "NVIDIA names Coherent as 'a key networking supplier across NVIDIA's AI stack' [NVIDIA release], so the Coherent→NVIDIA relationship is documented at company level; that output of the Sherman site specifically goes to NVIDIA is deduced (the site is under expansion).",
+      "evidence": [
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "In Sherman, Texas, Coherent, a key networking supplier across NVIDIA’s AI stack, broke ground this month on its expanded facility, scaling what it calls the world’s first volume production 6-inch indium phosphide fab.",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "relationship"
+        }
+      ],
+      "from": "fac:coherent-sherman"
+    }
+  ],
+  "financial_links": [
+    {
+      "id": "fin:foxconn-houston-land-plant-2024",
+      "to": "fac:foxconn-houston",
+      "kind": "capex",
+      "amount": {
+        "value": 33033000.0,
+        "currency": "USD",
+        "note": "Foxconn Assembly LLC purchase of land (478,036 sq ft) and plant (200,200 sq ft) at 9625 Fallbrook Pines Drive, Houston"
+      },
+      "date": "2024-11-26",
+      "description": "Hon Hai subsidiary Foxconn Assembly LLC acquired land and a plant in Houston, TX for US$33.0 million (TWSE material-information filing). Stated purpose: operational needs.",
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2024-11-26-foxconn-assembly-houston-land",
+          "quote": "交易總金額：美金33,033,000.00元",
+          "locator": "說明 item 3",
+          "supports": "amount"
+        },
+        {
+          "source": "src:honhai-mops-2024-11-26-foxconn-assembly-houston-land",
+          "quote": "坐落於9625 Fallbrook Pines Drive, Houston, Harris County,",
+          "locator": "說明 item 1",
+          "supports": "location"
+        }
+      ],
+      "from": "co:foxconn"
+    },
+    {
+      "id": "fin:foxconn-houston-lease-2025",
+      "to": "fac:foxconn-houston",
+      "kind": "lease_commitment",
+      "amount": {
+        "value": 56553878.14,
+        "currency": "USD",
+        "period": "122–124 months",
+        "note": "total contract rent; right-of-use asset US$45,001,241.74"
+      },
+      "date": "2025-06-03",
+      "description": "Foxconn Assembly LLC leased two plants totaling 601,680 sq ft at 8228 and 8118 Houston Avenue, Houston TX 77064.",
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2025-06-03-foxconn-assembly-houston-lease",
+          "quote": "合約租金總額：美金56,553,878.14元",
+          "locator": "說明 item 3",
+          "supports": "amount"
+        },
+        {
+          "source": "src:honhai-mops-2025-06-03-foxconn-assembly-houston-lease",
+          "quote": "(1)廠房一（8228）：租賃期間122個月，含2個月免租金，租金總額美金39,229,036.66元",
+          "locator": "說明 item 8",
+          "supports": "term"
+        }
+      ],
+      "from": "co:foxconn"
+    }
+  ],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "Supermicro largest supplier identity (63.1% of FY2026 purchases) and largest customer (28.1% of FY2026 net sales)",
+      "why": "Supermicro's FY2026 10-K discloses the concentrations but does not name the supplier or the customer, so no FinancialLink can be drawn to a named counterparty.",
+      "would_need": "A Supermicro filing or counterparty filing naming the supplier/customer (e.g., an 8-K material contract)."
+    },
+    {
+      "topic": "Supermicro non-cancelable purchase commitments of $34.2 billion (as of 2026-06-30)",
+      "why": "Disclosed in the FY2026 10-K (MD&A, Note 15) without counterparties.",
+      "would_need": "Counterparty breakdown of purchase commitments."
+    },
+    {
+      "topic": "Dell AI-server supply chain (GPU supplier, assembly sites)",
+      "why": "Dell's FY2026 10-K lists owned manufacturing in the United States, Malaysia, China, Brazil, India, Poland and Ireland but does not name sites that build AI-optimized servers or name GPU suppliers; Dell purchase obligations are disclosed without counterparties.",
+      "would_need": "Dell filing or official release naming AI-server integration sites and GPU supply agreements."
+    },
+    {
+      "topic": "Celestica customer identities and exact site cities",
+      "why": "Celestica's 2025 10-K discloses three customers at 32%, 14% and 12% of revenue and lists properties only by state/country.",
+      "would_need": "Celestica filing naming customers; site-level property disclosure."
+    }
+  ]
+}

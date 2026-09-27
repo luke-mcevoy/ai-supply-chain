@@ -1,0 +1,2716 @@
+{
+  "layer": "design",
+  "analyst": "design-analyst (Claude, AI Supply Chain Atlas)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:nvidia-10k-fy2026",
+      "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000021"
+    },
+    {
+      "id": "src:nvidia-10q-q2-fy2027",
+      "title": "NVIDIA Corporation Form 10-Q for quarter ended July 26, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000075"
+    },
+    {
+      "id": "src:amd-10k-fy2025",
+      "title": "Advanced Micro Devices, Inc. Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-04",
+      "accessed": "2026-09-27",
+      "identifier": "0000002488-26-000018"
+    },
+    {
+      "id": "src:amd-10q-q2-2026",
+      "title": "Advanced Micro Devices, Inc. Form 10-Q for quarter ended June 27, 2026",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-05",
+      "accessed": "2026-09-27",
+      "identifier": "0000002488-26-000123"
+    },
+    {
+      "id": "src:broadcom-10k-fy2025",
+      "title": "Broadcom Inc. Form 10-K for fiscal year ended November 2, 2025",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-12-18",
+      "accessed": "2026-09-27",
+      "identifier": "0001730168-25-000121"
+    },
+    {
+      "id": "src:broadcom-10q-q3-fy2026",
+      "title": "Broadcom Inc. Form 10-Q for quarter ended August 2, 2026",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-09-10",
+      "accessed": "2026-09-27",
+      "identifier": "0001730168-26-000080"
+    },
+    {
+      "id": "src:marvell-10k-fy2026",
+      "title": "Marvell Technology, Inc. Form 10-K for fiscal year ended January 31, 2026",
+      "publisher": "Marvell Technology, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-03-11",
+      "accessed": "2026-09-27",
+      "identifier": "0001835632-26-000011"
+    },
+    {
+      "id": "src:marvell-8k-aws-2024",
+      "title": "Marvell Technology, Inc. Form 8-K Exhibit 99.1: Marvell Expands Strategic Collaboration with AWS",
+      "publisher": "Marvell Technology, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563224000193/final2024_12x02xmarvell-.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2024-12-02",
+      "accessed": "2026-09-27",
+      "identifier": "0001835632-24-000193"
+    },
+    {
+      "id": "src:synopsys-10k-fy2025",
+      "title": "Synopsys, Inc. Form 10-K for fiscal year ended October 31, 2025",
+      "publisher": "Synopsys, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-12-22",
+      "accessed": "2026-09-27",
+      "identifier": "0000883241-25-000028"
+    },
+    {
+      "id": "src:cadence-10k-fy2025",
+      "title": "Cadence Design Systems, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Cadence Design Systems, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-19",
+      "accessed": "2026-09-27",
+      "identifier": "0000813672-26-000016"
+    },
+    {
+      "id": "src:arm-20f-fy2026",
+      "title": "Arm Holdings plc Form 20-F for fiscal year ended March 31, 2026",
+      "publisher": "Arm Holdings plc",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-05-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001973239-26-000097"
+    },
+    {
+      "id": "src:alphabet-10k-fy2025",
+      "title": "Alphabet Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Alphabet Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-05",
+      "accessed": "2026-09-27",
+      "identifier": "0001652044-26-000018"
+    },
+    {
+      "id": "src:amazon-10k-fy2025",
+      "title": "Amazon.com, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-06",
+      "accessed": "2026-09-27",
+      "identifier": "0001018724-26-000004"
+    },
+    {
+      "id": "src:microsoft-10k-fy2026",
+      "title": "Microsoft Corporation Form 10-K for fiscal year ended June 30, 2026",
+      "publisher": "Microsoft Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-07-29",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-323660"
+    },
+    {
+      "id": "src:meta-10k-fy2025",
+      "title": "Meta Platforms, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-01-29",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-26-003942"
+    },
+    {
+      "id": "src:nvidia-blog-us-manufacturing-2025",
+      "title": "NVIDIA to Manufacture American-Made AI Supercomputers in US for First Time",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-04-14",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025",
+      "title": "The Engines of American-Made Intelligence: NVIDIA and TSMC Celebrate First NVIDIA Blackwell Wafer Produced in the US",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-grace-cpu-page",
+      "title": "NVIDIA Grace CPU and Arm Architecture (product page)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.nvidia.com/en-us/data-center/grace-cpu/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-blog-maia-200-2026",
+      "title": "Maia 200: The AI accelerator built for inference",
+      "publisher": "Microsoft Corporation",
+      "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-26",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:meta-blog-next-gen-mtia-2024",
+      "title": "Our next generation Meta Training and Inference Accelerator",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://ai.meta.com/blog/next-generation-meta-training-inference-accelerator-AI-MTIA/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024-04-10",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:marvell-release-2nm-tsmc-2025",
+      "title": "Marvell Demonstrates Industry's Leading 2nm Silicon for Accelerated Infrastructure",
+      "publisher": "Marvell Technology, Inc.",
+      "url": "https://www.prnewswire.com/news-releases/marvell-demonstrates-industrys-leading-2nm-silicon-for-accelerated-infrastructure-302389630.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-03-03",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:openai-broadcom-release-2025",
+      "title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
+      "publisher": "Broadcom Inc. and OpenAI",
+      "url": "https://www.globenewswire.com/news-release/2025/10/13/3165560/19933/en/OpenAI-and-Broadcom-announce-strategic-collaboration-to-deploy-10-gigawatts-of-OpenAI-designed-AI-accelerators.html",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-13",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:micron-release-hbm-amd-mi350-2025",
+      "title": "Micron HBM Designed into Leading AMD AI Platform",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-hbm-designed-leading-amd-ai-platform",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amazon-reinvent-2025-announcements",
+      "title": "AWS re:Invent 2025: Amazon announces Nova 2, Trainium3, frontier agents",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.aboutamazon.com/news/aws/aws-re-invent-2025-ai-news-updates",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-12-01",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amazon-annapurna-labs-austin",
+      "title": "Follow us into the lab where AWS designs custom chips",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.aboutamazon.com/news/aws/take-a-look-inside-the-lab-where-aws-makes-custom-chips",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2022-08-11",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:google-blog-ironwood-tpu-2025",
+      "title": "Ironwood: The first Google TPU for the age of inference",
+      "publisher": "Google LLC (Alphabet Inc.)",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-04-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:bis-gp10-guidance-prc-ics-2025",
+      "title": "Guidance on Application of General Prohibition 10 (GP10) to People's Republic of China (PRC) Advanced-Computing Integrated Circuits (ICs)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.bis.gov/media/documents/general-prohibition-10-guidance-may-13-2025.pdf",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-05-13",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:fr-2019-10616-huawei-entity-list",
+      "title": "Addition of Entities to the Entity List (Huawei Technologies Co., Ltd. and affiliates)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2019-05-21",
+      "accessed": "2026-09-27",
+      "identifier": "84 FR 22961"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:nvidia",
+      "name": "NVIDIA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3707,
+        "lon": -121.9638,
+        "precision": "site",
+        "address": "2788 San Tomas Expressway, Santa Clara, California 95051"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "In fiscal year 2025, we launched the NVIDIA Blackwell architecture, a full set of data center scale infrastructure that includes GPUs, CPUs, DPUs, interconnects, switch chips and systems, and networking adapters.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "products"
+        },
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "Our next-generation Data Center architecture, Vera Rubin, began production shipments in the third quarter of fiscal year 2027.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "products"
+        },
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "increasing supply commitments from $119 billion last quarter to $279 billion as of July 26, 2026. These supply commitments are for our data center infrastructure systems, primarily memory and manufacturing facilities, to produce our products for long-term demand across current and future product architectures.",
+          "locator": "Note 10 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H20 integrated circuits and any other circuits achieving the H20’s memory bandwidth, interconnect bandwidth, or combination thereof.",
+          "locator": "Part I, Item 1A. Risk Factors",
+          "supports": "status (export controls)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:NVDA"
+      ],
+      "sec_cik": "0001045810"
+    },
+    {
+      "id": "co:amd",
+      "name": "Advanced Micro Devices, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3826,
+        "lon": -121.972,
+        "precision": "site",
+        "address": "2485 Augustine Drive, Santa Clara, California 95054"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Our mailing address and executive offices are located at 2485 Augustine Drive, Santa Clara, California 95054",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Our AMD Instinct™ family of GPU products, including AMD Instinct MI200, MI300, MI325 and MI350 series, are based on AMD CDNA™ architecture and designed for AI training, inference and exascale-class scientific computing.",
+          "locator": "Part I, Item 1. Business — Data Center GPUs",
+          "supports": "products"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
+          "locator": "Part II, Item 7. MD&A — Overview",
+          "supports": "products"
+        },
+        {
+          "source": "src:amd-10q-q2-2026",
+          "quote": "As of June 27, 2026, we had unconditional commitments of approximately $30.3 billion, of which $17.4 billion are for the remainder of fiscal year 2026. Our contractual obligations and purchase commitments relate primarily to our obligations to purchase wafers, substrates and components from third parties",
+          "locator": "Part I, Item 2. MD&A — Contractual Obligations",
+          "supports": "amount"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMD"
+      ],
+      "sec_cik": "0000002488"
+    },
+    {
+      "id": "co:broadcom",
+      "name": "Broadcom Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.404,
+        "lon": -122.1465,
+        "precision": "site",
+        "address": "3421 Hillview Ave, Palo Alto, California"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We are headquartered in Palo Alto, California and our primary warehouse is located in Malaysia.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:broadcom-10q-q3-fy2026",
+          "quote": "We see unprecedented demand for our custom AI accelerators or XPUs and AI networking solutions from our customers, including the leading frontier AI labs, due to the demand for AI compute.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "products"
+        },
+        {
+          "source": "src:broadcom-10q-q3-fy2026",
+          "quote": "Our maximum potential liability under the Backstop upon the deployment of all AI racks, on an undiscounted basis, was approximately $29 billion.",
+          "locator": "Note 10. Commitments and Contingencies — Financial Guarantee",
+          "supports": "status (financial exposure)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AVGO"
+      ],
+      "sec_cik": "0001730168"
+    },
+    {
+      "id": "co:marvell",
+      "name": "Marvell Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "precision": "city",
+        "address": "Santa Clara, California (operations); registered HQ Wilmington, Delaware"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:marvell-10k-fy2026",
+          "quote": "Our corporate headquarters is 1000 N. West Street, Suite 1200 Wilmington, Delaware 19801, and our telephone number is (302) 295-4840.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence"
+        },
+        {
+          "source": "src:marvell-release-2nm-tsmc-2025",
+          "quote": "Built on TSMC's 2nm process, the silicon is a critical part of the Marvell platform for developing next-generation custom AI accelerators, CPUs, and networking.",
+          "locator": "Press release subheading",
+          "supports": "products"
+        },
+        {
+          "source": "src:marvell-10k-fy2026",
+          "quote": "The Company’s commitments primarily consist of wafer purchase obligations with foundry partners, supply capacity reservation payment commitments with foundries and test and assembly partners, technology license fee obligations, minimum purchase commitments under technology service agreements, and commitments for capital expenditures.",
+          "locator": "Note 8 – Commitments and Contingencies",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MRVL"
+      ],
+      "sec_cik": "0001835632"
+    },
+    {
+      "id": "co:alphabet",
+      "name": "Alphabet Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "site",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:alphabet-10k-fy2025",
+          "quote": "Our technical infrastructure allows us to use and offer our customers a range of AI accelerator options, including specialized Graphics Processing Units (GPUs) and our own custom-built Tensor Processing Units (TPUs), such as Ironwood, our seventh-generation TPU.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:google-blog-ironwood-tpu-2025",
+          "quote": "Today at Google Cloud Next 25, we’re introducing Ironwood, our seventh-generation Tensor Processing Unit (TPU) — our most performant and scalable custom AI accelerator to date, and the first designed specifically for inference.",
+          "locator": "Blog post, opening paragraph",
+          "supports": "products"
+        },
+        {
+          "source": "src:google-blog-ironwood-tpu-2025",
+          "quote": "For Google Cloud customers, Ironwood comes in two sizes based on AI workload demands: a 256 chip configuration and a 9,216 chip configuration.",
+          "locator": "Blog post",
+          "supports": "products"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GOOGL"
+      ],
+      "sec_cik": "0001652044"
+    },
+    {
+      "id": "co:amazon",
+      "name": "Amazon.com, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 47.6225,
+        "lon": -122.3365,
+        "precision": "city",
+        "address": "Seattle, Washington"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:amazon-10k-fy2025",
+          "quote": "We own and lease our corporate headquarters in Washington’s Puget Sound region and Arlington, Virginia.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amazon-reinvent-2025-announcements",
+          "quote": "Amazon EC2 Trn3 UltraServers, powered by AWS's first 3nm AI chip, pack up to 144 Trainium3 chips into a single integrated system, delivering up to 4.4x more compute performance and 4x greater energy efficiency than Trainium2 UltraServers.",
+          "locator": "Trainium3 UltraServers section",
+          "supports": "products"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMZN"
+      ],
+      "sec_cik": "0001018724"
+    },
+    {
+      "id": "co:microsoft",
+      "name": "Microsoft Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 47.6397,
+        "lon": -122.1285,
+        "precision": "city",
+        "address": "Redmond, Washington"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "Our corporate headquarters are located in Redmond, Washington.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:microsoft-blog-maia-200-2026",
+          "quote": "Maia 200 is deployed in our US Central datacenter region near Des Moines, Iowa, with the US West 3 datacenter region near Phoenix, Arizona, coming next and future regions to follow.",
+          "locator": "Blog post",
+          "supports": "products, status"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MSFT"
+      ],
+      "sec_cik": "0000789019"
+    },
+    {
+      "id": "co:meta",
+      "name": "Meta Platforms, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4848,
+        "lon": -122.1484,
+        "precision": "site",
+        "address": "1 Meta Way, Menlo Park, California 94025"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-10k-fy2025",
+          "quote": "Our principal executive offices are located at 1 Meta Way, Menlo Park, California 94025",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:meta-blog-next-gen-mtia-2024",
+          "quote": "TSMC 5nm",
+          "locator": "Next Gen MTIA specification table — Technology row",
+          "supports": "products"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:META"
+      ],
+      "sec_cik": "0001326801"
+    },
+    {
+      "id": "co:openai",
+      "name": "OpenAI",
+      "country": "US",
+      "hq": {
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "precision": "city",
+        "address": "San Francisco, California"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:openai-broadcom-release-2025",
+          "quote": "OpenAI will design the accelerators and systems, which will be developed and deployed in partnership with Broadcom.",
+          "locator": "Press release, first paragraph",
+          "supports": "existence, products"
+        }
+      ]
+    },
+    {
+      "id": "co:huawei",
+      "name": "Huawei Technologies Co., Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 22.6547,
+        "lon": 114.0625,
+        "precision": "site",
+        "address": "Bantian Huawei Base, Longgang District, Shenzhen, 518129, China"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2019-10616-huawei-entity-list",
+          "quote": "Bantian Huawei Base, Longgang District, Shenzhen, 518129, China.",
+          "locator": "Supplement No. 4 to Part 744 amendment, China entry (1)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:bis-gp10-guidance-prc-ics-2025",
+          "quote": "This guidance alerts industry to the risks of using PRC advanced-computing ICs, including specific Huawei Ascend chips.",
+          "locator": "Summary",
+          "supports": "products, status"
+        }
+      ]
+    },
+    {
+      "id": "co:arm",
+      "name": "Arm Holdings plc",
+      "country": "GB",
+      "hq": {
+        "lat": 52.1936,
+        "lon": 0.1747,
+        "precision": "site",
+        "address": "110 Fulbourn Road, Cambridge CB1 9NJ, United Kingdom"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:arm-20f-fy2026",
+          "quote": "Our registered office is 110 Fulbourn Road, Cambridge, Cambridgeshire, CB1 9NJ, U.K., and the telephone number at that office is +44 (1223) 400 400.",
+          "locator": "Item 4. Information on the Company",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:arm-20f-fy2026",
+          "quote": "For example, our Neoverse V series processors meet or exceed performance thresholds under U.S. and U.K. export control regimes and thereby trigger U.S. and U.K. export license requirements prior to export and delivery to customers in the PRC.",
+          "locator": "Item 3.D. Risk Factors",
+          "supports": "status (export controls)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ARM"
+      ],
+      "sec_cik": "0001973239"
+    },
+    {
+      "id": "co:synopsys",
+      "name": "Synopsys, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3772,
+        "lon": -122.029,
+        "precision": "site",
+        "address": "675 Almanor Avenue, Sunnyvale, California 94085"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:synopsys-10k-fy2025",
+          "quote": "Our headquarters are located at 675 Almanor Avenue, Sunnyvale, California 94085, and our headquarters’ telephone number is (650) 584-5000.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:synopsys-10k-fy2025",
+          "quote": "For example, on May 29, 2025, Synopsys received a so-called “is-informed” letter from the BIS imposing a license requirement for the export, reexport, or in-country transfer of EDA software and technology classified under export control classification numbers (ECCNs) 3D991 and 3E991 when a party to the transaction is located in China or is a Chinese “military end user,” wherever located",
+          "locator": "Part II, Item 7. MD&A — Impact of Global Trade Policy",
+          "supports": "status (export controls)"
+        },
+        {
+          "source": "src:synopsys-10k-fy2025",
+          "quote": "In December 2025, we entered into a securities purchase agreement for a private placement with NVIDIA Corporation, pursuant to which we sold an aggregate of approximately 4.8 million shares of our common stock at a price of $414.79 per share for net proceeds of $2.0 billion.",
+          "locator": "Notes — Subsequent Events",
+          "supports": "relationship (equity; finance layer)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:SNPS"
+      ],
+      "sec_cik": "0000883241"
+    },
+    {
+      "id": "co:cadence",
+      "name": "Cadence Design Systems, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4003,
+        "lon": -121.9326,
+        "precision": "site",
+        "address": "2655 Seely Avenue, San Jose, California 95134"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:cadence-10k-fy2025",
+          "quote": "Our headquarters is located at 2655 Seely Avenue, San Jose, California 95134.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:cadence-10k-fy2025",
+          "quote": "On July 2, 2025, BIS informed us that the license requirements set forth in the May 23, 2025 letter from BIS were rescinded effective immediately.",
+          "locator": "Part I, Item 1A. Risk Factors",
+          "supports": "status (export controls)"
+        },
+        {
+          "source": "src:cadence-10k-fy2025",
+          "quote": "As part of the settlements, we recorded a charge of $128.5 million in Loss related to contingent liability on our consolidated income statement and paid BIS and the DOJ aggregate net penalties and forfeitures of $140.6 million during fiscal 2025.",
+          "locator": "Part II, Item 7. MD&A",
+          "supports": "status (enforcement)"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:CDNS"
+      ],
+      "sec_cik": "0000813672"
+    },
+    {
+      "id": "co:tsmc",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country": "TW",
+      "hq": {
+        "lat": 24.7736,
+        "lon": 121.0106,
+        "precision": "city",
+        "address": "Hsinchu Science Park, Hsinchu, Taiwan"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:broadcom-10q-q3-fy2026",
+          "quote": "approximately 95% of the wafers manufactured by our CMs were produced by Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+          "locator": "Part II, Item 1A. Risk Factors",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NYSE:TSM",
+        "TWSE:2330"
+      ]
+    },
+    {
+      "id": "co:samsung",
+      "name": "Samsung Electronics Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2636,
+        "lon": 127.0286,
+        "precision": "city",
+        "address": "Suwon, Gyeonggi-do, South Korea"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Additionally, we utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for the production of our ICs in the form of programmable logic devices.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "KRX:005930"
+      ]
+    },
+    {
+      "id": "co:sk-hynix",
+      "name": "SK hynix Inc.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2792,
+        "lon": 127.4425,
+        "precision": "city",
+        "address": "Icheon, Gyeonggi-do, South Korea"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "KRX:000660"
+      ]
+    },
+    {
+      "id": "co:micron",
+      "name": "Micron Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 43.5263,
+        "lon": -116.1527,
+        "precision": "city",
+        "address": "Boise, Idaho"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:micron-release-hbm-amd-mi350-2025",
+          "quote": "today announced the integration of its HBM3E 36GB 12-high offering into the upcoming AMD Instinct™ MI350 Series solutions",
+          "locator": "Press release dateline paragraph",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MU"
+      ]
+    },
+    {
+      "id": "co:globalfoundries",
+      "name": "GLOBALFOUNDRIES Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 42.9637,
+        "lon": -73.7818,
+        "precision": "city",
+        "address": "Malta, New York"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm.",
+          "locator": "Part I, Item 1A. Risk Factors — third-party manufacturers",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GFS"
+      ]
+    },
+    {
+      "id": "co:amkor",
+      "name": "Amkor Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 33.4255,
+        "lon": -111.94,
+        "precision": "city",
+        "address": "Tempe, Arizona"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:nvidia-blog-us-manufacturing-2025",
+          "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
+          "locator": "Blog post",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMKR"
+      ]
+    },
+    {
+      "id": "co:ase",
+      "name": "ASE Technology Holding Co., Ltd. (Advanced Semiconductor Engineering, Inc.)",
+      "country": "TW",
+      "hq": {
+        "lat": 22.6273,
+        "lon": 120.3014,
+        "precision": "city",
+        "address": "Kaohsiung, Taiwan"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NYSE:ASX",
+        "TWSE:3711"
+      ]
+    },
+    {
+      "id": "co:spil",
+      "name": "Siliconware Precision Industries Co., Ltd. (SPIL)",
+      "country": "TW",
+      "hq": {
+        "lat": 24.1477,
+        "lon": 120.6736,
+        "precision": "city",
+        "address": "Taichung, Taiwan"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "co:kyec",
+      "name": "King Yuan Electronics Co., Ltd. (KYEC)",
+      "country": "TW",
+      "hq": {
+        "lat": 24.8138,
+        "lon": 120.9675,
+        "precision": "city",
+        "address": "Hsinchu, Taiwan"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "TWSE:2449"
+      ]
+    },
+    {
+      "id": "co:tongfu-microelectronics",
+      "name": "Tongfu Microelectronics Co., Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 31.9802,
+        "lon": 120.8943,
+        "precision": "city",
+        "address": "Nantong, Jiangsu, China"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "SZSE:002156"
+      ]
+    },
+    {
+      "id": "co:foxconn",
+      "name": "Hon Hai Precision Industry Co., Ltd. (Foxconn)",
+      "country": "TW",
+      "hq": {
+        "lat": 24.9936,
+        "lon": 121.425,
+        "precision": "city",
+        "address": "Tucheng, New Taipei City, Taiwan"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "TWSE:2317"
+      ]
+    },
+    {
+      "id": "co:wistron",
+      "name": "Wistron Corporation",
+      "country": "TW",
+      "hq": {
+        "lat": 25.033,
+        "lon": 121.5654,
+        "precision": "city",
+        "address": "Taipei, Taiwan"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "TWSE:3231"
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "fac:nvidia-santa-clara-hq",
+      "name": "NVIDIA headquarters campus, Santa Clara",
+      "operator": "co:nvidia",
+      "layer": "design",
+      "kind": "corporate_hq_chip_design",
+      "location": {
+        "lat": 37.3707,
+        "lon": -121.9638,
+        "precision": "site",
+        "address": "2788 San Tomas Expressway, Santa Clara, California 95051"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Blackwell data center GPUs and systems",
+        "Vera Rubin architecture",
+        "Grace CPU"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "Our headquarters is in Santa Clara, California. We own and lease approximately 3 million square feet of office and building space for our corporate headquarters.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "2788 San Tomas Expressway, Santa Clara, California",
+          "locator": "Cover page — address of principal executive offices",
+          "supports": "location"
+        }
+      ],
+      "capacity": {
+        "value": 3000000,
+        "unit": "sq ft (owned and leased, HQ)",
+        "as_of": "2026-01-25",
+        "evidence": [
+          {
+            "source": "src:nvidia-10k-fy2026",
+            "quote": "We own and lease approximately 3 million square feet of office and building space for our corporate headquarters.",
+            "locator": "Part I, Item 2. Properties",
+            "supports": "capacity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fac:nvidia-israel-rd",
+      "name": "NVIDIA Israel engineering operations (networking)",
+      "operator": "co:nvidia",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 31.5,
+        "lon": 34.9,
+        "precision": "country",
+        "address": "Israel (specific sites not named in 10-K)"
+      },
+      "country": "IL",
+      "status": "operational",
+      "products": [
+        "networking products (R&D, operations)"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "including the health and safety of our approximately 6,000 employees in the region who primarily support the research and development, operations, and sales and marketing of our networking products.",
+          "locator": "Part I, Item 1A. Risk Factors",
+          "supports": "existence"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "For example, other countries have restricted and may continue in the future to restrict business with the State of Israel, where we have engineering, sales support operations and manufacturing, and companies with Israeli operations, including by economic boycotts.",
+          "locator": "Part I, Item 1A. Risk Factors",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:amd-santa-clara-hq",
+      "name": "AMD headquarters, Santa Clara",
+      "operator": "co:amd",
+      "layer": "design",
+      "kind": "corporate_hq_chip_design",
+      "location": {
+        "lat": 37.3826,
+        "lon": -121.972,
+        "precision": "site",
+        "address": "2485 Augustine Drive, Santa Clara, California 95054"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "AMD Instinct MI350 Series GPUs",
+        "AMD Instinct MI450 series",
+        "AMD EPYC processors"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Our mailing address and executive offices are located at 2485 Augustine Drive, Santa Clara, California 95054",
+          "locator": "Part I, Item 1. Business",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:amd-austin",
+      "name": "AMD Austin, Texas operations",
+      "operator": "co:amd",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "precision": "city",
+        "address": "Austin, Texas"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "R&D and engineering (site-level product allocation not disclosed)"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:amd-san-jose",
+      "name": "AMD San Jose, California operations",
+      "operator": "co:amd",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 37.3382,
+        "lon": -121.8863,
+        "precision": "city",
+        "address": "San Jose, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "R&D and engineering (site-level product allocation not disclosed)"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:amd-markham",
+      "name": "AMD Markham, Ontario, Canada operations",
+      "operator": "co:amd",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 43.8561,
+        "lon": -79.337,
+        "precision": "city",
+        "address": "Markham, Ontario, Canada"
+      },
+      "country": "CA",
+      "status": "operational",
+      "products": [
+        "R&D and engineering (site-level product allocation not disclosed)"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Our headquarters are located in Santa Clara, California, and we have significant operations in Austin, Texas; San Jose, California; Shanghai, China; Markham, Ontario, Canada; Longmont, Colorado; Dublin, Ireland; Singapore; and Bengaluru and Hyderabad, India.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:broadcom-palo-alto-hq",
+      "name": "Broadcom headquarters, Palo Alto",
+      "operator": "co:broadcom",
+      "layer": "design",
+      "kind": "corporate_hq_chip_design",
+      "location": {
+        "lat": 37.404,
+        "lon": -122.1465,
+        "precision": "site",
+        "address": "3421 Hillview Ave, Palo Alto, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "custom AI accelerators (XPUs)",
+        "AI networking (Ethernet switching)"
+      ],
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We are headquartered in Palo Alto, California and our primary warehouse is located in Malaysia.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence"
+        },
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "Also includes 561,000 square feet of property in Palo Alto, California subject to a 40-year land lease with the Stanford University Board of Trustees expiring in May 2046 that does not have a renewal option.",
+          "locator": "Part I, Item 2. Properties, note (a)",
+          "supports": "location"
+        }
+      ],
+      "capacity": {
+        "value": 561000,
+        "unit": "sq ft (Palo Alto property under Stanford land lease)",
+        "as_of": "2025-11-02",
+        "evidence": [
+          {
+            "source": "src:broadcom-10k-fy2025",
+            "quote": "Also includes 561,000 square feet of property in Palo Alto, California subject to a 40-year land lease with the Stanford University Board of Trustees expiring in May 2046 that does not have a renewal option.",
+            "locator": "Part I, Item 2. Properties, note (a)",
+            "supports": "capacity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fac:marvell-santa-clara",
+      "name": "Marvell Santa Clara campus",
+      "operator": "co:marvell",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "custom XPUs and data center silicon (R&D)"
+      ],
+      "evidence": [
+        {
+          "source": "src:marvell-10k-fy2026",
+          "quote": "particularly in certain regions in which we operate or own buildings, such as Santa Clara, California",
+          "locator": "Part I, Item 1A. Risk Factors summary",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:marvell-israel-rd",
+      "name": "Marvell Israel research and design",
+      "operator": "co:marvell",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 31.5,
+        "lon": 34.9,
+        "precision": "country",
+        "address": "Israel"
+      },
+      "country": "IL",
+      "status": "operational",
+      "products": [
+        "research and design"
+      ],
+      "evidence": [
+        {
+          "source": "src:marvell-10k-fy2026",
+          "quote": "We also have operations in many countries, including Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan and Vietnam.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:marvell-india-rd",
+      "name": "Marvell India research and design",
+      "operator": "co:marvell",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 20.6,
+        "lon": 78.9,
+        "precision": "country",
+        "address": "India"
+      },
+      "country": "IN",
+      "status": "operational",
+      "products": [
+        "research and design"
+      ],
+      "evidence": [
+        {
+          "source": "src:marvell-10k-fy2026",
+          "quote": "We also have operations in many countries, including Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan and Vietnam.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:synopsys-sunnyvale-hq",
+      "name": "Synopsys headquarters, Sunnyvale",
+      "operator": "co:synopsys",
+      "layer": "design",
+      "kind": "eda_ip_headquarters",
+      "location": {
+        "lat": 37.3772,
+        "lon": -122.029,
+        "precision": "site",
+        "address": "675 Almanor Avenue, Sunnyvale, California 94085"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "EDA software",
+        "semiconductor IP (Design IP)"
+      ],
+      "evidence": [
+        {
+          "source": "src:synopsys-10k-fy2025",
+          "quote": "Our headquarters are located at 675 Almanor Avenue, Sunnyvale, California 94085, and our headquarters’ telephone number is (650) 584-5000.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:synopsys-10k-fy2025",
+          "quote": "Our principal offices are currently located in Sunnyvale, California. We currently lease approximately 1.7 million square feet of space in 45 offices throughout the United States, of which we sublet 340,000 square feet to third parties.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "fac:synopsys-hsinchu",
+      "name": "Synopsys owned building, Hsinchu",
+      "operator": "co:synopsys",
+      "layer": "design",
+      "kind": "eda_design_center",
+      "location": {
+        "lat": 24.8138,
+        "lon": 120.9675,
+        "precision": "city",
+        "address": "Hsinchu, Taiwan"
+      },
+      "country": "TW",
+      "status": "operational",
+      "products": [
+        "sales, support, service and R&D"
+      ],
+      "evidence": [
+        {
+          "source": "src:synopsys-10k-fy2025",
+          "quote": "We currently lease approximately 4 million square feet of space in 35 countries other than the United States, and own buildings in Wuhan, China and Hsinchu, Taiwan as well as office space in Xiamen, China, Pune, India, and Yongin-si, South Korea.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:cadence-san-jose-hq",
+      "name": "Cadence headquarters, San Jose",
+      "operator": "co:cadence",
+      "layer": "design",
+      "kind": "eda_ip_headquarters",
+      "location": {
+        "lat": 37.4003,
+        "lon": -121.9326,
+        "precision": "site",
+        "address": "2655 Seely Avenue, San Jose, California 95134"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "EDA software",
+        "design IP",
+        "hardware emulation"
+      ],
+      "evidence": [
+        {
+          "source": "src:cadence-10k-fy2025",
+          "quote": "Our headquarters is located at 2655 Seely Avenue, San Jose, California 95134.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:cadence-10k-fy2025",
+          "quote": "We own land and buildings at our corporate headquarters located in San Jose, California.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "fac:arm-cambridge-hq",
+      "name": "Arm global headquarters, Cambridge",
+      "operator": "co:arm",
+      "layer": "design",
+      "kind": "ip_headquarters",
+      "location": {
+        "lat": 52.1936,
+        "lon": 0.1747,
+        "precision": "site",
+        "address": "110 Fulbourn Road, Cambridge CB1 9NJ, United Kingdom"
+      },
+      "country": "GB",
+      "status": "operational",
+      "products": [
+        "Arm architecture and CPU IP (e.g. Neoverse V series)"
+      ],
+      "evidence": [
+        {
+          "source": "src:arm-20f-fy2026",
+          "quote": "Our global headquarters are located in Cambridge, U.K., occupying approximately 418,793 square feet of leased office space in the aggregate, with the leases expiring between 2032 and 2044.",
+          "locator": "Item 4.D. Property, Plants and Equipment",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:arm-20f-fy2026",
+          "quote": "Our registered office is 110 Fulbourn Road, Cambridge, Cambridgeshire, CB1 9NJ, U.K., and the telephone number at that office is +44 (1223) 400 400.",
+          "locator": "Item 4. Information on the Company",
+          "supports": "location"
+        }
+      ],
+      "capacity": {
+        "value": 418793,
+        "unit": "sq ft leased",
+        "as_of": "2026-03-31",
+        "evidence": [
+          {
+            "source": "src:arm-20f-fy2026",
+            "quote": "occupying approximately 418,793 square feet of leased office space in the aggregate",
+            "locator": "Item 4.D. Property, Plants and Equipment",
+            "supports": "capacity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fac:arm-san-jose",
+      "name": "Arm Inc. principal U.S. office, San Jose",
+      "operator": "co:arm",
+      "layer": "design",
+      "kind": "ip_design_center",
+      "location": {
+        "lat": 37.418,
+        "lon": -121.951,
+        "precision": "site",
+        "address": "120 Rose Orchard Way, San Jose, CA 95134"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Arm Inc. U.S. operations"
+      ],
+      "evidence": [
+        {
+          "source": "src:arm-20f-fy2026",
+          "quote": "The principal office for Arm Inc., our U.S. subsidiary, is located at 120 Rose Orchard Way, San Jose, CA 95134",
+          "locator": "Item 4. Information on the Company",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:alphabet-mountain-view-hq",
+      "name": "Google / Alphabet headquarters, Mountain View",
+      "operator": "co:alphabet",
+      "layer": "design",
+      "kind": "corporate_hq_chip_design",
+      "location": {
+        "lat": 37.422,
+        "lon": -122.0841,
+        "precision": "site",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "TPU (Ironwood, seventh generation)"
+      ],
+      "evidence": [
+        {
+          "source": "src:alphabet-10k-fy2025",
+          "quote": "Our headquarters are located in Mountain View, California.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:alphabet-10k-fy2025",
+          "quote": "1600 Amphitheatre Parkway",
+          "locator": "Cover page — address of principal executive offices",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:amazon-annapurna-labs-austin",
+      "name": "Annapurna Labs (AWS) chip lab, Austin",
+      "operator": "co:amazon",
+      "layer": "design",
+      "kind": "chip_design_center",
+      "location": {
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "precision": "city",
+        "address": "Austin, Texas (outskirts)"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Trainium",
+        "Inferentia",
+        "Trainium3 (3nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:amazon-annapurna-labs-austin",
+          "quote": "On the outskirts of Austin, Texas, lies Annapurna Labs—a combination of offices, workshops, and even a mini “data center”—where Amazon Web Services (AWS) engineers are designing the future of computing.",
+          "locator": "Article, opening paragraph",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amazon-annapurna-labs-austin",
+          "quote": "Annapurna Labs’ machine learning chips—Inferentia and Trainium—are the third product line.",
+          "locator": "Article",
+          "supports": "products"
+        }
+      ]
+    },
+    {
+      "id": "fac:microsoft-redmond-hq",
+      "name": "Microsoft headquarters campus, Redmond",
+      "operator": "co:microsoft",
+      "layer": "design",
+      "kind": "corporate_hq_chip_design",
+      "location": {
+        "lat": 47.6397,
+        "lon": -122.1285,
+        "precision": "city",
+        "address": "Redmond, Washington"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "Maia 200 AI accelerator (TSMC 3nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:microsoft-10k-fy2026",
+          "quote": "Our corporate headquarters are located in Redmond, Washington. We have approximately 14 million square feet of space located in King County, Washington that is used for engineering, sales, marketing, and operations, among other general and administrative purposes.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        }
+      ]
+    },
+    {
+      "id": "fac:meta-menlo-park-hq",
+      "name": "Meta headquarters, Menlo Park",
+      "operator": "co:meta",
+      "layer": "design",
+      "kind": "corporate_hq_chip_design",
+      "location": {
+        "lat": 37.4848,
+        "lon": -122.1484,
+        "precision": "site",
+        "address": "1 Meta Way, Menlo Park, California 94025"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "MTIA (next-gen, TSMC 5nm)"
+      ],
+      "evidence": [
+        {
+          "source": "src:meta-10k-fy2025",
+          "quote": "Our corporate headquarters are located in Menlo Park, California.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:meta-10k-fy2025",
+          "quote": "Our principal executive offices are located at 1 Meta Way, Menlo Park, California 94025",
+          "locator": "Part I, Item 1. Business",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:huawei-shenzhen-bantian",
+      "name": "Huawei Bantian base, Shenzhen",
+      "operator": "co:huawei",
+      "layer": "design",
+      "kind": "corporate_hq_chip_design",
+      "location": {
+        "lat": 22.6547,
+        "lon": 114.0625,
+        "precision": "site",
+        "address": "Bantian Huawei Base, Longgang District, Shenzhen, 518129, China"
+      },
+      "country": "CN",
+      "status": "operational",
+      "products": [
+        "Ascend 910B",
+        "Ascend 910C",
+        "Ascend 910D (BIS naming)"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2019-10616-huawei-entity-list",
+          "quote": "Bantian Huawei Base, Longgang District, Shenzhen, 518129, China.",
+          "locator": "Entity List addition, China entry (1)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:bis-gp10-guidance-prc-ics-2025",
+          "quote": "Huawei Ascend 910B",
+          "locator": "Illustrative list of PRC ICs presumptively subject to GP10",
+          "supports": "products"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow:tsmc-nvidia-wafers",
+      "from": "co:tsmc",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:tsmc-fab18-tainan",
+      "commodity": "leading-edge logic wafers (GPU dies)",
+      "description": "NVIDIA's 10-K names TSMC as a foundry producing its semiconductor wafers.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-arizona-nvidia-blackwell-wafers",
+      "from": "co:tsmc",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:tsmc-arizona-fab21",
+      "commodity": "Blackwell wafers (US-produced)",
+      "description": "NVIDIA states Blackwell production started at TSMC's Phoenix, Arizona plants; first US Blackwell wafer celebrated Oct 2025.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-blog-us-manufacturing-2025",
+          "quote": "NVIDIA Blackwell chips have started production at TSMC’s chip plants in Phoenix, Arizona.",
+          "locator": "Blog post",
+          "supports": "relationship, location"
+        },
+        {
+          "source": "src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025",
+          "quote": "NVIDIA founder and CEO Jensen Huang today visited TSMC’s semiconductor manufacturing facility in Phoenix to celebrate the first NVIDIA Blackwell wafer produced on U.S. soil, representing that Blackwell has reached volume production.",
+          "locator": "Blog post",
+          "supports": "relationship, status"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-nvidia-cowos",
+      "from": "co:tsmc",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:tsmc-ap6-zhunan",
+      "commodity": "CoWoS advanced packaging",
+      "description": "NVIDIA's 10-K states it utilizes CoWoS technology for packaging but does not name the packaging provider.",
+      "basis": "inferred",
+      "inference_note": "NVIDIA 10-K: 'We utilize CoWoS technology for semiconductor packaging' and names TSMC as its foundry [src:nvidia-10k-fy2026]. CoWoS is TSMC's packaging platform, so TSMC -> NVIDIA CoWoS is deduced; the 10-K does not name the CoWoS provider or site, and the Zhunan AP6 hint is a guess.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:samsung-nvidia-wafers",
+      "from": "co:samsung",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:samsung-hwaseong",
+      "commodity": "foundry wafers",
+      "description": "NVIDIA's 10-K names Samsung as a foundry producing its semiconductor wafers.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:sk-hynix-nvidia-memory",
+      "from": "co:sk-hynix",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:sk-hynix-icheon",
+      "commodity": "memory (HBM/DRAM)",
+      "description": "NVIDIA's 10-K names SK Hynix as a memory supplier. Specific HBM generation not stated in the 10-K.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:micron-nvidia-memory",
+      "from": "co:micron",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:micron-taichung",
+      "commodity": "memory (HBM/DRAM)",
+      "description": "NVIDIA's 10-K names Micron as a memory supplier.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:samsung-nvidia-memory",
+      "from": "co:samsung",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:samsung-pyeongtaek",
+      "commodity": "memory (HBM/DRAM)",
+      "description": "NVIDIA's 10-K names Samsung as a memory supplier.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:amkor-nvidia-packaging-arizona",
+      "from": "co:amkor",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:amkor-peoria-arizona",
+      "commodity": "packaging and test (Arizona)",
+      "description": "NVIDIA states it is partnering with Amkor for packaging and testing operations in Arizona.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-blog-us-manufacturing-2025",
+          "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
+          "locator": "Blog post",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:spil-nvidia-packaging-arizona",
+      "from": "co:spil",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:spil-arizona",
+      "commodity": "packaging and test (Arizona)",
+      "description": "NVIDIA states it is partnering with SPIL for packaging and testing operations in Arizona.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-blog-us-manufacturing-2025",
+          "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
+          "locator": "Blog post",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:foxconn-nvidia-assembly-test",
+      "from": "co:foxconn",
+      "to": "fac:nvidia-santa-clara-hq",
+      "commodity": "assembly, test and packaging of final products",
+      "description": "NVIDIA's 10-K names Hon Hai (Foxconn) among contract manufacturers performing assembly, testing and packaging of final products.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:wistron-nvidia-assembly-test",
+      "from": "co:wistron",
+      "to": "fac:nvidia-santa-clara-hq",
+      "commodity": "assembly, test and packaging of final products",
+      "description": "NVIDIA's 10-K names Wistron among contract manufacturers performing assembly, testing and packaging of final products.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:arm-nvidia-grace-cpu-ip",
+      "from": "co:arm",
+      "to": "fac:nvidia-santa-clara-hq",
+      "from_hint": "fac:arm-cambridge-hq",
+      "commodity": "Arm Neoverse V2 CPU cores (Grace CPU)",
+      "description": "NVIDIA's Grace CPU Superchip uses 144 Arm Neoverse V2 cores.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:nvidia-grace-cpu-page",
+          "quote": "It packs 144 Arm Neoverse V2 cores into a single module, with server-class LPDDR5X memory that delivers up to 1 terabyte per second (TB/s) of memory bandwidth.",
+          "locator": "Grace CPU Superchip section",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-amd-wafers",
+      "from": "co:tsmc",
+      "to": "fac:amd-santa-clara-hq",
+      "from_hint": "fac:tsmc-fab18-tainan",
+      "commodity": "wafers at 7nm and below (CPUs, GPUs incl. Instinct)",
+      "description": "AMD relies on TSMC for all microprocessor and GPU wafers at 7nm or smaller.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm.",
+          "locator": "Part I, Item 1A. Risk Factors — third-party manufacturers",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:globalfoundries-amd-wafers",
+      "from": "co:globalfoundries",
+      "to": "fac:amd-santa-clara-hq",
+      "from_hint": "fac:globalfoundries-fab8-malta",
+      "commodity": "wafers at 12nm/14nm and larger nodes",
+      "description": "AMD relies primarily on GF for microprocessor and GPU wafers at nodes larger than 7nm.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm.",
+          "locator": "Part I, Item 1A. Risk Factors — third-party manufacturers",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:samsung-amd-pld-wafers",
+      "from": "co:samsung",
+      "to": "fac:amd-santa-clara-hq",
+      "commodity": "programmable logic device ICs",
+      "description": "AMD's 10-K names Samsung (with TSMC and UMC) for production of programmable logic devices.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Additionally, we utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for the production of our ICs in the form of programmable logic devices.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tongfu-atmp-jvs-amd",
+      "from": "co:tongfu-microelectronics",
+      "to": "fac:amd-santa-clara-hq",
+      "from_hint": "fac:tf-amd-penang",
+      "commodity": "assembly, test, mark and packaging (ATMP)",
+      "description": "AMD's two ATMP joint ventures with Tongfu Microelectronics provide ATMP services; AMD reports related-party ATMP purchases.",
+      "basis": "documented",
+      "volume": {
+        "value": 1200000000.0,
+        "unit": "USD (related-party purchases, six months ended 2026-06-27)",
+        "as_of": "2026-06-27",
+        "note": "Related parties are AMD's equity-method investees (ATMP JVs).",
+        "evidence": [
+          {
+            "source": "src:amd-10q-q2-2026",
+            "quote": "Purchases from related parties during the three and six months ended June 27, 2026 were $594 million and $1.2 billion, respectively",
+            "locator": "Note 7 – Equity Method Investments",
+            "supports": "amount"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:amd-10q-q2-2026",
+          "quote": "The Company’s transactions with these related parties consist primarily of assembly, test, mark and packaging (ATMP) services provided in the ordinary course of business. Purchases from related parties during the three and six months ended June 27, 2026 were $594 million and $1.2 billion, respectively",
+          "locator": "Note 7 – Equity Method Investments",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "flow:spil-amd-atmp",
+      "from": "co:spil",
+      "to": "fac:amd-santa-clara-hq",
+      "commodity": "assembly, test, mark and packaging (ATMP)",
+      "description": "AMD's 10-K names SPIL as an ATMP provider.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:kyec-amd-test",
+      "from": "co:kyec",
+      "to": "fac:amd-santa-clara-hq",
+      "commodity": "ATMP / test services",
+      "description": "AMD's 10-K names KYEC as an ATMP provider.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products.",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:micron-amd-hbm3e",
+      "from": "co:micron",
+      "to": "fac:amd-santa-clara-hq",
+      "from_hint": "fac:micron-taichung",
+      "commodity": "HBM3E 36GB 12-high (Instinct MI350 Series)",
+      "description": "Micron announced integration of its HBM3E 36GB 12-high into AMD Instinct MI350 Series.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:micron-release-hbm-amd-mi350-2025",
+          "quote": "today announced the integration of its HBM3E 36GB 12-high offering into the upcoming AMD Instinct™ MI350 Series solutions",
+          "locator": "Press release dateline paragraph",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-broadcom-wafers",
+      "from": "co:tsmc",
+      "to": "fac:broadcom-palo-alto-hq",
+      "from_hint": "fac:tsmc-fab18-tainan",
+      "commodity": "front-end wafers (~95% of CM-produced wafers)",
+      "description": "About 95% of wafers made by Broadcom's contract manufacturers were produced by TSMC (three fiscal quarters ended Aug 2, 2026).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:broadcom-10q-q3-fy2026",
+          "quote": "approximately 95% of the wafers manufactured by our CMs were produced by Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+          "locator": "Part II, Item 1A. Risk Factors",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "The majority of our front-end wafer manufacturing operations is outsourced to external foundries, including Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:ase-broadcom-assembly-test",
+      "from": "co:ase",
+      "to": "fac:broadcom-palo-alto-hq",
+      "commodity": "assembly and test",
+      "description": "Broadcom's 10-K names Advanced Semiconductor Engineering among its assembly and test CMs.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:amkor-broadcom-assembly-test",
+      "from": "co:amkor",
+      "to": "fac:broadcom-palo-alto-hq",
+      "commodity": "assembly and test",
+      "description": "Broadcom's 10-K names Amkor among its assembly and test CMs.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:spil-broadcom-assembly-test",
+      "from": "co:spil",
+      "to": "fac:broadcom-palo-alto-hq",
+      "commodity": "assembly and test",
+      "description": "Broadcom's 10-K names SPIL among its assembly and test CMs.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:foxconn-broadcom-assembly-test",
+      "from": "co:foxconn",
+      "to": "fac:broadcom-palo-alto-hq",
+      "commodity": "assembly and test",
+      "description": "Broadcom's 10-K names Foxconn Technology Group among its assembly and test CMs.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-broadcom-assembly-test",
+      "from": "co:tsmc",
+      "to": "fac:broadcom-palo-alto-hq",
+      "commodity": "assembly and test",
+      "description": "Broadcom's 10-K names TSMC among its assembly and test CMs.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:broadcom-openai-custom-accelerators",
+      "from": "fac:broadcom-palo-alto-hq",
+      "to": "co:openai",
+      "commodity": "co-developed custom AI accelerators and rack systems (10 GW program)",
+      "description": "OpenAI designs the accelerators and systems; they are developed and deployed with Broadcom; rack deployments targeted from 2H 2026 through 2029.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:openai-broadcom-release-2025",
+          "quote": "OpenAI will design the accelerators and systems, which will be developed and deployed in partnership with Broadcom.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:openai-broadcom-release-2025",
+          "quote": "OpenAI and Broadcom have long-standing agreements on the co-development and supply of the AI accelerators.",
+          "locator": "Press release",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-marvell-2nm",
+      "from": "co:tsmc",
+      "to": "fac:marvell-santa-clara",
+      "from_hint": "fac:tsmc-fab20-hsinchu",
+      "commodity": "2nm silicon (custom XPU platform)",
+      "description": "Marvell's first 2nm silicon IP was produced on TSMC's 2nm process; TSMC quoted in the release.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:marvell-release-2nm-tsmc-2025",
+          "quote": "Produced on TSMC's 2nm process, the working silicon is part of the Marvell platform for developing custom XPUs, switches and other technology",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:marvell-release-2nm-tsmc-2025",
+          "quote": "\"TSMC is pleased to collaborate with Marvell on the development of its 2nm platform and the delivery of its first silicon,\" said Dr. Kevin Zhang",
+          "locator": "Press release, TSMC quote",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:marvell-aws-custom-ai-products",
+      "from": "fac:marvell-santa-clara",
+      "to": "fac:amazon-annapurna-labs-austin",
+      "commodity": "custom AI products and data center semiconductors",
+      "description": "Five-year, multi-generational agreement covering supply of Marvell custom AI products and connectivity silicon to AWS.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:marvell-8k-aws-2024",
+          "quote": "This agreement covers a broad range of data center semiconductors from Marvell, including the supply of custom AI products, optical digital signal processors (DSPs), active electrical cable (AEC) DSPs, PCIe retimers, data center interconnect (DCI) optical modules and Ethernet switching silicon solutions.",
+          "locator": "Exhibit 99.1",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:aws-marvell-cloud-eda",
+      "from": "co:amazon",
+      "to": "fac:marvell-santa-clara",
+      "commodity": "cloud compute for EDA workloads",
+      "description": "Marvell uses AWS cloud infrastructure for electronic design automation.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:marvell-8k-aws-2024",
+          "quote": "Marvell has embraced a cloud-first approach by collaborating with AWS for electronic design automation (EDA) in the cloud.",
+          "locator": "Exhibit 99.1",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-microsoft-maia200",
+      "from": "co:tsmc",
+      "to": "fac:microsoft-redmond-hq",
+      "commodity": "Maia 200 accelerator dies (TSMC 3nm)",
+      "description": "Microsoft states Maia 200 is fabricated on TSMC's 3-nanometer process.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:microsoft-blog-maia-200-2026",
+          "quote": "Fabricated on TSMC’s cutting-edge 3-nanometer process, each Maia 200 chip contains over 140 billion transistors and is tailored for large-scale AI workloads while also delivering efficient performance per dollar.",
+          "locator": "Blog post",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:tsmc-meta-mtia",
+      "from": "co:tsmc",
+      "to": "fac:meta-menlo-park-hq",
+      "commodity": "next-gen MTIA dies (TSMC 5nm)",
+      "description": "Meta's next-generation MTIA specification lists TSMC 5nm technology.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:meta-blog-next-gen-mtia-2024",
+          "quote": "TSMC 5nm",
+          "locator": "Next Gen MTIA specification table — Technology row",
+          "supports": "relationship"
+        }
+      ]
+    }
+  ],
+  "financial_links": [
+    {
+      "id": "fin:nvidia-supply-commitments-tsmc",
+      "from": "co:nvidia",
+      "to": "co:tsmc",
+      "kind": "purchase_commitment",
+      "date": "2026-08-26",
+      "description": "Inferred allocation: NVIDIA supply/capacity commitments (wafer fabrication / manufacturing capacity). NVIDIA discloses aggregate supply and capacity commitments of $279B as of 2026-07-26 (up from $95.2B at 2026-01-25), 'primarily memory and manufacturing facilities', without naming counterparties. This link records that the named supplier is a party to NVIDIA's supply base; the per-supplier share of the aggregate is NOT disclosed, so no amount is attributed here.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "increasing supply commitments from $119 billion last quarter to $279 billion as of July 26, 2026. These supply commitments are for our data center infrastructure systems, primarily memory and manufacturing facilities, to produce our products for long-term demand across current and future product architectures.",
+          "locator": "Note 10 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "As of January 25, 2026, these commitments were $95.2 billion, of which substantially all will be paid through fiscal year 2027.",
+          "locator": "Note 12 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:nvidia-supply-commitments-samsung",
+      "from": "co:nvidia",
+      "to": "co:samsung",
+      "kind": "purchase_commitment",
+      "date": "2026-08-26",
+      "description": "Inferred allocation: NVIDIA supply/capacity commitments (foundry wafers and memory). NVIDIA discloses aggregate supply and capacity commitments of $279B as of 2026-07-26 (up from $95.2B at 2026-01-25), 'primarily memory and manufacturing facilities', without naming counterparties. This link records that the named supplier is a party to NVIDIA's supply base; the per-supplier share of the aggregate is NOT disclosed, so no amount is attributed here.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "increasing supply commitments from $119 billion last quarter to $279 billion as of July 26, 2026. These supply commitments are for our data center infrastructure systems, primarily memory and manufacturing facilities, to produce our products for long-term demand across current and future product architectures.",
+          "locator": "Note 10 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "As of January 25, 2026, these commitments were $95.2 billion, of which substantially all will be paid through fiscal year 2027.",
+          "locator": "Note 12 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:nvidia-supply-commitments-sk-hynix",
+      "from": "co:nvidia",
+      "to": "co:sk-hynix",
+      "kind": "purchase_commitment",
+      "date": "2026-08-26",
+      "description": "Inferred allocation: NVIDIA supply/capacity commitments (memory). NVIDIA discloses aggregate supply and capacity commitments of $279B as of 2026-07-26 (up from $95.2B at 2026-01-25), 'primarily memory and manufacturing facilities', without naming counterparties. This link records that the named supplier is a party to NVIDIA's supply base; the per-supplier share of the aggregate is NOT disclosed, so no amount is attributed here.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "increasing supply commitments from $119 billion last quarter to $279 billion as of July 26, 2026. These supply commitments are for our data center infrastructure systems, primarily memory and manufacturing facilities, to produce our products for long-term demand across current and future product architectures.",
+          "locator": "Note 10 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "As of January 25, 2026, these commitments were $95.2 billion, of which substantially all will be paid through fiscal year 2027.",
+          "locator": "Note 12 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:nvidia-supply-commitments-micron",
+      "from": "co:nvidia",
+      "to": "co:micron",
+      "kind": "purchase_commitment",
+      "date": "2026-08-26",
+      "description": "Inferred allocation: NVIDIA supply/capacity commitments (memory). NVIDIA discloses aggregate supply and capacity commitments of $279B as of 2026-07-26 (up from $95.2B at 2026-01-25), 'primarily memory and manufacturing facilities', without naming counterparties. This link records that the named supplier is a party to NVIDIA's supply base; the per-supplier share of the aggregate is NOT disclosed, so no amount is attributed here.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "increasing supply commitments from $119 billion last quarter to $279 billion as of July 26, 2026. These supply commitments are for our data center infrastructure systems, primarily memory and manufacturing facilities, to produce our products for long-term demand across current and future product architectures.",
+          "locator": "Note 10 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "As of January 25, 2026, these commitments were $95.2 billion, of which substantially all will be paid through fiscal year 2027.",
+          "locator": "Note 12 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung. We utilize CoWoS technology for semiconductor packaging.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:amd-wafer-commitments-tsmc",
+      "from": "co:amd",
+      "to": "co:tsmc",
+      "kind": "purchase_commitment",
+      "date": "2026-08-05",
+      "description": "Inferred allocation: AMD wafer purchase obligations; TSMC is AMD's sole named source for <=7nm CPU/GPU wafers. AMD discloses aggregate unconditional commitments of ~$30.3B as of 2026-06-27 ($12.2B at 2025-12-27), relating primarily to wafers, substrates and components (plus cloud and licenses), without per-supplier split. No amount is attributed to this counterparty.",
+      "evidence": [
+        {
+          "source": "src:amd-10q-q2-2026",
+          "quote": "As of June 27, 2026, we had unconditional commitments of approximately $30.3 billion, of which $17.4 billion are for the remainder of fiscal year 2026. Our contractual obligations and purchase commitments relate primarily to our obligations to purchase wafers, substrates and components from third parties",
+          "locator": "Part I, Item 2. MD&A — Contractual Obligations",
+          "supports": "amount"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm.",
+          "locator": "Part I, Item 1A. Risk Factors — third-party manufacturers",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:amd-wafer-commitments-globalfoundries",
+      "from": "co:amd",
+      "to": "co:globalfoundries",
+      "kind": "purchase_commitment",
+      "date": "2026-08-05",
+      "description": "Inferred allocation: AMD wafer purchase obligations; GF is AMD's primary named source for >7nm CPU/GPU wafers. AMD discloses aggregate unconditional commitments of ~$30.3B as of 2026-06-27 ($12.2B at 2025-12-27), relating primarily to wafers, substrates and components (plus cloud and licenses), without per-supplier split. No amount is attributed to this counterparty.",
+      "evidence": [
+        {
+          "source": "src:amd-10q-q2-2026",
+          "quote": "As of June 27, 2026, we had unconditional commitments of approximately $30.3 billion, of which $17.4 billion are for the remainder of fiscal year 2026. Our contractual obligations and purchase commitments relate primarily to our obligations to purchase wafers, substrates and components from third parties",
+          "locator": "Part I, Item 2. MD&A — Contractual Obligations",
+          "supports": "amount"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes, and we rely primarily on GLOBALFOUNDRIES Inc. (GF) for wafers for microprocessor and GPU products manufactured at process nodes larger than 7 nm.",
+          "locator": "Part I, Item 1A. Risk Factors — third-party manufacturers",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:amd-wafer-commitments-samsung",
+      "from": "co:amd",
+      "to": "co:samsung",
+      "kind": "purchase_commitment",
+      "date": "2026-08-05",
+      "description": "Inferred allocation: AMD wafer purchase obligations; Samsung is named for programmable logic device production. AMD discloses aggregate unconditional commitments of ~$30.3B as of 2026-06-27 ($12.2B at 2025-12-27), relating primarily to wafers, substrates and components (plus cloud and licenses), without per-supplier split. No amount is attributed to this counterparty.",
+      "evidence": [
+        {
+          "source": "src:amd-10q-q2-2026",
+          "quote": "As of June 27, 2026, we had unconditional commitments of approximately $30.3 billion, of which $17.4 billion are for the remainder of fiscal year 2026. Our contractual obligations and purchase commitments relate primarily to our obligations to purchase wafers, substrates and components from third parties",
+          "locator": "Part I, Item 2. MD&A — Contractual Obligations",
+          "supports": "amount"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Additionally, we utilize TSMC, United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. for the production of our ICs in the form of programmable logic devices.",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:broadcom-purchase-commitments-tsmc",
+      "from": "co:broadcom",
+      "to": "co:tsmc",
+      "kind": "purchase_commitment",
+      "date": "2026-09-10",
+      "description": "Inferred allocation: Broadcom's unconditional purchase commitments (primarily inventory) totalled $126,821M per the Note 10 commitments table (10-Q) at 2026-08-02 vs $132M at 2025-11-02; ~95% of CM-produced wafers came from TSMC. The 10-Q does not name counterparties, and the increase coincides with AI rack purchase/lease arrangements, so the TSMC share is undisclosed; no amount attributed.",
+      "evidence": [
+        {
+          "source": "src:broadcom-10q-q3-fy2026",
+          "quote": "Purchase Commitments. Represent unconditional purchase commitments to purchase goods or services, primarily inventory, that are enforceable and legally binding on us and specify all significant terms, including fixed or minimum quantities to be purchased, price provisions, and the approximate timing of the transaction.",
+          "locator": "Note 10. Commitments and Contingencies",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:broadcom-10q-q3-fy2026",
+          "quote": "approximately 95% of the wafers manufactured by our CMs were produced by Taiwan Semiconductor Manufacturing Company Limited (“TSMC”).",
+          "locator": "Part II, Item 1A. Risk Factors",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:marvell-capacity-reservation-tsmc",
+      "from": "co:marvell",
+      "to": "co:tsmc",
+      "kind": "purchase_commitment",
+      "date": "2026-03-11",
+      "description": "Inferred allocation: Marvell capacity-reservation purchase-level commitments of at least $458.2M (FY2027–FY2033) with foundries and test/assembly suppliers (unnamed in the 10-K); TSMC is documented as Marvell's 2nm foundry partner. No amount attributed to TSMC specifically.",
+      "evidence": [
+        {
+          "source": "src:marvell-10k-fy2026",
+          "quote": "The Company currently estimates that it has agreed to purchase level commitments of at least $458.2 million of wafers, substrates, and other manufacturing products for fiscal 2027 through fiscal 2033 under the capacity reservation agreements. In addition, total fees and refundable deposits payable under these arrangements are $23.1 million in fiscal 2027 through fiscal 2028.",
+          "locator": "Note 8 – Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:marvell-release-2nm-tsmc-2025",
+          "quote": "Produced on TSMC's 2nm process, the working silicon is part of the Marvell platform for developing custom XPUs, switches and other technology",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:marvell-capacity-fees-deposits-tsmc",
+      "from": "co:marvell",
+      "to": "co:tsmc",
+      "kind": "prepayment",
+      "date": "2026-03-11",
+      "description": "Inferred allocation: Marvell capacity fees and refundable deposits of $23.1M payable FY2027–FY2028 to foundries and test/assembly suppliers (unnamed in the 10-K). No amount attributed to TSMC specifically.",
+      "evidence": [
+        {
+          "source": "src:marvell-10k-fy2026",
+          "quote": "The Company currently estimates that it has agreed to purchase level commitments of at least $458.2 million of wafers, substrates, and other manufacturing products for fiscal 2027 through fiscal 2033 under the capacity reservation agreements. In addition, total fees and refundable deposits payable under these arrangements are $23.1 million in fiscal 2027 through fiscal 2028.",
+          "locator": "Note 8 – Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:marvell-release-2nm-tsmc-2025",
+          "quote": "Produced on TSMC's 2nm process, the working silicon is part of the Marvell platform for developing custom XPUs, switches and other technology",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship"
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "id": "ctl:bis-eda-is-informed-letters-2025",
+      "authority": "US-BIS",
+      "instrument": "BIS 'is-informed' letters imposing a license requirement on EDA software and technology (ECCNs 3D991, 3E991) for parties in China or Chinese military end users",
+      "citation": "BIS letters to Cadence (May 23, 2025) and Synopsys (May 29, 2025), as disclosed in company Form 10-K filings; letters not publicly released",
+      "effective_date": "2025-05-23",
+      "status": "rescinded",
+      "items": [
+        "3D991 (EDA software)",
+        "3E991 (EDA technology)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "entities": [
+        "co:cadence",
+        "co:synopsys"
+      ],
+      "summary": "License requirement for export, reexport or in-country transfer of EDA software/technology when a party is in China or is a Chinese military end user; BIS informed both companies on July 2, 2025 that the requirements were rescinded.",
+      "evidence": [
+        {
+          "source": "src:cadence-10k-fy2025",
+          "quote": "On July 2, 2025, BIS informed us that the license requirements set forth in the May 23, 2025 letter from BIS were rescinded effective immediately.",
+          "locator": "Part I, Item 1A. Risk Factors",
+          "supports": "status"
+        },
+        {
+          "source": "src:synopsys-10k-fy2025",
+          "quote": "The Q3 2025 BIS Restrictions were subsequently rescinded on July 2, 2025.",
+          "locator": "Part II, Item 7. MD&A",
+          "supports": "status"
+        }
+      ]
+    },
+    {
+      "id": "ctl:bis-gp10-guidance-prc-3a090-ics-2025",
+      "authority": "US-BIS",
+      "instrument": "Guidance on Application of General Prohibition 10 (GP10) to PRC Advanced-Computing Integrated Circuits",
+      "citation": "15 CFR 736.2(b)(10); BIS guidance dated May 13, 2025",
+      "effective_date": "2025-05-13",
+      "status": "in_force",
+      "items": [
+        "3A090 ICs developed or produced by companies in Country Group D:5 incl. PRC or Macau",
+        "Huawei Ascend 910B",
+        "Huawei Ascend 910C",
+        "Huawei Ascend 910D"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "worldwide (any use of listed PRC 3A090 ICs)"
+      ],
+      "entities": [
+        "co:huawei"
+      ],
+      "summary": "BIS guidance that use of PRC-developed 3A090 ICs, with Huawei Ascend 910B/910C/910D as illustrative examples, may implicate GP10 and risk BIS enforcement action. Status recorded as of the guidance date; later amendments were not checked.",
+      "evidence": [
+        {
+          "source": "src:bis-gp10-guidance-prc-ics-2025",
+          "quote": "This guidance alerts industry to the risks of using PRC advanced-computing ICs, including specific Huawei Ascend chips.",
+          "locator": "Summary",
+          "supports": "existence"
+        },
+        {
+          "source": "src:bis-gp10-guidance-prc-ics-2025",
+          "quote": "Huawei Ascend 910C",
+          "locator": "Illustrative list",
+          "supports": "items"
+        }
+      ]
+    },
+    {
+      "id": "ctl:entity-list-huawei-2019",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Addition of Entities to the Entity List (Huawei Technologies Co., Ltd. and 68 non-U.S. affiliates)",
+      "citation": "84 FR 22961",
+      "effective_date": "2019-05-16",
+      "status": "in_force",
+      "items": [
+        "all items subject to the EAR (license requirement for listed entities)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "entities": [
+        "co:huawei"
+      ],
+      "summary": "BIS added Huawei to the Entity List based on reasonable cause to believe it had been involved in activities contrary to U.S. national security or foreign policy interests. Subsequent amendments (e.g. foreign direct product rule expansions) are owned by the policy layer.",
+      "evidence": [
+        {
+          "source": "src:fr-2019-10616-huawei-entity-list",
+          "quote": "In this rule, the Bureau of Industry and Security (BIS) amends the Export Administration Regulations (EAR) by adding Huawei Technologies Co., Ltd. (Huawei) to the Entity List.",
+          "locator": "Summary",
+          "supports": "existence"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Per-supplier split of NVIDIA / AMD / Broadcom / Marvell purchase commitments",
+      "why": "All four designers disclose only aggregate commitments (NVIDIA $279B, AMD $30.3B, Broadcom $126.8B, Marvell $2.67B) without naming counterparties; fin links record supplier participation with no amounts attached.",
+      "would_need": "Supplier-side disclosure (e.g. TSMC, SK hynix, Micron customer prepayment/contract liability notes naming customers) or contract exhibits filed with the SEC."
+    },
+    {
+      "topic": "NVIDIA prepaid manufacturing and capacity agreements counterparties",
+      "why": "NVIDIA 10-K states it has entered prepaid manufacturing and capacity agreements but does not name the counterparties or amounts.",
+      "would_need": "NVIDIA filing or supplier filing naming the prepayment counterparty and amount."
+    },
+    {
+      "topic": "CoWoS packaging provider and site for NVIDIA",
+      "why": "NVIDIA 10-K names CoWoS technology but not the provider; the TSMC->NVIDIA CoWoS flow is inferred.",
+      "would_need": "NVIDIA or TSMC primary document naming the CoWoS relationship and site (e.g. AP6 Zhunan, AP8 Tainan)."
+    },
+    {
+      "topic": "Google TPU foundry, packaging, HBM suppliers and Broadcom co-design role",
+      "why": "Alphabet 10-K and Google blog describe TPUs but do not name the foundry, HBM supplier or design partner; Broadcom filings do not name customers.",
+      "would_need": "Alphabet/Broadcom filing, earnings call or official release naming the TPU design partner and foundry."
+    },
+    {
+      "topic": "AWS Trainium foundry and HBM supplier",
+      "why": "AWS materials state Trainium3 is 'AWS's first 3nm AI chip' but do not name the foundry; secondary sources say TSMC.",
+      "would_need": "Amazon or TSMC primary document naming the Trainium foundry."
+    },
+    {
+      "topic": "Microsoft Maia 200 HBM supplier",
+      "why": "Microsoft's blog states 216GB HBM3e but not the supplier; supplier identity is reported only in trade press.",
+      "would_need": "Microsoft or memory-vendor primary release naming the Maia 200 HBM supplier."
+    },
+    {
+      "topic": "Meta MTIA current generation (post-2024) foundry/partner",
+      "why": "Only the April 2024 Meta blog (TSMC 5nm) was retrieved; later MTIA generations were not sourced. The Meta page was read via a summarizing fetch, so the 'TSMC 5nm' quote should be re-checked against the rendered table.",
+      "would_need": "Current Meta engineering blog or filing naming MTIA fabrication partner."
+    },
+    {
+      "topic": "NVIDIA Israel site addresses (Yokneam, Kiryat Tivon campus)",
+      "why": "NVIDIA 10-K only names Israel at country level; site-level details appear only in news coverage.",
+      "would_need": "NVIDIA official site/newsroom page or Israeli planning authority filing naming the campus sites."
+    },
+    {
+      "topic": "EDA/IP -> accelerator designer licensing flows (Synopsys/Cadence -> NVIDIA/AMD/Broadcom)",
+      "why": "EDA vendor filings do not name customers; the NVIDIA-Synopsys Dec 2025 release describes a partnership and $2B equity investment (finance layer) but not EDA licensing for NVIDIA's own chips.",
+      "would_need": "A primary document naming a designer as a licensee of Synopsys/Cadence tools or IP for AI accelerators."
+    },
+    {
+      "topic": "Huawei Ascend manufacturing chain (foundry/HBM)",
+      "why": "Only BIS documents were used; no Tier 1/2 document retrieved naming Ascend fabrication partners.",
+      "would_need": "BIS Entity List/Federal Register entries or official US government statements naming Ascend production facilities."
+    },
+    {
+      "topic": "Original BIS EDA 'is-informed' letters",
+      "why": "Letters are not public; the control relies on Cadence and Synopsys 10-K descriptions.",
+      "would_need": "Public release of the letters or a Federal Register notice."
+    },
+    {
+      "topic": "Quotes gathered via summarizing fetch (not raw text)",
+      "why": "The Micron-AMD release, the OpenAI-Broadcom release (GlobeNewswire) and the Meta MTIA blog blocked direct download; quotes came from a fetch tool that returned the requested sentences and should be verified character-for-character.",
+      "would_need": "Counsel re-fetch of those three URLs."
+    }
+  ]
+}
