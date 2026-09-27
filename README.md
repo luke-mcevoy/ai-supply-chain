@@ -1,0 +1,43 @@
+# AI Supply Chain Atlas
+
+A 3D globe of the semiconductor supply chain behind US AI compute, from mines and materials to fabs, servers, data centers, and power plants. Sites, routes, and dollars on the map are tied to a quoted passage in a filing or other primary document.
+
+**Use it:** [ai-supply-chain-atlas.fly.dev](https://ai-supply-chain-atlas.fly.dev/)
+
+The live map is a **draft**. The orange badge means the quotes have been recorded from the cited documents, and a second pass that re-checks every quote has not been finished. Read a claim next to its source before you rely on it.
+
+## How to look around
+
+Drag to turn the globe. Scroll or pinch to zoom.
+
+Three views sit at the top:
+
+- **Network** is the physical chain: materials, wafers, equipment, fabs, memory and packaging, design, servers, data centers, and power. A solid line is a route whose source names both parties. A dashed line is inferred from documented facts, and the deduction is on the route.
+- **Capital** is who pays whom: investments, contracts, subsidies, and debt. Wider lines are larger amounts.
+- **Controls** is export rules over time. Drag the timeline. Red is a restricted destination. Blue is the country imposing the rule.
+
+Open the left panel (☰) to turn stages of the chain on and off, hide inferred or planned sites, or sever a country and see which AI campuses sit downstream. That count is exposure along the recorded routes. It does not model spare inventory or a second supplier.
+
+Click a dot or a line. The panel on the right names the operator, the product, and the verbatim quote, with a link to the document. **Trace chain** walks upstream and downstream. **Sever** drops that site out of the what-if. **Fly to** moves the camera there.
+
+Search with **⌘K** (Ctrl+K on Windows and Linux). **Method** explains the evidence tiers and lists what is still unknown.
+
+## Run it yourself
+
+You need Node.js.
+
+```bash
+npm install --prefix app
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173). The map reads `app/public/atlas.json`, which is already in the repo.
+
+To rebuild that file from the research notes:
+
+```bash
+node scripts/validate.mjs
+node scripts/build.mjs --draft
+```
+
+`--draft` is what the live site uses. Without it, the build keeps only layers that have a finished verification file, and those files are not in the repo yet.

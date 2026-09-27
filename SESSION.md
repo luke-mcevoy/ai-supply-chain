@@ -17,3 +17,10 @@ Next:
 2. `node scripts/validate.mjs` on the research files, then launch legal-counsel agents (one per layer)
    → data/verification/<layer>.json (VerificationFile: re-fetch every URL, verbatim quote check).
 3. `node scripts/build.mjs` (use --draft only for local dev), run app, screenshot, polish, deploy.
+
+## 2026-09-27 — deploy to Fly
+Done:
+- Dockerfile + nginx.conf + fly.toml. App `ai-supply-chain-atlas` in ewr, https://ai-supply-chain-atlas.fly.dev/
+- Serves the draft atlas built 2026-09-27T19:00:44Z (no verification files yet; UI shows DRAFT BUILD).
+- Machine stops when idle and starts on the next request.
+- Public GitHub repo: https://github.com/luke-mcevoy/ai-supply-chain (README points at the Fly app).
