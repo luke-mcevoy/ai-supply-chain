@@ -1,0 +1,14 @@
+{
+  "name": "ai-supply-chain-atlas",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A 3D globe of the physical and financial supply chain behind US AI compute, every edge sourced to primary documents.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build:data": "node scripts/build.mjs",
+    "build:data:draft": "node scripts/build.mjs --draft",
+    "dev": "npm run dev --prefix app",
+    "build": "node scripts/validate.mjs && node scripts/build.mjs && npm run build --prefix app"
+  }
+}
