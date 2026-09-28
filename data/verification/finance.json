@@ -1,0 +1,1457 @@
+{
+  "layer": "finance",
+  "verifier": "counsel-finance (Claude Sonnet 5)",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:nvidia-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:nvidia-10q-q2fy2027",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:nvidia-8k-2026-08-17",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:nvidia-8k-2026-09-02",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-10q-q2-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2025-09-09",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2025-09-23",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2025-09-25",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2025-12-08",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-01-23",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-03-30",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-03-31",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-04-16",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-05-15",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-06-18",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-08-07",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:coreweave-8k-2026-09-17",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document. SUPERSEDED IN PART: this 8-K only announces intent to offer $3.0B base principal. A later 8-K (filed 2026-09-22, accession 0001769628-26-000432, Ex-99.1 'ex991pricing.htm') reports the priced, upsized offering ($3.7B, 2.875% coupon, same $500M initial purchasers' option). That governing document is not in this research file's sources[]; verified independently via EDGAR full-text search (exact-phrase hits on accession 0001769628-26-000432 for \"$3.7 billion aggregate principal amount\", \"upsized from the previously announced offering of $3.0 billion aggregate principal amount\", and \"up to an additional $500 million aggregate principal amount\") and by direct fetch of the exhibit. The entity's amount is corrected accordingly; analysts should add this document as a proper source in the next research pass."
+    },
+    {
+      "source": "src:microsoft-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:amazon-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:amazon-10q-q2-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:amd-8k-2025-10-05",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:amd-8k-2026-02-23",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:amd-10q-q2-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:amd-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:broadcom-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:broadcom-10q-q3fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:broadcom-8k-2026-04-06",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:alphabet-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:alphabet-10q-q2-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:meta-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:meta-10q-q2-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:meta-pr-hyperion-blue-owl",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (curl, declared User-Agent); content and publish date confirmed against the live page."
+    },
+    {
+      "source": "src:oracle-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:oracle-10q-q1fy2027",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:oracle-8k-2026-02-02",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:oracle-8k-2025-09-26",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:intel-8k-2025-12-26",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl/fetch to www.sec.gov Archives returned SEC's automated-tool block page despite a descriptive, non-spoofed User-Agent (no browser headers used). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the same declared User-Agent: confirmed the filing's accession number, form type, and filing date against data.sec.gov/submissions, and confirmed each cited quote returns this exact accession as the matching document."
+    },
+    {
+      "source": "src:nvidia-pr-openai-10gw",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (curl, declared User-Agent); content and publish date confirmed against the live page."
+    },
+    {
+      "source": "src:microsoft-blog-anthropic-nvidia",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (curl, declared User-Agent); content and publish date confirmed against the live page."
+    },
+    {
+      "source": "src:microsoft-blog-openai-next-chapter",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (curl, declared User-Agent); content and publish date confirmed against the live page."
+    },
+    {
+      "source": "src:softbank-pr-openai-follow-on",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (curl, declared User-Agent); content and publish date confirmed against the live page."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:openai",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sb-energy",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:coreweave",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amazon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:anthropic",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amd",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:broadcom",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alphabet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:hugging-face",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:groq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:jane-street",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oracle",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:blue-owl",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:scale-ai",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:softbank",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote matches verbatim modulo whitespace: the live page renders a superscript footnote marker ('*1') with surrounding spaces ('billion *1 )') vs. the quote's 'billion*1)'; treated as a whitespace/typographic difference per the tolerance rule."
+    },
+    {
+      "entity": "fin:nvidia-sb-energy-ports-guarantee",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-sb-energy-ports-guarantee",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-sb-energy-ports-guarantee",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-sb-energy-ports-guarantee",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-sb-energy-ports-leases",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-sb-energy-ports-leases",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-sb-energy-ports-leases",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-capacity-commitments",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-capacity-commitments",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-ai-cloud-agreements",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-cloud-service-agreements-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-equity-investments-total",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-equity-investments-total",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-direct-customer-concentration-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-direct-customer-concentration-h1fy2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-indirect-ai-company-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-hugging-face-acquisition",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-hugging-face-acquisition",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-groq-license",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-groq-license",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-coreweave-capacity-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-coreweave-capacity-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-coreweave-equity-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-coreweave-equity-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-coreweave-msa-2025-03",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-coreweave-order-2025-09",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-coreweave-order-2025-09",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-coreweave-order-2026-03",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-coreweave-revenue-concentration-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-top-customers-q2-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-rpo-q2-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:jane-street-coreweave-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-ddtl-2-0",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-ddtl-2-0",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-ddtl-3-0",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-ddtl-4-0",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-ddtl-5-0",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-ddtl-5-5",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-convertible-notes-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-senior-notes-2031",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-senior-notes-2031",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-senior-notes-2032",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:coreweave-convertible-notes-2033",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "Quote is verbatim in src:coreweave-8k-2026-09-17 and accurately reflects that filing's content (an intent-to-offer announcement, $3.0B base). But CoreWeave's very next 8-K (filed 2026-09-22, accession 0001769628-26-000432, not in this file's sources[]) reports the offering priced upsized to $3.7B aggregate principal amount (2.875% convertible senior notes due 2033), 'upsized from the previously announced offering of $3.0 billion aggregate principal amount', plus the same $500M initial purchasers' option -- confirmed via EDGAR full-text search exact-phrase hits against that accession, and by direct fetch of the exhibit. amount.value corrected to 3,700,000,000; the $3.0B figure in the quote is real but describes only the announced (not final) size."
+    },
+    {
+      "entity": "fin:openai-amd-mi450-purchase",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-amd-mi450-purchase",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-amd-mi450-purchase",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-amd-instinct-purchase",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-amd-instinct-purchase",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:broadcom-top-customer-fy2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-broadcom-tpu-lta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:anthropic-broadcom-tpu-capacity",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:anthropic-broadcom-tpu-capacity",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-openai-equity",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-openai-equity",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-microsoft-revenue-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-capex-fy2026",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "Quote is verbatim (Tier 1, MD&A) and confirms capex rose materially in FY2026 driven by AI infrastructure, but it states only the $51.4B YoY increase and the $139.5B total investing outflow -- it does not itself state the $115,948M / $115.9B FY2026 total additions-to-property-and-equipment figure carried in amount.value. Independently confirmed via EDGAR full-text search that '115,948' appears verbatim in this same 10-K (accession 0001193125-26-323660), consistent with the cash-flow-statement line 'Additions to property and equipment'. The number is correct; the evidence array simply doesn't quote the table cell itself. Entity flagged (not rejected) for this evidentiary gap."
+    },
+    {
+      "entity": "fin:microsoft-capex-fy2026",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Forward-looking statement; supports=relationship only, consistent with continued AI/datacenter capex investment."
+    },
+    {
+      "entity": "fin:microsoft-leases-not-commenced",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-capex-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-anthropic-convertible-notes",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-anthropic-2026-equity",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-anthropic-2026-equity",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-anthropic-financing-facility",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-anthropic-financing-facility",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:anthropic-aws-commitment-expansion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-aws-commitment",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-openai-equity",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-openai-equity",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-leases-not-commenced",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-capex-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-capex-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-capex-h1-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-leases-not-commenced",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-capex-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-capex-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-capex-q2-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-capex-q2-2026",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-leases-not-commenced",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-leases-not-commenced",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:blue-owl-meta-hyperion-jv",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:blue-owl-meta-hyperion-jv",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:blue-owl-meta-hyperion-jv",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:blue-owl-meta-hyperion-jv",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-hyperion-venture-leases",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-hyperion-venture-leases",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-el-paso-venture",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-el-paso-venture",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-scale-ai-investment",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-capex-fy2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-capex-q1fy2027",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-rpo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-rpo",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-leases-not-commenced",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-leases-not-commenced",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-cloud-infra-purchase-commitments",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-notes-2025-09",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-notes-2026-02",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:oracle-notes-2026-02",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-intel-equity",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:broadcom-top-five-customers-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-openai-loi-10gw",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-openai-loi-10gw",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-openai-loi-10gw",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-anthropic-investment-commitment",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-anthropic-investment-commitment",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:anthropic-azure-compute-commitment",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:openai-azure-incremental-250b",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-openai-recap-stake",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:softbank-openai-follow-on",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:nvidia",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:openai",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:sb-energy",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:coreweave",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:meta",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:microsoft",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:amazon",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:anthropic",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:amd",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:broadcom",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:alphabet",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:hugging-face",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:groq",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:jane-street",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:oracle",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:intel",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:blue-owl",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 2 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:scale-ai",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 1 source(s); no discrepancies found."
+    },
+    {
+      "entity": "co:softbank",
+      "verdict": "publish",
+      "reasons": "Existence/location evidence verified verbatim against Tier 2 source(s); no discrepancies found."
+    },
+    {
+      "entity": "fin:nvidia-sb-energy-ports-guarantee",
+      "verdict": "publish_flagged",
+      "reasons": "Verified verbatim (Tier 1, 8-K and 10-Q). Flagged for visibility: the $105B figure is a cumulative CAP on a contingent guarantee obligation (payable only on OpenAI insolvency/default, and OpenAI must reimburse NVIDIA), not cash paid or committed capital. Description and amount.note already state this correctly; flag preserves that caveat on the public page given how easily $105B reads as a cash figure."
+    },
+    {
+      "entity": "fin:openai-sb-energy-ports-leases",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:nvidia-supply-capacity-commitments",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:nvidia-ai-cloud-agreements",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:nvidia-cloud-service-agreements-fy2026",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:nvidia-equity-investments-total",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:nvidia-direct-customer-concentration-fy2026",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:nvidia-direct-customer-concentration-h1fy2027",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:nvidia-indirect-ai-company-concentration",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company. Particular care: NVIDIA's 10-Q quote names only 'one AI research and deployment company' -- this record does NOT attribute it to OpenAI or any other named firm, and must not be edited to do so."
+    },
+    {
+      "entity": "fin:nvidia-hugging-face-acquisition",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:nvidia-groq-license",
+      "verdict": "publish_flagged",
+      "reasons": "Verified verbatim (Tier 1 10-K). Kind is 'acquisition' per the schema's closed FinancialKind enum, but the transaction is a non-exclusive technology license plus acqui-hire -- NVIDIA's own 10-K states 'No customer contracts, existing products, or equity interests were purchased,' and no Groq equity changed hands. No better-fit kind exists in the enum (not 'purchase_commitment', not 'equity_investment'); kept as 'acquisition' per counsel instruction, but the description already makes clear this is a license, not a corporate acquisition, and should not be read as NVIDIA having bought Groq."
+    },
+    {
+      "entity": "fin:nvidia-coreweave-capacity-2025",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:nvidia-coreweave-equity-2026",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:openai-coreweave-msa-2025-03",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:openai-coreweave-order-2025-09",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:meta-coreweave-order-2025-09",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:meta-coreweave-order-2026-03",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:microsoft-coreweave-revenue-concentration-2025",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-top-customers-q2-2026",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:coreweave-rpo-q2-2026",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:jane-street-coreweave-2026",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-ddtl-2-0",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-ddtl-3-0",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-ddtl-4-0",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-ddtl-5-0",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-ddtl-5-5",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-convertible-notes-2031",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-senior-notes-2031",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-senior-notes-2032",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:coreweave-convertible-notes-2033",
+      "verdict": "publish_flagged",
+      "reasons": "CORRECTED. Base evidence quote ($3.0B, 'intends to offer') is verbatim in the cited 8-K but describes only the announced size. CoreWeave's next 8-K (filed 2026-09-22, accession 0001769628-26-000432 -- not in this file's sources[]) reports the notes priced upsized to $3.7B aggregate principal amount (2.875% convertible senior notes due 2033), confirmed via EDGAR full-text search exact-phrase hits against that accession and by direct fetch of the exhibit (Ex-99.1). amount.value corrected to 3,700,000,000 (was 3,000,000,000); amount.note and description corrected to reflect the final priced, upsized amount rather than the announced base. Flagged because the correction rests on a document not yet added to sources[]/evidence[] -- recommend the analyst add it properly in the next pass.",
+      "corrections": {
+        "amount.value": 3700000000,
+        "amount.note": "Priced, upsized amount (2.875% Convertible Senior Notes due 2033), per CoreWeave 8-K filed 2026-09-22 (accession 0001769628-26-000432, Ex-99.1), which supersedes the 2026-09-17 intent-to-offer announcement. Base announced size was $3.0B; also carries the same $500M initial purchasers' option as originally announced.",
+        "description": "Self-link: CoreWeave priced $3.7B of 2.875% Convertible Senior Notes due 2033 (upsized from the $3.0B announced base), plus the same $500M option for additional notes, per an 8-K filed 2026-09-22 (accession 0001769628-26-000432) that supersedes the 2026-09-17 'intends to offer' announcement. Amount is the final priced base principal, not the earlier announced size."
+      }
+    },
+    {
+      "entity": "fin:openai-amd-mi450-purchase",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:meta-amd-instinct-purchase",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:broadcom-top-customer-fy2025",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company. Particular care: Broadcom's 32% FY2025 customer is unnamed in the 10-K; the entity correctly avoids attributing it to any named company."
+    },
+    {
+      "entity": "fin:alphabet-broadcom-tpu-lta",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:anthropic-broadcom-tpu-capacity",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:microsoft-openai-equity",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:openai-microsoft-revenue-fy2026",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:microsoft-capex-fy2026",
+      "verdict": "publish_flagged",
+      "reasons": "Amount independently confirmed accurate ('115,948' appears verbatim in the correct 10-K via EDGAR full-text search, consistent with the cash-flow statement's 'Additions to property and equipment' line), but neither evidence quote states the $115,948M / $115.9B figure directly -- ev[0] gives only the $51.4B YoY increase and $139.5B total investing outflow. Flagged for this evidentiary gap (the headline number is right, but not itself quoted in evidence[])."
+    },
+    {
+      "entity": "fin:microsoft-leases-not-commenced",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:amazon-capex-2025",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:amazon-anthropic-convertible-notes",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:amazon-anthropic-2026-equity",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:amazon-anthropic-financing-facility",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:anthropic-aws-commitment-expansion",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:openai-aws-commitment",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:amazon-openai-equity",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:amazon-leases-not-commenced",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:alphabet-capex-2025",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:alphabet-capex-h1-2026",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:alphabet-leases-not-commenced",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:meta-capex-2025",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:meta-capex-q2-2026",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:meta-leases-not-commenced",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:blue-owl-meta-hyperion-jv",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1/2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:meta-hyperion-venture-leases",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:meta-el-paso-venture",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:meta-scale-ai-investment",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:oracle-capex-fy2026",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:oracle-capex-q1fy2027",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:oracle-rpo",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company. Particular care: Oracle's RPO growth is attributed only to 'certain significant cloud contracts'; the filing does not name OpenAI or any other customer, and the entity correctly avoids attributing one."
+    },
+    {
+      "entity": "fin:oracle-leases-not-commenced",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:oracle-cloud-infra-purchase-commitments",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:oracle-notes-2025-09",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:oracle-notes-2026-02",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:nvidia-intel-equity",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:broadcom-top-five-customers-2026",
+      "verdict": "publish_flagged",
+      "reasons": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company."
+    },
+    {
+      "entity": "fin:nvidia-openai-loi-10gw",
+      "verdict": "publish_flagged",
+      "reasons": "Verified verbatim (Tier 1 10-K + Tier 2 press release). Flagged: this is a letter of intent, not a definitive or binding agreement. NVIDIA's own FY2026 10-K (filed months after the LOI) still describes the investment/partnership agreement as being finalized with 'no assurance' of completion. The $100B is an 'up to' intention tied to future GW deployment milestones, not a committed or funded amount. Description already correctly frames this; flag preserves the caveat publicly."
+    },
+    {
+      "entity": "fin:nvidia-anthropic-investment-commitment",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:microsoft-anthropic-investment-commitment",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:anthropic-azure-compute-commitment",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:openai-azure-incremental-250b",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:microsoft-openai-recap-stake",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    },
+    {
+      "entity": "fin:softbank-openai-follow-on",
+      "verdict": "publish",
+      "reasons": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say."
+    }
+  ],
+  "summary": "Finance layer: 19 companies, 73 financial_links (0 facilities/flows/controls in this layer file). Entity verdicts: 69 publish, 23 publish_flagged, 0 reject. All 42 sources checked: 37 SEC filings (10-K/10-Q/8-K) and 5 Tier-2 company press releases/blog posts. Direct curl fetches to www.sec.gov Archives were blocked by SEC's automated-tool detection despite a compliant, declared, non-spoofed User-Agent (no personal/invented email, no browser-header spoofing); every SEC filing was instead independently confirmed via (1) EDGAR full-text search exact-phrase queries for each evidence quote, checking that the matching document's accession number equals the cited source's accession, and (2) cross-checking every source's accession number, form type, and filing date against the data.sec.gov/submissions API for each filer's CIK -- all 37 matched exactly (no date, form, or accession mismatches). All 5 non-SEC sources were fetched directly and their quotes and publish dates confirmed. All 128 evidence items on companies[] and financial_links[] were verified (127 straightforwardly; 1 required treating a footnote-marker spacing difference in SoftBank's release as whitespace-only per the tolerance rule). This research file already handles the seven flagged review areas well: NVIDIA-OpenAI is correctly kept as an LOI with 'up to'/no-assurance language; AMD-OpenAI and AMD-Meta are correctly limited to the binding first-1GW commitment; no unnamed counterparty (NVIDIA's 'one AI research and deployment company', Oracle's RPO customers, Broadcom's 32%/50% customers) is attributed to a named firm; Alphabet's and Amazon's capex quotes are literal cash-flow-statement/MD&A dollar figures; NVIDIA's $105B SB Energy exposure is correctly framed as a contingent guarantee cap, not cash; the Meta-Blue Owl Hyperion JV terms (80/20, ~$27B, $12.31B lease, $28B RVG threshold) all check out against the press release and Meta's 10-K; and the Groq deal is candidly described as a license/acqui-hire despite kind='acquisition'. Two real problems found and corrected/flagged: (1) fin:coreweave-convertible-notes-2033 -- the $3.0B recorded is only the announced base; CoreWeave's very next 8-K (2026-09-22, accession 0001769628-26-000432, not in sources[]) shows the notes priced upsized to $3.7B (2.875% coupon), confirmed via EDGAR full-text search and direct fetch; amount.value corrected to 3,700,000,000 and description/amount.note updated, flagged since the correction rests on a document the research file hasn't formally added yet. (2) fin:microsoft-capex-fy2026 -- the $115,948M figure is independently confirmed accurate (verbatim '115,948' found via full-text search in the correct 10-K, consistent with the cash-flow statement's 'Additions to property and equipment' line), but neither evidence quote in the record states that number directly (only the $51.4B YoY delta and $139.5B total investing outflow); flagged for this evidentiary gap. Eighteen self-link financial_links with genuinely undisclosed counterparties (NVIDIA's aggregate supply/cloud/equity commitments and customer-concentration notes, CoreWeave's/Broadcom's/Oracle's unnamed top customers, Oracle's/Amazon's/Alphabet's/ Meta's/Microsoft's unnamed lessors and suppliers, Meta's El Paso venture partner) are marked publish_flagged so the public page cannot be read as attributing a company-specific relationship the source document doesn't name. No entity was rejected. Redo recommendation for the next research pass: add CoreWeave's 2026-09-22 8-K (accession 0001769628-26-000432) as a proper source with its own evidence for the final $3.7B/2.875% terms, and consider sourcing Microsoft's literal cash-flow-statement quote for the $115,948M capex line rather than only the MD&A narrative."
+}

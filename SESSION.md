@@ -38,3 +38,17 @@ Notes:
 - Keep ≤5 agents concurrent; 14 at once hit the 5-hour usage limit twice.
 - SEC needs a declared User-Agent with contact; agents told not to invent emails — ask the user.
 - Local commits are not pushed; the Fly deploy serves the draft build.
+
+## 2026-09-28 — Claude (Opus 5.5): counsel results + follow-ups
+Verified: design, datacenter, fabrication, power, policy, equipment, memory_packaging, finance.
+Running: materials, wafers_chemicals, systems.
+Research follow-ups raised by counsel (add as sources/evidence, then re-verify):
+- finance: CoreWeave 8-K 2026-09-22 (acc. 0001769628-26-000432) for the upsized $3.7B 2033 notes;
+  quote Microsoft's cash-flow line ($115,948M additions to property and equipment).
+- equipment: Applied Materials FY2025 10-K and Ultra Clean FY2025 10-K were unreachable (SEC blocks
+  undeclared automated tools); UCT flows are withheld until re-verified.
+- fabrication: TSMC AR has uncited JASM fab-2 node and ESMC product focus (products[] empty).
+- memory_packaging: TSMC annual-report document_date is approximate (~2026-05).
+Process: counsel may not disguise requests as a browser (docs/COUNSEL.md). SEC access with a declared
+contact User-Agent would remove most "unreachable" results — needs the user's chosen contact.
+Build: company endpoints resolve to a site only when unambiguous; otherwise drawn at HQ (labelled).
