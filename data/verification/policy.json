@@ -1,0 +1,1981 @@
+{
+  "layer": "policy",
+  "verifier": "counsel-policy (Claude)",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:fr-2019-10616",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2020-10856",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2020-18213",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2020-28031",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2022-17125",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2022-21658",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2022-27151",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2023-23048",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2023-23049",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2023-23055",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2024-07004",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2024-28270",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2024-28267",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-00636",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-00711",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-02655",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-00480",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-05427",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-16735",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-19001",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-19846",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2026-00789",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2026-01052",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2026-06851",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2026-14132",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:ecfr-15-cfr-774-supp1",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:bis-2025-05-13-ai-diffusion-rescission",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:bis-guidance-2026-05-31",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:usc-26-48d",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-tsmc-2024-11-15",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-gf-2024-11-20",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-intel-2024-11-26",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-absolics-entegris-2024-12-05",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-micron-2024-12-10",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-globalwafers-2024-12-17",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-skhynix-2024-12-19",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-samsung-2024-12-20",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-ti-2024-12-20",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-amkor-2024-12-20",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-hemlock-2025-01-07",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-napmp-2025-01-16",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-micron-2025-06-12",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-xlight-2026-06-02",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:chips-gf-rd-2026-09-08",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:intel-8k-2025-08-22",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:intel-8k-2025-08-27",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:intel-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nvidia-8k-2025-04-15",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nvidia-10q-2025-q2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nvidia-10q-2026-q2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:amd-8k-2025-04-16",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:synopsys-8k-2025-05-29",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:synopsys-8k-2025-07-03",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nl-2024-09-06-semicon-export-control",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nl-2025-01-15-semicon-export-control",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nl-regeling-bwbr0048439",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nl-dual-use-annual-report-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:asml-2023-06-30-nl-export-statement",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:asml-2023-03-08-export-statement",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:asml-20f-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:meti-anpo-law09-2",
+      "reachable": false,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": false,
+      "notes": "meti.go.jp blocked automated retrieval throughout this review (HTTP 403 with a declared descriptive User-Agent identifying this project, and a 202/empty response on retry, including for the bare homepage). No browser header spoofing or bypass service was used. Could not independently confirm document content; the analyst's own gaps[] entry reports the same access problem for a related METI page."
+    },
+    {
+      "source": "src:meti-2023-03-31-press-conference",
+      "reachable": false,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": false,
+      "notes": "meti.go.jp blocked automated retrieval throughout this review (HTTP 403 with a declared descriptive User-Agent identifying this project, and a 202/empty response on retry, including for the bare homepage). No browser header spoofing or bypass service was used. Could not independently confirm document content; the analyst's own gaps[] entry reports the same access problem for a related METI page."
+    },
+    {
+      "source": "src:meti-white-paper-2024-2-1-2",
+      "reachable": false,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": false,
+      "notes": "meti.go.jp blocked automated retrieval throughout this review (HTTP 403 with a declared descriptive User-Agent identifying this project, and a 202/empty response on retry, including for the bare homepage). No browser header spoofing or bypass service was used. Could not independently confirm document content; the analyst's own gaps[] entry reports the same access problem for a related METI page."
+    },
+    {
+      "source": "src:meti-2025-03-25-cabinet-order",
+      "reachable": false,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": false,
+      "notes": "meti.go.jp blocked automated retrieval throughout this review (HTTP 403 with a declared descriptive User-Agent identifying this project, and a 202/empty response on retry, including for the bare homepage). No browser header spoofing or bypass service was used. Could not independently confirm document content; the analyst's own gaps[] entry reports the same access problem for a related METI page."
+    },
+    {
+      "source": "src:mofcom-2023-23",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2023-39",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2024-46",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2025-72",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2025-18",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2025-57",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2025-61",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2025-70",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:mofcom-2024-33",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:tw-ita-2025-06-15-entity-list",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:ecfr-15-cfr-744-supp4",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-17893",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-05426",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2025-00704",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2026-16400",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:fr-2026-19537",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:asml",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:micron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sk-hynix",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:globalwafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amkor",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:globalfoundries",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:texas-instruments",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:hemlock",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:entegris",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:absolics",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:applied-materials",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xlight",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amd",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:synopsys",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:huawei",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:huawei",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:smic",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ymtc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:biren",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:moore-threads",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sophgo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sicarrier",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:naura",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:inspur",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:smic-shanghai-zhangjiang",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:smic-shanghai-zhangjiang",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:smic-beijing-north",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:huawei-shenzhen-bantian",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:ymtc-wuhan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-tsmc-arizona-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-tsmc-arizona-loan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-intel-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-intel-grant",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:doc-intel-equity-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:doc-intel-equity-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:doc-intel-equity-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:secure-enclave-intel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-samsung-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-micron-grant-id-ny",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-micron-manassas",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-micron-manassas",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-skhynix-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-skhynix-loan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-globalwafers-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-amkor-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-globalfoundries-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-globalfoundries-rd-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-ti-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-hemlock-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-entegris-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-absolics-grant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-napmp-applied-materials",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:chips-xlight-2026",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:irc48d-intel-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:irc48d-intel-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:irc48d-intel-2025",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2019-huawei-entity-list",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2019-huawei-entity-list",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2020-05-huawei-fdp",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2020-08-huawei-fdp",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2020-08-huawei-fdp",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2020-12-smic-entity-list",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2020-12-smic-entity-list",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2022-08-eda-gaafet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-05-eda-letters",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-05-eda-letters",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2022-10-advanced-computing-sme",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2022-10-advanced-computing-sme",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-advanced-computing",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-advanced-computing",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-sme",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-sme",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2024-04-ac-sme-corrections",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-fdp-hbm-sme",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-fdp-hbm-sme",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-fdp-hbm-sme",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-entity-list-140",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-entity-list-140",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-entity-list-140",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-ai-diffusion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-ai-diffusion",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-ai-diffusion",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-ai-diffusion",
+      "evidence_index": 3,
+      "verdict": "verified_with_correction",
+      "notes": "Quote is accurate (BIS press release) but only documents a policy announcement of 'rescission' and a plan to 'formalize' it later, not a completed Federal Register rescission. This does not support labeling the control's status field 'rescinded'. See entity correction: status -> 'in_force' with corrected summary."
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-ai-diffusion",
+      "evidence_index": 4,
+      "verdict": "verified_with_correction",
+      "notes": "This sentence ('BIS plans to publish a regulation formalizing the rescission... in the future') is itself the clearest evidence that no formal rescission had occurred as of the press release date, and none was found in the Federal Register through 2026-09-27 (confirmed independently via Federal Register full-text search of the FR-2025/2026 BIS rule set). Status field corrected accordingly."
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-ai-diffusion",
+      "evidence_index": 5,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-foundry-due-diligence",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-02-3a090-correction",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-04-ic-designer-extension",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-04-ic-designer-extension",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-04-h20-mi308-license",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-04-h20-mi308-license",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-04-h20-mi308-license",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-04-h20-mi308-license",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-01-h200-case-by-case",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-01-h200-case-by-case",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-01-h200-case-by-case",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-01-h200-case-by-case",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-05-d5-hq-guidance",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-05-d5-hq-guidance",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-07-uae-favorable-treatment",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-07-uae-favorable-treatment",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2022-12-ymtc-entity-list",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-biren-moore-threads",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-biren-moore-threads",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-sophgo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-sophgo",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-03-inspur",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-affiliates-rule",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-11-affiliates-suspension",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-11-affiliates-suspension",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-veu-revocation",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-veu-revocation",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-pres-2026-01-semiconductor-232",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-pres-2026-01-semiconductor-232",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-pres-2026-01-semiconductor-232",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-ccl-3b001f-lithography",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-ccl-3b001f-lithography",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-ccl-3b001f-lithography",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-ccl-3a090-4a090",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-ccl-3a090-4a090",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-ccl-3a090-4a090",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2023-09-advanced-sme-order",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2023-09-advanced-sme-order",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2023-09-advanced-sme-order",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2023-09-advanced-sme-order",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2023-09-advanced-sme-order",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2024-09-sme-expansion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2024-09-sme-expansion",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2025-04-sme-metrology-expansion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-2025-04-sme-metrology-expansion",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:jp-meti-2023-07-sme-23-items",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Source (meti.go.jp) blocked automated retrieval during this review; quote could not be independently confirmed."
+    },
+    {
+      "entity": "ctl:jp-meti-2023-07-sme-23-items",
+      "evidence_index": 1,
+      "verdict": "unreachable",
+      "notes": "Source (meti.go.jp) blocked automated retrieval during this review; quote could not be independently confirmed."
+    },
+    {
+      "entity": "ctl:jp-meti-2023-07-sme-23-items",
+      "evidence_index": 2,
+      "verdict": "unreachable",
+      "notes": "Source (meti.go.jp) blocked automated retrieval during this review; quote could not be independently confirmed."
+    },
+    {
+      "entity": "ctl:jp-meti-2025-05-emerging-items",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Source (meti.go.jp) blocked automated retrieval during this review; quote could not be independently confirmed."
+    },
+    {
+      "entity": "ctl:jp-meti-2025-05-emerging-items",
+      "evidence_index": 1,
+      "verdict": "unreachable",
+      "notes": "Source (meti.go.jp) blocked automated retrieval during this review; quote could not be independently confirmed."
+    },
+    {
+      "entity": "ctl:jp-meti-2025-05-emerging-items",
+      "evidence_index": 2,
+      "verdict": "unreachable",
+      "notes": "Source (meti.go.jp) blocked automated retrieval during this review; quote could not be independently confirmed."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2023-23-gallium-germanium",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2023-23-gallium-germanium",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2023-23-gallium-germanium",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2023-39-graphite",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2023-39-graphite",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2024-46-us-dual-use",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2024-46-us-dual-use",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2024-46-us-dual-use",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-72-suspension",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-18-rare-earths",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-18-rare-earths",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-57-rare-earths",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-57-rare-earths",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-61-extraterritorial-rare-earths",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-61-extraterritorial-rare-earths",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-61-extraterritorial-rare-earths",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-70-suspension",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2024-33-antimony",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:cn-mofcom-2024-33-antimony",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:tw-ita-2025-06-entity-list-huawei-smic",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:tw-ita-2025-06-entity-list-huawei-smic",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-euv-license-restriction",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:nl-euv-license-restriction",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:eu-2025-11-sme-control-list",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:eu-2025-11-sme-control-list",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-zhipu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-zhipu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-03-entity-list-70",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-03-entity-list-70",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-entity-list-smic-diversion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-entity-list-smic-diversion",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-pres-2026-08-polysilicon-232",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-pres-2026-08-polysilicon-232",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:us-bis-2026-09-polysilicon-stockpiling",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:asml",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:intel",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:tsmc",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:samsung",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:micron",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:sk-hynix",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:globalwafers",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:amkor",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:globalfoundries",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:texas-instruments",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:hemlock",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:entegris",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:absolics",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:applied-materials",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:xlight",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:nvidia",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:amd",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:synopsys",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:huawei",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:smic",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:ymtc",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:biren",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:moore-threads",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:sophgo",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:sicarrier",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:naura",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "co:inspur",
+      "verdict": "publish",
+      "reasons": "Existence and HQ location supported by a verified Tier 1 or Tier 2 primary document (Federal Register Entity List rule, CHIPS award release, or SEC filing)."
+    },
+    {
+      "entity": "fac:smic-shanghai-zhangjiang",
+      "verdict": "publish",
+      "reasons": "Existence and site address verified verbatim against the current eCFR text of 15 CFR Part 744, Supplement No. 4 (Entity List), a Tier 1 source."
+    },
+    {
+      "entity": "fac:smic-beijing-north",
+      "verdict": "publish",
+      "reasons": "Existence and site address verified verbatim against the current eCFR text of 15 CFR Part 744, Supplement No. 4 (Entity List), a Tier 1 source."
+    },
+    {
+      "entity": "fac:huawei-shenzhen-bantian",
+      "verdict": "publish",
+      "reasons": "Existence and site address verified verbatim against the current eCFR text of 15 CFR Part 744, Supplement No. 4 (Entity List), a Tier 1 source."
+    },
+    {
+      "entity": "fac:ymtc-wuhan",
+      "verdict": "publish",
+      "reasons": "Existence and site address verified verbatim against the current eCFR text of 15 CFR Part 744, Supplement No. 4 (Entity List), a Tier 1 source."
+    },
+    {
+      "entity": "fin:chips-tsmc-arizona-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-tsmc-arizona-loan",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-intel-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:doc-intel-equity-2025",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:secure-enclave-intel",
+      "verdict": "publish_flagged",
+      "reasons": "Amount ($3,174,800,000) and relationship verified verbatim in Intel's 2025-08-22 8-K. However, the 'from' counterparty is recorded as 'gov:us-gov', a non-standard id not in the AGENTS.md canonical government-id list (the 8-K itself only says 'the US Government' without naming an agency, so this ambiguity is inherent to the source, not fabricated)."
+    },
+    {
+      "entity": "fin:chips-samsung-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-micron-grant-id-ny",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-micron-manassas",
+      "verdict": "publish_flagged",
+      "reasons": "Entity's own description already flags that final-award status of the Manassas, VA component is unconfirmed; the $275M figure is verified as accompanying the 2025-06-12 $200B investment announcement, but its relationship to the earlier non-binding PMT is not fully resolved in fetched documents."
+    },
+    {
+      "entity": "fin:chips-skhynix-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-skhynix-loan",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-globalwafers-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-amkor-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-globalfoundries-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-globalfoundries-rd-2026",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-ti-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-hemlock-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-entegris-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-absolics-grant",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-napmp-applied-materials",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "fin:chips-xlight-2026",
+      "verdict": "publish_flagged",
+      "reasons": "The NIST release calls this 'federal incentives' without specifying grant/loan/other form; the entity's own note already discloses this. Amount and 'up to' language independently confirmed (the release in fact does NOT use 'up to' for this figure, consistent with the entity's amount.note)."
+    },
+    {
+      "entity": "fin:irc48d-intel-2025",
+      "verdict": "publish",
+      "reasons": "Amount, 'up to' qualifier, and relationship verified verbatim against the cited Tier 1 CHIPS award release or SEC filing."
+    },
+    {
+      "entity": "ctl:us-bis-2019-huawei-entity-list",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2020-05-huawei-fdp",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2020-08-huawei-fdp",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2020-12-smic-entity-list",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2022-08-eda-gaafet",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-05-eda-letters",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2022-10-advanced-computing-sme",
+      "verdict": "publish_flagged",
+      "reasons": "The October 7, 2022 rule's own evidence (87 FR 62186) is accurate. But its status was recorded as 'superseded' by the two October 2023 rules (88 FR 73424, 88 FR 73458). Both October 2023 rules describe themselves as amending/revising/correcting the October 7 IFR ('This IFR addresses comments received in response to only the part of the October 7 IFR that controls semiconductor manufacturing equipment...' - 88 FR 73424, confirmed verbatim) rather than replacing it wholesale; large parts of the October 2022 rule (e.g., the Temporary General License structure, the U.S.-person support restrictions, and portions of the Entity List FDP expansion) were not restated or replaced. 'Superseded' overstates this; the same amendment relationship is already labeled 'amended' for every other rule in this chain (2023-10, 2024-04, 2024-12, 2025-01, 2025-02, 2026-04). Corrected for consistency.",
+      "corrections": {
+        "status": "amended"
+      }
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-advanced-computing",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-sme",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2024-04-ac-sme-corrections",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-fdp-hbm-sme",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2024-12-entity-list-140",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-ai-diffusion",
+      "verdict": "publish_flagged",
+      "reasons": "Status 'rescinded' is not supported by any primary document. BIS's own 2025-05-13 press release (Tier 1, verified verbatim) only announces a policy-level rescission and states BIS 'plans to publish a regulation formalizing the rescission... in the future' - i.e., as of that release, no Federal Register rescission had occurred. An independent Federal Register full-text search of BIS rules published through 2026-09-27 found no rule rescinding or removing 90 FR 4544 / §742.6(a)(6)(iii)(A), consistent with the analyst's own gaps[] entry. BIS's May 31, 2026 guidance (fetched and verified) confirms the codified text was never rescinded: it states the D:5/Macau-headquartered-entity license requirement 'predates the AI Diffusion Rule' and 'continues to apply,' while BIS simply is 'not... enforcing the AI Diffusion Rule's new compliance requirements' (i.e., the worldwide tiering the January 2025 rule added). Status corrected to 'in_force' and summary corrected to state precisely that only non-enforcement of the new/worldwide provisions is documented, not a Federal Register rescission, while the narrower pre-existing D:5/Macau requirement continues to be enforced under the same codified section.",
+      "corrections": {
+        "status": "in_force",
+        "summary": "Created a worldwide license requirement for 3A090.a/4A090.a/.z items and a model-weights control, with a compliance date of 2025-05-15. On 2025-05-13, BIS announced by press release (not a Federal Register rule) that it would rescind the AI Diffusion framework and said it 'plans to publish a regulation formalizing the rescission... in the future.' No Federal Register rule formally rescinding this framework was found through 2026-09-27 (see gaps), and the regulatory text codified at 15 CFR 742.6(a)(6)(iii)(A) has not been removed. BIS's May 31, 2026 guidance confirms it is not enforcing the rule's new worldwide compliance requirements, but continues to enforce the narrower, pre-existing (November 2023) license requirement for advanced computing items destined to entities headquartered in, or with an ultimate parent headquartered in, Country Group D:5 or Macau, under that same codified section. Status corrected from 'rescinded' to 'in_force': only non-enforcement of the rule's new provisions is documented, not a formal rescission."
+      }
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-foundry-due-diligence",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-02-3a090-correction",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2026-04-ic-designer-extension",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-04-h20-mi308-license",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2026-01-h200-case-by-case",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2026-05-d5-hq-guidance",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2026-07-uae-favorable-treatment",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2022-12-ymtc-entity-list",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2023-10-biren-moore-threads",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-sophgo",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-03-inspur",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-affiliates-rule",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-11-affiliates-suspension",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-veu-revocation",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-pres-2026-01-semiconductor-232",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-ccl-3b001f-lithography",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-ccl-3a090-4a090",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:nl-2023-09-advanced-sme-order",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:nl-2024-09-sme-expansion",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:nl-2025-04-sme-metrology-expansion",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:jp-meti-2023-07-sme-23-items",
+      "verdict": "publish_flagged",
+      "reasons": "meti.go.jp was unreachable to this reviewer throughout the review (HTTP 403 / empty 202 responses with a declared, non-spoofed User-Agent, including for the bare homepage). Could not independently confirm the quoted Japanese-language text or dates. Content is plausible and internally consistent with widely reported Japan METI export-control history, but unverified by this review; flagged pending re-check by someone with working access to meti.go.jp."
+    },
+    {
+      "entity": "ctl:jp-meti-2025-05-emerging-items",
+      "verdict": "publish_flagged",
+      "reasons": "Same meti.go.jp access failure as ctl:jp-meti-2023-07-sme-23-items. Unverified by this review; flagged pending re-check."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2023-23-gallium-germanium",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2023-39-graphite",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2024-46-us-dual-use",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-72-suspension",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-18-rare-earths",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-57-rare-earths",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-61-extraterritorial-rare-earths",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2025-70-suspension",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:cn-mofcom-2024-33-antimony",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:tw-ita-2025-06-entity-list-huawei-smic",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:nl-euv-license-restriction",
+      "verdict": "publish_flagged",
+      "reasons": "Both ASML company statements are verified verbatim (Tier 2, company_press_release). But the underlying claim - that the Dutch government has restricted EUV sales to China since 2019 - has no Tier 1 Dutch government document behind it; Dutch export-licence decisions are confidential and the research file's own summary and gaps[] already say so. Per the evidence standard, a Tier 2/3-only source for a control fact should be flagged, not silently treated as equivalent to a primary regulatory document."
+    },
+    {
+      "entity": "ctl:eu-2025-11-sme-control-list",
+      "verdict": "publish_flagged",
+      "reasons": "Quotes verified verbatim in ASML's Tier 1 SEC Form 20-F (confirmed via EDGAR full-text search). However, the underlying EU legal act (the Commission Delegated Regulation amending Annex I to Regulation (EU) 2021/821) was not independently located or fetched - by the analyst or this reviewer - so the EU-law fact rests on a company filing's characterization of it rather than the EU instrument itself. Flagged per the research file's own gaps[] entry."
+    },
+    {
+      "entity": "ctl:us-bis-2025-01-zhipu",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-03-entity-list-70",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2025-09-entity-list-smic-diversion",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-pres-2026-08-polysilicon-232",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    },
+    {
+      "entity": "ctl:us-bis-2026-09-polysilicon-stockpiling",
+      "verdict": "publish",
+      "reasons": "Citation, effective date, and evidentiary quotes verified verbatim against the primary document (Federal Register API/full text, eCFR, MOFCOM, government.nl, Taiwan ITA, or SEC EDGAR full-text search as applicable)."
+    }
+  ],
+  "summary": "Policy layer verification, 2026-09-27/28. Scope: 80 sources, 27 companies, 4 facilities, 21 financial_links, 52 controls (174 evidence items). Method: fetched Federal Register documents via the FR API/full-text endpoints with a declared User-Agent (all 30 FR sources cross-checked programmatically against the FR API's own citation/publication_date/effective_on fields - zero mismatches); eCFR entries via the eCFR search API; MOFCOM, government.nl, and Taiwan ITA pages via WebFetch; SEC filings via EDGAR full-text search (efts.sec.gov) and WebFetch, since sec.gov blocks plain automated fetches - no browser-header spoofing or bypass service was used, consistent with the process rule communicated mid-review. Every quote checked (FR, eCFR, MOFCOM, government.nl, NL wetten.overheid.nl, Taiwan ITA, ASML, SEC 8-K/10-K/10-Q, NIST/BIS press releases, 26 U.S.C. 48D) was found verbatim in its cited document.\n\nCounts: publish 96, publish_flagged 8, reject 0.\n\nTwo status-field corrections (the most important findings, matching the brief's flagged risk areas):\n1. ctl:us-bis-2022-10-advanced-computing-sme (the October 7, 2022 rule, 87 FR 62186): status corrected from 'superseded' to 'amended'. Both October 2023 rules that follow it describe themselves as addressing comments on and revising the October 2022 IFR, not replacing it wholesale; substantial parts (Temporary General License, U.S.-person restrictions) were left standing. This now matches how every other link in the same amendment chain (2023-10 -> 2024-04 -> 2024-12 -> 2025-01 -> 2025-02 -> 2026-04) is already labeled.\n2. ctl:us-bis-2025-01-ai-diffusion (the AI Diffusion Rule, 90 FR 4544): status corrected from 'rescinded' to 'in_force', and the summary rewritten. No Federal Register rule rescinding this framework exists (confirmed independently, not just relying on the analyst's own gap note); BIS's May 2025 press release itself says a formalizing regulation is still to come, and BIS's May 2026 guidance treats the codified text as unrescinded, continuing to enforce a narrower, pre-existing (November 2023) slice of it for D:5/Macau-headquartered entities while not enforcing the rule's new worldwide provisions. 'Rescinded' was not supported by any primary document; the corrected label and summary say precisely what is and is not documented.\n\nOther findings:\n- H20/MI308 licensing (task item 3): verified. The 8-Ks and 10-Q quotes are sourced correctly to NVIDIA/AMD SEC filings, not to any Federal Register rule, and the summary already states the 15% revenue-share figure as an unwritten USG 'expectation' with 'no regulation codifying' it - this is accurate and was not softened or overstated anywhere I checked.\n- CHIPS awards (task item 4): every dollar amount, 'up to' qualifier, and grant/loan characterization for all 14 CHIPS award financial_links was verified verbatim against the NIST/Commerce release. Two flagged: fin:chips-xlight-2026 (the release doesn't specify grant vs. other instrument - already disclosed in the entity's own note) and fin:chips-micron-manassas (final-award status of the Virginia component genuinely unconfirmed in fetched documents - already disclosed).\n- Intel equity stake (task item 5): all figures in fin:doc-intel-equity-2025 and fin:secure-enclave-intel ($8,869,800,000 total; $5,695,000,000 accelerated DFA funds; $3,174,800,000 Secure Enclave; 433,323,000 shares; 240,516,150 warrant shares) verified verbatim in Intel's 2025-08-22 and 2025-08-27 8-Ks via EDGAR full-text search. One data-hygiene note: fin:secure-enclave-intel's 'from' field is 'gov:us-gov', which is not a canonical AGENTS.md government id and isn't tied to a specific agency - flagged as publish_flagged since the 8-K itself only says 'the US Government' without naming an agency, so the ambiguity is inherent to the source, not invented.\n- Country codes (task item 6): spot-checked applies_to against full FR text for the largest, most complex multi-country Entity List rules (140-entity Dec 2024 rule: China/Japan/South Korea/Singapore; 70-entity March 2025 rule: China/Iran/Pakistan/South Africa/UAE; 32-entity Sept 2025 rule: China/India/Iran/Singapore/Taiwan/Turkey/UAE) - all exact matches.\n- Polysilicon proclamation (task item 7): confirmed effective_date 2026-12-04 for the 15% duty (Proclamation 11052, signed 2026-08-06, published 91 FR 51975) is the correct future date, and the research file's own summary correctly notes it is 'not yet effective as of 2026-09-27.' The companion temporary final rule (91 FR 60505) has an effective date (2026-09-22) that precedes its publication date (2026-09-24) by design (a 'temporary final rule' effective immediately on signing) - verified against the FR API's own effective_on field and confirmed correct, not an error.\n- 50% affiliates rule and MOFCOM suspensions (task item 2): all dates verified verbatim - the affiliates rule (90 FR 47201, eff. 2025-09-29) stayed 2025-11-10 through 2026-11-09 by 90 FR 50857; MOFCOM Announcement No. 46/2024 paragraph 2 suspended 2025-11-09 through 2026-11-27 by Announcement No. 72/2025; MOFCOM Announcements No. 57 and 61 of 2025 suspended 2025-11-07 through 2026-11-10 by Announcement No. 70/2025. All exactly as modeled.\n- Quote normalization (task item 8): em dashes, full-width Chinese punctuation, and curly quotes were normalized when matching; no substantive mismatches found.\n\nUnresolved / needs follow-up: (a) all four JP-METI sources (src:meti-anpo-law09-2, src:meti-2023-03-31-press-conference, src:meti-white-paper-2024-2-1-2, src:meti-2025-03-25-cabinet-order) were unreachable to this reviewer - meti.go.jp returned 403 or an empty 202 response even for its own homepage, with a declared, non-spoofed User-Agent; the two JP-METI controls built on them are publish_flagged pending someone with working access re-verifying. (b) ctl:nl-euv-license-restriction and ctl:eu-2025-11-sme-control-list rest on Tier 2 (ASML) or Tier-1-but-secondhand (ASML's own characterization of an EU act) sourcing rather than a primary Dutch/EU regulatory document - both already disclosed by the analyst, both flagged here rather than silently treated as fully primary-sourced. (c) Worth a second look but not corrected here for scope discipline: ctl:us-bis-2020-05-huawei-fdp is also labeled 'superseded' by the August 2020 rule, and that rule's own text ('Changes to the Foreign Produced Direct Product Rule... the May 15 rule added...') reads as an amendment/expansion in the same way as the Oct 2022/Oct 2023 pair - I did not correct it because the brief named only the October 2022 rule specifically, but it merits the same scrutiny.\n\nNo entity was rejected. Nothing in this layer appears fabricated or overstated beyond the two status corrections and the flags above; sourcing discipline (Tier 1 first, 'up to' preserved, documented vs. inferred, dates as effective not published) is unusually clean for a research layer of this size."
+}
