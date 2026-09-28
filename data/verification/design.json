@@ -1,0 +1,1457 @@
+{
+  "layer": "design",
+  "verifier": "counsel-design (Claude, AI Supply Chain Atlas verification)",
+  "verified_at": "2026-09-27",
+  "source_checks": [
+    {
+      "source": "src:nvidia-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:nvidia-10q-q2-fy2027",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:amd-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:amd-10q-q2-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:broadcom-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:broadcom-10q-q3-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:marvell-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:marvell-8k-aws-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:synopsys-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:cadence-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:arm-20f-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:alphabet-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:amazon-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:microsoft-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:meta-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:nvidia-blog-us-manufacturing-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:nvidia-grace-cpu-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:microsoft-blog-maia-200-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:meta-blog-next-gen-mtia-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Successfully retrieved raw HTML directly via curl (no anti-bot block encountered this session). Confirmed in raw markup: the 'Next Gen MTIA' card lists 'Technology' bold label followed immediately by 'TSMC 5nm' as the value -- an exact match, not a paraphrase or OCR artifact."
+    },
+    {
+      "source": "src:marvell-release-2nm-tsmc-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:openai-broadcom-release-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "GlobeNewswire copy could not be retrieved via direct curl from this environment (connection reset/timeout, consistent with anti-bot protection noted by the analyst) or via Wayback Machine (rate-limited). Re-verified via a live fetch-and-render tool, which returned both cited sentences verbatim on independent re-fetch."
+    },
+    {
+      "source": "src:micron-release-hbm-amd-mi350-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Micron IR page blocked direct curl (Cloudflare bot-challenge, HTTP 'Just a moment...' page). Re-verified via a live fetch-and-render tool, which returned the dateline paragraph verbatim; independent re-fetch confirms the quote used in co:micron and flow:micron-amd-hbm3e."
+    },
+    {
+      "source": "src:amazon-reinvent-2025-announcements",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:amazon-annapurna-labs-austin",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:google-blog-ironwood-tpu-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": null
+    },
+    {
+      "source": "src:bis-gp10-guidance-prc-ics-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "PDF retrieved and parsed with pdftotext. Note: the source PDF itself contains a typo, 'Huawei Ascent 910D' (not 'Ascend'), in its illustrative list; this is the primary document's own error, not the analyst's. The Control.items field is a data label, not a verbatim Evidence.quote, so this does not constitute a grounding violation, but it is worth flagging for anyone citing '910D' as a quoted string."
+    },
+    {
+      "source": "src:fr-2019-10616-huawei-entity-list",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": null
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amd",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amd",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amd",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amd",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:broadcom",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:broadcom",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:broadcom",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:marvell",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:marvell",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:marvell",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alphabet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alphabet",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alphabet",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amazon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amazon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:meta",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim against RAW HTML (not just a summarizing fetch): the 'Next Gen MTIA' card's 'Technology' label is immediately followed by the value 'TSMC 5nm' in the page markup. Table-cell context supports the 'products' claim."
+    },
+    {
+      "entity": "co:openai",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim via independent re-fetch (GlobeNewswire connection blocked direct curl from this environment; confirmed via fetch-and-render tool). See source_checks note."
+    },
+    {
+      "entity": "co:huawei",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:huawei",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:arm",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:arm",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:synopsys",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:synopsys",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:synopsys",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cadence",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cadence",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cadence",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sk-hynix",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:micron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:micron",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim in the press release dateline paragraph via independent re-fetch (Cloudflare bot-challenge blocked a direct curl of investors.micron.com; verified instead via a live fetch-and-render tool). See source_checks note."
+    },
+    {
+      "entity": "co:globalfoundries",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amkor",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amkor",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ase",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:spil",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:spil",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:kyec",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tongfu-microelectronics",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:foxconn",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:foxconn",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wistron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nvidia-santa-clara-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nvidia-santa-clara-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nvidia-santa-clara-hq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0 -- capacity.evidence[0], quote verified verbatim against source filing."
+    },
+    {
+      "entity": "fac:nvidia-israel-rd",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nvidia-israel-rd",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amd-santa-clara-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amd-santa-clara-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amd-austin",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amd-san-jose",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amd-markham",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:broadcom-palo-alto-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:broadcom-palo-alto-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:broadcom-palo-alto-hq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0 -- capacity.evidence[0], quote verified verbatim against source filing."
+    },
+    {
+      "entity": "fac:marvell-santa-clara",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:marvell-israel-rd",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:marvell-india-rd",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:synopsys-sunnyvale-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:synopsys-sunnyvale-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:synopsys-hsinchu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cadence-san-jose-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cadence-san-jose-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:arm-cambridge-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:arm-cambridge-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:arm-cambridge-hq",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0 -- capacity.evidence[0], quote verified verbatim against source filing."
+    },
+    {
+      "entity": "fac:arm-san-jose",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:alphabet-mountain-view-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:alphabet-mountain-view-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-annapurna-labs-austin",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-annapurna-labs-austin",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:microsoft-redmond-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-menlo-park-hq",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-menlo-park-hq",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:huawei-shenzhen-bantian",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:huawei-shenzhen-bantian",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-nvidia-wafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-arizona-nvidia-blackwell-wafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-arizona-nvidia-blackwell-wafers",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-nvidia-cowos",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:samsung-nvidia-wafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:sk-hynix-nvidia-memory",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:micron-nvidia-memory",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:samsung-nvidia-memory",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:amkor-nvidia-packaging-arizona",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:spil-nvidia-packaging-arizona",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:foxconn-nvidia-assembly-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wistron-nvidia-assembly-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:arm-nvidia-grace-cpu-ip",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-amd-wafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:globalfoundries-amd-wafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:samsung-amd-pld-wafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tongfu-atmp-jvs-amd",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tongfu-atmp-jvs-amd",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tongfu-atmp-jvs-amd",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "volume:0 -- volume.evidence[0], quote verified verbatim against source filing."
+    },
+    {
+      "entity": "flow:spil-amd-atmp",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:kyec-amd-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:micron-amd-hbm3e",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim via independent re-fetch (Cloudflare-blocked for direct curl; confirmed via fetch-and-render tool). See source_checks note."
+    },
+    {
+      "entity": "flow:tsmc-broadcom-wafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-broadcom-wafers",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ase-broadcom-assembly-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:amkor-broadcom-assembly-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:spil-broadcom-assembly-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:foxconn-broadcom-assembly-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-broadcom-assembly-test",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:broadcom-openai-custom-accelerators",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim via independent re-fetch (see source_checks note on src:openai-broadcom-release-2025)."
+    },
+    {
+      "entity": "flow:broadcom-openai-custom-accelerators",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim via independent re-fetch (see source_checks note on src:openai-broadcom-release-2025)."
+    },
+    {
+      "entity": "flow:tsmc-marvell-2nm",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-marvell-2nm",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:marvell-aws-custom-ai-products",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:aws-marvell-cloud-eda",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-microsoft-maia200",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:tsmc-meta-mtia",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim against raw HTML; see co:meta evidence_checks note. The 2-word/8-character quote is short but is a distinct table-cell value (Technology: TSMC 5nm) that clearly names both parties in context (Meta's own spec table for its MTIA chip)."
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-tsmc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-tsmc",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-samsung",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-samsung",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-samsung",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-sk-hynix",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-sk-hynix",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-sk-hynix",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-micron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-micron",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-micron",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-tsmc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-globalfoundries",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-globalfoundries",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-samsung",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-samsung",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:broadcom-purchase-commitments-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:broadcom-purchase-commitments-tsmc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:marvell-capacity-reservation-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:marvell-capacity-reservation-tsmc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:marvell-capacity-fees-deposits-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:marvell-capacity-fees-deposits-tsmc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:bis-eda-is-informed-letters-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:bis-eda-is-informed-letters-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:bis-gp10-guidance-prc-3a090-ics-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:bis-gp10-guidance-prc-3a090-ics-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "ctl:entity-list-huawei-2019",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "fac:nvidia-santa-clara-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:nvidia-israel-rd",
+      "verdict": "publish_flagged",
+      "reasons": "Approximately 6,000-employee regional operation confirmed by NVIDIA's own 10-K (Item 1A), but no specific site/address is named in the cited Tier 1 source -- precision is honestly recorded as 'country' rather than a discrete facility location. Publishable as a country-level aggregate pin, flagged so the UI does not imply a single named campus."
+    },
+    {
+      "entity": "fac:amd-santa-clara-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:amd-austin",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:amd-san-jose",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:amd-markham",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:broadcom-palo-alto-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:marvell-santa-clara",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:marvell-israel-rd",
+      "verdict": "publish_flagged",
+      "reasons": "Marvell's 10-K confirms Israel operations exist but names no specific site; precision correctly recorded as 'country'. Publishable as an aggregate regional pin, flagged for coarse location."
+    },
+    {
+      "entity": "fac:marvell-india-rd",
+      "verdict": "publish_flagged",
+      "reasons": "Marvell's 10-K confirms India operations exist but names no specific site; precision correctly recorded as 'country'. Publishable as an aggregate regional pin, flagged for coarse location."
+    },
+    {
+      "entity": "fac:synopsys-sunnyvale-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:synopsys-hsinchu",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:cadence-san-jose-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:arm-cambridge-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:arm-san-jose",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:alphabet-mountain-view-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:amazon-annapurna-labs-austin",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:microsoft-redmond-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:meta-menlo-park-hq",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "fac:huawei-shenzhen-bantian",
+      "verdict": "publish",
+      "reasons": "Existence and location are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim against the primary filing/press release (see evidence_checks). Location precision matches what the cited evidence actually establishes."
+    },
+    {
+      "entity": "flow:tsmc-nvidia-wafers",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-arizona-nvidia-blackwell-wafers",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-nvidia-cowos",
+      "verdict": "publish_flagged",
+      "reasons": "Basis correctly recorded as 'inferred' with a sound inference_note: NVIDIA's 10-K names TSMC as its foundry and separately states it uses CoWoS packaging, but does not itself name TSMC as the CoWoS provider. The deduction (CoWoS is TSMC's proprietary packaging platform) is reasonable and disclosed; publishable with the dashed/inferred treatment the schema calls for."
+    },
+    {
+      "entity": "flow:samsung-nvidia-wafers",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:sk-hynix-nvidia-memory",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:micron-nvidia-memory",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:samsung-nvidia-memory",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:amkor-nvidia-packaging-arizona",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:spil-nvidia-packaging-arizona",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:foxconn-nvidia-assembly-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:wistron-nvidia-assembly-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:arm-nvidia-grace-cpu-ip",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-amd-wafers",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:globalfoundries-amd-wafers",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:samsung-amd-pld-wafers",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tongfu-atmp-jvs-amd",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:spil-amd-atmp",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:kyec-amd-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:micron-amd-hbm3e",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-broadcom-wafers",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:ase-broadcom-assembly-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:amkor-broadcom-assembly-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:spil-broadcom-assembly-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:foxconn-broadcom-assembly-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-broadcom-assembly-test",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:broadcom-openai-custom-accelerators",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-marvell-2nm",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:marvell-aws-custom-ai-products",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:aws-marvell-cloud-eda",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-microsoft-maia200",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "flow:tsmc-meta-mtia",
+      "verdict": "publish",
+      "reasons": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied."
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-tsmc",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-samsung",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-sk-hynix",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:nvidia-supply-commitments-micron",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-tsmc",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-globalfoundries",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:amd-wafer-commitments-samsung",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:broadcom-purchase-commitments-tsmc",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:marvell-capacity-reservation-tsmc",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "fin:marvell-capacity-fees-deposits-tsmc",
+      "verdict": "publish_flagged",
+      "reasons": "Aggregate commitment/prepayment figures are Tier 1 (SEC 10-K/10-Q) and verified verbatim; the named counterparty's participation in the payer's supply chain is independently documented. But the filing does not disclose a per-supplier dollar split of the aggregate, and this entity carries no 'amount' field and no dollar figure attributed to this specific counterparty -- the description explicitly and correctly states the per-supplier share is undisclosed. Publishable with a visible 'inferred allocation, no disclosed amount' caveat; a securities lawyer could not read this as claiming a disclosed per-supplier dollar figure."
+    },
+    {
+      "entity": "ctl:bis-eda-is-informed-letters-2025",
+      "verdict": "publish",
+      "reasons": "Rescission on July 2, 2025 is independently confirmed verbatim in both Cadence's and Synopsys's FY2025 10-Ks (two independent Tier 1 filings corroborate). The underlying BIS letters are not public, which the citation field honestly discloses. Note for the record: export-control instruments are nominally owned by the 'policy' layer per AGENTS.md; this is a cross-file duplicate, which AGENTS.md says is expected to be merged at build time, not a defect."
+    },
+    {
+      "entity": "ctl:bis-gp10-guidance-prc-3a090-ics-2025",
+      "verdict": "publish",
+      "reasons": "BIS guidance PDF retrieved and parsed directly; both illustrative-list quotes ('Huawei Ascend 910B' and 'Huawei Ascend 910C') and the summary quote are verbatim. Document date (2025-05-13) matches the source record. Note: the source PDF itself contains a typo ('Huawei Ascent 910D') for the third item in its own illustrative list; the Control.items field is a data label, not a quoted string, so this is not a grounding violation, but is flagged for anyone who treats '910D' as a literal quote. Also flagged, as above, for scope-duplication with the policy layer (expected/mergeable, not a defect)."
+    },
+    {
+      "entity": "ctl:entity-list-huawei-2019",
+      "verdict": "publish",
+      "reasons": "Federal Register text retrieved directly; the Bantian Huawei Base address, the effective date (May 16, 2019), and the citation (84 FR 22961, Document Number 2019-10616) all match the source record exactly. Flagged, as above, for scope-duplication with the policy layer (expected/mergeable, not a defect)."
+    },
+    {
+      "entity": "co:nvidia",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:amd",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:broadcom",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:marvell",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:alphabet",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:amazon",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:microsoft",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:meta",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:openai",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:huawei",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:arm",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:synopsys",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:cadence",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:tsmc",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:samsung",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:sk-hynix",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:micron",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:globalfoundries",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:amkor",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:ase",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:spil",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:kyec",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:tongfu-microelectronics",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:foxconn",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    },
+    {
+      "entity": "co:wistron",
+      "verdict": "publish",
+      "reasons": "Existence, headquarters location and primary product/relationship claims are each supported by >=1 verified Tier 1/2 evidence item; quotes confirmed verbatim on independent re-fetch (see evidence_checks). No material field is unsupported. Note added per COUNSEL.md's 'only if bad' guidance: this is a brief pass-through verdict, not an in-depth writeup, since no problems were found -- it exists so the entity is not silently dropped at build for lack of a verdict."
+    }
+  ],
+  "summary": "Design layer (fabless accelerator designers, EDA/IP vendors, plus referenced foundry/memory/OSAT/ODM suppliers) verification, full pass: 28/28 sources fetched and assessed (15 SEC 10-K/10-Q/20-F/8-K filings, 11 company press releases/blogs/product pages, 2 US government documents). 153 evidence items checked across companies, facilities (incl. capacity), flows, financial_links and controls -- all 153 verified verbatim against the primary document; zero quote_not_found, does_not_support, or superseded findings. 89 entity verdicts issued: 25 companies (all publish -- see note below), 20 facilities (17 publish, 3 publish_flagged for country-level precision on aggregated regional operations with no named site: NVIDIA Israel, Marvell Israel, Marvell India), 31 flows (30 publish, 1 publish_flagged -- TSMC->NVIDIA CoWoS, correctly labeled 'inferred' with a sound inference_note), 10 financial_links (all publish_flagged -- see below), 3 controls (all publish). Zero rejections.\n\nNote on company verdicts: COUNSEL.md's procedure says entity_verdicts should cover companies 'only if their evidence is bad,' but the schema's own framing ('Nothing without your publish or publish_flagged verdict appears') and scripts/validate.mjs's behavior (every un-verdicted entity, companies included, is flagged 'will not be published') are both unconditional -- there is no company-specific exemption in the build path today. Since every company's evidence held up, I added a brief pass-through 'publish' verdict for all 25 rather than let well-sourced companies (NVIDIA, AMD, Broadcom, Marvell, Alphabet, Amazon, Microsoft, Meta, OpenAI, Huawei, Arm, Synopsys, Cadence, TSMC, Samsung, SK hynix, Micron, GlobalFoundries, Amkor, ASE, SPIL, KYEC, Tongfu Microelectronics, Foxconn, Wistron) silently vanish from the atlas for want of a one-line verdict. None required in-depth scrutiny beyond what's already reflected in evidence_checks, consistent with the 'only if bad' spirit of the instruction.\n\nSpecific concerns addressed:\n1. The seven quotes from pages that resisted raw download (Micron-AMD MI350 HBM release, OpenAI-Broadcom GlobeNewswire release, Meta MTIA blog 'TSMC 5nm' table cell) were all re-fetched this session. Micron and GlobeNewswire still blocked plain curl (Cloudflare challenge / connection reset respectively, consistent with the analyst's original note) but were independently re-verified via a live fetch-and-render tool, both confirming verbatim matches. The Meta blog was retrieved as raw HTML directly this time (no block encountered), and the raw markup confirms 'TSMC 5nm' sits immediately after the 'Technology' label in the 'Next Gen MTIA' spec card -- an exact match, not a paraphrase or OCR artifact. All seven quotes verified.\n2. The ten purchase-commitment/prepayment financial_links (NVIDIA x4, AMD x3, Broadcom x1, Marvell x2) all connect a designer to a named supplier without a disclosed per-supplier dollar split. Descriptions were checked line by line: none contain an 'amount' field, and each description explicitly states the aggregate figure is Tier-1-sourced while the per-supplier share is undisclosed. All ten verdicted publish_flagged as worded; no wording changes needed.\n3. Supplier HQ coordinates: every supplier company outside the design layer's own core roster (TSMC, Samsung, SK hynix, Micron, GlobalFoundries, Amkor, ASE, SPIL, KYEC, Tongfu, Foxconn, Wistron) uses precision 'city', consistent with general-knowledge geocoding. None claim 'site' precision without a cited address. Compliant as-is.\n4. The three controls (BIS EDA is-informed letters, BIS GP10 guidance on PRC ICs, 2019 Huawei Entity List addition) were verified like every other entity; all evidence is verbatim and all three verdicted publish. They do duplicate the policy layer's nominal ownership of export controls per AGENTS.md, which is expected to merge at build time rather than a defect -- flagged in each verdict's reasons for the record, not treated as a rejection reason.\n\nOther findings for the record (none blocking): (a) the BIS GP10 guidance PDF itself contains a typo, 'Huawei Ascent 910D' instead of 'Ascend', in its own illustrative list -- the primary source's error, not the analyst's, and not a grounding violation since Control.items is a data label rather than a quoted string; (b) several company entries (NVIDIA, Alphabet) claim 'site'-precision HQ addresses that are independently confirmed accurate on the same 10-K's cover page, but the specific street-address line is cited in the sibling Facility entry's evidence rather than in the Company entity's own evidence array -- factually fine (same filing, same accession number) but worth tightening in a future pass so each entity's evidence stands alone; (c) two informational cross-file id-duplication warnings from validate.mjs (fac:huawei-shenzhen-bantian vs. policy.json, flow:sumco-to-tsmc vs. fabrication.json) are expected per AGENTS.md and require no action. `node scripts/validate.mjs design` passes with 0 errors."
+}
