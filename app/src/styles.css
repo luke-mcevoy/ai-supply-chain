@@ -203,7 +203,8 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
 .lg-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--text-2); }
 .lg-dot.ring { background: transparent; border: 1.5px solid var(--warn); }
 .timeline { position: absolute; z-index: 4; bottom: 12px; left: 292px; right: 416px; padding: 8px 14px 10px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); }
-.tl-head { display: flex; gap: 12px; align-items: baseline; font-size: 11px; margin-bottom: 8px; }
+.tl-head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: 11px; margin-bottom: 8px; }
+.tl-head > .muted { flex: 1 1 260px; }
 .tl-head .mono { color: var(--text); font-size: 12px; white-space: nowrap; }
 .tl-head > .muted { font-size: 10.5px; line-height: 1.35; }
 .tl-head .linkish { margin: 0; }
