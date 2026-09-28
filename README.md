@@ -4,7 +4,7 @@ A 3D globe of the semiconductor supply chain behind US AI compute, from mines an
 
 **Use it:** [ai-supply-chain-atlas.fly.dev](https://ai-supply-chain-atlas.fly.dev/)
 
-The live map is a **draft**. The orange badge means the quotes have been recorded from the cited documents, and a second pass that re-checks every quote has not been finished. Read a claim next to its source before you rely on it.
+Every layer has been through independent verification. A second agent re-fetched each cited document, checked every quote word for word, and approved, flagged or withheld each item. Flagged items carry a visible caveat in the inspector. Read a claim next to its source before you rely on it.
 
 ## How to look around
 
@@ -40,7 +40,7 @@ node scripts/validate.mjs
 node scripts/build.mjs --draft
 ```
 
-`--draft` is what the live site uses. Without it, the build keeps only layers that have a finished verification file, and those files are not in the repo yet.
+Without `--draft`, the build publishes only what verification approved. That is what the live site uses. `--draft` includes unverified research and puts a DRAFT banner on the map; use it only for local development.
 
 ## How the evidence pipeline works
 
