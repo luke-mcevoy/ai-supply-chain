@@ -59,4 +59,4 @@ Build: company endpoints resolve to a site only when unambiguous; otherwise draw
 - Prose audit (scripts/audit-numbers.mjs + second-pass counsel): ~108 prose numbers confirmed in sources;
   1 unsupported xAI Colossus 2 "next phase" figure removed. Remaining audit hits are confirmed cross-references.
 - app/public/atlas.json is now the VERIFIED build (no --draft). Deploy should serve this.
-Pending user go-ahead: git push to origin; redeploy Fly (fly.toml present) from the verified build.
+Released 2026-09-28 with user approval: pushed to origin/main and deployed the verified build to https://ai-supply-chain-atlas.fly.dev/ (draft:false confirmed live).
