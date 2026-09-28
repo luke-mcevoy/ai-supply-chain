@@ -1,0 +1,1029 @@
+{
+  "layer": "systems",
+  "verifier": "systems layer counsel (Claude)",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:nvidia-us-ai-supercomputer-manufacturing-2025-04-14",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nvidia-build-in-america-2026-08-05",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nvidia-us-ai-manufacturing-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nvidia-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct fetch of sec.gov/Archives returned HTTP 403 (\"Your Request Originates from an Undeclared Automated Tool\") even with a declared, non-spoofed User-Agent, per SEC's fair-access bot policy. Verified instead via EDGAR full-text search (efts.sec.gov/LATEST/search-index), which confirmed the exact accession number and returned exact-phrase (match_phrase) hits for every cited quote against this specific accession -- equivalent confirmation that the quotes are verbatim in the filing. No headers were spoofed and no anti-bot bypass was used, consistent with the no-browser-disguise rule."
+    },
+    {
+      "source": "src:supermicro-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct fetch of sec.gov/Archives returned HTTP 403 (\"Your Request Originates from an Undeclared Automated Tool\") even with a declared, non-spoofed User-Agent, per SEC's fair-access bot policy. Verified instead via EDGAR full-text search (efts.sec.gov/LATEST/search-index), which confirmed the exact accession number and returned exact-phrase (match_phrase) hits for every cited quote against this specific accession -- equivalent confirmation that the quotes are verbatim in the filing. No headers were spoofed and no anti-bot bypass was used, consistent with the no-browser-disguise rule."
+    },
+    {
+      "source": "src:dell-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct fetch of sec.gov/Archives returned HTTP 403 (\"Your Request Originates from an Undeclared Automated Tool\") even with a declared, non-spoofed User-Agent, per SEC's fair-access bot policy. Verified instead via EDGAR full-text search (efts.sec.gov/LATEST/search-index), which confirmed the exact accession number and returned exact-phrase (match_phrase) hits for every cited quote against this specific accession -- equivalent confirmation that the quotes are verbatim in the filing. No headers were spoofed and no anti-bot bypass was used, consistent with the no-browser-disguise rule."
+    },
+    {
+      "source": "src:hpe-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct fetch of sec.gov/Archives returned HTTP 403 (\"Your Request Originates from an Undeclared Automated Tool\") even with a declared, non-spoofed User-Agent, per SEC's fair-access bot policy. Verified instead via EDGAR full-text search (efts.sec.gov/LATEST/search-index), which confirmed the exact accession number and returned exact-phrase (match_phrase) hits for every cited quote against this specific accession -- equivalent confirmation that the quotes are verbatim in the filing. No headers were spoofed and no anti-bot bypass was used, consistent with the no-browser-disguise rule."
+    },
+    {
+      "source": "src:arista-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct fetch of sec.gov/Archives returned HTTP 403 (\"Your Request Originates from an Undeclared Automated Tool\") even with a declared, non-spoofed User-Agent, per SEC's fair-access bot policy. Verified instead via EDGAR full-text search (efts.sec.gov/LATEST/search-index), which confirmed the exact accession number and returned exact-phrase (match_phrase) hits for every cited quote against this specific accession -- equivalent confirmation that the quotes are verbatim in the filing. No headers were spoofed and no anti-bot bypass was used, consistent with the no-browser-disguise rule."
+    },
+    {
+      "source": "src:celestica-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct fetch of sec.gov/Archives returned HTTP 403 (\"Your Request Originates from an Undeclared Automated Tool\") even with a declared, non-spoofed User-Agent, per SEC's fair-access bot policy. Verified instead via EDGAR full-text search (efts.sec.gov/LATEST/search-index), which confirmed the exact accession number and returned exact-phrase (match_phrase) hits for every cited quote against this specific accession -- equivalent confirmation that the quotes are verbatim in the filing. No headers were spoofed and no anti-bot bypass was used, consistent with the no-browser-disguise rule."
+    },
+    {
+      "source": "src:honhai-mops-2024-11-26-foxconn-assembly-houston-land",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:honhai-mops-2025-06-03-foxconn-assembly-houston-lease",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:honhai-mops-2025-03-24-ingrasys-usa-houston",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:honhai-mops-2025-01-15-ingrasys-usa-sunnyvale",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:honhai-mops-2024-02-27-fii-amc-mexico-land",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:honhai-mops-2025-10-14-fii-amc-mexico-lease",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:honhai-tech-day-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:honhai-2q26-results-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:foxconn-wedc-racine-2025-11-26",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:hillwood-wistron-alliancetexas-2025-08-21",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Publisher is the AllianceTexas developer (landlord/counterparty to the Wistron transactions), not Wistron or NVIDIA -- still an official primary release about its own project, accepted as tier 2 company_press_release. Confirmed reachable and quotes verbatim via direct fetch."
+    },
+    {
+      "source": "src:wistron-mops-2025-05-06-westport",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:wistron-mops-2025-06-26-westport-contract",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:wistron-mops-2025-05-13-wius-contract",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:wistron-mops-2025-05-06-wimx-juarez-lease",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:wistron-mops-2025-09-15-wiwynn-mexico-lease",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:quanta-mops-2025-05-29-qmn-fremont-b2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:quanta-mops-2025-12-23-qmn-fremont-b19",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    },
+    {
+      "source": "src:quanta-mops-2026-09-04-quanta-usa-newark",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly via curl with the declared project User-Agent; MOPS ajax_t05st01 GET endpoint returned the filing text (HTTP 200), no bot bypass needed."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:foxconn",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wistron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:fabrinet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:supermicro",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:dell",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:hpe",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:arista",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:broadcom",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:celestica",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:jabil",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sanmina",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:coherent",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:lumentum",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:quanta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wiwynn",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 5,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 6,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "evidence_index": 7,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth",
+      "evidence_index": 5,
+      "verdict": "does_not_support",
+      "notes": "Quote (\"交易總金額為美金48,850仟元\") is verbatim in src:wistron-mops-2025-05-13-wius-contract, but that filing names only the counterparty (PR III/CROW BUILDING E,F,G&L LP) and the amount; it does not name 15200 Heritage Parkway, D1, Fort Worth, or give a land/building size. It references an original announcement dated 2025-04-02 that is not in this file's sources[]. The filing does not support this transaction being the D1/Heritage Parkway acquisition -- that link is the analyst's inference from timing and rough proportionality to the other (Westport) transaction. See fin:wistron-heritage-parkway-2025."
+    },
+    {
+      "entity": "fac:supermicro-san-jose",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:supermicro-san-jose",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:supermicro-san-jose",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:supermicro-taiwan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:supermicro-malaysia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:supermicro-malaysia",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:supermicro-netherlands",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nvidia-israel-networking",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nvidia-israel-networking",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nvidia-israel-networking",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:coherent-sherman",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:coherent-sherman",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lumentum-greensboro",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:celestica-texas",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote is verbatim and does genuinely support 'segment scale' as labeled (company-wide CCS segment revenue). Flagging separately: the facility's products[] field (\"networking switches\", \"data center racks\", \"servers (CCS segment)\") is a company/segment-wide characterization drawn from this same passage, not a Texas-site-specific disclosure -- the 10-K property table gives no product detail for the Texas row. Corrected products[] to disclose this."
+    },
+    {
+      "entity": "fac:celestica-texas",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth-mobility-way",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth-mobility-way",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-fort-worth-mobility-way",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-sunnyvale",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-sunnyvale",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-sunnyvale",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-el-salto-jalisco",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-el-salto-jalisco",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-el-salto-jalisco",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-el-salto-jalisco",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-mount-pleasant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:foxconn-mount-pleasant",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-juarez",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wistron-juarez",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wiwynn-juarez",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wiwynn-juarez",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:quanta-fremont",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:quanta-fremont",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:quanta-fremont",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:quanta-fremont",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:quanta-fremont",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-foxconn-houston",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-foxconn-houston",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-wistron-fort-worth",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-wistron-fort-worth",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:foxconn-to-nvidia-assembly-services",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wistron-to-nvidia-assembly-services",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:fabrinet-to-nvidia-assembly-services",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-supermicro-san-jose",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-supermicro-san-jose",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-hpe",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-hpe",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-dell",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "Quote is verbatim on NVIDIA's own site and documents a co-marketing/deployment-assistance relationship ('working with NVIDIA to help enterprises build and deploy AI factories'). It does not state that NVIDIA supplies Dell with GPUs, accelerators, or any component that Dell integrates into hardware it sells. It is a 'partner card' on a promotional page, not a supply-chain disclosure."
+    },
+    {
+      "entity": "flow:nvidia-to-dell",
+      "evidence_index": 1,
+      "verdict": "does_not_support",
+      "notes": "Quote is verbatim in Dell's 10-K and documents only that Dell has an 'AI-optimized servers' product category; it names no GPU or accelerator supplier. The research file's own gaps[] entry 'Dell AI-server supply chain (GPU supplier, assembly sites)' explicitly states this is unsourced and 'would need: Dell filing or official release naming AI-server integration sites and GPU supply agreements' -- i.e. the analyst's own gap notes contradict building this flow from these two sources. Neither party's specific role in an NVIDIA-to-Dell component flow is documented."
+    },
+    {
+      "entity": "flow:broadcom-to-arista",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:jabil-to-arista",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:sanmina-to-arista",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:foxconn-to-arista",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:coherent-to-nvidia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-foxconn-el-salto",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "Quote is verbatim in src:honhai-tech-day-2024 and, read in context (the passage follows remarks by NVIDIA's Deepu Talla and Foxconn's Benjamin Ting on the NVIDIA-Foxconn AI partnership, and the release separately references the NVIDIA GB200 NVL72 platform), reasonably supports a general NVIDIA-Foxconn AI-server relationship. It does NOT name El Salto, Jalisco (or any city/state) as the location of 'the world's largest AI server factory being constructed in Mexico', and does not name NVIDIA as that factory's customer. Foxconn's own MOPS filings for El Salto give no product designation either (purpose stated only as generic '營運需求'/operational needs). Two separate, unconfirmed identifications are being stacked: (1) that El Salto is this factory, and (2) that this factory serves NVIDIA. That exceeds what 'inferred' can support under AGENTS.md (each party's role must independently be documented, only the specific link deduced) -- here Foxconn's own role at El Salto is itself undocumented."
+    },
+    {
+      "entity": "flow:nvidia-to-foxconn-el-salto",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote is verbatim and correctly supports only 'location' (El Salto land purchase); it makes no claim about AI servers or NVIDIA and does not, by itself, rescue the flow."
+    },
+    {
+      "entity": "flow:nvidia-to-wistron-mobility-way",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-to-wistron-mobility-way",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:foxconn-houston-land-plant-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:foxconn-houston-land-plant-2024",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:foxconn-houston-lease-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:foxconn-houston-lease-2025",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:ingrasys-houston-fairbanks-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:ingrasys-sunnyvale-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:fii-amc-mexico-el-salto-land-2024",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:fii-amc-mexico-el-salto-lease-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:foxconn-wisconsin-expansion-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:wistron-westport-2025",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:wistron-heritage-parkway-2025",
+      "evidence_index": 0,
+      "verdict": "verified_with_correction",
+      "notes": "Quote (\"交易總金額為美金48,850仟元\") is verbatim and supports the US$48,850,000 amount. But the entity's description states specific land/building sizes (852,034 sq ft land; 324,598 sq ft plant) and asserts the size 'matches 15200 Heritage Parkway (D1)'. Neither size figure appears anywhere in this filing (which gives no acreage or building size at all), nor in any other source in this file. The filing's counterparty (PR III/CROW BUILDING E,F,G&L LP) and site are not named. This is an inference dressed as a documented fact; description corrected to remove the unsourced size figures and disclose the site link as inferred."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:nvidia",
+      "verdict": "publish",
+      "reasons": "HQ address verified verbatim on the FY2026 10-K cover page (confirmed via EDGAR full-text search against the exact accession)."
+    },
+    {
+      "entity": "co:foxconn",
+      "verdict": "publish",
+      "reasons": "Named directly, with Wistron and Fabrinet, as an NVIDIA contract manufacturer in NVIDIA's FY2026 10-K; quote verified verbatim."
+    },
+    {
+      "entity": "co:wistron",
+      "verdict": "publish",
+      "reasons": "Same NVIDIA 10-K sentence naming it as a contract manufacturer; verified verbatim."
+    },
+    {
+      "entity": "co:fabrinet",
+      "verdict": "publish",
+      "reasons": "Same NVIDIA 10-K sentence naming it as a contract manufacturer; verified verbatim."
+    },
+    {
+      "entity": "co:supermicro",
+      "verdict": "publish",
+      "reasons": "HQ address and existence verified verbatim in the FY2026 10-K (Item 1 and cover page)."
+    },
+    {
+      "entity": "co:dell",
+      "verdict": "publish",
+      "reasons": "HQ address verified verbatim in the FY2026 10-K, Item 2 Properties."
+    },
+    {
+      "entity": "co:hpe",
+      "verdict": "publish",
+      "reasons": "HQ address verified verbatim on the FY2025 10-K cover page."
+    },
+    {
+      "entity": "co:arista",
+      "verdict": "publish",
+      "reasons": "HQ address verified verbatim on the FY2025 10-K cover page."
+    },
+    {
+      "entity": "co:broadcom",
+      "verdict": "publish",
+      "reasons": "Named as Arista's 'predominant merchant silicon vendor' in Arista's FY2025 10-K; quote verified verbatim."
+    },
+    {
+      "entity": "co:celestica",
+      "verdict": "publish",
+      "reasons": "HQ address verified verbatim in the FY2025 10-K, Item 1 Corporate information."
+    },
+    {
+      "entity": "co:jabil",
+      "verdict": "publish",
+      "reasons": "Named as one of Arista's three primary manufacturing partners; quote verified verbatim."
+    },
+    {
+      "entity": "co:sanmina",
+      "verdict": "publish",
+      "reasons": "Named as one of Arista's three primary manufacturing partners; quote verified verbatim."
+    },
+    {
+      "entity": "co:coherent",
+      "verdict": "publish",
+      "reasons": "Named by NVIDIA as 'a key networking supplier across NVIDIA's AI stack' in the Aug. 2026 Build in America release; quote verified verbatim."
+    },
+    {
+      "entity": "co:lumentum",
+      "verdict": "publish",
+      "reasons": "Named on NVIDIA's US AI Manufacturing partner page as establishing a Greensboro, NC facility; quote verified verbatim."
+    },
+    {
+      "entity": "co:quanta",
+      "verdict": "publish",
+      "reasons": "Existence of US operations (Fremont, CA plant leases via Quanta Manufacturing Nashville LLC) verified verbatim in the MOPS filing."
+    },
+    {
+      "entity": "co:wiwynn",
+      "verdict": "publish",
+      "reasons": "Mexico (Ciudad Juarez) operations verified verbatim in the Wistron-filed MOPS disclosure for Wiwynn Mexico."
+    },
+    {
+      "entity": "fac:foxconn-houston",
+      "verdict": "publish",
+      "reasons": "Strongest-documented facility in the file: existence, city, and NVIDIA relationship from two NVIDIA releases (Apr. 2025 and Aug. 2026, the latter explicitly naming GB300 tray modules), plus three separate MOPS filings giving three distinct addresses (9625 Fallbrook Pines Dr.; 8228/8118 Houston Ave.; 8702-8726 Fairbanks North Houston Rd.) and matching sizes/amounts, all confirmed verbatim by direct fetch."
+    },
+    {
+      "entity": "fac:wistron-fort-worth",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, address (15200 Heritage Parkway), size (~324,000-324,598 sq ft, NVIDIA and Hillwood releases agree within rounding), opening date, and products (GB300/Vera Rubin) are all solidly documented (Tier 2, verified verbatim) and consistent across sources. Flagged only because evidence[5] (the $48.85M MOPS filing) does not itself name this site -- see evidence_checks -- so the facility's page should not present that dollar figure as this site's documented acquisition cost; it is corroborative at best."
+    },
+    {
+      "entity": "fac:supermicro-san-jose",
+      "verdict": "publish",
+      "reasons": "Address, 'we manufacture the majority of our systems' at San Jose, and named NVIDIA products (GB300/GB200 NVL72, HGX B300/B200) all verified verbatim in the FY2026 10-K."
+    },
+    {
+      "entity": "fac:supermicro-taiwan",
+      "verdict": "publish",
+      "reasons": "Country-level existence verified verbatim (10-K); precision correctly set to 'country' since sites are not itemized."
+    },
+    {
+      "entity": "fac:supermicro-malaysia",
+      "verdict": "publish",
+      "reasons": "Country-level existence and 'campus' language both verified verbatim (10-K)."
+    },
+    {
+      "entity": "fac:supermicro-netherlands",
+      "verdict": "publish",
+      "reasons": "Country-level existence verified verbatim (10-K); precision correctly set to 'country'."
+    },
+    {
+      "entity": "fac:nvidia-israel-networking",
+      "verdict": "publish",
+      "reasons": "Existence, function (networking, post-Mellanox), and ~6,000-employee headcount all verified verbatim in the FY2026 10-K risk factors."
+    },
+    {
+      "entity": "fac:coherent-sherman",
+      "verdict": "publish",
+      "reasons": "Existence, location (Sherman, TX), status (expansion groundbreaking), and products all verified verbatim in NVIDIA's Aug. 2026 release; Tier 2 is sufficient for publish at 'city' precision."
+    },
+    {
+      "entity": "fac:lumentum-greensboro",
+      "verdict": "publish",
+      "reasons": "Existence, location, and products verified verbatim on NVIDIA's US AI Manufacturing page."
+    },
+    {
+      "entity": "fac:celestica-texas",
+      "verdict": "publish_flagged",
+      "reasons": "Existence of a Texas site and CCS segment revenue scale verified verbatim in the FY2025 10-K (Item 1, Item 2 property table). Flagged: products[] listed generic CCS-segment products, not a Texas-site-specific disclosure -- the property table gives no product detail per site. Corrected products[] to disclose this is segment-wide, not site-specific.",
+      "corrections": {
+        "products": [
+          "CCS-segment products generally (networking switches, data center racks, servers) per Celestica's company-wide segment description; the 10-K property table lists a Texas site but does not disclose what is produced there specifically"
+        ]
+      }
+    },
+    {
+      "entity": "fac:wistron-fort-worth-mobility-way",
+      "verdict": "publish_flagged",
+      "reasons": "Hillwood's Aug. 2025 release verified verbatim naming 14601 Mobility Way, its 766,994 sq ft building, and >$181M investment. The MOPS 'Westport' filings (2025-05-06 and 2025-06-26 contract) independently give an identical 766,994 sq ft plant size and the name 'Westport廠', confirmed verbatim. Flagged because the MOPS filings never give a street address -- the tie to 14601 Mobility Way rests on the matching square footage across a Tier 1 and a Tier 2 source, which is a sound but not literal identification."
+    },
+    {
+      "entity": "fac:foxconn-sunnyvale",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, address, and size verified verbatim in the MOPS filing, which literally reads 'East Argues Avenue' (not 'Arques') -- the analyst's address field correctly preserves this as a parenthetical note rather than silently 'fixing' the filing's own typo; no correction needed there. Flagged because products[] is honestly disclosed as 'not specified in filing' and status ('announced') is a land-purchase-only status with no construction or operational confirmation yet."
+    },
+    {
+      "entity": "fac:foxconn-el-salto-jalisco",
+      "verdict": "publish_flagged",
+      "reasons": "Existence and location of Foxconn real estate in El Salto, Jalisco are solidly documented (Tier 1 MOPS land purchase 2024 and plant lease 2025). Flagged for two reasons: (1) the entry combines a land purchase and a separately-addressed plant lease that the filings do not establish are the same project (location precision is correctly kept at 'city', not 'site', which is appropriate given this); (2) the products field ('AI servers (inferred; see evidence)') is speculative -- see flow:nvidia-to-foxconn-el-salto, which is rejected below for the same reason. Products corrected to state plainly that no source names what is or will be made at this site.",
+      "corrections": {
+        "products": [
+          "not specified in any filing or release; Hon Hai Tech Day 2024 describes an unnamed 'world's largest AI server factory being constructed in Mexico' in the context of NVIDIA-Foxconn remarks, but does not name El Salto or any other specific site"
+        ]
+      }
+    },
+    {
+      "entity": "fac:foxconn-mount-pleasant",
+      "verdict": "publish",
+      "reasons": "Existence, 'data server production' product, and the $569M expansion figure all verified verbatim in the Foxconn/WEDC release."
+    },
+    {
+      "entity": "fac:wistron-juarez",
+      "verdict": "publish",
+      "reasons": "Existence, location, and size verified verbatim in the MOPS WIMX filing; products honestly disclosed as not specified."
+    },
+    {
+      "entity": "fac:wiwynn-juarez",
+      "verdict": "publish",
+      "reasons": "Existence, location, and size verified verbatim in the MOPS Wiwynn Mexico filing; products honestly disclosed as not specified."
+    },
+    {
+      "entity": "fac:quanta-fremont",
+      "verdict": "publish",
+      "reasons": "Existence, location, and size for B2, B19, and the Newark plant all verified verbatim across three MOPS filings; products honestly disclosed as not specified."
+    },
+    {
+      "entity": "flow:nvidia-to-foxconn-houston",
+      "verdict": "publish",
+      "reasons": "Documented: both parties and the commodity (GB300 tray modules) named directly in NVIDIA's own releases; quotes verified verbatim."
+    },
+    {
+      "entity": "flow:nvidia-to-wistron-fort-worth",
+      "verdict": "publish",
+      "reasons": "Documented: NVIDIA's July 2026 opening release names both parties and the GB300/Vera Rubin commodity directly; quotes verified verbatim."
+    },
+    {
+      "entity": "flow:foxconn-to-nvidia-assembly-services",
+      "verdict": "publish",
+      "reasons": "Documented directly in NVIDIA's FY2026 10-K; quote verified verbatim."
+    },
+    {
+      "entity": "flow:wistron-to-nvidia-assembly-services",
+      "verdict": "publish",
+      "reasons": "Documented directly in NVIDIA's FY2026 10-K; quote verified verbatim."
+    },
+    {
+      "entity": "flow:fabrinet-to-nvidia-assembly-services",
+      "verdict": "publish",
+      "reasons": "Documented directly in NVIDIA's FY2026 10-K; quote verified verbatim."
+    },
+    {
+      "entity": "flow:nvidia-to-supermicro-san-jose",
+      "verdict": "publish_flagged",
+      "reasons": "Sound two-premise inference: Supermicro's 10-K names the specific NVIDIA platforms it delivers (GB300/GB200 NVL72, HGX B300/B200) and separately states most systems are built at San Jose -- both premises independently documented in the same filing; only the specific San-Jose-receives-NVIDIA-silicon link is deduced, with an honest inference_note. Correctly kept as 'inferred'."
+    },
+    {
+      "entity": "flow:nvidia-to-hpe",
+      "verdict": "publish",
+      "reasons": "Documented: HPE's FY2025 10-K names NVIDIA directly as a single-source GPU supplier ('single source' language confirmed present); quotes verified verbatim."
+    },
+    {
+      "entity": "flow:nvidia-to-dell",
+      "verdict": "reject",
+      "reasons": "The two cited sources do not establish a component-supply relationship. NVIDIA's site describes Dell as 'working with NVIDIA to help enterprises build and deploy AI factories' -- a deployment/co-marketing partnership, not a supply statement -- and Dell's 10-K discloses only a generic 'AI-optimized servers' product category with no named component supplier. The research file's own gaps[] entry concedes this exact point ('Dell AI-server supply chain (GPU supplier, assembly sites) ... would need: Dell filing or official release naming ... GPU supply agreements'), so the flow asserts what the analyst's own gap says is unsourced. Cannot be fixed with a correction; no field rescues an undocumented relationship."
+    },
+    {
+      "entity": "flow:broadcom-to-arista",
+      "verdict": "publish",
+      "reasons": "Documented directly in Arista's FY2025 10-K ('primarily reliant ... on Broadcom ... for our switching chips'); quote verified verbatim."
+    },
+    {
+      "entity": "flow:jabil-to-arista",
+      "verdict": "publish",
+      "reasons": "Documented directly in Arista's FY2025 10-K, naming Jabil as a primary manufacturing partner with locations; quote verified verbatim."
+    },
+    {
+      "entity": "flow:sanmina-to-arista",
+      "verdict": "publish",
+      "reasons": "Documented directly in Arista's FY2025 10-K, naming Sanmina as a primary manufacturing partner with locations; quote verified verbatim."
+    },
+    {
+      "entity": "flow:foxconn-to-arista",
+      "verdict": "publish",
+      "reasons": "Documented directly in Arista's FY2025 10-K, naming Foxconn Hon Hai as a primary manufacturing partner with locations; quote verified verbatim."
+    },
+    {
+      "entity": "flow:coherent-to-nvidia",
+      "verdict": "publish_flagged",
+      "reasons": "Sound inference: NVIDIA's own release names Coherent as 'a key networking supplier across NVIDIA's AI stack' -- the company-level Coherent-NVIDIA relationship is therefore documented directly, not merely inferred. What is inferred is narrower: that the specific Sherman, TX site's output goes to NVIDIA (the site is still under expansion). Honest inference_note; correctly flagged rather than fully documented given the from= endpoint is the facility, not the company."
+    },
+    {
+      "entity": "flow:nvidia-to-foxconn-el-salto",
+      "verdict": "reject",
+      "reasons": "Stacks two unconfirmed identifications: neither source names El Salto as the sole location of the 'world's largest AI server factory being constructed in Mexico' described in Hon Hai's Tech Day 2024 release (Foxconn's own gaps[] entry notes a Chihuahua site also appears in Hon Hai materials), nor does either source name NVIDIA as that factory's customer -- the release's 'for key customers' is unspecific. Under AGENTS.md, an inferred flow requires each party's role to be independently documented with only the specific link deduced; here Foxconn's own role at El Salto (what it makes there) is itself undocumented, not just the NVIDIA link. Not fixable with a correction."
+    },
+    {
+      "entity": "flow:nvidia-to-wistron-mobility-way",
+      "verdict": "publish_flagged",
+      "reasons": "Reasonably sound inference: Hillwood's release title itself frames both Fort Worth sites as one '$761 Million AI Supercomputer Sites Project' and describes 'two AI supercomputing facilities'; NVIDIA's Aug. 2026 release documents the NVIDIA-Wistron Fort Worth relationship generally. The specific second-site link is deduced but well-grounded in a Tier 2 source that names both sites together as part of the same AI project."
+    },
+    {
+      "entity": "fin:foxconn-houston-land-plant-2024",
+      "verdict": "publish",
+      "reasons": "Amount (US$33,033,000.00) and location both verified verbatim in the MOPS filing; description accurately discloses the filing's generic '營運需求'/operational-needs purpose language rather than asserting an AI-specific purpose."
+    },
+    {
+      "entity": "fin:foxconn-houston-lease-2025",
+      "verdict": "publish",
+      "reasons": "Amount and lease term both verified verbatim in the MOPS filing."
+    },
+    {
+      "entity": "fin:ingrasys-houston-fairbanks-2025",
+      "verdict": "publish",
+      "reasons": "Amount (US$142,124,461) verified verbatim in the MOPS filing."
+    },
+    {
+      "entity": "fin:ingrasys-sunnyvale-2025",
+      "verdict": "publish",
+      "reasons": "Amount (US$128,000,000) verified verbatim in the MOPS filing."
+    },
+    {
+      "entity": "fin:fii-amc-mexico-el-salto-land-2024",
+      "verdict": "publish",
+      "reasons": "Amount in MXN verified verbatim in the MOPS filing; currency correctly recorded in the original currency (MXN) with the ISO 4217 code."
+    },
+    {
+      "entity": "fin:fii-amc-mexico-el-salto-lease-2025",
+      "verdict": "publish",
+      "reasons": "Amount (US$20,194,836) and 120-month term verified verbatim in the MOPS filing."
+    },
+    {
+      "entity": "fin:foxconn-wisconsin-expansion-2025",
+      "verdict": "publish",
+      "reasons": "Amount ($569 million) verified verbatim in the Foxconn/WEDC release. The description's parenthetical about '$96M total performance-based EITMZ tax credits through 2029' is also confirmed accurate against the same release ('eligible to earn up to a total of $96 million in performance-based tax credits ... Electronics, Information Technology, and Manufacturing Zone') even though it was not separately cited as an Evidence item -- note for the analyst to add that citation next time."
+    },
+    {
+      "entity": "fin:wistron-westport-2025",
+      "verdict": "publish_flagged",
+      "reasons": "Amount (US$110,983,000) verified verbatim; the filing explicitly names the subject '(Westport廠)' and gives a plant size (766,994 sq ft) that matches Hillwood's 14601 Mobility Way building exactly. Flagged only because, as with the facility it points to, the street-address link is via matching square footage, not a literal address in the MOPS filing."
+    },
+    {
+      "entity": "fin:wistron-heritage-parkway-2025",
+      "verdict": "publish_flagged",
+      "reasons": "The transaction itself (US$48,850,000, counterparty PR III/CROW BUILDING E,F,G&L LP, dated 2025-05-13) is real and Tier 1-documented. But the description's site attribution to 15200 Heritage Parkway (D1) and its land/building size figures (852,034 sq ft / 324,598 sq ft) are not stated anywhere in this filing or any other source in the file -- corrected to remove the unsourced size figures and to disclose the site link as the analyst's inference from timing/proportion, not a documented fact.",
+      "corrections": {
+        "description": "WIUS (Wistron InfoComm USA) contract to acquire a second US property for US$48.85 million, counterparty PR III/CROW BUILDING E,F,G&L LP, finalized 2025-05-13. This MOPS filing gives only the amount, date, and counterparty; it does not name a street address or give land/building size, and does not reference 15200 Heritage Parkway or 'D1'. Matching this transaction to the Heritage Parkway (D1) facility is the analyst's inference from the filing's timing and its rough proportion to the separately-documented Westport transaction (fin:wistron-westport-2025), not a documented fact -- treat the site link as unconfirmed."
+      }
+    }
+  ],
+  "summary": "Systems layer (server/rack assembly, ODMs, networking) verification, 2026-09-28. 28/28 sources reached and confirmed as the stated doc_type/tier/date -- 6 SEC 10-Ks (NVIDIA, Supermicro, Dell, HPE, Arista, Celestica) via EDGAR full-text search after direct sec.gov/Archives fetches were blocked with HTTP 403 under SEC's bot policy (no headers spoofed, no bypass used; efts.sec.gov exact-phrase search confirmed every cited quote verbatim against the exact accession number in the research file); 14 Taiwan MOPS regulatory filings fetched directly by GET with the declared project User-Agent (all HTTP 200, no bypass needed); 8 company press releases/pages (NVIDIA x4, Hon Hai x2, Foxconn/WEDC, Hillwood). 99/99 evidence items checked: 93 verified verbatim as cited, 4 does_not_support, 2 verified_with_correction. 57/57 entities given an explicit verdict: 16 companies publish, 12 facilities publish, 5 facilities publish_flagged, 8 flows publish, 5 flows publish_flagged, 2 flows reject (flow:nvidia-to-dell, flow:nvidia-to-foxconn-el-salto), 7 financial_links publish, 2 financial_links publish_flagged. No entity was rejected outright (existence/location); the two rejected flows are dropped commodity-flow claims, not facility or company rejections.\n\nSystemic problems found:\n1. Wistron's two Fort Worth MOPS contracts were matched to specific street addresses by building-size proportionality rather than by anything the filings themselves state. The $110.98M 'Westport' contract is well-supported (the MOPS filing itself names the site 'Westport廠' and gives an exact 766,994 sq ft match to Hillwood's 14601 Mobility Way building) and is publish_flagged. The $48.85M 'WIUS' contract is materially weaker: that MOPS filing names neither a site nor a size at all -- it only gives an amount and counterparty, referencing an unfetched 2025-04-02 original announcement. The research file's description of that transaction stated specific land/building sizes (852,034 / 324,598 sq ft) that appear in no cited source; corrected to remove them and flag the Heritage-Parkway/D1 site link as the analyst's unconfirmed inference (fin:wistron-heritage-parkway-2025). The corresponding evidence item on fac:wistron-fort-worth was marked does_not_support for the same reason; the facility's other five evidence items are solid and it remains publish_flagged overall.\n2. MOPS filings state only generic purposes ('營運需求'/operational needs, confirmed verbatim on every filing checked); every facility/financial-link description that ties a specific site to AI-server production was checked to make sure that link comes from a company release, not the MOPS filing itself. This held throughout except for the two rejected flows below.\n3. Two inferred flows were rejected as unsound rather than merely flagged: flow:nvidia-to-dell (the cited NVIDIA page documents a deployment-assistance partnership, not a component-supply relationship; Dell's 10-K names no GPU supplier; the research file's own gaps[] entry already concedes this is unsourced) and flow:nvidia-to-foxconn-el-salto (stacks two unconfirmed identifications -- that El Salto is 'the' unnamed AI-server factory in Hon Hai's Tech Day release, and that its output goes to NVIDIA specifically -- exceeding what AGENTS.md's inferred-flow standard permits, since Foxconn's own role at El Salto is itself undocumented, not just the NVIDIA link). By contrast, flow:nvidia-to-supermicro-san-jose, flow:coherent-to-nvidia, and flow:nvidia-to-wistron-mobility-way were judged sound two-premise inferences with honest inference_notes and kept as publish_flagged.\n4. Wistron Dallas-vs-Fort-Worth naming conflict: NVIDIA's April 2025 release verbatim says 'Wistron in Dallas'; later 2026 releases verbatim say Fort Worth. Checked that the research file does not cite the April 2025 'Dallas' quote in support of the Wistron facility's location (only in support of the Foxconn Houston facility, where 'Foxconn in Houston' from the same sentence is correct) -- the more specific, later Fort Worth documents are what the Wistron facility actually relies on. This is handled correctly; flagged in the gaps[] already and no correction was needed.\n5. Foxconn Sunnyvale 'Argues' spelling: the MOPS filing verbatim reads 'East Argues Avenue' (not 'Arques', the real Sunnyvale street name). The research file's evidence quote preserves the filing's own typo verbatim and the address field separately notes the discrepancy -- correct handling, no fix needed.\n6. Foxconn Houston: all three addresses (9625 Fallbrook Pines Dr.; 8228/8118 Houston Ave.; 8702-8726 Fairbanks North Houston Rd.) and all associated amounts confirmed verbatim against their MOPS filings; NVIDIA's statement that GB300 tray modules are built there confirmed verbatim in the Aug. 2026 release. This is the best-documented facility in the file.\n7. Celestica Texas: the CCS-segment revenue quote is real but is company-wide, not Texas-specific; the facility's products[] list was corrected to disclose that the 10-K's property table gives no site-level product detail.\n\nRejected: flow:nvidia-to-dell, flow:nvidia-to-foxconn-el-salto. All companies, facilities, and financial_links were publishable (with 7 flagged for inference/attribution caveats); none required outright rejection of existence or location claims. Ran node scripts/validate.mjs systems -- see final output."
+}
