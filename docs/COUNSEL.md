@@ -29,6 +29,11 @@ first.
      results. Download SEC documents with curl from `https://www.sec.gov/Archives/...`
      using a descriptive User-Agent (never an invented or personal email),
      strip the HTML, and grep for the quote.
+   - **Do not disguise automated requests as a browser** (spoofed browser
+     headers, anti-bot bypass services) to get around a site's access policy.
+     SEC's fair-access policy wants a User-Agent that declares who is fetching.
+     If SEC still refuses, use EDGAR full-text search, the company's IR-hosted
+     copy, or mark the source `unreachable`, and say so in `notes`.
    - SEC may block plain fetches. Try `https://www.sec.gov/Archives/...` with
      a fetch tool, EDGAR full-text search
      (`https://efts.sec.gov/LATEST/search-index?q="exact phrase"`), or the IR
