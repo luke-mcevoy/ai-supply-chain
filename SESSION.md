@@ -24,3 +24,17 @@ Done:
 - Serves the draft atlas built 2026-09-27T19:00:44Z (no verification files yet; UI shows DRAFT BUILD).
 - Machine stops when idle and starts on the next request.
 - Public GitHub repo: https://github.com/luke-mcevoy/ai-supply-chain (README points at the Fly app).
+
+## 2026-09-27 (evening) — Claude (Opus 5.5): research complete, counsel running
+Done:
+- 10/11 research layers final (policy still running; checkpoint has 36 controls). Draft totals:
+  231 sites, 178 routes, 154 money flows, 364 sources (all T1/T2), 107 gaps.
+- build.mjs merges duplicate ids across layers (union of surviving evidence) instead of overwriting.
+- Capital view draws self-links (capex, lease backlog, unnamed counterparties) as rings at HQ.
+- Restored the Fly/usage README that my README commit had overwritten; pipeline section appended.
+In flight: counsel (Sonnet, docs/COUNSEL.md) for design, datacenter, equipment, fabrication.
+Queue: counsel for power, memory_packaging, finance, materials, wafers_chemicals, systems, policy.
+Notes:
+- Keep ≤5 agents concurrent; 14 at once hit the 5-hour usage limit twice.
+- SEC needs a declared User-Agent with contact; agents told not to invent emails — ask the user.
+- Local commits are not pushed; the Fly deploy serves the draft build.
