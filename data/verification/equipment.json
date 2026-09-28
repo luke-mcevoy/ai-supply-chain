@@ -1,0 +1,1341 @@
+{
+  "layer": "equipment",
+  "verifier": "counsel (Claude, equipment layer verification pass)",
+  "verified_at": "2026-09-28T00:00:00Z",
+  "source_checks": [
+    {
+      "source": "src:asml-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 20-F text via SEC EDGAR (direct sec.gov fetch blocked by SEC's automated-tool filter after repeated attempts with a declared project User-Agent; obtained the identical document via the Internet Archive Wayback Machine, which itself was fetched with the same declared, non-impersonating User-Agent). Cover page and body confirm CIK 0000937966, filed as a 20-F dated 2026-02-25."
+    },
+    {
+      "source": "src:asml-web-wilton",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company location page; document_date correctly set to access date per convention for undated company pages."
+    },
+    {
+      "source": "src:asml-web-san-diego",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company location page; document_date = access date."
+    },
+    {
+      "source": "src:asml-web-berlin",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company location page; document_date = access date."
+    },
+    {
+      "source": "src:asml-web-veldhoven",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company location page; document_date = access date."
+    },
+    {
+      "source": "src:amat-10k-fy2025",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Filing body text could not be retrieved this session (see evidence_checks notes for detail: direct sec.gov 403, no usable Wayback capture, IR site connection reset). Existence, accession number (0001628280-25-056742) and filing date (2025-12-12) independently confirmed via SEC's data.sec.gov submissions API, so doc_type_ok and date_ok are affirmed on that metadata even though the quoted text is unverified."
+    },
+    {
+      "source": "src:amat-10k-fy2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 10-K text (Wayback Machine capture of sec.gov, declared User-Agent). Cover page confirms CIK 0000006951, fiscal year ended October 27, 2024, filed 2024-12-13."
+    },
+    {
+      "source": "src:amat-10k-fy2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 10-K text (Wayback Machine capture of sec.gov, declared User-Agent). Confirms fiscal year ended October 29, 2023."
+    },
+    {
+      "source": "src:lam-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 10-K text (Wayback Machine capture of sec.gov, declared User-Agent). Confirms fiscal year ended June 28, 2026."
+    },
+    {
+      "source": "src:lam-web-malaysia",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company page; document_date = access date."
+    },
+    {
+      "source": "src:kla-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 10-K text (Wayback Machine capture of sec.gov, declared User-Agent; file was gzip-compressed on disk and required decompression, content verified intact). Confirms fiscal year ended June 30, 2026."
+    },
+    {
+      "source": "src:teradyne-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 10-K text (Wayback Machine capture of sec.gov, declared User-Agent)."
+    },
+    {
+      "source": "src:ichor-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 10-K text (Wayback Machine capture of sec.gov, declared User-Agent, obtained after several retries)."
+    },
+    {
+      "source": "src:uct-10k-2025",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Filing body text could not be retrieved this session: direct sec.gov fetch returned 403 on repeated attempts with a declared User-Agent; the Wayback CDX index lists a 200 capture (20260223225044) but replaying it consistently returns 404; the issuer's IR site (ir.uctt.com) reset the TLS/HTTP2 connection. Existence, accession number (0001628280-26-010744) and filing date (2026-02-23) independently confirmed via SEC's data.sec.gov submissions API, so doc_type_ok/date_ok are affirmed on that metadata even though the quoted text is unverified."
+    },
+    {
+      "source": "src:formfactor-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full 10-K text (Wayback Machine capture of sec.gov, declared User-Agent)."
+    },
+    {
+      "source": "src:tel-integrated-report-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Retrieved full PDF (12.3MB) directly from tel.com with a declared User-Agent; text extracted with pdftotext. PDF metadata shows creation date 2026-09-14; the research file's 'document_date':'2026' is coarse but not wrong. Note: initial layout-preserving text extraction (pdftotext -layout) scrambled some two-column passages, producing false PARTIAL/near-miss matches; plain pdftotext (reading order) resolved these and all cited passages are contiguous in the source."
+    },
+    {
+      "source": "src:tel-fy2026-q4-presentation",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Retrieved full PDF directly from tel.com. Slide is dated 'Investor Relations / April 30, 2026', matching document_date 2026-04-30. One evidence item (co:tokyo-electron #1) fails: the 'China' quarterly figures are chart data labels, not a contiguous quoted table row (see evidence_checks)."
+    },
+    {
+      "source": "src:tel-web-locations",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company page; document_date = access date."
+    },
+    {
+      "source": "src:trumpf-web-euv-drive-laser",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "trumpf.com returns HTTP 403 (Akamai) to a direct fetch even with a declared, honest User-Agent; retrieved the identical page via the Internet Archive Wayback Machine (a legitimate public archive, not a bot-bypass service) using the same declared User-Agent. Page is undated; document_date = access date. Both cited quotes verified verbatim against the archived text, addressing the analyst's flag that these TRUMPF quotes came from an unchecked summarizing tool."
+    },
+    {
+      "source": "src:trumpf-story-ray-of-hope",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Same retrieval method as above (Wayback Machine copy of trumpf.com). Page carries no publish date in the rendered text (only a 2018 photo credit and internal references to 'smartphones that come to market in 2019', suggesting the underlying story dates to c. 2018 even though it remains live, undated, on trumpf.com today); document_date correctly set to access date per the undated-page convention, but see fac:trumpf-ditzingen note on possible staleness of the '500 employees' figure."
+    },
+    {
+      "source": "src:trumpf-pr-asml-supplier-award-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Retrieved via Wayback Machine copy of trumpf.com. Page is dated '24/10/2025' / 'October 24, 2025' in the text, matching document_date 2025-10-24. Both cited quotes verified verbatim."
+    },
+    {
+      "source": "src:screen-spe-web-japan-network",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company page; document_date = access date."
+    },
+    {
+      "source": "src:screen-fy2025-results",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Retrieved full PDF directly from screen.co.jp. Cover page is dated May 13, 2026, matching document_date 2026-05-13. Note: source title/id say 'fy2025-results' but the document itself is SCREEN's FY ended March 31, 2026 results (i.e. the Japanese 'FY2025' fiscal-year label, not calendar 2025) \u2014 internally consistent with the analyst's own document_date, just a potentially confusing source id; no correction needed since it doesn't affect any dated claim."
+    },
+    {
+      "source": "src:advantest-web-japan-offices",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Undated company page; document_date = access date. Page lists 'Gunma Factory' with no address, consistent with the facility record's precision:'region' and the gaps[] entry acknowledging the missing address."
+    },
+    {
+      "source": "src:kla-pr-ann-arbor-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Retrieved directly from ir.kla.com. Page dated November 5, 2021, matching document_date 2021-11-05."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:asml",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:asml",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:asml",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:asml",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote present verbatim except a mid-word space artifact in the source HTML rendering ('cu stomers' for 'customers', a hyphenation/line-wrap artifact in ASML's filed 20-F); text and figures otherwise exact."
+    },
+    {
+      "entity": "co:asml",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:zeiss",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:zeiss",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:applied-materials",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "co:applied-materials",
+      "evidence_index": 1,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "co:applied-materials",
+      "evidence_index": 2,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "co:lam-research",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:lam-research",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:lam-research",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:kla",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:kla",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:teradyne",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:teradyne",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:teradyne",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tokyo-electron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tokyo-electron",
+      "evidence_index": 1,
+      "verdict": "quote_not_found",
+      "notes": "The cited string is not contiguous text in the source. It is assembled from separate data-label numbers scattered across two stacked bar charts (FY2024Q4-FY2025Q3 and FY2025Q4-FY2026Q4 regional sales charts); 'China' is a legend entry and the nine numbers are individual chart labels, not a table row. No single passage in the PDF reads 'China 259.1 277.0 233.9 279.4 224.6 212.1 254.1 175.5 190.7'."
+    },
+    {
+      "entity": "co:ichor",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ichor",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ultra-clean",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "co:ultra-clean",
+      "evidence_index": 1,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "co:formfactor",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:micron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sk-hynix",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:trumpf",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:trumpf",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:screen",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:screen",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:advantest",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-veldhoven",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-veldhoven",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-veldhoven",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-veldhoven",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-wilton",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-wilton",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-wilton",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-wilton",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-san-diego",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-san-diego",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-san-diego",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-san-diego",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-berlin",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-berlin",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-berlin",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-oirschot",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-oirschot",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-linkou",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-linkou",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-tainan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:asml-tainan",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote present verbatim; only the leading bullet glyph is dropped by text extraction, consistent with acceptable table/formatting rendering differences."
+    },
+    {
+      "entity": "fac:asml-pyeongtaek",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:zeiss-oberkochen",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:zeiss-oberkochen",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:zeiss-wetzlar",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:applied-materials-santa-clara",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "fac:applied-materials-santa-clara",
+      "evidence_index": 1,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "fac:applied-materials-austin",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:applied-materials-gloucester",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:applied-materials-singapore",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:applied-materials-singapore",
+      "evidence_index": 1,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "fac:applied-materials-rehovot",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-fremont",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-fremont",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-livermore",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-tualatin",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-sherwood",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-batu-kawan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-batu-kawan",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-batu-kawan",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-villach",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lam-research-yongin",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:kla-milpitas",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:kla-milpitas",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:tokyo-electron-kyushu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:tokyo-electron-kyushu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:tokyo-electron-miyagi",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:tokyo-electron-miyagi",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:tokyo-electron-oshu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:tokyo-electron-oshu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:tokyo-electron-oshu",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:teradyne-cebu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:teradyne-north-reading",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:formfactor-livermore",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:trumpf-ditzingen",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:trumpf-ditzingen",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:screen-hikone",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:screen-taga",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:advantest-gunma",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:kla-ann-arbor",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:kla-ann-arbor",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:zeiss-oberkochen-to-asml-veldhoven",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:zeiss-oberkochen-to-asml-veldhoven",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:zeiss-wetzlar-to-asml-veldhoven",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:asml-san-diego-to-asml-veldhoven",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:asml-san-diego-to-asml-veldhoven",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:asml-wilton-to-asml-veldhoven",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:asml-wilton-to-asml-veldhoven",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:asml-berlin-to-asml-veldhoven",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:asml-berlin-to-asml-veldhoven",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ichor-to-lam-research",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ichor-to-lam-research",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ichor-to-applied-materials",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ichor-to-applied-materials",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ichor-to-asml",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:uct-to-lam-research",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "flow:uct-to-applied-materials",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "flow:uct-to-asml",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "flow:trumpf-to-asml",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:trumpf-to-asml",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:trumpf-to-asml",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-kla-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-kla-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-applied-materials-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-applied-materials-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:samsung-applied-materials-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:samsung-applied-materials-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:micron-lam-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:micron-lam-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:samsung-lam-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:samsung-lam-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:sk-hynix-lam-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:sk-hynix-lam-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-lam-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-lam-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:samsung-tokyo-electron-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:samsung-tokyo-electron-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-tokyo-electron-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tsmc-tokyo-electron-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:sk-hynix-formfactor-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:intel-formfactor-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:lam-ichor-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:lam-ichor-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:applied-materials-ichor-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:applied-materials-ichor-revenue-concentration",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:lam-uct-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    },
+    {
+      "entity": "fin:applied-materials-uct-revenue-concentration",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Could not retrieve this filing's body text this session. Direct fetch from www.sec.gov (declared project User-Agent) returned HTTP 403 on repeated attempts; the Wayback Machine has no usable capture (UCT: capture listed in the CDX index but the page returns 404 on replay; AMAT FY2025: only a 403-capture exists); the issuer's IR site reset the connection. SEC EDGAR submissions API (data.sec.gov) confirms the filing exists with the accession number and filing date cited in sources[], so doc_type/date are treated as OK, but the quoted text is unconfirmed."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:asml",
+      "verdict": "publish",
+      "reasons": "HQ address, sole-EUV-manufacturer claim, China revenue share (29.1%/36.1%), unnamed 4-customer concentration (61.2% FY2025) and TWINSCAN EXE:5200B shipment claim all verified verbatim in the FY2025 20-F. The customer-concentration quote has a mid-word space artifact ('cu stomers') from the filing's own HTML rendering (hyphenation/line-wrap), immaterial to the text."
+    },
+    {
+      "entity": "co:zeiss",
+      "verdict": "publish",
+      "reasons": "Sole-supplier relationship with ASML and the 24.9% ownership stake both verified verbatim in ASML's 20-F, Note 26 (related parties)."
+    },
+    {
+      "entity": "co:applied-materials",
+      "verdict": "publish_flagged",
+      "reasons": "HQ address and existence independently corroborated (verified verbatim in the FY2024 10-K, which states the identical cover-page address and 'Our headquarters are in Santa Clara, California.'), so the company's identity/location is solid. However all three evidence items in this file cite the FY2025 10-K, whose body text could not be retrieved this session (SEC blocked direct fetch; no usable archive or IR copy \u2014 see source_checks). The FY2025-specific China revenue (30%/37%) and customer-concentration (~19%/~15%) figures are therefore unconfirmed pending a re-fetch, not merely stale."
+    },
+    {
+      "entity": "co:lam-research",
+      "verdict": "publish",
+      "reasons": "HQ address, China revenue share (34%/34%/42% FY26/25/24) and customer concentration (16/15/12/12% FY2026) all verified verbatim in the FY2026 10-K."
+    },
+    {
+      "entity": "co:kla",
+      "verdict": "publish",
+      "reasons": "HQ address verified. China revenue quote (30%/33%/43% for FY2026/2025/2024) verified as contiguous in the source aside from a page-break running header ('12 Table of Contents') inserted mid-sentence between 'and' and '2024, respectively' \u2014 exactly as the analyst's locator note describes; the underlying text is genuinely contiguous once the pagination artifact is discounted."
+    },
+    {
+      "entity": "co:teradyne",
+      "verdict": "publish",
+      "reasons": "HQ properties statement, China revenue table row, and five-customer concentration (44/36/32%) all verified verbatim in the FY2025 10-K."
+    },
+    {
+      "entity": "co:tokyo-electron",
+      "verdict": "publish_flagged",
+      "reasons": "HQ address verified verbatim in the Integrated Report 2026. The second evidence item ('China 259.1 277.0 233.9 279.4 224.6 212.1 254.1 175.5 190.7') is not a genuine quote: it is a concatenation of individual data-label numbers read off two separate stacked bar charts (quarterly regional sales, FY2024Q4-FY2026Q4) rather than a contiguous table row in the source PDF. No passage in the FY2026 Q4 presentation reads that way. This does not affect the company's core identity/location claim but the quarterly China-revenue figure itself is unsupported as cited and should be dropped or re-sourced by the analyst; it is not used elsewhere (no financial_link relies on it \u2014 the Samsung/TSMC TEL revenue-concentration links cite the Integrated Report's named customer table instead, which verified cleanly)."
+    },
+    {
+      "entity": "co:ichor",
+      "verdict": "publish",
+      "reasons": "HQ address and business-description quotes both verified verbatim in the FY2025 10-K (retrieved via Wayback Machine after SEC's direct-fetch block)."
+    },
+    {
+      "entity": "co:ultra-clean",
+      "verdict": "publish_flagged",
+      "reasons": "Neither evidence item (HQ address, business description) could be checked this session: the sole cited source, UCT's FY2025 10-K, could not be retrieved through any legitimate channel tried (direct sec.gov fetch 403; the one Wayback capture the CDX index lists returns 404 on replay; UCT's IR site resets the connection). SEC's submissions API confirms the filing itself exists with the cited accession number and filing date, so this is a retrieval gap, not evidence the claims are false \u2014 but nothing here has actually been verified. Recommend a follow-up fetch attempt (a different network path, or the analyst re-supplying a saved copy) before treating Ultra Clean Holdings' page as fully cleared; flagging rather than rejecting because the underlying facts (a real, NASDAQ-listed semiconductor-equipment subsystems supplier headquartered in Hayward, CA) are unlikely to be fabricated, but that is an inference, not a verified claim."
+    },
+    {
+      "entity": "co:formfactor",
+      "verdict": "publish",
+      "reasons": "HQ address (cover page) verified verbatim in the FY2025 10-K."
+    },
+    {
+      "entity": "co:tsmc",
+      "verdict": "publish",
+      "reasons": "This file's sole claim about TSMC is 'existence as KLA customer,' evidenced by KLA's >10%-customer table naming TSMC for FY2024-FY2026 \u2014 verified verbatim. TSMC's own HQ/identity record is authoritatively owned by the fabrication layer file; no location evidence is asserted here."
+    },
+    {
+      "entity": "co:samsung",
+      "verdict": "publish",
+      "reasons": "Sole claim is existence as an Applied Materials >10% customer ('Samsung Electronics Co., Ltd. 12% 15%'), verified verbatim in AMAT's FY2024 10-K."
+    },
+    {
+      "entity": "co:micron",
+      "verdict": "publish",
+      "reasons": "Sole claim is existence as a Lam Research significant customer, verified verbatim in Lam's FY2026 10-K."
+    },
+    {
+      "entity": "co:sk-hynix",
+      "verdict": "publish",
+      "reasons": "Sole claim is existence as a FormFactor >10% customer (22.9%/18.9%), verified verbatim in FormFactor's FY2025 10-K."
+    },
+    {
+      "entity": "co:intel",
+      "verdict": "publish",
+      "reasons": "Sole claim is existence as a FormFactor >10% customer (14.6%/17.1%), verified verbatim in FormFactor's FY2025 10-K."
+    },
+    {
+      "entity": "co:trumpf",
+      "verdict": "publish",
+      "reasons": "Both evidence items verified verbatim against archived copies of trumpf.com (direct fetch is blocked by Akamai even with an honest declared User-Agent, so the Wayback Machine's cached copies were used instead \u2014 the same public archive, not a bypass service). This resolves the analyst's own flag that the TRUMPF quotes came from an unchecked summarizing fetch and could not be diffed: they check out exactly. One page (the 'Ray of hope' story) appears to date from c. 2018 based on internal references, even though it is undated and still live on trumpf.com; the '500+ employees' figure it supports is a lower bound at worst (the EUV unit has plausibly only grown), so this is noted rather than flagged as disqualifying."
+    },
+    {
+      "entity": "co:screen",
+      "verdict": "publish",
+      "reasons": "HQ address verified verbatim. The China/US revenue-trend quote is appropriately conservative (a directional statement, no percentage claimed) and verified verbatim."
+    },
+    {
+      "entity": "co:advantest",
+      "verdict": "publish",
+      "reasons": "HQ address verified verbatim on Advantest's Japan offices page."
+    },
+    {
+      "entity": "fac:asml-veldhoven",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:asml-wilton",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:asml-san-diego",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:asml-berlin",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:asml-oirschot",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:asml-linkou",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:asml-tainan",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:asml-pyeongtaek",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:zeiss-oberkochen",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:zeiss-wetzlar",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in ASML's FY2025 20-F and/or ASML's location pages, cross-checked against full document text."
+    },
+    {
+      "entity": "fac:applied-materials-santa-clara",
+      "verdict": "publish_flagged",
+      "reasons": "'Our headquarters are in Santa Clara, California.' and the cover-page address are both cited to the FY2025 10-K, which could not be retrieved this session (see co:applied-materials). Both sentences are independently verified verbatim in the FY2024 10-K (Tier 1, on file), so existence/location is solid in substance; flagged only because the specific FY2025 citation is unconfirmed."
+    },
+    {
+      "entity": "fac:applied-materials-austin",
+      "verdict": "publish_flagged",
+      "reasons": "Sole evidence is the FY2023 10-K's Item 2 Properties list naming Austin as a manufacturing site. Verified verbatim in that filing. However both the FY2024 and FY2025 10-Ks (FY2024 verified in full; FY2025 unreachable this session but its Item 2 language was previously seen to already have changed in FY2024) list manufacturing only by country ('Singapore, Taiwan and Israel' / 'United States, Singapore, Taiwan and Israel'), dropping city-level detail and dropping Austin from the FY2024 country list entirely for Israel/Taiwan-only phrasing in some years. This specific site claim is up to ~3 years stale and not corroborated by any more recent filing; flagging per the analyst's own gaps[] note."
+    },
+    {
+      "entity": "fac:applied-materials-gloucester",
+      "verdict": "publish_flagged",
+      "reasons": "Sole evidence is the FY2023 10-K's Item 2 Properties list naming Gloucester as a manufacturing site. Verified verbatim in that filing. However both the FY2024 and FY2025 10-Ks (FY2024 verified in full; FY2025 unreachable this session but its Item 2 language was previously seen to already have changed in FY2024) list manufacturing only by country ('Singapore, Taiwan and Israel' / 'United States, Singapore, Taiwan and Israel'), dropping city-level detail and dropping Gloucester from the FY2024 country list entirely for Israel/Taiwan-only phrasing in some years. This specific site claim is up to ~3 years stale and not corroborated by any more recent filing; flagging per the analyst's own gaps[] note."
+    },
+    {
+      "entity": "fac:applied-materials-rehovot",
+      "verdict": "publish_flagged",
+      "reasons": "Sole evidence is the FY2023 10-K's Item 2 Properties list naming Rehovot as a manufacturing site. Verified verbatim in that filing. However both the FY2024 and FY2025 10-Ks (FY2024 verified in full; FY2025 unreachable this session but its Item 2 language was previously seen to already have changed in FY2024) list manufacturing only by country ('Singapore, Taiwan and Israel' / 'United States, Singapore, Taiwan and Israel'), dropping city-level detail and dropping Rehovot from the FY2024 country list entirely for Israel/Taiwan-only phrasing in some years. This specific site claim is up to ~3 years stale and not corroborated by any more recent filing; flagging per the analyst's own gaps[] note."
+    },
+    {
+      "entity": "fac:applied-materials-singapore",
+      "verdict": "publish_flagged",
+      "reasons": "Existence/location verified verbatim in the FY2023 10-K, and Singapore is still listed among manufacturing countries in the FY2024 10-K (verified: 'manufactured primarily in the United States, Singapore, Israel and Taiwan'), so this is materially more current than the Austin/Gloucester/Rehovot facilities. The second evidence item citing the FY2025 10-K could not be confirmed (source unreachable this session). Flagged for the same staleness family as the other AMAT site-level facilities, though less severely."
+    },
+    {
+      "entity": "fac:lam-research-fremont",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:lam-research-livermore",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:lam-research-tualatin",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:lam-research-sherwood",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:lam-research-batu-kawan",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:lam-research-villach",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:lam-research-yongin",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:kla-milpitas",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Lam Research's/KLA's FY2026 10-K and, where applicable, Lam's Malaysia careers page."
+    },
+    {
+      "entity": "fac:tokyo-electron-kyushu",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Tokyo Electron's Integrated Report 2026 and locations page. Note: an initial layout-preserving PDF text extraction (pdftotext -layout) scrambled reading order across this report's two-column pages and produced false near-misses; re-extracting in normal reading order confirmed every quote is genuinely contiguous in the source."
+    },
+    {
+      "entity": "fac:tokyo-electron-miyagi",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Tokyo Electron's Integrated Report 2026 and locations page. Note: an initial layout-preserving PDF text extraction (pdftotext -layout) scrambled reading order across this report's two-column pages and produced false near-misses; re-extracting in normal reading order confirmed every quote is genuinely contiguous in the source."
+    },
+    {
+      "entity": "fac:tokyo-electron-oshu",
+      "verdict": "publish",
+      "reasons": "All cited evidence verified verbatim in Tokyo Electron's Integrated Report 2026 and locations page. Note: an initial layout-preserving PDF text extraction (pdftotext -layout) scrambled reading order across this report's two-column pages and produced false near-misses; re-extracting in normal reading order confirmed every quote is genuinely contiguous in the source."
+    },
+    {
+      "entity": "fac:teradyne-cebu",
+      "verdict": "publish",
+      "reasons": "Cebu facility purchase verified verbatim in the FY2025 10-K, Item 2 Properties."
+    },
+    {
+      "entity": "fac:teradyne-north-reading",
+      "verdict": "publish",
+      "reasons": "HQ properties statement verified verbatim in the FY2025 10-K."
+    },
+    {
+      "entity": "fac:formfactor-livermore",
+      "verdict": "publish",
+      "reasons": "Cover-page address verified verbatim in the FY2025 10-K."
+    },
+    {
+      "entity": "fac:trumpf-ditzingen",
+      "verdict": "publish",
+      "reasons": "Both evidence items verified verbatim against archived trumpf.com pages (see co:trumpf). The 'over 500 employees' figure comes from an undated story that appears to date to c. 2018 based on internal context; treated as a plausible lower bound rather than a stale/wrong figure, consistent with the allowance for undated company pages using access date."
+    },
+    {
+      "entity": "fac:screen-hikone",
+      "verdict": "publish",
+      "reasons": "Address verified verbatim on SCREEN's Japan network page."
+    },
+    {
+      "entity": "fac:screen-taga",
+      "verdict": "publish",
+      "reasons": "Address verified verbatim on SCREEN's Japan network page."
+    },
+    {
+      "entity": "fac:advantest-gunma",
+      "verdict": "publish",
+      "reasons": "Existence verified verbatim ('Gunma Factory') on Advantest's Japan offices page; the record correctly uses precision:'region' rather than claiming a site address, since none is published. Consistent with the analyst's own gaps[] entry."
+    },
+    {
+      "entity": "fac:kla-ann-arbor",
+      "verdict": "publish",
+      "reasons": "Both evidence items verified verbatim in KLA's November 2021 press release."
+    },
+    {
+      "entity": "flow:zeiss-oberkochen-to-asml-veldhoven",
+      "verdict": "publish_flagged",
+      "reasons": "Evidence verifies Zeiss as ASML's sole optics supplier (relationship documented) but neither cited quote names Veldhoven as the destination \u2014 the flow's own description even says 'the Veldhoven destination follows from Veldhoven being ASML's system assembly site,' i.e. it is inferred, not documented, the same pattern the analyst correctly labeled 'inferred' for the San Diego/Wilton/Berlin-to-Veldhoven flows. Corrected basis to 'inferred' with an inference_note; publish_flagged accordingly.",
+      "corrections": {
+        "basis": "inferred",
+        "inference_note": "ASML's 20-F documents Carl Zeiss SMT as ASML's sole optics supplier, manufacturing exclusively in Oberkochen and Wetzlar, and separately documents that all of ASML's manufacturing, including final assembly, takes place at Veldhoven (among other sites). That optics from this specific Zeiss site are shipped specifically to Veldhoven (rather than, e.g., Berlin or another ASML site) is not itself stated in the cited evidence and is deduced, exactly as the sibling flows from San Diego/Wilton/Berlin to Veldhoven are already labeled."
+      }
+    },
+    {
+      "entity": "flow:zeiss-wetzlar-to-asml-veldhoven",
+      "verdict": "publish_flagged",
+      "reasons": "Same issue as flow:zeiss-oberkochen-to-asml-veldhoven: the cited quote documents the Zeiss-ASML supply relationship and Wetzlar as a production site, but not that output ships specifically to Veldhoven. Corrected basis to 'inferred' with an inference_note.",
+      "corrections": {
+        "basis": "inferred",
+        "inference_note": "ASML's 20-F documents Carl Zeiss SMT as ASML's sole optics supplier, manufacturing exclusively in Oberkochen and Wetzlar, and separately documents that all of ASML's manufacturing, including final assembly, takes place at Veldhoven (among other sites). That optics from this specific Zeiss site are shipped specifically to Veldhoven (rather than, e.g., Berlin or another ASML site) is not itself stated in the cited evidence and is deduced, exactly as the sibling flows from San Diego/Wilton/Berlin to Veldhoven are already labeled."
+      }
+    },
+    {
+      "entity": "flow:asml-san-diego-to-asml-veldhoven",
+      "verdict": "publish_flagged",
+      "reasons": "Correctly labeled 'inferred' by the analyst already, with a sound inference_note; both evidence items verified verbatim. Flagged per the documented-vs-inferred convention (dashed rendering), not because anything is wrong."
+    },
+    {
+      "entity": "flow:asml-wilton-to-asml-veldhoven",
+      "verdict": "publish_flagged",
+      "reasons": "Correctly labeled 'inferred' by the analyst already, with a sound inference_note; both evidence items verified verbatim. Flagged per the documented-vs-inferred convention (dashed rendering), not because anything is wrong."
+    },
+    {
+      "entity": "flow:asml-berlin-to-asml-veldhoven",
+      "verdict": "publish_flagged",
+      "reasons": "Correctly labeled 'inferred' by the analyst already, with a sound inference_note; both evidence items verified verbatim. Flagged per the documented-vs-inferred convention (dashed rendering), not because anything is wrong."
+    },
+    {
+      "entity": "flow:ichor-to-lam-research",
+      "verdict": "publish",
+      "reasons": "Both parties and the relationship verified verbatim in Ichor's FY2025 10-K ('two customers with individual sales over 10%, Lam Research and Applied Materials')."
+    },
+    {
+      "entity": "flow:ichor-to-applied-materials",
+      "verdict": "publish",
+      "reasons": "Same evidence as flow:ichor-to-lam-research; both parties and relationship verified verbatim."
+    },
+    {
+      "entity": "flow:ichor-to-asml",
+      "verdict": "publish",
+      "reasons": "'ASML did not represent 10% or more of sales in 2025 and 2024' verified verbatim in Ichor's FY2025 10-K, Note 10 (with the FY2023 ASML figure in the referenced table); correctly documented (both parties named) and correctly caveated as a below-threshold/declining relationship."
+    },
+    {
+      "entity": "flow:uct-to-lam-research",
+      "verdict": "publish_flagged",
+      "reasons": "Sole evidence cites UCT's FY2025 10-K, which could not be retrieved this session (see co:ultra-clean / source_checks). Relationship unconfirmed pending re-fetch."
+    },
+    {
+      "entity": "flow:uct-to-applied-materials",
+      "verdict": "publish_flagged",
+      "reasons": "Same as flow:uct-to-lam-research: sole source unreachable this session."
+    },
+    {
+      "entity": "flow:uct-to-asml",
+      "verdict": "publish_flagged",
+      "reasons": "Same as flow:uct-to-lam-research: sole source unreachable this session."
+    },
+    {
+      "entity": "flow:trumpf-to-asml",
+      "verdict": "publish",
+      "reasons": "All three evidence items verified verbatim against archived trumpf.com pages; both parties (TRUMPF, ASML) documented directly. Destination facility correctly left as a to_hint rather than asserted as documented, since the receiving ASML site is not stated in the source."
+    },
+    {
+      "entity": "fin:tsmc-kla-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "TSMC is named in KLA's FY2026 10-K major-customer table for FY2024-FY2026, verified verbatim ('more than 10%...' lead-in plus 'Taiwan Semiconductor Manufacturing Company Limited' in the table). Description correctly does not attribute an unstated percentage."
+    },
+    {
+      "entity": "fin:tsmc-applied-materials-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'Taiwan Semiconductor Manufacturing Company Limited 11% 19%' verified verbatim in AMAT's FY2024 10-K (a reachable source, unlike the FY2025 filing used elsewhere in this file). Amount (11% FY2024, 19% FY2023 in note) matches the filing exactly."
+    },
+    {
+      "entity": "fin:samsung-applied-materials-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'Samsung Electronics Co., Ltd. 12% 15%' verified verbatim in AMAT's FY2024 10-K. Amount (12% FY2024, 15% FY2023 in note) matches exactly."
+    },
+    {
+      "entity": "fin:micron-lam-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "Micron is named among Lam's 'most significant customers' FY2024-FY2026, verified verbatim. The FY2026 four-customer concentration figure (16/15/12/12%) is real and verified but, correctly, the description does not attribute a specific percentage to Micron since the filing itself does not do so."
+    },
+    {
+      "entity": "fin:samsung-lam-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "Samsung is named among Lam's 'most significant customers' FY2024-FY2026, verified verbatim. The FY2026 four-customer concentration figure (16/15/12/12%) is real and verified but, correctly, the description does not attribute a specific percentage to Samsung since the filing itself does not do so."
+    },
+    {
+      "entity": "fin:sk-hynix-lam-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "SK hynix is named among Lam's 'most significant customers' FY2024-FY2026, verified verbatim. The FY2026 four-customer concentration figure (16/15/12/12%) is real and verified but, correctly, the description does not attribute a specific percentage to SK hynix since the filing itself does not do so."
+    },
+    {
+      "entity": "fin:tsmc-lam-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "TSMC is named among Lam's 'most significant customers' FY2024-FY2026, verified verbatim. The FY2026 four-customer concentration figure (16/15/12/12%) is real and verified but, correctly, the description does not attribute a specific percentage to TSMC since the filing itself does not do so."
+    },
+    {
+      "entity": "fin:samsung-tokyo-electron-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'Samsung Electronics Co., Ltd. 368,079 15.1' verified verbatim in TEL's Integrated Report 2026 major-customers table. Amount (\u00a5368,079M, 15.1%, FY2026) matches exactly."
+    },
+    {
+      "entity": "fin:tsmc-tokyo-electron-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'Taiwan Semiconductor Manufacturing Company, Ltd. 315,813 12.9' verified verbatim in TEL's Integrated Report 2026. Amount (\u00a5315,813M, 12.9%, FY2026) matches exactly."
+    },
+    {
+      "entity": "fin:sk-hynix-formfactor-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'SK hynix Inc. 22.9 % 18.9 % *' verified verbatim in FormFactor's FY2025 10-K. Amount (22.9% FY2025, 18.9% FY2024 in note) matches exactly."
+    },
+    {
+      "entity": "fin:intel-formfactor-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'Intel Corporation * 14.6 % 17.1 %' verified verbatim in FormFactor's FY2025 10-K. Amount (14.6% FY2024, 17.1% FY2023 in note) matches exactly; the '*' correctly signals Intel fell below the reporting threshold in FY2025."
+    },
+    {
+      "entity": "fin:lam-ichor-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'Lam Research $ 351,418 $ 319,099 $ 286,836' verified verbatim in Ichor's FY2025 10-K, Note 10. Amount ($351,418,000, FY2025) matches exactly."
+    },
+    {
+      "entity": "fin:applied-materials-ichor-revenue-concentration",
+      "verdict": "publish",
+      "reasons": "'Applied Materials $ 371,697 $ 300,263 $ 295,082' verified verbatim in Ichor's FY2025 10-K, Note 10. Amount ($371,697,000, FY2025) matches exactly."
+    },
+    {
+      "entity": "fin:lam-uct-revenue-concentration",
+      "verdict": "publish_flagged",
+      "reasons": "Sole source (UCT FY2025 10-K) unreachable this session (see co:ultra-clean / source_checks). Percentage claim (37.0%/31.9%/34.0%) unconfirmed."
+    },
+    {
+      "entity": "fin:applied-materials-uct-revenue-concentration",
+      "verdict": "publish_flagged",
+      "reasons": "Sole source (UCT FY2025 10-K) unreachable this session. Percentage claim (21.7%/22.6%/23.4%) unconfirmed."
+    }
+  ],
+  "summary": "Verified all 25 sources and all 142 evidence items in data/research/equipment.json against fetched primary documents (SEC 10-Ks/20-F retrieved via direct sec.gov fetch and, where SEC's automated-tool filter blocked that, via Wayback Machine copies of sec.gov obtained with the same declared, non-impersonating User-Agent; company web/PDF sources fetched directly). Entity verdicts: 61 publish, 18 publish_flagged, 0 reject (of 79 entities: 18 companies, 34 facilities, 12 flows, 15 financial_links; no controls in this layer). Evidence verdicts: 128 verified, 13 unreachable, 1 quote_not_found, 0 verified_with_correction (of 142 total). TRUMPF (the analyst's top concern): all 3 sources and all 5 evidence items check out exactly once fetched from the Wayback Machine's archived copies of trumpf.com (trumpf.com itself returns HTTP 403 to any automated fetch, honest User-Agent or not); the earlier concern about an unchecked summarizing tool is resolved. KLA's China-revenue quote, cut at a page break ('...2025 and'), is confirmed contiguous in the source once the inserted running header ('12 Table of Contents') is discounted \u2014 acceptable per instructions. Table-row quotes (AMAT/Teradyne/FormFactor/Ichor/TEL geographic and customer tables) all matched after normalizing whitespace/hyphenation artifacts introduced by HTML/PDF-to-text conversion, never by changing the substance of a quote. Two real problems found beyond the analyst's own flags: (1) flow:zeiss-oberkochen-to-asml-veldhoven and flow:zeiss-wetzlar-to-asml-veldhoven were labeled 'documented' but the evidence only documents the Zeiss-ASML supply relationship, not that output ships specifically to the Veldhoven facility (which is deduced, exactly like the sibling San Diego/Wilton/Berlin-to-Veldhoven flows the analyst correctly labeled 'inferred') \u2014 corrected basis to 'inferred' with an inference_note and set to publish_flagged. (2) co:tokyo-electron's quarterly China-revenue evidence ('China 259.1 277.0 233.9...') is not a real quote: it concatenates individual data-label numbers read off two separate bar charts rather than quoting a table row; marked quote_not_found and the company flagged (existence/HQ is otherwise solid and this figure isn't relied on by any financial_link). Systemic gap: two sources \u2014 Applied Materials' FY2025 10-K and Ultra Clean Holdings' FY2025 10-K \u2014 could not be retrieved this session despite direct sec.gov attempts (declared User-Agent), Wayback Machine lookups, and IR-site attempts; SEC's data.sec.gov submissions API confirms both filings exist with the cited accession numbers/dates, but body text is unconfirmed. This leaves co:applied-materials' FY2025-specific China-revenue/customer-concentration figures, and essentially all of co:ultra-clean and its two flows (UCT->Lam, UCT->AMAT) and one flow (UCT->ASML) plus two financial_links (Lam->UCT, AMAT->UCT) unverified and flagged pending re-fetch \u2014 recommend a follow-up counsel pass once SEC access is available, or the analyst supplying a saved copy of these two filings. AMAT's HQ/existence is independently corroborated via the (reachable) FY2024 10-K, so only the FY2025-specific percentages are actually in doubt for that company. Applied Materials' Austin/Gloucester/Rehovot (and, less severely, Singapore) site-level facilities are sourced only to the FY2023 10-K; FY2024/FY2025 10-Ks list manufacturing by country only and no longer name these cities \u2014 flagged as stale per the analyst's own gap note, not rejected, since nothing contradicts them. Revenue-concentration financial_links were checked individually for exact percentage/fiscal-year match and for whether the description names a customer the filing itself leaves unnamed: all 15 check out \u2014 the four Lam Research customer-concentration links (Micron/Samsung/SK hynix/TSMC) correctly avoid attributing Lam's unattributed 16/15/12/12% figures to any specific named customer, and every other link's named customer and percentage/amount matches its filing exactly. No controls in this layer (controls[] is empty in the research file) and no Tier 3/news sources were used anywhere, so no insufficient_tier findings. Rejected ids: none \u2014 every problem found could be fixed with a correction, a flag, or was a genuine retrieval gap rather than a false or unsupported claim."
+}
