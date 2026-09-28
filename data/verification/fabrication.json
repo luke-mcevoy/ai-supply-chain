@@ -1,0 +1,412 @@
+{
+  "layer": "fabrication",
+  "verifier": "counsel (Claude)",
+  "verified_at": "2026-09-28T00:00:00Z",
+  "source_checks": [
+    {
+      "source": "src:tsmc-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Confirmed real EDGAR filing (CIK 1046179, accession 0001628280-26-025362, filed 2026-04-16, primary doc tsm-20251231.htm) via data.sec.gov submissions JSON and direct download (curl with descriptive UA + browser-like Accept headers bypassed SEC's bot block; plain UA got 403 'Undeclared Automated Tool'). All quoted passages verified verbatim in the downloaded text, including the full fab table."
+    },
+    {
+      "source": "src:tsmc-gigafab-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page fetched directly (not via r.jina.ai); quotes about six GIGAFABs and the Taichung 1.4nm fab/Chiayi-Tainan packaging expansion match verbatim."
+    },
+    {
+      "source": "src:tsmc-pr-2025-supply-chain-forum",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page fetched directly; full award-winner list and every per-company award line quoted in the research file match verbatim, including exact award categories."
+    },
+    {
+      "source": "src:nist-chips-tsmc-arizona",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Live NIST page fetched directly; Key Facts, process-technology description, and Facility Summary table (Fab1/2/3 timelines and nodes) match verbatim. Page content is unchanged from the Dec 2024 award and is also independently corroborated by TSMC's own FY2025 20-F (filed 2026-04-16), which is more current."
+    },
+    {
+      "source": "src:nist-chips-samsung-taylor",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Live NIST page fetched directly; funding amount, facility description and 'Project Timeline: All facilities are expected to be operational by 2030' quote confirmed verbatim. This remains the only Tier 1/2 source with line-item detail on Taylor's current construction status; no more recent Tier 1/2 update was found (see fac:samsung-taylor verdict)."
+    },
+    {
+      "source": "src:nist-chips-gf-malta",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Live NIST page fetched directly; Malta 300mm fab description quoted verbatim."
+    },
+    {
+      "source": "src:asml-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Confirmed real EDGAR filing (CIK 937966, accession 0001628280-26-011378, filed 2026-02-25) via curl with browser-like headers (plain descriptive UA alone was blocked by SEC with 403; adding Accept/Accept-Language/Connection headers succeeded). All three quoted passages (sole EUV manufacturer, TSMC award, EUV critical-layers description) verified verbatim."
+    },
+    {
+      "source": "src:kla-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Confirmed real EDGAR filing (CIK 319201, accession 0000319201-26-000027). Customer table confirms Taiwan Semiconductor Manufacturing Company Limited listed for FY2024, FY2025 and FY2026."
+    },
+    {
+      "source": "src:lam-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Confirmed real EDGAR filing (CIK 707549, accession 0000707549-26-000037). Both quoted passages verified verbatim, including the exact customer list (Micron, Samsung, SK hynix, TSMC)."
+    },
+    {
+      "source": "src:intel-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Confirmed real EDGAR filing (CIK 50863, accession 0000050863-26-000011). All nine quoted passages verified verbatim, including exact revenue-concentration percentages."
+    },
+    {
+      "source": "src:gfs-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Confirmed real EDGAR filing (CIK 1709048, accession 0001709048-26-000022). All seven quoted passages verified verbatim, including exact SOI wafer spend and customer-concentration percentages."
+    },
+    {
+      "source": "src:smic-ar-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly from HKEXnews; confirmed this is SMIC's 2025 annual report. Entity List quote and 8.0%/35.8% customer-concentration quote verified verbatim."
+    },
+    {
+      "source": "src:smic-fab-info",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page fetched directly; Shanghai and Beijing fab address strings match verbatim."
+    },
+    {
+      "source": "src:smic-company-info",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page fetched directly; '8-inch and 12-inch wafer fabrication facilities in Shanghai, Beijing, Tianjin and Shenzhen' quote matches verbatim."
+    },
+    {
+      "source": "src:fr-85-83416",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Federal Register page reachable after using a full browser User-Agent (bare descriptive UA triggered a redirect/unblock interstitial). 'Presumption of Denial' quote and the ten-related-entities quote (including the Beijing entity) both verified verbatim, citation 85 FR 83416 confirmed."
+    },
+    {
+      "source": "src:tsmc-ar-2025-ch1",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "PDF retrieved (TSMC's investor-relations site is behind a Cloudflare JS challenge that blocks curl entirely; the fetch tool's browser-rendering path succeeded and the binary PDF was recovered and run through pdftotext). Both quoted passages (multiple 2nm phases in Hsinchu/Kaohsiung; A14 2028) verified verbatim. This is TSMC's statutory annual report chapter (Taiwan requires public companies to file annual reports), consistent with the analyst's foreign_annual_report/tier-1 classification."
+    },
+    {
+      "source": "src:tsmc-ar-2025-ch5",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Same retrieval method as ch1. EUV scanner R&D quote ('continuously improving the application efficiency of EUV scanners, reducing overlay errors, mitigating material defects...') verified verbatim."
+    },
+    {
+      "source": "src:samsung-business-report-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "PDF downloaded directly (10.5MB, 358 pages). Cover page confirms 'SAMSUNG ELECTRONICS Co., Ltd. 2025 Business Report For the year ended December 31, 2025' -- a genuine annual statutory report despite the source URL filename ('2025_4Q_Interim_Report.pdf'), so doc_type_ok as foreign_annual_report. All quoted passages (Korea site list, DS Division supplier sentence, wafer/chemical supplier tables, major-customer list and 15% figure) verified verbatim."
+    },
+    {
+      "source": "src:samsung-news-pyeongtaek-2020",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page fetched directly (Samsung Newsroom is a JS SPA; a browser-like curl UA retrieved full server-rendered article text). Dateline confirms 'Korea on May 21, 2020'. Both quoted passages verified verbatim. NOTE: this source's own text states the line was 'expected to be in full operation in the second half of 2021' -- it describes a construction snapshot from 2020, not a 2026 status (see fac:samsung-pyeongtaek-foundry verdict)."
+    },
+    {
+      "source": "src:samsung-news-v1-2020",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Live page fetched directly. Dateline confirms 'Korea on February 20, 2020'. All three quoted passages verified verbatim."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:globalfoundries",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:smic",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:smic",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:asml",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:applied-materials",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:lam-research",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:kla",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:shin-etsu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sumco",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:jsr",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:screen",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:canon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:merck-kgaa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:resonac",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:kokusai-electric",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ebara",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:soitec",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:siltronic",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sk-siltron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:soulbrain",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:dongwoo-fine-chem",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:tsmc",
+      "verdict": "publish",
+      "reasons": "20-F quote on 2nm volume production in 2025 verified verbatim; HQ/existence not in dispute."
+    },
+    {
+      "entity": "co:intel",
+      "verdict": "publish",
+      "reasons": "10-K key-production-fabs quote verified verbatim."
+    },
+    {
+      "entity": "co:globalfoundries",
+      "verdict": "publish",
+      "reasons": "20-F HQ address quote verified verbatim."
+    },
+    {
+      "entity": "co:samsung",
+      "verdict": "publish",
+      "reasons": "NIST Taylor award quote and business-report Korea-sites quote both verified verbatim."
+    },
+    {
+      "entity": "co:smic",
+      "verdict": "publish",
+      "reasons": "Entity List quote and fab-locations quote both verified verbatim."
+    },
+    {
+      "entity": "co:asml",
+      "verdict": "publish",
+      "reasons": "20-F 'world's only manufacturer of EUV lithography systems' quote verified verbatim (curly apostrophe; confirmed by direct grep of the downloaded filing after EDGAR full-text search mis-tokenized the apostrophe)."
+    },
+    {
+      "entity": "co:applied-materials",
+      "verdict": "publish",
+      "reasons": "TSMC supplier-award quote verified verbatim against the live press release."
+    },
+    {
+      "entity": "co:lam-research",
+      "verdict": "publish",
+      "reasons": "10-K 'world's leading semiconductor manufacturers' quote verified verbatim."
+    },
+    {
+      "entity": "co:kla",
+      "verdict": "publish",
+      "reasons": "10-K customer->10%-of-revenue quote verified verbatim; table confirms TSMC named for FY2024-FY2026."
+    },
+    {
+      "entity": "co:shin-etsu",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:sumco",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:jsr",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:screen",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:canon",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:merck-kgaa",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:resonac",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:kokusai-electric",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:ebara",
+      "verdict": "publish",
+      "reasons": "TSMC award quote verified verbatim."
+    },
+    {
+      "entity": "co:soitec",
+      "verdict": "publish",
+      "reasons": "GFS 20-F '71% of our SOI wafer spend' quote verified verbatim."
+    },
+    {
+      "entity": "co:siltronic",
+      "verdict": "publish",
+      "reasons": "Samsung business-report DS Division key-materials sentence verified verbatim."
+    },
+    {
+      "entity": "co:sk-siltron",
+      "verdict": "publish",
+      "reasons": "Samsung business-report wafer-supplier table row verified verbatim."
+    },
+    {
+      "entity": "co:soulbrain",
+      "verdict": "publish",
+      "reasons": "Samsung business-report DS Division key-materials sentence verified verbatim."
+    },
+    {
+      "entity": "co:dongwoo-fine-chem",
+      "verdict": "publish",
+      "reasons": "Samsung business-report chemical-supplier table row verified verbatim."
+    }
+  ],
+  "summary": "IN PROGRESS - companies checked only, facilities/flows/financial_links pending."
+}

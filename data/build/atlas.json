@@ -1,12 +1,12 @@
 {
- "built_at": "2026-09-28T02:53:39.073Z",
+ "built_at": "2026-09-28T11:18:59.260Z",
  "draft": true,
  "stats": {
   "layers": {
-   "datacenter": "58 published (DRAFT)",
+   "datacenter": "57 published (verified)",
    "design": "64 published (verified)",
    "equipment": "61 published (DRAFT)",
-   "fabrication": "57 published (DRAFT)",
+   "fabrication": "0 published (verified)",
    "finance": "73 published (DRAFT)",
    "materials": "41 published (DRAFT)",
    "memory_packaging": "47 published (DRAFT)",
@@ -15,15 +15,15 @@
    "systems": "41 published (DRAFT)",
    "wafers_chemicals": "48 published (DRAFT)"
   },
-  "withheld": 0,
-  "droppedEvidence": 0,
+  "withheld": 58,
+  "droppedEvidence": 1,
   "unresolvedFlows": 1,
   "counts": {
    "sources": 386,
    "companies": 140,
-   "facilities": 234,
-   "flows": 178,
-   "financial_links": 154,
+   "facilities": 210,
+   "flows": 150,
+   "financial_links": 149,
    "controls": 55,
    "gaps": 113
   }
@@ -9028,13 +9028,14 @@
     "note": "Total planned power capacity across eight buildings (phase 1: two buildings, 200+ MW). Phase 2 expected mid-2026 per March 2025 release; current completion of phase 2 not confirmed in a Tier 1/2 source."
    },
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and status all confirmed by Tier 1 (Blue Owl 10-K exhibit) and Tier 2 (Crusoe, SoftBank, Oracle) sources fetched and verified verbatim. 'Operational' status is well supported: the Blue Owl exhibit states the buildings were 'substantially completed and delivered to the tenant' in 2025, and SoftBank's Sept 2025 release calls it 'already up and running.'",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
   {
    "id": "fac:vantage-frontier-shackelford",
-   "name": "Vantage Frontier campus, Shackelford County (Stargate site developed with Oracle)",
+   "name": "Vantage Frontier campus, Shackelford County, TX (Vantage-developed 1.4GW campus; identification as the Oracle/OpenAI Stargate Shackelford County site is an inference -- no fetched source names the tenant)",
    "operator": "co:vantage-data-centers",
    "layer": "datacenter",
    "kind": "ai_datacenter_campus",
@@ -9061,12 +9062,6 @@
      "quote": "Construction on the campus has already begun, with the first building scheduled for delivery in the second half of 2026.",
      "locator": "Paragraph 2",
      "supports": "status"
-    },
-    {
-     "source": "src:softbank-five-stargate-sites-2025-09-24",
-     "quote": "The three new sites – located in Shackelford County, Texas; Doña Ana County, New Mexico; and a site in the Midwest, which we expect to announce soon; combined with an additional potential expansion of 600 megawatts near the flagship Stargate site in Abilene, Texas – can deliver over 5.5 gigawatts of capacity.",
-     "locator": "Paragraph 2",
-     "supports": "Stargate site in Shackelford County (Oracle-developed)"
     }
    ],
    "capacity": {
@@ -9084,7 +9079,8 @@
     "note": "Vantage: >$25B investment, 1,200 acres, 10 data centers. That the Oracle/OpenAI Stargate Shackelford County site is the Frontier campus is inferred (Vantage is the documented developer of a Shackelford County campus; no fetched Tier 1/2 document names Oracle/OpenAI as Frontier tenant)."
    },
    "start_year": 2026,
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence, location, $25B+ investment, and 1.4GW capacity are solidly documented by Vantage's own Tier 2 release (confirmed verbatim by direct fetch). But the facility's identification as 'the' Oracle/OpenAI Stargate site in Shackelford County is an inference, not a documented fact: Vantage's own release never mentions Oracle, OpenAI, or Stargate anywhere in its text (confirmed by direct fetch), and the SoftBank release that does confirm a Shackelford County Stargate site never names Vantage or Frontier. The inference (single major Vantage campus in the county + a confirmed Oracle Stargate site in that county) is reasonable, and the capacity.note already discloses it honestly, but the facility *name* asserts the identification as settled fact. Corrected the name to make the inference explicit rather than asserted.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9146,7 +9142,8 @@
     "note": "Investment amount (not power). Minimum initial investment $50B; up to $165B over 30 years per county. Power capacity not found in a fetched Tier 1/2 source."
    },
    "start_year": 2028,
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence, location, and investment figures are documented by a Tier 1 county government page and a Tier 2 SoftBank release, both confirmed verbatim (re-fetched 2026-09-27/28). Status 'planned' is appropriately conservative and does not overstate. Flag for currency: multiple news outlets (Forbes, ABQ Journal, KRWG, Energy News Beat -- all Tier 3) reported on 2026-09-24 that Oracle sent a force-majeure notice to developer STACK Infrastructure over a delayed gas-pipeline permit, expecting roughly a one-year delay. I checked SEC EDGAR full-text search for any Oracle or STACK/Blue Owl 8-K referencing 'Project Jupiter' + 'force majeure' (none found as of 2026-09-28) and re-fetched the Doña Ana County page directly (no update, no mention of the notice). No Tier 1/2 primary document yet confirms or quantifies this development, so no correction is made to status or timeline -- doing so on Tier 3 alone would violate the evidence standard. The analyst's gaps[] entry ('Project Jupiter force majeure / current status') is honest and should remain; the site's future should be treated as materially uncertain by any downstream reader.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9163,7 +9160,7 @@
     "address": "Port Washington, Ozaukee County, WI"
    },
    "country": "US",
-   "status": "announced",
+   "status": "under_construction",
    "products": [
     "AI data center capacity for Oracle/OpenAI"
    ],
@@ -9202,7 +9199,8 @@
     "note": "'Close to a gigawatt'. Status as of Oct 2025 announcement; current construction status not confirmed in a fetched Tier 1/2 source."
    },
    "start_year": 2028,
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence, tenant (OpenAI/Oracle), investment ($15B+), and 'close to a gigawatt' capacity are confirmed verbatim from Vantage's own Tier 2 release. Status is corrected: the Oct 2025 release said only 'construction will begin soon,' which the research file recorded as status='announced'. I found that construction has since begun -- the City of Port Washington's official project information site (portdatacenter.com, a municipal government page, i.e. Tier 1 gov_press_release-equivalent) states 'construction began in December 2025,' and Vantage's own blog has since posted community-investment and hiring/career-expo updates (March 2026 onward) consistent with active construction. This source was found during verification and is not part of the research file's sources[]; flagging rather than a plain 'publish' because the correcting citation sits outside the file's normal source_checks pipeline and should be added to sources[] on the next research pass.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9263,7 +9261,8 @@
     ],
     "note": "'1+ gigawatt'; 250-acre site."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, tenant (Oracle, exclusively), and status all confirmed verbatim from Related Digital's and Oracle's own Tier 2 releases, both fetched directly. The June 2026 Oracle release independently confirms construction is underway, consistent with status='under_construction'.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9292,7 +9291,8 @@
      "supports": "existence, location, status (as of 2025-09)"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "The single evidence item (SoftBank's Sept 2025 release: 'SoftBank has broken ground... on track to be operational next year') is verbatim-confirmed and, read alone, supports status='under_construction'. Material flag: this is now a 12+ month-old Tier 2 source, and subsequent Tier 3 reporting (DataCenterDynamics: 'Data centers now banned in Lordstown, Ohio'; Spectrum News 1; Business Journal Daily) describes a Village Council permitting moratorium enacted Jan 2026 and later reports that SoftBank/Foxconn pivoted the site toward manufacturing modular data-center components rather than operating a data center on-site, with litigation over the ban pending before the Ohio Supreme Court. I could not find any Tier 1/2 document (a village ordinance text, a court filing, or a SoftBank statement) that would let me confidently correct the status field one way or the other, so per the 'unknown is an answer' rule I am not changing status on Tier 3 sourcing alone. The analyst's own gaps[] entry ('Lordstown, Ohio status') is honest and appropriate. Flagging this entity so the UI shows a visible caveat: the current 'under_construction' status is stale and contested, and the site's continued use as a data center is now in doubt.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9354,7 +9354,8 @@
     "note": "1.2 GW per SB Energy Jan 2026 release. SB Energy S-1/A portfolio table lists Milam County 1 (308 MW-IT) and Milam County 2 (445 MW-IT), last RFS 2028."
    },
    "start_year": 2028,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, tenant (OpenAI), and status ('under construction') all confirmed verbatim against the SB Energy S-1/A (fetched via r.jina.ai reader after direct SEC fetch was blocked) and SB Energy's own Tier 2 release. S-1/A table confirms Building 1 = 308 MW-IT, Building 2 = 445 MW-IT, both with 2028 RFS dates, consistent with the capacity note.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9410,7 +9411,8 @@
     "note": "Critical IT capacity contracted; S-1/A, not yet effective as of filing date."
    },
    "start_year": 2028,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, tenant (OpenAI), and the specific figures the analyst was asked to double-check -- '17 leases' signed 2026-08-17 and '8.0 GW-IT' of contracted capacity -- are all confirmed verbatim against the SB Energy S-1/A. Status='planned' is directly supported: the S-1/A states 'No data center capacity is currently in operation' and that, as of the prospectus date, PORTS-Pike has an executed lease but 'is not yet under construction.'",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9467,7 +9469,8 @@
     "note": "Grid electric service from MLGW/TVA as of May 2025, with a request for 300 MW total. S-1/A: first cluster ~130 MW compute; COLOSSUS and COLOSSUS II together ~1.0 GW of compute power."
    },
    "start_year": 2024,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and the ~100,000 H100 / ~130MW first-cluster figures are confirmed verbatim against the SpaceX S-1/A (via SEC full-text-search exact-phrase match against this specific accession) and the MLGW utility PDF (via pdftotext). Capacity is honestly labeled as grid electric service (150MW, requesting 300MW total), distinct from the S-1/A's compute-power figures, and the note makes this distinction explicit.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9542,7 +9545,8 @@
     "note": "Sum of the two disclosed clusters (~210 MW + 220 MW compute power). S-1/A also expects a next phase of 220,000+ GB300 and 400+ additional MW."
    },
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and all cited figures (110,000 GB200/~210MW first cluster, 110,000 GB300/~220MW second cluster, Anthropic Cloud Services Agreement) confirmed verbatim against the SpaceX S-1/A via SEC full-text-search exact-phrase match. This directly resolves the analyst's flagged concern about the Colossus GPU counts in the SpaceX S-1/A -- all figures check out exactly as cited.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9603,7 +9607,8 @@
     ],
     "note": "Scale-up target; Louisiana governor release (Dec 2024) cited a $10B investment."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and the 5GW/Hyperion capacity claim confirmed verbatim against Meta's own datacenters.atmeta.com page, the Louisiana governor's Tier 1 release, and the Q2 2025 earnings-call transcript (confirmed via pdftotext against the source PDF).",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9653,7 +9658,8 @@
     "note": "'1GW+'. Status set to under_construction: Meta said July 2025 it would come online in 2026; no fetched Tier 1/2 document confirms it is now online."
    },
    "start_year": 2026,
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence and location documented by a Tier 2 Meta release (nuclear-power projects) and the Q2 2025 earnings call (confirmed via pdftotext: 'Our Prometheus cluster is coming online next year and we think it'll be the world's first 1GW+ cluster'). Status='under_construction' is appropriately conservative -- I checked Meta's Q2 2026 earnings-call transcript (the most recent one available) via pdftotext and found no mention of Prometheus or Hyperion at all, so there is no newer Tier 1/2 statement to confirm an operational date. Flagging because status cannot be pinned down more precisely than 'still not confirmed operational as of the latest primary source checked' -- a caveat, not an error.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9709,7 +9715,8 @@
     "note": "Venture ownership (BlackRock 80% / Meta 20%) and ~$14B development cost belong to the finance layer."
    },
    "start_year": 2028,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, status (under construction), 1GW capacity, $10B+ investment, and 2028 online date all confirmed verbatim against Meta's own Tier 2 release.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9765,7 +9772,8 @@
     "note": "Investment amount (power capacity not disclosed in fetched Tier 1/2 sources)."
    },
    "start_year": 2026,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and 'fully operational' status confirmed verbatim against three of Microsoft's own Tier 2 releases (Made in Wisconsin, Inside Fairwater, and the June 2026 completion release with the Brad Smith quote).",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9814,7 +9822,8 @@
     ],
     "note": "Investment amount."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, $4B investment, and 'under_construction' status (foundation, steel erection, underground utility work per the June 2026 release) confirmed verbatim against Microsoft's own Tier 2 releases.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9850,7 +9859,8 @@
     }
    ],
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and 'operational' status ('began operation in October') confirmed verbatim against two of Microsoft's own Tier 2 releases.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -9912,7 +9922,8 @@
     "note": "Investment amount. Power capacity (reported ~2.2 GW in news) not found in a fetched Tier 1/2 source."
    },
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, tenant (Anthropic), and 'fully operational' status confirmed verbatim against AWS's own Tier 2 releases (including the ~500,000 Trainium2 chips and 'now on more than 1 million Trainium2 chips' figures) and the Tier 1 Indiana gov release. Capacity is honestly labeled as the original $11B investment figure (unit=USD), with the note correctly stating that power capacity (~2.2GW reported in news) is not confirmed by any fetched Tier 1/2 source.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9961,7 +9972,8 @@
     ],
     "note": "Investment amount; status as announced Jan 2024 (later groundbreaking/expansions not verified in a fetched Tier 1/2 source)."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and the $10B investment/1,000-jobs figures confirmed verbatim against the Tier 1 Mississippi Development Authority release. Status='announced' (Jan 2024 source) is conservative; no more recent Tier 1/2 update on construction progress was found or required for the material claims here.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -9996,7 +10008,8 @@
      "supports": "amount (statewide, shared with Falls Township)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location confirmed verbatim against the Tier 1 Pennsylvania governor's release, including the Governor Shapiro quote naming Luzerne County specifically.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -10031,7 +10044,8 @@
      "supports": "location (county)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location confirmed verbatim against the Tier 1 Pennsylvania governor's release, including the Governor Shapiro quote naming Bucks County specifically.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -10066,7 +10080,8 @@
      "supports": "amount (statewide)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location confirmed verbatim against Google's own Tier 2 release.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -10101,7 +10116,8 @@
      "supports": "site detail"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and the solar+storage site detail confirmed verbatim against Google's own Tier 2 release.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -10136,7 +10152,8 @@
      "supports": "amount (statewide, shared with Pryor)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location confirmed verbatim against the Tier 1 Oklahoma Department of Commerce release.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -10192,7 +10209,8 @@
     "note": "Critical IT MW licensed to CoreWeave; total potential campus load ~394 MW from Denton Municipal Electric. Deliveries have started; substantial completion anticipated H2 2026."
    },
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, tenant (CoreWeave, 100% licensed), and the 262MW capacity figure confirmed verbatim against the Tier 1 Core Scientific 8-K exhibit and the company's own Tier 2 press release. The 8-K's illustrative timeline table independently confirms the note's 'deliveries have started; substantial completion anticipated H2 2026.'",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -10247,7 +10265,8 @@
     ],
     "note": "Critical IT MW; anticipated starting delivery H2 2026, substantial completion H1 2027 per timeline table. Dalton 1 (30 MW) is a separate small facility nearby."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location (3024 Old Tilton Road, Dalton, GA, ~167 acres), and 145MW capacity confirmed verbatim against the Tier 1 8-K exhibit; the timeline table independently confirms 'starting delivery H2 2026, substantial completion H1 2027' exactly as noted.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -10296,7 +10315,8 @@
     ],
     "note": "Critical IT MW; anticipated starting delivery and substantial completion H1 2026 per the April 2026 timeline table (completion not confirmed)."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location (Smith Ferry Road, 64 acres, 70MW), and tenant confirmed verbatim against the Tier 1 8-K exhibit; the timeline table independently confirms H1 2026 for both start and substantial completion.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -10345,7 +10365,8 @@
     ],
     "note": "Critical IT MW; starting delivery complete, substantial completion anticipated H1 2026 per timeline table."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location (155 Palmer Lane, 65MW), and tenant confirmed verbatim against the Tier 1 8-K exhibit, which also discloses 'approximately 37 MWs are currently operational and billing' as of the filing date -- consistent with status='under_construction'.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
@@ -10388,7 +10409,8 @@
     ],
     "note": "Maximum ('room to grow up to 300 MW'); initial $6B commitment."
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, $6B initial investment, and 'up to 300MW' capacity confirmed verbatim against CoreWeave's own Tier 2 release.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -10444,7 +10466,8 @@
     "note": "Contracted critical IT capacity; Building 1 (100 MW) operational Nov 2025, others under construction/planned at that date."
    },
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, 400MW contracted/CoreWeave tenant, and 'operational' status ('Building 1 now operates at its full 100 MW critical IT load') confirmed verbatim against two of Applied Digital's own Tier 2 releases.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -10494,7 +10517,8 @@
     "note": "800 MW gross / 526 MW critical IT contracted to CoreWeave; Phase I (133 MW IT) delivered July 2026."
    },
    "start_year": 2026,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, tenant (CoreWeave), 'operational' status (Phase I delivered), and the 800MW gross/526MW critical-IT-contracted capacity figures confirmed verbatim against Galaxy's own Tier 2 release.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -10529,7 +10553,8 @@
      "supports": "timeline"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and state-level location confirmed verbatim against Anthropic's own Tier 2 release; region-level precision is honest given the release itself does not disclose a specific site.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -10558,7 +10583,8 @@
      "supports": "existence, location (state), amount (combined)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and state-level location confirmed verbatim against Anthropic's own Tier 2 release; region-level precision is honest given the release itself does not disclose a specific site.",
    "best_tier": 2,
    "source_layer": "datacenter"
   },
@@ -12453,956 +12479,6 @@
    "review": "unverified",
    "best_tier": 2,
    "source_layer": "equipment"
-  },
-  {
-   "id": "fac:tsmc-fab12-hsinchu",
-   "name": "TSMC Fab 12 (GIGAFAB, Hsinchu)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 24.778,
-    "lon": 121.009,
-    "precision": "region",
-    "address": "Hsinchu Science Park, Hsinchu, Taiwan"
-   },
-   "country": "TW",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers (most advanced volume node listed: 40 nm, as of 2025 year-end)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D Property, Plant and Equipment, fab table; row '12 | 2001 | 12-inch | 40'",
-     "supports": "existence, status, start year, most advanced volume node"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Fabs 2, 3, 5, 8, 12 and Fab 20 are located in Hsinchu Science Park.",
-     "locator": "Item 4.D, footnote (1) to fab table",
-     "supports": "location"
-    },
-    {
-     "source": "src:tsmc-gigafab-page",
-     "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
-     "locator": "GIGAFAB® Facilities page",
-     "supports": "existence, GIGAFAB status"
-    }
-   ],
-   "start_year": 2001,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab14-tainan",
-   "name": "TSMC Fab 14 (GIGAFAB, Tainan)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 23.107,
-    "lon": 120.281,
-    "precision": "region",
-    "address": "Southern Taiwan Science Park, Tainan, Taiwan"
-   },
-   "country": "TW",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers (most advanced volume node listed: 16 nm)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D Property, Plant and Equipment, fab table; row '14 | 2004 | 12-inch | 16'",
-     "supports": "existence, status, start year, most advanced volume node"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Fab 6, Fab 14, Fab 18, and Fab 22 are located in the Southern Taiwan Science Park.",
-     "locator": "Item 4.D, footnote (1) to fab table",
-     "supports": "location"
-    },
-    {
-     "source": "src:tsmc-gigafab-page",
-     "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
-     "locator": "GIGAFAB® Facilities page",
-     "supports": "existence, GIGAFAB status"
-    }
-   ],
-   "start_year": 2004,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab15-taichung",
-   "name": "TSMC Fab 15 (GIGAFAB, Taichung)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 24.21,
-    "lon": 120.617,
-    "precision": "region",
-    "address": "Central Taiwan Science Park, Taichung, Taiwan"
-   },
-   "country": "TW",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers (most advanced volume node listed: 7 nm)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D Property, Plant and Equipment, fab table; row '15 | 2012 | 12-inch | 7'",
-     "supports": "existence, status, start year, most advanced volume node"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Fab 15 is located in Central Taiwan Science Park.",
-     "locator": "Item 4.D, footnote (1) to fab table",
-     "supports": "location"
-    },
-    {
-     "source": "src:tsmc-gigafab-page",
-     "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
-     "locator": "GIGAFAB® Facilities page",
-     "supports": "existence, GIGAFAB status"
-    }
-   ],
-   "start_year": 2012,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab18-tainan",
-   "name": "TSMC Fab 18 (GIGAFAB, Tainan)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 23.107,
-    "lon": 120.281,
-    "precision": "region",
-    "address": "Southern Taiwan Science Park, Tainan, Taiwan"
-   },
-   "country": "TW",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers (most advanced volume node listed: 3 nm)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D Property, Plant and Equipment, fab table; row '18 | 2020 | 12-inch | 3'",
-     "supports": "existence, status, start year, most advanced volume node"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Fab 6, Fab 14, Fab 18, and Fab 22 are located in the Southern Taiwan Science Park.",
-     "locator": "Item 4.D, footnote (1) to fab table",
-     "supports": "location"
-    },
-    {
-     "source": "src:tsmc-gigafab-page",
-     "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
-     "locator": "GIGAFAB® Facilities page",
-     "supports": "existence, GIGAFAB status"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "This increase was primarily from the expansion of our 3-nanometer advanced technologies.",
-     "locator": "Item 4.D, capacity paragraph",
-     "supports": "context: 2025 capacity growth from 3nm"
-    }
-   ],
-   "start_year": 2020,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab20-hsinchu",
-   "name": "TSMC Fab 20 (GIGAFAB, Hsinchu Baoshan)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 24.778,
-    "lon": 121.009,
-    "precision": "region",
-    "address": "Hsinchu Science Park, Hsinchu, Taiwan"
-   },
-   "country": "TW",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers (most advanced volume node listed: 2 nm)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D Property, Plant and Equipment, fab table; row '20 | 2025 | 12-inch | 2'",
-     "supports": "existence, status, start year, most advanced volume node"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Fabs 2, 3, 5, 8, 12 and Fab 20 are located in Hsinchu Science Park.",
-     "locator": "Item 4.D, footnote (1) to fab table",
-     "supports": "location"
-    },
-    {
-     "source": "src:tsmc-gigafab-page",
-     "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
-     "locator": "GIGAFAB® Facilities page",
-     "supports": "existence, GIGAFAB status"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Our 2-nanometer technology entered volume production in 2025.",
-     "locator": "Item 4.D",
-     "supports": "2nm volume production"
-    },
-    {
-     "source": "src:tsmc-ar-2025-ch1",
-     "quote": "In Taiwan, we are preparing multiple phases of 2nm fabs in both Hsinchu and Kaohsiung Science Parks.",
-     "locator": "Letter to Shareholders",
-     "supports": "2nm expansion in Hsinchu"
-    }
-   ],
-   "start_year": 2025,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab22-kaohsiung",
-   "name": "TSMC Fab 22 (GIGAFAB, Kaohsiung)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 22.721,
-    "lon": 120.315,
-    "precision": "region",
-    "address": "Kaohsiung Science Park (part of Southern Taiwan Science Park), Kaohsiung, Taiwan"
-   },
-   "country": "TW",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers (most advanced volume node listed: 2 nm)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D Property, Plant and Equipment, fab table; row '22 | 2025 | 12-inch | 2'",
-     "supports": "existence, status, start year, most advanced volume node"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Fab 6, Fab 14, Fab 18, and Fab 22 are located in the Southern Taiwan Science Park.",
-     "locator": "Item 4.D, footnote (1) to fab table",
-     "supports": "location"
-    },
-    {
-     "source": "src:tsmc-gigafab-page",
-     "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
-     "locator": "GIGAFAB® Facilities page",
-     "supports": "existence, GIGAFAB status"
-    },
-    {
-     "source": "src:tsmc-ar-2025-ch1",
-     "quote": "In Taiwan, we are preparing multiple phases of 2nm fabs in both Hsinchu and Kaohsiung Science Parks.",
-     "locator": "Letter to Shareholders",
-     "supports": "location (Kaohsiung), 2nm"
-    }
-   ],
-   "start_year": 2025,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab21-arizona-p1",
-   "name": "TSMC Arizona Fab 21, phase 1 (Phoenix)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 33.75,
-    "lon": -112.13,
-    "precision": "city",
-    "address": "Phoenix, AZ 85083"
-   },
-   "country": "US",
-   "status": "operational",
-   "products": [
-    "N4 / N5 FinFET logic wafers"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "TSMC Arizona plans to build and operate multiple advanced semiconductor manufacturing facilities in Phoenix, Arizona. Our first facility successfully entered high volume production at the end of 2024.",
-     "locator": "Item 4, Our Subsidiaries and Affiliates: TSMC Arizona",
-     "supports": "existence, location, status"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "TSMC Arizona owns a parcel of land of approximately 4,775,885 square meters in the State of Arizona where Fab 21 and related offices are located.",
-     "locator": "Item 4.D Property",
-     "supports": "location, fab number"
-    },
-    {
-     "source": "src:nist-chips-tsmc-arizona",
-     "quote": "As part of this award, TSMC Arizona plans to manufacture its N3, N4, and N5 FinFET process technologies, and N2 and A16 nanosheet process technologies in the United States.",
-     "locator": "Key Facts",
-     "supports": "products"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D fab table; row '21 | 2024 | 12-inch | 5'",
-     "supports": "start year, node (5 nm family)"
-    }
-   ],
-   "start_year": 2024,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab21-arizona-p2",
-   "name": "TSMC Arizona Fab 21, phase 2 (Phoenix)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 33.75,
-    "lon": -112.13,
-    "precision": "city",
-    "address": "Phoenix, AZ 85083"
-   },
-   "country": "US",
-   "status": "under_construction",
-   "products": [
-    "N3 FinFET logic wafers (planned)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Construction of our second facility is ongoing, and the construction of our third facility commenced in 2025.",
-     "locator": "Item 4, TSMC Arizona",
-     "supports": "existence, status"
-    },
-    {
-     "source": "src:nist-chips-tsmc-arizona",
-     "quote": "TSMC Arizona is on track to begin high-volume production in the first fab by the first half of 2025, with production in the second fab targeted for the second half in 2027 and in the third by the end of the decade.",
-     "locator": "Key Facts",
-     "supports": "planned timing"
-    },
-    {
-     "source": "src:nist-chips-tsmc-arizona",
-     "quote": "As part of this award, TSMC Arizona plans to manufacture its N3, N4, and N5 FinFET process technologies, and N2 and A16 nanosheet process technologies in the United States.",
-     "locator": "Key Facts; Facility Summary lists Fab 2 as 3nm FinFET",
-     "supports": "products"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-fab21-arizona-p3",
-   "name": "TSMC Arizona Fab 21, phase 3 (Phoenix)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 33.75,
-    "lon": -112.13,
-    "precision": "city",
-    "address": "Phoenix, AZ 85083"
-   },
-   "country": "US",
-   "status": "under_construction",
-   "products": [
-    "N2 / A16 nanosheet logic wafers (planned)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Construction of our second facility is ongoing, and the construction of our third facility commenced in 2025.",
-     "locator": "Item 4, TSMC Arizona",
-     "supports": "existence, status"
-    },
-    {
-     "source": "src:nist-chips-tsmc-arizona",
-     "quote": "TSMC’s A16 technology integrates TSMC’s N2 nanosheet transistor process with next-generation backside power delivery, improving total performance and power consumption.",
-     "locator": "Key Facts; Facility Summary lists Fab 3 as A16 and 2nm",
-     "supports": "products"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-jasm-kumamoto",
-   "name": "JASM Fab 23 (Kumamoto), first fab",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "specialty_logic_fab",
-   "location": {
-    "lat": 32.885,
-    "lon": 130.843,
-    "precision": "region",
-    "address": "Kumamoto Prefecture, Japan"
-   },
-   "country": "JP",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers (most advanced volume node listed: 28 nm)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "JASM owns a parcel of land of approximately 476,290 square meters in Kumamoto Prefecture, Japan, where Fab 23 and related offices are located.",
-     "locator": "Item 4.D Property",
-     "supports": "existence, location"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Construction on the site commenced in April 2022 and volume production commenced in December 2024.",
-     "locator": "Item 4, Our Subsidiaries and Affiliates: JASM",
-     "supports": "status"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D fab table; row '23 | 2024 | 12-inch | 28'",
-     "supports": "node"
-    }
-   ],
-   "start_year": 2024,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-jasm-kumamoto-2",
-   "name": "JASM second fab (Kumamoto)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "specialty_logic_fab",
-   "location": {
-    "lat": 32.885,
-    "lon": 130.843,
-    "precision": "region",
-    "address": "Kumamoto Prefecture, Japan"
-   },
-   "country": "JP",
-   "status": "under_construction",
-   "products": [],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "In February 2024, we, Sony, DENSO and Toyota Motor Corporation (“Toyota”) announced further investment into JASM to build and operate a second semiconductor manufacturing facility. Construction on the second site commenced in October 2025.",
-     "locator": "Item 4, Our Subsidiaries and Affiliates: JASM",
-     "supports": "existence, status"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-esmc-dresden",
-   "name": "ESMC Fab 24 (Dresden)",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "specialty_logic_fab",
-   "location": {
-    "lat": 51.126,
-    "lon": 13.713,
-    "precision": "city",
-    "address": "City of Dresden, Germany"
-   },
-   "country": "DE",
-   "status": "under_construction",
-   "products": [],
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "ESMC owns a parcel of land of approximately 513,557 square meters in the City of Dresden in Germany, where Fab 24 and related facilities will be located.",
-     "locator": "Item 4.D Property",
-     "supports": "existence, location"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "Construction on the site commenced in 2024. As of February 28, 2026, we owned 70.0% of the equity interest in ESMC.",
-     "locator": "Item 4, Our Subsidiaries and Affiliates: ESMC",
-     "supports": "status, ownership"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:samsung-taylor",
-   "name": "Samsung Taylor fab (Texas)",
-   "operator": "co:samsung",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 30.57,
-    "lon": -97.41,
-    "precision": "city",
-    "address": "Taylor, Texas"
-   },
-   "country": "US",
-   "status": "under_construction",
-   "products": [
-    "2nm logic wafers (planned)"
-   ],
-   "evidence": [
-    {
-     "source": "src:nist-chips-samsung-taylor",
-     "quote": "This ecosystem would include two leading-edge logic foundry fabs focused on mass production of 2nm process technologies and an R&D fab dedicated to research and development of manufacturing process nodes at least several generations ahead of the current one in production.",
-     "locator": "Economic and National Security Impact: Taylor, Texas",
-     "supports": "existence, products"
-    },
-    {
-     "source": "src:nist-chips-samsung-taylor",
-     "quote": "Recipient Samsung Austin Semiconductor, LLC, a subsidiary of Samsung Electronics Location(s) Taylor, Texas Austin, Texas",
-     "locator": "Project Overview table",
-     "supports": "location"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:intel-oregon",
-   "name": "Intel Oregon fabs incl. D1X (Hillsboro)",
-   "operator": "co:intel",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 45.543,
-    "lon": -122.962,
-    "precision": "region",
-    "address": "Hillsboro, Oregon (10-K names Oregon only)"
-   },
-   "country": "US",
-   "status": "operational",
-   "products": [
-    "Intel 18A wafers (ramping); process R&D"
-   ],
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
-     "locator": "Item 1, Manufacturing",
-     "supports": "existence, status, products"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "Recently, in addition to our Oregon location performing R&D on our latest and next generation process nodes, we are utilizing our Oregon fab assets to perform high volume manufacturing.",
-     "locator": "Item 1, Process Technology",
-     "supports": "role"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:intel-arizona",
-   "name": "Intel Arizona fabs incl. Fab 52 (Chandler)",
-   "operator": "co:intel",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 33.271,
-    "lon": -111.883,
-    "precision": "region",
-    "address": "Chandler, Arizona (10-K names Arizona; Chandler bonds)"
-   },
-   "country": "US",
-   "status": "operational",
-   "products": [
-    "Intel 7 wafers",
-    "Intel 18A wafers (ramping)"
-   ],
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
-     "locator": "Item 1, Manufacturing",
-     "supports": "existence, status, products"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2024, we remarketed $438 million aggregate principal amount of bonds issued by the Industrial Development Authority of the City of Chandler, Arizona.",
-     "locator": "Note 13: Borrowings, Arizona Bonds",
-     "supports": "location (Chandler)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:intel-ireland",
-   "name": "Intel Ireland fabs incl. Fab 34 (Leixlip)",
-   "operator": "co:intel",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 53.365,
-    "lon": -6.505,
-    "precision": "region",
-    "address": "Leixlip, Ireland (10-K names Ireland)"
-   },
-   "country": "IE",
-   "status": "operational",
-   "products": [
-    "Intel 4 wafers",
-    "Intel 3 wafers"
-   ],
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
-     "locator": "Item 1, Manufacturing",
-     "supports": "existence, status, products"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "We anticipate that net income attributable to non-controlling interests will continue to increase in 2026 as additional tranches of Arizona SCIP’s manufacturing assets are placed into service, and to increase significantly in 2027 following our expected completion of construction of Fab 34 in Ireland.",
-     "locator": "MD&A, Non-Controlling Interests",
-     "supports": "Fab 34 construction status"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:intel-israel",
-   "name": "Intel Israel fab (Kiryat Gat)",
-   "operator": "co:intel",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 31.6,
-    "lon": 34.77,
-    "precision": "country",
-    "address": "Israel (10-K names country only)"
-   },
-   "country": "IL",
-   "status": "operational",
-   "products": [
-    "Intel 7 wafers"
-   ],
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
-     "locator": "Item 1, Manufacturing",
-     "supports": "existence, status, products"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "As a significant portion of our revenues are generated from products using our Intel 7 node that are manufactured at our fabrication facility in Israel and we are not insured for business interruptions resulting from war or political violence, a disruption of that facility could have a significant adverse impact on our business.",
-     "locator": "Item 1A Risk Factors",
-     "supports": "role"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:intel-ohio",
-   "name": "Intel Ohio fab (New Albany / Licking County)",
-   "operator": "co:intel",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 40.09,
-    "lon": -82.75,
-    "precision": "region",
-    "address": "Ohio (10-K names state only)"
-   },
-   "country": "US",
-   "status": "under_construction",
-   "products": [],
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "While we remain focused on continued development of Intel 14A and securing such a significant external customer, we have taken steps to reduce our overall investment and have further slowed down the construction of the new leading-edge fabrication facilities we are building in Ohio.",
-     "locator": "Item 1A Risk Factors",
-     "supports": "existence, status (slowed)"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "For example, we would likely discontinue the new leading-edge fabrication facilities we are building in Ohio.",
-     "locator": "Item 1A Risk Factors",
-     "supports": "status risk"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:globalfoundries-fab8-malta",
-   "name": "GlobalFoundries Fab 8 (Malta, NY)",
-   "operator": "co:globalfoundries",
-   "layer": "fabrication",
-   "kind": "logic_fab",
-   "location": {
-    "lat": 42.9735,
-    "lon": -73.759,
-    "precision": "site",
-    "address": "400 Stonebreak Road Extension, Malta, NY 12020"
-   },
-   "country": "US",
-   "status": "operational",
-   "products": [
-    "300mm FinFET logic wafers",
-    "silicon photonics",
-    "feature-rich CMOS"
-   ],
-   "evidence": [
-    {
-     "source": "src:gfs-20f-2025",
-     "quote": "We currently operate four manufacturing sites in the following locations: Dresden, Germany; Singapore; Malta, New York; and Burlington, Vermont.",
-     "locator": "Item 4.D Property, Plant and Equipment",
-     "supports": "existence, location"
-    },
-    {
-     "source": "src:gfs-20f-2025",
-     "quote": "The funding supports three GF projects: expansion of our existing Fab 8 facility, construction of a new state-of-the-art fab on the Fab 8 campus, and modernization of our Fab 9 facility in Burlington, Vermont.",
-     "locator": "Item 4, CHIPS funding",
-     "supports": "Fab 8 expansion"
-    },
-    {
-     "source": "src:nist-chips-gf-malta",
-     "quote": "Malta, New York – New State-of-the-Art 300mm Fab: The construction of a new, large-scale 300mm fabrication facility that is expected to produce high value technologies not currently available in the United States.",
-     "locator": "Key Facts",
-     "supports": "expansion plan"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:smic-shanghai",
-   "name": "SMIC Shanghai 200mm and 300mm fabs (Zhangjiang)",
-   "operator": "co:smic",
-   "layer": "fabrication",
-   "kind": "logic_fab",
-   "location": {
-    "lat": 31.2037,
-    "lon": 121.5993,
-    "precision": "site",
-    "address": "No.18 Zhangjiang Road, Pudong New Area, Shanghai"
-   },
-   "country": "CN",
-   "status": "operational",
-   "products": [
-    "8-inch and 12-inch logic wafers"
-   ],
-   "evidence": [
-    {
-     "source": "src:smic-fab-info",
-     "quote": "SH 200mm Fab & SH 300mm Fab Location：No.18 Zhangjiang Road, Pudong New Area, Shanghai ,China",
-     "locator": "Fab Information",
-     "supports": "existence, location"
-    },
-    {
-     "source": "src:fr-85-83416",
-     "quote": "For eleven of the seventy-seven entities--SMIC and ten related entities-- BIS imposes a license review policy of Presumption of Denial for items uniquely required for production of semiconductors at advanced technology nodes (10 nanometers and below, including extreme ultraviolet technology) and case by case for all other items.",
-     "locator": "Supplementary Information",
-     "supports": "export-control status"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:smic-beijing",
-   "name": "SMIC Beijing 300mm fabs (Phase 1 & 2)",
-   "operator": "co:smic",
-   "layer": "fabrication",
-   "kind": "logic_fab",
-   "location": {
-    "lat": 39.793,
-    "lon": 116.505,
-    "precision": "site",
-    "address": "No.18 Wenchang Avenue, Economic Technological Development Area, Beijing"
-   },
-   "country": "CN",
-   "status": "operational",
-   "products": [
-    "12-inch logic wafers"
-   ],
-   "evidence": [
-    {
-     "source": "src:smic-fab-info",
-     "quote": "BJ 300mm Fab Phase 1 & BJ 300mm Fab Phase 2 Location：No.18 Wenchang Avenue, Economic Technological Development Area, Beijing, China",
-     "locator": "Fab Information",
-     "supports": "existence, location"
-    },
-    {
-     "source": "src:fr-85-83416",
-     "quote": "This rule adds SMIC and the following ten entities related to SMIC: Semiconductor Manufacturing International (Beijing) Corporation; Semiconductor Manufacturing International (Tianjin) Corporation; Semiconductor Manufacturing International (Shenzhen) Corporation; SMIC Semiconductor Manufacturing (Shanghai) Co.",
-     "locator": "Supplementary Information",
-     "supports": "export-control status (Beijing entity listed)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:tsmc-taichung-a14",
-   "name": "TSMC 1.4nm (A14) fab, Taichung",
-   "operator": "co:tsmc",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 24.21,
-    "lon": 120.617,
-    "precision": "region",
-    "address": "Taichung (Central Taiwan Science Park area), Taiwan"
-   },
-   "country": "TW",
-   "status": "under_construction",
-   "products": [
-    "A14 (1.4nm-class) logic wafers (planned; volume production scheduled for 2028 per TSMC)"
-   ],
-   "evidence": [
-    {
-     "source": "src:tsmc-gigafab-page",
-     "quote": "In 2025, TSMC expanded its advanced packaging capacity in Chiayi and Tainan, and actively commencing the construction of its 1.4-nanometer fab in Taichung.",
-     "locator": "GIGAFAB® Facilities page",
-     "supports": "existence, location, status"
-    },
-    {
-     "source": "src:tsmc-ar-2025-ch1",
-     "quote": "A14 technology development is progressing well, and volume production is scheduled for 2028.",
-     "locator": "Letter to Shareholders",
-     "supports": "planned timing"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:samsung-hwaseong-foundry",
-   "name": "Samsung Hwaseong foundry lines (S3 and EUV-dedicated V1)",
-   "operator": "co:samsung",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 37.2,
-    "lon": 127.07,
-    "precision": "city",
-    "address": "Hwaseong, Gyeonggi-do, Korea"
-   },
-   "country": "KR",
-   "status": "operational",
-   "products": [
-    "7nm-and-below EUV logic wafers (V1)",
-    "10nm-and-below logic wafers (S3)"
-   ],
-   "evidence": [
-    {
-     "source": "src:samsung-news-v1-2020",
-     "quote": "Samsung Electronics, a world leader in advanced semiconductor technology, today announced that its new cutting-edge semiconductor fabrication line in Hwaseong, Korea, has begun mass production.",
-     "locator": "Paragraph 1",
-     "supports": "existence, location, status"
-    },
-    {
-     "source": "src:samsung-news-v1-2020",
-     "quote": "The facility, V1, is Samsung’s first semiconductor production line dedicated to the extreme ultraviolet (EUV) lithography technology and produces chips using process node of 7 nanometer (nm) and below.",
-     "locator": "Paragraph 2",
-     "supports": "products, EUV"
-    },
-    {
-     "source": "src:samsung-news-v1-2020",
-     "quote": "Together with the S3 line, the V1 line is expected to play a pivotal role in responding to fast-growing global market demand for single-digit node foundry technologies.",
-     "locator": "Body",
-     "supports": "S3 line"
-    },
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan.",
-     "locator": "I. Company overview",
-     "supports": "site still operated (FY2025)"
-    }
-   ],
-   "start_year": 2020,
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fac:samsung-pyeongtaek-foundry",
-   "name": "Samsung Pyeongtaek foundry line (EUV, 5nm and below)",
-   "operator": "co:samsung",
-   "layer": "fabrication",
-   "kind": "leading_edge_logic_fab",
-   "location": {
-    "lat": 36.992,
-    "lon": 127.09,
-    "precision": "city",
-    "address": "Pyeongtaek, Gyeonggi-do, Korea"
-   },
-   "country": "KR",
-   "status": "under_construction",
-   "products": [
-    "EUV-based 5nm-and-below logic wafers"
-   ],
-   "evidence": [
-    {
-     "source": "src:samsung-news-pyeongtaek-2020",
-     "quote": "The new foundry line, which will focus on EUV-based 5 nanometer (nm) and below process technology, has just commenced construction this month and is expected to be in full operation in the second half of 2021.",
-     "locator": "Paragraph 2",
-     "supports": "existence, products, status as of 2020-05"
-    },
-    {
-     "source": "src:samsung-news-pyeongtaek-2020",
-     "quote": "Samsung Electronics, a world leader in advanced semiconductor technology, today announced plans to boost its foundry capacity at the company’s new production line in Pyeongtaek, Korea, to meet growing global demand for cutting-edge extreme ultraviolet (EUV) solutions.",
-     "locator": "Paragraph 1",
-     "supports": "location"
-    },
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan.",
-     "locator": "I. Company overview",
-     "supports": "site operated (FY2025)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "source_layer": "fabrication"
   },
   {
    "id": "fac:the-quartz-corp-spruce-pine",
@@ -18437,7 +17513,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: SoftBank and Crusoe Tier 2 releases both confirmed verbatim, naming NVIDIA GB200 racks deployed at the Abilene campus.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18467,7 +17544,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: SoftBank and Oracle Tier 2 releases both confirmed verbatim.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18497,7 +17575,8 @@
      "supports": "volume"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: NVIDIA's own Tier 2 release and the SpaceX S-1/A (Tier 1, confirmed via SEC full-text search) both name the 100,000 H100 GPUs at Colossus.",
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18521,44 +17600,14 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: confirmed verbatim against Supermicro's own Tier 2 case study.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
    "from_node": "fac:supermicro-netherlands",
    "to_node": "fac:xai-colossus-memphis",
    "resolution": "operator/direct",
-   "from_layer": "systems"
-  },
-  {
-   "id": "flow:dell-servers-to-xai-colossus",
-   "from": "co:dell",
-   "to": "fac:xai-colossus-memphis",
-   "commodity": "AI servers",
-   "description": "Dell as a server supplier to xAI's Colossus expansion in Memphis.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:memphis-chamber-xai-expansion-2024-12-04",
-     "quote": "Additionally, Fortune 500 tech giants Nvidia, Dell, and Supermicro Computer (SMC) will be establishing operations in Memphis",
-     "locator": "Paragraph 3",
-     "supports": "relationship (Tier 3)"
-    },
-    {
-     "source": "src:memphis-chamber-xai-expansion-2024-12-04",
-     "quote": "In a landmark announcement at the Greater Memphis Chamber Annual Chairman’s Luncheon, xAI revealed plans for an expansion of its “Colossus” supercomputer facility.",
-     "locator": "Paragraph 1",
-     "supports": "context"
-    }
-   ],
-   "inference_note": "Only a Tier 3 source (Greater Memphis Chamber, a private nonprofit) ties Dell to the xAI Colossus expansion; it says Dell will establish operations in Memphis alongside the expansion, not that Dell supplied specific servers. Neither Dell nor xAI Tier 1/2 documents fetched name the relationship. Treat as unconfirmed.",
-   "review": "unverified",
-   "best_tier": 3,
-   "layer": "datacenter",
-   "source_layer": "datacenter",
-   "from_node": "co:dell",
-   "to_node": "fac:xai-colossus-memphis",
-   "resolution": "hq/direct",
    "from_layer": "systems"
   },
   {
@@ -18582,7 +17631,8 @@
      "supports": "volume, commodity"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: both cited SpaceX S-1/A passages (~325,000 NVIDIA GPUs across COLOSSUS/COLOSSUS II; 110,000 GB200 at ~210MW) confirmed verbatim via SEC full-text-search exact-phrase match.",
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18612,7 +17662,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: confirmed verbatim against two of Microsoft's own Tier 2 releases.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18642,7 +17693,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: confirmed verbatim against two of Microsoft's own Tier 2 releases.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18673,7 +17725,8 @@
     }
    ],
    "inference_note": "Microsoft describes the second facility as 'of similar size and scale' to Fairwater, and each Fairwater datacenter runs NVIDIA Blackwell GPUs; the accelerator for the second facility is not specifically documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, and the inference is sound and clearly disclosed: Microsoft describes the second Mount Pleasant facility as 'of similar size and scale' to Fairwater (confirmed verbatim), and every Fairwater datacenter is documented to run NVIDIA Blackwell/GB200 GPUs (confirmed verbatim); the accelerator for this specific second building is not independently documented. Flagged per the inferred-flow convention.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18703,7 +17756,8 @@
      "supports": "site"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: confirmed verbatim against AWS's own Tier 2 Project Rainier release, including the New Carlisle/St. Joseph County site attribution and chip-count figures.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18733,7 +17787,8 @@
      "supports": "relationship, commodity"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented, and correctly so (not merely inferred): the SB Energy S-1/A explicitly states 'OpenAI is dependent on NVIDIA for providing the necessary GPU units for the PORTS-Pike data centers,' naming both the facility and NVIDIA directly. Confirmed verbatim via r.jina.ai fetch of the S-1/A.",
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18763,7 +17818,8 @@
      "supports": "GPU deployment at Denton"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Core Scientific's own Tier 2 release confirmed verbatim, tying CoreWeave's (and by extension NVIDIA's) GPU operations to the Denton expansion.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18794,7 +17850,8 @@
     }
    ],
    "inference_note": "The Dalton 4 campus is 100% licensed to CoreWeave [Core Scientific 8-K]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model and volume not documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, and the two-premise chain is sound and disclosed: Dalton 4 is 100% licensed to CoreWeave (Tier 1 8-K, confirmed verbatim) + CoreWeave's infrastructure supports NVIDIA GPU operations (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Dalton 4. Model/volume correctly left undocumented.",
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18825,7 +17882,8 @@
     }
    ],
    "inference_note": "The Muskogee campus is 100% licensed to CoreWeave [Core Scientific 8-K]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model and volume not documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred on the same sound, disclosed two-premise chain as Dalton 4 (CoreWeave license confirmed via Tier 1 8-K + CoreWeave-NVIDIA link via Tier 2 release, both verified verbatim).",
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18856,7 +17914,8 @@
     }
    ],
    "inference_note": "The Marble campus is 100% licensed to CoreWeave [Core Scientific 8-K]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model and volume not documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred on the same sound, disclosed two-premise chain as Dalton 4 (CoreWeave license confirmed via Tier 1 8-K + CoreWeave-NVIDIA link via Tier 2 release, both verified verbatim).",
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18887,7 +17946,8 @@
     }
    ],
    "inference_note": "CoreWeave is the documented tenant of Polaris Forge 1 [Applied Digital]; CoreWeave's HPC infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs at Polaris Forge 1. GPU model not documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed: CoreWeave is the documented tenant (Applied Digital Tier 2 release, confirmed verbatim) + CoreWeave's infrastructure uses NVIDIA GPUs (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Polaris Forge 1.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18918,7 +17978,8 @@
     }
    ],
    "inference_note": "CoreWeave is the documented Helios tenant [Galaxy]; CoreWeave's infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs at Helios. GPU model not documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed: CoreWeave is the documented Helios tenant (Galaxy Tier 2 financing release, confirmed verbatim) + CoreWeave-NVIDIA link (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Helios.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18949,7 +18010,8 @@
     }
    ],
    "inference_note": "CoreWeave will equip the Lancaster site [CoreWeave]; CoreWeave's infrastructure supports NVIDIA GPU operations [Core Scientific release] ⇒ NVIDIA GPUs. Model/volume undocumented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed: CoreWeave will equip the Lancaster site (CoreWeave's own Tier 2 release, confirmed verbatim) + CoreWeave-NVIDIA link (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Lancaster.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -18980,7 +18042,8 @@
     }
    ],
    "inference_note": "NVIDIA–Meta partnership covers millions of Blackwell and Rubin GPUs for Meta hyperscale data centers [NVIDIA]; Hyperion is Meta's largest AI cluster [Meta] ⇒ NVIDIA→Hyperion. Site-level allocation not documented; Meta also deploys in-house MTIA accelerators.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed: the NVIDIA-Meta partnership (millions of Blackwell/Rubin GPUs for Meta hyperscale datacenters, confirmed verbatim) + Hyperion is Meta's largest AI cluster (confirmed verbatim) => NVIDIA at Hyperion. The analyst appropriately hedges that Meta also deploys in-house MTIA accelerators, so site-level GPU vendor is genuinely uncertain.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19011,7 +18074,8 @@
     }
    ],
    "inference_note": "As for Hyperion: NVIDIA–Meta partnership [NVIDIA] + Prometheus is a Meta 1GW+ AI cluster [Meta] ⇒ NVIDIA→Prometheus. Not site-documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred on the same sound, disclosed NVIDIA-Meta-partnership chain as Hyperion, confirmed verbatim.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19042,7 +18106,8 @@
     }
    ],
    "inference_note": "NVIDIA–Meta partnership [NVIDIA] + El Paso is a 1 GW Meta AI campus [Meta] ⇒ NVIDIA→El Paso. Not site-documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred on the same sound, disclosed NVIDIA-Meta-partnership chain, confirmed verbatim.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19073,7 +18138,8 @@
     }
    ],
    "inference_note": "Saline Township is developed exclusively for Oracle as a Stargate site [Related, Oracle]; Oracle's Stargate/OCI clusters use NVIDIA GPUs [SoftBank release, Oracle] ⇒ NVIDIA→Saline. Accelerator for this site not documented (Oracle also offers AMD GPUs).",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed: Saline Township is documented as exclusively for Oracle (Related Digital Tier 2 release, confirmed verbatim) + Oracle's Stargate/OCI clusters use NVIDIA GPUs (SoftBank and Oracle Tier 2 releases, confirmed verbatim) => NVIDIA at Saline. Both premises here are solid (unlike Shackelford, the tenant identity is documented, not itself inferred).",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19104,7 +18170,8 @@
     }
    ],
    "inference_note": "Port Washington is an OpenAI/Oracle Stargate site [Vantage]; Oracle's Stargate/OCI clusters use NVIDIA GPUs [SoftBank release, Oracle] ⇒ NVIDIA→Port Washington. Not site-documented.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed, on the same pattern as Saline: Port Washington's OpenAI/Oracle tenancy is directly documented (Vantage's own release names both), so only the GPU vendor is inferred.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19135,7 +18202,8 @@
     }
    ],
    "inference_note": "Shackelford County is an Oracle-developed Stargate site [SoftBank release] and Vantage Frontier is the documented campus there [Vantage]; Oracle Stargate clusters use NVIDIA GPUs ⇒ NVIDIA→Frontier. Tenant link and accelerator both inferred.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, but weaker than the Saline/Port Washington flows: here the tenant identity itself (Frontier = the Oracle/OpenAI Stargate Shackelford County site) is also an inference, not documented -- see fac:vantage-frontier-shackelford. This flow therefore rests on a two-hop inference (facility identity, then GPU vendor), which the analyst's own inference_note honestly discloses ('Tenant link and accelerator both inferred'). Flagged with a stronger caveat than the single-hop inferred flows.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19166,7 +18234,8 @@
     }
    ],
    "inference_note": "Doña Ana County is an Oracle-developed Stargate site [SoftBank release]; Oracle Stargate clusters use NVIDIA GPUs ⇒ NVIDIA→Project Jupiter. Not site-documented; site not yet built.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed: Doña Ana County is a documented Oracle-developed Stargate site (SoftBank release, confirmed verbatim) + Oracle Stargate clusters use NVIDIA (confirmed verbatim) => NVIDIA at Jupiter. Analyst correctly notes the site is not yet built.",
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19197,7 +18266,8 @@
     }
    ],
    "inference_note": "OpenAI is the Milam County tenant [SB Energy S-1/A]; the S-1/A documents NVIDIA dependence for OpenAI's PORTS-Pike leases but not for Milam ⇒ NVIDIA→Milam inferred.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, sound and disclosed: OpenAI is the documented Milam County tenant (SB Energy S-1/A, confirmed verbatim via r.jina.ai fetch) + the S-1/A documents NVIDIA dependence for OpenAI's leases generally and for PORTS-Pike specifically, but not by name for Milam => inferred, as the analyst candidly notes.",
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
@@ -19227,10 +18297,10 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-fab18-tainan",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "hint/direct",
-   "from_layer": "fabrication"
+   "resolution": "operator/direct",
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:tsmc-arizona-nvidia-blackwell-wafers",
@@ -19544,10 +18614,10 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-fab18-tainan",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:amd-santa-clara-hq",
-   "resolution": "hint/direct",
-   "from_layer": "fabrication"
+   "resolution": "operator/direct",
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:globalfoundries-amd-wafers",
@@ -19570,9 +18640,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:globalfoundries-fab8-malta",
+   "from_node": "co:globalfoundries",
    "to_node": "fac:amd-santa-clara-hq",
-   "resolution": "hint/direct",
+   "resolution": "hq/direct",
    "from_layer": "fabrication"
   },
   {
@@ -19749,10 +18819,10 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-fab18-tainan",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:broadcom-palo-alto-hq",
-   "resolution": "hint/direct",
-   "from_layer": "fabrication"
+   "resolution": "operator/direct",
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:ase-broadcom-assembly-test",
@@ -19937,10 +19007,10 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-fab20-hsinchu",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:marvell-santa-clara",
-   "resolution": "hint/direct",
-   "from_layer": "fabrication"
+   "resolution": "operator/direct",
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:marvell-aws-custom-ai-products",
@@ -20385,908 +19455,6 @@
    "from_layer": "equipment"
   },
   {
-   "id": "flow:asml-to-tsmc",
-   "from": "co:asml",
-   "to": "co:tsmc",
-   "commodity": "lithography systems (EUV and DUV)",
-   "description": "ASML supplies lithography systems to TSMC; both companies name the relationship (ASML 20-F cites TSMC's 2025 supplier award; TSMC's 2025 supplier award list names ASML). Facility-level allocation is not disclosed.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "In November 2025, we were honored to receive the TSMC Supplier ‘Excellence in Green Manufacturing’ Award",
-     "locator": "Strategic report, sustainability / product energy efficiency",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "ASML - Excellent Contribution in Green Manufacturing and Excellent Production Support",
-     "locator": "Award winners list",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "from_hint": "fac:asml-veldhoven",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-veldhoven",
-   "to_node": "fac:tsmc-jasm-kumamoto",
-   "resolution": "hint/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:applied-materials-to-tsmc",
-   "from": "co:applied-materials",
-   "to": "co:tsmc",
-   "commodity": "wafer fabrication equipment (deposition, etch, CMP, inspection)",
-   "description": "Applied Materials is a named 2025 TSMC supplier award winner (Green Manufacturing; Technology Development and Production Support).",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "Applied Materials, Inc. - Excellent Contribution in Green Manufacturing and Excellent Technology Development and Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:applied-materials-rehovot",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:lam-research-to-tsmc",
-   "from": "co:lam-research",
-   "to": "co:tsmc",
-   "commodity": "wafer fabrication equipment (etch, deposition)",
-   "description": "Lam Research names TSMC among its most significant customers in FY2024-FY2026; TSMC named Lam a 2025 supplier award winner.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:lam-10k-fy2026",
-     "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
-     "locator": "Item 1, Customers",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "Lam Research Corporation - Excellent Technology Development and Production Support",
-     "locator": "Award winners table",
-     "supports": "relationship"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:lam-research-yongin",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:lam-research-to-samsung",
-   "from": "co:lam-research",
-   "to": "co:samsung",
-   "commodity": "wafer fabrication equipment (etch, deposition)",
-   "description": "Lam Research names Samsung Electronics among its most significant customers in FY2024-FY2026. The filing does not split Samsung purchases between memory and foundry fabs.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:lam-10k-fy2026",
-     "quote": "Our most significant customers during the fiscal years ending June 28, 2026, June 29, 2025, and June 30, 2024 included Micron Technology, Inc., Samsung Electronics Company, Ltd., SK hynix Inc., and Taiwan Semiconductor Manufacturing Company.",
-     "locator": "Item 1, Customers",
-     "supports": "relationship"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:lam-research-yongin",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "operator/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:kla-to-tsmc",
-   "from": "co:kla",
-   "to": "co:tsmc",
-   "commodity": "process control / inspection and metrology systems",
-   "description": "KLA reports TSMC as a >10% of revenue customer in FY2024, FY2025 and FY2026 (named in the customer table that follows the quoted sentence); TSMC named KLA a 2025 supplier award winner.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:kla-10k-fy2026",
-     "quote": "For the fiscal years ended June 30, 2026, 2025 and 2024, the following customers each accounted for more than 10% of total revenues, primarily in the Semiconductor Process Control segment:",
-     "locator": "Item 1, Customers; table immediately following lists Taiwan Semiconductor Manufacturing Company Limited for each year",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "KLA Corporation - Excellent Production Support",
-     "locator": "Award winners table",
-     "supports": "relationship"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:kla-ann-arbor",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:shin-etsu-to-tsmc",
-   "from": "co:shin-etsu",
-   "to": "co:tsmc",
-   "commodity": "silicon wafers",
-   "description": "Shin-Etsu Handotai (Shin-Etsu Chemical's silicon wafer subsidiary) is a named 2025 TSMC supplier award winner (Technology Development and Production Support). TSMC's 20-F says its raw wafers come from a limited number of suppliers in Taiwan, Japan, Germany and Singapore.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
-     "locator": "Item 4, Raw Materials",
-     "supports": "commodity context"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "Shin-Etsu Handotai Co., Ltd. - Excellent Technology Development and Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:shin-etsu-naoetsu",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:sumco-to-tsmc",
-   "from": "co:sumco",
-   "to": "co:tsmc",
-   "commodity": "silicon wafers",
-   "description": "SUMCO is a named 2025 TSMC supplier award winner (Green Manufacturing; Production Support).",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
-     "locator": "Item 4, Raw Materials",
-     "supports": "commodity context"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "SUMCO CORPORATION - Excellent Contribution in Green Manufacturing and Excellent Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    },
-    {
-     "source": "src:sumco-sr-2026",
-     "quote": "In 2025, we received the 2025 Excellent Performance Award for the twelve consecutive year from Taiwan Semiconductor Manufacturing Co., Ltd. (TSMC), the world's largest foundry.",
-     "locator": "Top message / supplier recognition section",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:tsmc-20f-fy2025",
-     "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
-     "locator": "Item 4.B Business Overview, Raw Materials",
-     "supports": "relationship (consistent: TSMC sources raw wafers from Japan)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:sumco-kyushu-imari",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:jsr-to-tsmc",
-   "from": "co:jsr",
-   "to": "co:tsmc",
-   "commodity": "photoresists and process materials",
-   "description": "JSR is a named 2025 TSMC supplier award winner (Technology Development and Production Support). The release does not name the product.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "JSR Corporation - Excellent Technology Development and Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:jsr-yokkaichi",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:screen-to-tsmc",
-   "from": "co:screen",
-   "to": "co:tsmc",
-   "commodity": "wafer cleaning / processing equipment",
-   "description": "SCREEN Semiconductor Solutions is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "SCREEN Semiconductor Solutions Co., Ltd. - Excellent Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:screen-taga",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:canon-to-tsmc",
-   "from": "co:canon",
-   "to": "co:tsmc",
-   "commodity": "lithography equipment",
-   "description": "Canon is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "Canon Inc. - Excellent Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:canon",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:merck-to-tsmc",
-   "from": "co:merck-kgaa",
-   "to": "co:tsmc",
-   "commodity": "semiconductor materials",
-   "description": "Merck is a named 2025 TSMC supplier award winner (Green Manufacturing). The release does not name the product.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "Merck - Excellent Contribution in Green Manufacturing",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:merck-kgaa",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:resonac-to-tsmc",
-   "from": "co:resonac",
-   "to": "co:tsmc",
-   "commodity": "semiconductor materials / chemicals",
-   "description": "Resonac is a named 2025 TSMC supplier award winner (Technology Development and Production Support). The release does not name the product.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "Resonac Corporation - Excellent Technology Development and Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:resonac",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:kokusai-electric-to-tsmc",
-   "from": "co:kokusai-electric",
-   "to": "co:tsmc",
-   "commodity": "deposition equipment",
-   "description": "Kokusai Electric is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "KOKUSAI ELECTRIC - Excellent Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:kokusai-electric",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:ebara-to-tsmc",
-   "from": "co:ebara",
-   "to": "co:tsmc",
-   "commodity": "CMP systems / vacuum pumps",
-   "description": "EBARA is a named 2025 TSMC supplier award winner (Production Support). The release does not name the product.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "EBARA CORPORATION - Excellent Production Support",
-     "locator": "2025 TSMC Excellent Performance Award winners table",
-     "supports": "relationship (named TSMC supplier)"
-    },
-    {
-     "source": "src:tsmc-pr-2025-supply-chain-forum",
-     "quote": "TSMC acknowledged its supply chain for their collaboration, which supported the research and development, optimization and capacity expansion of 2-nanometer (2nm) and other advanced process and packaging technologies.",
-     "locator": "Paragraph 1",
-     "supports": "relationship context (supplier to TSMC)"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:ebara",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-to-intel",
-   "from": "co:asml",
-   "to": "co:intel",
-   "commodity": "EUV lithography systems",
-   "description": "Intel's 10-K names ASML as the sole supplier of the EUV tools Intel deploys for Intel 4, Intel 3, Intel 18A and future nodes.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
-     "locator": "Item 1A Risk Factors, supply chain",
-     "supports": "relationship"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
-   "to_node": "fac:intel-new-mexico-packaging",
-   "resolution": "operator/operator",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-to-intel-oregon",
-   "from": "co:asml",
-   "to": "fac:intel-oregon",
-   "commodity": "EUV lithography systems",
-   "description": "EUV tools at Intel's Oregon fabs, which ramp Intel 18A.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
-     "locator": "Item 1A Risk Factors",
-     "supports": "ASML role"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
-     "locator": "Item 1, Manufacturing",
-     "supports": "fab node"
-    }
-   ],
-   "inference_note": "ASML is the sole supplier of the EUV tools Intel deploys for Intel 18A [Intel 10-K]; Oregon fabs are ramping Intel 18A [Intel 10-K] => ASML EUV tools at Oregon. Intel does not name the site in the ASML sentence.",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
-   "to_node": "fac:intel-oregon",
-   "resolution": "operator/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-to-intel-arizona",
-   "from": "co:asml",
-   "to": "fac:intel-arizona",
-   "commodity": "EUV lithography systems",
-   "description": "EUV tools at Intel's Arizona fabs, which ramp Intel 18A.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
-     "locator": "Item 1A Risk Factors",
-     "supports": "ASML role"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
-     "locator": "Item 1, Manufacturing",
-     "supports": "fab node"
-    }
-   ],
-   "inference_note": "ASML is the sole supplier of the EUV tools Intel deploys for Intel 18A [Intel 10-K]; Arizona fabs are ramping Intel 18A [Intel 10-K] => ASML EUV tools at Arizona.",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
-   "to_node": "fac:intel-arizona",
-   "resolution": "operator/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-to-intel-ireland",
-   "from": "co:asml",
-   "to": "fac:intel-ireland",
-   "commodity": "EUV lithography systems",
-   "description": "EUV tools at Intel's Ireland fabs, which run Intel 4 and Intel 3.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "(ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
-     "locator": "Item 1A Risk Factors",
-     "supports": "ASML role"
-    },
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
-     "locator": "Item 1, Manufacturing",
-     "supports": "fab node"
-    }
-   ],
-   "inference_note": "ASML is the sole supplier of the EUV tools Intel deploys for Intel 4 and Intel 3 [Intel 10-K]; Ireland fabs run Intel 4 and Intel 3 [Intel 10-K] => ASML EUV tools at Ireland.",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
-   "to_node": "fac:intel-ireland",
-   "resolution": "operator/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:soitec-to-globalfoundries",
-   "from": "co:soitec",
-   "to": "co:globalfoundries",
-   "commodity": "300mm SOI wafers",
-   "description": "GlobalFoundries names Soitec as its primary 300mm SOI wafer supplier and largest principal wafer supplier (about 71% of 2025 SOI wafer spend).",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:gfs-20f-2025",
-     "quote": "If we are unable to obtain 300mm SOI wafers from Soitec S.A. (“Soitec”), our primary supplier, for any reason, we expect that it would take us an extended period to find a replacement supplier on commercially acceptable terms.",
-     "locator": "Item 3.D Risk Factors",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:gfs-20f-2025",
-     "quote": "In 2025, Soitec accounted for approximately 71% of our SOI wafer spend.",
-     "locator": "Item 3.D Risk Factors",
-     "supports": "volume share"
-    },
-    {
-     "source": "src:gfs-20f-2025",
-     "quote": "In order to secure a reliable and flexible supply of high-quality wafers, we have entered into multiple long-term agreements with the majority of our principal suppliers, the largest of which is Soitec.",
-     "locator": "Item 4, Raw Materials",
-     "supports": "relationship, long-term agreement"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:soitec",
-   "to_node": "fac:globalfoundries-fab8-malta",
-   "resolution": "hq/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:asml-euv-to-tsmc-fab18",
-   "from": "co:asml",
-   "to": "fac:tsmc-fab18-tainan",
-   "commodity": "EUV lithography systems",
-   "description": "EUV scanners at TSMC Fab 18, whose most advanced volume node is among TSMC's leading nodes.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
-     "locator": "Strategic report",
-     "supports": "ASML sole EUV maker"
-    },
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "Our EUV lithography systems make it possible to print the smallest features on microchips at the highest density, and are used for the most intricate, critical layers on the most advanced microchips.",
-     "locator": "Strategic report, products",
-     "supports": "EUV used for most advanced chips"
-    },
-    {
-     "source": "src:tsmc-ar-2025-ch5",
-     "quote": "The lithography R&D team made progress in enhancing process yield and performance, continuously improving the application efficiency of EUV scanners, reducing overlay errors, mitigating material defects, and developing and applying new mask pellicles and blanks.",
-     "locator": "Ch.5 Technology development, lithography",
-     "supports": "TSMC uses EUV scanners"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D fab table; row '18 | 2020 | 12-inch | 3'",
-     "supports": "fab node"
-    }
-   ],
-   "inference_note": "ASML is the world's only EUV maker [ASML 20-F]; EUV is used for critical layers on the most advanced chips [ASML 20-F]; TSMC operates EUV scanners [TSMC 2025 AR]; Fab 18's most advanced volume node is 3 nm [TSMC 20-F] => ASML EUV tools at Fab 18. No document ties specific tools to this fab.",
-   "from_hint": "fac:asml-veldhoven",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-veldhoven",
-   "to_node": "fac:tsmc-fab18-tainan",
-   "resolution": "hint/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-euv-to-tsmc-fab20",
-   "from": "co:asml",
-   "to": "fac:tsmc-fab20-hsinchu",
-   "commodity": "EUV lithography systems",
-   "description": "EUV scanners at TSMC Fab 20, whose most advanced volume node is among TSMC's leading nodes.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
-     "locator": "Strategic report",
-     "supports": "ASML sole EUV maker"
-    },
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "Our EUV lithography systems make it possible to print the smallest features on microchips at the highest density, and are used for the most intricate, critical layers on the most advanced microchips.",
-     "locator": "Strategic report, products",
-     "supports": "EUV used for most advanced chips"
-    },
-    {
-     "source": "src:tsmc-ar-2025-ch5",
-     "quote": "The lithography R&D team made progress in enhancing process yield and performance, continuously improving the application efficiency of EUV scanners, reducing overlay errors, mitigating material defects, and developing and applying new mask pellicles and blanks.",
-     "locator": "Ch.5 Technology development, lithography",
-     "supports": "TSMC uses EUV scanners"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D fab table; row '20 | 2025 | 12-inch | 2'",
-     "supports": "fab node"
-    }
-   ],
-   "inference_note": "ASML is the world's only EUV maker [ASML 20-F]; EUV is used for critical layers on the most advanced chips [ASML 20-F]; TSMC operates EUV scanners [TSMC 2025 AR]; Fab 20's most advanced volume node is 2 nm [TSMC 20-F] => ASML EUV tools at Fab 20. No document ties specific tools to this fab.",
-   "from_hint": "fac:asml-veldhoven",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-veldhoven",
-   "to_node": "fac:tsmc-fab20-hsinchu",
-   "resolution": "hint/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-euv-to-tsmc-fab22",
-   "from": "co:asml",
-   "to": "fac:tsmc-fab22-kaohsiung",
-   "commodity": "EUV lithography systems",
-   "description": "EUV scanners at TSMC Fab 22, whose most advanced volume node is among TSMC's leading nodes.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
-     "locator": "Strategic report",
-     "supports": "ASML sole EUV maker"
-    },
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "Our EUV lithography systems make it possible to print the smallest features on microchips at the highest density, and are used for the most intricate, critical layers on the most advanced microchips.",
-     "locator": "Strategic report, products",
-     "supports": "EUV used for most advanced chips"
-    },
-    {
-     "source": "src:tsmc-ar-2025-ch5",
-     "quote": "The lithography R&D team made progress in enhancing process yield and performance, continuously improving the application efficiency of EUV scanners, reducing overlay errors, mitigating material defects, and developing and applying new mask pellicles and blanks.",
-     "locator": "Ch.5 Technology development, lithography",
-     "supports": "TSMC uses EUV scanners"
-    },
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
-     "locator": "Item 4.D fab table; row '22 | 2025 | 12-inch | 2'",
-     "supports": "fab node"
-    }
-   ],
-   "inference_note": "ASML is the world's only EUV maker [ASML 20-F]; EUV is used for critical layers on the most advanced chips [ASML 20-F]; TSMC operates EUV scanners [TSMC 2025 AR]; Fab 22's most advanced volume node is 2 nm [TSMC 20-F] => ASML EUV tools at Fab 22. No document ties specific tools to this fab.",
-   "from_hint": "fac:asml-veldhoven",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-veldhoven",
-   "to_node": "fac:tsmc-fab22-kaohsiung",
-   "resolution": "hint/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-euv-to-samsung-hwaseong",
-   "from": "co:asml",
-   "to": "fac:samsung-hwaseong-foundry",
-   "commodity": "EUV lithography systems",
-   "description": "EUV scanners in Samsung's EUV-dedicated V1 line at Hwaseong.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
-     "locator": "Strategic report",
-     "supports": "ASML sole EUV maker"
-    },
-    {
-     "source": "src:samsung-news-v1-2020",
-     "quote": "The facility, V1, is Samsung’s first semiconductor production line dedicated to the extreme ultraviolet (EUV) lithography technology and produces chips using process node of 7 nanometer (nm) and below.",
-     "locator": "Paragraph 2",
-     "supports": "EUV line"
-    }
-   ],
-   "inference_note": "Samsung's V1 line in Hwaseong is dedicated to EUV lithography [Samsung release 2020]; ASML is the world's only manufacturer of EUV lithography systems [ASML 20-F] => ASML EUV tools at Hwaseong V1. Samsung's release does not name ASML.",
-   "from_hint": "fac:asml-veldhoven",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-veldhoven",
-   "to_node": "fac:samsung-hwaseong-foundry",
-   "resolution": "hint/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:asml-euv-to-samsung-pyeongtaek",
-   "from": "co:asml",
-   "to": "fac:samsung-pyeongtaek-foundry",
-   "commodity": "EUV lithography systems",
-   "description": "EUV scanners for Samsung's Pyeongtaek EUV-based foundry line.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:asml-20f-2025",
-     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
-     "locator": "Strategic report",
-     "supports": "ASML sole EUV maker"
-    },
-    {
-     "source": "src:samsung-news-pyeongtaek-2020",
-     "quote": "The new foundry line, which will focus on EUV-based 5 nanometer (nm) and below process technology, has just commenced construction this month and is expected to be in full operation in the second half of 2021.",
-     "locator": "Paragraph 2",
-     "supports": "EUV line"
-    }
-   ],
-   "inference_note": "Samsung's Pyeongtaek foundry line focuses on EUV-based 5nm-and-below processes [Samsung release 2020]; ASML is the world's only manufacturer of EUV lithography systems [ASML 20-F] => ASML EUV tools at Pyeongtaek. Samsung's release does not name ASML.",
-   "from_hint": "fac:asml-veldhoven",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:asml-veldhoven",
-   "to_node": "fac:samsung-pyeongtaek-foundry",
-   "resolution": "hint/direct",
-   "from_layer": "equipment"
-  },
-  {
-   "id": "flow:siltronic-to-samsung",
-   "from": "co:siltronic",
-   "to": "co:samsung",
-   "commodity": "silicon wafers",
-   "description": "Samsung's FY2025 business report names SILTRONIC as a main wafer supplier to its DS (semiconductor) Division. Wafers were 12.4% of DS key-material purchases. Not split by memory vs foundry fab.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc.",
-     "locator": "II. Business overview, key raw materials",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "Wafer Semiconductor disk 21,625 12.4% SILTRONIC, SK Siltron, etc.",
-     "locator": "Key raw materials table (DS Division), KRW 100mil",
-     "supports": "relationship, volume share"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:siltronic-burghausen",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "operator/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:sk-siltron-to-samsung",
-   "from": "co:sk-siltron",
-   "to": "co:samsung",
-   "commodity": "silicon wafers",
-   "description": "Samsung's FY2025 business report names SK Siltron as a main wafer supplier to its DS Division. Not split by memory vs foundry fab.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "Wafer Semiconductor disk 21,625 12.4% SILTRONIC, SK Siltron, etc.",
-     "locator": "Key raw materials table (DS Division), KRW 100mil",
-     "supports": "relationship"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "fac:sk-siltron-css-bay-city",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "operator/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:soulbrain-to-samsung",
-   "from": "co:soulbrain",
-   "to": "co:samsung",
-   "commodity": "process chemicals",
-   "description": "Samsung's FY2025 business report names Soulbrain as a main chemicals supplier to its DS Division (chemicals were 17.1% of DS key-material purchases).",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc.",
-     "locator": "II. Business overview, key raw materials",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "Chemical Disk processing 29,900 17.1% Soulbrain, DongWoo Fine- Chem, etc.",
-     "locator": "Key raw materials table (DS Division)",
-     "supports": "volume share"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:soulbrain",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "hq/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:dongwoo-fine-chem-to-samsung",
-   "from": "co:dongwoo-fine-chem",
-   "to": "co:samsung",
-   "commodity": "process chemicals",
-   "description": "Samsung's FY2025 business report names DongWoo Fine-Chem as a main chemicals supplier to its DS Division.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "Chemical Disk processing 29,900 17.1% Soulbrain, DongWoo Fine- Chem, etc.",
-     "locator": "Key raw materials table (DS Division)",
-     "supports": "relationship"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication",
-   "from_node": "co:dongwoo-fine-chem",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "hq/operator",
-   "from_layer": "wafers_chemicals"
-  },
-  {
    "id": "flow:wacker-to-siltronic-polysilicon",
    "from": "co:wacker",
    "to": "co:siltronic",
@@ -21678,10 +19846,10 @@
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-jasm-kumamoto",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:sk-hynix-cheongju-m15x",
    "resolution": "operator/operator",
-   "from_layer": "fabrication"
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:sk-hynix-hbm-to-tsmc-cowos",
@@ -21745,10 +19913,10 @@
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-jasm-kumamoto",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:amkor-peoria-az",
    "resolution": "operator/direct",
-   "from_layer": "fabrication"
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:tsmc-fab18-to-tsmc-ap6",
@@ -21777,10 +19945,10 @@
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-fab18-tainan",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:tsmc-ap6-zhunan",
-   "resolution": "hint/direct",
-   "from_layer": "fabrication"
+   "resolution": "operator/direct",
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:tsmc-fab18-to-tsmc-ap8",
@@ -21809,10 +19977,10 @@
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-fab18-tainan",
+   "from_node": "fac:tsmc-ap8-tainan",
    "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hint/direct",
-   "from_layer": "fabrication"
+   "resolution": "operator/direct",
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:sk-hynix-m15x-to-pt7",
@@ -21966,10 +20134,10 @@
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:intel-oregon",
+   "from_node": "fac:intel-new-mexico-packaging",
    "to_node": "fac:intel-new-mexico-packaging",
-   "resolution": "hint/direct",
-   "from_layer": "fabrication"
+   "resolution": "operator/direct",
+   "from_layer": "memory_packaging"
   },
   {
    "id": "flow:samsung-memory-fabs-to-onyang",
@@ -23372,8 +21540,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:siltronic-singapore",
-   "to_node": "fac:tsmc-fab18-tainan",
-   "resolution": "hint/hint",
+   "to_node": "fac:tsmc-ap8-tainan",
+   "resolution": "hint/operator",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23424,8 +21592,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:siltronic-singapore",
-   "to_node": "fac:intel-arizona",
-   "resolution": "hint/hint",
+   "to_node": "fac:intel-new-mexico-packaging",
+   "resolution": "hint/operator",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23459,6 +21627,38 @@
    "to_node": "fac:siltronic-burghausen",
    "resolution": "hint/hint",
    "from_layer": "materials"
+  },
+  {
+   "id": "flow:sumco-to-tsmc",
+   "from": "co:sumco",
+   "to": "co:tsmc",
+   "commodity": "300 mm silicon wafers",
+   "description": "SUMCO reports receiving TSMC's supplier Excellent Performance Award for the twelfth consecutive year (2025). Receiving fab not disclosed.",
+   "basis": "documented",
+   "evidence": [
+    {
+     "source": "src:sumco-sr-2026",
+     "quote": "In 2025, we received the 2025 Excellent Performance Award for the twelve consecutive year from Taiwan Semiconductor Manufacturing Co., Ltd. (TSMC), the world's largest foundry.",
+     "locator": "Top message / supplier recognition section",
+     "supports": "relationship"
+    },
+    {
+     "source": "src:tsmc-20f-fy2025",
+     "quote": "In pursuit of high quality raw wafers, the majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore.",
+     "locator": "Item 4.B Business Overview, Raw Materials",
+     "supports": "relationship (consistent: TSMC sources raw wafers from Japan)"
+    }
+   ],
+   "from_hint": "fac:sumco-kyushu-imari",
+   "to_hint": "fac:tsmc-fab18-tainan",
+   "review": "unverified",
+   "best_tier": 1,
+   "layer": "wafers_chemicals",
+   "source_layer": "wafers_chemicals",
+   "from_node": "fac:sumco-kyushu-imari",
+   "to_node": "fac:tsmc-ap8-tainan",
+   "resolution": "hint/operator",
+   "from_layer": "wafers_chemicals"
   },
   {
    "id": "flow:sumco-to-samsung-wafers",
@@ -23584,8 +21784,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:entegris-colorado-springs",
-   "to_node": "fac:tsmc-fab18-tainan",
-   "resolution": "operator/hint",
+   "to_node": "fac:tsmc-ap8-tainan",
+   "resolution": "operator/operator",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23622,8 +21822,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:globalwafers-memc-st-peters",
-   "to_node": "fac:globalfoundries-fab8-malta",
-   "resolution": "hint/hint",
+   "to_node": "co:globalfoundries",
+   "resolution": "hint/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23647,8 +21847,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:shin-etsu-naoetsu",
-   "to_node": "fac:globalfoundries-fab8-malta",
-   "resolution": "operator/hint",
+   "to_node": "co:globalfoundries",
+   "resolution": "operator/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23785,8 +21985,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:linde-phoenix-onsite",
-   "to_node": "fac:tsmc-fab21-arizona-p1",
-   "resolution": "direct/hint",
+   "to_node": "fac:tsmc-ap8-tainan",
+   "resolution": "direct/operator",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23811,8 +22011,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:air-liquide-arizona-onsite",
-   "to_node": "fac:tsmc-fab21-arizona-p3",
-   "resolution": "direct/hint",
+   "to_node": "fac:tsmc-ap8-tainan",
+   "resolution": "direct/operator",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23863,8 +22063,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:agc-electronics-motomiya",
-   "to_node": "fac:tsmc-fab12-hsinchu",
-   "resolution": "direct/hint",
+   "to_node": "fac:tsmc-ap8-tainan",
+   "resolution": "direct/operator",
    "from_layer": "wafers_chemicals"
   }
  ],
@@ -24586,112 +22786,6 @@
    "best_tier": 1,
    "layer": "equipment",
    "source_layer": "equipment"
-  },
-  {
-   "id": "fin:tsmc-customer-concentration-2025",
-   "from": "co:tsmc",
-   "to": "co:tsmc",
-   "kind": "revenue_concentration",
-   "date": "2026-04-16",
-   "description": "TSMC 20-F: largest customer = 19% of 2025 net revenue (22% in 2024), second largest = 17% (12% in 2024), ten largest = 78% (76%). Customers are not named, so this is recorded as a self-referencing disclosure on TSMC; the paying customers are unidentified.",
-   "evidence": [
-    {
-     "source": "src:tsmc-20f-2025",
-     "quote": "While we generate revenue from hundreds of customers worldwide, our ten largest customers in 2023, 2024 and 2025 accounted for approximately, 70%, 76% and 78% of our net revenue in the respective year. Our largest customer in 2023, 2024 and 2025 accounted for 25%, 22% and 19% of our net revenue in the respective year. Our second largest customer in 2023, 2024 and 2025 accounted for 11%, 12%, and 17% of our net revenue in the respective year.",
-     "locator": "Item 3.D Risk Factors",
-     "supports": "amount"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fin:intel-customer-concentration-2025",
-   "from": "co:intel",
-   "to": "co:intel",
-   "kind": "revenue_concentration",
-   "date": "2026-01-23",
-   "description": "Intel 10-K: three largest customers = 43% of 2025 net revenue (45% in 2024, 40% in 2023), mainly Intel Products sales. Customers are not named in the quoted passage; recorded as a self-referencing disclosure.",
-   "evidence": [
-    {
-     "source": "src:intel-10k-2025",
-     "quote": "Collectively, our three largest customers accounted for 43% of our net revenue in 2025, 45% of our net revenue in 2024 and 40% of our net revenue in 2023.",
-     "locator": "Item 1A Risk Factors",
-     "supports": "amount"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fin:globalfoundries-customer-concentration-2025",
-   "from": "co:globalfoundries",
-   "to": "co:globalfoundries",
-   "kind": "revenue_concentration",
-   "date": "2026-02-27",
-   "description": "GlobalFoundries 20-F: ten largest customers = ~63% of 2025 wafer shipment volume (65% in 2024, 72% in 2023). Measured by volume, not revenue. Customers not named; self-referencing disclosure.",
-   "evidence": [
-    {
-     "source": "src:gfs-20f-2025",
-     "quote": "Our ten largest customers in 2025, 2024 and 2023 accounted for approximately 63%, 65% and 72% of our wafer shipment volume, respectively.",
-     "locator": "Item 3.D Risk Factors",
-     "supports": "amount"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fin:smic-customer-concentration-2025",
-   "from": "co:smic",
-   "to": "co:smic",
-   "kind": "revenue_concentration",
-   "date": "2026-04-08",
-   "description": "SMIC 2025 annual report: largest customer = 8.0% of revenue, five largest = 35.8%. Customers not named; self-referencing disclosure.",
-   "evidence": [
-    {
-     "source": "src:smic-ar-2025",
-     "quote": "During the Reporting Period, sales to the largest customer and the five largest customers accounted for 8.0% and 35.8% of the revenue for the year, respectively.",
-     "locator": "Section 4, Major customers and suppliers",
-     "supports": "amount"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication"
-  },
-  {
-   "id": "fin:samsung-customer-concentration-2025",
-   "from": "co:samsung",
-   "to": "co:samsung",
-   "kind": "revenue_concentration",
-   "date": "2026-03",
-   "description": "Samsung Electronics FY2025 business report: five major customers (Alphabet, Apple, Deutsche Telekom, Hong Kong Techtronics, Supreme Electronics) = ~15% of total company sales. This is company-wide, not foundry-specific; per-customer shares are not disclosed.",
-   "evidence": [
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "Sales to the five major customers accounted for approximately 15% of total sales.",
-     "locator": "II. Business overview, major customers",
-     "supports": "amount"
-    },
-    {
-     "source": "src:samsung-business-report-fy2025",
-     "quote": "Major customers In 2025, major customers (listed alphabetically) included Alphabet, Apple, Deutsche Telekom, Hong Kong Techtronics, and Supreme Electronics.",
-     "locator": "II. Business overview, major customers",
-     "supports": "named customers"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "fabrication",
-   "source_layer": "fabrication"
   },
   {
    "id": "fin:nvidia-sb-energy-ports-guarantee",

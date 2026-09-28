@@ -1,0 +1,1702 @@
+{
+  "layer": "datacenter",
+  "verifier": "counsel-agent",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched via SEC full-text-search phrase match (efts.sec.gov) after direct sec.gov fetch was blocked by SEC's bot filter; both cited quotes ('Company was formed for the purpose of...' and 'substantially completed and delivered to the tenant') confirmed verbatim present in this exact exhibit."
+    },
+    {
+      "source": "src:sb-energy-s1a-2026-09-21",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "SEC.gov blocked direct/curl fetch (bot filter) even with a descriptive User-Agent; retrieved full text via r.jina.ai reader proxy. All cited figures (8.0 GW-IT PORTS-Pike, 17 leases signed 2026-08-17, Milam Bldg 1 = 308 MW-IT, Bldg 2 = 445 MW-IT, 'No data center capacity is currently in operation' / PORTS-Pike 'not yet under construction') confirmed verbatim."
+    },
+    {
+      "source": "src:spacex-s1a-2026-06-03",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "SEC.gov and r.jina.ai both returned only a truncated cover page on first attempt (file is very large); confirmed all cited COLOSSUS/COLOSSUS II quotes instead via SEC EDGAR full-text-search exact-phrase match against this specific accession (0001628280-26-040364). All quotes (GPU counts, MW figures, Anthropic Cloud Services Agreement, glossary definitions) confirmed present verbatim."
+    },
+    {
+      "source": "src:mlgw-xai-update-2025-05-05",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "PDF; text extracted with pdftotext after WebFetch could not parse the binary. All three cited passages (Paul Lowery/Electrolux location, Tulane Rd second facility, 150MW/300MW figures) confirmed verbatim."
+    },
+    {
+      "source": "src:dona-ana-county-project-jupiter",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Re-fetched 2026-09-27/28. document_date recorded as '2026' because this is a live/undated county project page, not a single dated release; content (phase 1 timeline, investment figures) matches the cited quotes and shows no update reflecting the 2026-09-24 Oracle force-majeure news reported elsewhere (Tier 3 only as of this review — see fac:stack-project-jupiter-dona-ana)."
+    },
+    {
+      "source": "src:la-gov-meta-richland-2024-12-04",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:in-gov-aws-11b-2024-04-25",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:mda-aws-10b-2024-01-25",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:pa-gov-amazon-20b-2025-06-09",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:ok-commerce-google-2025-08-13",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:softbank-five-stargate-sites-2025-09-24",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "All seven cited passages (Shackelford County, Doña Ana County, Lordstown 'broken ground', Milam County/SB Energy, Abilene 'already up and running', Oracle GB200 racks 'in June', 5.5 GW combined figure) confirmed verbatim on direct fetch."
+    },
+    {
+      "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:oracle-zettascale10-2025-10-14",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:oracle-saline-construction-2026-06-01",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:related-saline-2025-10-30",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:vantage-port-washington-2025-10-22",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Confirmed verbatim, including the 'close to a gigawatt' capacity phrase. Status is now stale: see correction on fac:vantage-lighthouse-port-washington (construction began December 2025 per the City of Port Washington's official project page, portdatacenter.com)."
+    },
+    {
+      "source": "src:vantage-frontier-2025-08-19",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Confirmed via WebFetch: the release never names Oracle, OpenAI, or Stargate anywhere in the text. Only Vantage and the LEED program are named. The identification of Frontier as the Oracle/OpenAI Stargate Shackelford County site rests entirely on inference from a separate source (src:softbank-five-stargate-sites-2025-09-24), which names only the county. See fac:vantage-frontier-shackelford."
+    },
+    {
+      "source": "src:sb-energy-openai-2026-01-09",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:nvidia-xai-colossus-2024-10-28",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:supermicro-xai-colossus-story",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:meta-richland-parish-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:meta-q2-2025-call",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:meta-nuclear-2026-01-09",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:meta-el-paso-blackrock-2026-07-28",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:nvidia-meta-partnership-2026-02-17",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:microsoft-inside-fairwater-2025-09-18",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:microsoft-superfactory-arch-2025-11-12",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:microsoft-wisconsin-to-atlanta-2025-11-12",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:microsoft-mount-pleasant-complete-2026-06-23",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:amazon-indiana-11b-2024-04-25",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:amazon-project-rainier-2025-10-29",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:google-texas-40b-2025-11-14",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:core-scientific-denton-2025-02-26",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:coreweave-lancaster-2025-07-15",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:applied-digital-pf1-rfs-2025-11-24",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:applied-digital-150mw-2025-08-29",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:galaxy-helios-phase1-2026-07-06",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:galaxy-helios-financing-2025-08-15",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:anthropic-50b-2025-11-12",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched and spot-checked; content and date consistent with citation."
+    },
+    {
+      "source": "src:memphis-chamber-xai-expansion-2024-12-04",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 3,
+      "date_ok": true,
+      "notes": "Correctly tier-3 (private nonprofit chamber of commerce, not a government or company primary source). Confirmed: the Dell/Nvidia/Supermicro sentence says only that Dell 'will be establishing operations in Memphis' — it does not name xAI or Colossus. See flow:dell-servers-to-xai-colossus."
+    },
+    {
+      "source": "src:core-scientific-8k-2026-04-21-ex992",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Retrieved full text via r.jina.ai reader proxy after direct SEC fetch was blocked. All facility quotes and the CoreWeave power-allocation table (Dalton 1 30MW / Dalton 4 145MW / Marble 65MW / Muskogee 70MW / Denton 262MW / Austin 16.5MW) confirmed verbatim, including the illustrative timeline table used in the analyst's capacity notes."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:openai",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oracle",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:softbank",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:crusoe",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:vantage-data-centers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:related-digital",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sb-energy",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:stack-infrastructure",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xai",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amazon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alphabet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:coreweave",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:core-scientific",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:applied-digital",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:galaxy-digital",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:anthropic",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:fluidstack",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:supermicro",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:dell",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:vantage-frontier-shackelford",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vantage-frontier-shackelford",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vantage-frontier-shackelford",
+      "evidence_index": 2,
+      "verdict": "does_not_support",
+      "notes": "Quote ('The three new sites – located in Shackelford County, Texas...') is real (SoftBank, Tier 2) and confirms Shackelford County has an Oracle-developed Stargate site, but it never names Vantage or 'Frontier'. It does not by itself support the label 'Stargate site in Shackelford County (Oracle-developed)' as applied to this specific facility -- that identification is an inference, not a documented fact. See entity_verdict correction to name."
+    },
+    {
+      "entity": "fac:vantage-frontier-shackelford",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:stack-project-jupiter-dona-ana",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:stack-project-jupiter-dona-ana",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:stack-project-jupiter-dona-ana",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:stack-project-jupiter-dona-ana",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:stack-project-jupiter-dona-ana",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "capacity:1: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:vantage-lighthouse-port-washington",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vantage-lighthouse-port-washington",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vantage-lighthouse-port-washington",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vantage-lighthouse-port-washington",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:related-digital-saline-township",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:related-digital-saline-township",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:related-digital-saline-township",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:related-digital-saline-township",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:related-digital-saline-township",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:softbank-lordstown",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-milam-county",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-milam-county",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-milam-county",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-milam-county",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-milam-county",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:sb-energy-ports-pike",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-ports-pike",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-ports-pike",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sb-energy-ports-pike",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:xai-colossus-memphis",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-memphis",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-memphis",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-memphis",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "capacity:1: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:meta-hyperion-richland-parish",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-hyperion-richland-parish",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-hyperion-richland-parish",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-hyperion-richland-parish",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-hyperion-richland-parish",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:meta-prometheus-new-albany",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-prometheus-new-albany",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-prometheus-new-albany",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:meta-el-paso",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-el-paso",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-el-paso",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:meta-el-paso",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant-2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant-2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant-2",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:microsoft-fairwater-atlanta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:microsoft-fairwater-atlanta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-rainier-new-carlisle",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-rainier-new-carlisle",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-rainier-new-carlisle",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-rainier-new-carlisle",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-rainier-new-carlisle",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:amazon-madison-county-ms",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-madison-county-ms",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-madison-county-ms",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:amazon-salem-township-pa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-salem-township-pa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-falls-township-pa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:amazon-falls-township-pa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:google-armstrong-county",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:google-armstrong-county",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:google-haskell-county",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:google-haskell-county",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:google-stillwater",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:google-stillwater",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-denton",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-denton",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-denton",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-denton",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:core-scientific-dalton-4",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-dalton-4",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-dalton-4",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-dalton-4",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:core-scientific-muskogee",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-muskogee",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-muskogee",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:core-scientific-marble",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-marble",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:core-scientific-marble",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:coreweave-lancaster",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:coreweave-lancaster",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:applied-digital-polaris-forge-1",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:applied-digital-polaris-forge-1",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:applied-digital-polaris-forge-1",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:applied-digital-polaris-forge-1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:galaxy-helios",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:galaxy-helios",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:galaxy-helios",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0: verified verbatim; supports capacity figure as labeled (investment-dollar capacity figures are explicitly labeled unit=USD, which is honest per the acceptable-if-labeled convention)."
+    },
+    {
+      "entity": "fac:fluidstack-anthropic-texas",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:fluidstack-anthropic-texas",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:fluidstack-anthropic-new-york",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-stargate-abilene",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-stargate-abilene",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-stargate-abilene",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:oracle-oci-racks-to-stargate-abilene",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:oracle-oci-racks-to-stargate-abilene",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-hopper-to-xai-colossus",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-hopper-to-xai-colossus",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:supermicro-servers-to-xai-colossus",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:dell-servers-to-xai-colossus",
+      "evidence_index": 0,
+      "verdict": "does_not_support",
+      "notes": "Quote is real and present in the Greater Memphis Chamber release (Tier 3) but only says Dell 'will be establishing operations in Memphis' -- it does not mention xAI, Colossus, or any server-supply relationship. Does not establish the stated relationship even as an inference premise."
+    },
+    {
+      "entity": "flow:dell-servers-to-xai-colossus",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote is accurately labeled 'context' only (announcement venue), not a relationship claim; verified as such."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-xai-colossus-2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-xai-colossus-2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-fairwater-wisconsin",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-fairwater-wisconsin",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-fairwater-atlanta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-fairwater-atlanta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-fairwater-wisconsin-2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-fairwater-wisconsin-2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:amazon-trainium2-to-project-rainier",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:amazon-trainium2-to-project-rainier",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-units-to-ports-pike",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-units-to-ports-pike",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-denton",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-denton",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-dalton-4",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-dalton-4",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-muskogee",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-muskogee",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-marble",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-marble",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-polaris-forge-1",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-polaris-forge-1",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-galaxy-helios",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-galaxy-helios",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-coreweave-lancaster",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-coreweave-lancaster",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-hyperion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-hyperion",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-prometheus",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-prometheus",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-el-paso",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-el-paso",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-saline",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-saline",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-port-washington",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-port-washington",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-shackelford",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-shackelford",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-jupiter",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-jupiter",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-milam",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-milam",
+      "evidence_index": 1,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:openai",
+      "verdict": "publish",
+      "reasons": "Existence documented by a Tier 2 SoftBank release naming OpenAI as a Stargate partner; consistent with all other sources in this file."
+    },
+    {
+      "entity": "co:oracle",
+      "verdict": "publish",
+      "reasons": "Existence and role documented by Oracle's own Tier 2 release (Zettascale10) plus multiple SEC and gov sources elsewhere in the file."
+    },
+    {
+      "entity": "co:softbank",
+      "verdict": "publish",
+      "reasons": "Existence and Stargate role documented by SoftBank's own Tier 2 release."
+    },
+    {
+      "entity": "co:crusoe",
+      "verdict": "publish",
+      "reasons": "Existence and Abilene role documented by Crusoe's own Tier 2 release."
+    },
+    {
+      "entity": "co:vantage-data-centers",
+      "verdict": "publish",
+      "reasons": "Existence documented by Vantage's own Tier 2 release (Frontier campus announcement)."
+    },
+    {
+      "entity": "co:related-digital",
+      "verdict": "publish",
+      "reasons": "Existence documented by Related Digital's own Tier 2 release (Saline Township announcement)."
+    },
+    {
+      "entity": "co:sb-energy",
+      "verdict": "publish",
+      "reasons": "Existence documented by SB Energy's own Tier 2 release; also appears as a Tier 1 SEC S-1/A registrant (CIK 2133037), which independently confirms the company's existence."
+    },
+    {
+      "entity": "co:stack-infrastructure",
+      "verdict": "publish",
+      "reasons": "Existence documented by a Tier 1 county government page (Doña Ana County) naming STACK Infrastructure as Project Jupiter's developer."
+    },
+    {
+      "entity": "co:xai",
+      "verdict": "publish",
+      "reasons": "Existence documented directly by SpaceX's own Tier 1 SEC S-1/A, which describes xAI/COLOSSUS in detail."
+    },
+    {
+      "entity": "co:meta",
+      "verdict": "publish",
+      "reasons": "Existence documented by a Tier 1 Louisiana governor's-office release; Meta is also independently a well-documented SEC registrant (CIK 1326801) cited elsewhere in the file."
+    },
+    {
+      "entity": "co:microsoft",
+      "verdict": "publish",
+      "reasons": "Existence documented by Microsoft's own Tier 2 release (Inside Fairwater)."
+    },
+    {
+      "entity": "co:amazon",
+      "verdict": "publish",
+      "reasons": "Existence documented by AWS's own Tier 2 release (Indiana investment); AWS/Amazon is also confirmed via the Tier 1 Indiana gov release cited on the facility."
+    },
+    {
+      "entity": "co:alphabet",
+      "verdict": "publish",
+      "reasons": "Existence documented by Google's own Tier 2 release (Texas $40B investment)."
+    },
+    {
+      "entity": "co:coreweave",
+      "verdict": "publish",
+      "reasons": "Existence documented by CoreWeave's own Tier 2 release (Lancaster, PA); CoreWeave's role as tenant is also independently confirmed by the Tier 1 Core Scientific 8-K exhibit."
+    },
+    {
+      "entity": "co:core-scientific",
+      "verdict": "publish",
+      "reasons": "Existence documented by Core Scientific's own Tier 2 release; independently confirmed as a Tier 1 SEC registrant via the 8-K exhibit used elsewhere in the file."
+    },
+    {
+      "entity": "co:applied-digital",
+      "verdict": "publish",
+      "reasons": "Existence documented by Applied Digital's own Tier 2 release (Polaris Forge 1 RFS)."
+    },
+    {
+      "entity": "co:galaxy-digital",
+      "verdict": "publish",
+      "reasons": "Existence documented by Galaxy's own Tier 2 release (Helios Phase I)."
+    },
+    {
+      "entity": "co:anthropic",
+      "verdict": "publish",
+      "reasons": "Existence documented by Anthropic's own Tier 2 release ($50B infrastructure investment); Anthropic's role as an AWS/Amazon tenant is also independently confirmed by Amazon's own Tier 2 Project Rainier release."
+    },
+    {
+      "entity": "co:fluidstack",
+      "verdict": "publish",
+      "reasons": "Existence documented by Anthropic's own Tier 2 release naming Fluidstack as its data-center partner."
+    },
+    {
+      "entity": "co:nvidia",
+      "verdict": "publish",
+      "reasons": "Existence documented by NVIDIA's own Tier 2 release (xAI Colossus/Spectrum-X); NVIDIA is also an SEC registrant referenced throughout the file's flow evidence."
+    },
+    {
+      "entity": "co:supermicro",
+      "verdict": "publish",
+      "reasons": "Existence documented by Supermicro's own Tier 2 company-website case study."
+    },
+    {
+      "entity": "co:dell",
+      "verdict": "publish_flagged",
+      "reasons": "The only evidence cited for this company entity is a Tier 3 Greater Memphis Chamber release, which is real but says only that Dell 'will be establishing operations in Memphis' -- it does not name xAI or Colossus. Flag: no Tier 1/2 source in this file confirms Dell's presence or role in the datacenter supply chain. (Separately, and more materially, the flow tying Dell to xAI's Colossus specifically -- flow:dell-servers-to-xai-colossus -- is rejected below; that rejection does not affect this bare company-existence verdict.)"
+    },
+    {
+      "entity": "fac:crusoe-abilene",
+      "verdict": "publish",
+      "reasons": "Existence, location, and status all confirmed by Tier 1 (Blue Owl 10-K exhibit) and Tier 2 (Crusoe, SoftBank, Oracle) sources fetched and verified verbatim. 'Operational' status is well supported: the Blue Owl exhibit states the buildings were 'substantially completed and delivered to the tenant' in 2025, and SoftBank's Sept 2025 release calls it 'already up and running.'"
+    },
+    {
+      "entity": "fac:vantage-frontier-shackelford",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, location, $25B+ investment, and 1.4GW capacity are solidly documented by Vantage's own Tier 2 release (confirmed verbatim by direct fetch). But the facility's identification as 'the' Oracle/OpenAI Stargate site in Shackelford County is an inference, not a documented fact: Vantage's own release never mentions Oracle, OpenAI, or Stargate anywhere in its text (confirmed by direct fetch), and the SoftBank release that does confirm a Shackelford County Stargate site never names Vantage or Frontier. The inference (single major Vantage campus in the county + a confirmed Oracle Stargate site in that county) is reasonable, and the capacity.note already discloses it honestly, but the facility *name* asserts the identification as settled fact. Corrected the name to make the inference explicit rather than asserted.",
+      "corrections": {
+        "name": "Vantage Frontier campus, Shackelford County, TX (Vantage-developed 1.4GW campus; identification as the Oracle/OpenAI Stargate Shackelford County site is an inference -- no fetched source names the tenant)"
+      }
+    },
+    {
+      "entity": "fac:stack-project-jupiter-dona-ana",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, location, and investment figures are documented by a Tier 1 county government page and a Tier 2 SoftBank release, both confirmed verbatim (re-fetched 2026-09-27/28). Status 'planned' is appropriately conservative and does not overstate. Flag for currency: multiple news outlets (Forbes, ABQ Journal, KRWG, Energy News Beat -- all Tier 3) reported on 2026-09-24 that Oracle sent a force-majeure notice to developer STACK Infrastructure over a delayed gas-pipeline permit, expecting roughly a one-year delay. I checked SEC EDGAR full-text search for any Oracle or STACK/Blue Owl 8-K referencing 'Project Jupiter' + 'force majeure' (none found as of 2026-09-28) and re-fetched the Doña Ana County page directly (no update, no mention of the notice). No Tier 1/2 primary document yet confirms or quantifies this development, so no correction is made to status or timeline -- doing so on Tier 3 alone would violate the evidence standard. The analyst's gaps[] entry ('Project Jupiter force majeure / current status') is honest and should remain; the site's future should be treated as materially uncertain by any downstream reader."
+    },
+    {
+      "entity": "fac:vantage-lighthouse-port-washington",
+      "verdict": "publish_flagged",
+      "reasons": "Existence, tenant (OpenAI/Oracle), investment ($15B+), and 'close to a gigawatt' capacity are confirmed verbatim from Vantage's own Tier 2 release. Status is corrected: the Oct 2025 release said only 'construction will begin soon,' which the research file recorded as status='announced'. I found that construction has since begun -- the City of Port Washington's official project information site (portdatacenter.com, a municipal government page, i.e. Tier 1 gov_press_release-equivalent) states 'construction began in December 2025,' and Vantage's own blog has since posted community-investment and hiring/career-expo updates (March 2026 onward) consistent with active construction. This source was found during verification and is not part of the research file's sources[]; flagging rather than a plain 'publish' because the correcting citation sits outside the file's normal source_checks pipeline and should be added to sources[] on the next research pass.",
+      "corrections": {
+        "status": "under_construction"
+      }
+    },
+    {
+      "entity": "fac:related-digital-saline-township",
+      "verdict": "publish",
+      "reasons": "Existence, location, tenant (Oracle, exclusively), and status all confirmed verbatim from Related Digital's and Oracle's own Tier 2 releases, both fetched directly. The June 2026 Oracle release independently confirms construction is underway, consistent with status='under_construction'."
+    },
+    {
+      "entity": "fac:softbank-lordstown",
+      "verdict": "publish_flagged",
+      "reasons": "The single evidence item (SoftBank's Sept 2025 release: 'SoftBank has broken ground... on track to be operational next year') is verbatim-confirmed and, read alone, supports status='under_construction'. Material flag: this is now a 12+ month-old Tier 2 source, and subsequent Tier 3 reporting (DataCenterDynamics: 'Data centers now banned in Lordstown, Ohio'; Spectrum News 1; Business Journal Daily) describes a Village Council permitting moratorium enacted Jan 2026 and later reports that SoftBank/Foxconn pivoted the site toward manufacturing modular data-center components rather than operating a data center on-site, with litigation over the ban pending before the Ohio Supreme Court. I could not find any Tier 1/2 document (a village ordinance text, a court filing, or a SoftBank statement) that would let me confidently correct the status field one way or the other, so per the 'unknown is an answer' rule I am not changing status on Tier 3 sourcing alone. The analyst's own gaps[] entry ('Lordstown, Ohio status') is honest and appropriate. Flagging this entity so the UI shows a visible caveat: the current 'under_construction' status is stale and contested, and the site's continued use as a data center is now in doubt."
+    },
+    {
+      "entity": "fac:sb-energy-milam-county",
+      "verdict": "publish",
+      "reasons": "Existence, tenant (OpenAI), and status ('under construction') all confirmed verbatim against the SB Energy S-1/A (fetched via r.jina.ai reader after direct SEC fetch was blocked) and SB Energy's own Tier 2 release. S-1/A table confirms Building 1 = 308 MW-IT, Building 2 = 445 MW-IT, both with 2028 RFS dates, consistent with the capacity note."
+    },
+    {
+      "entity": "fac:sb-energy-ports-pike",
+      "verdict": "publish",
+      "reasons": "Existence, tenant (OpenAI), and the specific figures the analyst was asked to double-check -- '17 leases' signed 2026-08-17 and '8.0 GW-IT' of contracted capacity -- are all confirmed verbatim against the SB Energy S-1/A. Status='planned' is directly supported: the S-1/A states 'No data center capacity is currently in operation' and that, as of the prospectus date, PORTS-Pike has an executed lease but 'is not yet under construction.'"
+    },
+    {
+      "entity": "fac:xai-colossus-memphis",
+      "verdict": "publish",
+      "reasons": "Existence, location, and the ~100,000 H100 / ~130MW first-cluster figures are confirmed verbatim against the SpaceX S-1/A (via SEC full-text-search exact-phrase match against this specific accession) and the MLGW utility PDF (via pdftotext). Capacity is honestly labeled as grid electric service (150MW, requesting 300MW total), distinct from the S-1/A's compute-power figures, and the note makes this distinction explicit."
+    },
+    {
+      "entity": "fac:xai-colossus-2-memphis",
+      "verdict": "publish",
+      "reasons": "Existence, location, and all cited figures (110,000 GB200/~210MW first cluster, 110,000 GB300/~220MW second cluster, Anthropic Cloud Services Agreement) confirmed verbatim against the SpaceX S-1/A via SEC full-text-search exact-phrase match. This directly resolves the analyst's flagged concern about the Colossus GPU counts in the SpaceX S-1/A -- all figures check out exactly as cited."
+    },
+    {
+      "entity": "fac:meta-hyperion-richland-parish",
+      "verdict": "publish",
+      "reasons": "Existence, location, and the 5GW/Hyperion capacity claim confirmed verbatim against Meta's own datacenters.atmeta.com page, the Louisiana governor's Tier 1 release, and the Q2 2025 earnings-call transcript (confirmed via pdftotext against the source PDF)."
+    },
+    {
+      "entity": "fac:meta-prometheus-new-albany",
+      "verdict": "publish_flagged",
+      "reasons": "Existence and location documented by a Tier 2 Meta release (nuclear-power projects) and the Q2 2025 earnings call (confirmed via pdftotext: 'Our Prometheus cluster is coming online next year and we think it'll be the world's first 1GW+ cluster'). Status='under_construction' is appropriately conservative -- I checked Meta's Q2 2026 earnings-call transcript (the most recent one available) via pdftotext and found no mention of Prometheus or Hyperion at all, so there is no newer Tier 1/2 statement to confirm an operational date. Flagging because status cannot be pinned down more precisely than 'still not confirmed operational as of the latest primary source checked' -- a caveat, not an error."
+    },
+    {
+      "entity": "fac:meta-el-paso",
+      "verdict": "publish",
+      "reasons": "Existence, location, status (under construction), 1GW capacity, $10B+ investment, and 2028 online date all confirmed verbatim against Meta's own Tier 2 release."
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant",
+      "verdict": "publish",
+      "reasons": "Existence, location, and 'fully operational' status confirmed verbatim against three of Microsoft's own Tier 2 releases (Made in Wisconsin, Inside Fairwater, and the June 2026 completion release with the Brad Smith quote)."
+    },
+    {
+      "entity": "fac:microsoft-fairwater-mount-pleasant-2",
+      "verdict": "publish",
+      "reasons": "Existence, $4B investment, and 'under_construction' status (foundation, steel erection, underground utility work per the June 2026 release) confirmed verbatim against Microsoft's own Tier 2 releases."
+    },
+    {
+      "entity": "fac:microsoft-fairwater-atlanta",
+      "verdict": "publish",
+      "reasons": "Existence, location, and 'operational' status ('began operation in October') confirmed verbatim against two of Microsoft's own Tier 2 releases."
+    },
+    {
+      "entity": "fac:amazon-rainier-new-carlisle",
+      "verdict": "publish",
+      "reasons": "Existence, location, tenant (Anthropic), and 'fully operational' status confirmed verbatim against AWS's own Tier 2 releases (including the ~500,000 Trainium2 chips and 'now on more than 1 million Trainium2 chips' figures) and the Tier 1 Indiana gov release. Capacity is honestly labeled as the original $11B investment figure (unit=USD), with the note correctly stating that power capacity (~2.2GW reported in news) is not confirmed by any fetched Tier 1/2 source."
+    },
+    {
+      "entity": "fac:amazon-madison-county-ms",
+      "verdict": "publish",
+      "reasons": "Existence and the $10B investment/1,000-jobs figures confirmed verbatim against the Tier 1 Mississippi Development Authority release. Status='announced' (Jan 2024 source) is conservative; no more recent Tier 1/2 update on construction progress was found or required for the material claims here."
+    },
+    {
+      "entity": "fac:amazon-salem-township-pa",
+      "verdict": "publish",
+      "reasons": "Existence and location confirmed verbatim against the Tier 1 Pennsylvania governor's release, including the Governor Shapiro quote naming Luzerne County specifically."
+    },
+    {
+      "entity": "fac:amazon-falls-township-pa",
+      "verdict": "publish",
+      "reasons": "Existence and location confirmed verbatim against the Tier 1 Pennsylvania governor's release, including the Governor Shapiro quote naming Bucks County specifically."
+    },
+    {
+      "entity": "fac:google-armstrong-county",
+      "verdict": "publish",
+      "reasons": "Existence and location confirmed verbatim against Google's own Tier 2 release."
+    },
+    {
+      "entity": "fac:google-haskell-county",
+      "verdict": "publish",
+      "reasons": "Existence, location, and the solar+storage site detail confirmed verbatim against Google's own Tier 2 release."
+    },
+    {
+      "entity": "fac:google-stillwater",
+      "verdict": "publish",
+      "reasons": "Existence and location confirmed verbatim against the Tier 1 Oklahoma Department of Commerce release."
+    },
+    {
+      "entity": "fac:core-scientific-denton",
+      "verdict": "publish",
+      "reasons": "Existence, location, tenant (CoreWeave, 100% licensed), and the 262MW capacity figure confirmed verbatim against the Tier 1 Core Scientific 8-K exhibit and the company's own Tier 2 press release. The 8-K's illustrative timeline table independently confirms the note's 'deliveries have started; substantial completion anticipated H2 2026.'"
+    },
+    {
+      "entity": "fac:core-scientific-dalton-4",
+      "verdict": "publish",
+      "reasons": "Existence, location (3024 Old Tilton Road, Dalton, GA, ~167 acres), and 145MW capacity confirmed verbatim against the Tier 1 8-K exhibit; the timeline table independently confirms 'starting delivery H2 2026, substantial completion H1 2027' exactly as noted."
+    },
+    {
+      "entity": "fac:core-scientific-muskogee",
+      "verdict": "publish",
+      "reasons": "Existence, location (Smith Ferry Road, 64 acres, 70MW), and tenant confirmed verbatim against the Tier 1 8-K exhibit; the timeline table independently confirms H1 2026 for both start and substantial completion."
+    },
+    {
+      "entity": "fac:core-scientific-marble",
+      "verdict": "publish",
+      "reasons": "Existence, location (155 Palmer Lane, 65MW), and tenant confirmed verbatim against the Tier 1 8-K exhibit, which also discloses 'approximately 37 MWs are currently operational and billing' as of the filing date -- consistent with status='under_construction'."
+    },
+    {
+      "entity": "fac:coreweave-lancaster",
+      "verdict": "publish",
+      "reasons": "Existence, location, $6B initial investment, and 'up to 300MW' capacity confirmed verbatim against CoreWeave's own Tier 2 release."
+    },
+    {
+      "entity": "fac:applied-digital-polaris-forge-1",
+      "verdict": "publish",
+      "reasons": "Existence, location, 400MW contracted/CoreWeave tenant, and 'operational' status ('Building 1 now operates at its full 100 MW critical IT load') confirmed verbatim against two of Applied Digital's own Tier 2 releases."
+    },
+    {
+      "entity": "fac:galaxy-helios",
+      "verdict": "publish",
+      "reasons": "Existence, location, tenant (CoreWeave), 'operational' status (Phase I delivered), and the 800MW gross/526MW critical-IT-contracted capacity figures confirmed verbatim against Galaxy's own Tier 2 release."
+    },
+    {
+      "entity": "fac:fluidstack-anthropic-texas",
+      "verdict": "publish",
+      "reasons": "Existence and state-level location confirmed verbatim against Anthropic's own Tier 2 release; region-level precision is honest given the release itself does not disclose a specific site."
+    },
+    {
+      "entity": "fac:fluidstack-anthropic-new-york",
+      "verdict": "publish",
+      "reasons": "Existence and state-level location confirmed verbatim against Anthropic's own Tier 2 release; region-level precision is honest given the release itself does not disclose a specific site."
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-stargate-abilene",
+      "verdict": "publish",
+      "reasons": "Documented: SoftBank and Crusoe Tier 2 releases both confirmed verbatim, naming NVIDIA GB200 racks deployed at the Abilene campus."
+    },
+    {
+      "entity": "flow:oracle-oci-racks-to-stargate-abilene",
+      "verdict": "publish",
+      "reasons": "Documented: SoftBank and Oracle Tier 2 releases both confirmed verbatim."
+    },
+    {
+      "entity": "flow:nvidia-hopper-to-xai-colossus",
+      "verdict": "publish",
+      "reasons": "Documented: NVIDIA's own Tier 2 release and the SpaceX S-1/A (Tier 1, confirmed via SEC full-text search) both name the 100,000 H100 GPUs at Colossus."
+    },
+    {
+      "entity": "flow:supermicro-servers-to-xai-colossus",
+      "verdict": "publish",
+      "reasons": "Documented: confirmed verbatim against Supermicro's own Tier 2 case study."
+    },
+    {
+      "entity": "flow:dell-servers-to-xai-colossus",
+      "verdict": "reject",
+      "reasons": "The only source is Tier 3 (Greater Memphis Chamber, a private nonprofit). More importantly, on inspection the quote itself does not support even an inferred relationship: it says only that Dell 'will be establishing operations in Memphis' in the same announcement that covered the Colossus expansion -- it never mentions xAI, Colossus, or any server-supply role for Dell. A sound inference needs a documented premise for each side of the link (as the analyst correctly did for the CoreWeave-site flows, e.g. 'CoreWeave is the documented tenant' + 'CoreWeave's infrastructure uses NVIDIA'); here there is no second premise connecting Dell's unspecified Memphis 'operations' to Colossus specifically. The analyst's own inference_note candidly calls this 'unconfirmed,' which is honest, but an honest disclaimer does not rescue a claim that isn't inferrable from the cited evidence at all. Reject; this belongs in gaps[] (the analyst already lists 'Dell-xAI server supply' there) rather than as a rendered flow."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-xai-colossus-2",
+      "verdict": "publish",
+      "reasons": "Documented: both cited SpaceX S-1/A passages (~325,000 NVIDIA GPUs across COLOSSUS/COLOSSUS II; 110,000 GB200 at ~210MW) confirmed verbatim via SEC full-text-search exact-phrase match."
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-fairwater-wisconsin",
+      "verdict": "publish",
+      "reasons": "Documented: confirmed verbatim against two of Microsoft's own Tier 2 releases."
+    },
+    {
+      "entity": "flow:nvidia-gb200-to-fairwater-atlanta",
+      "verdict": "publish",
+      "reasons": "Documented: confirmed verbatim against two of Microsoft's own Tier 2 releases."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-fairwater-wisconsin-2",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, and the inference is sound and clearly disclosed: Microsoft describes the second Mount Pleasant facility as 'of similar size and scale' to Fairwater (confirmed verbatim), and every Fairwater datacenter is documented to run NVIDIA Blackwell/GB200 GPUs (confirmed verbatim); the accelerator for this specific second building is not independently documented. Flagged per the inferred-flow convention."
+    },
+    {
+      "entity": "flow:amazon-trainium2-to-project-rainier",
+      "verdict": "publish",
+      "reasons": "Documented: confirmed verbatim against AWS's own Tier 2 Project Rainier release, including the New Carlisle/St. Joseph County site attribution and chip-count figures."
+    },
+    {
+      "entity": "flow:nvidia-units-to-ports-pike",
+      "verdict": "publish",
+      "reasons": "Documented, and correctly so (not merely inferred): the SB Energy S-1/A explicitly states 'OpenAI is dependent on NVIDIA for providing the necessary GPU units for the PORTS-Pike data centers,' naming both the facility and NVIDIA directly. Confirmed verbatim via r.jina.ai fetch of the S-1/A."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-denton",
+      "verdict": "publish",
+      "reasons": "Documented: Core Scientific's own Tier 2 release confirmed verbatim, tying CoreWeave's (and by extension NVIDIA's) GPU operations to the Denton expansion."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-dalton-4",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, and the two-premise chain is sound and disclosed: Dalton 4 is 100% licensed to CoreWeave (Tier 1 8-K, confirmed verbatim) + CoreWeave's infrastructure supports NVIDIA GPU operations (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Dalton 4. Model/volume correctly left undocumented."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-muskogee",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred on the same sound, disclosed two-premise chain as Dalton 4 (CoreWeave license confirmed via Tier 1 8-K + CoreWeave-NVIDIA link via Tier 2 release, both verified verbatim)."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-core-scientific-marble",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred on the same sound, disclosed two-premise chain as Dalton 4 (CoreWeave license confirmed via Tier 1 8-K + CoreWeave-NVIDIA link via Tier 2 release, both verified verbatim)."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-polaris-forge-1",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed: CoreWeave is the documented tenant (Applied Digital Tier 2 release, confirmed verbatim) + CoreWeave's infrastructure uses NVIDIA GPUs (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Polaris Forge 1."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-galaxy-helios",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed: CoreWeave is the documented Helios tenant (Galaxy Tier 2 financing release, confirmed verbatim) + CoreWeave-NVIDIA link (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Helios."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-coreweave-lancaster",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed: CoreWeave will equip the Lancaster site (CoreWeave's own Tier 2 release, confirmed verbatim) + CoreWeave-NVIDIA link (Tier 2 Core Scientific release, confirmed verbatim) => NVIDIA at Lancaster."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-hyperion",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed: the NVIDIA-Meta partnership (millions of Blackwell/Rubin GPUs for Meta hyperscale datacenters, confirmed verbatim) + Hyperion is Meta's largest AI cluster (confirmed verbatim) => NVIDIA at Hyperion. The analyst appropriately hedges that Meta also deploys in-house MTIA accelerators, so site-level GPU vendor is genuinely uncertain."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-prometheus",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred on the same sound, disclosed NVIDIA-Meta-partnership chain as Hyperion, confirmed verbatim."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-meta-el-paso",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred on the same sound, disclosed NVIDIA-Meta-partnership chain, confirmed verbatim."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-saline",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed: Saline Township is documented as exclusively for Oracle (Related Digital Tier 2 release, confirmed verbatim) + Oracle's Stargate/OCI clusters use NVIDIA GPUs (SoftBank and Oracle Tier 2 releases, confirmed verbatim) => NVIDIA at Saline. Both premises here are solid (unlike Shackelford, the tenant identity is documented, not itself inferred)."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-port-washington",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed, on the same pattern as Saline: Port Washington's OpenAI/Oracle tenancy is directly documented (Vantage's own release names both), so only the GPU vendor is inferred."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-shackelford",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, but weaker than the Saline/Port Washington flows: here the tenant identity itself (Frontier = the Oracle/OpenAI Stargate Shackelford County site) is also an inference, not documented -- see fac:vantage-frontier-shackelford. This flow therefore rests on a two-hop inference (facility identity, then GPU vendor), which the analyst's own inference_note honestly discloses ('Tenant link and accelerator both inferred'). Flagged with a stronger caveat than the single-hop inferred flows."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-jupiter",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed: Doña Ana County is a documented Oracle-developed Stargate site (SoftBank release, confirmed verbatim) + Oracle Stargate clusters use NVIDIA (confirmed verbatim) => NVIDIA at Jupiter. Analyst correctly notes the site is not yet built."
+    },
+    {
+      "entity": "flow:nvidia-gpus-to-stargate-milam",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, sound and disclosed: OpenAI is the documented Milam County tenant (SB Energy S-1/A, confirmed verbatim via r.jina.ai fetch) + the S-1/A documents NVIDIA dependence for OpenAI's leases generally and for PORTS-Pike specifically, but not by name for Milam => inferred, as the analyst candidly notes."
+    }
+  ],
+  "summary": "Reviewed all 42 sources, 22 companies, 32 facilities, and 26 flows in the datacenter layer. Fetched every source directly (SEC filings via r.jina.ai reader proxy and EDGAR full-text-search exact-phrase matching after sec.gov blocked scripted fetches even with a descriptive User-Agent per the SEC's bot policy; all other sources via direct fetch). Verdict counts -- entities: 58 publish, 21 publish_flagged, 1 reject (out of 80 judged: 22 companies + 32 facilities + 26 flows). Evidence items: 182 of 184 verified verbatim; 2 does_not_support findings (flow:dell-servers-to-xai-colossus evidence 0; fac:vantage-frontier-shackelford evidence 2). \n\nWorst problems: (1) flow:dell-servers-to-xai-colossus is REJECTED -- its only source (a Tier 3 Greater Memphis Chamber release) never actually ties Dell to xAI or Colossus, only says Dell 'will be establishing operations in Memphis' in the same announcement. Even as an inferred flow this doesn't clear the bar; it belongs in gaps[], where the analyst has in fact already listed it. (2) fac:vantage-frontier-shackelford's name asserted as fact that the Vantage Frontier campus IS the Oracle/OpenAI Stargate Shackelford County site; on direct fetch, Vantage's own release never mentions Oracle, OpenAI, or Stargate at all. The underlying inference is reasonable and the capacity.note already disclosed it honestly, but the entity name overstated it -- corrected the name and flagged the entity and its downstream flow (flow:nvidia-gpus-to-stargate-shackelford, which inherits the same uncertainty). (3) fac:vantage-lighthouse-port-washington's status ('announced') was stale: construction actually began December 2025 per the City of Port Washington's official project page, found during this review and not part of the research file's own sources[]. Corrected status to under_construction and flagged for the analyst to add that source formally. (4) fac:softbank-lordstown's single Tier 2 source (Sept 2025, 'broken ground... operational next year') is now contradicted by extensive Tier 3 reporting of a village data-center permitting ban/moratorium and a possible pivot of the site away from data-center use, with litigation pending before the Ohio Supreme Court. No Tier 1/2 document exists yet to correct the status confidently either way, so status is left unchanged per 'unknown is an answer,' but flagged heavily -- this is the most stale entity in the file. (5) Oracle's reported 2026-09-24 force-majeure notice on Project Jupiter: confirmed this is news-only as of 2026-09-28 (checked SEC EDGAR full-text search for any Oracle/STACK/Blue Owl 8-K, and re-fetched the Doña Ana County page directly -- neither reflects it). The research file's existing status ('planned') does not overstate this and needs no correction; flagged only for reader awareness. (6) The 8.0 GW-IT / 17-lease PORTS-Pike claim (SB Energy S-1/A, 2026-09-21) and the Colossus/Colossus II GPU counts (SpaceX S-1/A, 2026-06-03) were both independently re-verified against the primary SEC text and check out exactly as cited -- no issues found. (7) The 16 inferred (of 26) flows were reviewed individually: 15 use a sound, clearly disclosed two-part premise chain (documented operator/tenant relationship + a documented but site-nonspecific technology fact) and are publish_flagged; only the Dell flow fails outright. The Shackelford flow inherits a second layer of uncertainty from the facility-identity problem above and is flagged more strongly than its peers. \n\nRejected: flow:dell-servers-to-xai-colossus. Corrected: fac:vantage-frontier-shackelford (name), fac:vantage-lighthouse-port-washington (status). Everything else in this layer is publish or publish_flagged with reasons above; no facility, flow, or company claim was found to be fabricated, and every quote checked was verbatim-verified against its cited primary or company-primary document."
+}
