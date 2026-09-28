@@ -9,7 +9,7 @@ import { activeControls } from "../Globe";
 export function TopBar({ idx }: { idx: Index }) {
   const { mode, setMode, set } = useStore();
   const t12 = idx.atlas.sources.filter((s) => s.tier <= 2).length;
-  const pct = idx.atlas.sources.length ? Math.round((100 * t12) / idx.atlas.sources.length) : 0;
+  const pct = idx.atlas.sources.length ? Math.floor((1000 * t12) / idx.atlas.sources.length) / 10 : 0;
   const modes: [Mode, string, string][] = [
     ["network", "Network", "Physical supply routes, mine to megawatt"],
     ["capital", "Capital", "Who pays whom: investments, contracts, subsidies"],
@@ -51,13 +51,14 @@ export function Rail({ idx }: { idx: Index }) {
     }
     return m;
   }, [idx]);
+  const docOut = (id: string) => (idx.out.get(id) ?? []).filter((f) => f.basis === "documented").length;
   // Physical production sites only (offices / HQs / engineering centres aren't chokepoints), ranked by
   // downstream AI campuses; ties go to the more upstream stage, then to better-evidenced sites.
   const chokepoints = useMemo(() =>
     [...idx.atlas.facilities]
       .filter((f) => f.layer !== "datacenter" && f.layer !== "power" && !/headquarter|\bhq\b|office|engineering|design_center|r_and_d/i.test(`${f.kind} ${f.name}`))
       .sort((a, b) => (idx.reach.get(b.id) ?? 0) - (idx.reach.get(a.id) ?? 0)
-        || CHAIN.indexOf(a.layer) - CHAIN.indexOf(b.layer) || a.best_tier - b.best_tier)
+        || docOut(b.id) - docOut(a.id) || CHAIN.indexOf(a.layer) - CHAIN.indexOf(b.layer) || a.best_tier - b.best_tier)
       .slice(0, 10), [idx]);
   const exposure = useMemo(() => {
     if (!s.severed.size) return null;
@@ -113,7 +114,7 @@ export function Rail({ idx }: { idx: Index }) {
         </div>
       )}
 
-      <h3>Chokepoints <span className="muted small">by downstream AI campuses</span></h3>
+      <h3 title="Production sites ranked by how many AI data-center campuses in this dataset sit downstream of them along recorded routes; ties broken by number of documented outbound routes. Reach is not the same as irreplaceability: it doesn't know about second sources.">Widest reach <span className="muted small">· downstream AI campuses</span></h3>
       <ol className="choke">
         {chokepoints.map((f) => (
           <li key={f.id}>
@@ -334,7 +335,8 @@ export function About({ idx }: { idx: Index }) {
         <h2>How to read the map</h2>
         <ul>
           <li><b>Documented</b> routes (solid) have a primary source naming both parties. <b>Inferred</b> routes (dashed) are deduced from documented facts, and the deduction is shown on each one.</li>
-          <li>Where a document names a company but not a site, the route is drawn to that company's site at the adjacent stage, or to its headquarters. The inspector says when this happens.</li>
+          <li>Where a document names a company but not a site, the route is drawn to that company's single site at the adjacent stage if there is exactly one; otherwise to its headquarters. The map never picks one of several sites. The inspector says when this happens.</li>
+          <li>“Widest reach” counts AI campuses downstream along recorded routes. It measures reach, not irreplaceability, because it doesn't know about second sources.</li>
           <li>The severance what-if shows <i>exposure</i>, not failure. It doesn't model inventory, second sources or substitution.</li>
           <li>Trade rules are shown as in force between their effective date and the date of the rule that superseded them.</li>
         </ul>

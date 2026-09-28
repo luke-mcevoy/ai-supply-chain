@@ -1,28 +1,28 @@
 {
- "built_at": "2026-09-28T11:37:36.597Z",
- "draft": true,
+ "built_at": "2026-09-28T22:28:04.772Z",
+ "draft": false,
  "stats": {
   "layers": {
    "datacenter": "57 published (verified)",
    "design": "64 published (verified)",
    "equipment": "55 published (verified)",
    "fabrication": "57 published (verified)",
-   "finance": "73 published (DRAFT)",
-   "materials": "41 published (DRAFT)",
+   "finance": "73 published (verified)",
+   "materials": "40 published (verified)",
    "memory_packaging": "45 published (verified)",
    "policy": "75 published (verified)",
    "power": "57 published (verified)",
-   "systems": "41 published (DRAFT)",
-   "wafers_chemicals": "48 published (DRAFT)"
+   "systems": "39 published (verified)",
+   "wafers_chemicals": "42 published (verified)"
   },
-  "withheld": 11,
-  "droppedEvidence": 15,
+  "withheld": 20,
+  "droppedEvidence": 17,
   "unresolvedFlows": 1,
   "counts": {
-   "sources": 386,
+   "sources": 377,
    "companies": 140,
-   "facilities": 233,
-   "flows": 172,
+   "facilities": 231,
+   "flows": 165,
    "financial_links": 152,
    "controls": 53,
    "gaps": 113
@@ -876,18 +876,6 @@
    "layer": "equipment"
   },
   {
-   "id": "src:amat-10k-fy2025",
-   "title": "Applied Materials, Inc. Form 10-K for fiscal year ended October 26, 2025",
-   "publisher": "Applied Materials, Inc.",
-   "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-   "doc_type": "sec_10k",
-   "tier": 1,
-   "document_date": "2025-12-12",
-   "accessed": "2026-09-27",
-   "identifier": "0001628280-25-056742",
-   "layer": "equipment"
-  },
-  {
    "id": "src:amat-10k-fy2024",
    "title": "Applied Materials, Inc. Form 10-K for fiscal year ended October 27, 2024",
    "publisher": "Applied Materials, Inc.",
@@ -971,18 +959,6 @@
    "layer": "equipment"
   },
   {
-   "id": "src:uct-10k-2025",
-   "title": "Ultra Clean Holdings, Inc. Form 10-K for fiscal year ended December 26, 2025",
-   "publisher": "Ultra Clean Holdings, Inc.",
-   "url": "https://www.sec.gov/Archives/edgar/data/1275014/000162828026010744/uctt-20251226.htm",
-   "doc_type": "sec_10k",
-   "tier": 1,
-   "document_date": "2026-02-23",
-   "accessed": "2026-09-27",
-   "identifier": "0001628280-26-010744",
-   "layer": "equipment"
-  },
-  {
    "id": "src:formfactor-10k-2025",
    "title": "FormFactor, Inc. Form 10-K for fiscal year ended December 27, 2025",
    "publisher": "FormFactor, Inc.",
@@ -1002,17 +978,6 @@
    "doc_type": "investor_presentation",
    "tier": 2,
    "document_date": "2026",
-   "accessed": "2026-09-27",
-   "layer": "equipment"
-  },
-  {
-   "id": "src:tel-fy2026-q4-presentation",
-   "title": "Tokyo Electron FY2026 Q4 financial results presentation (April 30, 2026)",
-   "publisher": "Tokyo Electron Limited",
-   "url": "https://www.tel.com/ir/library/report/pjuomj00000000tf-att/fy26q4presentations-e.pdf",
-   "doc_type": "investor_presentation",
-   "tier": 2,
-   "document_date": "2026-04-30",
    "accessed": "2026-09-27",
    "layer": "equipment"
   },
@@ -2097,7 +2062,7 @@
    "publisher": "GlobalWafers Co., Ltd. (filed with U.S. Department of Commerce, BIS)",
    "url": "https://downloads.regulations.gov/BIS-2025-0028-0036/attachment_1.pdf",
    "doc_type": "regulatory_filing",
-   "tier": 1,
+   "tier": 2,
    "document_date": "2025-08-06",
    "accessed": "2026-09-27",
    "identifier": "BIS-2025-0028-0036",
@@ -2109,7 +2074,7 @@
    "publisher": "Semiconductor Industry Association (filed with U.S. Department of Commerce, BIS)",
    "url": "https://www.semiconductors.org/wp-content/uploads/2025/08/Semiconductor-Industry-Association-SIA-Comments-Polysilicon-Section-232-Investigation.pdf",
    "doc_type": "regulatory_filing",
-   "tier": 1,
+   "tier": 2,
    "document_date": "2025-08-06",
    "accessed": "2026-09-27",
    "identifier": "BIS-2025-0028-0022",
@@ -3149,50 +3114,6 @@
    "layer": "policy"
   },
   {
-   "id": "src:meti-anpo-law09-2",
-   "title": "安全保障貿易管理 関係法令：改正情報 (Security Export Control: amendment history)",
-   "publisher": "Ministry of Economy, Trade and Industry (Japan)",
-   "url": "https://www.meti.go.jp/policy/anpo/law09-2.html",
-   "doc_type": "gov_press_release",
-   "tier": 1,
-   "document_date": "2025-11-14",
-   "accessed": "2026-09-27",
-   "layer": "policy"
-  },
-  {
-   "id": "src:meti-2023-03-31-press-conference",
-   "title": "Press Conference by Minister Nishimura (Excerpt), March 31, 2023",
-   "publisher": "Ministry of Economy, Trade and Industry (Japan)",
-   "url": "https://www.meti.go.jp/english/speeches/press_conferences/2023/0331001.html",
-   "doc_type": "gov_press_release",
-   "tier": 1,
-   "document_date": "2023-03-31",
-   "accessed": "2026-09-27",
-   "layer": "policy"
-  },
-  {
-   "id": "src:meti-white-paper-2024-2-1-2",
-   "title": "White Paper on International Economy and Trade 2024, Chapter 2 Section 2: Trends in export and investment control",
-   "publisher": "Ministry of Economy, Trade and Industry (Japan)",
-   "url": "https://www.meti.go.jp/english/report/data/wp2024/pdf/2-1-2.pdf",
-   "doc_type": "gov_report",
-   "tier": 1,
-   "document_date": "2024-07-01",
-   "accessed": "2026-09-27",
-   "layer": "policy"
-  },
-  {
-   "id": "src:meti-2025-03-25-cabinet-order",
-   "title": "Cabinet Decision on the Cabinet Order to Partially Amend the Foreign Exchange Order and the Export Trade Control Order",
-   "publisher": "Ministry of Economy, Trade and Industry (Japan)",
-   "url": "https://www.meti.go.jp/english/press/2025/0325_005.html",
-   "doc_type": "gov_press_release",
-   "tier": 1,
-   "document_date": "2025-03-25",
-   "accessed": "2026-09-27",
-   "layer": "policy"
-  },
-  {
    "id": "src:mofcom-2023-23",
    "title": "商务部 海关总署公告2023年第23号 关于对镓、锗相关物项实施出口管制的公告 (MOFCOM/GACC Announcement No. 23 of 2023)",
    "publisher": "Ministry of Commerce of the People's Republic of China (MOFCOM)",
@@ -4150,17 +4071,6 @@
    "layer": "wafers_chemicals"
   },
   {
-   "id": "src:doe-lpo-sk-siltron",
-   "title": "Loan Programs Office project page: SK Siltron",
-   "publisher": "U.S. Department of Energy",
-   "url": "https://www.energy.gov/edf/sk-siltron",
-   "doc_type": "gov_award",
-   "tier": 1,
-   "document_date": "2025-03-17",
-   "accessed": "2026-09-27",
-   "layer": "wafers_chemicals"
-  },
-  {
    "id": "src:entegris-chips-pr-2024",
    "title": "Entegris and U.S. Department of Commerce Announce Entry into Award Agreement Under CHIPS Act",
    "publisher": "Entegris, Inc.",
@@ -4389,17 +4299,6 @@
    "doc_type": "company_press_release",
    "tier": 2,
    "document_date": "2026-07-16",
-   "accessed": "2026-09-27",
-   "layer": "wafers_chemicals"
-  },
-  {
-   "id": "src:air-products-samsung-2026",
-   "title": "Air Products to Expand Industrial Gas Supply for Samsung Electronics' Next-Generation Semiconductor Fab in South Korea",
-   "publisher": "Air Products and Chemicals, Inc.",
-   "url": "https://www.airproducts.com/company/news-center/2026/04/0429-air-products-gas-supply-samsung-semiconductor-fab-south-korea",
-   "doc_type": "company_press_release",
-   "tier": 2,
-   "document_date": "2026-04-29",
    "accessed": "2026-09-27",
    "layer": "wafers_chemicals"
   },
@@ -8804,14 +8703,7 @@
    "layers": [
     "wafers_chemicals"
    ],
-   "evidence": [
-    {
-     "source": "src:air-products-samsung-2026",
-     "quote": "Air Products (NYSE:APD), a world-leading industrial gases company and serving Samsung globally, today announced it has been selected by Samsung to supply industrial gases for its new advanced semiconductor fab in Pyeongtaek, Gyeonggi Province, South Korea.",
-     "locator": "Press release, paragraph 1",
-     "supports": "existence; role"
-    }
-   ],
+   "evidence": [],
    "tickers": [
     "NYSE:APD"
    ],
@@ -13452,7 +13344,8 @@
      "supports": "product use"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence/location verified against the company's own site (Tier 2) and corroborated by USGS (Tier 1, 'two companies...around Spruce Pine, NC').",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13495,7 +13388,8 @@
      "supports": "product, market position (company claim)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and address verified verbatim against HSC's own site (Tier 2).",
    "best_tier": 2,
    "source_layer": "materials"
   },
@@ -13537,7 +13431,8 @@
      "supports": "location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and the Etching Line Next capacity expansion verified verbatim against Wacker's own press release and statutory Annual Report (Tier 1/2).",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13572,7 +13467,8 @@
      "supports": "location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location verified verbatim against Wacker's own site (Tier 2).",
    "best_tier": 2,
    "source_layer": "materials"
   },
@@ -13615,7 +13511,8 @@
      "supports": "semiconductor-grade production"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, start year, address and semiconductor-grade certification verified verbatim against Wacker's own site and press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "materials"
   },
@@ -13671,7 +13568,8 @@
      "supports": "existence (government source)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and 2025 REO/NdPr production figures verified verbatim against MP Materials' Tier-1 10-K (table figures confirmed via EDGAR full-text search as an exact phrase match, i.e. the table row renders identically in the underlying filing).",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13722,7 +13620,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, NdFeB production start and the 3,000 t/yr projected capacity verified verbatim against MP Materials' Tier-1 10-K.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13757,7 +13656,8 @@
      "supports": "reserves"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and reserves verified verbatim against Lynas' Tier-1 Annual Reports.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13793,7 +13693,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, start and status verified verbatim against Lynas' Tier-1 FY2025 Annual Report.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13843,7 +13744,8 @@
      "supports": "products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, process description, products and 10.5 kt/yr capacity uplift verified verbatim against Lynas' Tier-1 Annual Reports.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13878,7 +13780,8 @@
      "supports": "status: cancelled"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence (as a former planned facility), DoD contract and cancellation verified verbatim against Lynas' Tier-1 FY2025 and FY2026 Annual Reports; the 'will no longer proceed' cancellation quote matches exactly, supporting the 'cancelled' FacilityStatus.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13925,7 +13828,8 @@
      "supports": "trade status"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Correctly modeled as a country_aggregate facility (kind already signals this); underlying 99% share figure is Tier-1 verified verbatim. Flagged as a caveat only because it represents an entire country's production, not a physical site -- the facility name itself is already reasonably clear ('production...country aggregate').",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13960,7 +13864,8 @@
      "supports": "trade status"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Same treatment: Tier-1 verified verbatim share/rank claim; flagged as a country-level aggregate, not a physical site.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -13995,7 +13900,8 @@
      "supports": "trade status"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Tier-1 verified verbatim (including the footnoted 'China,8 71%' import-share table figure, which matches after normalizing the USGS footnote superscript); flagged as a country-level aggregate, not a physical site.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14030,7 +13936,8 @@
      "supports": "trade status"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Tier-1 verified verbatim; flagged as a country-level aggregate, not a physical site.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14073,7 +13980,8 @@
      "supports": "existence, location (country)"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Tier-1 verified verbatim (~80% share); flagged as a country-level aggregate, not a physical site.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14126,7 +14034,8 @@
      "supports": "existence (government source)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, address and product use verified verbatim against Sibelco's own site and press releases (Tier 2), corroborated by USGS (Tier 1).",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14162,7 +14071,8 @@
      "supports": "address"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, products and address verified verbatim against Umicore's own site (Tier 2).",
    "best_tier": 2,
    "source_layer": "materials"
   },
@@ -14206,7 +14116,8 @@
      "supports": "existence, product (government source)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, products and address verified verbatim against Umicore's own site (Tier 2), corroborated by USGS (Tier 1, 'a company in Quapaw, OK...').",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14243,7 +14154,8 @@
      "supports": "germanium content (government source; mine not named)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and start year verified verbatim against Teck's Tier-1 AIF, corroborated by USGS (Tier 1, mine not named by USGS but consistent).",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14295,7 +14207,8 @@
      "supports": "germanium production"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, co-product recovery and 300,000 t/yr zinc capacity verified verbatim against Teck's Tier-1 AIF.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14330,7 +14243,8 @@
      "supports": "Mexico as leading source of U.S. fluorspar imports (mine not named)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location verified verbatim against Orbia's own history timeline (Tier 2), which names 'Compania Minera las Cuevas S.A. de C.V.' immediately adjacent to the quoted sentence, independently corroborating the facility name; regional-precision location is appropriately conservative given the source gives only a state-level description.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -14379,7 +14293,8 @@
      "supports": "semiconductor relevance of HF"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence and location verified verbatim against Orbia's own history timeline (Tier 2), and HF's relevance to semiconductor etching corroborated by USGS (Tier 1). Flagged because the 30,000 t/yr capacity figure is undated in the source (the page gives no year for 'HF II' commissioning) and current capacity was not found -- the analyst already disclosed this in the capacity note; carried through as a visible caveat.",
    "best_tier": 1,
    "source_layer": "materials"
   },
@@ -16704,7 +16619,8 @@
      "supports": "site size (1,011,521 sq ft plant)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Strongest-documented facility in the file: existence, city, and NVIDIA relationship from two NVIDIA releases (Apr. 2025 and Aug. 2026, the latter explicitly naming GB300 tray modules), plus three separate MOPS filings giving three distinct addresses (9625 Fallbrook Pines Dr.; 8228/8118 Houston Ave.; 8702-8726 Fairbanks North Houston Rd.) and matching sizes/amounts, all confirmed verbatim by direct fetch.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -16758,16 +16674,11 @@
      "quote": "The project’s primary site, located at 15200 Heritage Parkway, will undergo renovations to a 324,598-square-foot building.",
      "locator": "body",
      "supports": "location (site address, building size matches D1)"
-    },
-    {
-     "source": "src:wistron-mops-2025-05-13-wius-contract",
-     "quote": "交易總金額為美金48,850仟元",
-     "locator": "說明 item 3",
-     "supports": "acquisition amount (WIUS land and plant)"
     }
    ],
-   "review": "unverified",
-   "best_tier": 1,
+   "review": "flagged",
+   "review_note": "Existence, address (15200 Heritage Parkway), size (~324,000-324,598 sq ft, NVIDIA and Hillwood releases agree within rounding), opening date, and products (GB300/Vera Rubin) are all solidly documented (Tier 2, verified verbatim) and consistent across sources. Flagged only because evidence[5] (the $48.85M MOPS filing) does not itself name this site -- see evidence_checks -- so the facility's page should not present that dollar figure as this site's documented acquisition cost; it is corroborative at best.",
+   "best_tier": 2,
    "source_layer": "systems"
   },
   {
@@ -16809,7 +16720,8 @@
      "supports": "products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Address, 'we manufacture the majority of our systems' at San Jose, and named NVIDIA products (GB300/GB200 NVL72, HGX B300/B200) all verified verbatim in the FY2026 10-K.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -16839,7 +16751,8 @@
      "supports": "existence, location (country)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Country-level existence verified verbatim (10-K); precision correctly set to 'country' since sites are not itemized.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -16875,7 +16788,8 @@
      "supports": "existence (campus)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Country-level existence and 'campus' language both verified verbatim (10-K).",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -16905,7 +16819,8 @@
      "supports": "existence, location (country)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Country-level existence verified verbatim (10-K); precision correctly set to 'country'.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -16946,7 +16861,8 @@
      "supports": "origin (Mellanox)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, function (networking, post-Mellanox), and ~6,000-employee headcount all verified verbatim in the FY2026 10-K risk factors.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -16983,7 +16899,8 @@
      "supports": "products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location (Sherman, TX), status (expansion groundbreaking), and products all verified verbatim in NVIDIA's Aug. 2026 release; Tier 2 is sufficient for publish at 'city' precision.",
    "best_tier": 2,
    "source_layer": "systems"
   },
@@ -17013,7 +16930,8 @@
      "supports": "existence, location, products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and products verified verbatim on NVIDIA's US AI Manufacturing page.",
    "best_tier": 2,
    "source_layer": "systems"
   },
@@ -17032,9 +16950,7 @@
    "country": "US",
    "status": "operational",
    "products": [
-    "networking switches",
-    "data center racks",
-    "servers (CCS segment)"
+    "CCS-segment products generally (networking switches, data center racks, servers) per Celestica's company-wide segment description; the 10-K property table lists a Texas site but does not disclose what is produced there specifically"
    ],
    "evidence": [
     {
@@ -17050,7 +16966,8 @@
      "supports": "existence of Texas site in property table"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence of a Texas site and CCS segment revenue scale verified verbatim in the FY2025 10-K (Item 1, Item 2 property table). Flagged: products[] listed generic CCS-segment products, not a Texas-site-specific disclosure -- the property table gives no product detail per site. Corrected products[] to disclose this is segment-wide, not site-specific.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -17091,7 +17008,8 @@
      "supports": "size (matches 14601 Mobility Way building)"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Hillwood's Aug. 2025 release verified verbatim naming 14601 Mobility Way, its 766,994 sq ft building, and >$181M investment. The MOPS 'Westport' filings (2025-05-06 and 2025-06-26 contract) independently give an identical 766,994 sq ft plant size and the name 'Westport廠', confirmed verbatim. Flagged because the MOPS filings never give a street address -- the tie to 14601 Mobility Way rests on the matching square footage across a Tier 1 and a Tier 2 source, which is a sound but not literal identification.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -17132,7 +17050,8 @@
      "supports": "status context (California build-up)"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence, address, and size verified verbatim in the MOPS filing, which literally reads 'East Argues Avenue' (not 'Arques') -- the analyst's address field correctly preserves this as a parenthetical note rather than silently 'fixing' the filing's own typo; no correction needed there. Flagged because products[] is honestly disclosed as 'not specified in filing' and status ('announced') is a land-purchase-only status with no construction or operational confirmation yet.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -17151,7 +17070,7 @@
    "country": "MX",
    "status": "under_construction",
    "products": [
-    "AI servers (inferred; see evidence)"
+    "not specified in any filing or release; Hon Hai Tech Day 2024 describes an unnamed 'world's largest AI server factory being constructed in Mexico' in the context of NVIDIA-Foxconn remarks, but does not name El Salto or any other specific site"
    ],
    "evidence": [
     {
@@ -17179,7 +17098,8 @@
      "supports": "Mexico AI server factory (site not named in release)"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence and location of Foxconn real estate in El Salto, Jalisco are solidly documented (Tier 1 MOPS land purchase 2024 and plant lease 2025). Flagged for two reasons: (1) the entry combines a land purchase and a separately-addressed plant lease that the filings do not establish are the same project (location precision is correctly kept at 'city', not 'site', which is appropriate given this); (2) the products field ('AI servers (inferred; see evidence)') is speculative -- see flow:nvidia-to-foxconn-el-salto, which is rejected below for the same reason. Products corrected to state plainly that no source names what is or will be made at this site.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -17214,7 +17134,8 @@
      "supports": "expansion"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, 'data server production' product, and the $569M expansion figure all verified verbatim in the Foxconn/WEDC release.",
    "best_tier": 2,
    "source_layer": "systems"
   },
@@ -17249,7 +17170,8 @@
      "supports": "size"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and size verified verbatim in the MOPS WIMX filing; products honestly disclosed as not specified.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -17284,7 +17206,8 @@
      "supports": "size"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and size verified verbatim in the MOPS Wiwynn Mexico filing; products honestly disclosed as not specified.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -17337,7 +17260,8 @@
      "supports": "additional plant (Newark, Quanta Computer USA)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, and size for B2, B19, and the Newark plant all verified verbatim across three MOPS filings; products honestly disclosed as not specified.",
    "best_tier": 1,
    "source_layer": "systems"
   },
@@ -17386,7 +17310,8 @@
     }
    ],
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location, existence, products and operational status all confirmed verbatim across GlobalWafers' Annual Report, two NIST CHIPS pages and GlobalWafers' opening press release (Tier 1 + Tier 2).",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -17422,7 +17347,8 @@
      "supports": "products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location and SiC-conversion terms confirmed verbatim in GlobalWafers' Annual Report and the NIST CHIPS award page (Tier 1). Products list correctly leads with general silicon epitaxial wafers, not solely SiC/EV output, so no AI-relevance overstatement.",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -17458,7 +17384,8 @@
      "supports": "products; expansion under CHIPS award"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location and SOI-wafer product confirmed verbatim in GlobalWafers' Annual Report and the NIST CHIPS press release (Tier 1).",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -17499,7 +17426,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and 'largest site' status confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1). Country-level precision is appropriate since no street address is given.",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -17528,7 +17456,8 @@
      "supports": "existence; location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1).",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -17564,7 +17493,8 @@
      "supports": "co-location with Wacker"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and Wacker co-location confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1).",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -17599,7 +17529,8 @@
      "supports": "products: leading-edge logic wafers (company-level)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Site name and company-level market-share statement confirmed verbatim in SUMCO's Sustainability Report (Tier 2). City-level precision correctly reflects that no street address was published.",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -17635,43 +17566,9 @@
      "supports": "products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Address and product (300mm growing/wafering) confirmed verbatim on SK siltron's own site (Tier 2). This facility makes standard silicon wafers (logic/memory-relevant), unlike the Bay City SiC facility (see below).",
    "best_tier": 2,
-   "source_layer": "wafers_chemicals"
-  },
-  {
-   "id": "fac:sk-siltron-css-bay-city",
-   "name": "SK Siltron CSS silicon carbide wafer plant, Bay City",
-   "operator": "co:sk-siltron",
-   "layer": "wafers_chemicals",
-   "kind": "sic_wafer_fab",
-   "location": {
-    "lat": 43.5962,
-    "lon": -83.8882,
-    "precision": "city",
-    "address": "Bay City, Michigan, USA"
-   },
-   "country": "US",
-   "status": "operational",
-   "products": [
-    "silicon carbide (SiC) wafers"
-   ],
-   "evidence": [
-    {
-     "source": "src:doe-lpo-sk-siltron",
-     "quote": "In October 2024, LPO announced the closing of a $544 million loan to SK Siltron CCS, LLC to expand American manufacturing of high-quality silicon carbide (SiC) wafers for electric vehicle (EV) power electronics.",
-     "locator": "Project Summary",
-     "supports": "existence; DOE loan (policy/finance layers own the money)"
-    },
-    {
-     "source": "src:doe-lpo-sk-siltron",
-     "quote": "Located in Bay City, Michigan, the SK Siltron CCS facility is projected to be among the top five manufacturers of SiC wafers globally",
-     "locator": "Project Summary",
-     "supports": "location"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
   {
@@ -17720,7 +17617,8 @@
     }
    ],
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location, award amount, products and start year all confirmed verbatim across the NIST CHIPS award page and two press releases (Tier 1 + Tier 2).",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -17763,7 +17661,8 @@
      "supports": "expansion status (new building)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location, products and expansion timeline confirmed verbatim on TOK's own site and 2023 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -17804,7 +17703,8 @@
      "supports": "investment"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location, rationale and investment amount confirmed verbatim on TOK's own site and 2024 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -17840,7 +17740,8 @@
      "supports": "existence; products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location and products confirmed verbatim on TOK's own site (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -17876,7 +17777,8 @@
      "supports": "existence; products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location and products confirmed verbatim on TOK's own site (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -17912,7 +17814,8 @@
      "supports": "existence; products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location and products confirmed verbatim on TOK's own site (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -17947,7 +17850,8 @@
      "supports": "location (corporate address)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, products and address confirmed verbatim on Inpria's own site (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -17982,7 +17886,8 @@
      "supports": "existence; function"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location and function confirmed verbatim on JSR's own site and 2024 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18024,7 +17929,8 @@
     }
    ],
    "start_year": 2026,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Subsidiary address, role (final MOR production) and 2026 target start confirmed verbatim in JSR's press release and site (Tier 2). Status 'under_construction' with start_year 2026 is not contradicted by any more recent source found in this review; a brief news check turned up only reposts of the same 2024 announcement, so it is not marked stale.",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18065,7 +17971,8 @@
      "supports": "function"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "JV structure, address and function confirmed verbatim in JSR's 2026 press release and site (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18110,46 +18017,8 @@
      "supports": "scale"
     }
    ],
-   "review": "unverified",
-   "best_tier": 2,
-   "source_layer": "wafers_chemicals"
-  },
-  {
-   "id": "fac:air-products-pyeongtaek-onsite",
-   "name": "Air Products on-site gas plants at Samsung Pyeongtaek",
-   "operator": "co:air-products",
-   "layer": "wafers_chemicals",
-   "kind": "onsite_industrial_gas_complex",
-   "location": {
-    "lat": 36.9925,
-    "lon": 127.1127,
-    "precision": "city",
-    "address": "Pyeongtaek, Gyeonggi-do, Korea"
-   },
-   "country": "KR",
-   "status": "operational",
-   "products": [
-    "nitrogen",
-    "oxygen",
-    "argon",
-    "hydrogen",
-    "bulk specialty gas supply"
-   ],
-   "evidence": [
-    {
-     "source": "src:air-products-samsung-2026",
-     "quote": "Air Products has a long track record of executing multiple phase expansions in Pyeongtaek to support Samsung’s growing manufacturing needs.",
-     "locator": "Press release, paragraph 3",
-     "supports": "existence; location"
-    },
-    {
-     "source": "src:air-products-samsung-2026",
-     "quote": "The new facilities are expected to come onstream in multiple phases from 2028 through 2030.",
-     "locator": "Press release, paragraph 2",
-     "supports": "expansion status"
-    }
-   ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, products and scale confirmed verbatim in Linde's 2025 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18187,7 +18056,8 @@
     }
    ],
    "start_year": 2022,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Linde's own existence/expansion of this complex is confirmed verbatim in its 2021 and 2026 press releases (Tier 2) independent of the customer's identity, which is addressed separately at the flow level.",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18223,7 +18093,8 @@
      "supports": "planned start"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and planned 2025 start confirmed verbatim in Air Liquide's 2024 press release (Tier 2); status 'announced' is a fair reflection of the fact that no later start-up confirmation was found (also noted as a gap by the analyst).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18260,7 +18131,8 @@
      "supports": "planned start"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Air Liquide's own investment and facility existence confirmed verbatim in its 2026 press release (Tier 2), independent of the customer's identity, which is addressed separately at the flow level. Region-level precision is appropriate since the release does not even name a city.",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18295,7 +18167,8 @@
      "supports": "capacity expansion"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location, products and capacity expansion confirmed verbatim in AGC's 2023 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18331,7 +18204,8 @@
      "supports": "CNT pellicle expansion"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, products and CNT-pellicle expansion confirmed verbatim in Mitsui Chemicals' 2024 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18362,7 +18236,8 @@
      "supports": "existence; location; products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and products confirmed verbatim in Shin-Etsu's 2024 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18398,7 +18273,8 @@
     }
    ],
    "start_year": 2026,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location, rationale and phased-investment timing confirmed verbatim in Shin-Etsu's 2024 press release (Tier 2).",
    "best_tier": 2,
    "source_layer": "wafers_chemicals"
   },
@@ -18434,7 +18310,8 @@
      "supports": "location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "R&D function and location confirmed verbatim in Photronics' FY2025 10-K (Tier 1). (The Boise->Micron flow is rejected separately for co-location-only reasoning; the facility fact itself is solid.)",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   },
@@ -18463,7 +18340,8 @@
      "supports": "existence; location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location confirmed verbatim in Photronics' FY2025 10-K (Tier 1, confirmed present specifically in this accession via a date-restricted EDGAR full-text search).",
    "best_tier": 1,
    "source_layer": "wafers_chemicals"
   }
@@ -21244,9 +21122,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "co:sk-siltron",
+   "from_node": "fac:sk-siltron-gumi-plant3",
    "to_node": "co:samsung",
-   "resolution": "hq/hq",
+   "resolution": "operator/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -21327,7 +21205,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Siltronic's own Tier-1 statutory Annual Report names both parties ('we obtain [polysilicon] from Wacker Chemie AG').",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
@@ -21351,7 +21230,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: MP Materials' Tier-1 10-K names both facilities and the NdPr-oxide relationship verbatim.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
@@ -21381,7 +21261,8 @@
      "supports": "status: ceased"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented (historical, now ceased): MP Materials' Tier-1 10-K states both the historical relationship and its July 2025 cessation verbatim; the flow's commodity field already labels it historical/ceased, so the description is not overstated.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
@@ -21405,7 +21286,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Lynas' Tier-1 Annual Report states Mt Weld feeds both Kalgoorlie and Lynas Malaysia verbatim.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
@@ -21429,7 +21311,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: same Tier-1 quote as above, verified verbatim.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
@@ -21453,44 +21336,14 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Lynas' Tier-1 Annual Report states Kalgoorlie MREC supplies Lynas Malaysia verbatim.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
    "from_node": "fac:lynas-kalgoorlie",
    "to_node": "fac:lynas-malaysia-gebeng",
    "resolution": "direct/direct",
-   "from_layer": "materials"
-  },
-  {
-   "id": "flow:hemlock-to-shin-etsu-polysilicon",
-   "from": "fac:hemlock-hemlock-mi",
-   "to": "co:shin-etsu",
-   "commodity": "semiconductor-grade polysilicon",
-   "basis": "inferred",
-   "inference_note": "Hemlock Semiconductor is co-owned by Shin-Etsu Handotai [HSC website] and makes polysilicon used to create semiconductor wafers [HSC website]; Shin-Etsu Handotai is a silicon wafer maker. No reviewed document states that Hemlock sells polysilicon to Shin-Etsu Handotai.",
-   "description": "Inferred: Hemlock polysilicon to its co-owner, the wafer maker Shin-Etsu Handotai.",
-   "evidence": [
-    {
-     "source": "src:hsc-about",
-     "quote": "HSC is owned by two world-leading applied science and technology companies: Corning Inc. and Shin-Etsu Handotai.",
-     "locator": "HSC Joint Venture Partners",
-     "supports": "ownership"
-    },
-    {
-     "source": "src:hsc-about",
-     "quote": "HSC is just one of five major manufacturers in the world that makes polysilicon used to create semiconductor wafers.",
-     "locator": "About page",
-     "supports": "role"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "materials",
-   "source_layer": "materials",
-   "from_node": "fac:hemlock-hemlock-mi",
-   "to_node": "co:shin-etsu",
-   "resolution": "direct/hq",
    "from_layer": "materials"
   },
   {
@@ -21515,8 +21368,9 @@
      "supports": "counterparty role"
     }
    ],
-   "review": "unverified",
-   "best_tier": 1,
+   "review": "flagged",
+   "review_note": "Sound inference: Wacker's own press release states it supplies 'all major wafer manufacturers' (Tier 2, self-reported customer-base claim, unlike Hemlock's silence on customers), and the SIA comment (Tier 2) independently identifies Shin-Etsu Handotai as one of the five suppliers representing the majority of wafer production -- i.e., definitionally a 'major wafer manufacturer.' Structurally the same kind of two-fact inference AGENTS.md itself sanctions (general-claim + named-party-in-category). basis/inference_note already correctly marked inferred; flag as publish_flagged (dashed line) per the counsel brief.",
+   "best_tier": 2,
    "layer": "materials",
    "source_layer": "materials",
    "from_node": "co:wacker",
@@ -21545,7 +21399,8 @@
      "supports": "germanium recovery (parties unnamed)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Teck's Tier-1 AIF states the Red Dog-to-Trail shipment relationship verbatim; the USGS reference to an unnamed Canadian refinery is corroborating context only, not the basis for the documented status.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
@@ -21576,8 +21431,9 @@
      "supports": "counterparty role"
     }
    ],
-   "review": "unverified",
-   "best_tier": 1,
+   "review": "flagged",
+   "review_note": "Sound inference, same reasoning as the Shin-Etsu flow above: Wacker's 'all major wafer manufacturers' claim (Tier 2) plus the SIA comment naming Sumco among the five majority wafer suppliers (Tier 2).",
+   "best_tier": 2,
    "layer": "materials",
    "source_layer": "materials",
    "from_node": "co:wacker",
@@ -21607,8 +21463,9 @@
      "supports": "counterparty role"
     }
    ],
-   "review": "unverified",
-   "best_tier": 1,
+   "review": "flagged",
+   "review_note": "Sound inference, same reasoning: Wacker's 'all major wafer manufacturers' claim (Tier 2) plus the SIA comment naming GlobalWafers among the five majority wafer suppliers (Tier 2), corroborated independently by GlobalWafers' own Section 232 comment describing itself as 'the third largest of five global suppliers of semiconductor wafers.'",
+   "best_tier": 2,
    "layer": "materials",
    "source_layer": "materials",
    "from_node": "co:wacker",
@@ -21638,13 +21495,14 @@
      "supports": "counterparty role"
     }
    ],
-   "review": "unverified",
-   "best_tier": 1,
+   "review": "flagged",
+   "review_note": "Sound inference, same reasoning: Wacker's 'all major wafer manufacturers' claim (Tier 2) plus the SIA comment naming SK Siltron among the five majority wafer suppliers (Tier 2).",
+   "best_tier": 2,
    "layer": "materials",
    "source_layer": "materials",
    "from_node": "co:wacker",
-   "to_node": "co:sk-siltron",
-   "resolution": "hq/hq",
+   "to_node": "fac:sk-siltron-gumi-plant3",
+   "resolution": "hq/operator",
    "from_layer": "materials"
   },
   {
@@ -21669,7 +21527,8 @@
      "supports": "fluorspar to HF"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Sound inference, and on stronger footing than a mere-ownership case: both facilities are wholly owned and operated by the same integrated business unit (not separate co-owners of a JV), Orbia's own site describes its Minerals & Chemical Intermediates unit as 'fully integrated operations, from raw material extraction to chemical processing,' and USGS independently confirms acid-grade fluorspar is the primary input for HF production. This is closer to the AGENTS.md ASML/TSMC worked example (general integration/technical-necessity claim + named specific sites) than to the Hemlock/Shin-Etsu case. basis is correctly marked inferred; publish_flagged.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
@@ -22947,7 +22806,8 @@
     }
    ],
    "from": "co:nvidia",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: both parties and the commodity (GB300 tray modules) named directly in NVIDIA's own releases; quotes verified verbatim.",
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems",
@@ -22977,7 +22837,8 @@
     }
    ],
    "from": "co:nvidia",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: NVIDIA's July 2026 opening release names both parties and the GB300/Vera Rubin commodity directly; quotes verified verbatim.",
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems",
@@ -23001,7 +22862,8 @@
     }
    ],
    "from": "co:foxconn",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented directly in NVIDIA's FY2026 10-K; quote verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23025,7 +22887,8 @@
     }
    ],
    "from": "co:wistron",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented directly in NVIDIA's FY2026 10-K; quote verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23049,7 +22912,8 @@
     }
    ],
    "from": "co:fabrinet",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented directly in NVIDIA's FY2026 10-K; quote verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23080,7 +22944,8 @@
     }
    ],
    "from": "co:nvidia",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Sound two-premise inference: Supermicro's 10-K names the specific NVIDIA platforms it delivers (GB300/GB200 NVL72, HGX B300/B200) and separately states most systems are built at San Jose -- both premises independently documented in the same filing; only the specific San-Jose-receives-NVIDIA-silicon link is deduced, with an honest inference_note. Correctly kept as 'inferred'.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23110,43 +22975,13 @@
     }
    ],
    "from": "co:nvidia",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: HPE's FY2025 10-K names NVIDIA directly as a single-source GPU supplier ('single source' language confirmed present); quotes verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
    "from_node": "co:nvidia",
    "to_node": "co:hpe",
-   "resolution": "hq/hq",
-   "from_layer": "design"
-  },
-  {
-   "id": "flow:nvidia-to-dell",
-   "to": "co:dell",
-   "commodity": "NVIDIA accelerated computing for Dell AI-optimized servers",
-   "description": "NVIDIA lists Dell as a partner building AI factories with NVIDIA; Dell reports an AI-optimized servers product category.",
-   "basis": "inferred",
-   "inference_note": "NVIDIA's US manufacturing page names Dell as working with NVIDIA on AI factories [company website]; Dell's 10-K reports an 'AI-optimized servers' category but does not name GPU suppliers. GPU supply from NVIDIA to Dell is deduced.",
-   "evidence": [
-    {
-     "source": "src:nvidia-us-ai-manufacturing-page",
-     "quote": "Dell Technologies is working with NVIDIA to help enterprises build and deploy AI factories at scale.",
-     "locator": "partner card 'Dell Technologies'",
-     "supports": "relationship"
-    },
-    {
-     "source": "src:dell-10k-fy2026",
-     "quote": "We offer a specialized portfolio of AI-optimized servers designed to handle the most demanding compute-intensive workloads, including AI model training, fine-tuning, and inferencing.",
-     "locator": "Item 1. Business — ISG",
-     "supports": "product category"
-    }
-   ],
-   "from": "co:nvidia",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "systems",
-   "source_layer": "systems",
-   "from_node": "co:nvidia",
-   "to_node": "co:dell",
    "resolution": "hq/hq",
    "from_layer": "design"
   },
@@ -23165,7 +23000,8 @@
     }
    ],
    "from": "co:broadcom",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented directly in Arista's FY2025 10-K ('primarily reliant ... on Broadcom ... for our switching chips'); quote verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23189,7 +23025,8 @@
     }
    ],
    "from": "co:jabil",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented directly in Arista's FY2025 10-K, naming Jabil as a primary manufacturing partner with locations; quote verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23213,7 +23050,8 @@
     }
    ],
    "from": "co:sanmina",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented directly in Arista's FY2025 10-K, naming Sanmina as a primary manufacturing partner with locations; quote verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23237,7 +23075,8 @@
     }
    ],
    "from": "co:foxconn",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented directly in Arista's FY2025 10-K, naming Foxconn Hon Hai as a primary manufacturing partner with locations; quote verified verbatim.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
@@ -23262,7 +23101,8 @@
     }
    ],
    "from": "fac:coherent-sherman",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Sound inference: NVIDIA's own release names Coherent as 'a key networking supplier across NVIDIA's AI stack' -- the company-level Coherent-NVIDIA relationship is therefore documented directly, not merely inferred. What is inferred is narrower: that the specific Sherman, TX site's output goes to NVIDIA (the site is still under expansion). Honest inference_note; correctly flagged rather than fully documented given the from= endpoint is the facility, not the company.",
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems",
@@ -23270,37 +23110,6 @@
    "to_node": "fac:nvidia-israel-networking",
    "resolution": "direct/operator",
    "from_layer": "systems"
-  },
-  {
-   "id": "flow:nvidia-to-foxconn-el-salto",
-   "from": "co:nvidia",
-   "to": "fac:foxconn-el-salto-jalisco",
-   "commodity": "NVIDIA GB200-class superchip components (inferred)",
-   "description": "Foxconn is building an AI server factory in Mexico for key customers; Hon Hai filings place FII AMC Mexico land and a leased plant in El Salto, Jalisco.",
-   "basis": "inferred",
-   "inference_note": "Hon Hai Tech Day 2024 release describes 'the world's largest AI server factory being constructed in Mexico' in a passage about NVIDIA and Foxconn, and showcased NVIDIA GB200 NVL72 [company release]; TWSE filings show FII AMC Mexico acquiring land and leasing a plant in El Salto, Jalisco [MOPS]. Neither document names the El Salto site as the AI server factory or NVIDIA as its supplier.",
-   "evidence": [
-    {
-     "source": "src:honhai-tech-day-2024",
-     "quote": "Both partners also elaborated on Foxconn’s build out of the world’s largest AI server factory being constructed in Mexico, at more than 400 meters in size, for key customers.",
-     "locator": "body",
-     "supports": "relationship (Mexico AI server factory)"
-    },
-    {
-     "source": "src:honhai-mops-2024-02-27-fii-amc-mexico-land",
-     "quote": "EL SALTO, JALISCO, MEXICO.之土地",
-     "locator": "說明 item 1",
-     "supports": "location"
-    }
-   ],
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "systems",
-   "source_layer": "systems",
-   "from_node": "co:nvidia",
-   "to_node": "fac:foxconn-el-salto-jalisco",
-   "resolution": "hq/direct",
-   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-to-wistron-mobility-way",
@@ -23324,7 +23133,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Reasonably sound inference: Hillwood's release title itself frames both Fort Worth sites as one '$761 Million AI Supercomputer Sites Project' and describes 'two AI supercomputing facilities'; NVIDIA's Aug. 2026 release documents the NVIDIA-Wistron Fort Worth relationship generally. The specific second-site link is deduced but well-grounded in a Tier 2 source that names both sites together as part of the same AI project.",
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems",
@@ -23356,7 +23166,8 @@
    ],
    "from_hint": "fac:siltronic-singapore",
    "to_hint": "fac:tsmc-fab18-tainan",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Siltronic's Annual Report 2025 (Tier 1) names TSMC as one of its three largest customers, and TSMC's own 20-F is consistent (sources raw wafers from Germany/Singapore, where Siltronic's fabs are). Both quotes confirmed verbatim. from_hint/to_hint are explicitly labeled as guesses in the description, so no overstatement.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23382,7 +23193,8 @@
    ],
    "from_hint": "fac:siltronic-singapore",
    "to_hint": "fac:samsung-pyeongtaek",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: same Siltronic Annual Report 2025 customer-list quote (Tier 1), confirmed verbatim.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23408,7 +23220,8 @@
    ],
    "from_hint": "fac:siltronic-singapore",
    "to_hint": "fac:intel-arizona",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: same Siltronic Annual Report 2025 customer-list quote (Tier 1), confirmed verbatim.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23440,7 +23253,8 @@
    ],
    "from_hint": "fac:wacker-burghausen",
    "to_hint": "fac:siltronic-burghausen",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: both parties and the long-term-agreement relationship confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1), in two separate passages (business report and risk report).",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23472,7 +23286,8 @@
    ],
    "from_hint": "fac:sumco-kyushu-imari",
    "to_hint": "fac:samsung-pyeongtaek",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: SUMCO's own Sustainability Report (Tier 2) names Samsung specifically ('2025 Best Partner Award from Samsung...due to our contribution... developing silicon wafers for advanced devices'), confirmed in context (the two separately-quoted fragments sit in the same sentence).",
    "best_tier": 2,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23486,7 +23301,7 @@
    "from": "co:sk-siltron",
    "to": "co:sk-hynix",
    "commodity": "silicon wafers",
-   "description": "SK hynix's audited related-party note lists purchases from SK Siltron Co., Ltd. of KRW 502,707 million in 2025 (column 'Purchase and others'). SK hynix states wafers are its most significant raw material by cost. Receiving fab not disclosed.",
+   "description": "SK hynix's audited related-party note (Note 31) reports total related-party transactions with SK Siltron Co., Ltd. of KRW 502,707 million in 2025 under the general 'Purchase and others' column. This figure is NOT broken out by product and is not silicon-wafer-specific -- it covers all goods and services purchased from SK Siltron and may include non-wafer items. SK hynix separately states wafers are its most significant raw material by cost (~10% of cost of sales in recent years). Receiving fab not disclosed.",
    "basis": "documented",
    "evidence": [
     {
@@ -23524,7 +23339,8 @@
      }
     ]
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Documented and Tier 1 (SK hynix's SEC-filed 424B4 prospectus, related-party Note 31): both parties named, and the KRW 502,707 million figure independently confirmed via EDGAR full-text search (see evidence_checks). Flagged because, as the analyst raised, this figure is SK Siltron's total 'Purchase and others' from the related-party table — confirmed via full-text search that 'Sales and others' / 'Purchase and others' are the literal column headers — i.e. it covers all goods and services purchased from SK Siltron, not a wafer-specific line item. The original description mentioned the column name but did not clearly flag the non-product-specific nature of the figure; corrected below to state this explicitly.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23568,7 +23384,8 @@
      }
     ]
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented and Tier 1 (Entegris FY2025 10-K, customer-concentration table): both parties named. The 16%/16%/11% and top-ten 50%/48%/43% figures are table content described in the locator rather than fully transcribed in the quote; both independently confirmed via targeted EDGAR full-text search against this exact accession (see evidence_checks notes) — figures are accurate.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23606,7 +23423,8 @@
    ],
    "from_hint": "fac:globalwafers-memc-st-peters",
    "to_hint": "fac:globalfoundries-fab8-malta",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: GlobalFoundries' 20-F (Tier 1) names MEMC LLC as a principal wafer supplier; the NIST CHIPS press release (Tier 1) independently establishes MEMC LLC as a GlobalWafers subsidiary; and a GlobalFoundries executive is directly quoted (Tier 2) calling GlobalWafers a 'longstanding strategic partner.' Three independent, mutually corroborating primary/company sources.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23631,7 +23449,8 @@
     }
    ],
    "to_hint": "fac:globalfoundries-fab8-malta",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: GlobalFoundries' 20-F (Tier 1) names Shin-Etsu Handotai as a principal wafer supplier, confirmed verbatim.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23662,7 +23481,8 @@
     }
    ],
    "inference_note": "JSR says the Korea plant performs the 'final production process' for MOR and that MOR came from Inpria, whose Corvallis plant produces EUV photoresists [inpria.com] => upstream MOR material likely moves Corvallis -> Cheongju. No document states the shipment route.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, but with two genuinely documented premises, both cited in this file's own evidence and both confirmed verbatim: (1) JSR's MOR photoresist platform originates from the Inpria acquisition and Inpria's Corvallis plant produces EUV photoresists (inpria.com); (2) JSR's own 2024 press release states the new Cheongju, Korea plant 'will execute the final production process for MOR.' The inference_note is honest that no document states the shipment route itself. This is an intra-company flow (both facilities are JSR's own), so party identity is not in doubt -- only the specific route is inferred, which is a materially sounder basis than the rejected flows below.",
    "best_tier": 2,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23687,36 +23507,12 @@
     }
    ],
    "to_hint": "fac:samsung-pyeongtaek",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Linde's 2025 press release (Tier 2) names Samsung directly as the customer of this specific Pyeongtaek complex, confirmed verbatim.",
    "best_tier": 2,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:linde-pyeongtaek-onsite",
-   "to_node": "fac:samsung-pyeongtaek",
-   "resolution": "direct/hint",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:air-products-pyeongtaek-to-samsung",
-   "from": "fac:air-products-pyeongtaek-onsite",
-   "to": "co:samsung",
-   "commodity": "nitrogen, oxygen, argon, hydrogen; bulk specialty gases",
-   "description": "Air Products selected by Samsung to supply its new advanced fab in Pyeongtaek (onstream 2028-2030), extending prior Pyeongtaek phases.",
-   "basis": "documented",
-   "evidence": [
-    {
-     "source": "src:air-products-samsung-2026",
-     "quote": "Air Products (NYSE:APD), a world-leading industrial gases company and serving Samsung globally, today announced it has been selected by Samsung to supply industrial gases for its new advanced semiconductor fab in Pyeongtaek, Gyeonggi Province, South Korea.",
-     "locator": "Press release, paragraph 1",
-     "supports": "relationship"
-    }
-   ],
-   "to_hint": "fac:samsung-pyeongtaek",
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "wafers_chemicals",
-   "source_layer": "wafers_chemicals",
-   "from_node": "fac:air-products-pyeongtaek-onsite",
    "to_node": "fac:samsung-pyeongtaek",
    "resolution": "direct/hint",
    "from_layer": "wafers_chemicals"
@@ -23737,7 +23533,8 @@
     }
    ],
    "to_hint": "fac:micron-boise-id1",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Documented: Air Liquide's 2024 press release (Tier 2) names Micron Technology, Inc. directly, confirmed verbatim.",
    "best_tier": 2,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
@@ -23769,90 +23566,13 @@
    ],
    "to_hint": "fac:tsmc-fab21-arizona-p1",
    "inference_note": "Linde does not name the customer. A new multi-billion-dollar fab in Phoenix announced 2021 with 2022 plant start-up matches TSMC Arizona (Fab 21, north Phoenix), documented in the fabrication layer. Intel's Arizona fabs are in Chandler, not Phoenix. Unconfirmed by any document naming both parties.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Inferred, and correctly so -- neither Linde press release names the customer. However this is a materially sounder inference than the rejected AGC/Air Liquide-Arizona flows below: (1) Linde's own releases (2021, 2026, Tier 2) document a real, specific relationship -- an on-site complex built and then expanded for 'one of the world's largest semiconductor manufacturers' at a named city (Phoenix); (2) TSMC's Fab 21 (Phoenix, operational/under construction per the fabrication layer) is the only multi-billion-dollar logic fab in Phoenix proper in this period -- Intel's Arizona fabs are in Chandler, a different city, which the inference_note correctly uses to rule Intel out. Independently, re-reading the full 2026 Linde release during this review turned up a further corroborating detail not cited in the evidence array: the same release states Linde's Taiwan joint venture (Linde LienHwa) was 'selected by the same customer' for a simultaneous Taiwan expansion -- consistent with TSMC (headquartered in Taiwan, with major Taiwan fab operations) and not with Intel (no comparable Taiwan fab footprint). This additional textual clue was not added to the entity's evidence/inference_note (out of scope for a correction), but it materially increases confidence in the existing inference. Flagged, not rejected, given the city-level and cross-market disambiguation available; flagged because the customer is still not named in either source.",
    "best_tier": 2,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:linde-phoenix-onsite",
    "to_node": "fac:tsmc-fab21-arizona-p1",
-   "resolution": "direct/hint",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:air-liquide-arizona-to-tsmc-arizona",
-   "from": "fac:air-liquide-arizona-onsite",
-   "to": "co:tsmc",
-   "commodity": "ultra-pure hydrogen, CO2, UHP gases",
-   "description": "Air Liquide on-site facility for 'the latest fab expansion of a global leader in advanced semiconductor nodes' in Arizona; customer unnamed.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:air-liquide-arizona-2026",
-     "quote": "Air Liquide announces a new investment of over 160 million US dollars to build, own and operate a new large-scale production facility in Arizona to supply essential ultra-high purity gases to the latest fab expansion of a global leader in advanced semiconductor nodes.",
-     "locator": "Press release, paragraph 1",
-     "supports": "Air Liquide role; customer unnamed"
-    }
-   ],
-   "to_hint": "fac:tsmc-fab21-arizona-p3",
-   "inference_note": "Customer described only as 'a global leader in advanced semiconductor nodes' expanding a fab in Arizona. TSMC Arizona and Intel Arizona both fit; TSMC chosen as the likelier match given ongoing phased Fab 21 expansion. Unconfirmed.",
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "wafers_chemicals",
-   "source_layer": "wafers_chemicals",
-   "from_node": "fac:air-liquide-arizona-onsite",
-   "to_node": "fac:tsmc-fab21-arizona-p3",
-   "resolution": "direct/hint",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:photronics-boise-to-micron",
-   "from": "fac:photronics-boise",
-   "to": "co:micron",
-   "commodity": "IC photomasks",
-   "description": "Photronics runs IC photomask manufacturing and R&D in Boise, where Micron's headquarters fab is located.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:photronics-10k-fy2025",
-     "quote": "We primarily conduct research and development activities for IC photomasks at our Boise, Idaho, facility.",
-     "locator": "Item 1 Business",
-     "supports": "Photronics Boise role"
-    }
-   ],
-   "to_hint": "fac:micron-boise-id1",
-   "inference_note": "Co-location only. Photronics' customers are anonymized (Customer A 16%, B 13%, C 8% of FY2025 revenue); no document names Micron as a Photronics customer. Low confidence.",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "wafers_chemicals",
-   "source_layer": "wafers_chemicals",
-   "from_node": "fac:photronics-boise",
-   "to_node": "fac:micron-boise-id1",
-   "resolution": "direct/hint",
-   "from_layer": "wafers_chemicals"
-  },
-  {
-   "id": "flow:agc-to-mask-shops-euv-blanks",
-   "from": "fac:agc-electronics-motomiya",
-   "to": "co:tsmc",
-   "commodity": "EUV mask blanks",
-   "description": "AGC says its EUVL mask blanks are adopted by several logic and memory manufacturers (unnamed). TSMC runs captive EUV mask making.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:agc-euvl-blanks-2023",
-     "quote": "AGC’s EUVL mask blanks have been adopted by several logic and memory semiconductor manufacturers",
-     "locator": "News release, paragraph 3",
-     "supports": "customer class"
-    }
-   ],
-   "to_hint": "fac:tsmc-fab12-hsinchu",
-   "inference_note": "AGC names no customers. The leading EUV logic producer is TSMC, which makes its own masks in-house (so it would buy blanks). Illustrative endpoint only; could equally be Samsung, Intel or memory makers.",
-   "review": "unverified",
-   "best_tier": 2,
-   "layer": "wafers_chemicals",
-   "source_layer": "wafers_chemicals",
-   "from_node": "fac:agc-electronics-motomiya",
-   "to_node": "fac:tsmc-fab12-hsinchu",
    "resolution": "direct/hint",
    "from_layer": "wafers_chemicals"
   }
@@ -24687,7 +24407,8 @@
     "period": "cap on contingent guarantee obligation over 20-year lease terms",
     "note": "Maximum exposure (cap), contingent; not funded"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Verified verbatim (Tier 1, 8-K and 10-Q). Flagged for visibility: the $105B figure is a cumulative CAP on a contingent guarantee obligation (payable only on OpenAI insolvency/default, and OpenAI must reimburse NVIDIA), not cash paid or committed capital. Description and amount.note already state this correctly; flag preserves that caveat on the public page given how easily $105B reads as a cash figure.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24719,7 +24440,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24751,7 +24473,8 @@
     "period": "as of 2026-07-26, payable FY2027-FY2032+",
     "note": "Suppliers not named in the disclosure"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24777,7 +24500,8 @@
     "period": "as of 2026-07-26, typically six-year terms",
     "note": "Counterparties not named"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24803,7 +24527,8 @@
     "period": "FY2027-FY2032+",
     "note": "CSP counterparties not named"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24835,7 +24560,8 @@
     "period": "cumulative as of 2026-07-26",
     "note": "Plus $25B of commitments subject to contingencies; investees not itemized"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24855,7 +24581,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24875,7 +24602,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24895,7 +24623,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company. Particular care: NVIDIA's 10-Q quote names only 'one AI research and deployment company' -- this record does NOT attribute it to OpenAI or any other named firm, and must not be edited to do so.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24927,7 +24656,8 @@
     "period": "one-time, pending close",
     "note": "Plus up to ~$1.0B retention program"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24959,7 +24689,8 @@
     "period": "$13.0B at closing (Dec 2025) + $4B within one year",
     "note": "License + acqui-hire, not an equity acquisition"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Verified verbatim (Tier 1 10-K). Kind is 'acquisition' per the schema's closed FinancialKind enum, but the transaction is a non-exclusive technology license plus acqui-hire -- NVIDIA's own 10-K states 'No customer contracts, existing products, or equity interests were purchased,' and no Groq equity changed hands. No better-fit kind exists in the enum (not 'purchase_commitment', not 'equity_investment'); kept as 'acquisition' per counsel instruction, but the description already makes clear this is a license, not a corporate acquisition, and should not be read as NVIDIA having bought Groq.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -24991,7 +24722,8 @@
     "period": "through 2032-04-13",
     "note": "Initial value of order form"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25022,7 +24754,8 @@
     "currency": "USD",
     "period": "one-time"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25048,7 +24781,8 @@
     "period": "through October 2030",
     "note": "'up to' amount"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25074,7 +24808,8 @@
     "period": "through 2031-05-31",
     "note": "'up to' amount"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25100,7 +24835,8 @@
     "period": "through 2031-12-14",
     "note": "'up to' initial commitment"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25125,7 +24861,8 @@
     "currency": "USD",
     "period": "through 2032-12-20"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25145,7 +24882,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25165,7 +24903,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25190,7 +24929,8 @@
     "currency": "USD",
     "period": "as of 2026-06-30, recognized over ~78 months"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25214,7 +24954,8 @@
     "value": 6000000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25245,7 +24986,8 @@
     "currency": "USD",
     "period": "$7.6B (May 2024) + $3.0B DDTL 2.1 tranche (Sep 2025)"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25269,7 +25011,8 @@
     "value": 2600000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25293,7 +25036,8 @@
     "value": 8500000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25317,7 +25061,8 @@
     "value": 3100000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25341,7 +25086,8 @@
     "value": 2600000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25365,7 +25111,8 @@
     "value": 2587500000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25395,7 +25142,8 @@
     "value": 2750000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25420,7 +25168,8 @@
     "currency": "USD",
     "note": "Plus EUR 2,000 million euro tranche"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25431,7 +25180,7 @@
    "to": "co:coreweave",
    "kind": "debt_financing",
    "date": "2026-09-17",
-   "description": "Self-link: CoreWeave announced a $3.0B convertible senior notes due 2033 private offering (plus $500M option); an 8-K filed Sept 22, 2026 reports pricing of an upsized offering (final size not captured here). Amount is the announced base size.",
+   "description": "Self-link: CoreWeave priced $3.7B of 2.875% Convertible Senior Notes due 2033 (upsized from the $3.0B announced base), plus the same $500M option for additional notes, per an 8-K filed 2026-09-22 (accession 0001769628-26-000432) that supersedes the 2026-09-17 'intends to offer' announcement. Amount is the final priced base principal, not the earlier announced size.",
    "evidence": [
     {
      "source": "src:coreweave-8k-2026-09-17",
@@ -25441,11 +25190,12 @@
     }
    ],
    "amount": {
-    "value": 3000000000,
+    "value": 3700000000,
     "currency": "USD",
-    "note": "Announced base size; final upsized amount not verified"
+    "note": "Priced, upsized amount (2.875% Convertible Senior Notes due 2033), per CoreWeave 8-K filed 2026-09-22 (accession 0001769628-26-000432, Ex-99.1), which supersedes the 2026-09-17 intent-to-offer announcement. Base announced size was $3.0B; also carries the same $500M initial purchasers' option as originally announced."
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "CORRECTED. Base evidence quote ($3.0B, 'intends to offer') is verbatim in the cited 8-K but describes only the announced size. CoreWeave's next 8-K (filed 2026-09-22, accession 0001769628-26-000432 -- not in this file's sources[]) reports the notes priced upsized to $3.7B aggregate principal amount (2.875% convertible senior notes due 2033), confirmed via EDGAR full-text search exact-phrase hits against that accession and by direct fetch of the exhibit (Ex-99.1). amount.value corrected to 3,700,000,000 (was 3,000,000,000); amount.note and description corrected to reflect the final priced, upsized amount rather than the announced base. Flagged because the correction rests on a document not yet added to sources[]/evidence[] -- recommend the analyst add it properly in the next pass.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25477,7 +25227,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25503,7 +25254,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25523,7 +25275,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company. Particular care: Broadcom's 32% FY2025 customer is unnamed in the 10-K; the entity correctly avoids attributing it to any named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25543,7 +25296,8 @@
      "supports": "relationship"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25569,7 +25323,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25601,7 +25356,8 @@
     "period": "cumulative commitments",
     "note": "$11.9B funded as of 2026-06-30"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25627,7 +25383,8 @@
     "period": "FY2026 (July 2025-June 2026)",
     "note": "Includes revenue-sharing payments"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25642,12 +25399,6 @@
    "evidence": [
     {
      "source": "src:microsoft-10k-fy2026",
-     "quote": "Cash used in investing increased $66.9 billion to $139.5 billion for fiscal year 2026, primarily due to a $51.4 billion increase in additions to property and equipment",
-     "locator": "Part II, Item 7, MD&A, Cash Flows",
-     "supports": "amount"
-    },
-    {
-     "source": "src:microsoft-10k-fy2026",
      "quote": "We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI training and other infrastructure.",
      "locator": "Part II, Item 7, MD&A, Liquidity",
      "supports": "relationship"
@@ -25659,7 +25410,8 @@
     "period": "FY2026 (ended 2026-06-30)",
     "note": "Cash flow statement: Additions to property and equipment (115,948) $M; excludes finance leases"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Amount independently confirmed accurate ('115,948' appears verbatim in the correct 10-K via EDGAR full-text search, consistent with the cash-flow statement's 'Additions to property and equipment' line), but neither evidence quote states the $115,948M / $115.9B figure directly -- ev[0] gives only the $51.4B YoY increase and $139.5B total investing outflow. Flagged for this evidentiary gap (the headline number is right, but not itself quoted in evidence[]).",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25684,7 +25436,8 @@
     "currency": "USD",
     "period": "commencing FY2027-FY2033"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25709,7 +25462,8 @@
     "currency": "USD",
     "period": "FY2025"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25734,7 +25488,8 @@
     "currency": "USD",
     "period": "Q3 2023 - Q4 2025"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25765,7 +25520,8 @@
     "currency": "USD",
     "period": "Q2 2026"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25796,7 +25552,8 @@
     "currency": "USD",
     "note": "Cap; availability tied to compute delivery milestones"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25822,7 +25579,8 @@
     "period": "10 years",
     "note": "'more than' $100B expansion"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25847,7 +25605,8 @@
     "currency": "USD",
     "period": "$38.0B original + $100.0B over 8 years"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25878,7 +25637,8 @@
     "currency": "USD",
     "period": "2026"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25904,7 +25664,8 @@
     "period": "as of 2026-06-30",
     "note": "Not limited to data centers"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25935,7 +25696,8 @@
     "currency": "USD",
     "period": "FY2025"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25960,7 +25722,8 @@
     "currency": "USD",
     "period": "H1 2026"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -25985,7 +25748,8 @@
     "currency": "USD",
     "period": "commencing 2026-2031"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26016,7 +25780,8 @@
     "currency": "USD",
     "period": "FY2025"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26047,7 +25812,8 @@
     "currency": "USD",
     "period": "Q2 2026"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26079,7 +25845,8 @@
     "period": "as of 2026-06-30",
     "note": "Plus ~$68B signed July 2026"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26123,7 +25890,8 @@
     "period": "total estimated development cost, pro rata funding",
     "note": "Blue Owl funds ~$7B initial cash contribution"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1/2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26155,7 +25923,8 @@
     "period": "initial 4-year terms from 2029",
     "note": "Plus RVG threshold ~$28B (contingent)"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26186,7 +25955,8 @@
     "currency": "USD",
     "note": "Maximum RVG exposure; counterparty not named; not definitive"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26210,7 +25980,8 @@
     "value": 13800000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26235,7 +26006,8 @@
     "currency": "USD",
     "period": "FY2026 (ended 2026-05-31)"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26260,7 +26032,8 @@
     "currency": "USD",
     "period": "Q1 FY2027 (Jun-Aug 2026)"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26291,7 +26064,8 @@
     "currency": "USD",
     "period": "as of 2026-08-31"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company. Particular care: Oracle's RPO growth is attributed only to 'certain significant cloud contracts'; the filing does not name OpenAI or any other customer, and the entity correctly avoids attributing one.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26322,7 +26096,8 @@
     "currency": "USD",
     "period": "15-19 year terms"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26347,7 +26122,8 @@
     "currency": "USD",
     "period": "five years from FY2027"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26371,7 +26147,8 @@
     "value": 18000000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26402,7 +26179,8 @@
     "currency": "USD",
     "note": "Plus $19.9B net ATM equity proceeds"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26426,7 +26204,8 @@
     "value": 5000000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 1 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26446,7 +26225,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Self-link: counterparty(ies) not named in the cited filing(s); description already states this explicitly. Flagged for visibility so the public page cannot be read as attributing this figure to any specific named company.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26483,7 +26263,8 @@
     "currency": "USD",
     "note": "'up to', LOI, non-binding as of 10-K"
    },
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Verified verbatim (Tier 1 10-K + Tier 2 press release). Flagged: this is a letter of intent, not a definitive or binding agreement. NVIDIA's own FY2026 10-K (filed months after the LOI) still describes the investment/partnership agreement as being finalized with 'no assurance' of completion. The $100B is an 'up to' intention tied to future GW deployment milestones, not a committed or funded amount. Description already correctly frames this; flag preserves the caveat publicly.",
    "best_tier": 1,
    "layer": "finance",
    "source_layer": "finance"
@@ -26508,7 +26289,8 @@
     "currency": "USD",
     "note": "'up to' commitment as announced"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 2,
    "layer": "finance",
    "source_layer": "finance"
@@ -26533,7 +26315,8 @@
     "currency": "USD",
     "note": "'up to' commitment as announced"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 2,
    "layer": "finance",
    "source_layer": "finance"
@@ -26557,7 +26340,8 @@
     "value": 30000000000,
     "currency": "USD"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 2,
    "layer": "finance",
    "source_layer": "finance"
@@ -26582,7 +26366,8 @@
     "currency": "USD",
     "note": "Incremental contracted Azure purchases; period not disclosed"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 2,
    "layer": "finance",
    "source_layer": "finance"
@@ -26607,7 +26392,8 @@
     "currency": "USD",
     "note": "Valuation of stake, not cash invested"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 2,
    "layer": "finance",
    "source_layer": "finance"
@@ -26633,7 +26419,8 @@
     "period": "three tranches during 2026",
     "note": "Cumulative $64.6B"
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, relationship and status evidence verified verbatim against Tier 2 source(s); description's characterization (binding vs. LOI/'up to', named vs. undisclosed parties) matches what the cited document(s) actually say.",
    "best_tier": 2,
    "layer": "finance",
    "source_layer": "finance"
@@ -26658,7 +26445,8 @@
      "supports": "amount, parties"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount and parties verified verbatim against MP Materials' Tier-1 8-K; the note's 'up to $350 million additional preferred and a warrant' detail also confirmed verbatim in the same filing.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials"
@@ -26683,7 +26471,8 @@
      "supports": "amount, parties"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount and parties verified verbatim against MP Materials' Tier-1 8-K.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials"
@@ -26709,7 +26498,8 @@
      "supports": "amount, terms"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount and terms (the $110/kg shortfall-payment formula) verified verbatim against MP Materials' Tier-1 8-K.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials"
@@ -26735,7 +26525,8 @@
      "supports": "amount, parties, date"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount, parties and date verified verbatim against Lynas' Tier-1 FY2026 Annual Report; the source names only 'the U.S. Government' with no specific department, so the generic gov:us endpoint (a valid id pattern under this schema) is correct as written -- inferring gov:us-dod would add a claim the source does not make, even though it is plausible given the Seadrift/DoD history.",
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials"
@@ -27844,7 +27635,8 @@
     }
    ],
    "from": "co:foxconn",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount (US$33,033,000.00) and location both verified verbatim in the MOPS filing; description accurately discloses the filing's generic '營運需求'/operational-needs purpose language rather than asserting an AI-specific purpose.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"
@@ -27876,7 +27668,8 @@
     }
    ],
    "from": "co:foxconn",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount and lease term both verified verbatim in the MOPS filing.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"
@@ -27900,7 +27693,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount (US$142,124,461) verified verbatim in the MOPS filing.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"
@@ -27924,7 +27718,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount (US$128,000,000) verified verbatim in the MOPS filing.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"
@@ -27948,7 +27743,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount in MXN verified verbatim in the MOPS filing; currency correctly recorded in the original currency (MXN) with the ISO 4217 code.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"
@@ -27973,7 +27769,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount (US$20,194,836) and 120-month term verified verbatim in the MOPS filing.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"
@@ -27997,7 +27794,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Amount ($569 million) verified verbatim in the Foxconn/WEDC release. The description's parenthetical about '$96M total performance-based EITMZ tax credits through 2029' is also confirmed accurate against the same release ('eligible to earn up to a total of $96 million in performance-based tax credits ... Electronics, Information Technology, and Manufacturing Zone') even though it was not separately cited as an Evidence item -- note for the analyst to add that citation next time.",
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems"
@@ -28021,7 +27819,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Amount (US$110,983,000) verified verbatim; the filing explicitly names the subject '(Westport廠)' and gives a plant size (766,994 sq ft) that matches Hillwood's 14601 Mobility Way building exactly. Flagged only because, as with the facility it points to, the street-address link is via matching square footage, not a literal address in the MOPS filing.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"
@@ -28036,7 +27835,7 @@
     "currency": "USD"
    },
    "date": "2025-05-13",
-   "description": "WIUS contract to acquire land (852,034 sq ft) and plant (324,598 sq ft) in the US; building size matches 15200 Heritage Parkway (D1).",
+   "description": "WIUS (Wistron InfoComm USA) contract to acquire a second US property for US$48.85 million, counterparty PR III/CROW BUILDING E,F,G&L LP, finalized 2025-05-13. This MOPS filing gives only the amount, date, and counterparty; it does not name a street address or give land/building size, and does not reference 15200 Heritage Parkway or 'D1'. Matching this transaction to the Heritage Parkway (D1) facility is the analyst's inference from the filing's timing and its rough proportion to the separately-documented Westport transaction (fin:wistron-westport-2025), not a documented fact -- treat the site link as unconfirmed.",
    "evidence": [
     {
      "source": "src:wistron-mops-2025-05-13-wius-contract",
@@ -28045,7 +27844,8 @@
      "supports": "amount"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "The transaction itself (US$48,850,000, counterparty PR III/CROW BUILDING E,F,G&L LP, dated 2025-05-13) is real and Tier 1-documented. But the description's site attribution to 15200 Heritage Parkway (D1) and its land/building size figures (852,034 sq ft / 324,598 sq ft) are not stated anywhere in this filing or any other source in the file -- corrected to remove the unsourced size figures and to disclose the site link as the analyst's inference from timing/proportion, not a documented fact.",
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems"

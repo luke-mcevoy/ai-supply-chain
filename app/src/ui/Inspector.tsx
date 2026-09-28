@@ -222,7 +222,7 @@ function FlowView({ idx, f }: { idx: Index; f: Flow }) {
       {(rf === "hq" || rt === "hq" || rf === "operator" || rt === "operator") && (
         <div className="note muted small">
           {rf === "hq" || rt === "hq" ? "One endpoint is drawn at company headquarters because the specific site isn't documented. " : ""}
-          {rf === "operator" || rt === "operator" ? "One endpoint was resolved to the operator's site at the adjacent stage; the documents name the company, not the site." : ""}
+          {rf === "operator" || rt === "operator" ? "One endpoint was resolved to the company's only site at the adjacent stage; the documents name the company, not the site." : ""}
         </div>
       )}
       {f.volume && <Rows rows={[["Volume", `${f.volume.value.toLocaleString()} ${f.volume.unit} (as of ${f.volume.as_of})`]]} />}

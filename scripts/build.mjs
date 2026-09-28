@@ -156,6 +156,12 @@ for (const fl of flows.values()) {
   fl.from_layer = layerOfEnd(a.id);
 }
 
+// Publish only the sources that back something on the map (published evidence or company records).
+const cited = new Set();
+for (const coll of [companies, facilities, flows, financial, controls])
+  for (const e of coll.values()) for (const ev of [...e.evidence, ...(e.capacity?.evidence ?? [])]) cited.add(ev.source);
+for (const id of [...sources.keys()]) if (!cited.has(id)) sources.delete(id);
+
 const atlas = {
   built_at: new Date().toISOString(),
   draft: DRAFT,
