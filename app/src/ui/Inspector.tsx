@@ -263,7 +263,7 @@ function ControlView({ idx, c }: { idx: Index; c: Control }) {
         <ReviewBadge review={c.review} note={c.review_note} />
         <span className={`status c-${c.status}`}>{c.status.replaceAll("_", " ").toUpperCase()}</span>
         <span className="mono cite">{c.citation}</span>
-        {ctlEffect(c) !== "restrict" && <span>{ctlEffect(c) === "relax" ? "RELAXES AN EARLIER RULE" : "IMPORT MEASURE"}</span>}
+        {ctlEffect(c) !== "restrict" && <span>{({ relax: "RELAXES AN EARLIER RULE", import: "IMPORT MEASURE", entities: "NAMED-PARTY LISTING" } as const)[ctlEffect(c) as "relax" | "import" | "entities"]}</span>}
       </div>
       <p className="desc">{c.summary}</p>
       <Rows rows={[

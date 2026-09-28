@@ -158,8 +158,11 @@ export function traverse(idx: Index, seeds: string[], dir: "up" | "down" | "both
  * What a control does on the map. Only "restrict" (an export control) shades destinations:
  * suspensions/stays relax an earlier rule, and Section 232-style measures restrict *imports*.
  */
-export function ctlEffect(c: Control): "restrict" | "relax" | "import" {
+export function ctlEffect(c: Control): "restrict" | "relax" | "import" | "entities" {
   if (/suspen|stay|rescission|rescind|relief/i.test(`${c.id} ${c.instrument}`)) return "relax";
+  // Entity List–style rules restrict named parties; their applies_to lists where those parties sit,
+  // which must not be read as a country-wide restriction.
+  if (/entity[- ]list/i.test(`${c.id} ${c.instrument}`) && !/advanced[- ]computing|semiconductor manufacturing items/i.test(c.instrument)) return "entities";
   const own = c.authority.split("-")[0];
   if (c.applies_to.includes(own) && c.applies_from.some((f) => /origin|import/i.test(f))) return "import";
   return "restrict";

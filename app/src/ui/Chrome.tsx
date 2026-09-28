@@ -205,7 +205,7 @@ function Timeline({ idx }: { idx: Index }) {
     <div className="timeline">
       <div className="tl-head">
         <span className="mono">{new Date(controlDate).toISOString().slice(0, 10)}</span>
-        <span className="muted">{active.length} export restrictions in force · red = restricted destination, blue = imposing jurisdiction · green ticks = suspensions, grey = import measures</span>
+        <span className="muted">{active.length} export restrictions in force · red = restricted destination, blue = imposing jurisdiction · white dots = named restricted parties · green ticks = suspensions, grey = import measures</span>
         <span className="seg" role="radiogroup" aria-label="Imposed by">
           {([["allies", "US & allies"], ["cn", "China"], ["all", "All"]] as const).map(([k, label]) => (
             <button key={k} role="radio" aria-checked={ctlBloc === k} className={ctlBloc === k ? "on" : ""} onClick={() => set({ ctlBloc: k })}>{label}</button>

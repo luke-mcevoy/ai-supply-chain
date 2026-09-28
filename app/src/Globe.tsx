@@ -183,9 +183,10 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
 
   // ── controls choropleth for the scrubbed date ──
   const ctl = useMemo(() => {
-    const active = activeControls(idx, s.controlDate)
-      .filter((c) => ctlEffect(c) === "restrict")
-      .filter((c) => s.ctlBloc === "all" || (s.ctlBloc === "cn") === c.authority.startsWith("CN"));
+    const inBloc = (c: Control) => s.ctlBloc === "all" || (s.ctlBloc === "cn") === c.authority.startsWith("CN");
+    const all = activeControls(idx, s.controlDate).filter(inBloc);
+    const listings = all.filter((c) => ctlEffect(c) === "entities");
+    const active = all.filter((c) => ctlEffect(c) === "restrict");
     const target = new Map<string, number>();
     const source = new Map<string, number>();
     const routes = new Map<string, { from: string; to: string; ids: string[] }>();
@@ -200,7 +201,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         routes.set(k, r);
       }
     }
-    return { active, target, source, routes: [...routes.values()] };
+    return { active, listings, target, source, routes: [...routes.values()] };
   }, [idx, s.controlDate, s.ctlBloc]);
 
   const ctlArcs: (ArcDatum & { mid: [number, number, number]; route: { from: string; to: string; ids: string[] } })[] = useMemo(() => {
@@ -421,7 +422,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       }),
       new ScatterplotLayer<{ id: string; pos: [number, number] }>({
         id: "listed-entities", pickable: true,
-        data: [...new Set(ctl.active.flatMap((c) => c.entities ?? []))].map((id) => ({ id, pos: locateAny(idx, id)! })).filter((d) => d.pos),
+        data: [...new Set([...ctl.active, ...ctl.listings].flatMap((c) => c.entities ?? []))].map((id) => ({ id, pos: locateAny(idx, id)! })).filter((d) => d.pos),
         getPosition: (d) => [d.pos[0], d.pos[1], 12_000], getRadius: 6, radiusUnits: "pixels",
         getFillColor: rgba(C.danger, 230), stroked: true, getLineColor: [255, 255, 255, 220], lineWidthUnits: "pixels", getLineWidth: 1.2,
         onHover, onClick,
