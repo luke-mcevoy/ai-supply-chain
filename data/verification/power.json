@@ -1,0 +1,1780 @@
+{
+  "layer": "power",
+  "verifier": "counsel-power (Claude)",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:ceg-crane-microsoft-ppa-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ceg-meta-clinton-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:ceg-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:doe-crane-loan",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:talen-8k-2025-06-11",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:talen-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nee-google-duane-arnold-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:doe-duane-arnold-loan",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:kairos-google-tva-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:nrc-hermes-cp",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:xe-10q-2026q2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:vst-8k-2026-01-09",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:meta-nuclear-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:lpsc-order-u-37425",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:etr-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:etr-10q-2026q2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:naacp-appeal-shelby-01156",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Reachable via curl with declared UA (arstechnica CDN, PDF, 3.6MB). Confirmed by pdftotext: this is the actual filed appeal document (NAACP + Young, Gifted & Green, to the Memphis and Shelby County Air Pollution Control Board), not a news article about it, so doc_type_ok=true and tier_assigned=1 (court/administrative filing category) is retained. Two caveats that keep the dependent entities at publish_flagged rather than publish: (1) it is hosted on a news outlet's CDN, not the Board's own site or a court record system - the Board apparently does not publish an online docket, and the underlying SCHD permit itself (01156-01PC) could not be independently retrieved (already in the analyst's gaps[]); (2) the claim that the Paul R. Lowry Road site and CTC Property LLC's turbines belong to 'xAI' is the appellants' own characterization inside an adversarial pleading, not a finding by the Health Department or an admission by xAI/CTC - the permit itself is issued to CTC Property LLC, not to any xAI-named entity. Document is dated July 16, 2025 on its face (line 1); research file records document_date 2025-07-15 (matches the filename '7-15-2025' and is within the few-day tolerance) - date_ok=true, noted here for the record."
+    },
+    {
+      "source": "src:gev-8k-2026q2-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:gev-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:gev-greenville-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:gev-crusoe-release",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:siemens-energy-ar-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:tceq-abilene-dc1-177263",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Reachable via curl (TCEQ records.tceq.texas.gov), PDF confirmed genuine TCEQ Standard Permit Technical Review for 'Abilene DC 1, LLC dba Crusoe Energy Systems, LLC' / 'Longhorn Data Center'. Document dated January 21-22, 2025 (signature block), matches document_date 2025-01-22. The permit itself never uses the words 'Stargate', 'Oracle', or 'OpenAI' - the link to the Stargate/Oracle campus is Crusoe's own inference, correctly marked basis=inferred with an honest inference_note on flow:longhorn-turbines-to-oracle-stargate."
+    },
+    {
+      "source": "src:dominion-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:pjm-2026-load-forecast",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:ercot-large-load-2026-04",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:wec-10q-2026q2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nisource-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:nisource-10q-2026q2",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true
+    },
+    {
+      "source": "src:crusoe-abilene-live",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    },
+    {
+      "source": "src:crusoe-abilene-1-2gw",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:constellation",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:constellation",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:microsoft",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:talen",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:talen",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amazon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:amazon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nextera",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nextera",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alphabet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:alphabet",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:kairos",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:kairos",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tva",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:x-energy",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:x-energy",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:energy-northwest",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:vistra",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oklo",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oklo",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:terrapower",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:entergy",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:entergy",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:xai",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ge-vernova",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ge-vernova",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ge-vernova",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ge-vernova",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:siemens-energy",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:siemens-energy",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:siemens-energy",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:siemens-energy",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:crusoe",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:crusoe",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:dominion",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:dominion",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:dominion",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:dominion",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:pjm",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:pjm",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:ercot",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wec-energy",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wec-energy",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wec-energy",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nisource",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:nisource",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oracle",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:oracle",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:constellation-crane",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:constellation-crane",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:constellation-crane",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:constellation-crane",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:constellation-clinton",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:constellation-clinton",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:constellation-clinton",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:constellation-clinton",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:talen-susquehanna",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:talen-susquehanna",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:talen-susquehanna",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:talen-susquehanna",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:nextera-duane-arnold",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nextera-duane-arnold",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nextera-duane-arnold",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nextera-duane-arnold",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:nextera-duane-arnold",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "capacity:1"
+    },
+    {
+      "entity": "fac:kairos-hermes-2",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:kairos-hermes-2",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:kairos-hermes-2",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:kairos-hermes",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:kairos-hermes",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:energy-northwest-cascade",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:energy-northwest-cascade",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:energy-northwest-cascade",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:energy-northwest-cascade",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:vistra-perry",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vistra-perry",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vistra-perry",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:vistra-perry",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "capacity:1"
+    },
+    {
+      "entity": "fac:vistra-davis-besse",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vistra-davis-besse",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vistra-davis-besse",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:vistra-davis-besse",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "capacity:1"
+    },
+    {
+      "entity": "fac:vistra-beaver-valley",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vistra-beaver-valley",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:vistra-beaver-valley",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:oklo-pike-county",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:oklo-pike-county",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:entergy-franklin-farms",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-franklin-farms",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-franklin-farms",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-franklin-farms",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-franklin-farms",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:entergy-waterford-5",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-waterford-5",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-waterford-5",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-richland-parish-units-1-4",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-richland-parish-units-1-4",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-richland-parish-units-1-4",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-pointe-coupee-units-1-3",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-pointe-coupee-units-1-3",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:entergy-pointe-coupee-units-1-3",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-turbines-memphis",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-turbines-memphis",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:xai-colossus-turbines-memphis",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene-longhorn-turbines",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene-longhorn-turbines",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene-longhorn-turbines",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene-longhorn-turbines",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:crusoe-abilene-longhorn-turbines",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:crusoe-abilene-longhorn-turbines",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "capacity:1"
+    },
+    {
+      "entity": "fac:ge-vernova-greenville",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:ge-vernova-greenville",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:ge-vernova-greenville",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:dominion-chesterfield-erc",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:dominion-chesterfield-erc",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:dominion-chesterfield-erc",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:dominion-chesterfield-erc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "fac:nisource-genco-ccgt",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nisource-genco-ccgt",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:nisource-genco-ccgt",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0"
+    },
+    {
+      "entity": "flow:crane-to-microsoft",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:crane-to-microsoft",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:crane-to-microsoft",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:clinton-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:clinton-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:clinton-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:clinton-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "volume:0"
+    },
+    {
+      "entity": "flow:susquehanna-to-amazon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:susquehanna-to-amazon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:susquehanna-to-amazon",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:susquehanna-to-amazon",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Quote (FERC denial of the ISA Amendment, Nov 2024, up to 480 MW) verified verbatim in Talen's 10-K Item 3. The flow's own description additionally cites the specific docket number 'FERC ER24-2172' - that citation is NOT present in the Talen 10-K text (EDGAR full-text search for \"ER24-2172\" against Talen's CIK returns zero hits); it is analyst-added context, consistent with the same docket cited in the analyst's own gaps[] entry ('FERC Order Rejecting Amended ISA, 189 FERC P 61,078 (Nov. 1, 2024)'), and consistent with public record of this well-known case, but unverified against any Tier 1/2 document retrieved in this review. FERC.gov and eLibrary block scripted/automated access (confirmed again in this review). Does not affect the verified facts (parties, ~480 MW, Nov 2024 denial, co-location arrangement)."
+    },
+    {
+      "entity": "flow:susquehanna-to-amazon",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "volume:0"
+    },
+    {
+      "entity": "flow:susquehanna-to-amazon",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "volume:1"
+    },
+    {
+      "entity": "flow:duane-arnold-to-alphabet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:duane-arnold-to-alphabet",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:hermes-2-to-alphabet",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:hermes-2-to-alphabet",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:cascade-to-amazon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:cascade-to-amazon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:x-energy-to-cascade",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:x-energy-to-cascade",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:perry-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:perry-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:perry-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:perry-to-meta",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:davis-besse-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:davis-besse-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:davis-besse-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:davis-besse-to-meta",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:beaver-valley-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:beaver-valley-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:beaver-valley-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:oklo-pike-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:oklo-pike-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:oklo-pike-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:franklin-farms-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:franklin-farms-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:franklin-farms-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:waterford-5-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:waterford-5-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:waterford-5-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:richland-units-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:richland-units-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:richland-units-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:pointe-coupee-units-to-meta",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:pointe-coupee-units-to-meta",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:pointe-coupee-units-to-meta",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:colossus-turbines-to-xai",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:colossus-turbines-to-xai",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:colossus-turbines-to-xai",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ge-vernova-to-longhorn",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ge-vernova-to-longhorn",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ge-vernova-to-crusoe",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ge-vernova-to-crusoe",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:ge-vernova-to-crusoe",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "volume:0"
+    },
+    {
+      "entity": "flow:ge-vernova-to-crusoe",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "volume:1"
+    },
+    {
+      "entity": "flow:genco-ccgt-to-amazon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:genco-ccgt-to-amazon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:genco-ccgt-to-amazon",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:genco-ccgt-to-amazon",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:longhorn-turbines-to-oracle-stargate",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:longhorn-turbines-to-oracle-stargate",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:longhorn-turbines-to-oracle-stargate",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:longhorn-turbines-to-oracle-stargate",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-constellation-crane-ppa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-constellation-crane-ppa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-constellation-clinton-ppa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-constellation-clinton-ppa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-talen-susquehanna-ppa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-talen-susquehanna-ppa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-nextera-duane-arnold-ppa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-nextera-duane-arnold-ppa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:doe-constellation-crane-loan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:doe-constellation-crane-loan",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:doe-nextera-duane-arnold-loan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tva-kairos-hermes-2-ppa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:tva-kairos-hermes-2-ppa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:alphabet-kairos-500mw",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-vistra-nuclear-ppas",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-vistra-nuclear-ppas",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-vistra-nuclear-ppas",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-vistra-nuclear-ppas",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-oklo-pike-county",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-oklo-pike-county",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-terrapower-natrium",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-terrapower-natrium",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-energy-northwest-cascade",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-energy-northwest-cascade",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-entergy-louisiana-esa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-entergy-louisiana-esa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-entergy-louisiana-esa",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-evest-entergy-esa",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:meta-evest-entergy-esa",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:crusoe-ge-vernova-turbines",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:crusoe-ge-vernova-turbines",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-wec-vlc-service",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-wec-vlc-service",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:microsoft-wec-vlc-service",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-nipsco-ads-contract",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-nipsco-ads-contract",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:amazon-nipsco-ads-contract",
+      "evidence_index": 2,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:constellation",
+      "verdict": "publish",
+      "reasons": "20-year PPAs with Microsoft (Crane) and Meta (Clinton) confirmed verbatim in the 2025 10-K (Tier 1) and company press releases (Tier 2)."
+    },
+    {
+      "entity": "co:microsoft",
+      "verdict": "publish",
+      "reasons": "Relationship to Crane PPA confirmed in Constellation's Tier 2 press release; corroborated by the VLC/WEC purchase_commitment."
+    },
+    {
+      "entity": "co:meta",
+      "verdict": "publish",
+      "reasons": "Relationships to Clinton, Vistra (Perry/Davis-Besse/Beaver Valley), Oklo, TerraPower and Entergy Louisiana all confirmed by Tier 1/2 sources."
+    },
+    {
+      "entity": "co:talen",
+      "verdict": "publish",
+      "reasons": "Susquehanna ownership and the AWS PPA confirmed verbatim in Talen's 10-K and 8-K (Tier 1)."
+    },
+    {
+      "entity": "co:amazon",
+      "verdict": "publish",
+      "reasons": "AWS/Susquehanna and Energy Northwest relationships confirmed in Talen's 8-K and X-energy's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "co:nextera",
+      "verdict": "publish",
+      "reasons": "Duane Arnold restart, Google PPA and DOE loan confirmed in NextEra's and DOE's Tier 1/2 releases."
+    },
+    {
+      "entity": "co:alphabet",
+      "verdict": "publish",
+      "reasons": "Google's Duane Arnold and Kairos/TVA relationships confirmed in Tier 1/2 press releases."
+    },
+    {
+      "entity": "co:kairos",
+      "verdict": "publish",
+      "reasons": "Hermes/Hermes 2 existence, location and TVA PPA confirmed in the NRC construction permit (Tier 1) and Kairos/Google/TVA release (Tier 2)."
+    },
+    {
+      "entity": "co:tva",
+      "verdict": "publish",
+      "reasons": "Kairos PPA relationship confirmed in the Tier 2 joint release."
+    },
+    {
+      "entity": "co:x-energy",
+      "verdict": "publish",
+      "reasons": "Existence, HQ and the Amazon/Energy Northwest relationship confirmed verbatim in X-energy's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "co:energy-northwest",
+      "verdict": "publish",
+      "reasons": "Amazon Carbon Free Development and Funding Agreement (four reactors, 320 MWe upsizable to 960 MWe) confirmed verbatim in X-energy's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "co:vistra",
+      "verdict": "publish",
+      "reasons": "2,609 MW of 20-year PPAs with Meta confirmed verbatim in Vistra's 8-K Item 7.01 (Tier 1)."
+    },
+    {
+      "entity": "co:oklo",
+      "verdict": "publish",
+      "reasons": "Meta's funding/relationship for the Pike County, Ohio campus confirmed in Meta's Tier 2 release."
+    },
+    {
+      "entity": "co:terrapower",
+      "verdict": "publish",
+      "reasons": "Meta's Natrium funding relationship confirmed in Meta's Tier 2 release."
+    },
+    {
+      "entity": "co:entergy",
+      "verdict": "publish",
+      "reasons": "Meta/Laidley LLC and Meta/Evest LLC data-center service relationships confirmed in Entergy's 10-K and 10-Q (Tier 1) and LPSC Order U-37425 (Tier 1)."
+    },
+    {
+      "entity": "co:xai",
+      "verdict": "publish_flagged",
+      "reasons": "The only evidence for this entity is an appeal filed by NAACP and Young, Gifted & Green with the Memphis and Shelby County Air Pollution Control Board, hosted on a news outlet's CDN rather than the Board's own site or the underlying SCHD permit (which names CTC Property LLC, not xAI, as the permit holder). Kept Tier 1 because it is a genuine filing with a quasi-judicial local body, not press coverage, but the identification of the Paul R. Lowry Road site as 'xAI's' is the appellants' own characterization in an adversarial pleading, not an agency finding or an xAI admission. Additionally, no evidence in this file supports the company's Palo Alto, CA hq (geocoded from general knowledge, not from a cited document). Publishable with these caveats visible."
+    },
+    {
+      "entity": "co:ge-vernova",
+      "verdict": "publish",
+      "reasons": "HQ, backlog and Crusoe/Greenville relationships confirmed in the 8-K, 10-K (Tier 1) and press releases (Tier 2)."
+    },
+    {
+      "entity": "co:siemens-energy",
+      "verdict": "publish",
+      "reasons": "Data-center demand and backlog figures confirmed verbatim in the 2025 Annual Report (Tier 1)."
+    },
+    {
+      "entity": "co:crusoe",
+      "verdict": "publish",
+      "reasons": "GE Vernova turbine deal and Abilene/Longhorn Data Center permit relationship confirmed in the Tier 2 press release and TCEQ Tier 1 filing."
+    },
+    {
+      "entity": "co:dominion",
+      "verdict": "publish",
+      "reasons": "HQ and data-center load-share/forecast figures confirmed verbatim in the 2025 10-K (Tier 1)."
+    },
+    {
+      "entity": "co:pjm",
+      "verdict": "publish",
+      "reasons": "Load-forecast adjustment methodology confirmed in the 2026 PJM Load Forecast Report (Tier 1)."
+    },
+    {
+      "entity": "co:ercot",
+      "verdict": "publish",
+      "reasons": "Large-load interconnection queue figure confirmed verbatim in ERCOT's Tier 1 filing to the Texas House."
+    },
+    {
+      "entity": "co:wec-energy",
+      "verdict": "publish",
+      "reasons": "HQ and Microsoft VLC relationship confirmed verbatim in the 10-Q (Tier 1)."
+    },
+    {
+      "entity": "co:nisource",
+      "verdict": "publish",
+      "reasons": "HQ and the ADS (Amazon) Contract relationship confirmed verbatim in the 10-K (Tier 1)."
+    },
+    {
+      "entity": "co:oracle",
+      "verdict": "publish",
+      "reasons": "Relationship to the Stargate Abilene campus (Crusoe/OCI) confirmed in Crusoe's Tier 2 press release."
+    },
+    {
+      "entity": "fac:constellation-crane",
+      "verdict": "publish",
+      "reasons": "Existence, location, 835 MW capacity and the Microsoft PPA confirmed in the DOE Tier 1 release and Constellation's Tier 2 release; status/start_year (2028) confirmed."
+    },
+    {
+      "entity": "fac:constellation-clinton",
+      "verdict": "publish",
+      "reasons": "Existence, location and the 1,121 MW Meta PPA confirmed verbatim in the Tier 2 press release and Constellation's 10-K (Tier 1)."
+    },
+    {
+      "entity": "fac:talen-susquehanna",
+      "verdict": "publish",
+      "reasons": "Existence, ownership (90% undivided interest, 2,494 MW total) and the AWS PPA confirmed verbatim in Talen's 10-K (Tier 1)."
+    },
+    {
+      "entity": "fac:nextera-duane-arnold",
+      "verdict": "publish",
+      "reasons": "Existence, location, 615 MW capacity and restart timeline (Q1 2029) confirmed in NextEra's Tier 2 release and DOE's Tier 1 release."
+    },
+    {
+      "entity": "fac:kairos-hermes-2",
+      "verdict": "publish",
+      "reasons": "Existence, location and 50 MW (upgraded from 28 MW) capacity confirmed verbatim in the Tier 2 Kairos/Google/TVA release."
+    },
+    {
+      "entity": "fac:kairos-hermes",
+      "verdict": "publish",
+      "reasons": "Existence, location and non-power test-reactor status confirmed verbatim in NRC Construction Permit CPTR-6 (Tier 1)."
+    },
+    {
+      "entity": "fac:energy-northwest-cascade",
+      "verdict": "publish",
+      "reasons": "Existence, location (region) and the 320 MWe (upsizable to 960 MWe) capacity confirmed verbatim in X-energy's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "fac:vistra-perry",
+      "verdict": "publish_flagged",
+      "reasons": "The 1,481 MW capacity value is the sum of energy/capacity contracted to Meta (1,268 MW operating + 213 MW uprate) per Vistra's 8-K, not Perry's total plant nameplate capacity - the note field already discloses this, flagged here so the caveat is visible on the public record."
+    },
+    {
+      "entity": "fac:vistra-davis-besse",
+      "verdict": "publish_flagged",
+      "reasons": "The 988 MW capacity value is the sum of energy/capacity contracted to Meta (908 MW operating + 80 MW uprate) per Vistra's 8-K, not Davis-Besse's total plant nameplate capacity - the note field already discloses this, flagged here so the caveat is visible on the public record."
+    },
+    {
+      "entity": "fac:vistra-beaver-valley",
+      "verdict": "publish_flagged",
+      "reasons": "The 140 MW capacity value is uprate energy/capacity contracted to Meta only, not Beaver Valley's plant capacity (which is much larger and not wholly owned by Vistra) - the note field already discloses this, flagged here so the caveat is visible on the public record."
+    },
+    {
+      "entity": "fac:oklo-pike-county",
+      "verdict": "publish",
+      "reasons": "Existence, location, up-to-1.2 GW capacity and 2030 target confirmed verbatim in Meta's Tier 2 release."
+    },
+    {
+      "entity": "fac:entergy-franklin-farms",
+      "verdict": "publish_flagged",
+      "reasons": "The 2,262 MW capacity value is the LPSC-filed total for all three new CCCTs (Franklin Farms Units 1-2 plus the separate Waterford 5 facility), not Franklin Farms 1-2 alone - the note field already discloses that the per-unit split is not in the source; flagged here because it is attached to a 2-unit facility entity."
+    },
+    {
+      "entity": "fac:entergy-waterford-5",
+      "verdict": "publish",
+      "reasons": "Existence, location (Killona, Entergy's existing Waterford site) and 2029 in-service date confirmed verbatim in Entergy's 10-K (Tier 1) and LPSC Order U-37425 (Tier 1). No capacity value is asserted for this facility, so the Franklin Farms MW-attribution issue does not apply here."
+    },
+    {
+      "entity": "fac:entergy-richland-parish-units-1-4",
+      "verdict": "publish_flagged",
+      "reasons": "Correctly described as 'planned'/'application is pending before the LPSC' (March 2026 filing, Evest LLC, part of 5,278 MW/$12.9B total) - not yet approved. Flagged because the underlying regulatory approval is still pending as of the cited 10-Q."
+    },
+    {
+      "entity": "fac:entergy-pointe-coupee-units-1-3",
+      "verdict": "publish_flagged",
+      "reasons": "Same basis as Richland Parish Units 1-4: correctly described as pending, not approved. Flagged for the same reason."
+    },
+    {
+      "entity": "fac:xai-colossus-turbines-memphis",
+      "verdict": "publish_flagged",
+      "reasons": "Existence of Air Permit 01156-01PC to CTC Property LLC and its authorization of 15 SMT-130 turbines is well supported. The facility's identity as an 'xAI' site rests solely on the appellants' characterization in the NAACP/Young Gifted & Green appeal (see source_checks notes for src:naacp-appeal-shelby-01156); the permit itself names only CTC Property LLC. 'Operational' status is a reasonable but not directly quoted inference from the appeal's description of turbines already running pre-permit. No capacity (MW) value is asserted on this facility, so there is no numeric risk from the unresolved CTC/xAI affiliation question."
+    },
+    {
+      "entity": "fac:crusoe-abilene-longhorn-turbines",
+      "verdict": "publish",
+      "reasons": "Existence, operator (Crusoe, dba Abilene DC 1, LLC), location and turbine counts/ratings confirmed verbatim in the TCEQ Standard Permit Technical Review (Tier 1). The facility's own material facts do not depend on the Longhorn/Stargate identity question, which is handled as an inferred flow (see flow:longhorn-turbines-to-oracle-stargate)."
+    },
+    {
+      "entity": "fac:ge-vernova-greenville",
+      "verdict": "publish",
+      "reasons": "Existence, location and product confirmed verbatim in GE Vernova's Tier 2 press release."
+    },
+    {
+      "entity": "fac:dominion-chesterfield-erc",
+      "verdict": "publish",
+      "reasons": "Existence, 944 MW capacity, cost and 2029 in-service date confirmed verbatim in Dominion's 10-K (Tier 1)."
+    },
+    {
+      "entity": "fac:nisource-genco-ccgt",
+      "verdict": "publish",
+      "reasons": "Existence, capacity (two 1,300 MW CCGTs + 400 MW storage) and 2028-2032 COD confirmed verbatim in NiSource's 10-K (Tier 1) and 10-Q status update (Tier 1)."
+    },
+    {
+      "entity": "flow:crane-to-microsoft",
+      "verdict": "publish",
+      "reasons": "20-year PPA relationship confirmed verbatim in Constellation's Tier 2 press release and 10-K (Tier 1)."
+    },
+    {
+      "entity": "flow:clinton-to-meta",
+      "verdict": "publish",
+      "reasons": "20-year PPA, 1,121 MW output, June 2027 start confirmed verbatim in Tier 2 press release and Constellation's 10-K (Tier 1)."
+    },
+    {
+      "entity": "flow:susquehanna-to-amazon",
+      "verdict": "publish",
+      "reasons": "Volume (up to 1,920 MW through 2042), delivery arrangement (PPL transmission) and the Nov 2024 FERC denial of the co-located ISA amendment (up to 480 MW) are all confirmed verbatim in Talen's 10-K and 8-K (Tier 1). One residual: the description's specific docket citation 'FERC ER24-2172' is not itself present in the cited 10-K text (see evidence_checks note on this flow) - the underlying facts it summarizes are fully verified."
+    },
+    {
+      "entity": "flow:duane-arnold-to-alphabet",
+      "verdict": "publish",
+      "reasons": "25-year agreement, 615 MW plant and CIPCO's remaining-output arrangement confirmed verbatim in NextEra's Tier 2 release."
+    },
+    {
+      "entity": "flow:hermes-2-to-alphabet",
+      "verdict": "publish",
+      "reasons": "Up-to-50 MW PPA via TVA and Google's clean-energy-attribute arrangement confirmed verbatim in the Tier 2 joint release."
+    },
+    {
+      "entity": "flow:cascade-to-amazon",
+      "verdict": "publish",
+      "reasons": "Carbon Free Development and Funding Agreement (320 MWe, upsizable to 960 MWe) confirmed verbatim in X-energy's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "flow:x-energy-to-cascade",
+      "verdict": "publish",
+      "reasons": "X-energy's Xe-100 as the technology for the Energy Northwest deployment confirmed verbatim in X-energy's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "flow:perry-to-meta",
+      "verdict": "publish",
+      "reasons": "1,268 MW operating + 213 MW uprate from Perry to Meta, and the Prometheus (New Albany, OH) destination, confirmed verbatim in Vistra's 8-K (Tier 1) and Meta's Tier 2 release. Figures are explicitly PPA-contracted volumes, not a claim about Perry's total capacity."
+    },
+    {
+      "entity": "flow:davis-besse-to-meta",
+      "verdict": "publish",
+      "reasons": "908 MW operating + 80 MW uprate from Davis-Besse to Meta confirmed verbatim in Vistra's 8-K (Tier 1)."
+    },
+    {
+      "entity": "flow:beaver-valley-to-meta",
+      "verdict": "publish",
+      "reasons": "140 MW uprate from Beaver Valley to Meta confirmed verbatim in Vistra's 8-K (Tier 1)."
+    },
+    {
+      "entity": "flow:oklo-pike-to-meta",
+      "verdict": "publish",
+      "reasons": "Up-to-1.2 GW into PJM and Meta's early-procurement funding confirmed verbatim in Meta's Tier 2 release."
+    },
+    {
+      "entity": "flow:franklin-farms-to-meta",
+      "verdict": "publish",
+      "reasons": "Relationship (Laidley LLC = Meta subsidiary), location (two units near the customer site) confirmed verbatim in LPSC Order U-37425 (Tier 1) and Entergy's 10-K (Tier 1). Order U-37425 is an approved/decided order (Aug 20, 2025 Business and Executive Session), correctly not described as pending."
+    },
+    {
+      "entity": "flow:waterford-5-to-meta",
+      "verdict": "publish",
+      "reasons": "Waterford 5's role in the same LPSC-approved resource plan and its Killona site confirmed verbatim in Entergy's 10-K and LPSC Order U-37425 (Tier 1)."
+    },
+    {
+      "entity": "flow:richland-units-to-meta",
+      "verdict": "publish_flagged",
+      "reasons": "Correctly described as 'proposed'/pending: the March 2026 LPSC application (5,278 MW total, Evest LLC) 'is pending before the LPSC' per Entergy's 10-Q (Tier 1) - not yet approved, unlike Order U-37425. Flagged so the pending status stays visible."
+    },
+    {
+      "entity": "flow:pointe-coupee-units-to-meta",
+      "verdict": "publish_flagged",
+      "reasons": "Same basis as Richland Parish Units 1-4: correctly described as pending, not approved."
+    },
+    {
+      "entity": "flow:colossus-turbines-to-xai",
+      "verdict": "publish_flagged",
+      "reasons": "Already correctly marked basis=inferred with a sound inference_note: the cited appeal names CTC Property LLC as the permit holder and separately calls the site 'xAI's', but no primary document ties CTC to xAI directly. Kept publish_flagged (not reject) because the underlying facts quoted (permit number, turbine count, permit holder) are accurately quoted from a genuine filing; the xAI linkage itself is exactly what the inference_note discloses as unresolved. See source_checks notes for src:naacp-appeal-shelby-01156 for the tier reasoning."
+    },
+    {
+      "entity": "flow:ge-vernova-to-longhorn",
+      "verdict": "publish",
+      "reasons": "TCEQ-listed GE LM2500 turbines at Longhorn Data Center confirmed verbatim in the TCEQ filing (Tier 1); GE Vernova's LM2500XPRESS/Crusoe deal confirmed verbatim in the Tier 2 release."
+    },
+    {
+      "entity": "flow:ge-vernova-to-crusoe",
+      "verdict": "publish",
+      "reasons": "29 LM2500XPRESS units (10 Dec 2024 + 19 June 2025), nearly 1 GW combined, confirmed verbatim in the Tier 2 joint press release."
+    },
+    {
+      "entity": "flow:genco-ccgt-to-amazon",
+      "verdict": "publish",
+      "reasons": "ADS Contract relationship, NIPSCO/GenCo generation plan and IURC approval (June 2026) confirmed verbatim in NiSource's 10-K and 10-Q (Tier 1)."
+    },
+    {
+      "entity": "flow:longhorn-turbines-to-oracle-stargate",
+      "verdict": "publish_flagged",
+      "reasons": "Already correctly marked basis=inferred with a sound, explicit inference_note: the TCEQ permit names 'Longhorn Data Center' / Abilene DC 1, LLC dba Crusoe with no mention of Stargate or Oracle, and Crusoe's own releases describe the Abilene Stargate/OCI campus with onsite gas turbines but do not use the name 'Longhorn'. No single Tier 1/2 document ties the two together by name, exactly as the inference_note states. Kept as publish_flagged, not documented, and not rejected, since both halves of the inference are independently well sourced."
+    },
+    {
+      "entity": "fin:microsoft-constellation-crane-ppa",
+      "verdict": "publish",
+      "reasons": "20-year PPA for Crane's output confirmed verbatim in Tier 2 release and Constellation's 10-K (Tier 1). Price correctly disclosed as not stated."
+    },
+    {
+      "entity": "fin:meta-constellation-clinton-ppa",
+      "verdict": "publish",
+      "reasons": "20-year PPA, 1,121 MW, June 2027 start confirmed verbatim in the Tier 2 release. Price correctly disclosed as not stated."
+    },
+    {
+      "entity": "fin:amazon-talen-susquehanna-ppa",
+      "verdict": "publish",
+      "reasons": "Up to 1,920 MW through 2042 confirmed verbatim in Talen's 10-K and 8-K (Tier 1). Description correctly states the dollar value is not disclosed in the cited filings - the widely reported ~$18B figure does not appear in the retrieved 8-K exhibit and is correctly omitted from the amount field."
+    },
+    {
+      "entity": "fin:alphabet-nextera-duane-arnold-ppa",
+      "verdict": "publish",
+      "reasons": "25-year agreement for the 615 MW plant confirmed verbatim in NextEra's Tier 2 release. Price correctly disclosed as not stated."
+    },
+    {
+      "entity": "fin:doe-constellation-crane-loan",
+      "verdict": "publish",
+      "reasons": "Up-to-$1.0B FFB loan guarantee confirmed verbatim in DOE's Tier 1 release and Constellation's 10-K (Tier 1). Checked specifically for the loan-maturity-date discrepancy flagged for this review: the description here gives only the year ('matures 2055'), with no month, so it cannot assert either the 10-K's 'October 2055' or the 10-Q's 'November 2055' incorrectly. EDGAR full-text search confirms both phrases appear somewhere in Constellation's 2026 filings (10-K uses one, later 10-Qs the other); no correction needed since no month is claimed."
+    },
+    {
+      "entity": "fin:doe-nextera-duane-arnold-loan",
+      "verdict": "publish",
+      "reasons": "Up-to-$1.9B loan confirmed verbatim in DOE's Tier 1 release."
+    },
+    {
+      "entity": "fin:tva-kairos-hermes-2-ppa",
+      "verdict": "publish",
+      "reasons": "Up-to-50 MW PPA confirmed verbatim in the Tier 2 joint release."
+    },
+    {
+      "entity": "fin:alphabet-kairos-500mw",
+      "verdict": "publish",
+      "reasons": "500 MW by 2035 target confirmed verbatim in the Tier 2 release."
+    },
+    {
+      "entity": "fin:meta-vistra-nuclear-ppas",
+      "verdict": "publish",
+      "reasons": "2,609 MW total, per-plant breakdown and 2026-2027 delivery timing confirmed verbatim in Vistra's 8-K (Tier 1). Correctly framed as PPA volume, not plant capacity."
+    },
+    {
+      "entity": "fin:meta-oklo-pike-county",
+      "verdict": "publish",
+      "reasons": "Meta funding commitment for early procurement/development confirmed verbatim in Meta's Tier 2 release. Amount correctly disclosed as not stated."
+    },
+    {
+      "entity": "fin:meta-terrapower-natrium",
+      "verdict": "publish",
+      "reasons": "Funding for two Natrium units (up to 690 MW) plus rights to six more (2.1 GW) confirmed verbatim in Meta's Tier 2 release. Amount correctly disclosed as not stated."
+    },
+    {
+      "entity": "fin:amazon-energy-northwest-cascade",
+      "verdict": "publish",
+      "reasons": "Carbon Free Development and Funding Agreement confirmed verbatim in X-energy's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "fin:meta-entergy-louisiana-esa",
+      "verdict": "publish_flagged",
+      "reasons": "Relationship (Laidley LLC = Meta subsidiary) and the ~2,262 MW/Order U-37425 approval are solidly Tier 1 sourced. The $2,387,000,000 amount field is explicitly noted as 'Entergy's estimated cost of Franklin Farms Units 1-2 (utility capex), not a payment amount' - accurate, but flagged so a reader does not mistake it for a Meta payment or contract value."
+    },
+    {
+      "entity": "fin:meta-evest-entergy-esa",
+      "verdict": "publish_flagged",
+      "reasons": "Relationship (Evest LLC = Meta subsidiary, March 2026 ESA) is Tier 1 sourced (Entergy's 10-Q). The $12,900,000,000 amount is explicitly noted as 'Entergy's estimated generation cost in the pending application, not a payment amount', and the description correctly says the LPSC application is pending, not approved. Flagged for both reasons: it is not a payment figure, and the underlying regulatory approval has not yet occurred as of the cited 10-Q."
+    },
+    {
+      "entity": "fin:crusoe-ge-vernova-turbines",
+      "verdict": "publish",
+      "reasons": "29 LM2500XPRESS units, ~1 GW combined, confirmed verbatim in the Tier 2 joint release. Price correctly disclosed as not stated."
+    },
+    {
+      "entity": "fin:microsoft-wec-vlc-service",
+      "verdict": "publish",
+      "reasons": "Microsoft's $20B+ investment claim, WEC's 2.6 GW load-growth expectation and the VLC tariff service agreement confirmed verbatim in WEC's 10-Q (Tier 1)."
+    },
+    {
+      "entity": "fin:amazon-nipsco-ads-contract",
+      "verdict": "publish",
+      "reasons": "ADS Contract (executed Sept 2025) and its dedicated GenCo generation confirmed verbatim in NiSource's 10-K (Tier 1). Contract value correctly disclosed as not stated."
+    }
+  ],
+  "summary": "Reviewed all 31 sources, all 223 evidence items, and issued verdicts for all 82 entities (25 companies, 20 facilities, 20 flows, 17 financial_links; 0 controls in this layer). Result: 68 publish, 14 publish_flagged, 0 reject. Every quote in the file was checked against the primary document: SEC filings via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index, restricted to the filer's CIK/accession) since sec.gov blocks direct scripted fetches of the filing HTML itself; all other documents (company/gov press releases, NRC construction permit, TCEQ permit review, LPSC order, PJM/ERCOT filings, Siemens Energy annual report, the NAACP/YGG appeal) were downloaded directly with a declared project User-Agent and converted with pdftotext where needed. No fabricated or paraphrased quote was found anywhere in the file - every evidence item verified verbatim in the cited document, restricted to the correct filing/accession where relevant. This is an unusually clean research file; the issues found are about presentation/context rather than fabrication:\n\n1. xAI Memphis (co:xai, fac:xai-colossus-turbines-memphis, flow:colossus-turbines-to-xai): the sole source is an appeal filed by NAACP and Young, Gifted & Green with the Memphis and Shelby County Air Pollution Control Board, mirrored on a news outlet's CDN rather than the Board's own site. It is a genuine quasi-judicial filing (not press coverage), so I kept it Tier 1, but the claim that the Paul R. Lowry Road turbines are 'xAI's' is the appellants' own adversarial characterization - the permit itself names only CTC Property LLC. The flow was already correctly marked basis=inferred with a sound inference_note; I kept that and issued publish_flagged for all three dependent entities rather than reject, since the quoted facts (permit number, permit holder, turbine count) are accurately drawn from a real filing.\n\n2. Abilene/Stargate (fac:crusoe-abilene-longhorn-turbines, flow:longhorn-turbines-to-oracle-stargate): the TCEQ permit for Crusoe's 'Longhorn Data Center' never mentions Stargate or Oracle, and Crusoe's own Stargate releases never use the name 'Longhorn'. The analyst's inference_note honestly states this gap. Facility-level facts (existence, operator, location, turbine counts) are solid Tier 1 TCEQ evidence and get publish; only the Oracle-directed flow, which depends on the Longhorn=Stargate identification, is publish_flagged.\n\n3. Vistra MW figures (fac:vistra-perry, fac:vistra-davis-besse, fac:vistra-beaver-valley): capacity fields are the MW contracted to Meta under the 8-K PPA, not plant nameplate capacity. The analyst's own capacity.note already discloses this; I flagged all three publish_flagged so the caveat stays visible rather than relying on a reader opening the note.\n\n4. Entergy Franklin Farms (fac:entergy-franklin-farms): the 2,262 MW capacity value is the LPSC-filed total for three CCCTs (Franklin Farms Units 1-2 plus the separately-modeled Waterford 5 facility), attached to a 2-unit facility entity; flagged for the same reason as the Vistra plants. Two Entergy financial_links (fin:meta-entergy-louisiana-esa, fin:meta-evest-entergy-esa) similarly carry Entergy's own capex estimates in their 'amount' field, not payment amounts - both already self-disclosed via note and flagged here for visibility.\n\n5. Crane loan maturity (fin:doe-constellation-crane-loan): checked specifically for this review. Constellation's 10-K and its 10-Qs give different maturity months (October 2055 vs. November 2055, confirmed present in different 2026 filings via EDGAR full-text search); the research file's description says only 'matures 2055' with no month, so it cannot assert the wrong one. No correction needed; verdict publish.\n\n6. Talen-Amazon value (fin:amazon-talen-susquehanna-ppa): confirmed no amount field is present and the description correctly states the ~$18B figure reported in the press does not appear in the cited 8-K exhibit. No correction needed.\n\n7. FERC ER24-2172 (flow:susquehanna-to-amazon): the underlying facts (PJM/PPL/Susquehanna ISA amendment for up to 480 MW of co-located AWS supply, denied by FERC in November 2024) are verified verbatim in Talen's 10-K. The specific docket number 'ER24-2172' that the flow's description adds is not itself present in that 10-K text (EDGAR full-text search returns zero hits for it in Talen's filings); FERC.gov and eLibrary block scripted access, matching the analyst's own gaps[] entry, so I could not independently confirm the docket number against FERC's own record. It matches the citation the analyst separately records in gaps[] (189 FERC P 61,078, Nov. 1, 2024) and public reporting on this case, so I left it in place with a note rather than removing it; it doesn't affect any verified numeric claim. I found no assertion anywhere in the file about Talen dropping an appeal in January 2026 (a fact flagged for me to check) - the data makes no such claim, so there is nothing to correct.\n\n8. Entergy's pending March 2026 filing (fac:entergy-richland-parish-units-1-4, fac:entergy-pointe-coupee-units-1-3, flow:richland-units-to-meta, flow:pointe-coupee-units-to-meta): correctly described throughout as 'planned'/'pending' (Evest LLC, 5,278 MW, $12.9B, 'application is pending before the LPSC' per the 10-Q) and never as approved, unlike the already-decided Order U-37425 (2,262 MW, Laidley LLC, decided at the LPSC's August 20, 2025 session). Flagged publish_flagged purely to keep the pending status visible; no correction needed.\n\n9. Systemic note (not a rejection): company hq coordinates are explicitly evidenced for only 5 of 25 companies (X-energy, GE Vernova, Dominion, WEC Energy, NiSource - all from SEC cover pages or explicit hq quotes). The other 20 rely on general knowledge of well-known corporate addresses at 'city' or coarser precision, which AGENTS.md's coordinate rule permits (documented address is required only at 'site' precision). I did not reject or flag these individually; co:xai is flagged separately above on other grounds and additionally has no hq evidence at all.\n\nNo entity was rejected. No fabricated quotes, no paraphrases presented as quotes, and no 'documented' flow found that should actually be 'inferred' (the two flows that needed basis=inferred - xAI/Memphis and Longhorn/Stargate - were already correctly marked that way by the analyst)."
+}
