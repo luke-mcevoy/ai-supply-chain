@@ -10,7 +10,7 @@ import { PathStyleExtension, type PathStyleExtensionProps } from "@deck.gl/exten
 import type { Feature, Geometry } from "geojson";
 import {
   type Index, type Facility, type Flow, type FinancialLink, type Control,
-  traverse, locateAny, usdValue, CHAIN,
+  traverse, locateAny, usdValue, ctlEffect, CHAIN,
 } from "./atlas";
 import { arcPath, graticule, offsetEast, type World, type Country } from "./geo";
 import { C, LAYER_COLOR } from "./theme";
@@ -95,6 +95,20 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     });
   }, [s.flyTo]);
 
+  // ── bring a selected rule's target (or a deep-linked entity) into view ──
+  const firstSel = useRef(true);
+  useEffect(() => {
+    const id = s.selected;
+    if (!id) return;
+    const c = idx.control.get(id);
+    let p: [number, number] | undefined;
+    if (c) p = c.applies_to.map((a) => world.byA2.get(a)?.centroid).find(Boolean) ?? c.applies_from.map((a) => world.byA2.get(a)?.centroid).find(Boolean);
+    else if (firstSel.current) p = locateAny(idx, idx.flow.get(id)?.to_node ?? idx.fin.get(id)?.to ?? id);
+    firstSel.current = false;
+    if (p) s.focus(p[0], p[1]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [s.selected]);
+
   // ── what-if: severed nodes (sites, or whole countries) and their downstream exposure ──
   const severedNodes = useMemo(() => {
     const out: string[] = [];
@@ -169,7 +183,9 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
 
   // ── controls choropleth for the scrubbed date ──
   const ctl = useMemo(() => {
-    const active = activeControls(idx, s.controlDate);
+    const active = activeControls(idx, s.controlDate)
+      .filter((c) => ctlEffect(c) === "restrict")
+      .filter((c) => s.ctlBloc === "all" || (s.ctlBloc === "cn") === c.authority.startsWith("CN"));
     const target = new Map<string, number>();
     const source = new Map<string, number>();
     const routes = new Map<string, { from: string; to: string; ids: string[] }>();
@@ -185,7 +201,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       }
     }
     return { active, target, source, routes: [...routes.values()] };
-  }, [idx, s.controlDate]);
+  }, [idx, s.controlDate, s.ctlBloc]);
 
   const ctlArcs: (ArcDatum & { mid: [number, number, number]; route: { from: string; to: string; ids: string[] } })[] = useMemo(() => {
     const out = [];

@@ -163,6 +163,7 @@ for (const name of pick(VERIFY)) {
   const research = allResearch[name];
   if (!research) { err(`verification/${name}`, "no matching research file"); continue; }
   const ents = new Map();
+  const companyIds = new Set((research.companies ?? []).map((c) => c.id));
   for (const k of ["companies", "facilities", "flows", "financial_links", "controls"])
     for (const e of research[k] ?? []) ents.set(e.id, e);
   for (const ec of v.evidence_checks ?? []) {
@@ -175,7 +176,8 @@ for (const name of pick(VERIFY)) {
     if (!["publish", "publish_flagged", "reject"].includes(ev.verdict)) err(`verification/${name}`, `${ev.entity}: bad verdict`);
     judged.add(ev.entity);
   }
-  for (const id of ents.keys()) if (!judged.has(id)) warn(`verification/${name}`, `no verdict for ${id} (will not be published)`);
+  // Companies are merged across layers and kept unless explicitly rejected; everything else needs a verdict.
+  for (const id of ents.keys()) if (!judged.has(id) && !companyIds.has(id)) warn(`verification/${name}`, `no verdict for ${id} (will not be published)`);
 }
 
 for (const w of warnings) console.warn("warn ", w);

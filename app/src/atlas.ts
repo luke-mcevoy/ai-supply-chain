@@ -133,16 +133,36 @@ export function traverse(idx: Index, seeds: string[], dir: "up" | "down" | "both
         flows.add(f.id);
         enqueue(d === "down" ? f.to_node : f.from_node);
       }
-      // A company endpoint and its facilities are the same actor: a flow resolved to the company
-      // (hq fallback) reaches its sites, and a site participates in company-level flows.
-      if (!fromOwnFacility) for (const fac of idx.facilitiesByOperator.get(n) ?? []) enqueue(fac.id);
+      // A company reached as a seed or via a flow (hq fallback) stands for all of its sites.
+      if (!fromOwnFacility && !idx.facility.has(n)) for (const fac of idx.facilitiesByOperator.get(n) ?? []) enqueue(fac.id);
       const fac = idx.facility.get(n);
-      if (fac && (idx.out.has(fac.operator) || idx.in.has(fac.operator))) enqueue(fac.operator, true);
+      if (fac) {
+        // Vertical integration: a site feeds its own company's sites at *later* stages (a TSMC fab
+        // feeds TSMC packaging), never its peers at the same stage (Fab 21 ≠ all TSMC fabs).
+        const stage = CHAIN.indexOf(fac.layer);
+        if (stage >= 0) for (const sib of idx.facilitiesByOperator.get(fac.operator) ?? []) {
+          const s2 = CHAIN.indexOf(sib.layer);
+          if (s2 >= 0 && (d === "down" ? s2 > stage : s2 < stage)) enqueue(sib.id, true);
+        }
+        // ...and participates in flows drawn at company level.
+        if (idx.out.has(fac.operator) || idx.in.has(fac.operator)) enqueue(fac.operator, true);
+      }
     }
   };
   if (dir !== "up") run("down");
   if (dir !== "down") run("up");
   return { nodes, flows };
+}
+
+/**
+ * What a control does on the map. Only "restrict" (an export control) shades destinations:
+ * suspensions/stays relax an earlier rule, and Section 232-style measures restrict *imports*.
+ */
+export function ctlEffect(c: Control): "restrict" | "relax" | "import" {
+  if (/suspen|stay|rescission|rescind|relief/i.test(`${c.id} ${c.instrument}`)) return "relax";
+  const own = c.authority.split("-")[0];
+  if (c.applies_to.includes(own) && c.applies_from.some((f) => /origin|import/i.test(f))) return "import";
+  return "restrict";
 }
 
 export function locate(idx: Index, id: string): GeoPoint | undefined {

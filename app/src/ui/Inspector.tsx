@@ -1,7 +1,7 @@
 import { useMemo, type ReactNode } from "react";
 import {
   type Index, type Facility, type Company, type Flow, type FinancialLink, type Control,
-  nodeName, nodeLayer, locateAny, formatMoney, traverse,
+  nodeName, nodeLayer, locateAny, formatMoney, traverse, ctlEffect,
 } from "../atlas";
 import { LAYER_COLOR, LAYER_CODE, LAYER_LABEL, FIN_LABEL, css } from "../theme";
 import { useStore } from "../store";
@@ -263,6 +263,7 @@ function ControlView({ idx, c }: { idx: Index; c: Control }) {
         <ReviewBadge review={c.review} note={c.review_note} />
         <span className={`status c-${c.status}`}>{c.status.replaceAll("_", " ").toUpperCase()}</span>
         <span className="mono cite">{c.citation}</span>
+        {ctlEffect(c) !== "restrict" && <span>{ctlEffect(c) === "relax" ? "RELAXES AN EARLIER RULE" : "IMPORT MEASURE"}</span>}
       </div>
       <p className="desc">{c.summary}</p>
       <Rows rows={[

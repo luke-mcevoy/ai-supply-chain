@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { CHAIN, type Index, nodeName, locateAny, formatMoney, traverse } from "../atlas";
+import { CHAIN, type Index, nodeName, locateAny, formatMoney, traverse, ctlEffect } from "../atlas";
 import { LAYER_COLOR, LAYER_LABEL, LAYER_CODE, FIN_LABEL, DOC_LABEL, css } from "../theme";
 import { useStore, type Mode } from "../store";
 import { activeControls } from "../Globe";
@@ -183,13 +183,15 @@ export function Bottom({ idx }: { idx: Index }) {
 }
 
 function Timeline({ idx }: { idx: Index }) {
-  const { controlDate, set, select } = useStore();
+  const { controlDate, set, select, ctlBloc } = useStore();
   const start = Date.parse("2019-01-01");
   const end = Date.now() + 30 * 864e5;
   const ticks = idx.atlas.controls
     .map((c) => ({ c, t: idx.controlSpan.get(c.id)?.[0] ?? NaN }))
     .filter((x) => x.t >= start && x.t <= end);
-  const active = activeControls(idx, controlDate);
+  const active = activeControls(idx, controlDate)
+    .filter((c) => ctlEffect(c) === "restrict")
+    .filter((c) => ctlBloc === "all" || (ctlBloc === "cn") === c.authority.startsWith("CN"));
   const trackRef = useRef<HTMLDivElement>(null);
   const pct = (t: number) => ((t - start) / (end - start)) * 100;
   const drag = (clientX: number) => {
@@ -203,7 +205,12 @@ function Timeline({ idx }: { idx: Index }) {
     <div className="timeline">
       <div className="tl-head">
         <span className="mono">{new Date(controlDate).toISOString().slice(0, 10)}</span>
-        <span className="muted">{active.length} rules in force · red = restricted destination, blue = restricting jurisdiction</span>
+        <span className="muted">{active.length} export restrictions in force · red = restricted destination, blue = imposing jurisdiction · green ticks = suspensions, grey = import measures</span>
+        <span className="seg" role="radiogroup" aria-label="Imposed by">
+          {([["allies", "US & allies"], ["cn", "China"], ["all", "All"]] as const).map(([k, label]) => (
+            <button key={k} role="radio" aria-checked={ctlBloc === k} className={ctlBloc === k ? "on" : ""} onClick={() => set({ ctlBloc: k })}>{label}</button>
+          ))}
+        </span>
         <button className="linkish" onClick={() => set({ controlDate: Date.now() })}>Today</button>
       </div>
       <div className="tl-track" ref={trackRef}
@@ -211,7 +218,7 @@ function Timeline({ idx }: { idx: Index }) {
         onPointerMove={(e) => { if (e.buttons) drag(e.clientX); }}>
         {years.map((y) => <span key={y} className="tl-year mono" style={{ left: `${pct(Date.parse(`${y}-01-01`))}%` }}>{y}</span>)}
         {ticks.map(({ c, t }) => (
-          <button key={c.id} className={`tl-tick a-${c.authority.split("-")[0].toLowerCase()}`} style={{ left: `${pct(t)}%` }}
+          <button key={c.id} className={`tl-tick a-${c.authority.split("-")[0].toLowerCase()} e-${ctlEffect(c)}`} style={{ left: `${pct(t)}%` }}
             title={`${c.effective_date} · ${c.authority} · ${c.citation}`}
             onClick={(e) => { e.stopPropagation(); set({ controlDate: t + 864e5 }); select(c.id); }} />
         ))}

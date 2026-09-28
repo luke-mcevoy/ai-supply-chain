@@ -16,6 +16,8 @@ interface State {
   trace: boolean;
   severed: Set<string>; // node ids, or "country:XX"
   controlDate: number;
+  /** Controls view: whose restrictions to draw. */
+  ctlBloc: "allies" | "cn" | "all";
   paletteOpen: boolean;
   aboutOpen: boolean;
   railOpen: boolean;
@@ -43,6 +45,7 @@ export const useStore = create<State>((set, get) => ({
   trace: readHash().get("trace") === "1",
   severed: new Set(readHash().get("sever")?.split(",").filter(Boolean) ?? []),
   controlDate: Date.now(),
+  ctlBloc: "allies",
   paletteOpen: false,
   aboutOpen: false,
   railOpen: typeof window !== "undefined" ? window.innerWidth > 900 : true,

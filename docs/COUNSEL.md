@@ -25,6 +25,10 @@ first.
      as `company_press_release`.
    - `tier_assigned`: your own tier.
    - `date_ok`: document date is correct within a few days.
+   - Summarising fetch tools truncate long filings and give false "not found"
+     results. Download SEC documents with curl from `https://www.sec.gov/Archives/...`
+     using a descriptive User-Agent (never an invented or personal email),
+     strip the HTML, and grep for the quote.
    - SEC may block plain fetches. Try `https://www.sec.gov/Archives/...` with
      a fetch tool, EDGAR full-text search
      (`https://efts.sec.gov/LATEST/search-index?q="exact phrase"`), or the IR
@@ -46,7 +50,9 @@ first.
      or is required.
    - `unreachable`: you could not retrieve it after real effort.
 3. **Every entity** (`entity_verdicts[]`), covering facilities, flows,
-   financial_links and controls, plus companies only if their evidence is bad:
+   financial_links, controls **and companies**. Companies are kept unless
+   rejected, since they merge across layers, but give each one an explicit
+   verdict so the record is auditable:
    - `publish`: every material field (existence, location at its stated
      precision, amounts, both parties of a documented flow) has at least one
      verified Tier 1 or Tier 2 item.
