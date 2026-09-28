@@ -3118,9 +3118,39 @@
       "would_need": "Entergy Louisiana testimony/exhibits in LPSC Docket U-37425 identifying the turbine vendor (e.g., Mitsubishi Power or GE Vernova)."
     },
     {
-      "topic": "Link between Crusoe's Longhorn Data Center and Oracle/OpenAI Stargate",
-      "why": "The TCEQ permit names Abilene DC 1, LLC / Crusoe only; no Tier 1/2 document retrieved yet ties that permit to the Oracle/OpenAI Stargate campus.",
-      "would_need": "OpenAI/Oracle/Crusoe primary release naming the Abilene campus and its onsite generation; Oracle 10-K/10-Q."
+      "topic": "Identity of TCEQ 'Longhorn Data Center' with the Stargate Abilene campus",
+      "why": "TCEQ permit names only Abilene DC 1, LLC / Crusoe and 'Longhorn Data Center'; Crusoe releases name the Abilene Stargate campus but not 'Longhorn'. Flow kept as inferred.",
+      "would_need": "TCEQ Title V / major NSR application for the Abilene campus naming Stargate/Oracle, or a Crusoe/Oracle/OpenAI document using the 'Longhorn' site name."
+    },
+    {
+      "topic": "Transformer supply constraint (DOE Large Power Transformer Resilience Report, July 2024)",
+      "why": "Retrieved and verified (states 36-month LPT lead times commonly quoted, up to 60 months, and >80% of 2019 units imported), but the schema has no entity type for sector-wide findings, so it is not encoded.",
+      "would_need": "A schema slot for sector-level bottleneck facts, or a specific transformer factory/order tied to an AI campus."
+    },
+    {
+      "topic": "Microsoft Fairwater (Mount Pleasant, WI) dedicated generation",
+      "why": "WEC 10-Q confirms Microsoft's VLC service agreement and WEC's 3,300 MW CT plan, but does not assign specific plants to Microsoft.",
+      "would_need": "PSCW dockets for the Bespoke Resources assigned to Microsoft (e.g., Oak Creek CTs, Paris RICE) naming the customer."
+    },
+    {
+      "topic": "Amazon New Carlisle (Project Rainier) supply via Indiana Michigan Power",
+      "why": "Not researched before wrap-up (I&M purchase of Oregon Clean Energy Center reportedly tied to AWS load).",
+      "would_need": "IURC order on I&M acquisition of Oregon Clean Energy Center; AEP 10-K/10-Q naming AWS."
+    },
+    {
+      "topic": "Other nuclear deals not encoded",
+      "why": "Not researched before wrap-up: Google-Kairos October 2024 master agreement (only referenced via the 2025 release), Oklo NRC licensing/10-K, Amazon-Dominion SMR at North Anna, Google-Elementl, TerraPower Natrium site for Meta units, Holtec Palisades DOE loan (not tied to an AI buyer in sources seen).",
+      "would_need": "Oklo and Dominion 10-K text, NRC dockets (Oklo Aurora-INL, TerraPower Kemmerer), DOE LPO Palisades release, Kairos/Google Oct 2024 release."
+    },
+    {
+      "topic": "Turbine OEM -> plant flows beyond Crusoe/Abilene",
+      "why": "No Tier 1/2 source retrieved names the OEM for Entergy (Meta), NIPSCO GenCo (Amazon), xAI Memphis/Southaven (SMT-130 designation in the appeal suggests Solar Turbines Titan 130, not confirmed) or Dominion Chesterfield units.",
+      "would_need": "Utility commission testimony/exhibits or air permits listing turbine make/model for each plant."
+    },
+    {
+      "topic": "Constellation 10-Q (Q2 2026) Crane updates",
+      "why": "Fetched but not encoded (capacity interconnection rights for Crane; loan terms updated to November 2055 maturity vs October 2055 in the 10-K).",
+      "would_need": "Encode as additional evidence in a later pass; note the maturity-date discrepancy between 10-K and 10-Q."
     }
   ]
 }

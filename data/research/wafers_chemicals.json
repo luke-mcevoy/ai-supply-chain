@@ -266,6 +266,117 @@
       "tier": 2,
       "document_date": "2026-04-10",
       "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:photronics-10k-fy2025",
+      "title": "Photronics, Inc. Annual Report on Form 10-K for fiscal year 2025",
+      "publisher": "Photronics, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/810136/000114036125045801/ef20057458_10k.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-12-17",
+      "accessed": "2026-09-27",
+      "identifier": "0001140361-25-045801"
+    },
+    {
+      "id": "src:linde-samsung-2025",
+      "title": "Linde to Expand Supply of Industrial Gases to Samsung in South Korea",
+      "publisher": "Linde plc",
+      "url": "https://www.linde.com/news-and-media/2025/linde-to-expand-supply-of-industrial-gases-to-samsung-in-south-korea",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-04-29",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:linde-phoenix-2021",
+      "title": "Linde Signs Long-Term Agreement to Supply New World-Class Semiconductor Manufacturing Complex in the U.S.",
+      "publisher": "Linde plc",
+      "url": "https://www.linde.com/news-and-media/2021/linde-signs-long-term-agreement-to-supply-new-world-class-semiconductor-manufacturing-complex-in-the-u-s",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-09-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:linde-phoenix-2026",
+      "title": "Linde to Invest $1 Billion to Support Major U.S. Semiconductor Facility Expansion",
+      "publisher": "Linde plc",
+      "url": "https://www.linde.com/news-and-media/2026/linde-to-invest-$1-billion-to-support-major-u,-d-,s,-d-,-semiconductor-facility-expansion",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-31",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:air-liquide-micron-idaho-2024",
+      "title": "Air Liquide signed major contract to support the semiconductor industry in the U.S. with an investment of more than 250 million dollars",
+      "publisher": "Air Liquide S.A.",
+      "url": "https://www.airliquide.com/group/press-releases-news/2024-06-05/air-liquide-signed-major-contract-support-semiconductor-industry-us-investment-more-250-million",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-06-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:air-liquide-arizona-2026",
+      "title": "Air Liquide invests over 160M USD in the U.S. to supply advanced chips manufacturing in Arizona",
+      "publisher": "Air Liquide S.A.",
+      "url": "https://www.airliquide.com/group/press-releases-news/2026-07-16/air-liquide-invests-over-160m-usd-us-supply-advanced-chips-manufacturing-arizona",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-16",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:air-products-samsung-2026",
+      "title": "Air Products to Expand Industrial Gas Supply for Samsung Electronics' Next-Generation Semiconductor Fab in South Korea",
+      "publisher": "Air Products and Chemicals, Inc.",
+      "url": "https://www.airproducts.com/company/news-center/2026/04/0429-air-products-gas-supply-samsung-semiconductor-fab-south-korea",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-04-29",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:agc-euvl-blanks-2023",
+      "title": "AGC to Boost Production Capacity of EUVL Photomask Blanks",
+      "publisher": "AGC Inc.",
+      "url": "https://www.agc.com/en/news/pdf/20230427e.pdf",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-04-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:mitsui-cnt-pellicle-2024",
+      "title": "Mitsui Chemicals Sets up Production Facilities for CNT Pellicles to Be Used in Next-Gen EUV Lithography",
+      "publisher": "Mitsui Chemicals, Inc.",
+      "url": "https://jp.mitsuichemicals.com/en/release/2024/2024_0528_1/index.htm",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-05-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:shin-etsu-isesaki-2024",
+      "title": "Shin-Etsu Chemical to build a new production base in Japan which will become its fourth production base for semiconductor lithography materials",
+      "publisher": "Shin-Etsu Chemical Co., Ltd.",
+      "url": "https://www.shinetsu.co.jp/en/news/news-release/shin-etsu-chemical-to-build-a-new-production-base-in-japan-which-will-become-its-fourth-production-base-for-semiconductor-lithography-materials/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:hoya-ir-2025",
+      "title": "HOYA Integrated Report 2025",
+      "publisher": "HOYA Corporation",
+      "url": "https://www.hoya.com/ir/2025/en/common/files/online_report2025.pdf",
+      "doc_type": "investor_presentation",
+      "tier": 2,
+      "document_date": "2025",
+      "accessed": "2026-09-27"
     }
   ],
   "companies": [
@@ -637,6 +748,216 @@
         "NASDAQ:GFS"
       ],
       "sec_cik": "0001709048"
+    },
+    {
+      "id": "co:linde",
+      "name": "Linde plc",
+      "country": "IE",
+      "hq": {
+        "lat": 51.3168,
+        "lon": -0.56,
+        "precision": "city",
+        "address": "Woking, UK"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:linde-samsung-2025",
+          "quote": "Linde is the main supplier of industrial gases to Samsung's complex at Pyeongtaek and already has multiple on-site facilities supplying essential gases.",
+          "locator": "Press release, paragraph 2",
+          "supports": "existence; role"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:LIN"
+      ],
+      "sec_cik": "0001707925"
+    },
+    {
+      "id": "co:air-liquide",
+      "name": "Air Liquide S.A.",
+      "country": "FR",
+      "hq": {
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "precision": "city",
+        "address": "Paris, France"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:air-liquide-micron-idaho-2024",
+          "quote": "Air Liquide will build, own and operate a new industrial gas production facility in Idaho which will produce large volumes of ultra-pure nitrogen and other gases for Micron Technology, Inc. (Nasdaq: MU), as well as for other customers of the area.",
+          "locator": "Press release, paragraph 1",
+          "supports": "existence; role"
+        }
+      ],
+      "tickers": [
+        "EPA:AI"
+      ]
+    },
+    {
+      "id": "co:air-products",
+      "name": "Air Products and Chemicals, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 40.6023,
+        "lon": -75.4714,
+        "precision": "city",
+        "address": "Allentown, Pennsylvania, USA"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:air-products-samsung-2026",
+          "quote": "Air Products (NYSE:APD), a world-leading industrial gases company and serving Samsung globally, today announced it has been selected by Samsung to supply industrial gases for its new advanced semiconductor fab in Pyeongtaek, Gyeonggi Province, South Korea.",
+          "locator": "Press release, paragraph 1",
+          "supports": "existence; role"
+        }
+      ],
+      "tickers": [
+        "NYSE:APD"
+      ],
+      "sec_cik": "0000002969"
+    },
+    {
+      "id": "co:micron",
+      "name": "Micron Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 43.615,
+        "lon": -116.2023,
+        "precision": "city",
+        "address": "Boise, Idaho, USA"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:air-liquide-micron-idaho-2024",
+          "quote": "Air Liquide will build, own and operate a new industrial gas production facility in Idaho which will produce large volumes of ultra-pure nitrogen and other gases for Micron Technology, Inc. (Nasdaq: MU), as well as for other customers of the area.",
+          "locator": "Press release, paragraph 1",
+          "supports": "existence; customer of Air Liquide"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MU"
+      ],
+      "sec_cik": "0000723125"
+    },
+    {
+      "id": "co:agc",
+      "name": "AGC Inc.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6812,
+        "lon": 139.7671,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:agc-euvl-blanks-2023",
+          "quote": "AGC is the world’s only manufacturer of EUVL mask blanks that can handle every aspect from “glass materials” to “coating”.",
+          "locator": "News release, paragraph 3",
+          "supports": "existence; role"
+        }
+      ],
+      "tickers": [
+        "TSE:5201"
+      ]
+    },
+    {
+      "id": "co:mitsui-chemicals",
+      "name": "Mitsui Chemicals, Inc.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6812,
+        "lon": 139.7671,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:mitsui-cnt-pellicle-2024",
+          "quote": "Mitsui Chemicals has a business licensed by Dutch company ASML Holding N.V. for producing EUV pellicles.",
+          "locator": "News release, 'What are EUV pellicles?'",
+          "supports": "existence; role"
+        }
+      ],
+      "tickers": [
+        "TSE:4183"
+      ]
+    },
+    {
+      "id": "co:hoya",
+      "name": "HOYA Corporation",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6938,
+        "lon": 139.7034,
+        "precision": "city",
+        "address": "Tokyo, Japan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:hoya-ir-2025",
+          "quote": "HOYA holds an exceptionally high market share, supported by a proven track record of contributing to semiconductor miniaturization and performance improvement through close collaboration with customers.",
+          "locator": "Integrated Report 2025, Information Technology: Mask Blanks, Market Position (p. 102)",
+          "supports": "existence; market position"
+        },
+        {
+          "source": "src:hoya-ir-2025",
+          "quote": "Maintaining our position as the primary supplier for advanced EUV nodes.",
+          "locator": "Key Focus Areas Moving Forward (p. 102)",
+          "supports": "role in EUV blanks"
+        }
+      ],
+      "tickers": [
+        "TSE:7741"
+      ]
+    },
+    {
+      "id": "co:photronics",
+      "name": "Photronics, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 41.4717,
+        "lon": -73.409,
+        "precision": "city",
+        "address": "Brookfield, Connecticut, USA"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:photronics-10k-fy2025",
+          "quote": "Our five largest customers, in the aggregate, accounted for approximately 50%, 50% and 51% of our revenue in 2025, 2024 and 2023, respectively.",
+          "locator": "Item 1 Business, Customers",
+          "supports": "existence; customer concentration"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:PLAB"
+      ],
+      "sec_cik": "0000810136"
     }
   ],
   "facilities": [
@@ -1310,6 +1631,371 @@
           "supports": "function"
         }
       ]
+    },
+    {
+      "id": "fac:linde-pyeongtaek-onsite",
+      "name": "Linde on-site industrial gas complex at Samsung Pyeongtaek",
+      "operator": "co:linde",
+      "layer": "wafers_chemicals",
+      "kind": "onsite_industrial_gas_complex",
+      "location": {
+        "lat": 36.9925,
+        "lon": 127.1127,
+        "precision": "city",
+        "address": "Pyeongtaek, Gyeonggi-do, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "ultra-high-purity nitrogen",
+        "oxygen",
+        "argon",
+        "hydrogen",
+        "process and specialty gases"
+      ],
+      "evidence": [
+        {
+          "source": "src:linde-samsung-2025",
+          "quote": "Linde is the main supplier of industrial gases to Samsung's complex at Pyeongtaek and already has multiple on-site facilities supplying essential gases.",
+          "locator": "Press release, paragraph 2",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:linde-samsung-2025",
+          "quote": "Under a new agreement, Linde will build, own and operate an eighth on-site air separation unit to supply nitrogen, oxygen and argon.",
+          "locator": "Press release, paragraph 2",
+          "supports": "products; expansion"
+        },
+        {
+          "source": "src:linde-samsung-2025",
+          "quote": "Pyeongtaek is Linde's single largest site for an electronics customer worldwide",
+          "locator": "Press release, quote from President Linde Korea",
+          "supports": "scale"
+        }
+      ]
+    },
+    {
+      "id": "fac:air-products-pyeongtaek-onsite",
+      "name": "Air Products on-site gas plants at Samsung Pyeongtaek",
+      "operator": "co:air-products",
+      "layer": "wafers_chemicals",
+      "kind": "onsite_industrial_gas_complex",
+      "location": {
+        "lat": 36.9925,
+        "lon": 127.1127,
+        "precision": "city",
+        "address": "Pyeongtaek, Gyeonggi-do, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "nitrogen",
+        "oxygen",
+        "argon",
+        "hydrogen",
+        "bulk specialty gas supply"
+      ],
+      "evidence": [
+        {
+          "source": "src:air-products-samsung-2026",
+          "quote": "Air Products has a long track record of executing multiple phase expansions in Pyeongtaek to support Samsung’s growing manufacturing needs.",
+          "locator": "Press release, paragraph 3",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:air-products-samsung-2026",
+          "quote": "The new facilities are expected to come onstream in multiple phases from 2028 through 2030.",
+          "locator": "Press release, paragraph 2",
+          "supports": "expansion status"
+        }
+      ]
+    },
+    {
+      "id": "fac:linde-phoenix-onsite",
+      "name": "Linde on-site industrial gas complex, Phoenix",
+      "operator": "co:linde",
+      "layer": "wafers_chemicals",
+      "kind": "onsite_industrial_gas_complex",
+      "location": {
+        "lat": 33.4484,
+        "lon": -112.0741,
+        "precision": "city",
+        "address": "Phoenix, Arizona, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "ultra-high-purity nitrogen",
+        "oxygen",
+        "argon"
+      ],
+      "evidence": [
+        {
+          "source": "src:linde-phoenix-2021",
+          "quote": "announced today it has signed a long-term agreement with one of the world's largest semiconductor manufacturers for the supply of industrial gases to a new multi-billion dollar manufacturing facility in Phoenix, Arizona.",
+          "locator": "Press release, paragraph 1",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:linde-phoenix-2026",
+          "quote": "Linde will invest $1 billion to expand its existing on-site industrial gases complex in Phoenix, making the site one of Linde’s largest investments for an electronics customer globally.",
+          "locator": "Press release, paragraph 1",
+          "supports": "status: existing; expansion"
+        }
+      ],
+      "start_year": 2022
+    },
+    {
+      "id": "fac:air-liquide-idaho",
+      "name": "Air Liquide industrial gas production facility, Idaho (Micron supply)",
+      "operator": "co:air-liquide",
+      "layer": "wafers_chemicals",
+      "kind": "industrial_gas_plant",
+      "location": {
+        "lat": 43.615,
+        "lon": -116.2023,
+        "precision": "region",
+        "address": "Idaho, USA (Boise area; exact site not disclosed)"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "ultra-pure nitrogen",
+        "other industrial gases"
+      ],
+      "evidence": [
+        {
+          "source": "src:air-liquide-micron-idaho-2024",
+          "quote": "Air Liquide will build, own and operate a new industrial gas production facility in Idaho which will produce large volumes of ultra-pure nitrogen and other gases for Micron Technology, Inc. (Nasdaq: MU), as well as for other customers of the area.",
+          "locator": "Press release, paragraph 1",
+          "supports": "existence; location (state)"
+        },
+        {
+          "source": "src:air-liquide-micron-idaho-2024",
+          "quote": "the facility is expected to be operational by the end of 2025.",
+          "locator": "Press release, paragraph 1",
+          "supports": "planned start"
+        }
+      ]
+    },
+    {
+      "id": "fac:air-liquide-arizona-onsite",
+      "name": "Air Liquide on-site hydrogen / UHP gas facility, Arizona (advanced-node fab)",
+      "operator": "co:air-liquide",
+      "layer": "wafers_chemicals",
+      "kind": "onsite_industrial_gas_complex",
+      "location": {
+        "lat": 33.4484,
+        "lon": -112.0741,
+        "precision": "region",
+        "address": "Arizona, USA (customer fab site not named)"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "ultra-pure low-carbon hydrogen",
+        "CO2",
+        "ultra-high purity gases"
+      ],
+      "evidence": [
+        {
+          "source": "src:air-liquide-arizona-2026",
+          "quote": "Air Liquide announces a new investment of over 160 million US dollars to build, own and operate a new large-scale production facility in Arizona to supply essential ultra-high purity gases to the latest fab expansion of a global leader in advanced semiconductor nodes.",
+          "locator": "Press release, paragraph 1",
+          "supports": "existence; location (state)"
+        },
+        {
+          "source": "src:air-liquide-arizona-2026",
+          "quote": "Set to begin operations in 2028",
+          "locator": "Press release, paragraph 2",
+          "supports": "planned start"
+        }
+      ]
+    },
+    {
+      "id": "fac:agc-electronics-motomiya",
+      "name": "AGC Electronics Motomiya Plant (EUVL mask blanks)",
+      "operator": "co:agc",
+      "layer": "wafers_chemicals",
+      "kind": "euv_mask_blank_plant",
+      "location": {
+        "lat": 37.5131,
+        "lon": 140.394,
+        "precision": "city",
+        "address": "Motomiya, Fukushima, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "EUV lithography photomask blanks"
+      ],
+      "evidence": [
+        {
+          "source": "src:agc-euvl-blanks-2023",
+          "quote": "The Motomiya Plant, AGC Electronics' manufacturing base for EUVL mask blanks",
+          "locator": "News release, photo caption p. 1",
+          "supports": "existence; location; products"
+        },
+        {
+          "source": "src:agc-euvl-blanks-2023",
+          "quote": "the AGC Group’s EUVL mask blank production capacity will expand by approximately 30% of the current capacity in 2025.",
+          "locator": "News release, paragraph 1",
+          "supports": "capacity expansion"
+        }
+      ]
+    },
+    {
+      "id": "fac:mitsui-chemicals-iwakuni-ohtake",
+      "name": "Mitsui Chemicals Iwakuni-Ohtake Works (EUV pellicles)",
+      "operator": "co:mitsui-chemicals",
+      "layer": "wafers_chemicals",
+      "kind": "euv_pellicle_plant",
+      "location": {
+        "lat": 34.2379,
+        "lon": 132.2223,
+        "precision": "city",
+        "address": "Otake, Hiroshima / Waki, Yamaguchi, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "EUV pellicles",
+        "CNT pellicles for High-NA EUV (new line)"
+      ],
+      "evidence": [
+        {
+          "source": "src:mitsui-cnt-pellicle-2024",
+          "quote": "The company became a global industry leader in 2021 by beginning commercial production of EUV pellicles at its Iwakuni-Ohtake Works, allowing it to help meet growing demand for next-generation semiconductors.",
+          "locator": "News release, 'What are EUV pellicles?'",
+          "supports": "existence; products"
+        },
+        {
+          "source": "src:mitsui-cnt-pellicle-2024",
+          "quote": "today announced that it has decided to set up production facilities at its Iwakuni-Ohtake Works for carbon nanotube (CNT) pellicles",
+          "locator": "News release, paragraph 1",
+          "supports": "CNT pellicle expansion"
+        }
+      ]
+    },
+    {
+      "id": "fac:shin-etsu-naoetsu",
+      "name": "Shin-Etsu Chemical Naoetsu Plant (photoresists)",
+      "operator": "co:shin-etsu",
+      "layer": "wafers_chemicals",
+      "kind": "photoresist_plant",
+      "location": {
+        "lat": 37.1478,
+        "lon": 138.236,
+        "precision": "city",
+        "address": "Joetsu (Naoetsu), Niigata, Japan"
+      },
+      "country": "JP",
+      "status": "operational",
+      "products": [
+        "KrF/ArF/EUV photoresists",
+        "photomask blanks",
+        "multilayer materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:shin-etsu-isesaki-2024",
+          "quote": "We launched our photoresists business in 1997 and started production of the then-most cutting-edge KrF photoresists at our Naoetsu Plant in Niigata Prefecture, Japan.",
+          "locator": "News release, paragraph 3",
+          "supports": "existence; location; products"
+        }
+      ]
+    },
+    {
+      "id": "fac:shin-etsu-isesaki",
+      "name": "Shin-Etsu Chemical Isesaki lithography materials base (4th base)",
+      "operator": "co:shin-etsu",
+      "layer": "wafers_chemicals",
+      "kind": "photoresist_plant",
+      "location": {
+        "lat": 36.3114,
+        "lon": 139.1968,
+        "precision": "city",
+        "address": "Isesaki, Gunma, Japan"
+      },
+      "country": "JP",
+      "status": "under_construction",
+      "products": [
+        "semiconductor lithography materials (photoresists etc.)"
+      ],
+      "evidence": [
+        {
+          "source": "src:shin-etsu-isesaki-2024",
+          "quote": "the company decided to build a new plant in Isesaki City in Gunma Prefecture, Japan. The new plant will become Shin-Etsu’s fourth production base for this business.",
+          "locator": "News release, paragraph 1",
+          "supports": "existence; location"
+        },
+        {
+          "source": "src:shin-etsu-isesaki-2024",
+          "quote": "We plan to invest in the new plant in phases, with the first phase of investment to be completed by 2026.",
+          "locator": "News release, paragraph 2",
+          "supports": "status/timing"
+        }
+      ],
+      "start_year": 2026
+    },
+    {
+      "id": "fac:photronics-boise",
+      "name": "Photronics photomask facility, Boise",
+      "operator": "co:photronics",
+      "layer": "wafers_chemicals",
+      "kind": "photomask_plant",
+      "location": {
+        "lat": 43.615,
+        "lon": -116.2023,
+        "precision": "city",
+        "address": "Boise, Idaho, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "IC photomasks",
+        "IC photomask R&D"
+      ],
+      "evidence": [
+        {
+          "source": "src:photronics-10k-fy2025",
+          "quote": "We primarily conduct research and development activities for IC photomasks at our Boise, Idaho, facility.",
+          "locator": "Item 1 Business, Research and Development",
+          "supports": "existence; location; function"
+        },
+        {
+          "source": "src:photronics-10k-fy2025",
+          "quote": "Boise, Idaho",
+          "locator": "Item 2 Properties table (Owned)",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "fac:photronics-allen",
+      "name": "Photronics photomask facility, Allen",
+      "operator": "co:photronics",
+      "layer": "wafers_chemicals",
+      "kind": "photomask_plant",
+      "location": {
+        "lat": 33.1032,
+        "lon": -96.6706,
+        "precision": "city",
+        "address": "Allen, Texas, USA"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "photomasks"
+      ],
+      "evidence": [
+        {
+          "source": "src:photronics-10k-fy2025",
+          "quote": "Allen, Texas",
+          "locator": "Item 2 Properties table of photomask manufacturing facilities (Owned)",
+          "supports": "existence; location"
+        }
+      ]
     }
   ],
   "flows": [
@@ -1371,10 +2057,10 @@
         }
       ],
       "from_hint": "fac:siltronic-singapore",
-      "to_hint": "fac:intel-fab52-chandler"
+      "to_hint": "fac:intel-arizona"
     },
     {
-      "id": "flow:wacker-to-siltronic-polysilicon",
+      "id": "flow:wacker-to-siltronic-polysilicon-wafer",
       "from": "co:wacker",
       "to": "co:siltronic",
       "commodity": "semiconductor-grade polysilicon",
@@ -1398,7 +2084,7 @@
       "to_hint": "fac:siltronic-burghausen"
     },
     {
-      "id": "flow:sumco-to-tsmc-wafers",
+      "id": "flow:sumco-to-tsmc",
       "from": "co:sumco",
       "to": "co:tsmc",
       "commodity": "300 mm silicon wafers",
@@ -1553,7 +2239,7 @@
         }
       ],
       "from_hint": "fac:globalwafers-memc-st-peters",
-      "to_hint": "fac:globalfoundries-malta-fab8"
+      "to_hint": "fac:globalfoundries-fab8-malta"
     },
     {
       "id": "flow:shin-etsu-to-globalfoundries-wafers",
@@ -1570,7 +2256,7 @@
           "supports": "relationship"
         }
       ],
-      "to_hint": "fac:globalfoundries-malta-fab8"
+      "to_hint": "fac:globalfoundries-fab8-malta"
     },
     {
       "id": "flow:jsr-inpria-to-jsr-micro-korea-mor",
@@ -1594,9 +2280,179 @@
         }
       ],
       "inference_note": "JSR says the Korea plant performs the 'final production process' for MOR and that MOR came from Inpria, whose Corvallis plant produces EUV photoresists [inpria.com] => upstream MOR material likely moves Corvallis -> Cheongju. No document states the shipment route."
+    },
+    {
+      "id": "flow:linde-pyeongtaek-to-samsung",
+      "from": "fac:linde-pyeongtaek-onsite",
+      "to": "co:samsung",
+      "commodity": "ultra-high-purity atmospheric, process and specialty gases",
+      "description": "Linde is the main industrial-gas supplier to Samsung's Pyeongtaek complex; an eighth on-site ASU plus hydrogen supply expected mid-2026.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:linde-samsung-2025",
+          "quote": "Linde (Nasdaq: LIN) announced today that it will increase its supply of ultra-high-purity atmospheric, process and specialty gases to Samsung’s world-class semiconductor manufacturing complex in Pyeongtaek, South Korea.",
+          "locator": "Press release, paragraph 1",
+          "supports": "relationship"
+        }
+      ],
+      "to_hint": "fac:samsung-pyeongtaek"
+    },
+    {
+      "id": "flow:air-products-pyeongtaek-to-samsung",
+      "from": "fac:air-products-pyeongtaek-onsite",
+      "to": "co:samsung",
+      "commodity": "nitrogen, oxygen, argon, hydrogen; bulk specialty gases",
+      "description": "Air Products selected by Samsung to supply its new advanced fab in Pyeongtaek (onstream 2028-2030), extending prior Pyeongtaek phases.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:air-products-samsung-2026",
+          "quote": "Air Products (NYSE:APD), a world-leading industrial gases company and serving Samsung globally, today announced it has been selected by Samsung to supply industrial gases for its new advanced semiconductor fab in Pyeongtaek, Gyeonggi Province, South Korea.",
+          "locator": "Press release, paragraph 1",
+          "supports": "relationship"
+        }
+      ],
+      "to_hint": "fac:samsung-pyeongtaek"
+    },
+    {
+      "id": "flow:air-liquide-idaho-to-micron",
+      "from": "fac:air-liquide-idaho",
+      "to": "co:micron",
+      "commodity": "ultra-pure nitrogen and other gases",
+      "description": "Air Liquide contract to supply Micron's Idaho fab expansion from a new Idaho gas plant (over $250M investment).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:air-liquide-micron-idaho-2024",
+          "quote": "Air Liquide will build, own and operate a new industrial gas production facility in Idaho which will produce large volumes of ultra-pure nitrogen and other gases for Micron Technology, Inc. (Nasdaq: MU), as well as for other customers of the area.",
+          "locator": "Press release, paragraph 1",
+          "supports": "relationship"
+        }
+      ],
+      "to_hint": "fac:micron-boise-id1"
+    },
+    {
+      "id": "flow:linde-phoenix-to-tsmc-arizona",
+      "from": "fac:linde-phoenix-onsite",
+      "to": "co:tsmc",
+      "commodity": "ultra-high-purity nitrogen, oxygen, argon",
+      "description": "Linde supplies an on-site gas complex for an unnamed 'one of the world's largest semiconductor manufacturers' in Phoenix.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:linde-phoenix-2021",
+          "quote": "announced today it has signed a long-term agreement with one of the world's largest semiconductor manufacturers for the supply of industrial gases to a new multi-billion dollar manufacturing facility in Phoenix, Arizona.",
+          "locator": "Press release, paragraph 1",
+          "supports": "Linde role; customer unnamed"
+        },
+        {
+          "source": "src:linde-phoenix-2026",
+          "quote": "The agreement will support the expansion of the customer’s semiconductor manufacturing complex in Phoenix, Arizona.",
+          "locator": "Press release, paragraph 2",
+          "supports": "customer expansion in Phoenix"
+        }
+      ],
+      "to_hint": "fac:tsmc-fab21-arizona-p1",
+      "inference_note": "Linde does not name the customer. A new multi-billion-dollar fab in Phoenix announced 2021 with 2022 plant start-up matches TSMC Arizona (Fab 21, north Phoenix), documented in the fabrication layer. Intel's Arizona fabs are in Chandler, not Phoenix. Unconfirmed by any document naming both parties."
+    },
+    {
+      "id": "flow:air-liquide-arizona-to-tsmc-arizona",
+      "from": "fac:air-liquide-arizona-onsite",
+      "to": "co:tsmc",
+      "commodity": "ultra-pure hydrogen, CO2, UHP gases",
+      "description": "Air Liquide on-site facility for 'the latest fab expansion of a global leader in advanced semiconductor nodes' in Arizona; customer unnamed.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:air-liquide-arizona-2026",
+          "quote": "Air Liquide announces a new investment of over 160 million US dollars to build, own and operate a new large-scale production facility in Arizona to supply essential ultra-high purity gases to the latest fab expansion of a global leader in advanced semiconductor nodes.",
+          "locator": "Press release, paragraph 1",
+          "supports": "Air Liquide role; customer unnamed"
+        }
+      ],
+      "to_hint": "fac:tsmc-fab21-arizona-p3",
+      "inference_note": "Customer described only as 'a global leader in advanced semiconductor nodes' expanding a fab in Arizona. TSMC Arizona and Intel Arizona both fit; TSMC chosen as the likelier match given ongoing phased Fab 21 expansion. Unconfirmed."
+    },
+    {
+      "id": "flow:photronics-boise-to-micron",
+      "from": "fac:photronics-boise",
+      "to": "co:micron",
+      "commodity": "IC photomasks",
+      "description": "Photronics runs IC photomask manufacturing and R&D in Boise, where Micron's headquarters fab is located.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:photronics-10k-fy2025",
+          "quote": "We primarily conduct research and development activities for IC photomasks at our Boise, Idaho, facility.",
+          "locator": "Item 1 Business",
+          "supports": "Photronics Boise role"
+        }
+      ],
+      "to_hint": "fac:micron-boise-id1",
+      "inference_note": "Co-location only. Photronics' customers are anonymized (Customer A 16%, B 13%, C 8% of FY2025 revenue); no document names Micron as a Photronics customer. Low confidence."
+    },
+    {
+      "id": "flow:agc-to-mask-shops-euv-blanks",
+      "from": "fac:agc-electronics-motomiya",
+      "to": "co:tsmc",
+      "commodity": "EUV mask blanks",
+      "description": "AGC says its EUVL mask blanks are adopted by several logic and memory manufacturers (unnamed). TSMC runs captive EUV mask making.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:agc-euvl-blanks-2023",
+          "quote": "AGC’s EUVL mask blanks have been adopted by several logic and memory semiconductor manufacturers",
+          "locator": "News release, paragraph 3",
+          "supports": "customer class"
+        }
+      ],
+      "to_hint": "fac:tsmc-fab12-hsinchu",
+      "inference_note": "AGC names no customers. The leading EUV logic producer is TSMC, which makes its own masks in-house (so it would buy blanks). Illustrative endpoint only; could equally be Samsung, Intel or memory makers."
     }
   ],
   "financial_links": [],
   "controls": [],
-  "gaps": []
+  "gaps": [
+    {
+      "topic": "Hoya EUV mask blank production sites",
+      "why": "HOYA's Integrated Report 2025 confirms leading EUV blank share but does not tie EUV blank production to a named plant (Nagasaka factory and HOYA Electronics Singapore are mentioned without product attribution in extractable text).",
+      "would_need": "HOYA Yuho (有価証券報告書) facilities table or a HOYA release naming the EUV blank plant."
+    },
+    {
+      "topic": "Customer identities for photoresists (TOK, JSR, Shin-Etsu, Fujifilm, DuPont/Qnity)",
+      "why": "Resist makers do not name fab customers in fetched documents; TSMC's 2025 supplier-award release (pr.tsmc.com/english/news/3274) names JSR and Shin-Etsu Handotai but was behind a Cloudflare challenge for verbatim capture; fabrication layer already carries those award flows.",
+      "would_need": "Verbatim copy of TSMC award release; supplier Yuho major-customer disclosures (e.g., sales >10% notes)."
+    },
+    {
+      "topic": "Fujifilm, DuPont/Qnity, Toppan (Tekscend), DNP, Air Liquide Taiwan, Kanto/Chang Chun/Sunlit/KPPC Arizona chemical plants",
+      "why": "Not researched before wrap-up.",
+      "would_need": "Qnity Electronics 10-K (FY2025), Fujifilm integrated report, Tekscend/DNP Yuho, TSMC Arizona supplier announcements."
+    },
+    {
+      "topic": "Shin-Etsu Handotai wafer plants (Shirakawa, Isobe, Takefu) and Shin-Etsu market share",
+      "why": "Only secondary sources for Shirakawa 300 mm details found before wrap-up; Shin-Etsu Silicon business page lacked site/share text.",
+      "would_need": "Shin-Etsu Chemical Yuho facilities table or integrated report 'semiconductor silicon' section."
+    },
+    {
+      "topic": "SUMCO Imari site-level precision and SK siltron Gumi coordinates",
+      "why": "Addresses documented but geocoded only to city level; SUMCO report names 'Kyushu Factory (Kubara, Imari)' without street address.",
+      "would_need": "SUMCO Yuho facilities table with addresses."
+    },
+    {
+      "topic": "Air Liquide Idaho plant status",
+      "why": "Release said operational by end of 2025; no confirmation of start-up found.",
+      "would_need": "Air Liquide start-up announcement or Idaho permit record."
+    },
+    {
+      "topic": "GlobalWafers and SUMCO named customers",
+      "why": "GlobalWafers' annual report anonymizes customers (Company C, K); SUMCO/GlobalWafers flows rely on supplier awards and customer statements rather than sales tables.",
+      "would_need": "Customer 10-K/20-F raw-material disclosures naming wafer suppliers (e.g., GlobalFoundries names MEMC and S.E.H.)."
+    },
+    {
+      "topic": "Supplier identities for Arizona gas complexes",
+      "why": "Linde and Air Liquide releases do not name the Arizona customer; flows marked inferred.",
+      "would_need": "TSMC Arizona supplier announcement or state permit naming the offtaker."
+    }
+  ]
 }

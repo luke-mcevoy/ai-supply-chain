@@ -173,6 +173,7 @@ export function Bottom({ idx }: { idx: Index }) {
           <span><i className="lg-line" style={{ background: "#46ceb4" }} /> Contracts & commitments</span>
           <span><i className="lg-line" style={{ background: "#60a0ff" }} /> Government</span>
           <span><i className="lg-line" style={{ background: "#ec8c48" }} /> Debt</span>
+          <span><i className="lg-dot ring" style={{ borderColor: "#46ceb4" }} /> Capex / backlog / unnamed counterparty</span>
           <span><i className="lg-line dashed" /> Undisclosed amount</span>
           <span className="muted">Width ∝ log(amount)</span>
         </>

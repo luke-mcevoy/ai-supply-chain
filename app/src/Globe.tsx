@@ -212,6 +212,21 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     return [...vol.entries()].map(([id, v]) => ({ id, pos: locateAny(idx, id), v })).filter((n) => n.pos);
   }, [idx]);
 
+  // Self-links (capex, lease backlogs, commitments to unnamed counterparties) have no second endpoint;
+  // draw them as rings at the company, radius ∝ log of the total disclosed USD.
+  const selfRings = useMemo(() => {
+    const m = new Map<string, { id: string; pos: [number, number]; usd: number; n: number }>();
+    for (const f of idx.atlas.financial_links) {
+      if (f.from !== f.to || (!s.showFlagged && f.review !== "verified")) continue;
+      const pos = locateAny(idx, f.from);
+      if (!pos) continue;
+      const r = m.get(f.from) ?? { id: f.from, pos, usd: 0, n: 0 };
+      r.usd += usdValue(f.amount); r.n++;
+      m.set(f.from, r);
+    }
+    return [...m.values()];
+  }, [idx, s.showFlagged]);
+
   const mode = s.mode;
   const dim = (on: boolean, a: number) => (on ? a : a * 0.12);
   const selectedFlowIds = new Set<string>();
@@ -344,6 +359,14 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         id: "fin-pulses", data: finArcs, getPath: (d) => d.path, getTimestamps: (d) => d.ts,
         getColor: (d) => [Math.min(255, d.color[0] + 40), Math.min(255, d.color[1] + 40), Math.min(255, d.color[2] + 40)],
         getWidth: (d) => d.width + 1, widthUnits: "pixels", trailLength: 0.4, currentTime: time, fadeTrail: true, capRounded: true,
+      }),
+      new ScatterplotLayer<{ id: string; pos: [number, number]; usd: number; n: number }>({
+        id: "capital-self", data: selfRings, pickable: true,
+        getPosition: (d) => [d.pos[0], d.pos[1], 9_000],
+        getRadius: (d) => (d.usd ? Math.max(8, Math.min(34, (Math.log10(d.usd) - 8) * 7)) : 8), radiusUnits: "pixels",
+        filled: true, getFillColor: rgba([70, 206, 180], 18), stroked: true,
+        getLineColor: rgba([70, 206, 180], 170), lineWidthUnits: "pixels", getLineWidth: 1.2,
+        onHover, onClick,
       }),
       new ScatterplotLayer<{ id: string; pos?: [number, number]; v: number }>({
         id: "capital-nodes", data: capitalNodes, pickable: true,

@@ -96,10 +96,20 @@ for (const [layer, file] of Object.entries(research)) {
       prev.evidence.push(...ev);
     } else companies.set(c.id, { ...c, evidence: ev, layers: [...(c.layers ?? [])] });
   }
-  for (const f of file.facilities) { const o = admit(f, "facility"); if (o) facilities.set(o.id, o); }
-  for (const f of file.flows) { const o = admit(f, "flow"); if (o) flows.set(o.id, o); }
-  for (const f of file.financial_links) { const o = admit(f, "fin"); if (o) financial.set(o.id, o); }
-  for (const f of file.controls) { const o = admit(f, "ctl"); if (o) controls.set(o.id, o); }
+  // The same id may be researched in two layers (e.g. a supplier's filing and the customer's filing
+  // for one route). Each copy is verified by its own layer's counsel; the published entity keeps the
+  // first copy's fields and the union of both copies' surviving evidence.
+  const put = (map, o) => {
+    const prev = map.get(o.id);
+    if (!prev) { map.set(o.id, o); return; }
+    prev.evidence.push(...o.evidence);
+    prev.best_tier = Math.min(prev.best_tier, o.best_tier);
+    if (prev.review !== o.review && (prev.review === "verified" || o.review === "verified")) prev.review = "verified";
+  };
+  for (const f of file.facilities) { const o = admit(f, "facility"); if (o) put(facilities, o); }
+  for (const f of file.flows) { const o = admit(f, "flow"); if (o) put(flows, o); }
+  for (const f of file.financial_links) { const o = admit(f, "fin"); if (o) put(financial, o); }
+  for (const f of file.controls) { const o = admit(f, "ctl"); if (o) put(controls, o); }
   for (const g of file.gaps ?? []) gaps.push({ ...g, layer });
   stats.layers[layer] = `${published} published (${v ? "verified" : "DRAFT"})`;
 }

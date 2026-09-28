@@ -64,6 +64,16 @@
       "accessed": "2026-09-27"
     },
     {
+      "id": "src:usgs-mcs2026-fluorspar",
+      "title": "Mineral Commodity Summaries 2026: Fluorspar",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-fluorspar.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026-02",
+      "accessed": "2026-09-27"
+    },
+    {
       "id": "src:mp-8k-2025-07-10",
       "title": "MP Materials Corp. Form 8-K (DoD public-private partnership)",
       "publisher": "MP Materials Corp.",
@@ -328,6 +338,36 @@
       "document_date": "2025-08-06",
       "accessed": "2026-09-27",
       "identifier": "BIS-2025-0028-0022"
+    },
+    {
+      "id": "src:orbia-fem-home",
+      "title": "Orbia Fluor & Energy Materials home page",
+      "publisher": "Orbia Fluor & Energy Materials (Mexichem Fluor S.A. de C.V.)",
+      "url": "https://www.kouraglobal.com/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:orbia-fem-about",
+      "title": "About Orbia Fluor & Energy Materials (history timeline)",
+      "publisher": "Orbia Fluor & Energy Materials (Mexichem Fluor S.A. de C.V.)",
+      "url": "https://www.kouraglobal.com/about-ofem",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:orbia-fem-businesses",
+      "title": "Our businesses (company website)",
+      "publisher": "Orbia Fluor & Energy Materials (Mexichem Fluor S.A. de C.V.)",
+      "url": "https://www.kouraglobal.com/our-businesses",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-27"
     }
   ],
   "companies": [
@@ -859,6 +899,37 @@
           "quote": "Five suppliers represent the majority of global semiconductor-grade polysilicon manufacturing:",
           "locator": "p. 4",
           "supports": "existence, role (listed among five)"
+        }
+      ]
+    },
+    {
+      "id": "co:orbia",
+      "name": "Orbia Advance Corporation (Orbia Fluor & Energy Materials / Mexichem Fluor S.A. de C.V.)",
+      "country": "MX",
+      "tickers": [
+        "BMV:ORBIA"
+      ],
+      "hq": {
+        "lat": 22.1565,
+        "lon": -100.9855,
+        "precision": "city",
+        "address": "Eje 106 sin numero, zona industrial, San Luis Potosí, S.L.P., México, C.P. 78395 (Mexichem Fluor registered office)"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:orbia-fem-home",
+          "quote": "One of the world’s largest fluorspar producers, Orbia Fluor & Energy Materials delivers fluorine-based solutions",
+          "locator": "Home page",
+          "supports": "existence, business"
+        },
+        {
+          "source": "src:orbia-fem-home",
+          "quote": "Orbia Fluor & Energy Materials is a trading name of Mexichem Fluor S.A de C.V. and its subsidiaries.",
+          "locator": "Footer",
+          "supports": "legal entity"
         }
       ]
     }
@@ -1690,6 +1761,84 @@
           "supports": "germanium production"
         }
       ]
+    },
+    {
+      "id": "fac:orbia-las-cuevas",
+      "name": "Las Cuevas fluorspar mines, San Luis Potosí",
+      "operator": "co:orbia",
+      "layer": "materials",
+      "kind": "mine",
+      "location": {
+        "lat": 22.1565,
+        "lon": -100.9855,
+        "precision": "region",
+        "address": "San Luis Potosí state, Mexico"
+      },
+      "country": "MX",
+      "status": "operational",
+      "products": [
+        "fluorspar (CaF2)"
+      ],
+      "evidence": [
+        {
+          "source": "src:orbia-fem-about",
+          "quote": "Fluorite mines in San Luis Potosí, México.",
+          "locator": "About, history timeline (acquisition of Compañía Minera las Cuevas)",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:usgs-mcs2026-fluorspar",
+          "quote": "Import Sources (2021–24):3 Mexico, 64%; Vietnam, 12%; China,4 10%; South Africa, 9%; and other, 5%.",
+          "locator": "Import Sources",
+          "supports": "Mexico as leading source of U.S. fluorspar imports (mine not named)"
+        }
+      ]
+    },
+    {
+      "id": "fac:orbia-matamoros-hf",
+      "name": "Hydrogen fluoride plant, Matamoros, Tamaulipas",
+      "operator": "co:orbia",
+      "layer": "materials",
+      "kind": "chemical_plant",
+      "location": {
+        "lat": 25.869,
+        "lon": -97.5027,
+        "precision": "city",
+        "address": "Matamoros, Tamaulipas, Mexico"
+      },
+      "country": "MX",
+      "status": "operational",
+      "products": [
+        "hydrogen fluoride (HF)"
+      ],
+      "capacity": {
+        "value": 30000,
+        "unit": "t/yr HF (HF II plant, at inauguration)",
+        "as_of": "unknown",
+        "note": "Capacity stated for the HF II plant at inauguration; the date is not given on the page and current capacity was not found.",
+        "evidence": [
+          {
+            "source": "src:orbia-fem-about",
+            "quote": "Mexichem BG, inaugurates the hydrogen fluoride II plant in the city of Matamoros, Tamaulipas, with a capacity of 30,000 TPA.",
+            "locator": "About, history timeline",
+            "supports": "amount"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "source": "src:orbia-fem-about",
+          "quote": "Mexichem BG, inaugurates the hydrogen fluoride II plant in the city of Matamoros, Tamaulipas, with a capacity of 30,000 TPA.",
+          "locator": "About, history timeline",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:usgs-mcs2026-fluorspar",
+          "quote": "HF was also used as a catalyst in the petrochemical industry and essential in the cleaning and etching process during semiconductor manufacturing.",
+          "locator": "Domestic Production and Use",
+          "supports": "semiconductor relevance of HF"
+        }
+      ]
     }
   ],
   "flows": [
@@ -1960,6 +2109,29 @@
           "supports": "counterparty role"
         }
       ]
+    },
+    {
+      "id": "flow:orbia-las-cuevas-to-matamoros-hf",
+      "from": "fac:orbia-las-cuevas",
+      "to": "fac:orbia-matamoros-hf",
+      "commodity": "acid-grade fluorspar",
+      "basis": "inferred",
+      "inference_note": "Orbia describes its Minerals & Chemical Intermediates unit as 'fully integrated operations, from raw material extraction to chemical processing' [Orbia site]. It owns the San Luis Potosí fluorspar mines and the Matamoros HF plant [Orbia site], and HF is made from acid-grade fluorspar [USGS]. The site-to-site shipment is not stated explicitly.",
+      "description": "Inferred: fluorspar from Orbia's San Luis Potosí mines feeding its Matamoros hydrogen fluoride plant.",
+      "evidence": [
+        {
+          "source": "src:orbia-fem-businesses",
+          "quote": "Through its fully integrated operations, from raw material extraction to chemical processing, OF&EM’s Minerals & Chemical Intermediates (M&CI) Business Unit serves key industries",
+          "locator": "Our businesses, M&CI",
+          "supports": "vertical integration"
+        },
+        {
+          "source": "src:usgs-mcs2026-fluorspar",
+          "quote": "Domestically, CaF2 was used in the production of anhydrous hydrogen fluoride (HF) in Louisiana and Texas and was by far the leading use for acid-grade fluorspar.",
+          "locator": "Domestic Production and Use",
+          "supports": "fluorspar to HF"
+        }
+      ]
     }
   ],
   "financial_links": [
@@ -2051,5 +2223,61 @@
     }
   ],
   "controls": [],
-  "gaps": []
+  "gaps": [
+    {
+      "topic": "High-purity quartz → fused-quartz crucible makers → wafer makers",
+      "why": "No Tier 1/2 document reviewed names which crucible makers buy Spruce Pine HPQ from Sibelco or The Quartz Corp, or which wafer makers buy those crucibles. Sibelco says only that its IOTA HPQ goes into CZ crucibles, and USGS does not name companies.",
+      "would_need": "Crucible-maker annual reports (e.g., Shin-Etsu Quartz Products, Heraeus, Momentive/CoorsTek, Jiangsu Pacific Quartz), or supply agreements disclosed in filings."
+    },
+    {
+      "topic": "The Quartz Corp Drag, Norway processing and Spruce Pine site coordinates",
+      "why": "USGS says at least one Spruce Pine HPQ producer sends product overseas for further processing, and TQC's registered office is in Drag, Norway. No page reviewed documents a Spruce Pine → Drag shipment or a processing facility address. Both Spruce Pine sites are mapped at city precision.",
+      "would_need": "TQC annual accounts (Brønnøysund register) or a site page with facility addresses."
+    },
+    {
+      "topic": "Named polysilicon customers other than Siltronic",
+      "why": "Only Siltronic's statutory report names its polysilicon supplier (Wacker). GlobalWafers says only 'top-tier global suppliers'. Wacker's Section 232 comment (BIS-2025-0028-0035) is redacted. Links from Wacker or Hemlock to Shin-Etsu, SUMCO, GlobalWafers or SK Siltron are therefore inferred.",
+      "would_need": "SK Siltron DART business report supplier list, SUMCO/Shin-Etsu securities reports (yuho), Hemlock customer disclosures, or unredacted docket filings."
+    },
+    {
+      "topic": "Tokuyama and OCI polysilicon facilities (Shunan, Japan; OCI TerraSolar/Tokuyama JV in Sarawak, Malaysia)",
+      "why": "Research was stopped for budget before Tokuyama/OCI primary documents were fetched. The companies are defined only from the SIA docket filing.",
+      "would_need": "Tokuyama integrated report / yuho, and Tokuyama's 2025-07-09 JV notice (tokuyama.co.jp/eng/news/2025/2025070901.html)."
+    },
+    {
+      "topic": "Gallium refiners outside China and U.S. high-purity gallium (New York facility)",
+      "why": "USGS says one New York company refines high-purity gallium and that China produced 99% of primary low-purity gallium, but it does not name companies. The November 2025 DPA Title III $29.9M gallium/scandium award recipient (Louisiana) is also unnamed in USGS.",
+      "would_need": "DoD/DoW award release or USAspending record for the DPA Title III gallium award; company pages for Japanese/other gallium refiners."
+    },
+    {
+      "topic": "Neon and noble gases (Ukraine/Russia supply)",
+      "why": "USGS MCS 2026 says rare-gas supply from Russia and Ukraine stayed limited because of the conflict, that 32% of U.S. neon went to semiconductors, and that U.S. neon net import reliance was about 52% in 2025. No facility-level Tier 1/2 source was retrieved for Ukrainian or other neon purifiers.",
+      "would_need": "USGS Minerals Yearbook (rare gases), Linde/Air Liquide 10-K/URD disclosures, or company releases for neon purification plants."
+    },
+    {
+      "topic": "Helium facilities feeding semiconductor fabs",
+      "why": "USGS reports helium use for 'controlled atmospheres, fiber optics, and semiconductors' at 17% of U.S. use and lists import sources (Canada 47%, Qatar 28%), but no plant-level source was reviewed (e.g., ExxonMobil Shute Creek/LaBarge, Qatar Ras Laffan).",
+      "would_need": "ExxonMobil 10-K, QatarEnergy reports, and industrial gas supplier filings naming fab helium supply."
+    },
+    {
+      "topic": "Tungsten, tantalum and cobalt facility-level sources",
+      "why": "USGS MCS 2026 gives Tier 1 country data (China leads tungsten production and imposed export controls in February 2025; U.S. tantalum net import reliance is 100%). Facility-level documents (e.g., Almonty Sangdong, Global Tungsten & Powders Towanda, Global Advanced Metals Boyertown) were not retrieved before wrap-up.",
+      "would_need": "Almonty SEC filings, Plansee/GTP and GAM site pages, and DPA Title III award records."
+    },
+    {
+      "topic": "Germanium downstream (GeCl4 to optical-fiber makers; Trail germanium to U.S. buyers)",
+      "why": "Umicore Quapaw produces fiber-grade GeCl4 and Teck sells germanium from Trail into the U.S., but no document names the buyers (e.g., Corning). Corning's 10-K does not mention germanium.",
+      "would_need": "Supply agreements or customer disclosures in Umicore/Teck/Corning filings."
+    },
+    {
+      "topic": "Fluorspar → HF → semiconductor-grade HF/etchants",
+      "why": "USGS confirms HF is essential in semiconductor etching and cleaning, and Mexico is 64% of U.S. fluorspar imports, but no reviewed document links Orbia HF to electronic-grade HF producers (e.g., Stella Chemifa, Morita, Honeywell) or to fabs. The HF II plant capacity date is also undated.",
+      "would_need": "Orbia annual report (BMV), Honeywell 10-K (Geismar HF), and electronic-grade HF producers' filings."
+    },
+    {
+      "topic": "MP Materials 10X Facility location",
+      "why": "The 8-K and 10-K describe the planned 10X magnet facility (about 7,000 t/yr, commissioning expected 2028), but the reviewed documents give no site, so the facility is not mapped. The DoD offtake flow uses company endpoints.",
+      "would_need": "Later MP 8-K or press release announcing the 10X site."
+    }
+  ]
 }

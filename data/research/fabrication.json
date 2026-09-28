@@ -159,6 +159,56 @@
       "document_date": "2020-12-22",
       "accessed": "2026-09-27",
       "identifier": "85 FR 83416"
+    },
+    {
+      "id": "src:tsmc-ar-2025-ch1",
+      "title": "TSMC 2025 Annual Report, Chapter 1: Letter to Shareholders",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch1.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-04-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:tsmc-ar-2025-ch5",
+      "title": "TSMC 2025 Annual Report, Chapter 5: Business Activities / Operational Highlights",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://investor.tsmc.com/static/annualReports/2025/english/pdf/2025_tsmc_ar_e_ch5.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-04-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-business-report-fy2025",
+      "title": "Samsung Electronics Business Report (FY2025, English translation of statutory report)",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+      "doc_type": "foreign_annual_report",
+      "tier": 1,
+      "document_date": "2026-03",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-news-pyeongtaek-2020",
+      "title": "Samsung Electronics Expands its Foundry Capacity with A New Production Line in Pyeongtaek, Korea",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://news.samsung.com/global/samsung-electronics-expands-its-foundry-capacity-with-a-new-production-line-in-pyeongtaek-korea",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2020-05-21",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:samsung-news-v1-2020",
+      "title": "Samsung Electronics Begins Mass Production at New EUV Manufacturing Line",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://news.samsung.com/global/samsung-electronics-begins-mass-production-at-new-euv-manufacturing-line",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2020-02-20",
+      "accessed": "2026-09-27"
     }
   ],
   "companies": [
@@ -263,6 +313,12 @@
           "quote": "The U.S. Department of Commerce awarded Samsung Austin Semiconductor, LLC, a subsidiary of Samsung Electronics (Samsung), up to $4.745 billion in direct funding under the CHIPS and Science Act",
           "locator": "Key Facts, Project Summary",
           "supports": "existence"
+        },
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan.",
+          "locator": "I. Company overview",
+          "supports": "existence, Korean sites"
         }
       ],
       "tickers": [
@@ -652,6 +708,100 @@
       "tickers": [
         "EPA:SOI"
       ]
+    },
+    {
+      "id": "co:siltronic",
+      "name": "Siltronic AG",
+      "country": "DE",
+      "hq": {
+        "lat": 48.1351,
+        "lon": 11.582,
+        "precision": "city",
+        "address": "Munich, Germany"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc.",
+          "locator": "II. Business overview, key raw materials",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "ETR:WAF"
+      ]
+    },
+    {
+      "id": "co:sk-siltron",
+      "name": "SK Siltron Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 36.1195,
+        "lon": 128.3446,
+        "precision": "city",
+        "address": "Gumi, Korea"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Wafer Semiconductor disk 21,625 12.4% SILTRONIC, SK Siltron, etc.",
+          "locator": "II. Business overview, key raw materials table (DS Division)",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:soulbrain",
+      "name": "Soulbrain Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.3947,
+        "lon": 127.1112,
+        "precision": "city",
+        "address": "Seongnam, Korea"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc.",
+          "locator": "II. Business overview, key raw materials",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "KOSDAQ:357780"
+      ]
+    },
+    {
+      "id": "co:dongwoo-fine-chem",
+      "name": "Dongwoo Fine-Chem Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 35.95,
+        "lon": 126.7,
+        "precision": "region",
+        "address": "Korea"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Chemical Disk processing 29,900 17.1% Soulbrain, DongWoo Fine- Chem, etc.",
+          "locator": "II. Business overview, key raw materials table (DS Division)",
+          "supports": "existence"
+        }
+      ]
     }
   ],
   "facilities": [
@@ -858,6 +1008,12 @@
           "quote": "Our 2-nanometer technology entered volume production in 2025.",
           "locator": "Item 4.D",
           "supports": "2nm volume production"
+        },
+        {
+          "source": "src:tsmc-ar-2025-ch1",
+          "quote": "In Taiwan, we are preparing multiple phases of 2nm fabs in both Hsinchu and Kaohsiung Science Parks.",
+          "locator": "Letter to Shareholders",
+          "supports": "2nm expansion in Hsinchu"
         }
       ],
       "start_year": 2025
@@ -872,7 +1028,7 @@
         "lat": 22.721,
         "lon": 120.315,
         "precision": "region",
-        "address": "Southern Taiwan Science Park (Kaohsiung park), Taiwan"
+        "address": "Kaohsiung Science Park (part of Southern Taiwan Science Park), Kaohsiung, Taiwan"
       },
       "country": "TW",
       "status": "operational",
@@ -897,6 +1053,12 @@
           "quote": "TSMC currently operates six 12-inch GIGAFAB® facilities – Fab 12, Fab 14, Fab 15, Fab 18, Fab 20, and Fab 22.",
           "locator": "GIGAFAB® Facilities page",
           "supports": "existence, GIGAFAB status"
+        },
+        {
+          "source": "src:tsmc-ar-2025-ch1",
+          "quote": "In Taiwan, we are preparing multiple phases of 2nm fabs in both Hsinchu and Kaohsiung Science Parks.",
+          "locator": "Letter to Shareholders",
+          "supports": "location (Kaohsiung), 2nm"
         }
       ],
       "start_year": 2025
@@ -1404,6 +1566,122 @@
           "supports": "export-control status (Beijing entity listed)"
         }
       ]
+    },
+    {
+      "id": "fac:tsmc-taichung-a14",
+      "name": "TSMC 1.4nm (A14) fab, Taichung",
+      "operator": "co:tsmc",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 24.21,
+        "lon": 120.617,
+        "precision": "region",
+        "address": "Taichung (Central Taiwan Science Park area), Taiwan"
+      },
+      "country": "TW",
+      "status": "under_construction",
+      "products": [
+        "A14 (1.4nm-class) logic wafers (planned; volume production scheduled for 2028 per TSMC)"
+      ],
+      "evidence": [
+        {
+          "source": "src:tsmc-gigafab-page",
+          "quote": "In 2025, TSMC expanded its advanced packaging capacity in Chiayi and Tainan, and actively commencing the construction of its 1.4-nanometer fab in Taichung.",
+          "locator": "GIGAFAB® Facilities page",
+          "supports": "existence, location, status"
+        },
+        {
+          "source": "src:tsmc-ar-2025-ch1",
+          "quote": "A14 technology development is progressing well, and volume production is scheduled for 2028.",
+          "locator": "Letter to Shareholders",
+          "supports": "planned timing"
+        }
+      ]
+    },
+    {
+      "id": "fac:samsung-hwaseong-foundry",
+      "name": "Samsung Hwaseong foundry lines (S3 and EUV-dedicated V1)",
+      "operator": "co:samsung",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 37.2,
+        "lon": 127.07,
+        "precision": "city",
+        "address": "Hwaseong, Gyeonggi-do, Korea"
+      },
+      "country": "KR",
+      "status": "operational",
+      "products": [
+        "7nm-and-below EUV logic wafers (V1)",
+        "10nm-and-below logic wafers (S3)"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-news-v1-2020",
+          "quote": "Samsung Electronics, a world leader in advanced semiconductor technology, today announced that its new cutting-edge semiconductor fabrication line in Hwaseong, Korea, has begun mass production.",
+          "locator": "Paragraph 1",
+          "supports": "existence, location, status"
+        },
+        {
+          "source": "src:samsung-news-v1-2020",
+          "quote": "The facility, V1, is Samsung’s first semiconductor production line dedicated to the extreme ultraviolet (EUV) lithography technology and produces chips using process node of 7 nanometer (nm) and below.",
+          "locator": "Paragraph 2",
+          "supports": "products, EUV"
+        },
+        {
+          "source": "src:samsung-news-v1-2020",
+          "quote": "Together with the S3 line, the V1 line is expected to play a pivotal role in responding to fast-growing global market demand for single-digit node foundry technologies.",
+          "locator": "Body",
+          "supports": "S3 line"
+        },
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan.",
+          "locator": "I. Company overview",
+          "supports": "site still operated (FY2025)"
+        }
+      ],
+      "start_year": 2020
+    },
+    {
+      "id": "fac:samsung-pyeongtaek-foundry",
+      "name": "Samsung Pyeongtaek foundry line (EUV, 5nm and below)",
+      "operator": "co:samsung",
+      "layer": "fabrication",
+      "kind": "leading_edge_logic_fab",
+      "location": {
+        "lat": 36.992,
+        "lon": 127.09,
+        "precision": "city",
+        "address": "Pyeongtaek, Gyeonggi-do, Korea"
+      },
+      "country": "KR",
+      "status": "under_construction",
+      "products": [
+        "EUV-based 5nm-and-below logic wafers"
+      ],
+      "evidence": [
+        {
+          "source": "src:samsung-news-pyeongtaek-2020",
+          "quote": "The new foundry line, which will focus on EUV-based 5 nanometer (nm) and below process technology, has just commenced construction this month and is expected to be in full operation in the second half of 2021.",
+          "locator": "Paragraph 2",
+          "supports": "existence, products, status as of 2020-05"
+        },
+        {
+          "source": "src:samsung-news-pyeongtaek-2020",
+          "quote": "Samsung Electronics, a world leader in advanced semiconductor technology, today announced plans to boost its foundry capacity at the company’s new production line in Pyeongtaek, Korea, to meet growing global demand for cutting-edge extreme ultraviolet (EUV) solutions.",
+          "locator": "Paragraph 1",
+          "supports": "location"
+        },
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan.",
+          "locator": "I. Company overview",
+          "supports": "site operated (FY2025)"
+        }
+      ]
     }
   ],
   "flows": [
@@ -1840,6 +2118,238 @@
           "supports": "relationship, long-term agreement"
         }
       ]
+    },
+    {
+      "id": "flow:asml-euv-to-tsmc-fab18",
+      "from": "co:asml",
+      "to": "fac:tsmc-fab18-tainan",
+      "commodity": "EUV lithography systems",
+      "description": "EUV scanners at TSMC Fab 18, whose most advanced volume node is among TSMC's leading nodes.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Strategic report",
+          "supports": "ASML sole EUV maker"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Our EUV lithography systems make it possible to print the smallest features on microchips at the highest density, and are used for the most intricate, critical layers on the most advanced microchips.",
+          "locator": "Strategic report, products",
+          "supports": "EUV used for most advanced chips"
+        },
+        {
+          "source": "src:tsmc-ar-2025-ch5",
+          "quote": "The lithography R&D team made progress in enhancing process yield and performance, continuously improving the application efficiency of EUV scanners, reducing overlay errors, mitigating material defects, and developing and applying new mask pellicles and blanks.",
+          "locator": "Ch.5 Technology development, lithography",
+          "supports": "TSMC uses EUV scanners"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D fab table; row '18 | 2020 | 12-inch | 3'",
+          "supports": "fab node"
+        }
+      ],
+      "inference_note": "ASML is the world's only EUV maker [ASML 20-F]; EUV is used for critical layers on the most advanced chips [ASML 20-F]; TSMC operates EUV scanners [TSMC 2025 AR]; Fab 18's most advanced volume node is 3 nm [TSMC 20-F] => ASML EUV tools at Fab 18. No document ties specific tools to this fab.",
+      "from_hint": "fac:asml-veldhoven"
+    },
+    {
+      "id": "flow:asml-euv-to-tsmc-fab20",
+      "from": "co:asml",
+      "to": "fac:tsmc-fab20-hsinchu",
+      "commodity": "EUV lithography systems",
+      "description": "EUV scanners at TSMC Fab 20, whose most advanced volume node is among TSMC's leading nodes.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Strategic report",
+          "supports": "ASML sole EUV maker"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Our EUV lithography systems make it possible to print the smallest features on microchips at the highest density, and are used for the most intricate, critical layers on the most advanced microchips.",
+          "locator": "Strategic report, products",
+          "supports": "EUV used for most advanced chips"
+        },
+        {
+          "source": "src:tsmc-ar-2025-ch5",
+          "quote": "The lithography R&D team made progress in enhancing process yield and performance, continuously improving the application efficiency of EUV scanners, reducing overlay errors, mitigating material defects, and developing and applying new mask pellicles and blanks.",
+          "locator": "Ch.5 Technology development, lithography",
+          "supports": "TSMC uses EUV scanners"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D fab table; row '20 | 2025 | 12-inch | 2'",
+          "supports": "fab node"
+        }
+      ],
+      "inference_note": "ASML is the world's only EUV maker [ASML 20-F]; EUV is used for critical layers on the most advanced chips [ASML 20-F]; TSMC operates EUV scanners [TSMC 2025 AR]; Fab 20's most advanced volume node is 2 nm [TSMC 20-F] => ASML EUV tools at Fab 20. No document ties specific tools to this fab.",
+      "from_hint": "fac:asml-veldhoven"
+    },
+    {
+      "id": "flow:asml-euv-to-tsmc-fab22",
+      "from": "co:asml",
+      "to": "fac:tsmc-fab22-kaohsiung",
+      "commodity": "EUV lithography systems",
+      "description": "EUV scanners at TSMC Fab 22, whose most advanced volume node is among TSMC's leading nodes.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Strategic report",
+          "supports": "ASML sole EUV maker"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Our EUV lithography systems make it possible to print the smallest features on microchips at the highest density, and are used for the most intricate, critical layers on the most advanced microchips.",
+          "locator": "Strategic report, products",
+          "supports": "EUV used for most advanced chips"
+        },
+        {
+          "source": "src:tsmc-ar-2025-ch5",
+          "quote": "The lithography R&D team made progress in enhancing process yield and performance, continuously improving the application efficiency of EUV scanners, reducing overlay errors, mitigating material defects, and developing and applying new mask pellicles and blanks.",
+          "locator": "Ch.5 Technology development, lithography",
+          "supports": "TSMC uses EUV scanners"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "The following table lists our wafer fabs and those of our subsidiaries in operation as of February 28, 2026, together with the year of commencement of commercial production, wafer size and the most advanced technology for volume production",
+          "locator": "Item 4.D fab table; row '22 | 2025 | 12-inch | 2'",
+          "supports": "fab node"
+        }
+      ],
+      "inference_note": "ASML is the world's only EUV maker [ASML 20-F]; EUV is used for critical layers on the most advanced chips [ASML 20-F]; TSMC operates EUV scanners [TSMC 2025 AR]; Fab 22's most advanced volume node is 2 nm [TSMC 20-F] => ASML EUV tools at Fab 22. No document ties specific tools to this fab.",
+      "from_hint": "fac:asml-veldhoven"
+    },
+    {
+      "id": "flow:asml-euv-to-samsung-hwaseong",
+      "from": "co:asml",
+      "to": "fac:samsung-hwaseong-foundry",
+      "commodity": "EUV lithography systems",
+      "description": "EUV scanners in Samsung's EUV-dedicated V1 line at Hwaseong.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Strategic report",
+          "supports": "ASML sole EUV maker"
+        },
+        {
+          "source": "src:samsung-news-v1-2020",
+          "quote": "The facility, V1, is Samsung’s first semiconductor production line dedicated to the extreme ultraviolet (EUV) lithography technology and produces chips using process node of 7 nanometer (nm) and below.",
+          "locator": "Paragraph 2",
+          "supports": "EUV line"
+        }
+      ],
+      "inference_note": "Samsung's V1 line in Hwaseong is dedicated to EUV lithography [Samsung release 2020]; ASML is the world's only manufacturer of EUV lithography systems [ASML 20-F] => ASML EUV tools at Hwaseong V1. Samsung's release does not name ASML.",
+      "from_hint": "fac:asml-veldhoven"
+    },
+    {
+      "id": "flow:asml-euv-to-samsung-pyeongtaek",
+      "from": "co:asml",
+      "to": "fac:samsung-pyeongtaek-foundry",
+      "commodity": "EUV lithography systems",
+      "description": "EUV scanners for Samsung's Pyeongtaek EUV-based foundry line.",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Strategic report",
+          "supports": "ASML sole EUV maker"
+        },
+        {
+          "source": "src:samsung-news-pyeongtaek-2020",
+          "quote": "The new foundry line, which will focus on EUV-based 5 nanometer (nm) and below process technology, has just commenced construction this month and is expected to be in full operation in the second half of 2021.",
+          "locator": "Paragraph 2",
+          "supports": "EUV line"
+        }
+      ],
+      "inference_note": "Samsung's Pyeongtaek foundry line focuses on EUV-based 5nm-and-below processes [Samsung release 2020]; ASML is the world's only manufacturer of EUV lithography systems [ASML 20-F] => ASML EUV tools at Pyeongtaek. Samsung's release does not name ASML.",
+      "from_hint": "fac:asml-veldhoven"
+    },
+    {
+      "id": "flow:siltronic-to-samsung",
+      "from": "co:siltronic",
+      "to": "co:samsung",
+      "commodity": "silicon wafers",
+      "description": "Samsung's FY2025 business report names SILTRONIC as a main wafer supplier to its DS (semiconductor) Division. Wafers were 12.4% of DS key-material purchases. Not split by memory vs foundry fab.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc.",
+          "locator": "II. Business overview, key raw materials",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Wafer Semiconductor disk 21,625 12.4% SILTRONIC, SK Siltron, etc.",
+          "locator": "Key raw materials table (DS Division), KRW 100mil",
+          "supports": "relationship, volume share"
+        }
+      ]
+    },
+    {
+      "id": "flow:sk-siltron-to-samsung",
+      "from": "co:sk-siltron",
+      "to": "co:samsung",
+      "commodity": "silicon wafers",
+      "description": "Samsung's FY2025 business report names SK Siltron as a main wafer supplier to its DS Division. Not split by memory vs foundry fab.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Wafer Semiconductor disk 21,625 12.4% SILTRONIC, SK Siltron, etc.",
+          "locator": "Key raw materials table (DS Division), KRW 100mil",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "flow:soulbrain-to-samsung",
+      "from": "co:soulbrain",
+      "to": "co:samsung",
+      "commodity": "process chemicals",
+      "description": "Samsung's FY2025 business report names Soulbrain as a main chemicals supplier to its DS Division (chemicals were 17.1% of DS key-material purchases).",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "For the DS Division, key materials include chemicals and wafers, supplied by Soulbrain, SILTRONIC, etc.",
+          "locator": "II. Business overview, key raw materials",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Chemical Disk processing 29,900 17.1% Soulbrain, DongWoo Fine- Chem, etc.",
+          "locator": "Key raw materials table (DS Division)",
+          "supports": "volume share"
+        }
+      ]
+    },
+    {
+      "id": "flow:dongwoo-fine-chem-to-samsung",
+      "from": "co:dongwoo-fine-chem",
+      "to": "co:samsung",
+      "commodity": "process chemicals",
+      "description": "Samsung's FY2025 business report names DongWoo Fine-Chem as a main chemicals supplier to its DS Division.",
+      "basis": "documented",
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Chemical Disk processing 29,900 17.1% Soulbrain, DongWoo Fine- Chem, etc.",
+          "locator": "Key raw materials table (DS Division)",
+          "supports": "relationship"
+        }
+      ]
     }
   ],
   "financial_links": [
@@ -1906,6 +2416,28 @@
           "supports": "amount"
         }
       ]
+    },
+    {
+      "id": "fin:samsung-customer-concentration-2025",
+      "from": "co:samsung",
+      "to": "co:samsung",
+      "kind": "revenue_concentration",
+      "date": "2026-03",
+      "description": "Samsung Electronics FY2025 business report: five major customers (Alphabet, Apple, Deutsche Telekom, Hong Kong Techtronics, Supreme Electronics) = ~15% of total company sales. This is company-wide, not foundry-specific; per-customer shares are not disclosed.",
+      "evidence": [
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Sales to the five major customers accounted for approximately 15% of total sales.",
+          "locator": "II. Business overview, major customers",
+          "supports": "amount"
+        },
+        {
+          "source": "src:samsung-business-report-fy2025",
+          "quote": "Major customers In 2025, major customers (listed alphabetically) included Alphabet, Apple, Deutsche Telekom, Hong Kong Techtronics, and Supreme Electronics.",
+          "locator": "II. Business overview, major customers",
+          "supports": "named customers"
+        }
+      ]
     }
   ],
   "controls": [],
@@ -1929,6 +2461,46 @@
       "topic": "Intel fab site addresses (Hillsboro D1X, Chandler Fab 52, Leixlip, Kiryat Gat, New Albany)",
       "why": "The 10-K names states or countries only. Precise site names come from Intel newsroom pages, which were unreachable here (redirects / socket errors).",
       "would_need": "Reachable Intel newsroom or permit documents naming each site."
+    },
+    {
+      "topic": "Current status of Samsung's Pyeongtaek foundry line and Taylor fab",
+      "why": "The Tier 2 source for Pyeongtaek (May 2020 release) predates operation, and the FY2025 business report lists Pyeongtaek as a site without breaking out foundry lines. For Taylor, the Tier 1 NIST award page (Dec 2024) describes plans; 2026 production-start reports found so far are Tier 3 news.",
+      "would_need": "A Samsung 2026 business report or press release confirming foundry production at Pyeongtaek and Taylor."
+    },
+    {
+      "topic": "Samsung foundry vs memory split of supplier flows",
+      "why": "Samsung's business report lists DS Division suppliers (wafers, chemicals) for memory and foundry combined.",
+      "would_need": "Supplier disclosures naming Samsung foundry fabs specifically."
+    },
+    {
+      "topic": "Tokyo Electron supply to specific fabs",
+      "why": "Tokyo Electron is not in TSMC's 2025 supplier award list, and its customer disclosures were not retrieved before wrap-up.",
+      "would_need": "Tokyo Electron annual securities report (major customers table) or a TSMC/Samsung/Intel document naming TEL."
+    },
+    {
+      "topic": "Industrial gas suppliers (Linde, Air Liquide, Air Products) to specific fabs",
+      "why": "Not researched before wrap-up. No Tier 1/2 document naming both a gas supplier and a fab was collected.",
+      "would_need": "Gas-supplier press releases or filings naming the fab (e.g. TSMC Arizona, Samsung Taylor/Pyeongtaek)."
+    },
+    {
+      "topic": "GlobalWafers, Shin-Etsu and SUMCO wafer supply to specific fabs",
+      "why": "TSMC's 20-F names only wafer-supplier countries; the award list names Shin-Etsu Handotai and SUMCO at company level. GlobalWafers was not researched.",
+      "would_need": "Wafer-supplier annual reports or long-term agreement disclosures naming the fab."
+    },
+    {
+      "topic": "Intel High-NA EUV at D1X (Hillsboro) and ASML High-NA shipments",
+      "why": "The Intel newsroom page on the High-NA EXE:5000 at D1X redirected or errored on fetch, so no verbatim quote was captured. ASML's 20-F does not name the High-NA customer.",
+      "would_need": "A reachable Intel newsroom release or 10-K passage naming D1X and the ASML High-NA tool."
+    },
+    {
+      "topic": "TSMC Arizona expanded plan (additional fabs, USD 165B total) and phase-2 production start",
+      "why": "The Tier 1 sources used (FY2025 20-F, NIST award page) describe three fabs. The March 2025 expansion release and any 2026 phase-2 production update were not captured verbatim before wrap-up.",
+      "would_need": "A TSMC press release or 6-K on the Arizona expansion and phase-2 production status."
+    },
+    {
+      "topic": "SMIC advanced-node (7nm-class) capability",
+      "why": "SMIC's 2025 annual report does not state its most advanced node. The only Tier 1 statement collected is the BIS Entity List rule's presumption of denial for 10nm-and-below items.",
+      "would_need": "An official SMIC disclosure or a US government report documenting SMIC's node capability."
     }
   ]
 }

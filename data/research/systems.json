@@ -130,6 +130,178 @@
       "document_date": "2025-06-03",
       "accessed": "2026-09-27",
       "identifier": "MOPS 2317 2025-06-03 seq 2"
+    },
+    {
+      "id": "src:honhai-mops-2025-03-24-ingrasys-usa-houston",
+      "title": "Hon Hai material information: 代子公司IngrasysTechnologyUSAInc.公告取得土地及廠房 (Ingrasys Technology USA acquires land and plant)",
+      "publisher": "Hon Hai Precision Industry Co., Ltd. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2317&spoke_date=20250324&spoke_time=172721&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-03-24",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2317 2025-03-24 seq 1"
+    },
+    {
+      "id": "src:honhai-mops-2025-01-15-ingrasys-usa-sunnyvale",
+      "title": "Hon Hai material information: 代子公司IngrasysTechnologyUSAInc.公告取得土地及廠房 (Ingrasys Technology USA acquires land and plant)",
+      "publisher": "Hon Hai Precision Industry Co., Ltd. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2317&spoke_date=20250115&spoke_time=180212&seq_no=2",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-01-15",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2317 2025-01-15 seq 2"
+    },
+    {
+      "id": "src:honhai-mops-2024-02-27-fii-amc-mexico-land",
+      "title": "Hon Hai material information: 代子公司FIIAMCMEXICOS.DER.L.DEC.V.公告取得土地 (FII AMC Mexico acquires land)",
+      "publisher": "Hon Hai Precision Industry Co., Ltd. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2317&spoke_date=20240227&spoke_time=183809&seq_no=2",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2024-02-27",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2317 2024-02-27 seq 2"
+    },
+    {
+      "id": "src:honhai-mops-2025-10-14-fii-amc-mexico-lease",
+      "title": "Hon Hai material information: 代子公司FIIAMCMEXICOS.DER.L.DEC.V.公告取得廠房之使用權資產 (FII AMC Mexico acquires plant right-of-use asset)",
+      "publisher": "Hon Hai Precision Industry Co., Ltd. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2317&spoke_date=20251014&spoke_time=172348&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-10-14",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2317 2025-10-14 seq 1"
+    },
+    {
+      "id": "src:honhai-tech-day-2024",
+      "title": "Hon Hai Tech Day 2024 Opens To Record Attendance Superchip AI Server Capabilities and EV CDMS Strength On Display",
+      "publisher": "Hon Hai Precision Industry Co., Ltd.",
+      "url": "https://www.foxconn.com/en-us/press-center/events/foxconn-events/1437",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:honhai-2q26-results-release",
+      "title": "Hon Hai Technology Group (Foxconn) Announces Second Quarter 2026 Financial Results",
+      "publisher": "Hon Hai Precision Industry Co., Ltd.",
+      "url": "https://www.honhai.com/en-us/press-center/press-releases/latest-news/2095",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:foxconn-wedc-racine-2025-11-26",
+      "title": "Hon Hai Technology Group (Foxconn) and Wisconsin’s WEDC Announce Additional 4-Year Investment In Racine County",
+      "publisher": "Hon Hai Precision Industry Co., Ltd.",
+      "url": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1920",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-26",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:hillwood-wistron-alliancetexas-2025-08-21",
+      "title": "Wistron Selects Fort Worth’s AllianceTexas for $761 Million AI Supercomputer Sites Project",
+      "publisher": "Hillwood (AllianceTexas developer)",
+      "url": "https://www.hillwood.com/newsroom/press-releases/wistron-selects-fort-worths-alliancetexas-for-761-million-ai-supercomputer-sites-project/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-21",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wistron-mops-2025-05-06-westport",
+      "title": "Wistron material information: 代子公司WIUS公告取得不動產及進行建築物改良 (Westport plant)",
+      "publisher": "Wistron Corporation (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=3231&spoke_date=20250506&spoke_time=184840&seq_no=2",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-05-06",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 3231 2025-05-06 seq 2"
+    },
+    {
+      "id": "src:wistron-mops-2025-06-26-westport-contract",
+      "title": "Wistron material information: (補充公告)代子公司WUS公告取得不動產",
+      "publisher": "Wistron Corporation (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=3231&spoke_date=20250626&spoke_time=155449&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-06-26",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 3231 2025-06-26 seq 1"
+    },
+    {
+      "id": "src:wistron-mops-2025-05-13-wius-contract",
+      "title": "Wistron material information: (補充公告)代新設之子公司WIUS公告取得不動產",
+      "publisher": "Wistron Corporation (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=3231&spoke_date=20250513&spoke_time=161228&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-05-13",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 3231 2025-05-13 seq 1"
+    },
+    {
+      "id": "src:wistron-mops-2025-05-06-wimx-juarez-lease",
+      "title": "Wistron material information: 代子公司WistronInfoCommMexico(WIMX)公告取得不動產使用權資產",
+      "publisher": "Wistron Corporation (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=3231&spoke_date=20250506&spoke_time=185252&seq_no=10",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-05-06",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 3231 2025-05-06 seq 10"
+    },
+    {
+      "id": "src:wistron-mops-2025-09-15-wiwynn-mexico-lease",
+      "title": "Wistron material information: 代子公司WiwynnMexico,S.A.deC.V.(WYMX)公告取得不動產使用權資產",
+      "publisher": "Wistron Corporation (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=3231&spoke_date=20250915&spoke_time=154558&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-09-15",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 3231 2025-09-15 seq 1"
+    },
+    {
+      "id": "src:quanta-mops-2025-05-29-qmn-fremont-b2",
+      "title": "Quanta material information: 本公司代子公司QuantaManufacturingNashville,LLC公告取得(B2廠房)租賃使用權資產",
+      "publisher": "Quanta Computer Inc. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2382&spoke_date=20250529&spoke_time=140906&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-05-29",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2382 2025-05-29 seq 1"
+    },
+    {
+      "id": "src:quanta-mops-2025-12-23-qmn-fremont-b19",
+      "title": "Quanta material information: 本公司代子公司QuantaManufacturingNashville,LLC公告取得租賃使用權資產 (B19)",
+      "publisher": "Quanta Computer Inc. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2382&spoke_date=20251223&spoke_time=165456&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-12-23",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2382 2025-12-23 seq 1"
+    },
+    {
+      "id": "src:quanta-mops-2026-09-04-quanta-usa-newark",
+      "title": "Quanta material information: 本公司代子公司QuantaComputerUSA,Inc.公告取得租賃使用權資產 (Newark)",
+      "publisher": "Quanta Computer Inc. (filed on TWSE Market Observation Post System)",
+      "url": "https://mopsov.twse.com.tw/mops/web/ajax_t05st01?firstin=true&off=1&step=2&TYPEK=sii&co_id=2382&spoke_date=20260904&spoke_time=135108&seq_no=1",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2026-09-04",
+      "accessed": "2026-09-27",
+      "identifier": "MOPS 2382 2026-09-04 seq 1"
     }
   ],
   "companies": [
@@ -492,6 +664,56 @@
           "supports": "existence"
         }
       ]
+    },
+    {
+      "id": "co:quanta",
+      "name": "Quanta Computer Inc.",
+      "country": "TW",
+      "tickers": [
+        "TWSE:2382"
+      ],
+      "hq": {
+        "lat": 25.06,
+        "lon": 121.37,
+        "precision": "city",
+        "address": "Taoyuan, Taiwan"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:quanta-mops-2025-05-29-qmn-fremont-b2",
+          "quote": "(坐落於Fremont, California, USA）",
+          "locator": "說明 item 1",
+          "supports": "existence (US plant leases via subsidiary)"
+        }
+      ]
+    },
+    {
+      "id": "co:wiwynn",
+      "name": "Wiwynn Corporation",
+      "country": "TW",
+      "tickers": [
+        "TWSE:6669"
+      ],
+      "hq": {
+        "lat": 25.08,
+        "lon": 121.57,
+        "precision": "city",
+        "address": "New Taipei / Taipei, Taiwan"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:wistron-mops-2025-09-15-wiwynn-mexico-lease",
+          "quote": "位於墨西哥奇瓦瓦州華雷斯城之建物使用權資產",
+          "locator": "說明 item 1 (filed by parent Wistron on behalf of Wiwynn Mexico)",
+          "supports": "existence (Mexico operations)"
+        }
+      ]
     }
   ],
   "facilities": [
@@ -505,7 +727,7 @@
         "lat": 29.92,
         "lon": -95.55,
         "precision": "city",
-        "address": "Houston, TX 77064 — Foxconn Assembly LLC sites per TWSE filings: 9625 Fallbrook Pines Drive (owned land and plant) and 8228 / 8118 Houston Avenue (leased plants)"
+        "address": "Houston, TX 77064 — Foxconn Assembly LLC sites per TWSE filings: 9625 Fallbrook Pines Drive (owned land and plant) and 8228 / 8118 Houston Avenue (leased plants); Ingrasys Technology USA Inc. site: 8702–8726 Fairbanks North Houston Rd (owned land and plant)"
       },
       "country": "US",
       "status": "operational",
@@ -551,6 +773,18 @@
           "quote": "交易單位數量：601,680平方英呎",
           "locator": "說明 item 3",
           "supports": "leased plant area (601,680 sq ft)"
+        },
+        {
+          "source": "src:honhai-mops-2025-03-24-ingrasys-usa-houston",
+          "quote": "坐落於 8702, 8710, 8718 and 8726 Fairbanks North Houston Rd, Houston, TX 77064之土地及廠房",
+          "locator": "說明 item 1",
+          "supports": "location (Ingrasys Technology USA owned site)"
+        },
+        {
+          "source": "src:honhai-mops-2025-03-24-ingrasys-usa-houston",
+          "quote": "交易單位數量：土地86.34英畝；廠房1,011,521平方英尺",
+          "locator": "說明 item 3",
+          "supports": "site size (1,011,521 sq ft plant)"
         }
       ]
     },
@@ -561,10 +795,10 @@
       "layer": "systems",
       "kind": "server_assembly",
       "location": {
-        "lat": 32.7532,
-        "lon": -97.3327,
-        "precision": "city",
-        "address": "Fort Worth, Texas"
+        "lat": 32.99,
+        "lon": -97.3,
+        "precision": "site",
+        "address": "15200 Heritage Parkway, Fort Worth, Texas (AllianceTexas; approximate geocode)"
       },
       "country": "US",
       "status": "operational",
@@ -598,6 +832,18 @@
           "quote": "Wistron and NVIDIA will assemble and test NVIDIA AI systems at a new advanced manufacturing facility in Fort Worth, Texas,",
           "locator": "section 'Nationwide Progress'",
           "supports": "relationship"
+        },
+        {
+          "source": "src:hillwood-wistron-alliancetexas-2025-08-21",
+          "quote": "The project’s primary site, located at 15200 Heritage Parkway, will undergo renovations to a 324,598-square-foot building.",
+          "locator": "body",
+          "supports": "location (site address, building size matches D1)"
+        },
+        {
+          "source": "src:wistron-mops-2025-05-13-wius-contract",
+          "quote": "交易總金額為美金48,850仟元",
+          "locator": "說明 item 3",
+          "supports": "acquisition amount (WIUS land and plant)"
         }
       ]
     },
@@ -860,6 +1106,272 @@
           "supports": "existence of Texas site in property table"
         }
       ]
+    },
+    {
+      "id": "fac:wistron-fort-worth-mobility-way",
+      "name": "Wistron (WUS) Westport plant, 14601 Mobility Way, Fort Worth, Texas",
+      "operator": "co:wistron",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 32.98,
+        "lon": -97.29,
+        "precision": "site",
+        "address": "14601 Mobility Way, Fort Worth, Texas (AllianceTexas; approximate geocode)"
+      },
+      "country": "US",
+      "status": "under_construction",
+      "products": [
+        "AI supercomputing systems (per developer release)"
+      ],
+      "evidence": [
+        {
+          "source": "src:hillwood-wistron-alliancetexas-2025-08-21",
+          "quote": "The site located at 14601 Mobility Way will feature renovations to a 766,994-square-foot building, with an investment of more than $181 million allocated for land acquisition, factory purchase, and real property improvements.",
+          "locator": "body",
+          "supports": "existence, location, size"
+        },
+        {
+          "source": "src:wistron-mops-2025-05-06-westport",
+          "quote": "擬取得位於美國之土地及廠房(Westport廠)及進行建築物改良",
+          "locator": "說明 item 1",
+          "supports": "existence (Wistron filing)"
+        },
+        {
+          "source": "src:wistron-mops-2025-05-06-westport",
+          "quote": "土地及廠房面積分別為1,870,597平方英尺與766,994平方英尺，",
+          "locator": "說明 item 3",
+          "supports": "size (matches 14601 Mobility Way building)"
+        }
+      ]
+    },
+    {
+      "id": "fac:foxconn-sunnyvale",
+      "name": "Foxconn (Ingrasys Technology USA) site, Sunnyvale, California",
+      "operator": "co:foxconn",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 37.386,
+        "lon": -122.0,
+        "precision": "site",
+        "address": "1230–1280 East Arques Avenue, Sunnyvale, CA 94085 (filing spells 'East Argues Avenue')"
+      },
+      "country": "US",
+      "status": "announced",
+      "products": [
+        "not specified in filing (Ingrasys is Foxconn's AI server subsidiary)"
+      ],
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2025-01-15-ingrasys-usa-sunnyvale",
+          "quote": "Sunnyvale, CA 94085之土地及廠房",
+          "locator": "說明 item 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:honhai-mops-2025-01-15-ingrasys-usa-sunnyvale",
+          "quote": "交易單位數量：土地26.31 英畝；廠房313,740平方英尺",
+          "locator": "說明 item 3",
+          "supports": "size"
+        },
+        {
+          "source": "src:honhai-2q26-results-release",
+          "quote": "in response to American localization needs, Texas, Wisconsin, Ohio and California will see build up in R&D and manufacturing capabilities.",
+          "locator": "body",
+          "supports": "status context (California build-up)"
+        }
+      ]
+    },
+    {
+      "id": "fac:foxconn-el-salto-jalisco",
+      "name": "Foxconn (FII AMC Mexico) site, El Salto, Jalisco (Guadalajara metro)",
+      "operator": "co:foxconn",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 20.52,
+        "lon": -103.25,
+        "precision": "city",
+        "address": "Nuevo Periférico Oriente / Plataforma Park, El Salto, Jalisco, Mexico"
+      },
+      "country": "MX",
+      "status": "under_construction",
+      "products": [
+        "AI servers (inferred; see evidence)"
+      ],
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2024-02-27-fii-amc-mexico-land",
+          "quote": "EL SALTO, JALISCO, MEXICO.之土地",
+          "locator": "說明 item 1",
+          "supports": "existence, location (land)"
+        },
+        {
+          "source": "src:honhai-mops-2024-02-27-fii-amc-mexico-land",
+          "quote": "交易單位數量：421,576.03 平方公尺，折合127,526.75坪",
+          "locator": "說明 item 3",
+          "supports": "land size"
+        },
+        {
+          "source": "src:honhai-mops-2025-10-14-fii-amc-mexico-lease",
+          "quote": "Municipality of El Salto, C.P. 45686之廠房使用權資產",
+          "locator": "說明 item 1",
+          "supports": "location (leased plant)"
+        },
+        {
+          "source": "src:honhai-tech-day-2024",
+          "quote": "Both partners also elaborated on Foxconn’s build out of the world’s largest AI server factory being constructed in Mexico, at more than 400 meters in size, for key customers.",
+          "locator": "body",
+          "supports": "Mexico AI server factory (site not named in release)"
+        }
+      ]
+    },
+    {
+      "id": "fac:foxconn-mount-pleasant",
+      "name": "Foxconn Mount Pleasant data server plant, Racine County, Wisconsin",
+      "operator": "co:foxconn",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 42.7,
+        "lon": -87.93,
+        "precision": "city",
+        "address": "Mount Pleasant, Racine County, Wisconsin"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "data servers"
+      ],
+      "evidence": [
+        {
+          "source": "src:foxconn-wedc-racine-2025-11-26",
+          "quote": "Foxconn has spent over $2 billion in Wisconsin over the last several years across payroll, capital expenditures, and taxes, creating approximately 1,500 jobs in data server production",
+          "locator": "body",
+          "supports": "existence, products"
+        },
+        {
+          "source": "src:foxconn-wedc-racine-2025-11-26",
+          "quote": "The WEDC Board of Directors approved the company’s plans to invest an additional $569 million to expand its operations in Racine County, which will create 1,374 new jobs over the next four years.",
+          "locator": "body",
+          "supports": "expansion"
+        }
+      ]
+    },
+    {
+      "id": "fac:wistron-juarez",
+      "name": "Wistron InfoComm Mexico (WIMX) leased plant, Ciudad Juárez, Chihuahua",
+      "operator": "co:wistron",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 31.69,
+        "lon": -106.42,
+        "precision": "city",
+        "address": "Ciudad Juárez, Chihuahua, Mexico"
+      },
+      "country": "MX",
+      "status": "operational",
+      "products": [
+        "not specified in filing (WIMX is Wistron's InfoComm/enterprise subsidiary)"
+      ],
+      "evidence": [
+        {
+          "source": "src:wistron-mops-2025-05-06-wimx-juarez-lease",
+          "quote": "位於Mexico Juarez之廠房使用權資產",
+          "locator": "說明 item 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:wistron-mops-2025-05-06-wimx-juarez-lease",
+          "quote": "交易單位數量：510,048 平方英尺",
+          "locator": "說明 item 3",
+          "supports": "size"
+        }
+      ]
+    },
+    {
+      "id": "fac:wiwynn-juarez",
+      "name": "Wiwynn Mexico (WYMX) leased building, Ciudad Juárez, Chihuahua",
+      "operator": "co:wiwynn",
+      "layer": "systems",
+      "kind": "server_rack_assembly",
+      "location": {
+        "lat": 31.69,
+        "lon": -106.42,
+        "precision": "city",
+        "address": "Ciudad Juárez, Chihuahua, Mexico"
+      },
+      "country": "MX",
+      "status": "operational",
+      "products": [
+        "not specified in filing (Wiwynn is a hyperscale server/rack ODM)"
+      ],
+      "evidence": [
+        {
+          "source": "src:wistron-mops-2025-09-15-wiwynn-mexico-lease",
+          "quote": "位於墨西哥奇瓦瓦州華雷斯城之建物使用權資產",
+          "locator": "說明 item 1",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:wistron-mops-2025-09-15-wiwynn-mexico-lease",
+          "quote": "交易單位數量：283,916.91平方英尺",
+          "locator": "說明 item 5",
+          "supports": "size"
+        }
+      ]
+    },
+    {
+      "id": "fac:quanta-fremont",
+      "name": "Quanta Manufacturing Nashville LLC leased plants, Fremont / Newark, California",
+      "operator": "co:quanta",
+      "layer": "systems",
+      "kind": "server_assembly",
+      "location": {
+        "lat": 37.52,
+        "lon": -121.98,
+        "precision": "city",
+        "address": "Fremont, California (B2, B8, B9, B19 plants) and Newark, California"
+      },
+      "country": "US",
+      "status": "operational",
+      "products": [
+        "not specified in filings"
+      ],
+      "evidence": [
+        {
+          "source": "src:quanta-mops-2025-05-29-qmn-fremont-b2",
+          "quote": "B2廠房租賃之使用權資產",
+          "locator": "說明 item 1",
+          "supports": "existence"
+        },
+        {
+          "source": "src:quanta-mops-2025-05-29-qmn-fremont-b2",
+          "quote": "(坐落於Fremont, California, USA）",
+          "locator": "說明 item 1",
+          "supports": "location"
+        },
+        {
+          "source": "src:quanta-mops-2025-05-29-qmn-fremont-b2",
+          "quote": "面積約117,610平方英尺，",
+          "locator": "說明 item 3",
+          "supports": "size (B2)"
+        },
+        {
+          "source": "src:quanta-mops-2025-12-23-qmn-fremont-b19",
+          "quote": "B19廠房租賃之使用權資產",
+          "locator": "說明 item 1",
+          "supports": "additional plant"
+        },
+        {
+          "source": "src:quanta-mops-2026-09-04-quanta-usa-newark",
+          "quote": "廠房租賃之使用權資產 (坐落於Newark, California, USA）",
+          "locator": "說明 item 1",
+          "supports": "additional plant (Newark, Quanta Computer USA)"
+        }
+      ]
     }
   ],
   "flows": [
@@ -1103,6 +1615,52 @@
         }
       ],
       "from": "fac:coherent-sherman"
+    },
+    {
+      "id": "flow:nvidia-to-foxconn-el-salto",
+      "from": "co:nvidia",
+      "to": "fac:foxconn-el-salto-jalisco",
+      "commodity": "NVIDIA GB200-class superchip components (inferred)",
+      "description": "Foxconn is building an AI server factory in Mexico for key customers; Hon Hai filings place FII AMC Mexico land and a leased plant in El Salto, Jalisco.",
+      "basis": "inferred",
+      "inference_note": "Hon Hai Tech Day 2024 release describes 'the world's largest AI server factory being constructed in Mexico' in a passage about NVIDIA and Foxconn, and showcased NVIDIA GB200 NVL72 [company release]; TWSE filings show FII AMC Mexico acquiring land and leasing a plant in El Salto, Jalisco [MOPS]. Neither document names the El Salto site as the AI server factory or NVIDIA as its supplier.",
+      "evidence": [
+        {
+          "source": "src:honhai-tech-day-2024",
+          "quote": "Both partners also elaborated on Foxconn’s build out of the world’s largest AI server factory being constructed in Mexico, at more than 400 meters in size, for key customers.",
+          "locator": "body",
+          "supports": "relationship (Mexico AI server factory)"
+        },
+        {
+          "source": "src:honhai-mops-2024-02-27-fii-amc-mexico-land",
+          "quote": "EL SALTO, JALISCO, MEXICO.之土地",
+          "locator": "說明 item 1",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "flow:nvidia-to-wistron-mobility-way",
+      "from": "co:nvidia",
+      "to": "fac:wistron-fort-worth-mobility-way",
+      "commodity": "NVIDIA AI system components (inferred)",
+      "description": "Second Wistron Fort Worth site within the AllianceTexas AI supercomputing project.",
+      "basis": "inferred",
+      "inference_note": "NVIDIA states Wistron and NVIDIA will assemble and test NVIDIA AI systems in Fort Worth [NVIDIA release]; the developer release describes two Wistron 'AI supercomputing facilities' including 14601 Mobility Way. That this second site receives NVIDIA components is deduced.",
+      "evidence": [
+        {
+          "source": "src:hillwood-wistron-alliancetexas-2025-08-21",
+          "quote": "Wistron, one of the world’s largest electronics manufacturers, today announced plans to establish two AI supercomputing facilities at AllianceTexas in Fort Worth.",
+          "locator": "body",
+          "supports": "two sites"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "Wistron and NVIDIA will assemble and test NVIDIA AI systems at a new advanced manufacturing facility in Fort Worth, Texas,",
+          "locator": "section 'Nationwide Progress'",
+          "supports": "relationship"
+        }
+      ]
     }
   ],
   "financial_links": [
@@ -1160,6 +1718,147 @@
         }
       ],
       "from": "co:foxconn"
+    },
+    {
+      "id": "fin:ingrasys-houston-fairbanks-2025",
+      "from": "co:foxconn",
+      "to": "fac:foxconn-houston",
+      "kind": "capex",
+      "amount": {
+        "value": 142124461,
+        "currency": "USD"
+      },
+      "date": "2025-03-24",
+      "description": "Ingrasys Technology USA (Hon Hai subsidiary) acquired 86.34 acres and a 1,011,521 sq ft plant on Fairbanks North Houston Rd, Houston.",
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2025-03-24-ingrasys-usa-houston",
+          "quote": "交易總金額：美金142,124,461元",
+          "locator": "說明 item 3",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:ingrasys-sunnyvale-2025",
+      "from": "co:foxconn",
+      "to": "fac:foxconn-sunnyvale",
+      "kind": "capex",
+      "amount": {
+        "value": 128000000,
+        "currency": "USD"
+      },
+      "date": "2025-01-15",
+      "description": "Ingrasys Technology USA acquired 26.31 acres and a 313,740 sq ft plant in Sunnyvale, CA.",
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2025-01-15-ingrasys-usa-sunnyvale",
+          "quote": "交易總金額：美金128,000,000元",
+          "locator": "說明 item 3",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:fii-amc-mexico-el-salto-land-2024",
+      "from": "co:foxconn",
+      "to": "fac:foxconn-el-salto-jalisco",
+      "kind": "capex",
+      "amount": {
+        "value": 453088838.24,
+        "currency": "MXN"
+      },
+      "date": "2024-02-27",
+      "description": "FII AMC Mexico acquired 421,576 m² of land in El Salto, Jalisco.",
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2024-02-27-fii-amc-mexico-land",
+          "quote": "交易總金額：墨西哥比索453,088,838.24元(約新台幣827,294,918元)",
+          "locator": "說明 item 3",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:fii-amc-mexico-el-salto-lease-2025",
+      "from": "co:foxconn",
+      "to": "fac:foxconn-el-salto-jalisco",
+      "kind": "lease_commitment",
+      "amount": {
+        "value": 20194836,
+        "currency": "USD",
+        "period": "120 months"
+      },
+      "date": "2025-10-14",
+      "description": "FII AMC Mexico leased a 22,143 m² plant in Plataforma Park, El Salto for 120 months.",
+      "evidence": [
+        {
+          "source": "src:honhai-mops-2025-10-14-fii-amc-mexico-lease",
+          "quote": "合約租金總額：美金 20,194,836元",
+          "locator": "說明 item 5",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:foxconn-wisconsin-expansion-2025",
+      "from": "co:foxconn",
+      "to": "fac:foxconn-mount-pleasant",
+      "kind": "capex",
+      "amount": {
+        "value": 569000000,
+        "currency": "USD"
+      },
+      "date": "2025-11-26",
+      "description": "Planned additional investment in Racine County approved by WEDC (up to $96M total performance-based EITMZ tax credits through 2029; the credits belong to the policy layer).",
+      "evidence": [
+        {
+          "source": "src:foxconn-wedc-racine-2025-11-26",
+          "quote": "The WEDC Board of Directors approved the company’s plans to invest an additional $569 million to expand its operations in Racine County, which will create 1,374 new jobs over the next four years.",
+          "locator": "body",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:wistron-westport-2025",
+      "from": "co:wistron",
+      "to": "fac:wistron-fort-worth-mobility-way",
+      "kind": "capex",
+      "amount": {
+        "value": 110983000,
+        "currency": "USD"
+      },
+      "date": "2025-06-26",
+      "description": "WUS contract to acquire the Westport land and plant (1,870,597 sq ft land; 766,994 sq ft plant).",
+      "evidence": [
+        {
+          "source": "src:wistron-mops-2025-06-26-westport-contract",
+          "quote": "交易總金額為美金110,983仟元",
+          "locator": "說明 item 3",
+          "supports": "amount"
+        }
+      ]
+    },
+    {
+      "id": "fin:wistron-heritage-parkway-2025",
+      "from": "co:wistron",
+      "to": "fac:wistron-fort-worth",
+      "kind": "capex",
+      "amount": {
+        "value": 48850000,
+        "currency": "USD"
+      },
+      "date": "2025-05-13",
+      "description": "WIUS contract to acquire land (852,034 sq ft) and plant (324,598 sq ft) in the US; building size matches 15200 Heritage Parkway (D1).",
+      "evidence": [
+        {
+          "source": "src:wistron-mops-2025-05-13-wius-contract",
+          "quote": "交易總金額為美金48,850仟元",
+          "locator": "說明 item 3",
+          "supports": "amount"
+        }
+      ]
     }
   ],
   "controls": [],
@@ -1183,6 +1882,31 @@
       "topic": "Celestica customer identities and exact site cities",
       "why": "Celestica's 2025 10-K discloses three customers at 32%, 14% and 12% of revenue and lists properties only by state/country.",
       "would_need": "Celestica filing naming customers; site-level property disclosure."
+    },
+    {
+      "topic": "Foxconn / Quanta / Wistron / Wiwynn AI-server revenue share",
+      "why": "Hon Hai's 2Q26 presentation shows Cloud and Networking Products at 51% of revenue only in a chart layout that could not be quoted reliably; Quanta's investor materials were not retrievable from MOPS; statutory annual reports were not reviewed before wrap-up.",
+      "would_need": "Quotable text from Hon Hai / Quanta / Wistron statutory annual reports (MOPS) or investor-conference PDFs."
+    },
+    {
+      "topic": "Foxconn Chihuahua (Mexico) and Wistron Dallas vs Fort Worth naming",
+      "why": "Chihuahua appears in Hon Hai materials only in an ESG context; NVIDIA's April 2025 release says 'Wistron in Dallas', whereas later releases place the plant in Fort Worth. Not researched further before wrap-up.",
+      "would_need": "Hon Hai filing naming the Chihuahua site's AI-server role."
+    },
+    {
+      "topic": "Networking supply: Broadcom Tomahawk/Jericho customers other than Arista, InnoLight transceivers, NVIDIA Israel site addresses, Coherent/Lumentum 10-K confirmations",
+      "why": "Not researched before wrap-up (budget limit). InnoLight files in China (SZSE) only.",
+      "would_need": "Broadcom/Coherent/Lumentum 10-Ks, NVIDIA Israel site disclosures, Zhongji InnoLight annual report."
+    },
+    {
+      "topic": "Purpose of Foxconn/Quanta/Wistron US and Mexico real-estate filings",
+      "why": "The TWSE filings state only generic purposes ('營運需求', operational needs), so linking a specific site to AI-server production relies on company releases or is inferred.",
+      "would_need": "Site-level statements from the companies or permits naming the products."
+    },
+    {
+      "topic": "HPE, Dell and Celestica facility-level AI-server sites",
+      "why": "Their 10-Ks do not name sites for AI-server integration (HPE relies on ODMs/contract manufacturers; Celestica lists properties only by state/country).",
+      "would_need": "Site-specific filings or official releases."
     }
   ]
 }

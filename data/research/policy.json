@@ -1,0 +1,3021 @@
+{
+  "layer": "policy",
+  "analyst": "policy-analyst (Claude)",
+  "generated_at": "2026-09-27",
+  "sources": [
+    {
+      "id": "src:fr-2019-10616",
+      "title": "Addition of Entities to the Entity List (Huawei)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2019-05-21",
+      "accessed": "2026-09-27",
+      "identifier": "84 FR 22961; FR Doc. 2019-10616"
+    },
+    {
+      "id": "src:fr-2020-10856",
+      "title": "Export Administration Regulations: Amendments to General Prohibition Three (Foreign-Produced Direct Product Rule) and the Entity List",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2020/05/19/2020-10856/export-administration-regulations-amendments-to-general-prohibition-three-foreign-produced-direct",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2020-05-19",
+      "accessed": "2026-09-27",
+      "identifier": "85 FR 29849; FR Doc. 2020-10856"
+    },
+    {
+      "id": "src:fr-2020-18213",
+      "title": "Addition of Huawei Non-U.S. Affiliates to the Entity List, the Removal of Temporary General License, and Amendments to General Prohibition Three (Foreign-Produced Direct Product Rule)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2020-08-20",
+      "accessed": "2026-09-27",
+      "identifier": "85 FR 51596; FR Doc. 2020-18213"
+    },
+    {
+      "id": "src:fr-2020-28031",
+      "title": "Addition of Entities to the Entity List, Revision of Entry on the Entity List, and Removal of Entities From the Entity List (SMIC)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2020/12/22/2020-28031/addition-of-entities-to-the-entity-list-revision-of-entry-on-the-entity-list-and-removal-of-entities",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2020-12-22",
+      "accessed": "2026-09-27",
+      "identifier": "85 FR 83416; FR Doc. 2020-28031"
+    },
+    {
+      "id": "src:fr-2022-17125",
+      "title": "Implementation of Certain 2021 Wassenaar Arrangement Decisions on Four Section 1758 Technologies",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2022/08/15/2022-17125/implementation-of-certain-2021-wassenaar-arrangement-decisions-on-four-section-1758-technologies",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2022-08-15",
+      "accessed": "2026-09-27",
+      "identifier": "87 FR 49979; FR Doc. 2022-17125"
+    },
+    {
+      "id": "src:fr-2022-21658",
+      "title": "Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2022-10-13",
+      "accessed": "2026-09-27",
+      "identifier": "87 FR 62186; FR Doc. 2022-21658"
+    },
+    {
+      "id": "src:fr-2022-27151",
+      "title": "Additions and Revisions to the Entity List and Conforming Removal From the Unverified List (YMTC)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2022/12/19/2022-27151/additions-and-revisions-to-the-entity-list-and-conforming-removal-from-the-unverified-list",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2022-12-19",
+      "accessed": "2026-09-27",
+      "identifier": "87 FR 77505; FR Doc. 2022-27151"
+    },
+    {
+      "id": "src:fr-2023-23048",
+      "title": "Entity List Additions (Biren, Moore Threads)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2023/10/19/2023-23048/entity-list-additions",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2023-10-19",
+      "accessed": "2026-09-27",
+      "identifier": "88 FR 71991; FR Doc. 2023-23048"
+    },
+    {
+      "id": "src:fr-2023-23049",
+      "title": "Export Controls on Semiconductor Manufacturing Items",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2023/10/25/2023-23049/export-controls-on-semiconductor-manufacturing-items",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2023-10-25",
+      "accessed": "2026-09-27",
+      "identifier": "88 FR 73424; FR Doc. 2023-23049"
+    },
+    {
+      "id": "src:fr-2023-23055",
+      "title": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and Semiconductor End Use; Updates and Corrections",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2023/10/25/2023-23055/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2023-10-25",
+      "accessed": "2026-09-27",
+      "identifier": "88 FR 73458; FR Doc. 2023-23055"
+    },
+    {
+      "id": "src:fr-2024-07004",
+      "title": "Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and Semiconductor End Use; Updates, Corrections, and Clarifications (April 2024)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2024/04/04/2024-07004/implementation-of-additional-export-controls-certain-advanced-computing-items-supercomputer-and",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2024-04-04",
+      "accessed": "2026-09-27",
+      "identifier": "89 FR 23876; FR Doc. 2024-07004"
+    },
+    {
+      "id": "src:fr-2024-28270",
+      "title": "Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28270/foreign-produced-direct-product-rule-additions-and-refinements-to-controls-for-advanced-computing",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2024-12-05",
+      "accessed": "2026-09-27",
+      "identifier": "89 FR 96790; FR Doc. 2024-28270"
+    },
+    {
+      "id": "src:fr-2024-28267",
+      "title": "Additions and Modifications to the Entity List; Removals From the Validated End-User (VEU) Program",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2024/12/05/2024-28267/additions-and-modifications-to-the-entity-list-removals-from-the-validated-end-user-veu-program",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2024-12-05",
+      "accessed": "2026-09-27",
+      "identifier": "89 FR 96830; FR Doc. 2024-28267"
+    },
+    {
+      "id": "src:fr-2025-00636",
+      "title": "Framework for Artificial Intelligence Diffusion",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/01/15/2025-00636/framework-for-artificial-intelligence-diffusion",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-01-15",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 4544; FR Doc. 2025-00636"
+    },
+    {
+      "id": "src:fr-2025-00711",
+      "title": "Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications; and Extension of Comment Period",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/01/16/2025-00711/implementation-of-additional-due-diligence-measures-for-advanced-computing-integrated-circuits",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-01-16",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 5298; FR Doc. 2025-00711"
+    },
+    {
+      "id": "src:fr-2025-02655",
+      "title": "Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications; and Extension of Comment Period (correction to 3A090)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/02/14/2025-02655/implementation-of-additional-due-diligence-measures-for-advanced-computing-integrated-circuits",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-02-14",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 9604; FR Doc. 2025-02655"
+    },
+    {
+      "id": "src:fr-2025-00480",
+      "title": "Additions to the Entity List (Sophgo and others)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/01/16/2025-00480/additions-to-the-entity-list",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-01-16",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 4621; FR Doc. 2025-00480"
+    },
+    {
+      "id": "src:fr-2025-05427",
+      "title": "Additions to the Entity List (Inspur subsidiaries)",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/03/28/2025-05427/additions-to-the-entity-list",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-03-28",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 14046; FR Doc. 2025-05427"
+    },
+    {
+      "id": "src:fr-2025-16735",
+      "title": "Revocation of Validated End-User Authorizations in the People's Republic of China",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/09/02/2025-16735/revocation-of-validated-end-user-authorizations-in-the-peoples-republic-of-china",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-09-02",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 42321; FR Doc. 2025-16735"
+    },
+    {
+      "id": "src:fr-2025-19001",
+      "title": "Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-09-30",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 47201; FR Doc. 2025-19001"
+    },
+    {
+      "id": "src:fr-2025-19846",
+      "title": "One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2025/11/12/2025-19846/one-year-suspension-of-expansion-of-end-user-controls-for-affiliates-of-certain-listed-entities",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2025-11-12",
+      "accessed": "2026-09-27",
+      "identifier": "90 FR 50857; FR Doc. 2025-19846"
+    },
+    {
+      "id": "src:fr-2026-00789",
+      "title": "Revision to License Review Policy for Advanced Computing Commodities",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2026/01/15/2026-00789/revision-to-license-review-policy-for-advanced-computing-commodities",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2026-01-15",
+      "accessed": "2026-09-27",
+      "identifier": "91 FR 1684; FR Doc. 2026-00789"
+    },
+    {
+      "id": "src:fr-2026-01052",
+      "title": "Proclamation 11002: Adjusting Imports of Semiconductors, Semiconductor Manufacturing Equipment, and Their Derivative Products Into the United States",
+      "publisher": "Executive Office of the President",
+      "url": "https://www.federalregister.gov/documents/2026/01/20/2026-01052/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2026-01-20",
+      "accessed": "2026-09-27",
+      "identifier": "91 FR 2443; FR Doc. 2026-01052"
+    },
+    {
+      "id": "src:fr-2026-06851",
+      "title": "Extension of Authorized Integrated Circuit (IC) Designer Status and Application Deadline To Become an Approved IC Designer",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2026/04/09/2026-06851/extension-of-authorized-integrated-circuit-ic-designer-status-and-application-deadline-to-become-an",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2026-04-09",
+      "accessed": "2026-09-27",
+      "identifier": "91 FR 17851; FR Doc. 2026-06851"
+    },
+    {
+      "id": "src:fr-2026-14132",
+      "title": "Enhanced Favorable Treatment for the United Arab Emirates Under the Export Administration Regulations",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.federalregister.gov/documents/2026/07/14/2026-14132/enhanced-favorable-treatment-for-the-united-arab-emirates-under-the-export-administration",
+      "doc_type": "federal_register",
+      "tier": 1,
+      "document_date": "2026-07-14",
+      "accessed": "2026-09-27",
+      "identifier": "91 FR 43034; FR Doc. 2026-14132"
+    },
+    {
+      "id": "src:ecfr-15-cfr-774-supp1",
+      "title": "Commerce Control List, Supplement No. 1 to Part 774 (current as of 2026-09-24)",
+      "publisher": "Office of the Federal Register / U.S. Department of Commerce, BIS",
+      "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-774/appendix-Supplement%20No.%201%20to%20Part%20774",
+      "doc_type": "cfr",
+      "tier": 1,
+      "document_date": "2026-09-24",
+      "accessed": "2026-09-27",
+      "identifier": "15 CFR Part 774, Supplement No. 1"
+    },
+    {
+      "id": "src:bis-2025-05-13-ai-diffusion-rescission",
+      "title": "Department of Commerce Announces Rescission of Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export Controls",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-05-13",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:bis-guidance-2026-05-31",
+      "title": "Guidance Regarding Enforcement of License Requirements for Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau [May 31, 2026]",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.bis.gov/media/documents/bis-guidance-may-31-2026.pdf",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2026-05-31",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:usc-26-48d",
+      "title": "26 U.S.C. 48D: Advanced manufacturing investment credit",
+      "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section48D&num=0&edition=prelim",
+      "doc_type": "legislation",
+      "tier": 1,
+      "document_date": "2025-07-04",
+      "accessed": "2026-09-27",
+      "identifier": "26 U.S.C. 48D, as amended by Pub. L. 119-21 sec. 70308"
+    },
+    {
+      "id": "src:chips-tsmc-2024-11-15",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Award with TSMC Arizona",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/11/biden-harris-administration-announces-chips-incentives-award-tsmc-arizona",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-11-15",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-gf-2024-11-20",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Award with GlobalFoundries",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/11/biden-harris-administration-announces-chips-incentives-award",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-11-20",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-intel-2024-11-26",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Award with Intel",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/11/biden-harris-administration-announces-chips-incentives-award-intel-advance",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-11-26",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-absolics-entegris-2024-12-05",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Awards with Absolics and Entegris",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-awards-absolics-and",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-micron-2024-12-10",
+      "title": "Department of Commerce Awards CHIPS Incentives to Micron for Idaho and New York Projects",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/department-commerce-awards-chips-incentives-micron-idaho-and-new-york",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-10",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-globalwafers-2024-12-17",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Awards with GlobalWafers",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-awards-globalwafers",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-17",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-skhynix-2024-12-19",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Award with SK hynix",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-award-sk-hynix",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-19",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-samsung-2024-12-20",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Award with Samsung Electronics",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-award-samsung",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-20",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-ti-2024-12-20",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Award with Texas Instruments",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-award-texas",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-20",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-amkor-2024-12-20",
+      "title": "Biden-Harris Administration Announces CHIPS Incentives Award with Amkor Technology",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2024/12/biden-harris-administration-announces-chips-incentives-award-amkor",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-12-20",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-hemlock-2025-01-07",
+      "title": "Department of Commerce Announces CHIPS Incentives Award with Hemlock Semiconductor",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2025/01/department-commerce-announces-chips-incentives-award-hemlock-semiconductor",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2025-01-07",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-napmp-2025-01-16",
+      "title": "U.S. Department of Commerce Announces $1.4 Billion in Final Awards to Support the Next Generation of U.S. Semiconductor Advanced Packaging",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2025/01/us-department-commerce-announces-14-billion-final-awards-support-next",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2025-01-16",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-micron-2025-06-12",
+      "title": "President Trump Secures $200B Investment from Micron Technology for Memory Chip Manufacturing in the United States",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2025/06/president-trump-secures-200b-investment-micron-technology-memory-chip",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-06-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-xlight-2026-06-02",
+      "title": "Department of Commerce Announces Finalization of CHIPS Incentives with xLight to Support Next-Generation Light Source for Lithography",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-xlight-support",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2026-06-02",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:chips-gf-rd-2026-09-08",
+      "title": "Department of Commerce Announces Finalization of CHIPS R&D Award with GlobalFoundries",
+      "publisher": "U.S. Department of Commerce, NIST / CHIPS for America",
+      "url": "https://www.nist.gov/news-events/news/2026/09/department-commerce-announces-finalization-chips-rd-award-globalfoundries",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2026-09-08",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:intel-8k-2025-08-22",
+      "title": "Intel Corporation Form 8-K (Warrant and Common Stock Agreement with U.S. Department of Commerce)",
+      "publisher": "Intel Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/intc-20250822.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-08-22",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0000050863-25-000129"
+    },
+    {
+      "id": "src:intel-8k-2025-08-27",
+      "title": "Intel Corporation Form 8-K (Implementing Amendment to Direct Funding Agreement)",
+      "publisher": "Intel Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000135/intc-20250827.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-08-27",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0000050863-25-000135"
+    },
+    {
+      "id": "src:intel-10k-fy2025",
+      "title": "Intel Corporation Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "Intel Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-01-23",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0000050863-26-000011"
+    },
+    {
+      "id": "src:nvidia-8k-2025-04-15",
+      "title": "NVIDIA Corporation Form 8-K (H20 license requirement)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-04-15",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001045810-25-000082"
+    },
+    {
+      "id": "src:nvidia-10q-2025-q2",
+      "title": "NVIDIA Corporation Form 10-Q for quarter ended July 27, 2025",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2025-08-27",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001045810-25-000209"
+    },
+    {
+      "id": "src:nvidia-10q-2026-q2",
+      "title": "NVIDIA Corporation Form 10-Q for quarter ended July 26, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-26",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001045810-26-000075"
+    },
+    {
+      "id": "src:amd-8k-2025-04-16",
+      "title": "Advanced Micro Devices, Inc. Form 8-K (MI308 export license requirement)",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000039/amd-20250415.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-04-16",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0000002488-25-000039"
+    },
+    {
+      "id": "src:synopsys-8k-2025-05-29",
+      "title": "Synopsys, Inc. Form 8-K (receipt of BIS letter)",
+      "publisher": "Synopsys, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312525130725/d14316d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-05-29",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001193125-25-130725"
+    },
+    {
+      "id": "src:synopsys-8k-2025-07-03",
+      "title": "Synopsys, Inc. Form 8-K (rescission of BIS letter restrictions)",
+      "publisher": "Synopsys, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312525155294/d80081d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-07-03",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001193125-25-155294"
+    },
+    {
+      "id": "src:nl-2024-09-06-semicon-export-control",
+      "title": "The Netherlands expands export control measure for advanced semiconductor manufacturing equipment",
+      "publisher": "Government of the Netherlands, Ministry of Foreign Affairs",
+      "url": "https://www.government.nl/latest/news/2024/09/06/the-netherlands-expands-export-control-measure-advanced-semiconductor-manufacturing-equipment",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-09-06",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nl-2025-01-15-semicon-export-control",
+      "title": "Klever: export controls on advanced semiconductor manufacturing equipment to be tightened",
+      "publisher": "Government of the Netherlands, Ministry of Foreign Affairs",
+      "url": "https://www.government.nl/latest/news/2025/01/15/klever-export-controls-on-advanced-semiconductor-manufacturing-equipment-to-be-tightened",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-01-15",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nl-regeling-bwbr0048439",
+      "title": "Regeling geavanceerde productieapparatuur voor halfgeleiders (BWBR0048439), consolidated text valid from 25-11-2025",
+      "publisher": "Government of the Netherlands (wetten.overheid.nl)",
+      "url": "https://wetten.overheid.nl/BWBR0048439/",
+      "doc_type": "legislation",
+      "tier": 1,
+      "document_date": "2023-06-23",
+      "accessed": "2026-09-27",
+      "identifier": "BWBR0048439; MinBuza.2023.15246-27"
+    },
+    {
+      "id": "src:nl-dual-use-annual-report-2024",
+      "title": "Dutch Export Policy on Strategic Goods in 2024 (annual report on dual-use export control)",
+      "publisher": "Government of the Netherlands, Ministry of Foreign Affairs",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2025/06/27/dutch-export-policy-on-strategic-goods-in-2024/annual-report-on-dual-use-export-control-2024.pdf",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2025-06-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:asml-2023-06-30-nl-export-statement",
+      "title": "Statement regarding export control regulations Dutch government",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.asml.com/en/news/press-releases/2023/statement-regarding-export-control-regulations-dutch-government",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-06-30",
+      "accessed": "2026-09-27"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:asml",
+      "name": "ASML Holding N.V.",
+      "country": "NL",
+      "hq": {
+        "lat": 51.4081,
+        "lon": 5.4127,
+        "precision": "city",
+        "address": "Veldhoven, Netherlands"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-2023-06-30-nl-export-statement",
+          "quote": "Announcement - Veldhoven, The Netherlands, June 30, 2023",
+          "locator": "Press release header",
+          "supports": "existence, location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ASML",
+        "Euronext:ASML"
+      ],
+      "sec_cik": "0000937966"
+    },
+    {
+      "id": "co:intel",
+      "name": "Intel Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3875,
+        "lon": -121.9636,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "fabrication",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:intel-8k-2025-08-22",
+          "quote": "2200 Mission College Boulevard, Santa Clara, California",
+          "locator": "Form 8-K cover page",
+          "supports": "location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:INTC"
+      ],
+      "sec_cik": "0000050863"
+    },
+    {
+      "id": "co:tsmc",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country": "TW",
+      "hq": {
+        "lat": 24.7736,
+        "lon": 121.0106,
+        "precision": "city",
+        "address": "Hsinchu Science Park, Taiwan"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-tsmc-2024-11-15",
+          "quote": "awarded TSMC Arizona Corporation (TSMC Arizona), a subsidiary of Taiwan Semiconductor Manufacturing Company Limited (TSMC), up to $6.6 billion in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NYSE:TSM",
+        "TWSE:2330"
+      ],
+      "sec_cik": "0001046179"
+    },
+    {
+      "id": "co:samsung",
+      "name": "Samsung Electronics Co., Ltd.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.2636,
+        "lon": 127.0286,
+        "precision": "city",
+        "address": "Suwon, South Korea"
+      },
+      "layers": [
+        "fabrication",
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-samsung-2024-12-20",
+          "quote": "awarded Samsung Electronics (Samsung) up to $4.745 billion in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "KRX:005930"
+      ]
+    },
+    {
+      "id": "co:micron",
+      "name": "Micron Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 43.5283,
+        "lon": -116.1458,
+        "precision": "city",
+        "address": "Boise, Idaho"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-micron-2024-12-10",
+          "quote": "awarded Micron Technology up to $6.165 billion in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:MU"
+      ],
+      "sec_cik": "0000723125"
+    },
+    {
+      "id": "co:sk-hynix",
+      "name": "SK hynix Inc.",
+      "country": "KR",
+      "hq": {
+        "lat": 37.275,
+        "lon": 127.44,
+        "precision": "city",
+        "address": "Icheon, South Korea"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-skhynix-2024-12-19",
+          "quote": "This funding supports SK hynix’s investment of approximately $3.87 billion in West Lafayette, Indiana, to build a memory packaging plant for artificial intelligence (AI) products",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "KRX:000660"
+      ]
+    },
+    {
+      "id": "co:globalwafers",
+      "name": "GlobalWafers Co., Ltd.",
+      "country": "TW",
+      "hq": {
+        "lat": 24.78,
+        "lon": 121.0,
+        "precision": "city",
+        "address": "Hsinchu, Taiwan"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-globalwafers-2024-12-17",
+          "quote": "GlobalWafers America, LLC (GWA) and MEMC LLC (MEMC), subsidiaries of GlobalWafers Co., Ltd. (GlobalWafers), of up to $406 million",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TPEx:6488"
+      ]
+    },
+    {
+      "id": "co:amkor",
+      "name": "Amkor Technology, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 33.3062,
+        "lon": -111.8413,
+        "precision": "city",
+        "address": "Tempe, Arizona"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-amkor-2024-12-20",
+          "quote": "awarded Amkor Technology Arizona, Inc., a subsidiary of Amkor Technology, Inc., up to $407 million in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMKR"
+      ],
+      "sec_cik": "0001047127"
+    },
+    {
+      "id": "co:globalfoundries",
+      "name": "GlobalFoundries Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 42.9956,
+        "lon": -73.8468,
+        "precision": "city",
+        "address": "Malta, New York"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-gf-2024-11-20",
+          "quote": "awarded GlobalFoundries (GF) up to $1.5 billion in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:GFS"
+      ],
+      "sec_cik": "0001709048"
+    },
+    {
+      "id": "co:texas-instruments",
+      "name": "Texas Instruments Incorporated",
+      "country": "US",
+      "hq": {
+        "lat": 32.9126,
+        "lon": -96.7516,
+        "precision": "city",
+        "address": "Dallas, Texas"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-ti-2024-12-20",
+          "quote": "awarded Texas Instruments (TI) up to $1.61 billion in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:TXN"
+      ],
+      "sec_cik": "0000097476"
+    },
+    {
+      "id": "co:hemlock",
+      "name": "Hemlock Semiconductor",
+      "country": "US",
+      "hq": {
+        "lat": 43.4148,
+        "lon": -84.2305,
+        "precision": "city",
+        "address": "Hemlock, Michigan"
+      },
+      "layers": [
+        "materials"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-hemlock-2025-01-07",
+          "quote": "HSC is the only U.S.-owned manufacturer of hyper-pure polysilicon",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:entegris",
+      "name": "Entegris, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 42.5584,
+        "lon": -71.2689,
+        "precision": "city",
+        "address": "Billerica, Massachusetts"
+      },
+      "layers": [
+        "wafers_chemicals"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-absolics-entegris-2024-12-05",
+          "quote": "Entegris is a leading supplier of advanced materials and process solutions for the semiconductor industry.",
+          "locator": "Press release, Entegris paragraph",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ENTG"
+      ],
+      "sec_cik": "0001101302"
+    },
+    {
+      "id": "co:absolics",
+      "name": "Absolics Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 33.5968,
+        "lon": -83.8602,
+        "precision": "city",
+        "address": "Covington, Georgia"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-absolics-entegris-2024-12-05",
+          "quote": "The Department awarded Absolics, an affiliate of the Korea-based SKC, up to $75 million in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:applied-materials",
+      "name": "Applied Materials, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-napmp-2025-01-16",
+          "quote": "Applied Materials, Inc. in Santa Clara, California, $100 million in direct funding",
+          "locator": "Press release, award list",
+          "supports": "existence, location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMAT"
+      ],
+      "sec_cik": "0000006951"
+    },
+    {
+      "id": "co:xlight",
+      "name": "xLight, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4419,
+        "lon": -122.143,
+        "precision": "city",
+        "address": "Palo Alto, California"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:chips-xlight-2026-06-02",
+          "quote": "announced today the signing of a final award of $150 million in federal incentives to xLight, Inc. under the CHIPS and Science Act",
+          "locator": "Press release, first paragraph",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:nvidia",
+      "name": "NVIDIA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3708,
+        "lon": -121.9637,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2025-04-15",
+          "quote": "the U.S. government, or USG, informed NVIDIA Corporation, or the Company, that the USG requires a license for export to China",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:NVDA"
+      ],
+      "sec_cik": "0001045810"
+    },
+    {
+      "id": "co:amd",
+      "name": "Advanced Micro Devices, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3827,
+        "lon": -121.9713,
+        "precision": "city",
+        "address": "Santa Clara, California"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:amd-8k-2025-04-16",
+          "quote": "The Export Control applies to the Company’s MI308 products.",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMD"
+      ],
+      "sec_cik": "0000002488"
+    },
+    {
+      "id": "co:synopsys",
+      "name": "Synopsys, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3688,
+        "lon": -122.0363,
+        "precision": "city",
+        "address": "Sunnyvale, California"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:synopsys-8k-2025-05-29",
+          "quote": "Synopsys received a letter from the Bureau of Industry and Security of the U.S. Department of Commerce informing Synopsys of new export restrictions related to China",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:SNPS"
+      ],
+      "sec_cik": "0000883241"
+    },
+    {
+      "id": "co:huawei",
+      "name": "Huawei Technologies Co., Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 22.652,
+        "lon": 114.058,
+        "precision": "city",
+        "address": "Shenzhen, China"
+      },
+      "layers": [
+        "design",
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2019-10616",
+          "quote": "adding Huawei Technologies Co., Ltd. (Huawei) to the Entity List",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fr-2019-10616",
+          "quote": "Huawei will be listed on the Entity List under the destination of China.",
+          "locator": "SUMMARY",
+          "supports": "location (country)"
+        }
+      ]
+    },
+    {
+      "id": "co:smic",
+      "name": "Semiconductor Manufacturing International Corporation",
+      "country": "CN",
+      "hq": {
+        "lat": 31.205,
+        "lon": 121.6,
+        "precision": "city",
+        "address": "Shanghai, China"
+      },
+      "layers": [
+        "fabrication"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2020-28031",
+          "quote": "This rule adds SMIC and the following ten entities related to SMIC: Semiconductor Manufacturing International (Beijing) Corporation",
+          "locator": "SUPPLEMENTARY INFORMATION, Entity List decisions",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "HKEX:0981",
+        "SSE:688981"
+      ]
+    },
+    {
+      "id": "co:ymtc",
+      "name": "Yangtze Memory Technologies Co., Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 30.47,
+        "lon": 114.41,
+        "precision": "city",
+        "address": "Wuhan, China"
+      },
+      "layers": [
+        "memory_packaging"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2022-27151",
+          "quote": "The agencies represented on the ERC determined to add Yangtze Memory Technologies Co., Ltd. and Hefei Core Storage Electronic Limited under the destination of China",
+          "locator": "SUPPLEMENTARY INFORMATION, Entity List decisions",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:biren",
+      "name": "Shanghai Biren Technology (Biren group)",
+      "country": "CN",
+      "hq": {
+        "lat": 31.2304,
+        "lon": 121.4737,
+        "precision": "city",
+        "address": "Shanghai, China"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2023-23048",
+          "quote": "The ERC determined to add Beijing Biren Technology Development Co., Ltd.; Guangzhou Biren Integrated Circuit Co., Ltd.; Hangzhou Biren Technology Development Co., Ltd.",
+          "locator": "SUPPLEMENTARY INFORMATION, Additions to the Entity List",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:moore-threads",
+      "name": "Moore Thread Intelligent Technology (Beijing) Co., Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 39.9042,
+        "lon": 116.4074,
+        "precision": "city",
+        "address": "Beijing, China"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2023-23048",
+          "quote": "Moore Thread Intelligent Technology (Beijing) Co., Ltd.; Moore Thread Intelligent Technology (Chengdu) Co., Ltd.; Moore Thread Intelligent Technology (Shanghai) Co., Ltd.",
+          "locator": "SUPPLEMENTARY INFORMATION, Additions to the Entity List",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:sophgo",
+      "name": "Sophgo Technologies Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 39.9042,
+        "lon": 116.4074,
+        "precision": "city",
+        "address": "Beijing, China"
+      },
+      "layers": [
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2025-00480",
+          "quote": "Qingdao Sophgo Technology Co., Ltd.; Quliang Electronics Co., Ltd.; Shanghai Suanhu Technology Co., Ltd.; Sophgo Technologies Ltd.;",
+          "locator": "SUPPLEMENTARY INFORMATION, Additions to the Entity List",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:sicarrier",
+      "name": "Shenzhen SiCarrier Technologies Co., Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 22.5431,
+        "lon": 114.0579,
+        "precision": "city",
+        "address": "Shenzhen, China"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2024-28267",
+          "quote": "Shenzhen SiCarrier Technologies Co., Ltd.; Shenzhen Xinkailai Industrial Machinery Co., Ltd.",
+          "locator": "SUPPLEMENTARY INFORMATION, Entity List decisions",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:naura",
+      "name": "NAURA Technology Group (Beijing Naura entities)",
+      "country": "CN",
+      "hq": {
+        "lat": 39.795,
+        "lon": 116.506,
+        "precision": "city",
+        "address": "Beijing, China"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2024-28267",
+          "quote": "Beijing Naura Microelectronics Equipment Co., Ltd.; Beijing Naura Semiconductor Equipment Co., Ltd.;",
+          "locator": "II.A Additions to the Entity List",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:inspur",
+      "name": "Inspur Electronic Information Industry Co., Ltd.",
+      "country": "CN",
+      "hq": {
+        "lat": 36.6512,
+        "lon": 117.1201,
+        "precision": "city",
+        "address": "Jinan, China"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:fr-2025-05427",
+          "quote": "The ERC determined to add six entities to the Entity List: Inspur (Beijing) Electronic Information Industry Co., Ltd.; Inspur Electronic Information Industry Co., Ltd.;",
+          "locator": "SUPPLEMENTARY INFORMATION, Entity List decisions",
+          "supports": "existence"
+        }
+      ]
+    }
+  ],
+  "facilities": [],
+  "flows": [],
+  "financial_links": [
+    {
+      "id": "fin:chips-tsmc-arizona-grant",
+      "from": "gov:us-commerce",
+      "to": "co:tsmc",
+      "kind": "government_grant",
+      "amount": {
+        "value": 6600000000.0,
+        "currency": "USD",
+        "note": "up to; milestone-based"
+      },
+      "date": "2024-11-15",
+      "description": "CHIPS Incentives Program final award (direct funding, up to) to TSMC Arizona Corporation for three leading-edge fabs in Phoenix, Arizona; disbursed on milestones.",
+      "evidence": [
+        {
+          "source": "src:chips-tsmc-2024-11-15",
+          "quote": "awarded TSMC Arizona Corporation (TSMC Arizona), a subsidiary of Taiwan Semiconductor Manufacturing Company Limited (TSMC), up to $6.6 billion in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-tsmc-arizona-loan",
+      "from": "gov:us-commerce",
+      "to": "co:tsmc",
+      "kind": "government_loan",
+      "amount": {
+        "value": 5000000000.0,
+        "currency": "USD",
+        "note": "up to; proposed loans"
+      },
+      "date": "2024-11-15",
+      "description": "Proposed CHIPS Program Office loans (up to) to TSMC Arizona under the award.",
+      "evidence": [
+        {
+          "source": "src:chips-tsmc-2024-11-15",
+          "quote": "the CHIPS Program Office will provide up to $5 billion of proposed loans",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-intel-grant",
+      "from": "gov:us-commerce",
+      "to": "co:intel",
+      "kind": "government_grant",
+      "amount": {
+        "value": 7865000000.0,
+        "currency": "USD",
+        "note": "up to; superseded in part by Aug 2025 Purchase Agreement"
+      },
+      "date": "2024-11-26",
+      "description": "CHIPS Incentives Program final award (direct funding, up to) to Intel for projects in Arizona, New Mexico, Ohio and Oregon. Direct Funding Agreement dated 2024-11-25 per Intel 8-K; later restructured into the August 2025 equity transaction (see fin:doc-intel-equity-2025).",
+      "evidence": [
+        {
+          "source": "src:chips-intel-2024-11-26",
+          "quote": "awarded Intel Corporation up to $7.865 billion in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        },
+        {
+          "source": "src:intel-8k-2025-08-27",
+          "quote": "the Direct Funding Agreement, dated as of November 25, 2024 (the “DFA”), between the Company and the DOC",
+          "locator": "Form 8-K, Item 1.01",
+          "supports": "date of agreement"
+        }
+      ]
+    },
+    {
+      "id": "fin:doc-intel-equity-2025",
+      "from": "gov:us-commerce",
+      "to": "co:intel",
+      "kind": "equity_investment",
+      "amount": {
+        "value": 8869800000.0,
+        "currency": "USD",
+        "note": "total disbursements in exchange for equity; includes Secure Enclave funds"
+      },
+      "date": "2025-08-22",
+      "description": "Warrant and Common Stock Agreement: the US Government agreed to $8.8698B of disbursements ($5.695B accelerated CHIPS Direct Funding Agreement funds + $3.1748B Secure Enclave) in exchange for up to 433,323,000 Intel common shares plus warrants for up to 240,516,150 shares; closed 2025-08-27 with a DFA implementing amendment.",
+      "evidence": [
+        {
+          "source": "src:intel-8k-2025-08-22",
+          "quote": "agreed to make a total of $8,869,800,000 of disbursements to the Company, consisting of (1) the acceleration of certain disbursements under the Company’s Direct Funding Agreement (the “DFA”) with the DOC in the amount of $5,695,000,000",
+          "locator": "Form 8-K, Item 1.01",
+          "supports": "amount, relationship"
+        },
+        {
+          "source": "src:intel-8k-2025-08-22",
+          "quote": "up to 433,323,000 shares (the “Shares”) of the Company’s common stock",
+          "locator": "Form 8-K, Item 1.01",
+          "supports": "equity consideration"
+        },
+        {
+          "source": "src:intel-8k-2025-08-27",
+          "quote": "the Company and the DOC entered into the Implementing Amendment to Direct Funding Agreement (the “DFA Amendment”)",
+          "locator": "Form 8-K, Item 1.01",
+          "supports": "closing / restructuring"
+        }
+      ]
+    },
+    {
+      "id": "fin:secure-enclave-intel",
+      "from": "gov:us-gov",
+      "to": "co:intel",
+      "kind": "government_grant",
+      "amount": {
+        "value": 3174800000.0,
+        "currency": "USD",
+        "note": "counterparty named as 'the US Government'; agency not specified in the 8-K"
+      },
+      "date": "2025-08-22",
+      "description": "Secure Enclave program disbursements under the CHIPS Act, restated in the August 2025 Purchase Agreement (paid against escrowed shares at $20.00/share).",
+      "evidence": [
+        {
+          "source": "src:intel-8k-2025-08-22",
+          "quote": "$3,174,800,000 of disbursements (the “Secure Enclave Disbursements” and, together with the Released Funds, the “Disbursements”) in respect of the Company’s agreement with the US Government under the CHIPS Act's Secure Enclave program",
+          "locator": "Form 8-K, Item 1.01",
+          "supports": "amount, relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-samsung-grant",
+      "from": "gov:us-commerce",
+      "to": "co:samsung",
+      "kind": "government_grant",
+      "amount": {
+        "value": 4745000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-20",
+      "description": "CHIPS Incentives Program final award (up to) supporting Samsung's Central Texas (Taylor and Austin) investment.",
+      "evidence": [
+        {
+          "source": "src:chips-samsung-2024-12-20",
+          "quote": "awarded Samsung Electronics (Samsung) up to $4.745 billion in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-micron-grant-id-ny",
+      "from": "gov:us-commerce",
+      "to": "co:micron",
+      "kind": "government_grant",
+      "amount": {
+        "value": 6165000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-10",
+      "description": "CHIPS Incentives Program final award (up to) for Micron DRAM fabs in Clay, NY and Boise, ID.",
+      "evidence": [
+        {
+          "source": "src:chips-micron-2024-12-10",
+          "quote": "awarded Micron Technology up to $6.165 billion in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-micron-manassas",
+      "from": "gov:us-commerce",
+      "to": "co:micron",
+      "kind": "government_grant",
+      "amount": {
+        "value": 275000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2025-06-12",
+      "description": "Incremental CHIPS direct funding (up to) accompanying Micron's expanded investment, including the Manassas, Virginia modernization (PMT signed 2024-12-10). Final-award status of the Virginia funding not confirmed in fetched documents.",
+      "evidence": [
+        {
+          "source": "src:chips-micron-2025-06-12",
+          "quote": "Today’s expanded investment of $200 billion is accompanied by up to $275 million in incremental CHIPS Act direct funding.",
+          "locator": "Press release",
+          "supports": "amount, relationship"
+        },
+        {
+          "source": "src:chips-micron-2024-12-10",
+          "quote": "has signed a non-binding Preliminary Memorandum of Terms (PMT) with Micron Technology for up to $275 million in proposed funding to expand and modernize its facility in Manassas, Virginia",
+          "locator": "Press release",
+          "supports": "prior status (PMT)"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-skhynix-grant",
+      "from": "gov:us-commerce",
+      "to": "co:sk-hynix",
+      "kind": "government_grant",
+      "amount": {
+        "value": 458000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-19",
+      "description": "CHIPS final award (up to) for SK hynix's HBM advanced packaging plant in West Lafayette, Indiana.",
+      "evidence": [
+        {
+          "source": "src:chips-skhynix-2024-12-19",
+          "quote": "awarded SK hynix up to $458 million in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-skhynix-loan",
+      "from": "gov:us-commerce",
+      "to": "co:sk-hynix",
+      "kind": "government_loan",
+      "amount": {
+        "value": 500000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-19",
+      "description": "CHIPS Program Office loans (up to) to SK hynix under the award.",
+      "evidence": [
+        {
+          "source": "src:chips-skhynix-2024-12-19",
+          "quote": "the CHIPS Program Office will provide up to $500 million in loans",
+          "locator": "Press release",
+          "supports": "amount, relationship"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-globalwafers-grant",
+      "from": "gov:us-commerce",
+      "to": "co:globalwafers",
+      "kind": "government_grant",
+      "amount": {
+        "value": 406000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-17",
+      "description": "CHIPS final awards (up to) to GlobalWafers America (Sherman, TX) and MEMC (St. Peters, MO).",
+      "evidence": [
+        {
+          "source": "src:chips-globalwafers-2024-12-17",
+          "quote": "subsidiaries of GlobalWafers Co., Ltd. (GlobalWafers), of up to $406 million under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-amkor-grant",
+      "from": "gov:us-commerce",
+      "to": "co:amkor",
+      "kind": "government_grant",
+      "amount": {
+        "value": 407000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-20",
+      "description": "CHIPS final award (up to) for Amkor's advanced packaging and test facility in Peoria, Arizona.",
+      "evidence": [
+        {
+          "source": "src:chips-amkor-2024-12-20",
+          "quote": "a subsidiary of Amkor Technology, Inc., up to $407 million in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-globalfoundries-grant",
+      "from": "gov:us-commerce",
+      "to": "co:globalfoundries",
+      "kind": "government_grant",
+      "amount": {
+        "value": 1500000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-11-20",
+      "description": "CHIPS final award (up to) for GlobalFoundries projects in Malta, NY and Burlington, VT.",
+      "evidence": [
+        {
+          "source": "src:chips-gf-2024-11-20",
+          "quote": "awarded GlobalFoundries (GF) up to $1.5 billion in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-globalfoundries-rd-2026",
+      "from": "gov:us-commerce",
+      "to": "co:globalfoundries",
+      "kind": "government_grant",
+      "amount": {
+        "value": 375000000.0,
+        "currency": "USD",
+        "note": "up to; R&D award"
+      },
+      "date": "2026-09-08",
+      "description": "CHIPS R&D final award (up to) toward a domestic quantum foundry, cryogenic CMOS PDKs and advanced packaging R&D.",
+      "evidence": [
+        {
+          "source": "src:chips-gf-rd-2026-09-08",
+          "quote": "announced the signing of a final award of up to $375 million to GlobalFoundries under the CHIPS and Science Act",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-ti-grant",
+      "from": "gov:us-commerce",
+      "to": "co:texas-instruments",
+      "kind": "government_grant",
+      "amount": {
+        "value": 1610000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-20",
+      "description": "CHIPS final award (up to) for TI's 300mm fabs in Sherman, TX and Lehi, UT.",
+      "evidence": [
+        {
+          "source": "src:chips-ti-2024-12-20",
+          "quote": "awarded Texas Instruments (TI) up to $1.61 billion in direct funding under the CHIPS Incentives Program’s Funding Opportunity for Commercial Fabrication Facilities",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-hemlock-grant",
+      "from": "gov:us-commerce",
+      "to": "co:hemlock",
+      "kind": "government_grant",
+      "amount": {
+        "value": 325000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2025-01-07",
+      "description": "CHIPS final award (up to) for a semiconductor-grade polysilicon facility in Hemlock, Michigan.",
+      "evidence": [
+        {
+          "source": "src:chips-hemlock-2025-01-07",
+          "quote": "awarded Hemlock Semiconductor (HSC) up to $325 million in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-entegris-grant",
+      "from": "gov:us-commerce",
+      "to": "co:entegris",
+      "kind": "government_grant",
+      "amount": {
+        "value": 77000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-05",
+      "description": "CHIPS final award (up to) for Entegris's Colorado Springs manufacturing center.",
+      "evidence": [
+        {
+          "source": "src:chips-absolics-entegris-2024-12-05",
+          "quote": "awarded Entegris up to $77 million in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-absolics-grant",
+      "from": "gov:us-commerce",
+      "to": "co:absolics",
+      "kind": "government_grant",
+      "amount": {
+        "value": 75000000.0,
+        "currency": "USD",
+        "note": "up to"
+      },
+      "date": "2024-12-05",
+      "description": "CHIPS final award (up to) for Absolics's glass-substrate facility in Covington, Georgia.",
+      "evidence": [
+        {
+          "source": "src:chips-absolics-entegris-2024-12-05",
+          "quote": "The Department awarded Absolics, an affiliate of the Korea-based SKC, up to $75 million in direct funding",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-napmp-applied-materials",
+      "from": "gov:us-commerce",
+      "to": "co:applied-materials",
+      "kind": "government_grant",
+      "amount": {
+        "value": 100000000.0,
+        "currency": "USD"
+      },
+      "date": "2025-01-16",
+      "description": "CHIPS National Advanced Packaging Manufacturing Program final award for silicon-core substrate R&D.",
+      "evidence": [
+        {
+          "source": "src:chips-napmp-2025-01-16",
+          "quote": "Applied Materials, Inc. in Santa Clara, California, $100 million in direct funding",
+          "locator": "Press release, award list",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:chips-xlight-2026",
+      "from": "gov:us-commerce",
+      "to": "co:xlight",
+      "kind": "government_grant",
+      "amount": {
+        "value": 150000000.0,
+        "currency": "USD",
+        "note": "form of incentive (grant vs. equity) not specified in the quoted passage"
+      },
+      "date": "2026-06-02",
+      "description": "CHIPS final award for a free-electron-laser EUV light-source prototype.",
+      "evidence": [
+        {
+          "source": "src:chips-xlight-2026-06-02",
+          "quote": "the signing of a final award of $150 million in federal incentives to xLight, Inc. under the CHIPS and Science Act",
+          "locator": "Press release, first paragraph",
+          "supports": "amount, relationship, date"
+        }
+      ]
+    },
+    {
+      "id": "fin:irc48d-intel-2025",
+      "from": "gov:us-treasury",
+      "to": "co:intel",
+      "kind": "tax_credit",
+      "amount": {
+        "value": 5400000000.0,
+        "currency": "USD",
+        "note": "credits recognized in FY2025"
+      },
+      "date": "2026-01-23",
+      "description": "Intel recognized $5.4B (2025) and $2.6B (2024) of tax credits attributable to the Advanced Manufacturing Investment Credit (26 U.S.C. 48D; 25%, raised to 35% for property placed in service after 2025 by Pub. L. 119-21).",
+      "evidence": [
+        {
+          "source": "src:intel-10k-fy2025",
+          "quote": "$5.4 billion was comprised of tax credits attributable to the U.S. Advanced Manufacturing Investment Credit ($2.6 billion in 2024)",
+          "locator": "Notes to financial statements, capital-related incentives",
+          "supports": "amount, relationship"
+        },
+        {
+          "source": "src:usc-26-48d",
+          "quote": "the advanced manufacturing investment credit for any taxable year is an amount equal to 35 percent of the qualified investment",
+          "locator": "26 U.S.C. 48D(a)",
+          "supports": "legal basis"
+        },
+        {
+          "source": "src:usc-26-48d",
+          "quote": "The credit allowed under this section shall not apply to property the construction of which begins after December 31, 2026.",
+          "locator": "26 U.S.C. 48D(e)",
+          "supports": "sunset"
+        }
+      ]
+    }
+  ],
+  "controls": [
+    {
+      "id": "ctl:us-bis-2019-huawei-entity-list",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Addition of Entities to the Entity List",
+      "citation": "84 FR 22961",
+      "effective_date": "2019-05-16",
+      "status": "in_force",
+      "items": [
+        "all items subject to the EAR"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN",
+        "*Huawei non-U.S. affiliates in 26 destinations"
+      ],
+      "summary": "Adds Huawei and 68 non-U.S. affiliates to the Entity List (15 CFR Part 744, Supp. No. 4). Listing remains; license scope later expanded by the 2020 foreign-direct-product amendments and later rules.",
+      "evidence": [
+        {
+          "source": "src:fr-2019-10616",
+          "quote": "adding Huawei Technologies Co., Ltd. (Huawei) to the Entity List",
+          "locator": "SUMMARY",
+          "supports": "existence, entity"
+        },
+        {
+          "source": "src:fr-2019-10616",
+          "quote": "Huawei will be listed on the Entity List under the destination of China.",
+          "locator": "SUMMARY",
+          "supports": "applies_to"
+        }
+      ],
+      "entities": [
+        "co:huawei"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2020-05-huawei-fdp",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Amendments to General Prohibition Three (Foreign-Produced Direct Product Rule) and the Entity List",
+      "citation": "85 FR 29849",
+      "effective_date": "2020-05-15",
+      "status": "superseded",
+      "items": [
+        "foreign-produced direct products of specified U.S. software/technology (Huawei footnote 1)"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "summary": "First Huawei-specific foreign-direct-product rule (footnote 1 entities). Revised three months later by 85 FR 51596.",
+      "evidence": [
+        {
+          "source": "src:fr-2020-10856",
+          "quote": "This rule also applies this new control to Huawei Technologies Co., Ltd. (Huawei) and its non-U.S. affiliates listed as entities.",
+          "locator": "SUMMARY",
+          "supports": "existence, entity"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2020-08-huawei-fdp",
+      "entities": [
+        "co:huawei"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2020-08-huawei-fdp",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Addition of Huawei Non-U.S. Affiliates to the Entity List, Removal of Temporary General License, and Amendments to General Prohibition Three",
+      "citation": "85 FR 51596",
+      "effective_date": "2020-08-17",
+      "status": "in_force",
+      "items": [
+        "foreign-produced items incorporated into or used to produce parts/components/equipment for footnote 1 entities"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "summary": "Broadens the Huawei foreign-direct-product rule to cover foreign-produced items where there is knowledge they will be incorporated into, or used in production/development of, items for Huawei (footnote 1 entities).",
+      "evidence": [
+        {
+          "source": "src:fr-2020-18213",
+          "quote": "Third, this final rule amends General Prohibition Three, also known as the foreign-produced direct product rule, to revise the control over certain foreign-produced items.",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fr-2020-18213",
+          "quote": "This rule is effective August 17, 2020.",
+          "locator": "DATES",
+          "supports": "effective_date"
+        }
+      ],
+      "entities": [
+        "co:huawei"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2020-12-smic-entity-list",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Addition of Entities to the Entity List (SMIC and ten related entities)",
+      "citation": "85 FR 83416",
+      "effective_date": "2020-12-18",
+      "status": "amended",
+      "items": [
+        "all items subject to the EAR; presumption of denial for items uniquely required for 10 nm and below"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "summary": "Adds SMIC and ten related entities. Items uniquely required for 10 nm-or-below production face a presumption of denial. SMIC entries were modified by 89 FR 96830 (Dec 2024: Footnote 5 designations, presumption of denial for several SMIC entities).",
+      "evidence": [
+        {
+          "source": "src:fr-2020-28031",
+          "quote": "Items uniquely required to produce semiconductors at advanced technology nodes 10 nanometers or below will be subject to a presumption of denial to prevent such key enabling technology from supporting China's military modernization efforts.",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "items, license policy"
+        },
+        {
+          "source": "src:fr-2020-28031",
+          "quote": "This rule adds SMIC and the following ten entities related to SMIC",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "entity"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2024-12-entity-list-140",
+      "entities": [
+        "co:smic"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2022-08-eda-gaafet",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Implementation of Certain 2021 Wassenaar Arrangement Decisions on Four Section 1758 Technologies",
+      "citation": "87 FR 49979",
+      "effective_date": "2022-08-15",
+      "status": "in_force",
+      "items": [
+        "3D006 (ECAD software for GAAFET IC development)",
+        "Ga2O3 and diamond substrates"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "*worldwide except exceptions per ECCN"
+      ],
+      "summary": "Controls ECAD (EDA) software specially designed for GAAFET integrated-circuit development as a Section 1758 technology, alongside ultra-wide-bandgap substrates.",
+      "evidence": [
+        {
+          "source": "src:fr-2022-17125",
+          "quote": "Electronic Computer Aided Design (ECAD) software specially designed for the development of integrated circuits with any Gate-All-Around Field-Effect Transistor (GAAFET) structure",
+          "locator": "SUMMARY",
+          "supports": "items"
+        }
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-05-eda-letters",
+      "authority": "US-BIS",
+      "instrument": "BIS letters to EDA suppliers imposing China-related export restrictions (not published in the Federal Register)",
+      "citation": "BIS letter to Synopsys, 2025-05-29 (disclosed in Synopsys Form 8-K)",
+      "effective_date": "2025-05-29",
+      "status": "rescinded",
+      "items": [
+        "EDA software/products (scope not publicly specified)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "summary": "Synopsys disclosed receipt of a BIS letter imposing new China export restrictions on 2025-05-29, and a further letter on 2025-07-02 rescinding those restrictions effective immediately. Letter text not public; Cadence/Siemens equivalents not sourced here.",
+      "evidence": [
+        {
+          "source": "src:synopsys-8k-2025-05-29",
+          "quote": "Synopsys received a letter from the Bureau of Industry and Security of the U.S. Department of Commerce informing Synopsys of new export restrictions related to China (the “BIS Letter”)",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "existence, date"
+        },
+        {
+          "source": "src:synopsys-8k-2025-07-03",
+          "quote": "informing Synopsys that the export restrictions related to China, pursuant to a letter received on May 29, 2025, have now been rescinded, effective immediately",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "status (rescinded 2025-07-02)"
+        }
+      ],
+      "entities": [
+        "co:synopsys"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2022-10-advanced-computing-sme",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification",
+      "citation": "87 FR 62186",
+      "effective_date": "2022-10-07",
+      "status": "superseded",
+      "items": [
+        "3A090",
+        "4A090",
+        "3B090 (SME)",
+        "supercomputer and semiconductor-fab end-use controls",
+        "U.S.-person support restrictions"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items (advanced computing/supercomputer FDP)"
+      ],
+      "applies_to": [
+        "CN",
+        "Macau"
+      ],
+      "summary": "The 'October 7' rule: first ECCN 3A090/4A090 advanced-computing controls, SME controls, end-use controls for supercomputers and advanced fabs in China, FDP expansion to 28 Entity-Listed Chinese entities, and U.S.-person restrictions. Its computing and SME provisions were revised and replaced by the two October 2023 IFRs.",
+      "evidence": [
+        {
+          "source": "src:fr-2022-21658",
+          "quote": "the Bureau of Industry and Security (BIS) is amending the Export Administration Regulations (EAR) to implement necessary controls on advanced computing integrated circuits (ICs), computer commodities that contain such ICs, and certain semiconductor manufacturing items.",
+          "locator": "SUMMARY",
+          "supports": "items"
+        },
+        {
+          "source": "src:fr-2022-21658",
+          "quote": "this rule expands the scope of foreign-produced items subject to license requirements for twenty-eight existing entities on the Entity List that are located in China",
+          "locator": "SUMMARY",
+          "supports": "FDP scope"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2023-10-advanced-computing"
+    },
+    {
+      "id": "ctl:us-bis-2023-10-advanced-computing",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Implementation of Additional Export Controls: Certain Advanced Computing Items; Supercomputer and Semiconductor End Use; Updates and Corrections (AC/S IFR)",
+      "citation": "88 FR 73458",
+      "effective_date": "2023-11-17",
+      "status": "amended",
+      "items": [
+        "3A090.a (TPP >= 4800, or TPP >= 1600 and performance density >= 5.92)",
+        "3A090.b",
+        "4A090",
+        ".z items"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items"
+      ],
+      "applies_to": [
+        "D:1",
+        "D:4",
+        "D:5",
+        "Macau",
+        "*entities headquartered in D:5/Macau worldwide"
+      ],
+      "summary": "Replaces the 2022 performance thresholds with total processing performance (TPP) and performance-density parameters; extends licensing to Country Groups D:1/D:4/D:5 and to D:5/Macau-headquartered entities worldwide. Subsequently corrected (Apr 2024) and amended (Dec 2024, Jan 2025, Jan 2026).",
+      "evidence": [
+        {
+          "source": "src:fr-2023-23055",
+          "quote": "The revised 3A090.a control parameter will control ICs with one or more digital processing units having either: (1) a `total processing performance' of 4800 or more, or (2) a `total processing performance' of 1600 or more and a `performance density' of 5.92 or more.",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "items"
+        },
+        {
+          "source": "src:fr-2025-00636",
+          "quote": "Thereafter, in October 2023, BIS broadened the scope of advanced computing controls to cover other destinations of concern (Country Groups D:1, D:4, and D:5).",
+          "locator": "SUPPLEMENTARY INFORMATION (background)",
+          "supports": "applies_to"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2024-04-ac-sme-corrections"
+    },
+    {
+      "id": "ctl:us-bis-2023-10-sme",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Export Controls on Semiconductor Manufacturing Items (SME IFR)",
+      "citation": "88 FR 73424",
+      "effective_date": "2023-11-17",
+      "status": "amended",
+      "items": [
+        "3B001 (incl. new 3B001.f.1.b.2.b, 0% de minimis)",
+        "3B090 moved into 3B001/3B993-family entries",
+        "3D/3E related"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items"
+      ],
+      "applies_to": [
+        "D:5",
+        "Macau"
+      ],
+      "summary": "Revises the October 2022 SME controls, expands license requirements to Macau and Country Group D:5 and adds a 0% de minimis rule for certain DUV lithography items. Further expanded by 89 FR 96790 (Dec 2024).",
+      "evidence": [
+        {
+          "source": "src:fr-2023-23049",
+          "quote": "This IFR addresses comments received in response to only the part of the October 7 IFR that controls semiconductor manufacturing equipment (SME) and amends the EAR to implement SME controls more effectively and to address ongoing national security concerns.",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fr-2023-23049",
+          "quote": "expand the license requirement to Macau and destinations specified in Country Group D:5; (6) revises the de minimis provisions to add a 0% de minimis rule for items described in new ECCN 3B001.f.1.b.2.b",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "applies_to, items"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2024-12-fdp-hbm-sme"
+    },
+    {
+      "id": "ctl:us-bis-2024-04-ac-sme-corrections",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: corrections and clarifications to the October 2023 SME and AC/S IFRs",
+      "citation": "89 FR 23876",
+      "effective_date": "2024-04-04",
+      "status": "amended",
+      "items": [
+        "3A090",
+        "4A090",
+        "3B001",
+        "3B993-family (corrections)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "D:1",
+        "D:4",
+        "D:5",
+        "Macau"
+      ],
+      "summary": "Corrects inadvertent errors in and clarifies the two October 2023 IFRs.",
+      "evidence": [
+        {
+          "source": "src:fr-2024-07004",
+          "quote": "This rule corrects inadvertent errors in those rules and makes additional clarifications for the two rules.",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2024-12-fdp-hbm-sme"
+    },
+    {
+      "id": "ctl:us-bis-2024-12-fdp-hbm-sme",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Foreign-Produced Direct Product Rule Additions, and Refinements to Controls for Advanced Computing and Semiconductor Manufacturing Items",
+      "citation": "89 FR 96790",
+      "effective_date": "2024-12-02",
+      "status": "amended",
+      "items": [
+        "3A090.c (HBM, memory bandwidth density > 2 GB/s/mm2)",
+        "3B001, 3B993, 3B994 (new SME)",
+        "SME/advanced-node FDP rules",
+        "software keys"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items (new FDP rules)"
+      ],
+      "applies_to": [
+        "CN",
+        "Macau",
+        "D:5"
+      ],
+      "summary": "Adds HBM controls (3A090.c), new SME entries, two new foreign-direct-product rules targeting advanced-node IC production capability, and software-key clarifications; published with the 140-entity Entity List rule. Amended by 90 FR 5298 (Jan 2025).",
+      "evidence": [
+        {
+          "source": "src:fr-2024-28270",
+          "quote": "adding new controls for certain semiconductor manufacturing equipment and related items, creating new Foreign Direct Product (FDP) rules for certain commodities to impair the capability to produce “advanced-node integrated circuits”",
+          "locator": "SUMMARY",
+          "supports": "items"
+        },
+        {
+          "source": "src:fr-2024-28270",
+          "quote": "adding new controls for certain high bandwidth memory important for advanced computing",
+          "locator": "SUMMARY",
+          "supports": "items (HBM)"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2025-01-foundry-due-diligence"
+    },
+    {
+      "id": "ctl:us-bis-2024-12-entity-list-140",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Additions and Modifications to the Entity List; Removals From the Validated End-User (VEU) Program",
+      "citation": "89 FR 96830",
+      "effective_date": "2024-12-02",
+      "status": "in_force",
+      "items": [
+        "all items subject to the EAR (many with Footnote 5 FDP scope)"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items (Footnote 5)"
+      ],
+      "applies_to": [
+        "CN",
+        "JP",
+        "KR",
+        "SG"
+      ],
+      "summary": "Adds 140 entities (SME makers, fabs, investors) and modifies 14 Chinese entries, including Footnote 5 designations for SMIC entities. CXMT does not appear in this rule's text.",
+      "evidence": [
+        {
+          "source": "src:fr-2024-28267",
+          "quote": "amends the Export Administration Regulations (EAR) by adding 140 entities to the Entity List",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fr-2024-28267",
+          "quote": "Footnote 5 designations are added to seven entities under the destination of China: Fujian Jinhua Integrated Circuit Company, Ltd.; PXW Semiconductor Manufactory Co., Ltd.; Semiconductor Manufacturing International (Beijing) Corporation; Semiconductor Manufacturing International Corporation (SMIC);",
+          "locator": "SUPPLEMENTARY INFORMATION, Modifications",
+          "supports": "entities"
+        },
+        {
+          "source": "src:fr-2024-28267",
+          "quote": "The ERC determined to add the following 106 entities to the Entity List: ACM Research (Shanghai); Beijing E-Town Semiconductor Technology Co., Ltd.;",
+          "locator": "II.A Additions",
+          "supports": "entities"
+        }
+      ],
+      "entities": [
+        "co:smic",
+        "co:sicarrier",
+        "co:naura",
+        "co:huawei"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-01-ai-diffusion",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Framework for Artificial Intelligence Diffusion",
+      "citation": "90 FR 4544",
+      "effective_date": "2025-01-13",
+      "status": "rescinded",
+      "items": [
+        "3A090.a",
+        "4A090.a",
+        ".z items (worldwide license requirement)",
+        "4E091 (AI model weights)"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items"
+      ],
+      "applies_to": [
+        "*worldwide (tiered)"
+      ],
+      "summary": "Created a worldwide license requirement for 3A090.a/4A090.a/.z items and a model-weights control, with a compliance date of 2025-05-15. On 2025-05-13 BIS announced rescission and non-enforcement. As of the 2026-07-14 UAE rule, the §742.6(a)(6)(iii)(A) text remains in the EAR but BIS enforces it only for D:1/D:4/D:5 (excluding A:5/A:6) destinations and D:5/Macau-headquartered entities. A Federal Register rule formally rescinding the framework was not found (see gaps). Status 'rescinded' reflects the agency's announced rescission/non-enforcement.",
+      "evidence": [
+        {
+          "source": "src:fr-2025-00636",
+          "quote": "With this IFR, BIS establishes a worldwide license requirement for ECCNs 3A090.a, 4A090.a, and corresponding .z items in new § 742.6(a)(6)(iii)(A).",
+          "locator": "SUPPLEMENTARY INFORMATION, A. New Worldwide License Requirements",
+          "supports": "items"
+        },
+        {
+          "source": "src:fr-2025-00636",
+          "quote": "exporters, reexporters, and transferors are not required to comply with the changes made in this rule until May 15, 2025",
+          "locator": "DATES",
+          "supports": "compliance date"
+        },
+        {
+          "source": "src:bis-2025-05-13-ai-diffusion-rescission",
+          "quote": "Today, the Department of Commerce (DOC) announced a rescission of the Biden Administration’s AI Diffusion Rule",
+          "locator": "Press release, first paragraph",
+          "supports": "status"
+        },
+        {
+          "source": "src:bis-2025-05-13-ai-diffusion-rescission",
+          "quote": "BIS plans to publish a regulation formalizing the rescission and will issue a replacement rule in the future.",
+          "locator": "Press release",
+          "supports": "status (formal rescission pending)"
+        },
+        {
+          "source": "src:fr-2026-14132",
+          "quote": "BIS is only enforcing this license requirement to destinations in Country Groups D:1, D:4, or D:5 (excluding those also specified in Country Groups A:5 or A:6), and to entities headquartered in or with an ultimate parent headquartered in Country Group D:5 or Macau, wherever located.",
+          "locator": "SUPPLEMENTARY INFORMATION, Enforcement of License Requirements for Advanced Computing Items",
+          "supports": "current enforcement status"
+        }
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-01-foundry-due-diligence",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Implementation of Additional Due Diligence Measures for Advanced Computing Integrated Circuits; Amendments and Clarifications",
+      "citation": "90 FR 5298",
+      "effective_date": "2025-01-16",
+      "status": "amended",
+      "items": [
+        "3A090 (foundry/OSAT presumption; approved/authorized IC designers; transistor-count thresholds)"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign foundries/OSATs producing items subject to the EAR"
+      ],
+      "applies_to": [
+        "*worldwide (non-approved designers)",
+        "D:5",
+        "Macau"
+      ],
+      "summary": "Adds foundry and OSAT due-diligence presumptions for advanced-logic ICs, approved/authorized IC designer and OSAT lists, and amends the Dec 2024 FDP IFR. Corrected 2025-02-14; authorized-designer triggering date extended to 2026-12-31 by 91 FR 17851.",
+      "evidence": [
+        {
+          "source": "src:fr-2025-00711",
+          "quote": "This interim final rule (IFR) will protect the national security of the United States and assist foundries and Outsourced Semiconductor Assembly and Test (“OSATs”) companies in complying with provisions of the EAR pertaining to advanced computing ICs in the supply chain.",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2025-02-3a090-correction"
+    },
+    {
+      "id": "ctl:us-bis-2025-02-3a090-correction",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule; correction: ECCN 3A090 license requirement added by the January 16 IFR",
+      "citation": "90 FR 9604",
+      "effective_date": "2025-02-11",
+      "status": "amended",
+      "items": [
+        "3A090"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "*as in 90 FR 5298"
+      ],
+      "summary": "Corrects the 3A090 license requirement introduced by the January 16, 2025 foundry due-diligence IFR.",
+      "evidence": [
+        {
+          "source": "src:fr-2025-02655",
+          "quote": "This rule revises Export Control Classification Number (ECCN) 3A090 to correct this ECCN's license requirement added in the January 16 IFR.",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2026-04-ic-designer-extension"
+    },
+    {
+      "id": "ctl:us-bis-2026-04-ic-designer-extension",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Extension of Authorized IC Designer Status and Application Deadline To Become an Approved IC Designer",
+      "citation": "91 FR 17851",
+      "effective_date": "2026-04-07",
+      "status": "in_force",
+      "items": [
+        "3A090 foundry due-diligence regime (approved/authorized IC designers)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "*as in 90 FR 5298"
+      ],
+      "summary": "Extends by about eight months, to 2026-12-31, the triggering date for authorized IC designer status and the deadline to apply for approved IC designer status.",
+      "evidence": [
+        {
+          "source": "src:fr-2026-06851",
+          "quote": "extending by about eight months the triggering date for authorized integrated circuit designer status and submission date for applications to become an approved integrated circuit (IC) designer. The new date is December 31, 2026.",
+          "locator": "SUMMARY",
+          "supports": "status, date"
+        },
+        {
+          "source": "src:fr-2026-06851",
+          "quote": "The effective date of this rule is April 7, 2026.",
+          "locator": "DATES",
+          "supports": "effective_date"
+        }
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-04-h20-mi308-license",
+      "authority": "US-BIS",
+      "instrument": "License requirement communicated to exporters by U.S. Government notification ('is informed'), not published in the Federal Register",
+      "citation": "NVIDIA Form 8-K (2025-04-15); AMD Form 8-K (2025-04-16)",
+      "effective_date": "2025-04-09",
+      "status": "amended",
+      "items": [
+        "NVIDIA H20 and ICs achieving H20 memory/interconnect bandwidth",
+        "AMD MI308"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN",
+        "HK",
+        "Macau",
+        "D:5",
+        "*entities headquartered in / parented in those destinations"
+      ],
+      "summary": "USG informed NVIDIA on 2025-04-09 (and 2025-04-14, 'indefinite future') and AMD that exports of H20/MI308-class products to China and D:5 require a license. NVIDIA reports USG granted some H20 licenses in August 2025 and that USG officials expected 15% of licensed H20 revenue, with no regulation codifying it. Superseded in practice by the January 2026 case-by-case policy for chips below TPP 21,000 / 6,500 GB/s.",
+      "evidence": [
+        {
+          "source": "src:nvidia-8k-2025-04-15",
+          "quote": "the USG requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of the Company’s H20 integrated circuits and any other circuits achieving the H20’s memory bandwidth, interconnect bandwidth, or combination thereof",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "items, applies_to, date"
+        },
+        {
+          "source": "src:amd-8k-2025-04-16",
+          "quote": "The Export Control applies to the Company’s MI308 products.",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "items"
+        },
+        {
+          "source": "src:nvidia-10q-2025-q2",
+          "quote": "In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers",
+          "locator": "Form 10-Q, MD&A",
+          "supports": "licensing status"
+        },
+        {
+          "source": "src:nvidia-10q-2025-q2",
+          "quote": "USG officials have expressed an expectation that the USG will receive 15% of the revenue generated from licensed H20 sales, but to date, the USG has not published a regulation codifying such requirement.",
+          "locator": "Form 10-Q, MD&A",
+          "supports": "licensing arrangement"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2026-01-h200-case-by-case",
+      "entities": [
+        "co:nvidia",
+        "co:amd"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2026-01-h200-case-by-case",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Revision to License Review Policy for Advanced Computing Commodities",
+      "citation": "91 FR 1684",
+      "effective_date": "2026-01-15",
+      "status": "in_force",
+      "items": [
+        "advanced computing commodities with TPP < 21,000 and total DRAM bandwidth < 6,500 GB/s (e.g., NVIDIA H200, AMD MI325X)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN",
+        "Macau"
+      ],
+      "summary": "Moves license review for exports from the U.S. of chips below TPP 21,000 / 6,500 GB/s to end users in China or Macau from presumption of denial to case-by-case, conditioned on supply certifications, a 50% cap relative to U.S. shipments, KYC, and U.S. third-party testing. Reexports and D:5-headquartered entities elsewhere remain presumption of denial. NVIDIA reports licenses granted from Feb 2026 and a 25% tariff on inspected H200s under Proclamation 11002.",
+      "evidence": [
+        {
+          "source": "src:fr-2026-00789",
+          "quote": "The Bureau of Industry and Security (BIS) is revising its license review policy for exports of certain semiconductors to China and Macau—changing it from a presumption of denial to a case-by-case review.",
+          "locator": "SUMMARY",
+          "supports": "existence, applies_to"
+        },
+        {
+          "source": "src:fr-2026-00789",
+          "quote": "the aggregate shipments of the product to China and Macau will be no more than 50% of the total product shipped to customers for end use in the United States of that product",
+          "locator": "I. Background",
+          "supports": "conditions"
+        },
+        {
+          "source": "src:fr-2026-00789",
+          "quote": "The effective date of this rule is January 15, 2026.",
+          "locator": "DATES",
+          "supports": "effective_date"
+        },
+        {
+          "source": "src:nvidia-10q-2026-q2",
+          "quote": "Beginning in February 2026, the USG granted licenses that would allow us to ship small amounts of H200 products to specific China-based customers, but such sales were restricted by the PRC government",
+          "locator": "Form 10-Q, Risk Factors",
+          "supports": "implementation"
+        }
+      ],
+      "entities": [
+        "co:nvidia",
+        "co:amd"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2026-05-d5-hq-guidance",
+      "authority": "US-BIS",
+      "instrument": "Guidance Regarding Enforcement of License Requirements for Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau",
+      "citation": "BIS guidance, May 31, 2026 (15 CFR 742.6(a)(6)(iii)(A))",
+      "effective_date": "2026-05-31",
+      "status": "in_force",
+      "items": [
+        "3A090.a/.b",
+        "4A090.a/.b",
+        ".z items"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "*entities headquartered (or ultimately parented) in D:5 or Macau, wherever located"
+      ],
+      "summary": "Clarifies that, despite non-enforcement of the AI Diffusion Rule's new requirements, the November 2023 worldwide license requirement for D:5/Macau-headquartered entities continues to be enforced under §742.6(a)(6)(iii)(A).",
+      "evidence": [
+        {
+          "source": "src:bis-guidance-2026-05-31",
+          "quote": "a license requirement continues to apply under § 742.6(a)(6)(iii)(A) of the EAR to all destinations outside the United States for these advanced computing items when such items are for entities headquartered in, or whose ultimate parent company is headquartered in, Country Group D:5 or Macau.",
+          "locator": "Guidance, para. 3",
+          "supports": "status, applies_to"
+        },
+        {
+          "source": "src:bis-guidance-2026-05-31",
+          "quote": "In May 2025, BIS announced that it would not be enforcing the AI Diffusion Rule’s new compliance requirements.",
+          "locator": "Guidance, para. 2",
+          "supports": "relationship to AI Diffusion rule"
+        }
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2026-07-uae-favorable-treatment",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Enhanced Favorable Treatment for the United Arab Emirates Under the EAR",
+      "citation": "91 FR 43034",
+      "effective_date": "2026-07-10",
+      "status": "in_force",
+      "items": [
+        "advanced computing items (3A090, 4A090, .z) license-free for approved UAE entities",
+        "License Exception STA"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "AE"
+      ],
+      "summary": "Moves the UAE from Country Groups D:3/D:4 to A:5; UAE Government and approved entities listed in Supp. No. 8 to Part 740 receive advanced computing items license-free; others remain licensed. Restates BIS's current (post-AI-Diffusion) enforcement posture.",
+      "evidence": [
+        {
+          "source": "src:fr-2026-14132",
+          "quote": "BIS is removing the UAE from Country Groups D:3 and D:4 and adding the UAE to Country Group A:5.",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fr-2026-14132",
+          "quote": "As of July 10, 2026, UAE government agencies are eligible recipients of advanced computing items license-free.",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "effective_date, items"
+        }
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2022-12-ymtc-entity-list",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Additions and Revisions to the Entity List (36 entities incl. YMTC)",
+      "citation": "87 FR 77505",
+      "effective_date": "2022-12-16",
+      "status": "in_force",
+      "items": [
+        "all items subject to the EAR"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN",
+        "JP"
+      ],
+      "summary": "Adds Yangtze Memory Technologies Co., Ltd. and affiliates to the Entity List.",
+      "evidence": [
+        {
+          "source": "src:fr-2022-27151",
+          "quote": "The agencies represented on the ERC determined to add Yangtze Memory Technologies Co., Ltd. and Hefei Core Storage Electronic Limited under the destination of China and Yangtze Memory Technologies (Japan) Inc. under the destination of Japan to the Entity List",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "entity"
+        }
+      ],
+      "entities": [
+        "co:ymtc"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2023-10-biren-moore-threads",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Entity List Additions (13 Chinese entities: Biren, Moore Threads)",
+      "citation": "88 FR 71991",
+      "effective_date": "2023-10-17",
+      "status": "in_force",
+      "items": [
+        "all items subject to the EAR"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "summary": "Adds 13 Chinese entities, including Biren and Moore Threads GPU designers, to the Entity List.",
+      "evidence": [
+        {
+          "source": "src:fr-2023-23048",
+          "quote": "adding 13 entities to the Entity List under the destination of the People's Republic of China (China)",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fr-2023-23048",
+          "quote": "Moore Thread Intelligent Technology (Beijing) Co., Ltd.; Moore Thread Intelligent Technology (Chengdu) Co., Ltd.;",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "entities"
+        }
+      ],
+      "entities": [
+        "co:biren",
+        "co:moore-threads"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-01-sophgo",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Additions to the Entity List (16 entities incl. Sophgo)",
+      "citation": "90 FR 4621",
+      "effective_date": "2025-01-16",
+      "status": "in_force",
+      "items": [
+        "all items subject to the EAR"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN",
+        "SG"
+      ],
+      "summary": "Adds Sophgo Technologies and related Chinese and Singapore entities to the Entity List.",
+      "evidence": [
+        {
+          "source": "src:fr-2025-00480",
+          "quote": "adding 16 entities to the Entity List, under the destinations of China, People's Republic of (China) (14) and Singapore (2)",
+          "locator": "SUMMARY",
+          "supports": "existence"
+        },
+        {
+          "source": "src:fr-2025-00480",
+          "quote": "Sophgo Technologies Ltd.; Sophon Technology (Beijing) Co., Ltd.;",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "entity"
+        }
+      ],
+      "entities": [
+        "co:sophgo"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-03-inspur",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Additions to the Entity List (12 entities incl. Inspur subsidiaries)",
+      "citation": "90 FR 14046",
+      "effective_date": "2025-03-25",
+      "status": "in_force",
+      "items": [
+        "all items subject to the EAR, including foreign-produced items under §734.9(e)(2)"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items"
+      ],
+      "applies_to": [
+        "CN",
+        "TW"
+      ],
+      "summary": "Adds six Inspur entities (China, Taiwan) among 12 additions.",
+      "evidence": [
+        {
+          "source": "src:fr-2025-05427",
+          "quote": "The ERC determined to add six entities to the Entity List: Inspur (Beijing) Electronic Information Industry Co., Ltd.; Inspur Electronic Information Industry Co., Ltd.;",
+          "locator": "SUPPLEMENTARY INFORMATION",
+          "supports": "entities"
+        }
+      ],
+      "entities": [
+        "co:inspur"
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-09-affiliates-rule",
+      "authority": "US-BIS",
+      "instrument": "Interim final rule: Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities ('50% rule')",
+      "citation": "90 FR 47201",
+      "effective_date": "2025-09-29",
+      "status": "amended",
+      "items": [
+        "all items subject to the EAR for entities >=50% owned by Entity List / MEU / certain sanctioned parties"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "*worldwide (affiliates of listed parties)"
+      ],
+      "summary": "Extends Entity List restrictions automatically to entities at least 50% owned by listed parties. Stayed from 2025-11-10 until 2026-11-09 by 90 FR 50857 (status 'amended' = currently suspended).",
+      "evidence": [
+        {
+          "source": "src:fr-2025-19001",
+          "quote": "any entity that is at least 50 percent owned by one or more entities on the Entity List will itself automatically be subject to Entity List restrictions",
+          "locator": "SUMMARY",
+          "supports": "existence, scope"
+        }
+      ],
+      "superseded_by": "ctl:us-bis-2025-11-affiliates-suspension"
+    },
+    {
+      "id": "ctl:us-bis-2025-11-affiliates-suspension",
+      "authority": "US-BIS",
+      "instrument": "Final rule; stay: One Year Suspension of Expansion of End-User Controls for Affiliates of Certain Listed Entities",
+      "citation": "90 FR 50857",
+      "effective_date": "2025-11-10",
+      "status": "in_force",
+      "items": [
+        "(stay of 90 FR 47201)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "*worldwide"
+      ],
+      "summary": "Stays the affiliates rule for one year; the suspension ends 2026-11-09 absent extension.",
+      "evidence": [
+        {
+          "source": "src:fr-2025-19846",
+          "quote": "The suspension is set to end November 9, 2026, absent a future extension.",
+          "locator": "SUMMARY",
+          "supports": "status"
+        },
+        {
+          "source": "src:fr-2025-19846",
+          "quote": "are stayed until November 9, 2026",
+          "locator": "DATES",
+          "supports": "effective period"
+        }
+      ]
+    },
+    {
+      "id": "ctl:us-bis-2025-09-veu-revocation",
+      "authority": "US-BIS",
+      "instrument": "Final rule: Revocation of Validated End-User Authorizations in the People's Republic of China",
+      "citation": "90 FR 42321",
+      "effective_date": "2025-12-31",
+      "status": "in_force",
+      "items": [
+        "items previously authorized under VEU for listed PRC fabs (now require licenses)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "CN"
+      ],
+      "summary": "Removes Intel Semiconductor (Dalian), Samsung China Semiconductor and SK hynix Semiconductor (China) from the PRC VEU list, effective 2025-12-31.",
+      "evidence": [
+        {
+          "source": "src:fr-2025-16735",
+          "quote": "by removing Intel Semiconductor (Dalian) Ltd; Samsung China Semiconductor Co. Ltd; and SK hynix Semiconductor (China) Ltd.",
+          "locator": "SUMMARY",
+          "supports": "entities"
+        },
+        {
+          "source": "src:fr-2025-16735",
+          "quote": "This rule is effective December 31, 2025.",
+          "locator": "DATES",
+          "supports": "effective_date"
+        }
+      ],
+      "entities": [
+        "co:samsung",
+        "co:sk-hynix",
+        "co:intel"
+      ]
+    },
+    {
+      "id": "ctl:us-pres-2026-01-semiconductor-232",
+      "authority": "US-President",
+      "instrument": "Proclamation 11002: Adjusting Imports of Semiconductors, Semiconductor Manufacturing Equipment, and Their Derivative Products Into the United States (Section 232)",
+      "citation": "91 FR 2443",
+      "effective_date": "2026-01-15",
+      "status": "in_force",
+      "items": [
+        "certain advanced computing chips and derivative products listed in the Annex (Covered Products)"
+      ],
+      "applies_from": [
+        "*all origins (import measure)"
+      ],
+      "applies_to": [
+        "US"
+      ],
+      "summary": "Import measure, not an export control: 25% ad valorem duty on Covered Products from 2026-01-15, with exemptions for U.S. data centers, R&D, startups and other listed uses. NVIDIA reports the duty applies to H200s routed through U.S. inspection for China licenses.",
+      "evidence": [
+        {
+          "source": "src:fr-2026-01052",
+          "quote": "Except as otherwise provided in this proclamation, imports of Covered Products will be subject to a 25 percent",
+          "locator": "Clause (3)",
+          "supports": "items, rate"
+        },
+        {
+          "source": "src:fr-2026-01052",
+          "quote": "This tariff shall be effective with respect to goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern standard time on January 15, 2026",
+          "locator": "Clause (3)",
+          "supports": "effective_date"
+        },
+        {
+          "source": "src:nvidia-10q-2026-q2",
+          "quote": "any H200s shipped under the new licensing program are subject to a 25% tariff upon importation into the United States",
+          "locator": "Form 10-Q, Risk Factors",
+          "supports": "interaction with H200 licensing"
+        }
+      ],
+      "entities": [
+        "co:nvidia"
+      ]
+    },
+    {
+      "id": "ctl:us-ccl-3b001f-lithography",
+      "authority": "US-BIS",
+      "instrument": "Commerce Control List entry ECCN 3B001.f (lithography equipment)",
+      "citation": "15 CFR Part 774, Supp. No. 1, ECCN 3B001.f",
+      "effective_date": "2026-09-24",
+      "status": "in_force",
+      "items": [
+        "3B001.f.1.a (light source wavelength < 193 nm, i.e., EUV scanners)",
+        "3B001.f.1.b (advanced DUV immersion: MRF <= 45 nm and dedicated chuck overlay <= 1.50 nm)"
+      ],
+      "applies_from": [
+        "US"
+      ],
+      "applies_to": [
+        "*per CCL country chart and §742.4/§742.6 (incl. D:5, Macau)"
+      ],
+      "summary": "Current CFR text of the lithography entry. 3B001.f.1.a captures any step-and-scan exposure tool with a source wavelength below 193 nm, which includes 13.5 nm EUV. Effective date shown is the eCFR currency date, not the date of first control.",
+      "evidence": [
+        {
+          "source": "src:ecfr-15-cfr-774-supp1",
+          "quote": "f.1. Align and expose step and repeat (direct step on wafer) or step and scan (scanner) equipment for wafer processing using photo-optical or X-ray methods and having any of the following:",
+          "locator": "ECCN 3B001, Items paragraph f.1",
+          "supports": "items"
+        },
+        {
+          "source": "src:ecfr-15-cfr-774-supp1",
+          "quote": "f.1.a. A light source wavelength shorter than 193 nm; or",
+          "locator": "ECCN 3B001.f.1.a",
+          "supports": "items (EUV)"
+        },
+        {
+          "source": "src:ecfr-15-cfr-774-supp1",
+          "quote": "f.1.b.2. A maximum 'dedicated chuck overlay' value of less than or equal to 1.50 nm;",
+          "locator": "ECCN 3B001.f.1.b.2",
+          "supports": "items (DUV)"
+        }
+      ]
+    },
+    {
+      "id": "ctl:us-ccl-3a090-4a090",
+      "authority": "US-BIS",
+      "instrument": "Commerce Control List entries ECCN 3A090 (advanced ICs, HBM) and 4A090 (computers containing them)",
+      "citation": "15 CFR Part 774, Supp. No. 1, ECCNs 3A090 and 4A090",
+      "effective_date": "2026-09-24",
+      "status": "in_force",
+      "items": [
+        "3A090.a",
+        "3A090.b",
+        "3A090.c (HBM)",
+        "4A090.a",
+        "4A090.b"
+      ],
+      "applies_from": [
+        "US",
+        "*foreign-produced items via FDP rules"
+      ],
+      "applies_to": [
+        "*per §742.6(a)(6)(iii): D:1, D:4, D:5, Macau, D:5-headquartered entities (as enforced)"
+      ],
+      "summary": "Current CFR thresholds: 3A090.a TPP >= 4800, or TPP >= 1600 with performance density >= 5.92; 3A090.b lower band for datacenter parts; 3A090.c HBM > 2 GB/s/mm2; 4A090 computers containing such ICs.",
+      "evidence": [
+        {
+          "source": "src:ecfr-15-cfr-774-supp1",
+          "quote": "a.2. A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+          "locator": "ECCN 3A090.a.2",
+          "supports": "items"
+        },
+        {
+          "source": "src:ecfr-15-cfr-774-supp1",
+          "quote": "c. High bandwidth memory (HBM) having a 'memory bandwidth density' greater than 2 gigabytes per second per square millimeter.",
+          "locator": "ECCN 3A090.c",
+          "supports": "items (HBM)"
+        },
+        {
+          "source": "src:ecfr-15-cfr-774-supp1",
+          "quote": "a. Computers, “electronic assemblies,” and “components” containing integrated circuits, any of which meets or exceeds the limits in 3A090.a.",
+          "locator": "ECCN 4A090.a",
+          "supports": "items"
+        }
+      ]
+    },
+    {
+      "id": "ctl:nl-2023-09-advanced-sme-order",
+      "authority": "NL-MinBuZa",
+      "instrument": "Regeling geavanceerde productieapparatuur voor halfgeleiders (Ministerial Order on Advanced Semiconductor Manufacturing Equipment)",
+      "citation": "Order of 23 June 2023, nr. MinBuza.2023.15246-27 (BWBR0048439)",
+      "effective_date": "2023-09-01",
+      "status": "amended",
+      "items": [
+        "advanced DUV immersion lithography and other advanced SME listed in the Annex (national entries 3B801 etc.)"
+      ],
+      "applies_from": [
+        "NL"
+      ],
+      "applies_to": [
+        "*all destinations outside the EU"
+      ],
+      "summary": "National authorisation requirement for exports of listed advanced semiconductor manufacturing equipment from the Netherlands, in force from 1 September 2023. Amended September 2024 and April 2025; consolidated text valid from 2025-11-25.",
+      "evidence": [
+        {
+          "source": "src:nl-regeling-bwbr0048439",
+          "quote": "Het is verboden zonder vergunning van de Minister geavanceerde productieapparatuur voor halfgeleiders uit te voeren uit Nederland.",
+          "locator": "Artikel 2",
+          "supports": "existence"
+        },
+        {
+          "source": "src:nl-regeling-bwbr0048439",
+          "quote": "Deze regeling treedt in werking met ingang van 1 september 2023.",
+          "locator": "Artikel 6",
+          "supports": "effective_date"
+        },
+        {
+          "source": "src:nl-dual-use-annual-report-2024",
+          "quote": "The Ministerial Order on Advanced Semiconductor Manufacturing Equipment entered into force in September 2023.",
+          "locator": "Section on national measures",
+          "supports": "effective_date"
+        },
+        {
+          "source": "src:asml-2023-06-30-nl-export-statement",
+          "quote": "ASML will need to apply for export licenses with the Dutch government for all shipments of its most advanced immersion DUV lithography systems (TWINSCAN NXT:2000i and subsequent immersion systems)",
+          "locator": "Statement",
+          "supports": "items"
+        },
+        {
+          "source": "src:asml-2023-06-30-nl-export-statement",
+          "quote": "As a reminder, sales of ASML’s EUV systems have already been restricted.",
+          "locator": "Statement",
+          "supports": "EUV status"
+        }
+      ],
+      "superseded_by": "ctl:nl-2024-09-sme-expansion",
+      "entities": [
+        "co:asml"
+      ]
+    },
+    {
+      "id": "ctl:nl-2024-09-sme-expansion",
+      "authority": "NL-MinBuZa",
+      "instrument": "Amendment expanding the Ministerial Order on Advanced Semiconductor Manufacturing Equipment",
+      "citation": "Staatscourant 2024, 29008",
+      "effective_date": "2024-09-07",
+      "status": "amended",
+      "items": [
+        "additional advanced semiconductor manufacturing equipment (DUV lithography-related)"
+      ],
+      "applies_from": [
+        "NL"
+      ],
+      "applies_to": [
+        "*all destinations outside the EU"
+      ],
+      "summary": "Expands the national authorisation requirement; case-by-case licensing, not a ban.",
+      "evidence": [
+        {
+          "source": "src:nl-2024-09-06-semicon-export-control",
+          "quote": "As of 7 September 2024, the national export control measure applicable to advanced semiconductor manufacturing equipment will be expanded, making more types of equipment subject to a national authorisation requirement.",
+          "locator": "News item",
+          "supports": "existence, effective_date"
+        },
+        {
+          "source": "src:nl-2024-09-06-semicon-export-control",
+          "quote": "The government will assess applications on a case-by-case basis, so this is not an export ban. The national measure applies to exports from the Netherlands to destinations outside the EU.",
+          "locator": "News item",
+          "supports": "applies_to, policy"
+        }
+      ],
+      "superseded_by": "ctl:nl-2025-04-sme-metrology-expansion",
+      "entities": [
+        "co:asml"
+      ]
+    },
+    {
+      "id": "ctl:nl-2025-04-sme-metrology-expansion",
+      "authority": "NL-MinBuZa",
+      "instrument": "Second amendment to the Ministerial Order on Advanced Semiconductor Manufacturing Equipment (measuring and inspection equipment)",
+      "citation": "Government Gazette announcement of 15 January 2025",
+      "effective_date": "2025-04-01",
+      "status": "in_force",
+      "items": [
+        "specific measuring and inspection (metrology) equipment for advanced semiconductor production"
+      ],
+      "applies_from": [
+        "NL"
+      ],
+      "applies_to": [
+        "*all destinations outside the EU"
+      ],
+      "summary": "From 1 April 2025, more technology (e.g., specific measuring and inspection equipment) is subject to the national authorisation requirement.",
+      "evidence": [
+        {
+          "source": "src:nl-2025-01-15-semicon-export-control",
+          "quote": "On 1 April 2025 the Netherlands will modify its national export control measure for advanced semiconductor manufacturing equipment.",
+          "locator": "News item",
+          "supports": "effective_date"
+        },
+        {
+          "source": "src:nl-2025-01-15-semicon-export-control",
+          "quote": "The new policy will apply, for example, to specific measuring and inspection equipment that can be used in the production of advanced semiconductors.",
+          "locator": "News item",
+          "supports": "items"
+        }
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "topic": "Formal Federal Register rescission of the AI Diffusion rule (90 FR 4544)",
+      "why": "A search of Federal Register BIS rules through 2026-09-24 found no rule formally rescinding the framework; BIS's 2025-05-13 release says a formalizing regulation is planned, and the 2026-07-14 UAE rule describes non-enforcement under guidance.",
+      "would_need": "A published BIS rule removing §742.6(a)(6)(iii)(A) worldwide requirement / tiering, or an eCFR history showing its removal."
+    },
+    {
+      "topic": "H20 15% revenue-share arrangement",
+      "why": "Only NVIDIA's 10-Q statement that USG officials 'expressed an expectation' of 15%; no regulation, license condition text or agreement was found.",
+      "would_need": "Published BIS license conditions or an agreement between USG and NVIDIA/AMD."
+    },
+    {
+      "topic": "EDA restriction letters to Cadence and Siemens EDA (May-July 2025)",
+      "why": "Only Synopsys's 8-Ks were fetched; BIS letters are not public.",
+      "would_need": "Cadence 8-K/10-Q disclosures; Siemens statutory filings."
+    },
+    {
+      "topic": "CXMT Entity List status",
+      "why": "CXMT (ChangXin Memory) does not appear in the fetched Entity List rules, including 89 FR 96830 (Dec 2024).",
+      "would_need": "A Federal Register Entity List rule naming ChangXin Memory Technologies, if any exists."
+    }
+  ]
+}

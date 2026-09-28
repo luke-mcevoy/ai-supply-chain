@@ -419,6 +419,46 @@
       "document_date": "2025-12-29",
       "accessed": "2026-09-27",
       "identifier": "0000050863-25-000204"
+    },
+    {
+      "id": "src:nvidia-pr-openai-10gw",
+      "title": "OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-22",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-blog-anthropic-nvidia",
+      "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships",
+      "publisher": "Microsoft Corporation",
+      "url": "https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-blog-openai-next-chapter",
+      "title": "The next chapter of the Microsoft–OpenAI partnership",
+      "publisher": "Microsoft Corporation",
+      "url": "https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:softbank-pr-openai-follow-on",
+      "title": "Follow-on Investments in OpenAI",
+      "publisher": "SoftBank Group Corp.",
+      "url": "https://group.softbank/en/news/press/20260227",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-02-27",
+      "accessed": "2026-09-27"
     }
   ],
   "companies": [
@@ -859,6 +899,30 @@
           "locator": "Note 6, Non-Marketable Equity Investments",
           "supports": "existence"
         }
+      ]
+    },
+    {
+      "id": "co:softbank",
+      "name": "SoftBank Group Corp.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6628,
+        "lon": 139.7575,
+        "precision": "city"
+      },
+      "layers": [
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:softbank-pr-openai-follow-on",
+          "quote": "SBG has invested an aggregate of USD 34.6 billion in OpenAI through SoftBank Vision Fund 2 since September 2024.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TYO:9984"
       ]
     }
   ],
@@ -2403,8 +2467,213 @@
           "supports": "amount"
         }
       ]
+    },
+    {
+      "id": "fin:nvidia-openai-loi-10gw",
+      "from": "co:nvidia",
+      "to": "co:openai",
+      "kind": "equity_investment",
+      "date": "2025-09-22",
+      "description": "LETTER OF INTENT ONLY, not a definitive agreement: NVIDIA 'intends to invest up to $100 billion' in OpenAI progressively as each gigawatt of a planned >=10 GW NVIDIA-system deployment comes online. NVIDIA's FY2026 10-K (Feb 2026) still described the investment and partnership agreement as being finalized with 'no assurance' a transaction would be completed. Amount is an 'up to' intention, not a commitment.",
+      "evidence": [
+        {
+          "source": "src:nvidia-pr-openai-10gw",
+          "quote": "OpenAI and NVIDIA today announced a letter of intent for a landmark strategic partnership to deploy at least 10 gigawatts of NVIDIA systems for OpenAI’s next-generation AI infrastructure",
+          "locator": "Paragraph 1",
+          "supports": "status"
+        },
+        {
+          "source": "src:nvidia-pr-openai-10gw",
+          "quote": "To support the partnership, NVIDIA intends to invest up to $100 billion in OpenAI progressively as each gigawatt is deployed.",
+          "locator": "Summary bullets",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We are finalizing an investment and partnership agreement with OpenAI. There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed.",
+          "locator": "Item 1A, Risk Factors",
+          "supports": "status"
+        }
+      ],
+      "amount": {
+        "value": 100000000000.0,
+        "currency": "USD",
+        "note": "'up to', LOI, non-binding as of 10-K"
+      }
+    },
+    {
+      "id": "fin:nvidia-anthropic-investment-commitment",
+      "from": "co:nvidia",
+      "to": "co:anthropic",
+      "kind": "equity_investment",
+      "date": "2025-11-18",
+      "description": "Announced commitment by NVIDIA to invest up to $10B in Anthropic ('up to'); funded amount not confirmed in NVIDIA SEC filings, which do not itemize investees.",
+      "evidence": [
+        {
+          "source": "src:microsoft-blog-anthropic-nvidia",
+          "quote": "As part of the partnership, NVIDIA and Microsoft are committing to invest up to $10 billion and up to $5 billion respectively in Anthropic.",
+          "locator": "Body",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 10000000000.0,
+        "currency": "USD",
+        "note": "'up to' commitment as announced"
+      }
+    },
+    {
+      "id": "fin:microsoft-anthropic-investment-commitment",
+      "from": "co:microsoft",
+      "to": "co:anthropic",
+      "kind": "equity_investment",
+      "date": "2025-11-18",
+      "description": "Announced commitment by Microsoft to invest up to $5B in Anthropic ('up to').",
+      "evidence": [
+        {
+          "source": "src:microsoft-blog-anthropic-nvidia",
+          "quote": "As part of the partnership, NVIDIA and Microsoft are committing to invest up to $10 billion and up to $5 billion respectively in Anthropic.",
+          "locator": "Body",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 5000000000.0,
+        "currency": "USD",
+        "note": "'up to' commitment as announced"
+      }
+    },
+    {
+      "id": "fin:anthropic-azure-compute-commitment",
+      "from": "co:anthropic",
+      "to": "co:microsoft",
+      "kind": "cloud_contract",
+      "date": "2025-11-18",
+      "description": "Anthropic committed to purchase $30B of Azure compute capacity and to contract additional capacity up to 1 GW (NVIDIA Grace Blackwell / Vera Rubin systems).",
+      "evidence": [
+        {
+          "source": "src:microsoft-blog-anthropic-nvidia",
+          "quote": "Anthropic has committed to purchase $30 billion of Azure compute capacity and to contract additional compute capacity up to one gigawatt.",
+          "locator": "Body",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 30000000000.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": "fin:openai-azure-incremental-250b",
+      "from": "co:openai",
+      "to": "co:microsoft",
+      "kind": "cloud_contract",
+      "date": "2025-10-28",
+      "description": "As part of the October 2025 restructured agreement, OpenAI contracted to purchase an incremental $250B of Azure services; Microsoft gave up its right of first refusal as compute provider. Term/period not stated in the source.",
+      "evidence": [
+        {
+          "source": "src:microsoft-blog-openai-next-chapter",
+          "quote": "OpenAI has contracted to purchase an incremental $250B of Azure services, and Microsoft will no longer have a right of first refusal to be OpenAI’s compute provider.",
+          "locator": "Body",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 250000000000.0,
+        "currency": "USD",
+        "note": "Incremental contracted Azure purchases; period not disclosed"
+      }
+    },
+    {
+      "id": "fin:microsoft-openai-recap-stake",
+      "from": "co:microsoft",
+      "to": "co:openai",
+      "kind": "equity_investment",
+      "date": "2025-10-28",
+      "description": "Valuation of Microsoft's stake following OpenAI's recapitalization into a PBC: ~$135B, ~27% as-converted diluted (Microsoft's 10-K later cites ~25%). This is a carrying/valuation figure, not new cash; cash funding is $11.9B of $13.0B committed (see fin:microsoft-openai-equity).",
+      "evidence": [
+        {
+          "source": "src:microsoft-blog-openai-next-chapter",
+          "quote": "Following the recapitalization, Microsoft holds an investment in OpenAI Group PBC valued at approximately $135 billion, representing roughly 27 percent on an as-converted diluted basis",
+          "locator": "Body",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 135000000000.0,
+        "currency": "USD",
+        "note": "Valuation of stake, not cash invested"
+      }
+    },
+    {
+      "id": "fin:softbank-openai-follow-on",
+      "from": "co:softbank",
+      "to": "co:openai",
+      "kind": "equity_investment",
+      "date": "2026-02-27",
+      "description": "Definitive agreement: SoftBank (via Vision Fund 2) to invest a further $30.0B in OpenAI in three $10B tranches at a $730B pre-money valuation, bringing cumulative investment to $64.6B (~13%); subject to conditions. $34.6B had been invested since Sept 2024.",
+      "evidence": [
+        {
+          "source": "src:softbank-pr-openai-follow-on",
+          "quote": "to make follow-on investments of USD 30.0 billion (JPY 4,674.3 billion*1) via SoftBank Vision Fund 2 (the “Follow-on Investment”). Upon completion of the Follow-on Investment, SBG’s cumulative investment in OpenAI is expected to total USD 64.6 billion, representing an ownership interest of approximately 13%.",
+          "locator": "Body",
+          "supports": "amount"
+        }
+      ],
+      "amount": {
+        "value": 30000000000.0,
+        "currency": "USD",
+        "period": "three tranches during 2026",
+        "note": "Cumulative $64.6B"
+      }
     }
   ],
   "controls": [],
-  "gaps": []
+  "gaps": [
+    {
+      "topic": "NVIDIA ~$30B investment in OpenAI (Feb 2026 round)",
+      "why": "Reported by news; OpenAI's announcement (openai.com/index/scaling-ai-for-everyone) returns HTTP 403 to automated fetches and NVIDIA's 10-Qs do not name investees (only aggregate $18.6B private investments in Q1 FY2027).",
+      "would_need": "NVIDIA filing or IR release naming the OpenAI investment amount, or a fetchable copy of OpenAI's release."
+    },
+    {
+      "topic": "Broadcom–OpenAI 10 GW custom accelerator collaboration (Oct 13, 2025)",
+      "why": "Broadcom IR and broadcom.com pages render via JavaScript/timeout; could not capture verbatim text. No dollar value disclosed in any case.",
+      "would_need": "Fetchable Broadcom press release text or a Broadcom SEC filing naming OpenAI."
+    },
+    {
+      "topic": "Oracle–OpenAI (~$300B / 4.5 GW Stargate contract)",
+      "why": "Oracle 10-K/10-Q attribute RPO growth to unnamed 'significant cloud contracts' and do not name OpenAI; openai.com Stargate posts return 403.",
+      "would_need": "Oracle filing or Oracle/OpenAI release naming the counterparty and amount."
+    },
+    {
+      "topic": "Google/Alphabet–Anthropic investments and TPU contract",
+      "why": "Alphabet 10-K/10-Q do not name Anthropic; Anthropic's site renders client-side. Broadcom 8-K (Apr 2026) documents Anthropic TPU capacity via Broadcom only.",
+      "would_need": "Alphabet filing naming Anthropic, or fetchable anthropic.com/Google release."
+    },
+    {
+      "topic": "CoreWeave–OpenAI May 2025 ~$4.0B expansion",
+      "why": "Not located in the filings fetched (10-K cites the $11.9B March 2025 MSA and $6.5B Sept 2025 order form).",
+      "would_need": "CoreWeave Q2 2025 10-Q or 8-K text."
+    },
+    {
+      "topic": "Meta Hyperion 'Beignet Investor LLC' bonds",
+      "why": "Meta's release cites debt issued to PIMCO and other bond investors but does not name the issuer or amount.",
+      "would_need": "Offering memorandum or a filing naming Beignet Investor LLC and the bond size."
+    },
+    {
+      "topic": "xAI debt raises; Crusoe/Blue Owl Abilene financing",
+      "why": "No Tier 1/2 documents located in time available (private companies; not SEC registrants).",
+      "would_need": "Lender/issuer filings, court or state filings, or company releases."
+    },
+    {
+      "topic": "Named 10% customers of NVIDIA, Supermicro, Dell; TSMC customer concentration",
+      "why": "NVIDIA does not name its >10% direct customers; Supermicro/Dell 10-Ks and TSMC 20-F not reviewed before wrap-up.",
+      "would_need": "Supermicro/Dell 10-K concentration notes; TSMC 20-F 'largest customer' disclosure."
+    },
+    {
+      "topic": "Hyperscaler forward capex guidance from earnings calls",
+      "why": "Earnings-call transcripts not fetched; only historical cash-flow capex and qualitative guidance from filings recorded.",
+      "would_need": "Company IR earnings-call transcripts or CFO commentary."
+    }
+  ]
 }

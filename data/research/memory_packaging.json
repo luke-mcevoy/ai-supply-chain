@@ -307,8 +307,8 @@
       "name": "Micron Technology, Inc.",
       "country": "US",
       "hq": {
-        "lat": 43.5287,
-        "lon": -116.1459,
+        "lat": 43.5301,
+        "lon": -116.1508,
         "precision": "site",
         "address": "8000 S. Federal Way, Boise, Idaho 83716"
       },
@@ -394,7 +394,7 @@
         {
           "source": "src:samsung-business-report-2025",
           "quote": "In Korea, operations are located in Suwon, Gumi, Gwangju, Hwaseong, Pyeongtaek, and Asan.",
-          "locator": "I. Company Overview / D. Production facilities and investment, p.25",
+          "locator": "II. Business Overview — D. Production facilities and investment (PDF p.25-26)",
           "supports": "existence, operations"
         }
       ],
@@ -500,9 +500,9 @@
       "name": "ASE Technology Holding Co., Ltd.",
       "country": "TW",
       "hq": {
-        "lat": 22.73,
-        "lon": 120.31,
-        "precision": "city",
+        "lat": 22.7212,
+        "lon": 120.3063,
+        "precision": "site",
         "address": "26, Chin 3rd Rd., Nanzih Dist., Kaohsiung 811, Taiwan"
       },
       "layers": [
@@ -608,8 +608,8 @@
       "layer": "memory_packaging",
       "kind": "dram_fab",
       "location": {
-        "lat": 43.5287,
-        "lon": -116.1459,
+        "lat": 43.5301,
+        "lon": -116.1508,
         "precision": "city",
         "address": "Boise, Idaho (Micron campus, 8000 S. Federal Way)"
       },
@@ -640,8 +640,8 @@
       "layer": "memory_packaging",
       "kind": "dram_fab",
       "location": {
-        "lat": 43.186,
-        "lon": -76.17,
+        "lat": 43.1909,
+        "lon": -76.1522,
         "precision": "city",
         "address": "Clay, New York"
       },
@@ -666,8 +666,8 @@
       "layer": "memory_packaging",
       "kind": "dram_fab",
       "location": {
-        "lat": 38.7509,
-        "lon": -77.4753,
+        "lat": 38.7483,
+        "lon": -77.505,
         "precision": "city",
         "address": "Manassas, Virginia"
       },
@@ -817,8 +817,8 @@
       "layer": "memory_packaging",
       "kind": "hbm_dram_fab",
       "location": {
-        "lat": 37.24,
-        "lon": 127.48,
+        "lat": 37.2501,
+        "lon": 127.4821,
         "precision": "city",
         "address": "Icheon, Gyeonggi-do, Korea"
       },
@@ -954,9 +954,9 @@
       "layer": "memory_packaging",
       "kind": "hbm_packaging",
       "location": {
-        "lat": 40.456,
-        "lon": -86.94,
-        "precision": "city",
+        "lat": 40.4648,
+        "lon": -86.9298,
+        "precision": "site",
         "address": "Purdue University Research Park, West Lafayette, Indiana"
       },
       "country": "US",
@@ -1005,9 +1005,9 @@
       "layer": "memory_packaging",
       "kind": "hbm_dram_fab",
       "location": {
-        "lat": 37.0206,
-        "lon": 127.048,
-        "precision": "city",
+        "lat": 37.0356,
+        "lon": 127.0602,
+        "precision": "site",
         "address": "114, Samsung-ro, Godeok-myun, Pyeongtaek-si, Gyeonggi-do 17786, Korea"
       },
       "country": "KR",
@@ -1025,7 +1025,7 @@
         {
           "source": "src:samsung-business-report-2025",
           "quote": "The DS Division’s memory output in 1Gb equivalents was 2,245,908 million (major production sites: Korea [Hwaseong, Pyeongtaek, etc.] and China).",
-          "locator": "I. Company Overview / Output, p.24",
+          "locator": "II. Business Overview — Output, PDF p.25",
           "supports": "existence, products"
         }
       ]
@@ -1037,9 +1037,9 @@
       "layer": "memory_packaging",
       "kind": "hbm_dram_fab",
       "location": {
-        "lat": 37.219,
-        "lon": 127.073,
-        "precision": "city",
+        "lat": 37.2185,
+        "lon": 127.066,
+        "precision": "site",
         "address": "1, Samsungjeonja-ro, Hwaseong-si, Gyeonggi-do 18448, Korea"
       },
       "country": "KR",
@@ -1058,7 +1058,7 @@
         {
           "source": "src:samsung-business-report-2025",
           "quote": "The DS Division’s memory output in 1Gb equivalents was 2,245,908 million (major production sites: Korea [Hwaseong, Pyeongtaek, etc.] and China).",
-          "locator": "I. Company Overview / Output, p.24",
+          "locator": "II. Business Overview — Output, PDF p.25",
           "supports": "products"
         }
       ]
@@ -1134,9 +1134,9 @@
       "layer": "memory_packaging",
       "kind": "advanced_packaging",
       "location": {
-        "lat": 24.774,
-        "lon": 121.012,
-        "precision": "city",
+        "lat": 24.7807,
+        "lon": 120.9959,
+        "precision": "site",
         "address": "6, Creation Rd. 2, Hsinchu Science Park, Hsinchu 300-093, Taiwan"
       },
       "country": "TW",
@@ -1160,9 +1160,9 @@
       "layer": "memory_packaging",
       "kind": "advanced_packaging",
       "location": {
-        "lat": 23.107,
-        "lon": 120.278,
-        "precision": "city",
+        "lat": 23.1146,
+        "lon": 120.2653,
+        "precision": "site",
         "address": "1, Sanbaozhu Rd., Southern Taiwan Science Park, Tainan 741-013, Taiwan"
       },
       "country": "TW",
@@ -1186,9 +1186,9 @@
       "layer": "memory_packaging",
       "kind": "advanced_packaging",
       "location": {
-        "lat": 24.864,
-        "lon": 121.213,
-        "precision": "city",
+        "lat": 24.8831,
+        "lon": 121.1852,
+        "precision": "site",
         "address": "101, Longyuan 6th Rd., Longtan Dist., Taoyuan 325-002, Taiwan"
       },
       "country": "TW",
@@ -1212,9 +1212,9 @@
       "layer": "memory_packaging",
       "kind": "advanced_packaging",
       "location": {
-        "lat": 24.211,
-        "lon": 120.618,
-        "precision": "city",
+        "lat": 24.209,
+        "lon": 120.616,
+        "precision": "site",
         "address": "5, Keya W. Rd., Central Taiwan Science Park, Taichung 428-303, Taiwan"
       },
       "country": "TW",
@@ -1238,9 +1238,9 @@
       "layer": "memory_packaging",
       "kind": "cowos_soic_packaging",
       "location": {
-        "lat": 24.69,
-        "lon": 120.89,
-        "precision": "city",
+        "lat": 24.7105,
+        "lon": 120.9084,
+        "precision": "site",
         "address": "1, Kezhuan 1st Rd., Zhunan Township, Miaoli 350-012, Taiwan"
       },
       "country": "TW",
@@ -1288,9 +1288,9 @@
       "layer": "memory_packaging",
       "kind": "advanced_packaging",
       "location": {
-        "lat": 23.463,
-        "lon": 120.287,
-        "precision": "city",
+        "lat": 23.4725,
+        "lon": 120.3024,
+        "precision": "site",
         "address": "68, Jiake 5st Rd., Taibao City, Chiayi County 612-013, Taiwan"
       },
       "country": "TW",
@@ -1314,8 +1314,8 @@
       "layer": "memory_packaging",
       "kind": "advanced_packaging",
       "location": {
-        "lat": 23.085,
-        "lon": 120.295,
+        "lat": 23.0954,
+        "lon": 120.2675,
         "precision": "city",
         "address": "168, Fenghua, Xinshi Dist., Tainan City 744-010, Taiwan"
       },
@@ -1443,8 +1443,8 @@
       "layer": "memory_packaging",
       "kind": "osat_advanced_packaging",
       "location": {
-        "lat": 22.73,
-        "lon": 120.31,
+        "lat": 22.7212,
+        "lon": 120.3063,
         "precision": "city",
         "address": "Kaohsiung Nanzih Technology Industrial Park, Kaohsiung, Taiwan"
       },
@@ -1555,8 +1555,8 @@
       "layer": "memory_packaging",
       "kind": "advanced_packaging",
       "location": {
-        "lat": 35.244,
-        "lon": -106.662,
+        "lat": 35.221,
+        "lon": -106.6605,
         "precision": "city",
         "address": "Rio Rancho, New Mexico"
       },
@@ -1846,7 +1846,7 @@
         {
           "source": "src:samsung-business-report-2025",
           "quote": "The DS Division’s memory output in 1Gb equivalents was 2,245,908 million (major production sites: Korea [Hwaseong, Pyeongtaek, etc.] and China).",
-          "locator": "p.24",
+          "locator": "II. Business Overview — Output, PDF p.25",
           "supports": "memory fabs"
         },
         {
@@ -1959,7 +1959,7 @@
         {
           "source": "src:samsung-business-report-2025",
           "quote": "HBM4 base-die mass production has commenced, backed by stable yields from the 4nm process",
-          "locator": "II. Business Overview — Foundry, p.41",
+          "locator": "II. Business Overview — Business condition (Foundry), PDF p.42",
           "supports": "base-die production"
         },
         {
@@ -1985,6 +1985,31 @@
       "topic": "Which TSMC advanced backend fab performs CoWoS for which customer/HBM supplier",
       "why": "TSMC's annual report lists AP1–AP8 addresses but not per-site technology or customers; only AP6 has a TSMC release naming its technologies.",
       "would_need": "TSMC disclosure mapping CoWoS capacity by site, or customer filings naming packaging site."
+    },
+    {
+      "topic": "Micron strategic customer agreements / customer deposits (~$22B commitments, ~$18B cash deposits)",
+      "why": "Micron's FQ3 2026 10-Q discloses take-or-pay strategic customer agreements with customer deposits but does not name the counterparties, so no FinancialLink can be drawn (from/to must be named entities). Recorded as evidence on co:micron.",
+      "would_need": "A filing, 8-K exhibit, or counterparty disclosure naming the depositing customers (finance layer)."
+    },
+    {
+      "topic": "SK hynix long-term agreements with ~10 customers and NVIDIA long-term memory partnership terms",
+      "why": "SK hynix 2Q26 release and SK/NVIDIA release disclose LTAs and a long-term supply partnership but no amounts, volumes or (except NVIDIA) counterparties.",
+      "would_need": "SK hynix DART business report notes on contract liabilities/prepayments by counterparty."
+    },
+    {
+      "topic": "CXMT (ChangXin Memory Technologies) facilities",
+      "why": "CXMT is named in the DoD Section 1260H list (91 FR 35189, 2026-06-10; policy layer), but no Tier 1/2 source fetched here documents its fab locations (Hefei) or HBM production.",
+      "would_need": "CXMT prospectus/annual report or a Chinese regulatory filing naming its sites."
+    },
+    {
+      "topic": "Substrate suppliers (Unimicron, Ibiden) to specific packaging sites",
+      "why": "Ibiden documents AI-server substrate output at Ono, but no Tier 1/2 document names the packaging customer; Unimicron not researched (time budget).",
+      "would_need": "Supplier or customer filings naming the substrate relationship."
+    },
+    {
+      "topic": "Facility-level detail not completed",
+      "why": "Research stopped for budget: Micron Taiwan fab split (Taichung vs Taoyuan) and Micron Singapore HBM plant street location; Amkor Korea (K5 Songdo) facility; TSMC per-site CoWoS vs SoIC allocation (AP3/AP7/AP8); Samsung Pyeongtaek HBM lines; Intel Malaysia site (Penang/Kulim) are unsourced at site level.",
+      "would_need": "Company location pages or filings naming the site and its function; geocodes for Samsung Cheonan/Onyang, SK hynix Cheongju and Ibiden Ono are approximate (city precision)."
     },
     {
       "topic": "Samsung HBM packaging at Onyang/Cheonan and Samsung HBM customers",
