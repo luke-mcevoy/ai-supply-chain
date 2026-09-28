@@ -255,6 +255,18 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
   .timeline { left: 12px; right: 12px; }
   .meta { display: none; }
 }
+@media (max-width: 700px) {
+  .topbar { gap: 8px; padding: 0 8px; }
+  .draft-flag { font-size: 8.5px; padding: 3px 4px; }
+  .modes { margin: 0; flex: 1; min-width: 0; }
+  .modes button { padding: 5px 0; flex: 1; font-size: 10px; letter-spacing: .04em; }
+  .top-right { gap: 6px; }
+  .search-btn { border: 1px solid var(--line-2); padding: 5px 7px; }
+  .search-btn kbd { display: none; }
+  .search-btn::before { content: "⌕"; font-size: 14px; line-height: 1; }
+  .about-btn { padding: 6px 7px; font-size: 0; }
+  .about-btn::before { content: "?"; font-size: 12px; }
+}
 @media (max-width: 900px) {
   .search-btn { min-width: 0; } .search-btn span { display: none; }
   .brand-name { display: none; }
