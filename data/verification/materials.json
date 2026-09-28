@@ -1,0 +1,1226 @@
+{
+  "layer": "materials",
+  "verifier": "counsel-materials (Claude Sonnet 5)",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:usgs-mcs2026-gallium",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly with a declared project User-Agent; content matches the commodity chapter cited."
+    },
+    {
+      "source": "src:usgs-mcs2026-germanium",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly with a declared project User-Agent; content matches the commodity chapter cited."
+    },
+    {
+      "source": "src:usgs-mcs2026-rare-earths",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly with a declared project User-Agent; content matches the commodity chapter cited."
+    },
+    {
+      "source": "src:usgs-mcs2026-silicon",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly with a declared project User-Agent; content matches the commodity chapter cited."
+    },
+    {
+      "source": "src:usgs-mcs2026-quartz",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly with a declared project User-Agent; content matches the commodity chapter cited."
+    },
+    {
+      "source": "src:usgs-mcs2026-tungsten",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly with a declared project User-Agent; content matches the commodity chapter cited."
+    },
+    {
+      "source": "src:usgs-mcs2026-fluorspar",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Downloaded PDF directly with a declared project User-Agent; content matches the commodity chapter cited."
+    },
+    {
+      "source": "src:mp-8k-2025-07-10",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl to sec.gov blocked (\"Your Request Originates from an Undeclared Automated Tool\") despite a declared, non-email User-Agent. Retrieved via a fetch tool and cross-verified via EDGAR full-text search (efts.sec.gov) restricted to CIK 0001801368: all four quoted phrases ($400 million, $150,000,000, $110 per kg formula, 10X Facility offtake) are unique verbatim hits inside accession 0001193125-25-157310 (d43796d8k.htm), the exact document cited. Filed 2025-07-10, consistent with document_date."
+    },
+    {
+      "source": "src:mp-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl blocked by SEC anti-bot. Verified via EDGAR full-text search restricted to CIK 0001801368: all 10 quoted phrases (company description, Mountain Pass, REO production table figures, Independence facility, NdFeB start, Shenghe offtake, cessation of China sales, 10X Facility volume) are unique verbatim hits inside accession 0001801368-26-000008 (mp-20251231.htm), filed 2026-02-26, matching document_date."
+    },
+    {
+      "source": "src:corning-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl blocked by SEC anti-bot. Verified via EDGAR full-text search restricted to CIK 0000024741: both quoted phrases (non-controlling interest / HSG consolidation; HSG business description) are verbatim hits inside accession 0000024741-26-000124 (glw-20251231.htm), filed 2026-02-12, matching document_date."
+    },
+    {
+      "source": "src:teck-aif-2025",
+      "reachable": false,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl blocked by SEC anti-bot. Verified via EDGAR full-text search restricted to CIK 0000886986: all 6 quoted phrases (germanium sales to US, Red Dog start, Trail ownership, co-product recovery, Trail zinc capacity, Red Dog-to-Trail shipments) are verbatim hits inside accession 0000886986-26-000004 (teck-20251231xexx991aif.htm), filed 2026-02-19, matching document_date. doc_type_ok=false: the source is tagged sec_20f, but Teck is a Canadian MJDS filer and this AIF is Exhibit 99.1 to a Form 40-F, not a Form 20-F. It is still a Tier-1 statutory annual information form (closer to \"foreign_annual_report\" in this schema's terms); tier 1 is correct, only the doc_type label is imprecise. reachable=false records that the primary URL itself could not be directly opened with a declared UA (only indirect retrieval succeeded); content is nonetheless confirmed authentic."
+    },
+    {
+      "source": "src:siltronic-ar-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "PDF downloaded directly (6.9MB, 2026-03-10/11 metadata dates vs. 2026-03-12 claimed publish date -- within a few days, consistent with the '260312' filename). Both quoted sentences on Wacker polysilicon sourcing confirmed verbatim (a -layout text extraction initially scrambled the two-column page and produced a false non-match; a plain pdftotext extraction confirms both quotes character-for-character at lines 2859 and 5907-5908)."
+    },
+    {
+      "source": "src:lynas-ar-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "PDF downloaded directly (10MB, PDF metadata creation 2025-08-27 EDT vs 2025-08-28 claimed -- consistent, ASX announcement timestamp is AEST which is a day ahead of EDT). All quoted passages (Mt Weld reserves, Kalgoorlie start, Kalgoorlie integration, Malaysia Dy/Tb, Gebeng capacity uplift, Seadrift DoD contract) confirmed verbatim."
+    },
+    {
+      "source": "src:lynas-ar-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "The URL is an ASX/MarkitDigital API endpoint (asx.api.markitdigital.com); it resolves and returns a genuine, encrypted 141-page PDF (Aspose/iTextSharp-produced, creation timestamp 2026-08-25, matching the claimed document_date) -- confirmed with pdfinfo, not just an HTTP 200 status. All quoted passages (Mt Weld/Kalgoorlie/Gebeng description, US$96M LOI, NdPr $110/kg floor, and the exact 'will no longer proceed' Seadrift-cancellation sentence) are present verbatim in the extracted text."
+    },
+    {
+      "source": "src:wacker-ar-2025-polysilicon",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly; both quoted passages (Burghausen cleaning-line capacity increase, Burghausen key site) confirmed verbatim."
+    },
+    {
+      "source": "src:wacker-ar-2025-business-model",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted passage confirmed verbatim."
+    },
+    {
+      "source": "src:wacker-polysilicon-division",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; both quoted passages (70-years/three-sites intro, Nunchritz listing) confirmed verbatim."
+    },
+    {
+      "source": "src:wacker-charleston-site",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; all quoted passages (2016 launch, address) confirmed verbatim."
+    },
+    {
+      "source": "src:wacker-pr-2025-etching-line",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted passage confirmed verbatim."
+    },
+    {
+      "source": "src:wacker-pr-2024-iatf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; both quoted passages (Burghausen/Charleston IATF certification; 'all major wafer manufacturers' customer claim) confirmed verbatim."
+    },
+    {
+      "source": "src:hsc-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; all quoted passages (ownership, Hemlock MI location, 'one of five major manufacturers') confirmed verbatim once a non-breaking-space/stray-period artifact from crude HTML stripping was normalized -- the raw page text is exact."
+    },
+    {
+      "source": "src:hsc-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; address quote confirmed verbatim."
+    },
+    {
+      "source": "src:tqc-high-purity-quartz",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted passages confirmed verbatim."
+    },
+    {
+      "source": "src:tqc-contact",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; address quote confirmed verbatim."
+    },
+    {
+      "source": "src:umicore-germanium-refining",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted passage confirmed verbatim."
+    },
+    {
+      "source": "src:sibelco-spruce-pine-location",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; both quoted passages (site description, address) confirmed verbatim."
+    },
+    {
+      "source": "src:sibelco-iota-hpq",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted passage confirmed verbatim."
+    },
+    {
+      "source": "src:sibelco-pr-2023-spruce-pine-expansion",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted passage confirmed verbatim."
+    },
+    {
+      "source": "src:sibelco-pr-2023-expansion-update",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted CEO passage confirmed verbatim."
+    },
+    {
+      "source": "src:umicore-all-sites",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; all quoted passages (Olen description/address, Quapaw description/address) confirmed verbatim."
+    },
+    {
+      "source": "src:globalwafers-ar-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "PDF downloaded directly (2.6MB); quoted passage on polysilicon sourcing confirmed verbatim. PDF metadata creation date is 2026-05-05 and the file path implies an 2026-04 upload; document_date '2026-04' is a reasonable month-precision label for a report published around Taiwan's Q2 annual-report season, though the exact day is uncertain -- date_ok true within the tolerance this schema allows."
+    },
+    {
+      "source": "src:bis-2025-0028-0036-globalwafers",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Direct fetch blocked: curl with a declared UA and a fetch tool both received CloudFront 403s from regulations.gov's downloads host (no Wayback Machine snapshot exists either). The exact quoted sentence ('GlobalWafers Co. Ltd (GWC) is the third largest of five global suppliers of semiconductor wafers...') is corroborated by a search-engine index entry whose title ('GlobalWafers Background:') and body reproduce that sentence verbatim at this exact URL, but the PDF itself could not be independently opened this session. Tier reassigned 1->2: this is GlobalWafers' own advocacy submission to a federal docket (comparable to a company position paper), not an agency finding or adjudicated record -- content is self-reported, not government fact-finding. Not load-bearing: co:globalwafers' existence/business is independently verified Tier 1 via its own Annual Report."
+    },
+    {
+      "source": "src:bis-2025-0028-0022-sia",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "PDF downloaded directly (3.1MB, PDF metadata dated 2025-08-06, matching document_date and the 'August 6, 2025' date printed on the document itself). All quoted passages (Wacker/Hemlock ~3/4 polysilicon share; five polysilicon suppliers; wafer-market five suppliers naming Shin-Etsu Handotai, Sumco, GlobalWafers, SK Siltron; SK Siltron Michigan) confirmed verbatim. Tier reassigned 1->2: SIA is a trade association submitting an advocacy comment into a federal Section 232 docket -- it is an industry self-report about market structure, not a government determination, even though the comment itself is part of the official docket record. Downgrading to Tier 2 does not break any 'documented' flow, since none of the entities relying on this source require Tier-1-only support."
+    },
+    {
+      "source": "src:orbia-fem-home",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; both quoted passages (fluorspar producer claim, legal-entity footer) confirmed verbatim."
+    },
+    {
+      "source": "src:orbia-fem-about",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted history-timeline passages (Las Cuevas fluorite mines acquisition, Matamoros HF II plant) confirmed verbatim; the surrounding text also names 'Compania Minera las Cuevas S.A. de C.V.' immediately next to the quoted sentence, independently corroborating the facility name."
+    },
+    {
+      "source": "src:orbia-fem-businesses",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly; quoted passage on vertical integration confirmed verbatim."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:mp-materials",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:lynas",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wacker",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:wacker",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:hemlock",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:hemlock",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:hemlock",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:corning",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:shin-etsu",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:shin-etsu",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:siltronic",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:the-quartz-corp",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:the-quartz-corp",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:umicore",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:shenghe",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cn-gallium-producers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cn-germanium-producers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cn-rare-earth-producers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cn-tungsten-producers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:cn-silicon-producers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sibelco",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:teck",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:globalwafers",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:globalwafers",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote could not be directly re-fetched this session (see source_checks: src:bis-2025-0028-0036-globalwafers, CloudFront-blocked); confirmed instead via a search-engine index that reproduces this exact sentence, with a matching document title ('GlobalWafers Background:'), at this exact URL. Not load-bearing for the entity verdict: co:globalwafers' existence/business is independently Tier-1-verified via its own Annual Report (evidence[0])."
+    },
+    {
+      "entity": "co:sumco",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:sk-siltron",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:tokuyama",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:orbia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "co:orbia",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:the-quartz-corp-spruce-pine",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:the-quartz-corp-spruce-pine",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:the-quartz-corp-spruce-pine",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:the-quartz-corp-spruce-pine",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:hemlock-hemlock-mi",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:hemlock-hemlock-mi",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:hemlock-hemlock-mi",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-burghausen",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-burghausen",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-burghausen",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-nunchritz",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-nunchritz",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-charleston",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-charleston",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:wacker-charleston",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:mp-materials-mountain-pass",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:mp-materials-mountain-pass",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:mp-materials-mountain-pass",
+      "evidence_index": "capacity:0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:mp-materials-mountain-pass",
+      "evidence_index": "capacity:1",
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:mp-materials-independence",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:mp-materials-independence",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:mp-materials-independence",
+      "evidence_index": "capacity:0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-mt-weld",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-mt-weld",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-kalgoorlie",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-kalgoorlie",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-malaysia-gebeng",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-malaysia-gebeng",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-malaysia-gebeng",
+      "evidence_index": "capacity:0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-seadrift",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:lynas-seadrift",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-gallium-primary-production",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-gallium-primary-production",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-gallium-primary-production",
+      "evidence_index": "capacity:0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-germanium-production",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-germanium-production",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-rare-earth-mine-production",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-rare-earth-mine-production",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-tungsten-production",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-tungsten-production",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-silicon-materials-production",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:cn-silicon-materials-production",
+      "evidence_index": "capacity:0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sibelco-spruce-pine",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sibelco-spruce-pine",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sibelco-spruce-pine",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sibelco-spruce-pine",
+      "evidence_index": 3,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:sibelco-spruce-pine",
+      "evidence_index": 4,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:umicore-olen",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:umicore-olen",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:umicore-quapaw",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:umicore-quapaw",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:umicore-quapaw",
+      "evidence_index": 2,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:teck-red-dog",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:teck-red-dog",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:teck-trail",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:teck-trail",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:teck-trail",
+      "evidence_index": "capacity:0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:orbia-las-cuevas",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:orbia-las-cuevas",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:orbia-matamoros-hf",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:orbia-matamoros-hf",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fac:orbia-matamoros-hf",
+      "evidence_index": "capacity:0",
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-siltronic-polysilicon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-siltronic-polysilicon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:mp-mountain-pass-to-independence-ndpr",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:mp-mountain-pass-to-shenghe-concentrate",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:mp-mountain-pass-to-shenghe-concentrate",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:mp-10x-magnets-to-dod",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:mp-10x-magnets-to-dod",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:lynas-mt-weld-to-kalgoorlie",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:lynas-mt-weld-to-malaysia",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:lynas-kalgoorlie-to-malaysia-mrec",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:hemlock-to-shin-etsu-polysilicon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:hemlock-to-shin-etsu-polysilicon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-shin-etsu-polysilicon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-shin-etsu-polysilicon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:teck-red-dog-to-trail-zinc-concentrate",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:teck-red-dog-to-trail-zinc-concentrate",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-sumco-polysilicon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-sumco-polysilicon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-globalwafers-polysilicon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-globalwafers-polysilicon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-sk-siltron-polysilicon",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:wacker-to-sk-siltron-polysilicon",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:orbia-las-cuevas-to-matamoros-hf",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "flow:orbia-las-cuevas-to-matamoros-hf",
+      "evidence_index": 1,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:dod-mp-materials-preferred-equity",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:dod-mp-materials-samarium-loan",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:dod-mp-materials-ndpr-price-floor",
+      "evidence_index": 0,
+      "verdict": "verified"
+    },
+    {
+      "entity": "fin:us-gov-lynas-rare-earth-oxide-supply",
+      "evidence_index": 0,
+      "verdict": "verified"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:mp-materials",
+      "verdict": "publish",
+      "reasons": "Existence, HQ and business verified verbatim against MP Materials' Tier-1 FY2025 10-K."
+    },
+    {
+      "entity": "co:lynas",
+      "verdict": "publish",
+      "reasons": "Existence, HQ and business verified verbatim against Lynas' Tier-1 FY2026 Appendix 4E/Annual Report."
+    },
+    {
+      "entity": "co:wacker",
+      "verdict": "publish",
+      "reasons": "Existence/business verified against Wacker's own Tier-1/2 site pages; market-share claim verified verbatim against the SIA BIS docket comment (tier reassigned 1->2, see source_checks -- still sufficient for publish)."
+    },
+    {
+      "entity": "co:hemlock",
+      "verdict": "publish",
+      "reasons": "Ownership verified against HSC's own site (Tier 2); consolidation by Corning verified verbatim against Corning's Tier-1 10-K; market-share claim verified against SIA comment (Tier 2)."
+    },
+    {
+      "entity": "co:corning",
+      "verdict": "publish",
+      "reasons": "Ownership of Hemlock verified verbatim against Corning's Tier-1 10-K."
+    },
+    {
+      "entity": "co:shin-etsu",
+      "verdict": "publish",
+      "reasons": "Existence and Hemlock co-ownership verified against HSC's site (Tier 2); role as a wafer maker verified against the SIA comment (Tier 2)."
+    },
+    {
+      "entity": "co:siltronic",
+      "verdict": "publish",
+      "reasons": "Existence and Wacker supplier relationship verified verbatim against Siltronic's Tier-1 statutory Annual Report (a scrambled two-column PDF text extraction initially produced a false non-match; a corrected extraction confirms the quote character-for-character)."
+    },
+    {
+      "entity": "co:the-quartz-corp",
+      "verdict": "publish",
+      "reasons": "HQ and business verified against the company's own site (Tier 2), sufficient under the evidence standard (Tier 1/2 both qualify)."
+    },
+    {
+      "entity": "co:umicore",
+      "verdict": "publish",
+      "reasons": "Business (germanium refining) verified against the company's own site (Tier 2)."
+    },
+    {
+      "entity": "co:shenghe",
+      "verdict": "publish",
+      "reasons": "Existence and ownership structure verified verbatim against MP Materials' Tier-1 10-K related-party note."
+    },
+    {
+      "entity": "co:cn-gallium-producers",
+      "verdict": "publish_flagged",
+      "reasons": "This is a USGS country-level statistical aggregate (99% of world primary low-purity gallium production), not a real company. The former name read too much like an actual corporate entity; renamed for clarity on the map/UI, matching the pattern the analyst used for the aggregate facility entries. Underlying 99% share figure is Tier-1 verified verbatim.",
+      "corrections": {
+        "name": "China — primary gallium production (USGS aggregate)"
+      }
+    },
+    {
+      "entity": "co:cn-germanium-producers",
+      "verdict": "publish_flagged",
+      "reasons": "USGS country-level aggregate, not a real company; renamed for clarity. Underlying claim ('China continued to be the leading global producer and exporter of germanium metal') is Tier-1 verified verbatim.",
+      "corrections": {
+        "name": "China — germanium production (USGS aggregate)"
+      }
+    },
+    {
+      "entity": "co:cn-rare-earth-producers",
+      "verdict": "publish_flagged",
+      "reasons": "USGS country-level aggregate, not a real company; renamed for clarity. Underlying claim (April 2025 export-control tightening context) is Tier-1 verified verbatim.",
+      "corrections": {
+        "name": "China — rare-earth mining and processing (USGS aggregate)"
+      }
+    },
+    {
+      "entity": "co:cn-tungsten-producers",
+      "verdict": "publish_flagged",
+      "reasons": "USGS country-level aggregate, not a real company; renamed for clarity. Underlying claim (world's leading tungsten producer/importer/consumer) is Tier-1 verified verbatim.",
+      "corrections": {
+        "name": "China — tungsten production (USGS aggregate)"
+      }
+    },
+    {
+      "entity": "co:cn-silicon-producers",
+      "verdict": "publish_flagged",
+      "reasons": "USGS country-level aggregate, not a real company; renamed for clarity. Underlying claim (~80% of global silicon-materials production) is Tier-1 verified verbatim.",
+      "corrections": {
+        "name": "China — silicon-materials production (USGS aggregate)"
+      }
+    },
+    {
+      "entity": "co:sibelco",
+      "verdict": "publish",
+      "reasons": "Business claim (Spruce Pine as world's leading HPQ source) verified verbatim against the company's own press release (Tier 2, self-description flagged in UI as a company claim by the analyst already)."
+    },
+    {
+      "entity": "co:teck",
+      "verdict": "publish",
+      "reasons": "Business and Trail Operations germanium sales verified verbatim against Teck's Tier-1 Annual Information Form. Note: the AIF is Exhibit 99.1 to Form 40-F, not a Form 20-F as the source's doc_type field states -- flagged in source_checks; does not change the Tier-1 status of the document."
+    },
+    {
+      "entity": "co:globalwafers",
+      "verdict": "publish",
+      "reasons": "Existence and polysilicon-sourcing statement verified verbatim against GlobalWafers' own Tier-1 statutory Annual Report. Second evidence item (BIS docket, market-position claim) corroborated indirectly only (see evidence_checks/source_checks) but is not load-bearing for this verdict."
+    },
+    {
+      "entity": "co:sumco",
+      "verdict": "publish",
+      "reasons": "Existence and role verified verbatim against the SIA BIS docket comment (Tier 2 after reassignment), sufficient for publish."
+    },
+    {
+      "entity": "co:sk-siltron",
+      "verdict": "publish",
+      "reasons": "Existence and US capacity verified verbatim against the SIA BIS docket comment (Tier 2)."
+    },
+    {
+      "entity": "co:tokuyama",
+      "verdict": "publish",
+      "reasons": "Listed among the five major polysilicon suppliers, verified verbatim against the SIA BIS docket comment (Tier 2); note per the analyst's own gap entry that Tokuyama's own primary filings were not reached, so no facility is mapped for it here."
+    },
+    {
+      "entity": "co:orbia",
+      "verdict": "publish",
+      "reasons": "Business and legal-entity name verified verbatim against the company's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:the-quartz-corp-spruce-pine",
+      "verdict": "publish",
+      "reasons": "Existence/location verified against the company's own site (Tier 2) and corroborated by USGS (Tier 1, 'two companies...around Spruce Pine, NC')."
+    },
+    {
+      "entity": "fac:hemlock-hemlock-mi",
+      "verdict": "publish",
+      "reasons": "Existence, location and address verified verbatim against HSC's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:wacker-burghausen",
+      "verdict": "publish",
+      "reasons": "Existence, location and the Etching Line Next capacity expansion verified verbatim against Wacker's own press release and statutory Annual Report (Tier 1/2)."
+    },
+    {
+      "entity": "fac:wacker-nunchritz",
+      "verdict": "publish",
+      "reasons": "Existence and location verified verbatim against Wacker's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:wacker-charleston",
+      "verdict": "publish",
+      "reasons": "Existence, start year, address and semiconductor-grade certification verified verbatim against Wacker's own site and press release (Tier 2)."
+    },
+    {
+      "entity": "fac:mp-materials-mountain-pass",
+      "verdict": "publish",
+      "reasons": "Existence, location and 2025 REO/NdPr production figures verified verbatim against MP Materials' Tier-1 10-K (table figures confirmed via EDGAR full-text search as an exact phrase match, i.e. the table row renders identically in the underlying filing)."
+    },
+    {
+      "entity": "fac:mp-materials-independence",
+      "verdict": "publish",
+      "reasons": "Existence, location, NdFeB production start and the 3,000 t/yr projected capacity verified verbatim against MP Materials' Tier-1 10-K."
+    },
+    {
+      "entity": "fac:lynas-mt-weld",
+      "verdict": "publish",
+      "reasons": "Existence, location and reserves verified verbatim against Lynas' Tier-1 Annual Reports."
+    },
+    {
+      "entity": "fac:lynas-kalgoorlie",
+      "verdict": "publish",
+      "reasons": "Existence, start and status verified verbatim against Lynas' Tier-1 FY2025 Annual Report."
+    },
+    {
+      "entity": "fac:lynas-malaysia-gebeng",
+      "verdict": "publish",
+      "reasons": "Existence, location, process description, products and 10.5 kt/yr capacity uplift verified verbatim against Lynas' Tier-1 Annual Reports."
+    },
+    {
+      "entity": "fac:lynas-seadrift",
+      "verdict": "publish",
+      "reasons": "Existence (as a former planned facility), DoD contract and cancellation verified verbatim against Lynas' Tier-1 FY2025 and FY2026 Annual Reports; the 'will no longer proceed' cancellation quote matches exactly, supporting the 'cancelled' FacilityStatus."
+    },
+    {
+      "entity": "fac:cn-gallium-primary-production",
+      "verdict": "publish_flagged",
+      "reasons": "Correctly modeled as a country_aggregate facility (kind already signals this); underlying 99% share figure is Tier-1 verified verbatim. Flagged as a caveat only because it represents an entire country's production, not a physical site -- the facility name itself is already reasonably clear ('production...country aggregate')."
+    },
+    {
+      "entity": "fac:cn-germanium-production",
+      "verdict": "publish_flagged",
+      "reasons": "Same treatment: Tier-1 verified verbatim share/rank claim; flagged as a country-level aggregate, not a physical site."
+    },
+    {
+      "entity": "fac:cn-rare-earth-mine-production",
+      "verdict": "publish_flagged",
+      "reasons": "Tier-1 verified verbatim (including the footnoted 'China,8 71%' import-share table figure, which matches after normalizing the USGS footnote superscript); flagged as a country-level aggregate, not a physical site."
+    },
+    {
+      "entity": "fac:cn-tungsten-production",
+      "verdict": "publish_flagged",
+      "reasons": "Tier-1 verified verbatim; flagged as a country-level aggregate, not a physical site."
+    },
+    {
+      "entity": "fac:cn-silicon-materials-production",
+      "verdict": "publish_flagged",
+      "reasons": "Tier-1 verified verbatim (~80% share); flagged as a country-level aggregate, not a physical site."
+    },
+    {
+      "entity": "fac:sibelco-spruce-pine",
+      "verdict": "publish",
+      "reasons": "Existence, address and product use verified verbatim against Sibelco's own site and press releases (Tier 2), corroborated by USGS (Tier 1)."
+    },
+    {
+      "entity": "fac:umicore-olen",
+      "verdict": "publish",
+      "reasons": "Existence, products and address verified verbatim against Umicore's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:umicore-quapaw",
+      "verdict": "publish",
+      "reasons": "Existence, products and address verified verbatim against Umicore's own site (Tier 2), corroborated by USGS (Tier 1, 'a company in Quapaw, OK...')."
+    },
+    {
+      "entity": "fac:teck-red-dog",
+      "verdict": "publish",
+      "reasons": "Existence, location and start year verified verbatim against Teck's Tier-1 AIF, corroborated by USGS (Tier 1, mine not named by USGS but consistent)."
+    },
+    {
+      "entity": "fac:teck-trail",
+      "verdict": "publish",
+      "reasons": "Existence, location, co-product recovery and 300,000 t/yr zinc capacity verified verbatim against Teck's Tier-1 AIF."
+    },
+    {
+      "entity": "fac:orbia-las-cuevas",
+      "verdict": "publish",
+      "reasons": "Existence and location verified verbatim against Orbia's own history timeline (Tier 2), which names 'Compania Minera las Cuevas S.A. de C.V.' immediately adjacent to the quoted sentence, independently corroborating the facility name; regional-precision location is appropriately conservative given the source gives only a state-level description."
+    },
+    {
+      "entity": "fac:orbia-matamoros-hf",
+      "verdict": "publish_flagged",
+      "reasons": "Existence and location verified verbatim against Orbia's own history timeline (Tier 2), and HF's relevance to semiconductor etching corroborated by USGS (Tier 1). Flagged because the 30,000 t/yr capacity figure is undated in the source (the page gives no year for 'HF II' commissioning) and current capacity was not found -- the analyst already disclosed this in the capacity note; carried through as a visible caveat."
+    },
+    {
+      "entity": "flow:wacker-to-siltronic-polysilicon",
+      "verdict": "publish",
+      "reasons": "Documented: Siltronic's own Tier-1 statutory Annual Report names both parties ('we obtain [polysilicon] from Wacker Chemie AG')."
+    },
+    {
+      "entity": "flow:mp-mountain-pass-to-independence-ndpr",
+      "verdict": "publish",
+      "reasons": "Documented: MP Materials' Tier-1 10-K names both facilities and the NdPr-oxide relationship verbatim."
+    },
+    {
+      "entity": "flow:mp-mountain-pass-to-shenghe-concentrate",
+      "verdict": "publish",
+      "reasons": "Documented (historical, now ceased): MP Materials' Tier-1 10-K states both the historical relationship and its July 2025 cessation verbatim; the flow's commodity field already labels it historical/ceased, so the description is not overstated."
+    },
+    {
+      "entity": "flow:mp-10x-magnets-to-dod",
+      "verdict": "publish",
+      "reasons": "Documented: the MP Materials Tier-1 8-K names both parties and the full-offtake term verbatim ('the Project Company will sell and deliver to the Department of Defense the entire amount of magnets produced at the 10X Facility'); the 10-year term in the description matches the 8-K's own '10-year Offtake Agreement' language (confirmed via EDGAR full-text search). 10X Facility site is correctly left unmapped per the analyst's own gap note -- no fac: id is claimed for it."
+    },
+    {
+      "entity": "flow:lynas-mt-weld-to-kalgoorlie",
+      "verdict": "publish",
+      "reasons": "Documented: Lynas' Tier-1 Annual Report states Mt Weld feeds both Kalgoorlie and Lynas Malaysia verbatim."
+    },
+    {
+      "entity": "flow:lynas-mt-weld-to-malaysia",
+      "verdict": "publish",
+      "reasons": "Documented: same Tier-1 quote as above, verified verbatim."
+    },
+    {
+      "entity": "flow:lynas-kalgoorlie-to-malaysia-mrec",
+      "verdict": "publish",
+      "reasons": "Documented: Lynas' Tier-1 Annual Report states Kalgoorlie MREC supplies Lynas Malaysia verbatim."
+    },
+    {
+      "entity": "flow:hemlock-to-shin-etsu-polysilicon",
+      "verdict": "reject",
+      "reasons": "The inference rests on joint-venture ownership alone: Hemlock is co-owned by Shin-Etsu Handotai, and Hemlock makes semiconductor-grade polysilicon -- but no document states or implies a preferential supply relationship between the JV and its co-owner. Unlike the Wacker inferred flows (which rest on an affirmative company statement that Wacker itself supplies 'all major wafer manufacturers'), nothing in Hemlock's own materials describes its customer base at all, let alone names Shin-Etsu as a buyer. Co-ownership of a joint venture does not, by itself, establish where the JV's output goes; per the counsel brief, ownership alone does not support a supply flow. Reject."
+    },
+    {
+      "entity": "flow:wacker-to-shin-etsu-polysilicon",
+      "verdict": "publish_flagged",
+      "reasons": "Sound inference: Wacker's own press release states it supplies 'all major wafer manufacturers' (Tier 2, self-reported customer-base claim, unlike Hemlock's silence on customers), and the SIA comment (Tier 2) independently identifies Shin-Etsu Handotai as one of the five suppliers representing the majority of wafer production -- i.e., definitionally a 'major wafer manufacturer.' Structurally the same kind of two-fact inference AGENTS.md itself sanctions (general-claim + named-party-in-category). basis/inference_note already correctly marked inferred; flag as publish_flagged (dashed line) per the counsel brief."
+    },
+    {
+      "entity": "flow:teck-red-dog-to-trail-zinc-concentrate",
+      "verdict": "publish",
+      "reasons": "Documented: Teck's Tier-1 AIF states the Red Dog-to-Trail shipment relationship verbatim; the USGS reference to an unnamed Canadian refinery is corroborating context only, not the basis for the documented status."
+    },
+    {
+      "entity": "flow:wacker-to-sumco-polysilicon",
+      "verdict": "publish_flagged",
+      "reasons": "Sound inference, same reasoning as the Shin-Etsu flow above: Wacker's 'all major wafer manufacturers' claim (Tier 2) plus the SIA comment naming Sumco among the five majority wafer suppliers (Tier 2)."
+    },
+    {
+      "entity": "flow:wacker-to-globalwafers-polysilicon",
+      "verdict": "publish_flagged",
+      "reasons": "Sound inference, same reasoning: Wacker's 'all major wafer manufacturers' claim (Tier 2) plus the SIA comment naming GlobalWafers among the five majority wafer suppliers (Tier 2), corroborated independently by GlobalWafers' own Section 232 comment describing itself as 'the third largest of five global suppliers of semiconductor wafers.'"
+    },
+    {
+      "entity": "flow:wacker-to-sk-siltron-polysilicon",
+      "verdict": "publish_flagged",
+      "reasons": "Sound inference, same reasoning: Wacker's 'all major wafer manufacturers' claim (Tier 2) plus the SIA comment naming SK Siltron among the five majority wafer suppliers (Tier 2)."
+    },
+    {
+      "entity": "flow:orbia-las-cuevas-to-matamoros-hf",
+      "verdict": "publish_flagged",
+      "reasons": "Sound inference, and on stronger footing than a mere-ownership case: both facilities are wholly owned and operated by the same integrated business unit (not separate co-owners of a JV), Orbia's own site describes its Minerals & Chemical Intermediates unit as 'fully integrated operations, from raw material extraction to chemical processing,' and USGS independently confirms acid-grade fluorspar is the primary input for HF production. This is closer to the AGENTS.md ASML/TSMC worked example (general integration/technical-necessity claim + named specific sites) than to the Hemlock/Shin-Etsu case. basis is correctly marked inferred; publish_flagged."
+    },
+    {
+      "entity": "fin:dod-mp-materials-preferred-equity",
+      "verdict": "publish",
+      "reasons": "Amount and parties verified verbatim against MP Materials' Tier-1 8-K; the note's 'up to $350 million additional preferred and a warrant' detail also confirmed verbatim in the same filing."
+    },
+    {
+      "entity": "fin:dod-mp-materials-samarium-loan",
+      "verdict": "publish",
+      "reasons": "Amount and parties verified verbatim against MP Materials' Tier-1 8-K."
+    },
+    {
+      "entity": "fin:dod-mp-materials-ndpr-price-floor",
+      "verdict": "publish",
+      "reasons": "Amount and terms (the $110/kg shortfall-payment formula) verified verbatim against MP Materials' Tier-1 8-K."
+    },
+    {
+      "entity": "fin:us-gov-lynas-rare-earth-oxide-supply",
+      "verdict": "publish",
+      "reasons": "Amount, parties and date verified verbatim against Lynas' Tier-1 FY2026 Annual Report; the source names only 'the U.S. Government' with no specific department, so the generic gov:us endpoint (a valid id pattern under this schema) is correct as written -- inferring gov:us-dod would add a claim the source does not make, even though it is plausible given the Seadrift/DoD history."
+    }
+  ],
+  "summary": "Reviewed all 36 sources, 119 evidence items, and 63 entities (22 companies, 23 facilities, 14 flows, 4 financial_links; 0 controls in this layer) in data/research/materials.json. Verdicts: 46 publish, 16 publish_flagged, 1 reject (flow:hemlock-to-shin-etsu-polysilicon). Every quote was checked against the primary document: USGS PDFs and company/regulatory web pages were fetched directly with a declared, non-email project User-Agent; SEC.gov blocked direct curl fetches of all four filings (mp-8k, mp-10k, corning-10k, teck-aif) as an \"undeclared automated tool\" even with a compliant UA, so those were instead verified via EDGAR full-text search (efts.sec.gov), confirming every quoted phrase as a unique verbatim hit inside the exact cited accession number -- this is as reliable as opening the file directly, since EDGAR indexes the filing's own text. regulations.gov (downloads.regulations.gov) CloudFront-blocked the GlobalWafers BIS docket attachment via both curl and a fetch tool; that one quote is corroborated only via a search-engine index reproducing the exact sentence and document title, and is flagged reachable=false -- it is not load-bearing for any entity verdict. The Lynas FY26 ASX API URL was checked to actually resolve to a genuine, correctly-dated 141-page encrypted PDF (not just an HTTP 200), and its content matches. Two systemic issues were corrected: (1) the five USGS \"country aggregate\" companies for China had names that read as if they were real corporate entities (\"China primary gallium producers\", etc.); all five were renamed to an unambiguous \"China — <commodity> (USGS aggregate)\" pattern and marked publish_flagged, though their underlying production-share figures are all Tier-1 verified verbatim. (2) The SIA and GlobalWafers comments filed in the BIS Section 232 polysilicon docket were classed regulatory_filing/Tier 1; both are reassigned to Tier 2 in source_checks, because they are industry advocacy submissions self-reporting market structure, not a government determination -- the fact that a document sits inside an official federal docket does not make its content a Tier-1 government finding. This does not break publish status for anything relying on them, since the evidence standard only requires Tier 1/2, not Tier 1 specifically, for any entity here. Of the five wafer-maker flows inferred from \"Wacker supplies all major wafer manufacturers\" + a named wafer maker on the SIA five-supplier list, four (Shin-Etsu, Sumco, GlobalWafers, SK Siltron) are sound two-fact inferences of the kind AGENTS.md itself models (general claim + named party in that category) and are publish_flagged as inferred. The fifth, flow:hemlock-to-shin-etsu-polysilicon, is REJECTED: it rests on joint-venture co-ownership alone with no affirmative supply-relationship claim from either party (unlike Wacker, Hemlock never describes its own customer base), which is exactly the kind of ownership-only inference the brief warns should not stand on its own. By contrast, flow:orbia-las-cuevas-to-matamoros-hf is accepted as publish_flagged: both sites are wholly owned/operated by the same integrated Orbia business unit (not merely co-owned by a third party), and the company affirmatively describes \"fully integrated operations, from raw material extraction to chemical processing,\" which is a materially stronger basis than ownership alone. teck-aif-2025's doc_type is mislabeled sec_20f (it is actually Exhibit 99.1 to a Form 40-F, since Teck is a Canadian MJDS filer) -- flagged doc_type_ok=false in source_checks; tier remains 1. fac:orbia-matamoros-hf is publish_flagged because its 30,000 t/yr HF capacity figure is undated at the source (already disclosed by the analyst in the capacity note). No other correction, quote problem, or unsupported claim was found: MP Materials' DoD figures (M preferred equity, up to M more, M loan, /kg NdPr floor, the 10-year/10X-Facility DoD offtake) all check out verbatim against the 8-K, and the Lynas \"will no longer proceed\" Seadrift-cancellation quote is exact. The analyst's gaps[] section is honest and appropriately conservative -- nothing there should have been asserted as a documented claim."
+}
