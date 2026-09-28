@@ -1,0 +1,1405 @@
+{
+  "layer": "wafers_chemicals",
+  "verifier": "wafers_chemicals verification counsel (Claude)",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:entegris-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct fetch of www.sec.gov/Archives blocked (403 'Undeclared Automated Tool') despite a declared, non-spoofed UA; www.sec.gov is blocked site-wide from this environment (home page also 403), while data.sec.gov and efts.sec.gov (EDGAR full text search) are not. Confirmed via data.sec.gov/submissions: accession 0001101302-26-000012, form 10-K, filed 2026-02-11, period 2025-12-31, primary doc entg-20251231.htm \u2014 exact match. Confirmed via EDGAR full-text search (quoted-phrase queries, ciks=0001101302) that the HQ quote, the 'top ten customers ... 50%, 48% and 43%' quote, and the token sequence 'TSMC 16% 16% 11%' all appear uniquely in this exact accession."
+    },
+    {
+      "source": "src:tsmc-20f-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked (403) as above. data.sec.gov confirms accession 0001628280-26-025362, form 20-F, filed 2026-04-16, period 2025-12-31, doc tsm-20251231.htm \u2014 exact match. EDGAR full-text search confirms both cited quotes ('most important raw material... silicon wafer' and 'majority of our raw wafers are supplied by a limited number of suppliers located in Taiwan, Japan, Germany, and Singapore') appear in this exact accession."
+    },
+    {
+      "source": "src:gf-20f-fy2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked (403). data.sec.gov confirms accession 0001709048-25-000024, form 20-F, filed 2025-03-20, period 2024-12-31 \u2014 exact match. EDGAR full-text search for 'The principal suppliers for our wafers are MEMC LLC, Shin-Etsu Handotai' (ciks=0001709048) returns exactly 1 hit, this accession."
+    },
+    {
+      "source": "src:skhynix-424b4-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked (403). data.sec.gov confirms accession 0001193125-26-299963, filed 2026-07-10 (research records 2026-07-09; 1-day difference, within tolerance). Note: EDGAR's own form-type code is '424B4' (Rule 424(b)(4) final prospectus tied to an F-1 foreign-private-issuer registration), not 'S-1'; schema's DocType enum has no 424B4/F-1 option, so sec_s1 is the nearest analogue used by the analyst \u2014 this does not change the Tier 1 classification, which is correct either way (an SEC-filed prospectus is unambiguously Tier 1). EDGAR full-text search confirms the raw-materials quote, the 'Wafers are the most significant raw material...10%' quote, the 'Significant transactions with related parties...' quote, and \u2014 critically \u2014 that the token sequences 'SK Siltron Co., Ltd. 39,232' and '39,232 502,707' and 'Sales and others Purchase and others' all appear in this exact accession, confirming both related-party figures and the (non-product-specific) column headers verbatim."
+    },
+    {
+      "source": "src:siltronic-ar-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (siltronic.com allows declared UA; 200 OK, 7.35MB PDF). PDF metadata: CreationDate 2026-03-10, ModDate 2026-04-20 (matches the '260420' datestamp in the URL, likely a later re-upload of the same report); research's document_date 2026-03-12 is within a few days of the PDF's own creation date. All cited quotes verified verbatim in raw-mode pdftotext extraction (column-aware -layout mode scrambles two-column pages; unflagged raw mode preserves reading order and all quotes matched cleanly)."
+    },
+    {
+      "source": "src:globalwafers-ar-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK, 2.6MB PDF). All cited quotes (market share, HQ address, three plant addresses) verified verbatim via pdftotext raw extraction."
+    },
+    {
+      "source": "src:nist-chips-globalwafers-2024-12",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Page states 'Released December 17, 2024', matching document_date. All cited quotes verified verbatim."
+    },
+    {
+      "source": "src:nist-chips-globalwafers-texas",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All cited quotes verified verbatim."
+    },
+    {
+      "source": "src:nist-chips-entegris-2024-12",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Page states 'Released December 5, 2024', matching document_date. Cited quote verified verbatim."
+    },
+    {
+      "source": "src:nist-chips-entegris-colorado",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Both cited quotes verified verbatim."
+    },
+    {
+      "source": "src:doe-lpo-sk-siltron",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Page states 'updated on March 17, 2025', matching document_date exactly. Both cited quotes verified verbatim, including the SiC/EV framing ('to expand American manufacturing of high-quality silicon carbide (SiC) wafers for electric vehicle (EV) power electronics')."
+    },
+    {
+      "source": "src:entegris-chips-pr-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Cited quote verified verbatim."
+    },
+    {
+      "source": "src:sumco-sr-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK, 5.8MB PDF). All cited quotes verified verbatim. Note on doc_type: this is a PDF 'Sustainability Report' self-published on the company's own domain (sumcosi.com); the schema's DocType enum has no dedicated CSR/sustainability-report category, so 'company_website' is the closest fit used by the analyst. This is a reasonable classification and does not change the Tier (2) \u2014 it is company self-published material, not an audited or regulatory filing, so Tier 2 is correctly assigned."
+    },
+    {
+      "source": "src:globalwafers-gwa-opening-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Page dated 'May 16, 2025', matching document_date. Both cited quotes verified verbatim (one only after normalizing a curly apostrophe in 'industry's')."
+    },
+    {
+      "source": "src:sk-siltron-offices",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Both cited quotes verified verbatim."
+    },
+    {
+      "source": "src:tok-at-a-glance",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Cited quote verified verbatim."
+    },
+    {
+      "source": "src:tok-sites-japan",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All three cited address quotes verified verbatim."
+    },
+    {
+      "source": "src:tok-sites-overseas",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All six cited quotes (Hillsboro, Incheon, Tongluo addresses and descriptions) verified verbatim."
+    },
+    {
+      "source": "src:tok-koriyama-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Page dated 'August 8, 2023', matching document_date. Both cited quotes verified verbatim."
+    },
+    {
+      "source": "src:tok-aso-kumamoto-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All three cited quotes verified verbatim."
+    },
+    {
+      "source": "src:jsr-photoresist-expansion-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All four cited quotes verified verbatim."
+    },
+    {
+      "source": "src:jsr-inpria-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Cited quote verified verbatim."
+    },
+    {
+      "source": "src:inpria-home",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Both cited quotes verified verbatim."
+    },
+    {
+      "source": "src:jsr-offices",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Both cited address quotes verified verbatim."
+    },
+    {
+      "source": "src:jsr-overseas-group",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Both cited address quotes verified verbatim."
+    },
+    {
+      "source": "src:jsr-taiwan-jv-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Both cited quotes verified verbatim."
+    },
+    {
+      "source": "src:photronics-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked (403) as above. data.sec.gov confirms accession 0001140361-25-045801, form 10-K, filed 2025-12-17, period 2025-10-31 \u2014 exact match. EDGAR full-text search confirms the customer-concentration quote and the Boise R&D quote in this exact accession; confirmed 'Allen, Texas' appears in this accession specifically (date-range-restricted query, 1 hit)."
+    },
+    {
+      "source": "src:linde-samsung-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All four cited quotes verified verbatim."
+    },
+    {
+      "source": "src:linde-phoenix-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Cited quote verified verbatim."
+    },
+    {
+      "source": "src:linde-phoenix-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Page dated 'July 31, 2026', matching document_date. Both cited quotes verified verbatim (curly apostrophes normalized). Full text also shows Linde's Taiwan JV (Linde LienHwa) was 'selected by the same customer' for simultaneous Taiwan expansion \u2014 relevant context for judging the inferred TSMC link (see flow notes)."
+    },
+    {
+      "source": "src:air-liquide-micron-idaho-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Both cited quotes verified verbatim."
+    },
+    {
+      "source": "src:air-liquide-arizona-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). Page dated 'July 16, 2026', matching document_date. Both cited quotes verified verbatim. Full text shows 'Building on Air Liquide's existing presence at the site' and never names the customer, nor even narrows to a city within Arizona."
+    },
+    {
+      "source": "src:air-products-samsung-2026",
+      "reachable": false,
+      "doc_type_ok": false,
+      "tier_assigned": 2,
+      "date_ok": false,
+      "notes": "UNREACHABLE. Direct curl fetch of airproducts.com (home page and this article) both return 403 from a CloudFront WAF ('Request blocked') despite a declared, non-spoofed project UA \u2014 this is not an SEC-style 'undeclared tool' notice but a blanket bot-detection block. Also tried the harness's WebFetch tool (also 403) and the Internet Archive Wayback Machine availability API as a legitimate third-party archive fallback (rate-limited, 429, from this environment). No bypass (spoofed browser headers, anti-bot service) was attempted per instructions. Could not verify this source after real effort."
+    },
+    {
+      "source": "src:agc-euvl-blanks-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK, PDF). All four cited quotes verified verbatim (curly apostrophes normalized for two of them)."
+    },
+    {
+      "source": "src:mitsui-cnt-pellicle-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All three cited quotes verified verbatim."
+    },
+    {
+      "source": "src:shin-etsu-isesaki-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK). All three cited quotes verified verbatim."
+    },
+    {
+      "source": "src:hoya-ir-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (200 OK, 8MB PDF). This PDF's text extraction is garbled in many places (ligatures render as stray capitals, e.g. 'oDer' for 'offer', 'Clms' for 'films', 'signiCcantly' for 'significantly') \u2014 consistent with the concern raised. Both cited quotes were checked against the raw extraction and verify cleanly, with no garbled characters inside the quoted spans themselves, in the Mask Blanks business section (confirmed by surrounding context: 'Mask blanks are the master substrates used in the production of photomasks...' / 'Key Focus Areas Moving Forward... angstrom-generation... High-NA, and Hyper-NA'). No other passages from this source were used as evidence, so no non-clean passage was accepted."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:siltronic",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:shin-etsu",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:sumco",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:globalwafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:globalwafers",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:sk-siltron",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:entegris",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:tok",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:tok",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:jsr",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:jsr",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:wacker",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:sk-hynix",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:globalfoundries",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:linde",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:air-liquide",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:air-products",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Source could not be fetched after real effort (see source_checks notes for src:air-products-samsung-2026); quote/claim unverified."
+    },
+    {
+      "entity": "co:micron",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:agc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:mitsui-chemicals",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:hoya",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:hoya",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "co:photronics",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-gwa",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-gwa",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-gwa",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-gwa",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-epi",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-epi",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-memc-st-peters",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:globalwafers-memc-st-peters",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:siltronic-singapore",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:siltronic-singapore",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:siltronic-singapore",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:siltronic-freiberg",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:siltronic-burghausen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:siltronic-burghausen",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:sumco-kyushu-imari",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:sumco-kyushu-imari",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:sk-siltron-gumi-plant3",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:sk-siltron-gumi-plant3",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:sk-siltron-css-bay-city",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:sk-siltron-css-bay-city",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:entegris-colorado-springs",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:entegris-colorado-springs",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:entegris-colorado-springs",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:entegris-colorado-springs",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-koriyama",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-koriyama",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-koriyama",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-aso-kumamoto",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-aso-kumamoto",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-aso-kumamoto",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-america-hillsboro",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-america-hillsboro",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-advanced-materials-incheon",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-advanced-materials-incheon",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-taiwan-tongluo",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:tok-taiwan-tongluo",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-inpria-corvallis",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-inpria-corvallis",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-yokkaichi",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-yokkaichi",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-micro-korea-cheongju",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-micro-korea-cheongju",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-micro-korea-cheongju",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-micro-amt-taiwan-yunlin",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-micro-amt-taiwan-yunlin",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:jsr-micro-amt-taiwan-yunlin",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:linde-pyeongtaek-onsite",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:linde-pyeongtaek-onsite",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:linde-pyeongtaek-onsite",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:air-products-pyeongtaek-onsite",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Source could not be fetched after real effort (see source_checks notes for src:air-products-samsung-2026); quote/claim unverified."
+    },
+    {
+      "entity": "fac:air-products-pyeongtaek-onsite",
+      "evidence_index": 1,
+      "verdict": "unreachable",
+      "notes": "Source could not be fetched after real effort (see source_checks notes for src:air-products-samsung-2026); quote/claim unverified."
+    },
+    {
+      "entity": "fac:linde-phoenix-onsite",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:linde-phoenix-onsite",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:air-liquide-idaho",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:air-liquide-idaho",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:air-liquide-arizona-onsite",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:air-liquide-arizona-onsite",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:agc-electronics-motomiya",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:agc-electronics-motomiya",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:mitsui-chemicals-iwakuni-ohtake",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:mitsui-chemicals-iwakuni-ohtake",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:shin-etsu-naoetsu",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:shin-etsu-isesaki",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:shin-etsu-isesaki",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:photronics-boise",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:photronics-boise",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "fac:photronics-allen",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:siltronic-to-tsmc-wafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:siltronic-to-tsmc-wafers",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:siltronic-to-samsung-wafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:siltronic-to-intel-wafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:wacker-to-siltronic-polysilicon-wafer",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:wacker-to-siltronic-polysilicon-wafer",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:sumco-to-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:sumco-to-tsmc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:sumco-to-samsung-wafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:sumco-to-samsung-wafers",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:sk-siltron-to-sk-hynix-wafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Intro sentence to the related-party table; the cited 502,707/39,232 figures are in the table itself. Independently confirmed via EDGAR full-text search: '39,232 502,707' (quoted phrase) returns 7 hits, including accession 0001193125-26-299963 (this exact 424B4); 'Sales and others Purchase and others' also confirmed present, verifying these are the actual column headers \u2014 i.e. the figure is a general related-party purchases total, not wafer-specific. See entity correction to description."
+    },
+    {
+      "entity": "flow:sk-siltron-to-sk-hynix-wafers",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Short quote (company name only); confirmed in table context via the '39,232 502,707' full-text search match (see evidence_index 0 notes) \u2014 'SK Siltron Co., Ltd. 39,232' also independently confirmed as a matching phrase in this accession."
+    },
+    {
+      "entity": "flow:sk-siltron-to-sk-hynix-wafers",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:sk-siltron-to-sk-hynix-wafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Same related-party table row as evidence_index 1; confirmed via EDGAR full-text search (see evidence_index 0 notes). Note for the record: this KRW 502,707 million figure is SK hynix's total 'Purchase and others' from SK Siltron (all goods/services), not a wafer-specific figure \u2014 see corrected description."
+    },
+    {
+      "entity": "flow:entegris-to-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote itself is just the company name; the cited 16%/16%/11% figures sit in the adjoining customer-concentration table. Independently confirmed via EDGAR full-text search: the token sequence 'TSMC 16% 16% 11%' (quoted phrase) returns exactly 1 hit, matching accession 0001101302-26-000012 (this exact 10-K). Figures confirmed accurate."
+    },
+    {
+      "entity": "flow:entegris-to-tsmc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:entegris-to-tsmc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Same table-described figure as evidence[0]; independently confirmed via EDGAR full-text search (see evidence_index 0 notes)."
+    },
+    {
+      "entity": "flow:globalwafers-memc-to-globalfoundries",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:globalwafers-memc-to-globalfoundries",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:globalwafers-memc-to-globalfoundries",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:shin-etsu-to-globalfoundries-wafers",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:jsr-inpria-to-jsr-micro-korea-mor",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:jsr-inpria-to-jsr-micro-korea-mor",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:linde-pyeongtaek-to-samsung",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:air-products-pyeongtaek-to-samsung",
+      "evidence_index": 0,
+      "verdict": "unreachable",
+      "notes": "Source could not be fetched after real effort (see source_checks notes for src:air-products-samsung-2026); quote/claim unverified."
+    },
+    {
+      "entity": "flow:air-liquide-idaho-to-micron",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:linde-phoenix-to-tsmc-arizona",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:linde-phoenix-to-tsmc-arizona",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:air-liquide-arizona-to-tsmc-arizona",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:photronics-boise-to-micron",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    },
+    {
+      "entity": "flow:agc-to-mask-shops-euv-blanks",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Verbatim quote confirmed against source document."
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:siltronic",
+      "verdict": "publish",
+      "reasons": "HQ, existence and competitive position confirmed verbatim in Siltronic AG Annual Report 2025 (Tier 1 foreign annual report)."
+    },
+    {
+      "entity": "co:shin-etsu",
+      "verdict": "publish",
+      "reasons": "Role as GlobalFoundries wafer supplier confirmed verbatim in GF's 20-F (Tier 1)."
+    },
+    {
+      "entity": "co:sumco",
+      "verdict": "publish",
+      "reasons": "Existence and >50% leading-edge-logic-wafer market-share claim confirmed verbatim in SUMCO's own Sustainability Report (Tier 2)."
+    },
+    {
+      "entity": "co:globalwafers",
+      "verdict": "publish",
+      "reasons": "Market share and HQ address confirmed verbatim in GlobalWafers' 2025 Annual Report (Tier 1 foreign annual report)."
+    },
+    {
+      "entity": "co:sk-siltron",
+      "verdict": "publish",
+      "reasons": "HQ/office address confirmed verbatim on SK siltron's own site (Tier 2). No AI-specific claims made at the company level."
+    },
+    {
+      "entity": "co:entegris",
+      "verdict": "publish",
+      "reasons": "HQ confirmed verbatim in Entegris FY2025 10-K (Tier 1, EDGAR full-text search + SEC submissions API; direct sec.gov fetch blocked, see source_checks)."
+    },
+    {
+      "entity": "co:tok",
+      "verdict": "publish",
+      "reasons": "Market-share claim and HQ address confirmed verbatim on TOK's own site (Tier 2)."
+    },
+    {
+      "entity": "co:jsr",
+      "verdict": "publish",
+      "reasons": "HQ address and Inpria acquisition confirmed verbatim on JSR's own site and 2021 press release (Tier 2)."
+    },
+    {
+      "entity": "co:wacker",
+      "verdict": "publish",
+      "reasons": "Role as Siltronic's polysilicon supplier confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1)."
+    },
+    {
+      "entity": "co:tsmc",
+      "verdict": "publish",
+      "reasons": "Wafer-demand statement confirmed verbatim in TSMC's FY2025 20-F (Tier 1, EDGAR full-text search + SEC submissions API)."
+    },
+    {
+      "entity": "co:samsung",
+      "verdict": "publish",
+      "reasons": "Customer relationship confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1)."
+    },
+    {
+      "entity": "co:intel",
+      "verdict": "publish",
+      "reasons": "Customer relationship confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1)."
+    },
+    {
+      "entity": "co:sk-hynix",
+      "verdict": "publish",
+      "reasons": "Wafer-demand statement confirmed verbatim in SK hynix's 424B4 prospectus (Tier 1, EDGAR full-text search + SEC submissions API)."
+    },
+    {
+      "entity": "co:globalfoundries",
+      "verdict": "publish",
+      "reasons": "Wafer-supplier statement confirmed verbatim in GF's FY2024 20-F (Tier 1)."
+    },
+    {
+      "entity": "co:linde",
+      "verdict": "publish",
+      "reasons": "Role as Samsung Pyeongtaek gas supplier confirmed verbatim in Linde's 2025 press release (Tier 2)."
+    },
+    {
+      "entity": "co:air-liquide",
+      "verdict": "publish",
+      "reasons": "Role as Micron Idaho gas supplier confirmed verbatim in Air Liquide's 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "co:air-products",
+      "verdict": "publish_flagged",
+      "reasons": "Sole cited source (src:air-products-samsung-2026) could not be fetched \u2014 airproducts.com returns 403 from a CloudFront bot-detection wall for a declared, non-spoofed project UA (and for the harness's own WebFetch tool); Wayback Machine was rate-limited during this review. Real, good-faith effort was made without disguising the request as a browser, per instructions. Air Products and Chemicals, Inc. (NYSE:APD, Allentown, PA) is kept per the 'companies are kept unless rejected' rule, but its claimed semiconductor-gas-supply role in this layer rests entirely on the unreachable source and should be re-checked when the site is reachable."
+    },
+    {
+      "entity": "co:micron",
+      "verdict": "publish",
+      "reasons": "Role as Air Liquide's Idaho gas customer confirmed verbatim in Air Liquide's 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "co:agc",
+      "verdict": "publish",
+      "reasons": "Role as sole integrated EUVL mask-blank manufacturer confirmed verbatim in AGC's 2023 press release (Tier 2). (The AGC->TSMC flow is rejected separately; the company fact itself is solid.)"
+    },
+    {
+      "entity": "co:mitsui-chemicals",
+      "verdict": "publish",
+      "reasons": "ASML-licensed EUV pellicle business confirmed verbatim in Mitsui Chemicals' 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "co:hoya",
+      "verdict": "publish",
+      "reasons": "Market-position claims confirmed verbatim in HOYA's Integrated Report 2025 (Tier 2), in the Mask Blanks business section specifically; both quotes verify cleanly despite this PDF's extraction having garbled ligatures elsewhere."
+    },
+    {
+      "entity": "co:photronics",
+      "verdict": "publish",
+      "reasons": "Customer-concentration statement confirmed verbatim in Photronics' FY2025 10-K (Tier 1, EDGAR full-text search + SEC submissions API)."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-gwa",
+      "verdict": "publish",
+      "reasons": "Location, existence, products and operational status all confirmed verbatim across GlobalWafers' Annual Report, two NIST CHIPS pages and GlobalWafers' opening press release (Tier 1 + Tier 2)."
+    },
+    {
+      "entity": "fac:globalwafers-sherman-epi",
+      "verdict": "publish",
+      "reasons": "Location and SiC-conversion terms confirmed verbatim in GlobalWafers' Annual Report and the NIST CHIPS award page (Tier 1). Products list correctly leads with general silicon epitaxial wafers, not solely SiC/EV output, so no AI-relevance overstatement."
+    },
+    {
+      "entity": "fac:globalwafers-memc-st-peters",
+      "verdict": "publish",
+      "reasons": "Location and SOI-wafer product confirmed verbatim in GlobalWafers' Annual Report and the NIST CHIPS press release (Tier 1)."
+    },
+    {
+      "entity": "fac:siltronic-singapore",
+      "verdict": "publish",
+      "reasons": "Existence, location and 'largest site' status confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1). Country-level precision is appropriate since no street address is given."
+    },
+    {
+      "entity": "fac:siltronic-freiberg",
+      "verdict": "publish",
+      "reasons": "Existence and location confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1)."
+    },
+    {
+      "entity": "fac:siltronic-burghausen",
+      "verdict": "publish",
+      "reasons": "Existence, location and Wacker co-location confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1)."
+    },
+    {
+      "entity": "fac:sumco-kyushu-imari",
+      "verdict": "publish",
+      "reasons": "Site name and company-level market-share statement confirmed verbatim in SUMCO's Sustainability Report (Tier 2). City-level precision correctly reflects that no street address was published."
+    },
+    {
+      "entity": "fac:sk-siltron-gumi-plant3",
+      "verdict": "publish",
+      "reasons": "Address and product (300mm growing/wafering) confirmed verbatim on SK siltron's own site (Tier 2). This facility makes standard silicon wafers (logic/memory-relevant), unlike the Bay City SiC facility (see below)."
+    },
+    {
+      "entity": "fac:sk-siltron-css-bay-city",
+      "verdict": "reject",
+      "reasons": "Evidence is solid (DOE Loan Programs Office project page, Tier 1) and both quotes verify verbatim, including the facility's actual purpose: 'to expand American manufacturing of high-quality silicon carbide (SiC) wafers for electric vehicle (EV) power electronics.' The problem is not sourcing but scope: this plant makes SiC power wafers exclusively for EV power electronics, not silicon wafers for AI/logic/memory chips, and the DOE source never mentions AI or semiconductor logic/memory at all. The facility's own name/kind/products fields in the research file are already careful not to claim AI relevance, but including it on an 'AI Supply Chain Atlas' next to genuinely AI-relevant wafer fabs would misleadingly imply a connection that no document supports. Rejecting (not publish_flagged) because the issue is that this node does not belong in an AI supply chain atlas at all, not that it needs a caveat."
+    },
+    {
+      "entity": "fac:entegris-colorado-springs",
+      "verdict": "publish",
+      "reasons": "Location, award amount, products and start year all confirmed verbatim across the NIST CHIPS award page and two press releases (Tier 1 + Tier 2)."
+    },
+    {
+      "entity": "fac:tok-koriyama",
+      "verdict": "publish",
+      "reasons": "Location, products and expansion timeline confirmed verbatim on TOK's own site and 2023 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:tok-aso-kumamoto",
+      "verdict": "publish",
+      "reasons": "Location, rationale and investment amount confirmed verbatim on TOK's own site and 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:tok-america-hillsboro",
+      "verdict": "publish",
+      "reasons": "Location and products confirmed verbatim on TOK's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:tok-advanced-materials-incheon",
+      "verdict": "publish",
+      "reasons": "Location and products confirmed verbatim on TOK's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:tok-taiwan-tongluo",
+      "verdict": "publish",
+      "reasons": "Location and products confirmed verbatim on TOK's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:jsr-inpria-corvallis",
+      "verdict": "publish",
+      "reasons": "Existence, products and address confirmed verbatim on Inpria's own site (Tier 2)."
+    },
+    {
+      "entity": "fac:jsr-yokkaichi",
+      "verdict": "publish",
+      "reasons": "Location and function confirmed verbatim on JSR's own site and 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:jsr-micro-korea-cheongju",
+      "verdict": "publish",
+      "reasons": "Subsidiary address, role (final MOR production) and 2026 target start confirmed verbatim in JSR's press release and site (Tier 2). Status 'under_construction' with start_year 2026 is not contradicted by any more recent source found in this review; a brief news check turned up only reposts of the same 2024 announcement, so it is not marked stale."
+    },
+    {
+      "entity": "fac:jsr-micro-amt-taiwan-yunlin",
+      "verdict": "publish",
+      "reasons": "JV structure, address and function confirmed verbatim in JSR's 2026 press release and site (Tier 2)."
+    },
+    {
+      "entity": "fac:linde-pyeongtaek-onsite",
+      "verdict": "publish",
+      "reasons": "Existence, products and scale confirmed verbatim in Linde's 2025 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:air-products-pyeongtaek-onsite",
+      "verdict": "reject",
+      "reasons": "Sole evidence source (src:air-products-samsung-2026) is unreachable after real, good-faith effort (see source_checks and co:air-products notes). No other document in this file corroborates this facility's existence, location or role, so the material claims cannot currently be traced to a document I actually verified. Reject rather than publish_flagged since there is zero verified support, not merely a weak or single-tier source."
+    },
+    {
+      "entity": "fac:linde-phoenix-onsite",
+      "verdict": "publish",
+      "reasons": "Linde's own existence/expansion of this complex is confirmed verbatim in its 2021 and 2026 press releases (Tier 2) independent of the customer's identity, which is addressed separately at the flow level."
+    },
+    {
+      "entity": "fac:air-liquide-idaho",
+      "verdict": "publish",
+      "reasons": "Existence and planned 2025 start confirmed verbatim in Air Liquide's 2024 press release (Tier 2); status 'announced' is a fair reflection of the fact that no later start-up confirmation was found (also noted as a gap by the analyst)."
+    },
+    {
+      "entity": "fac:air-liquide-arizona-onsite",
+      "verdict": "publish",
+      "reasons": "Air Liquide's own investment and facility existence confirmed verbatim in its 2026 press release (Tier 2), independent of the customer's identity, which is addressed separately at the flow level. Region-level precision is appropriate since the release does not even name a city."
+    },
+    {
+      "entity": "fac:agc-electronics-motomiya",
+      "verdict": "publish",
+      "reasons": "Location, products and capacity expansion confirmed verbatim in AGC's 2023 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:mitsui-chemicals-iwakuni-ohtake",
+      "verdict": "publish",
+      "reasons": "Existence, products and CNT-pellicle expansion confirmed verbatim in Mitsui Chemicals' 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:shin-etsu-naoetsu",
+      "verdict": "publish",
+      "reasons": "Existence, location and products confirmed verbatim in Shin-Etsu's 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:shin-etsu-isesaki",
+      "verdict": "publish",
+      "reasons": "Location, rationale and phased-investment timing confirmed verbatim in Shin-Etsu's 2024 press release (Tier 2)."
+    },
+    {
+      "entity": "fac:photronics-boise",
+      "verdict": "publish",
+      "reasons": "R&D function and location confirmed verbatim in Photronics' FY2025 10-K (Tier 1). (The Boise->Micron flow is rejected separately for co-location-only reasoning; the facility fact itself is solid.)"
+    },
+    {
+      "entity": "fac:photronics-allen",
+      "verdict": "publish",
+      "reasons": "Location confirmed verbatim in Photronics' FY2025 10-K (Tier 1, confirmed present specifically in this accession via a date-restricted EDGAR full-text search)."
+    },
+    {
+      "entity": "flow:siltronic-to-tsmc-wafers",
+      "verdict": "publish",
+      "reasons": "Documented: Siltronic's Annual Report 2025 (Tier 1) names TSMC as one of its three largest customers, and TSMC's own 20-F is consistent (sources raw wafers from Germany/Singapore, where Siltronic's fabs are). Both quotes confirmed verbatim. from_hint/to_hint are explicitly labeled as guesses in the description, so no overstatement."
+    },
+    {
+      "entity": "flow:siltronic-to-samsung-wafers",
+      "verdict": "publish",
+      "reasons": "Documented: same Siltronic Annual Report 2025 customer-list quote (Tier 1), confirmed verbatim."
+    },
+    {
+      "entity": "flow:siltronic-to-intel-wafers",
+      "verdict": "publish",
+      "reasons": "Documented: same Siltronic Annual Report 2025 customer-list quote (Tier 1), confirmed verbatim."
+    },
+    {
+      "entity": "flow:wacker-to-siltronic-polysilicon-wafer",
+      "verdict": "publish",
+      "reasons": "Documented: both parties and the long-term-agreement relationship confirmed verbatim in Siltronic's Annual Report 2025 (Tier 1), in two separate passages (business report and risk report)."
+    },
+    {
+      "entity": "flow:sumco-to-tsmc",
+      "verdict": "publish",
+      "reasons": "Documented: SUMCO's own Sustainability Report (Tier 2) names TSMC specifically in the context of a 12-consecutive-year supplier award, which is solid evidence of a real, sustained supply relationship (not mere co-location or illustrative reasoning). Verified this layer's evidence independently of the parallel flow:sumco-to-tsmc entry in fabrication.json, which corroborates with an additional TSMC-side press release naming SUMCO directly \u2014 consistent, not contradictory."
+    },
+    {
+      "entity": "flow:sumco-to-samsung-wafers",
+      "verdict": "publish",
+      "reasons": "Documented: SUMCO's own Sustainability Report (Tier 2) names Samsung specifically ('2025 Best Partner Award from Samsung...due to our contribution... developing silicon wafers for advanced devices'), confirmed in context (the two separately-quoted fragments sit in the same sentence)."
+    },
+    {
+      "entity": "flow:sk-siltron-to-sk-hynix-wafers",
+      "verdict": "publish_flagged",
+      "reasons": "Documented and Tier 1 (SK hynix's SEC-filed 424B4 prospectus, related-party Note 31): both parties named, and the KRW 502,707 million figure independently confirmed via EDGAR full-text search (see evidence_checks). Flagged because, as the analyst raised, this figure is SK Siltron's total 'Purchase and others' from the related-party table \u2014 confirmed via full-text search that 'Sales and others' / 'Purchase and others' are the literal column headers \u2014 i.e. it covers all goods and services purchased from SK Siltron, not a wafer-specific line item. The original description mentioned the column name but did not clearly flag the non-product-specific nature of the figure; corrected below to state this explicitly.",
+      "corrections": {
+        "description": "SK hynix's audited related-party note (Note 31) reports total related-party transactions with SK Siltron Co., Ltd. of KRW 502,707 million in 2025 under the general 'Purchase and others' column. This figure is NOT broken out by product and is not silicon-wafer-specific -- it covers all goods and services purchased from SK Siltron and may include non-wafer items. SK hynix separately states wafers are its most significant raw material by cost (~10% of cost of sales in recent years). Receiving fab not disclosed."
+      }
+    },
+    {
+      "entity": "flow:entegris-to-tsmc",
+      "verdict": "publish",
+      "reasons": "Documented and Tier 1 (Entegris FY2025 10-K, customer-concentration table): both parties named. The 16%/16%/11% and top-ten 50%/48%/43% figures are table content described in the locator rather than fully transcribed in the quote; both independently confirmed via targeted EDGAR full-text search against this exact accession (see evidence_checks notes) \u2014 figures are accurate."
+    },
+    {
+      "entity": "flow:globalwafers-memc-to-globalfoundries",
+      "verdict": "publish",
+      "reasons": "Documented: GlobalFoundries' 20-F (Tier 1) names MEMC LLC as a principal wafer supplier; the NIST CHIPS press release (Tier 1) independently establishes MEMC LLC as a GlobalWafers subsidiary; and a GlobalFoundries executive is directly quoted (Tier 2) calling GlobalWafers a 'longstanding strategic partner.' Three independent, mutually corroborating primary/company sources."
+    },
+    {
+      "entity": "flow:shin-etsu-to-globalfoundries-wafers",
+      "verdict": "publish",
+      "reasons": "Documented: GlobalFoundries' 20-F (Tier 1) names Shin-Etsu Handotai as a principal wafer supplier, confirmed verbatim."
+    },
+    {
+      "entity": "flow:jsr-inpria-to-jsr-micro-korea-mor",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, but with two genuinely documented premises, both cited in this file's own evidence and both confirmed verbatim: (1) JSR's MOR photoresist platform originates from the Inpria acquisition and Inpria's Corvallis plant produces EUV photoresists (inpria.com); (2) JSR's own 2024 press release states the new Cheongju, Korea plant 'will execute the final production process for MOR.' The inference_note is honest that no document states the shipment route itself. This is an intra-company flow (both facilities are JSR's own), so party identity is not in doubt -- only the specific route is inferred, which is a materially sounder basis than the rejected flows below."
+    },
+    {
+      "entity": "flow:linde-pyeongtaek-to-samsung",
+      "verdict": "publish",
+      "reasons": "Documented: Linde's 2025 press release (Tier 2) names Samsung directly as the customer of this specific Pyeongtaek complex, confirmed verbatim."
+    },
+    {
+      "entity": "flow:air-products-pyeongtaek-to-samsung",
+      "verdict": "reject",
+      "reasons": "Sole evidence source (src:air-products-samsung-2026) is unreachable after real, good-faith effort (blocked by CloudFront bot-detection despite a declared, non-spoofed UA; WebFetch tool also blocked; Wayback Machine rate-limited). No claim in this flow -- relationship, location, or timeline -- can currently be traced to a document I was able to check."
+    },
+    {
+      "entity": "flow:air-liquide-idaho-to-micron",
+      "verdict": "publish",
+      "reasons": "Documented: Air Liquide's 2024 press release (Tier 2) names Micron Technology, Inc. directly, confirmed verbatim."
+    },
+    {
+      "entity": "flow:linde-phoenix-to-tsmc-arizona",
+      "verdict": "publish_flagged",
+      "reasons": "Inferred, and correctly so -- neither Linde press release names the customer. However this is a materially sounder inference than the rejected AGC/Air Liquide-Arizona flows below: (1) Linde's own releases (2021, 2026, Tier 2) document a real, specific relationship -- an on-site complex built and then expanded for 'one of the world's largest semiconductor manufacturers' at a named city (Phoenix); (2) TSMC's Fab 21 (Phoenix, operational/under construction per the fabrication layer) is the only multi-billion-dollar logic fab in Phoenix proper in this period -- Intel's Arizona fabs are in Chandler, a different city, which the inference_note correctly uses to rule Intel out. Independently, re-reading the full 2026 Linde release during this review turned up a further corroborating detail not cited in the evidence array: the same release states Linde's Taiwan joint venture (Linde LienHwa) was 'selected by the same customer' for a simultaneous Taiwan expansion -- consistent with TSMC (headquartered in Taiwan, with major Taiwan fab operations) and not with Intel (no comparable Taiwan fab footprint). This additional textual clue was not added to the entity's evidence/inference_note (out of scope for a correction), but it materially increases confidence in the existing inference. Flagged, not rejected, given the city-level and cross-market disambiguation available; flagged because the customer is still not named in either source."
+    },
+    {
+      "entity": "flow:air-liquide-arizona-to-tsmc-arizona",
+      "verdict": "reject",
+      "reasons": "Inferred, but fails the two-documented-premises bar. Air Liquide's 2026 press release (Tier 2) does not name the customer and does not even give a city within Arizona ('a global leader in advanced semiconductor nodes... in Arizona'), only that Air Liquide has an 'existing presence at the site.' Unlike the Linde Phoenix flow, there is no disambiguating fact (no city, no cross-market detail) to distinguish TSMC from Intel, both of which are expanding advanced-node fabs in Arizona in this period -- and the analyst's own inference_note admits 'TSMC Arizona and Intel Arizona both fit... could equally be.' An admitted coin-flip is not a sound inference under AGENTS.md's standard. Reject the flow; the underlying Air Liquide facility (fac:air-liquide-arizona-onsite) is kept and published on its own facts, independent of customer identity."
+    },
+    {
+      "entity": "flow:photronics-boise-to-micron",
+      "verdict": "reject",
+      "reasons": "Rests only on co-location (Photronics runs photomask R&D in Boise, where Micron is headquartered) -- the analyst's own inference_note states Photronics' customers are anonymized in its 10-K (Customer A/B/C) and 'no document names Micron as a Photronics customer.' Co-location alone is explicitly not a publishable basis per instructions. Reject."
+    },
+    {
+      "entity": "flow:agc-to-mask-shops-euv-blanks",
+      "verdict": "reject",
+      "reasons": "AGC names no customers at all -- 'adopted by several logic and memory semiconductor manufacturers' (plural, unnamed) -- and the analyst's own inference_note calls the TSMC endpoint 'illustrative,' explicitly noting it 'could equally be Samsung, Intel or memory makers.' No second documented premise narrows the field (unlike the Linde/Phoenix case). 'Illustrative' is explicitly not a publishable basis per instructions. Reject."
+    }
+  ],
+  "summary": "Verified all 37 sources, 124 evidence items, and 70 entities (22 companies, 30 facilities, 18 flows; 0 financial_links, 0 controls) in the wafers_chemicals research file against primary documents.\n\nCounts: 60 publish, 4 publish_flagged, 6 reject.\n\nRejected (6): fac:sk-siltron-css-bay-city, fac:air-products-pyeongtaek-onsite, flow:air-products-pyeongtaek-to-samsung, flow:air-liquide-arizona-to-tsmc-arizona, flow:photronics-boise-to-micron, flow:agc-to-mask-shops-euv-blanks.\n\nFlagged (4): co:air-products, flow:sk-siltron-to-sk-hynix-wafers, flow:jsr-inpria-to-jsr-micro-korea-mor, flow:linde-phoenix-to-tsmc-arizona.\n\nSystemic issues found:\n1. SEC filings (Entegris 10-K, TSMC 20-F, GLOBALFOUNDRIES 20-F, SK hynix 424B4, Photronics 10-K) could not be fetched directly -- www.sec.gov (including /Archives and the bare homepage) returns 403 \"Your Request Originates from an Undeclared Automated Tool\" from this environment regardless of UA string used, while data.sec.gov and efts.sec.gov (EDGAR full-text search) are not blocked. Verified all five filings instead via (a) data.sec.gov/submissions/CIK*.json, which confirmed exact accession number, form type, filing date and primary document name for every cited filing, and (b) EDGAR full-text search with quoted-phrase queries restricted to the company's CIK, which confirmed every cited quote -- including numeric table content like Entegris's \"16% 16% 11%\" TSMC concentration figures and SK hynix's \"39,232 502,707\" related-party figures -- appears verbatim in the exact cited accession. No browser-spoofing or anti-bot bypass was used; this is the fallback the brief anticipates.\n2. src:air-products-samsung-2026 (Air Products' Samsung Pyeongtaek press release) is genuinely unreachable: airproducts.com returns 403 from a CloudFront bot wall for a declared, honest UA, for the harness's own WebFetch tool, and the Wayback Machine was rate-limited during this review. This cascades to reject co:air-products (publish_flagged, kept per the companies-are-kept rule but flagged), fac:air-products-pyeongtaek-onsite (reject) and flow:air-products-pyeongtaek-to-samsung (reject) -- none of their claims could be traced to a document I actually checked.\n3. Weak inferred flows: applied a \"two documented premises\" test to every inferred flow named in the brief. flow:photronics-boise-to-micron (co-location only) and flow:agc-to-mask-shops-euv-blanks (\"illustrative,\" AGC names no customers) are rejected as instructed. flow:air-liquide-arizona-to-tsmc-arizona is also rejected: Air Liquide's release doesn't even name a city within Arizona, and the analyst's own inference_note admits TSMC and Intel \"both fit\" -- an acknowledged coin flip. By contrast flow:linde-phoenix-to-tsmc-arizona and flow:jsr-inpria-to-jsr-micro-korea-mor are kept as publish_flagged: both have two genuinely documented, city/fact-level-specific premises (Linde: Phoenix vs. Intel's Chandler, Arizona, reinforced by a same-customer Taiwan expansion clue found in the source text; JSR: Inpria/Corvallis is documented as the origin of JSR's MOR chemistry and the Korea plant is documented as doing only \"final production,\" an intra-company routing inference where party identity is not in dispute).\n4. flow:sk-siltron-to-sk-hynix-wafers: corrected the description to state explicitly that the KRW 502,707 million figure is SK hynix's total \"Purchase and others\" from SK Siltron (all goods/services, per Note 31's own column headers, confirmed via EDGAR full-text search), not a wafer-specific figure. Kept publish_flagged rather than reject since both parties and the amount are genuinely Tier 1-documented; only the product-specificity needed correcting.\n5. fac:sk-siltron-css-bay-city: rejected on scope grounds, not evidence quality. The DOE Loan Programs Office source (Tier 1) verifies cleanly and is explicit that this plant makes silicon carbide wafers \"for electric vehicle (EV) power electronics\" -- unrelated to AI/logic/memory chips. Sourcing is fine; it simply does not belong on an AI supply chain atlas.\n6. flow:sumco-to-tsmc: verified this layer's own evidence (SUMCO's Sustainability Report naming TSMC's 12-consecutive-year supplier award) independently of the same-ID flow in fabrication.json; both stand on their own and are consistent with each other. Publish.\n7. src:sumco-sr-2026 doc_type \"company_website\": confirmed appropriate -- it is a PDF sustainability report self-published on SUMCO's own domain; the schema has no dedicated report category, and it remains correctly Tier 2 either way.\n8. src:hoya-ir-2025 (HOYA Integrated Report): confirmed this PDF's text extraction is garbled in many places (ligature artifacts like \"oDer\" for \"offer\"). Both quotes actually cited as evidence verify cleanly with no garbling inside the quoted spans, in the correct (Mask Blanks) section of the report; no garbled passage was accepted as evidence.\n9. Entegris's 16%/16%/11% (2025/2024/2023) TSMC concentration and 50%/48%/43% top-ten-customer figures: both confirmed exactly as stated via EDGAR full-text search against the specific FY2025 10-K accession.\n\nRan node scripts/validate.mjs wafers_chemicals -- see final tool output for pass/fail."
+}
