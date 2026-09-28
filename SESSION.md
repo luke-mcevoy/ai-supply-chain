@@ -52,3 +52,11 @@ Research follow-ups raised by counsel (add as sources/evidence, then re-verify):
 Process: counsel may not disguise requests as a browser (docs/COUNSEL.md). SEC access with a declared
 contact User-Agent would remove most "unreachable" results — needs the user's chosen contact.
 Build: company endpoints resolve to a site only when unambiguous; otherwise drawn at HQ (labelled).
+
+## 2026-09-28 (later) — Claude (Opus 5.5): all layers verified, prose audit done
+- Counsel verified all 11 layers. Verified build: 231 sites, 165 routes (117 documented), 152 money flows,
+  53 trade rules, 377 cited sources (229 T1 / 147 T2 / 1 T3); 471 verified + 130 flagged entities; 20 withheld.
+- Prose audit (scripts/audit-numbers.mjs + second-pass counsel): ~108 prose numbers confirmed in sources;
+  1 unsupported xAI Colossus 2 "next phase" figure removed. Remaining audit hits are confirmed cross-references.
+- app/public/atlas.json is now the VERIFIED build (no --draft). Deploy should serve this.
+Pending user go-ahead: git push to origin; redeploy Fly (fly.toml present) from the verified build.

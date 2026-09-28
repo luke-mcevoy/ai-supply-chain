@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-28T22:28:04.772Z",
+ "built_at": "2026-09-28T22:48:31.782Z",
  "draft": false,
  "stats": {
   "layers": {
@@ -9397,11 +9397,11 @@
       "supports": "capacity (cluster 2)"
      }
     ],
-    "note": "Sum of the two disclosed clusters (~210 MW + 220 MW compute power). S-1/A also expects a next phase of 220,000+ GB300 and 400+ additional MW."
+    "note": "Sum of the two disclosed clusters (~210 MW + 220 MW compute power)."
    },
    "start_year": 2025,
-   "review": "verified",
-   "review_note": "Existence, location, and all cited figures (110,000 GB200/~210MW first cluster, 110,000 GB300/~220MW second cluster, Anthropic Cloud Services Agreement) confirmed verbatim against the SpaceX S-1/A via SEC full-text-search exact-phrase match. This directly resolves the analyst's flagged concern about the Colossus GPU counts in the SpaceX S-1/A -- all figures check out exactly as cited.",
+   "review": "flagged",
+   "review_note": "Existence, location, and all cited figures (110,000 GB200/~210MW first cluster, 110,000 GB300/~220MW second cluster, Anthropic Cloud Services Agreement) confirmed verbatim against the SpaceX S-1/A via SEC full-text-search exact-phrase match. Prose audit: capacity.note additionally claimed 'S-1/A also expects a next phase of 220,000+ GB300 and 400+ additional MW' -- this specific forward-looking figure is not supported by any cited evidence. Direct fetch of the S-1/A exhibit and two sibling FWP filings that share its disclosure text (spacexukfwp.htm, japanfwp_06042026.htm, eu_interviewtranscript06.htm) turned up no sentence stating a next-phase GB300 count or additional-MW figure; EDGAR full-text search confirms '220,000' and '400+ additional megawatts' occur somewhere in the filing family but not adjacent to GB300/next-phase language in any retrievable passage, and a plain doubling of the two already-disclosed clusters (110,000+110,000=220,000; ~210+220 MW rounds toward 400+) suggests this may be an extrapolation rather than a disclosed figure. Corrected capacity.note to remove the unconfirmed sentence; downgraded to publish_flagged since the two documented clusters (confirmed) remain solid but this one forward-looking clause could not be substantiated after real effort.",
    "best_tier": 1,
    "source_layer": "datacenter"
   },
