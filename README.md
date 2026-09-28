@@ -37,7 +37,7 @@ To rebuild that file from the research notes:
 
 ```bash
 node scripts/validate.mjs
-node scripts/build.mjs --draft
+node scripts/build.mjs
 ```
 
 Without `--draft`, the build publishes only what verification approved. That is what the live site uses. `--draft` includes unverified research and puts a DRAFT banner on the map; use it only for local development.
