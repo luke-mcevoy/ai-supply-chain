@@ -127,12 +127,14 @@ function resolve(endpoint, hint, otherLayer, side) {
   if (hint && facilities.has(hint)) return { id: hint, how: "hint" };
   const facs = byOperator.get(endpoint) ?? [];
   if (facs.length) {
-    // upstream side prefers the operator's facility in the layer just before the other end; downstream the one after.
+    // Upstream side looks for the operator's site in the stage just before the other end; downstream, just after.
+    // Only resolve when that choice is UNAMBIGUOUS (one candidate in the closest stage). Picking one of several
+    // fabs would put an undocumented site on the map, so ambiguous cases fall back to the company HQ.
     const target = layerIdx(otherLayer) + (side === "from" ? -1 : 1);
-    const ranked = [...facs].sort((a, b) =>
-      Math.abs(layerIdx(a.layer) - target) - Math.abs(layerIdx(b.layer) - target)
-      || (a.status === "operational" ? -1 : 1));
-    return { id: ranked[0].id, how: "operator" };
+    const dist = (f) => Math.abs(layerIdx(f.layer) - target);
+    const best = Math.min(...facs.map(dist));
+    const candidates = facs.filter((f) => dist(f) === best && f.status !== "cancelled");
+    if (candidates.length === 1) return { id: candidates[0].id, how: "operator" };
   }
   if (companies.has(endpoint)) return { id: endpoint, how: "hq" };
   return null;

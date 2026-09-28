@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-28T11:32:26.331Z",
+ "built_at": "2026-09-28T11:37:36.597Z",
  "draft": true,
  "stats": {
   "layers": {
@@ -9,20 +9,20 @@
    "fabrication": "57 published (verified)",
    "finance": "73 published (DRAFT)",
    "materials": "41 published (DRAFT)",
-   "memory_packaging": "47 published (DRAFT)",
+   "memory_packaging": "45 published (verified)",
    "policy": "75 published (verified)",
    "power": "57 published (verified)",
    "systems": "41 published (DRAFT)",
    "wafers_chemicals": "48 published (DRAFT)"
   },
-  "withheld": 9,
+  "withheld": 11,
   "droppedEvidence": 15,
   "unresolvedFlows": 1,
   "counts": {
    "sources": 386,
    "companies": 140,
    "facilities": 233,
-   "flows": 174,
+   "flows": 172,
    "financial_links": 152,
    "controls": 53,
    "gaps": 113
@@ -14414,7 +14414,8 @@
      "supports": "second fab status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and status (under construction, first wafer output mid-2027; second fab planned 2026) verified verbatim against the FQ3 2026 10-Q.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14443,7 +14444,8 @@
      "supports": "existence, location, status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and status verified verbatim (groundbreaking Jan 2026, up to 4 fabs planned).",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14472,7 +14474,8 @@
      "supports": "existence, location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and location verified via the $275M Commerce Dept. direct-funding quote in the 10-K.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14508,7 +14511,8 @@
      "supports": "function"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and modernization status verified verbatim; the exact city name 'Higashihiroshima' is not itself in the quoted text but is undisputed public information about this long-operating fab.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14551,7 +14555,8 @@
      "supports": "function"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, products and significance (majority of DRAM output) verified verbatim; region-level precision is appropriately conservative given filings do not itemize individual Taiwan sites.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14580,7 +14585,8 @@
      "supports": "existence, location, status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, acquisition price ($1.8B from PSMC) and status verified verbatim against the 10-Q.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14609,7 +14615,8 @@
      "supports": "existence, location, status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and status (groundbreaking Jan 2025, capacity from 1H2027) verified verbatim.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14639,7 +14646,8 @@
     }
    ],
    "start_year": 2021,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, products and start year (2021) verified verbatim.",
    "best_tier": 2,
    "source_layer": "memory_packaging"
   },
@@ -14681,7 +14689,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, HBM role and accelerated mass-production status verified verbatim across all 3 cited sources.",
    "best_tier": 2,
    "source_layer": "memory_packaging"
   },
@@ -14722,7 +14731,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, products and construction-status (WT line targeted Oct 2027) verified verbatim across all 3 cited sources.",
    "best_tier": 2,
    "source_layer": "memory_packaging"
   },
@@ -14758,7 +14768,8 @@
      "supports": "status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, products and status verified verbatim.",
    "best_tier": 2,
    "source_layer": "memory_packaging"
   },
@@ -14812,7 +14823,8 @@
      }
     ]
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, products, project type and the $3.87B capacity figure verified verbatim against the NIST CHIPS project page (all wording, including the en-dash in 'Back – end', matches exactly); status corroborated by SK hynix's own FY25 results release.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14847,7 +14859,8 @@
      "supports": "existence, products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location verified verbatim against the current (2026) samsung-locations page; existence/products corroborated by the Business Report's DS Division output disclosure.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14883,7 +14896,8 @@
      "supports": "products"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Location and function ('Chip fabrication') verified verbatim against the current samsung-locations page; products corroborated by the Business Report.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -14918,7 +14932,8 @@
      "supports": "location"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence and location are solidly corroborated by the current (2026) samsung-locations page (address matches exactly). However, the 'products'/function description ('memory packaging and test') rests solely on a BSI 'Letter of Conformance' — itself a preliminary, non-full certification — that expired 27 July 2022, over four years ago, with no newer Tier 1/2 document found establishing current function. Per counsel instruction, publish_flagged at best given no newer source exists; flag the function claim as based on a stale (expired 2022) preliminary certificate.",
    "best_tier": 2,
    "source_layer": "memory_packaging"
   },
@@ -14953,7 +14968,8 @@
      "supports": "products"
     }
    ],
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Existence and location are solidly corroborated by the current (2026) samsung-locations page. The 'products'/function description rests solely on a BSI IATF 16949 Certificate of Registration that expired 30 September 2024, roughly two years ago, with no newer Tier 1/2 document found. Per counsel instruction, publish_flagged given no newer source exists for the function claim.",
    "best_tier": 2,
    "source_layer": "memory_packaging"
   },
@@ -14982,7 +14998,8 @@
      "supports": "existence, location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and exact site address for TSMC AP1 verified word-for-word against the 2025 Annual Report's Contact Information page.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15011,7 +15028,8 @@
      "supports": "existence, location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and exact site address for TSMC AP2 verified word-for-word against the 2025 Annual Report's Contact Information page.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15040,7 +15058,8 @@
      "supports": "existence, location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and exact site address for TSMC AP3 verified word-for-word against the 2025 Annual Report's Contact Information page.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15069,7 +15088,8 @@
      "supports": "existence, location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and exact site address for TSMC AP5 verified word-for-word against the 2025 Annual Report's Contact Information page.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15122,7 +15142,8 @@
      }
     ]
    },
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and exact address verified word-for-word against the Annual Report; products (SoIC/InFO/CoWoS/advanced testing) and the ~1M-wafer-equivalent capacity figure verified verbatim against TSMC's own AP6 opening press release (reached via an indirect fetch method after direct pr.tsmc.com access was blocked — see source_checks).",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15151,7 +15172,8 @@
      "supports": "existence, location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and exact site address for TSMC AP7 verified word-for-word against the 2025 Annual Report's Contact Information page.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15180,7 +15202,8 @@
      "supports": "existence, location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and exact site address for TSMC AP8 verified word-for-word against the 2025 Annual Report's Contact Information page.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15215,7 +15238,8 @@
      "supports": "existence"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Status ('announced', two facilities planned) verified verbatim against the Annual Report's Letter to Shareholders; location intentionally kept at 'region' precision since no specific site is disclosed, consistent with the gaps entry.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15256,7 +15280,8 @@
      "supports": "scale"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location (104-acre Peoria Innovation Core site), scale (750,000+ sq ft cleanroom, largest U.S. OSAT claim) and status verified verbatim across all 3 cited Amkor sources.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15292,7 +15317,8 @@
     }
    ],
    "start_year": 2024,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and 2024 operational start verified verbatim against the 10-K.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15342,7 +15368,8 @@
     }
    ],
    "start_year": 1984,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location, function and HBM-relevant FOCoS technology verified verbatim across all 4 cited passages of the 20-F.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15377,7 +15404,8 @@
      "supports": "location"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and function verified verbatim; region-precision address includes Changhua/Yunlin/Hsinchu which were not independently re-checked, but this does not affect the (already conservative) location precision.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15413,7 +15441,8 @@
     }
    ],
    "start_year": 2025,
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, exact address, status (mass production from Oct 2025) and products verified verbatim against Ibiden's own press release.",
    "best_tier": 2,
    "source_layer": "memory_packaging"
   },
@@ -15443,7 +15472,8 @@
      "supports": "existence, location, function"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence, location and function (key advanced-packaging facility) verified verbatim against the 10-K.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -15472,7 +15502,8 @@
      "supports": "existence, status"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Existence and under-construction status verified verbatim; country-level precision is appropriately conservative since the specific site is not disclosed, consistent with the gaps entry.",
    "best_tier": 1,
    "source_layer": "memory_packaging"
   },
@@ -18557,9 +18588,9 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:supermicro-netherlands",
+   "from_node": "co:supermicro",
    "to_node": "fac:xai-colossus-memphis",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "systems"
   },
   {
@@ -18713,10 +18744,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:amazon-annapurna-labs-austin",
+   "from_node": "co:amazon",
    "to_node": "fac:amazon-rainier-new-carlisle",
-   "resolution": "operator/direct",
-   "from_layer": "design"
+   "resolution": "hq/direct",
+   "from_layer": "datacenter"
   },
   {
    "id": "flow:nvidia-units-to-ports-pike",
@@ -19281,10 +19312,10 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-ap8-tainan",
+   "from_node": "co:tsmc",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "operator/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:tsmc-nvidia-cowos",
@@ -19360,9 +19391,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:sk-hynix-cheongju-m15x",
+   "from_node": "co:sk-hynix",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "memory_packaging"
   },
   {
@@ -19386,9 +19417,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:micron-taiwan-dram-hbm",
+   "from_node": "co:micron",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "memory_packaging"
   },
   {
@@ -19438,9 +19469,9 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:amkor-bac-ninh-vietnam",
+   "from_node": "co:amkor",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "memory_packaging"
   },
   {
@@ -19489,9 +19520,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:foxconn-mount-pleasant",
+   "from_node": "co:foxconn",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "systems"
   },
   {
@@ -19514,9 +19545,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:wistron-juarez",
+   "from_node": "co:wistron",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "systems"
   },
   {
@@ -19617,10 +19648,10 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:samsung-onyang",
+   "from_node": "co:samsung",
    "to_node": "fac:amd-santa-clara-hq",
-   "resolution": "operator/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:tongfu-atmp-jvs-amd",
@@ -19739,9 +19770,9 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:micron-taiwan-dram-hbm",
+   "from_node": "co:micron",
    "to_node": "fac:amd-santa-clara-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "memory_packaging"
   },
   {
@@ -19796,9 +19827,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:spil-taichung",
+   "from_node": "co:ase",
    "to_node": "fac:broadcom-palo-alto-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "memory_packaging"
   },
   {
@@ -19821,9 +19852,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:amkor-bac-ninh-vietnam",
+   "from_node": "co:amkor",
    "to_node": "fac:broadcom-palo-alto-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "memory_packaging"
   },
   {
@@ -19871,9 +19902,9 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:foxconn-mount-pleasant",
+   "from_node": "co:foxconn",
    "to_node": "fac:broadcom-palo-alto-hq",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "systems"
   },
   {
@@ -19896,10 +19927,10 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-ap8-tainan",
+   "from_node": "co:tsmc",
    "to_node": "fac:broadcom-palo-alto-hq",
-   "resolution": "operator/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:broadcom-openai-custom-accelerators",
@@ -20034,10 +20065,10 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-ap8-tainan",
+   "from_node": "co:tsmc",
    "to_node": "fac:microsoft-redmond-hq",
-   "resolution": "operator/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:tsmc-meta-mtia",
@@ -20059,10 +20090,10 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:tsmc-ap8-tainan",
+   "from_node": "co:tsmc",
    "to_node": "fac:meta-menlo-park-hq",
-   "resolution": "operator/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:zeiss-oberkochen-to-asml-veldhoven",
@@ -20277,8 +20308,8 @@
    "layer": "equipment",
    "source_layer": "equipment",
    "from_node": "co:ichor",
-   "to_node": "fac:applied-materials-rehovot",
-   "resolution": "hq/operator",
+   "to_node": "co:applied-materials",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20302,8 +20333,8 @@
    "layer": "equipment",
    "source_layer": "equipment",
    "from_node": "co:ichor",
-   "to_node": "fac:asml-pyeongtaek",
-   "resolution": "hq/operator",
+   "to_node": "co:asml",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20378,8 +20409,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "fac:asml-veldhoven",
-   "to_node": "fac:tsmc-jasm-kumamoto",
-   "resolution": "hint/operator",
+   "to_node": "co:tsmc",
+   "resolution": "hint/hq",
    "from_layer": "equipment"
   },
   {
@@ -20408,9 +20439,9 @@
    "best_tier": 2,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:applied-materials-rehovot",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "from_node": "co:applied-materials",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20439,9 +20470,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:lam-research-yongin",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "from_node": "co:lam-research",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20464,9 +20495,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:lam-research-yongin",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "operator/operator",
+   "from_node": "co:lam-research",
+   "to_node": "co:samsung",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20495,9 +20526,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:kla-ann-arbor",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "from_node": "co:kla",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20532,9 +20563,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:shin-etsu-naoetsu",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "from_node": "co:shin-etsu",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -20582,8 +20613,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "fac:sumco-kyushu-imari",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "to_node": "co:tsmc",
+   "resolution": "operator/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -20612,9 +20643,9 @@
    "best_tier": 2,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:jsr-yokkaichi",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "from_node": "co:jsr",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -20643,9 +20674,9 @@
    "best_tier": 2,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:screen-taga",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "from_node": "co:screen",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20675,8 +20706,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "co:canon",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20706,8 +20737,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "co:merck-kgaa",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -20737,8 +20768,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "co:resonac",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -20768,8 +20799,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "co:kokusai-electric",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20799,8 +20830,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "co:ebara",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hq/operator",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20823,9 +20854,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
-   "to_node": "fac:intel-new-mexico-packaging",
-   "resolution": "operator/operator",
+   "from_node": "co:asml",
+   "to_node": "co:intel",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20855,9 +20886,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
+   "from_node": "co:asml",
    "to_node": "fac:intel-oregon",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "equipment"
   },
   {
@@ -20887,9 +20918,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
+   "from_node": "co:asml",
    "to_node": "fac:intel-arizona",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "equipment"
   },
   {
@@ -20919,9 +20950,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:asml-pyeongtaek",
+   "from_node": "co:asml",
    "to_node": "fac:intel-ireland",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "equipment"
   },
   {
@@ -21188,9 +21219,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:siltronic-burghausen",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "operator/operator",
+   "from_node": "co:siltronic",
+   "to_node": "co:samsung",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -21213,9 +21244,9 @@
    "best_tier": 1,
    "layer": "fabrication",
    "source_layer": "fabrication",
-   "from_node": "fac:sk-siltron-css-bay-city",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "operator/operator",
+   "from_node": "co:sk-siltron",
+   "to_node": "co:samsung",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -21245,8 +21276,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "co:soulbrain",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "hq/operator",
+   "to_node": "co:samsung",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -21270,8 +21301,8 @@
    "layer": "fabrication",
    "source_layer": "fabrication",
    "from_node": "co:dongwoo-fine-chem",
-   "to_node": "fac:samsung-onyang",
-   "resolution": "hq/operator",
+   "to_node": "co:samsung",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -21300,9 +21331,9 @@
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
-   "from_node": "fac:wacker-charleston",
+   "from_node": "co:wacker",
    "to_node": "fac:siltronic-burghausen",
-   "resolution": "operator/hint",
+   "resolution": "hq/hint",
    "from_layer": "materials"
   },
   {
@@ -21458,8 +21489,8 @@
    "layer": "materials",
    "source_layer": "materials",
    "from_node": "fac:hemlock-hemlock-mi",
-   "to_node": "fac:shin-etsu-naoetsu",
-   "resolution": "direct/operator",
+   "to_node": "co:shin-etsu",
+   "resolution": "direct/hq",
    "from_layer": "materials"
   },
   {
@@ -21488,9 +21519,9 @@
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
-   "from_node": "fac:wacker-charleston",
-   "to_node": "fac:shin-etsu-naoetsu",
-   "resolution": "operator/operator",
+   "from_node": "co:wacker",
+   "to_node": "co:shin-etsu",
+   "resolution": "hq/hq",
    "from_layer": "materials"
   },
   {
@@ -21549,9 +21580,9 @@
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
-   "from_node": "fac:wacker-charleston",
+   "from_node": "co:wacker",
    "to_node": "fac:sumco-kyushu-imari",
-   "resolution": "operator/operator",
+   "resolution": "hq/operator",
    "from_layer": "materials"
   },
   {
@@ -21580,9 +21611,9 @@
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
-   "from_node": "fac:wacker-charleston",
-   "to_node": "fac:globalwafers-memc-st-peters",
-   "resolution": "operator/operator",
+   "from_node": "co:wacker",
+   "to_node": "co:globalwafers",
+   "resolution": "hq/hq",
    "from_layer": "materials"
   },
   {
@@ -21611,9 +21642,9 @@
    "best_tier": 1,
    "layer": "materials",
    "source_layer": "materials",
-   "from_node": "fac:wacker-charleston",
-   "to_node": "fac:sk-siltron-css-bay-city",
-   "resolution": "operator/operator",
+   "from_node": "co:wacker",
+   "to_node": "co:sk-siltron",
+   "resolution": "hq/hq",
    "from_layer": "materials"
   },
   {
@@ -21662,13 +21693,14 @@
      "supports": "relationship, commodity"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Both parties and the specific relationship (SK hynix adopting TSMC's logic process for the HBM4 base die) are named explicitly in SK hynix's own April 19, 2024 MOU release; quote verified verbatim.",
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-jasm-kumamoto",
-   "to_node": "fac:sk-hynix-cheongju-m15x",
-   "resolution": "operator/operator",
+   "from_node": "co:tsmc",
+   "to_node": "co:sk-hynix",
+   "resolution": "hq/hq",
    "from_layer": "fabrication"
   },
   {
@@ -21698,13 +21730,14 @@
      "supports": "role of HBM in CoWoS"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Both parties named explicitly, including a TSMC-attributed quote confirming the existing relationship; all 3 evidence items verified verbatim.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:sk-hynix-cheongju-m15x",
-   "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "operator/operator",
+   "from_node": "co:sk-hynix",
+   "to_node": "co:tsmc",
+   "resolution": "hq/hq",
    "from_layer": "memory_packaging"
   },
   {
@@ -21729,13 +21762,14 @@
     }
    ],
    "from_hint": "fac:tsmc-fab21-arizona",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Both parties and the specific arrangement (TSMC contracting turnkey packaging from Amkor's Peoria facility to serve Phoenix fab customers) named explicitly in the joint MOU announcement; verified verbatim.",
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-jasm-kumamoto",
+   "from_node": "co:tsmc",
    "to_node": "fac:amkor-peoria-az",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "fabrication"
   },
   {
@@ -21759,15 +21793,16 @@
      "supports": "role of HBM in CoWoS"
     }
    ],
-   "from_hint": "fac:tsmc-fab18-tainan",
+   "from_hint": null,
    "inference_note": "TSMC states AP6 integrates front-end and back-end 3DFabric processes and that CoWoS integrates SoC chips with HBM [TSMC AR 2025, AP6 release]; TSMC's leading-edge logic is fabricated in its wafer fabs (e.g., Fab 18, Southern Taiwan Science Park, 3nm per 20-F). No document maps a specific wafer fab to AP6 ⇒ Fab 18 → AP6 is inferred.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Intra-TSMC inference with two documented premises (AP6's own stated front-to-back 3DFabric integration role; CoWoS's documented SoC+HBM integration). The general TSMC-self-supply claim is reasonable and appropriately marked inferred, but the specific 'from_hint: fac:tsmc-fab18-tainan' attribution is unsupported by any cited evidence (no document names Fab 18 specifically as AP6's wafer source). Publish flagged; treat the Fab-18 hint as illustrative, not established. CORRECTION: from_hint cleared (set to null) — the build draws the route from from_hint, so leaving the unsupported 'fac:tsmc-fab18-tainan' guess in place would put an undocumented fab on the public map. The from/to endpoints (co:tsmc → the AP facility) remain as inferred.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-fab18-tainan",
+   "from_node": "co:tsmc",
    "to_node": "fac:tsmc-ap6-zhunan",
-   "resolution": "hint/direct",
+   "resolution": "hq/direct",
    "from_layer": "fabrication"
   },
   {
@@ -21791,15 +21826,16 @@
      "supports": "role of HBM in CoWoS"
     }
    ],
-   "from_hint": "fac:tsmc-fab18-tainan",
+   "from_hint": null,
    "inference_note": "AP8 and Fab 18 are both in the Tainan area [TSMC AR 2025 contact list]; CoWoS integrates TSMC-made SoC dies with HBM [TSMC AR 2025]. The specific wafer-fab-to-AP8 routing is not disclosed ⇒ inferred by proximity and function.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Weaker version of the AP6 flow: the inference rests partly on geographic proximity ('both in the Tainan area'), which is not itself a documented operational relationship. The general TSMC-self-supply claim is still plausible (intra-company), but the Fab-18-specific attribution is speculative. Publish flagged with the same caveat as the AP6 flow. CORRECTION: from_hint cleared (set to null) — the build draws the route from from_hint, so leaving the unsupported 'fac:tsmc-fab18-tainan' guess in place would put an undocumented fab on the public map. The from/to endpoints (co:tsmc → the AP facility) remain as inferred.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:tsmc-fab18-tainan",
+   "from_node": "co:tsmc",
    "to_node": "fac:tsmc-ap8-tainan",
-   "resolution": "hint/direct",
+   "resolution": "hq/direct",
    "from_layer": "fabrication"
   },
   {
@@ -21824,7 +21860,8 @@
     }
    ],
    "inference_note": "SK hynix describes M15X as optimized for HBM production and P&T7 as a dedicated HBM advanced packaging fab adjacent to M15X in Cheongju; no document states M15X wafers go to P&T7 specifically ⇒ inferred.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Intra-SK-hynix inference from two documented premises (M15X's stated HBM optimization; P&T7's stated dedicated HBM packaging role, co-located in the same complex). Reasonable and already correctly marked inferred with a sound inference_note.",
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
@@ -21856,7 +21893,8 @@
    ],
    "from_hint": "fac:sk-hynix-icheon-m16",
    "inference_note": "The Indiana project is a back-end/packaging line [NIST]; SK hynix's DRAM fabs are in Korea [SK hynix]. No US SK hynix DRAM fab is documented ⇒ DRAM wafers must be supplied from Korean fabs; the specific source fab is undisclosed.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Sound elimination-style inference: Indiana is documented as back-end-only, and SK hynix's DRAM fabs are documented to be in Korea. Specific origin fab (hinted as Icheon M16) is undisclosed and correctly marked as such.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
@@ -21887,45 +21925,14 @@
     }
    ],
    "inference_note": "Micron states most DRAM output is from Taiwan fabs and that Singapore will host an HBM advanced packaging facility; Micron's Singapore wafer fabs are NAND per its filings. The DRAM-wafer route Taiwan → Singapore is deduced, not disclosed.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Sound elimination-style inference: majority DRAM output documented in Taiwan; Singapore's existing wafer fabs are NAND per Micron's own filings, so DRAM for the new HBM packaging site must originate elsewhere. Reasonable and already correctly marked inferred.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
    "from_node": "fac:micron-taiwan-dram-hbm",
    "to_node": "fac:micron-singapore-hbm-packaging",
    "resolution": "direct/direct",
-   "from_layer": "memory_packaging"
-  },
-  {
-   "id": "flow:micron-hbm-to-tsmc-cowos",
-   "from": "fac:micron-taiwan-dram-hbm",
-   "to": "co:tsmc",
-   "commodity": "HBM3E stacks",
-   "description": "Micron HBM3E ships into GPU platforms assembled on TSMC CoWoS; the handoff to TSMC is not named in a Micron or TSMC document.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:micron-10k-fy2025",
-     "quote": "In the fourth quarter of 2025, HBM3E 12-high represented the majority of our HBM shipments.",
-     "locator": "Item 1. Business — CMBU",
-     "supports": "Micron HBM3E production"
-    },
-    {
-     "source": "src:tsmc-annual-report-2025",
-     "quote": "CoWoS® advanced packaging service integrates multiple system-on-chip (SoC) chips and the high-bandwidth memory (HBM) stacks to enhance HPC products with superior compute power and memory bandwidth.",
-     "locator": "Technology Development / Advanced Packaging, p.53 (PDF)",
-     "supports": "role of HBM in CoWoS"
-    }
-   ],
-   "to_hint": "fac:tsmc-ap6-zhunan",
-   "inference_note": "Micron produces HBM3E [10-K]; TSMC's CoWoS integrates SoC dies with HBM stacks [TSMC AR 2025]. Neither company names the other in these documents ⇒ inferred. Micron's Taiwan operations are used as origin because Micron discloses Taiwan DRAM/HBM production expansion.",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "memory_packaging",
-   "source_layer": "memory_packaging",
-   "from_node": "fac:micron-taiwan-dram-hbm",
-   "to_node": "fac:tsmc-ap6-zhunan",
-   "resolution": "direct/hint",
    "from_layer": "memory_packaging"
   },
   {
@@ -21950,7 +21957,8 @@
     }
    ],
    "from_hint": "fac:intel-oregon",
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Both the general fab-to-assembly relationship and the specific origin fabs (Oregon, Arizona, Ireland, Israel) are named explicitly in Intel's own 10-K; verified verbatim.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
@@ -21981,7 +21989,8 @@
     }
    ],
    "inference_note": "Samsung's memory is produced mainly at Hwaseong and Pyeongtaek [Business Report]; Onyang is a Test & System Package site manufacturing memory components and modules [IATF certificate on Samsung site]. Routing between specific sites, and HBM-specific stacking at Onyang, are not disclosed in Tier 1/2 documents ⇒ inferred.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Intra-Samsung inference from documented memory-fab concentration (Hwaseong/Pyeongtaek) and Onyang's documented (but stale-certificate-sourced — see fac:samsung-onyang) packaging function. Reasonable but inherits the underlying staleness caveat of its destination facility.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
@@ -22011,13 +22020,14 @@
      "supports": "relationship (AMD confirms)"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Both parties and the specific product (HBM3E 36GB 12-high in MI350) named explicitly in a joint Micron/AMD-quoted release; quote verified verbatim and cross-checked against the official Micron IR copy.",
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
    "from_node": "fac:micron-taiwan-dram-hbm",
-   "to_node": "fac:amd-markham",
-   "resolution": "direct/operator",
+   "to_node": "co:amd",
+   "resolution": "direct/hq",
    "from_layer": "memory_packaging"
   },
   {
@@ -22035,13 +22045,14 @@
      "supports": "relationship, commodity"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Both parties and the specific product named explicitly in Micron's release; verified verbatim and cross-checked against the official Micron IR copy.",
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
    "from_node": "fac:micron-taiwan-dram-hbm",
-   "to_node": "fac:nvidia-israel-rd",
-   "resolution": "direct/operator",
+   "to_node": "co:nvidia",
+   "resolution": "direct/hq",
    "from_layer": "memory_packaging"
   },
   {
@@ -22071,45 +22082,14 @@
      "supports": "supply commitment"
     }
    ],
-   "review": "unverified",
+   "review": "verified",
+   "review_note": "Both parties and the specific relationship (SK hynix HBM4 powering NVIDIA Vera Rubin for SK Telecom's AI cloud, plus a separate long-term AI memory partnership) named explicitly and jointly announced (quotes Jensen Huang); dateline confirmed as the flagged July 2026 release. All 3 evidence items verified verbatim.",
    "best_tier": 2,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:sk-hynix-cheongju-m15x",
-   "to_node": "fac:nvidia-israel-rd",
-   "resolution": "operator/operator",
-   "from_layer": "memory_packaging"
-  },
-  {
-   "id": "flow:ibiden-ono-to-tsmc-cowos",
-   "from": "fac:ibiden-ono",
-   "to": "co:tsmc",
-   "commodity": "IC package substrates for AI servers",
-   "description": "AI-server IC substrates from Ibiden's Ono plant into CoWoS-class module assembly.",
-   "basis": "inferred",
-   "evidence": [
-    {
-     "source": "src:ibiden-ono-2025",
-     "quote": "Advanced IC Package Substrates (for AI servers and networking)",
-     "locator": "Overview and Features of the Ono Plant",
-     "supports": "product"
-    },
-    {
-     "source": "src:tsmc-annual-report-2025",
-     "quote": "CoWoS®-L advanced packaging service enables larger HPC products by combining Chip on Wafer on Substrate with RDL-based interposer",
-     "locator": "Technology Development, p.53 (PDF)",
-     "supports": "CoWoS uses a package substrate"
-    }
-   ],
-   "to_hint": "fac:tsmc-ap6-zhunan",
-   "inference_note": "Ibiden makes advanced IC package substrates for AI servers [Ibiden]; TSMC's CoWoS mounts chip-on-wafer assemblies on a package substrate [TSMC AR 2025]. Neither document names the other party, and the substrate may be attached by TSMC or by a downstream OSAT ⇒ inferred, illustrative only.",
-   "review": "unverified",
-   "best_tier": 1,
-   "layer": "memory_packaging",
-   "source_layer": "memory_packaging",
-   "from_node": "fac:ibiden-ono",
-   "to_node": "fac:tsmc-ap6-zhunan",
-   "resolution": "direct/hint",
+   "from_node": "co:sk-hynix",
+   "to_node": "co:nvidia",
+   "resolution": "hq/hq",
    "from_layer": "memory_packaging"
   },
   {
@@ -22135,7 +22115,8 @@
    ],
    "from_hint": "fac:samsung-hwaseong",
    "inference_note": "Samsung discloses in-house 4nm HBM4 base-die production [Business Report] and that Onyang is a Test & System Package site for memory [IATF certificate]. Which Samsung site stacks HBM4 on these base dies is not in Tier 1/2 sources ⇒ destination inferred.",
-   "review": "unverified",
+   "review": "flagged",
+   "review_note": "Intra-Samsung inference: in-house 4nm HBM4 base-die production is well documented, and Onyang's packaging function is documented (via the stale certificate flagged elsewhere). No document identifies Onyang specifically as the HBM4 stacking site (vs. Hwaseong or elsewhere), so the destination is speculative even by intra-company standards; flagged accordingly in addition to the inherited staleness caveat.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
@@ -22177,8 +22158,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:constellation-crane",
-   "to_node": "fac:microsoft-fairwater-atlanta",
-   "resolution": "direct/operator",
+   "to_node": "co:microsoft",
+   "resolution": "direct/hq",
    "from_layer": "power"
   },
   {
@@ -22227,8 +22208,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:constellation-clinton",
-   "to_node": "fac:meta-hyperion-richland-parish",
-   "resolution": "direct/operator",
+   "to_node": "co:meta",
+   "resolution": "direct/hq",
    "from_layer": "power"
   },
   {
@@ -22291,8 +22272,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:talen-susquehanna",
-   "to_node": "fac:amazon-rainier-new-carlisle",
-   "resolution": "direct/operator",
+   "to_node": "co:amazon",
+   "resolution": "direct/hq",
    "from_layer": "power"
   },
   {
@@ -22322,8 +22303,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:nextera-duane-arnold",
-   "to_node": "fac:google-armstrong-county",
-   "resolution": "direct/operator",
+   "to_node": "co:alphabet",
+   "resolution": "direct/hq",
    "from_layer": "power"
   },
   {
@@ -22354,8 +22335,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:kairos-hermes-2",
-   "to_node": "fac:google-armstrong-county",
-   "resolution": "direct/operator",
+   "to_node": "co:alphabet",
+   "resolution": "direct/hq",
    "from_layer": "power"
   },
   {
@@ -22385,8 +22366,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:energy-northwest-cascade",
-   "to_node": "fac:amazon-rainier-new-carlisle",
-   "resolution": "direct/operator",
+   "to_node": "co:amazon",
+   "resolution": "direct/hq",
    "from_layer": "power"
   },
   {
@@ -22896,8 +22877,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:nisource-genco-ccgt",
-   "to_node": "fac:amazon-rainier-new-carlisle",
-   "resolution": "direct/operator",
+   "to_node": "co:amazon",
+   "resolution": "direct/hq",
    "from_layer": "power"
   },
   {
@@ -22970,9 +22951,9 @@
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:nvidia-israel-rd",
+   "from_node": "co:nvidia",
    "to_node": "fac:foxconn-houston",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "design"
   },
   {
@@ -23000,9 +22981,9 @@
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:nvidia-israel-rd",
+   "from_node": "co:nvidia",
    "to_node": "fac:wistron-fort-worth",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "design"
   },
   {
@@ -23024,9 +23005,9 @@
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:foxconn-mount-pleasant",
+   "from_node": "co:foxconn",
    "to_node": "fac:nvidia-israel-networking",
-   "resolution": "operator/operator",
+   "resolution": "hq/operator",
    "from_layer": "systems"
   },
   {
@@ -23048,9 +23029,9 @@
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:wistron-juarez",
+   "from_node": "co:wistron",
    "to_node": "fac:nvidia-israel-networking",
-   "resolution": "operator/operator",
+   "resolution": "hq/operator",
    "from_layer": "systems"
   },
   {
@@ -23103,9 +23084,9 @@
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:nvidia-israel-rd",
+   "from_node": "co:nvidia",
    "to_node": "fac:supermicro-san-jose",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "design"
   },
   {
@@ -23133,9 +23114,9 @@
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:nvidia-israel-rd",
+   "from_node": "co:nvidia",
    "to_node": "co:hpe",
-   "resolution": "operator/hq",
+   "resolution": "hq/hq",
    "from_layer": "design"
   },
   {
@@ -23164,9 +23145,9 @@
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:nvidia-israel-rd",
+   "from_node": "co:nvidia",
    "to_node": "co:dell",
-   "resolution": "operator/hq",
+   "resolution": "hq/hq",
    "from_layer": "design"
   },
   {
@@ -23260,9 +23241,9 @@
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:foxconn-mount-pleasant",
+   "from_node": "co:foxconn",
    "to_node": "co:arista",
-   "resolution": "operator/hq",
+   "resolution": "hq/hq",
    "from_layer": "systems"
   },
   {
@@ -23316,9 +23297,9 @@
    "best_tier": 1,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:nvidia-israel-rd",
+   "from_node": "co:nvidia",
    "to_node": "fac:foxconn-el-salto-jalisco",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "design"
   },
   {
@@ -23347,9 +23328,9 @@
    "best_tier": 2,
    "layer": "systems",
    "source_layer": "systems",
-   "from_node": "fac:nvidia-israel-rd",
+   "from_node": "co:nvidia",
    "to_node": "fac:wistron-fort-worth-mobility-way",
-   "resolution": "operator/direct",
+   "resolution": "hq/direct",
    "from_layer": "design"
   },
   {
@@ -23654,9 +23635,9 @@
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
-   "from_node": "fac:shin-etsu-naoetsu",
+   "from_node": "co:shin-etsu",
    "to_node": "fac:globalfoundries-fab8-malta",
-   "resolution": "operator/hint",
+   "resolution": "hq/hint",
    "from_layer": "wafers_chemicals"
   },
   {

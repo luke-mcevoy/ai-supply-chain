@@ -1,0 +1,1171 @@
+{
+  "layer": "memory_packaging",
+  "verifier": "claude-sonnet-5 (memory_packaging counsel)",
+  "verified_at": "2026-09-28",
+  "source_checks": [
+    {
+      "source": "src:micron-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov direct fetch blocked (403 'Undeclared Automated Tool'); verified via EDGAR full-text search (efts.sec.gov) — all cited quotes match uniquely to accession 0000723125-25-000028, and data.sec.gov/submissions confirms filingDate 2025-10-03 = recorded document_date."
+    },
+    {
+      "source": "src:micron-10q-fq3-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Same method as above. All quotes matched accession 0000723125-26-000015 via EDGAR FTS; filingDate 2026-06-25 confirmed via data.sec.gov, matches document_date."
+    },
+    {
+      "source": "src:tsmc-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked directly; verified via EDGAR FTS (quote matched accession 0001628280-26-025362) and data.sec.gov/submissions (CIK 0001046179): filingDate 2026-04-16 = document_date, reportDate 2025-12-31."
+    },
+    {
+      "source": "src:tsmc-annual-report-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": false,
+      "notes": "PDF fetched (6.9MB, 98 pages) and converted with pdftotext; all cited facility addresses and the CoWoS/Arizona quotes verified verbatim (e.g. all 7 Advanced Backend Fab addresses match the Contact Information section exactly, including AP8's unusual 'Tainan City,744-010' comma spacing). DOCUMENT_DATE ISSUE: source lists document_date as bare '2026' with no month/day. The PDF itself contains no explicit cover-page publication date; PDF metadata shows CreationDate 2026-05-06, ModDate 2026-05-21; content includes 'As of 02/28/2026' data cutoffs and references a still-future '2026 AGM Shareholder's Meeting' (the 2025 AGM was held June 3, 2025, per the document). Best estimate for actual publication is ~2026-05, not simply '2026'. date_ok=false: too imprecise to confirm within a few days as COUNSEL.md requires. Recommend the analyst record 'circa 2026-05' or find TSMC's explicit AR publication date. Underlying content is authentic and accurately quoted regardless."
+    },
+    {
+      "source": "src:tsmc-pr-ap6-2023",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Direct curl to pr.tsmc.com returned 403. Retrieved via a fetch-and-summarize tool instead, which returned the cited quotes verbatim in quotation marks ('flexibly allocate capacity for TSMC 3DFabric... SoIC, InFO, CoWoS and advanced testing' and 'more than 1 million 12-inch wafer equivalent... more than 10 million hours of testing services per year') and confirmed publication date June 8, 2023, matching document_date. Lower confidence than a direct fetch since a summarizing tool was used, but the returned text matches the research file's quotes exactly, so treated as reachable/verified."
+    },
+    {
+      "source": "src:amkor-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked directly; verified via EDGAR FTS (all quotes matched accession 0001047127-26-000014, apostrophe-normalization needed for one quote) and data.sec.gov (filingDate 2026-02-20 = document_date, reportDate 2025-12-31)."
+    },
+    {
+      "source": "src:amkor-tsmc-mou-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "amkor.com reachable directly. Both cited quotes verified verbatim; dateline 'October 3, 2024' matches document_date."
+    },
+    {
+      "source": "src:amkor-peoria-site-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "amkor.com reachable directly. Quote verified verbatim; dateline 'August 28, 2025' matches document_date."
+    },
+    {
+      "source": "src:amkor-peoria-groundbreaking-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "amkor.com reachable directly. Quote verified verbatim; dateline 'October 6, 2025' matches document_date exactly."
+    },
+    {
+      "source": "src:intel-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked directly; verified via EDGAR FTS (all 3 quotes matched accession 0000050863-26-000011) and data.sec.gov (filingDate 2026-01-23 = document_date)."
+    },
+    {
+      "source": "src:nist-chips-sk-hynix-indiana",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "nist.gov reachable directly. All 3 cited quotes (including the capacity.evidence item) verified verbatim, including exact en-dash spacing in 'Back – end'. Note: this is a live government project page, not a dated static document — content could drift after access, but it matched at time of verification."
+    },
+    {
+      "source": "src:skhynix-m15x-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. All 3 quotes verified verbatim including the 'top tier semiconductor supplier' company boilerplate."
+    },
+    {
+      "source": "src:skhynix-sites-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. Both quotes verified verbatim."
+    },
+    {
+      "source": "src:skhynix-pt7-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. All 3 quotes verified verbatim, including the WT-line October 2027 completion target."
+    },
+    {
+      "source": "src:skhynix-fy25-results",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. Quote verified verbatim; dateline 'Seoul, January 28, 2026' matches document_date."
+    },
+    {
+      "source": "src:skhynix-2q26-results",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. All 3 quotes (LTA ~10 customers, M15X acceleration, Yongin Phase 1) verified verbatim."
+    },
+    {
+      "source": "src:skhynix-tsmc-mou-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. All 3 quotes verified verbatim, including the Dr. Kevin Zhang (TSMC) attributed quote; dateline 'Seoul, April 19, 2024' matches document_date. This is the April 2024 SK hynix x TSMC HBM4 agreement flagged for special review — confirmed as a genuine, jointly-announced MOU naming both parties and their respective roles (SK hynix adopts TSMC logic process for HBM4 base die; joint CoWoS/HBM integration optimization)."
+    },
+    {
+      "source": "src:samsung-locations",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "semiconductor.samsung.com reachable directly. All cited addresses (Pyeongtaek, Hwaseong, Cheonan) verified verbatim in the page's location listing, including 'Chip fabrication' label for Hwaseong. This live page also independently lists the Onyang address, corroborating that facility's existence/location with a current (2026) source even though the Onyang facility's function evidence is a stale certificate (see entity verdict)."
+    },
+    {
+      "source": "src:samsung-business-report-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "images.samsung.com reachable directly (10.5MB PDF, 358 pages). Title page confirms 'SAMSUNG ELECTRONICS Co., Ltd. 2025 Business Report / For the year ended December 31, 2025' — despite the URL filename '2025_4Q_Interim_Report.pdf' being misleading, the document itself is genuinely the statutory annual Business Report (DART-style), so doc_type_ok=true. All 3 cited quotes verified verbatim (Korea site list, DS Division memory output figure, HBM4 base-die mass production). Minor locator imprecision: two quotes cited as 'PDF p.25'/'PDF p.42' actually fall on PDF pages 24 and 41 per the document's own running footer (off by one throughout) — immaterial, quotes are exact. document_date recorded as '2026-03' (no day); no explicit filing date found in the extracted text, but this is consistent with the ~90-day statutory filing deadline after a Dec 31, 2025 FYE. PDF metadata shows the English-translation file itself was generated 2026-04-21, later than the likely original Korean DART filing — treated as date_ok=true given the coarse-but-plausible month-level precision, but flagging the gap between statutory filing date and translated-PDF generation date for the record."
+    },
+    {
+      "source": "src:samsung-2q26-results",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.samsung.com reachable directly. Quote verified verbatim (with the research file's excerpt correctly truncating mid-sentence, not distorting meaning); dateline 'Korea on July 30, 2026' matches document_date."
+    },
+    {
+      "source": "src:samsung-onyang-iatf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "download.semiconductor.samsung.com reachable directly (PDF). Both quotes verified verbatim. STALENESS: this BSI IATF 16949 Certificate of Registration shows Certification Date 2021-10-01, Latest Issue 2022-10-21 (= recorded document_date, correct), and Expiry Date 2024-09-30 — the certificate has been expired for roughly two years as of today (2026-09-28). No newer certificate or Tier 1/2 document establishing Onyang's current QMS/function status was found. Existence and location are independently corroborated by the current (2026) samsung-locations page, but the 'function' claim (memory/foundry device packaging and test) rests solely on this expired certificate. See facility entity verdict (publish_flagged)."
+    },
+    {
+      "source": "src:samsung-cheonan-iatf",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "download.semiconductor.samsung.com reachable directly (PDF). Both quotes verified verbatim. STALENESS (worse than Onyang): this is a 'Letter of Conformance' — BSI's own text states it is issued to 'a site with less than 12 months records' as a preliminary conformity letter, not a full certification — with Effective Date 28 July 2021 and Expiry Date 27 July 2022 (= recorded document_date matches 'Originally Registration Date'). It has been expired for over four years and was never a full IATF certificate. Existence/location corroborated by current samsung-locations page; the function claim rests solely on this long-expired, preliminary letter. See facility entity verdict (publish_flagged)."
+    },
+    {
+      "source": "src:micron-pr-amd-hbm3e-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Nasdaq.com copy reachable directly (156KB). Both quotes verified verbatim in the GLOBE NEWSWIRE-attributed text ('BOISE, Idaho, June 12, 2025 (GLOBE NEWSWIRE)...'). CROSS-CHECKED against the official Micron investor-relations copy (investors.micron.com) via a separate fetch: headline, dateline, and opening paragraph text match word-for-word. The Nasdaq/GlobeNewswire copy is a faithful reproduction of the official release; the analyst's use of it (because Micron IR blocks scripted access) is sound."
+    },
+    {
+      "source": "src:micron-pr-hbm3e-h200-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Nasdaq.com copy reachable directly (156KB). Quote verified verbatim ('BOISE, Idaho, Feb. 26, 2024 (GLOBE NEWSWIRE)...'). CROSS-CHECKED against the official Micron IR copy via a separate fetch: headline, dateline, and the H200/24GB 8H quote match word-for-word. Faithful reproduction confirmed."
+    },
+    {
+      "source": "src:micron-8k-fq3-2026-pr",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked directly; verified via EDGAR FTS (quote matched uniquely to accession 0000723125-26-000013) and data.sec.gov (filingDate 2026-06-24 = document_date). The HBM4 'lead customer' quote does not name the customer anywhere in the filing; the research file correctly labels the support as '(counterparties unnamed)' rather than implying an identity."
+    },
+    {
+      "source": "src:skhynix-sk-nvidia-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. Both quotes verified verbatim; dateline 'Seoul, July 25, 2026' matches document_date exactly. This is the flagged July 2026 SK hynix x NVIDIA Vera Rubin release — confirmed genuine and jointly-attributed (quotes Jensen Huang), names both parties and the HBM4/Vera Rubin relationship explicitly, and separately discloses (without naming terms) a long-term AI memory supply partnership."
+    },
+    {
+      "source": "src:skhynix-nvidia-multiyear-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "news.skhynix.com reachable directly. Quote verified verbatim; dateline 'Seoul, June 08, 2026' matches document_date exactly."
+    },
+    {
+      "source": "src:ase-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "www.sec.gov blocked directly; verified via EDGAR FTS (all 3 quotes matched accession 0001193125-26-135585) and data.sec.gov (CIK 0001122411: filingDate 2026-04-01 = document_date, reportDate 2025-12-31)."
+    },
+    {
+      "source": "src:ibiden-ono-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "ibiden.com reachable directly. All cited quotes verified verbatim, including the facility overview table entry 'Advanced IC Package Substrates (for AI servers and networking)' and the exact street address."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "entity": "co:micron",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:micron",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:micron",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:sk-hynix",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:sk-hynix",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:sk-hynix",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:samsung",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Supports general existence/operations; the more precise HQ street address (129, Samsung-ro, Yeongtong-gu, Suwon-si) appears elsewhere in the same Business Report (Corporate Overview, Item 1C) but was not the line quoted here. Location field is 'city' precision so this is adequate."
+    },
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:tsmc",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:amkor",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:amkor",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Confirms 'Arizona and Singapore' as executive office locations; does not name Tempe specifically, but Amkor's Tempe, AZ headquarters is stated on the 10-K cover page and is uncontested public fact. hq precision is 'city'."
+    },
+    {
+      "entity": "co:intel",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote establishes existence and assembly/test footprint; does not itself state the Santa Clara HQ (that appears on the 10-K cover page). Santa Clara HQ is uncontested public fact and hq precision is 'city'."
+    },
+    {
+      "entity": "co:ase",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Establishes corporate structure/existence, not the HQ street address directly; the HQ address matches the co-located fac:ase-kaohsiung facility address, which is independently evidenced in that facility's own evidence array."
+    },
+    {
+      "entity": "co:ibiden",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "co:nvidia",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Sourced from a counterparty's (SK hynix) press-release boilerplate, not an NVIDIA primary document. Adequate to support bare existence for this layer's purpose (NVIDIA is a flow endpoint here, not a facility this layer profiles); NVIDIA's own layer is 'design', where fuller verification presumably occurs."
+    },
+    {
+      "entity": "co:amd",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Sourced from Micron's press release quoting an AMD executive, not an AMD primary document. Same reasoning as NVIDIA above — adequate for flow-endpoint existence in this layer."
+    },
+    {
+      "entity": "fac:micron-boise-id1",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-boise-id1",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-clay-ny",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-manassas-va",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-hiroshima",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote says 'Hiroshima manufacturing facility' generally; the specific city 'Higashihiroshima' (used in the facility's location.address) is not itself in the quoted text, though it is well-established, undisputed public information about this long-operating (ex-Elpida) fab."
+    },
+    {
+      "entity": "fac:micron-hiroshima",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-taiwan-dram-hbm",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-taiwan-dram-hbm",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-taiwan-dram-hbm",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-tongluo-miaoli",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:micron-singapore-hbm-packaging",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-icheon-m16",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-m15x",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-m15x",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-m15x",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-pt7",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-pt7",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-pt7",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-yongin-cluster",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-yongin-cluster",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-west-lafayette",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-west-lafayette",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-west-lafayette",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:sk-hynix-west-lafayette",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0 — verified verbatim."
+    },
+    {
+      "entity": "fac:samsung-pyeongtaek",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:samsung-pyeongtaek",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:samsung-hwaseong",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:samsung-hwaseong",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:samsung-cheonan",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim, but this is a preliminary 'Letter of Conformance' (not a full certificate) that expired 2022-07-27 — over four years stale. Existence/location corroborated by the current samsung-locations page; this item is the sole support for the 'function' field, driving publish_flagged."
+    },
+    {
+      "entity": "fac:samsung-cheonan",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Address matches; sourced from the current (2026) samsung-locations page, corroborating existence/location independent of the stale certificate above."
+    },
+    {
+      "entity": "fac:samsung-onyang",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim in the BSI certificate, but the certificate itself expired 2024-09-30 (see source_checks). Existence/location independently corroborated by the current samsung-locations page; this item is the sole support for the 'function' field, which is why the facility is publish_flagged rather than publish."
+    },
+    {
+      "entity": "fac:samsung-onyang",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote verified verbatim in the BSI certificate, but the certificate itself expired 2024-09-30 (see source_checks). Existence/location independently corroborated by the current samsung-locations page; this item is the sole support for the 'function' field, which is why the facility is publish_flagged rather than publish."
+    },
+    {
+      "entity": "fac:tsmc-ap1-hsinchu",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-ap2-tainan",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-ap3-longtan",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-ap5-taichung",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-ap6-zhunan",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-ap6-zhunan",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-ap6-zhunan",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "capacity:0 — verified verbatim."
+    },
+    {
+      "entity": "fac:tsmc-ap7-chiayi",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-ap8-tainan",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-arizona-advanced-packaging",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:tsmc-arizona-advanced-packaging",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:amkor-peoria-az",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:amkor-peoria-az",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:amkor-peoria-az",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:amkor-bac-ninh-vietnam",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:amkor-bac-ninh-vietnam",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:ase-kaohsiung",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:ase-kaohsiung",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:ase-kaohsiung",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:ase-kaohsiung",
+      "evidence_index": 3,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:spil-taichung",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:spil-taichung",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "Quote confirms the Taichung portion of the location only; the address field also lists Changhua, Yunlin and Hsinchu, which were not independently re-verified against the 20-F in this pass. Location precision is already conservatively set to 'region', so this does not change the verdict."
+    },
+    {
+      "entity": "fac:ibiden-ono",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:ibiden-ono",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:intel-new-mexico-packaging",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "fac:intel-malaysia-advanced-packaging",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:tsmc-to-sk-hynix-hbm4-base-die",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:sk-hynix-hbm-to-tsmc-cowos",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:sk-hynix-hbm-to-tsmc-cowos",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:sk-hynix-hbm-to-tsmc-cowos",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:tsmc-arizona-to-amkor-peoria",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:tsmc-arizona-to-amkor-peoria",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:tsmc-fab18-to-tsmc-ap6",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Two documented premises exist (AP6 integrates front-end-to-back-end 3DFabric per TSMC's own release; CoWoS integrates SoC+HBM per the Annual Report), and this is an intra-TSMC flow (TSMC's own wafers feeding TSMC's own packaging fab is close to self-evident, corroborated by TSMC's own description of AP6 as realizing exactly this integration). However, the specific 'from_hint: fac:tsmc-fab18-tainan' attribution is NOT supported by any evidence in this flow — no document says Fab 18 specifically (as opposed to any other TSMC leading-edge fab) feeds AP6. Publish flagged; the Fab-18-specific hint should be treated as illustrative/unconfirmed, not the general TSMC-self-supply claim."
+    },
+    {
+      "entity": "flow:tsmc-fab18-to-tsmc-ap6",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:tsmc-fab18-to-tsmc-ap8",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Weaker than the AP6 flow: the inference_note relies on Fab 18 and AP8 merely being 'both in the Tainan area' — geographic proximity is not a documented operational relationship. The underlying claim that TSMC's own logic wafers eventually reach TSMC's own AP8 packaging fab is plausible (intra-company, and AP8's existence/location and TSMC's general CoWoS/HBM integration are each independently documented), but the specific Fab-18 attribution in the from_hint is speculation dressed as an inference. Publish flagged with the same caveat as AP6."
+    },
+    {
+      "entity": "flow:tsmc-fab18-to-tsmc-ap8",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:sk-hynix-m15x-to-pt7",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Intra-SK-hynix inference resting on two documented premises (M15X 'best conditioned for optimization of HBM production'; P&T7 a 'dedicated advanced packaging fab essential for manufacturing AI memory products such as HBM', co-located in the same Cheongju complex). Reasonable and appropriately caveated; publish flagged as inferred (both facilities are the same company's own operations, and neither M15X nor P&T7 is shown to be the exclusive counterpart, only 'a' plausible one)."
+    },
+    {
+      "entity": "flow:sk-hynix-m15x-to-pt7",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:sk-hynix-korea-dram-to-west-lafayette",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Reasonably sound elimination-style inference: the Indiana project is documented as back-end/packaging-only (no DRAM front-end), and SK hynix's DRAM fabs are documented to be in Korea, so DRAM wafers must originate in Korea even though the specific originating fab (hinted as Icheon M16) is not named in any document. Publish flagged."
+    },
+    {
+      "entity": "flow:sk-hynix-korea-dram-to-west-lafayette",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:micron-dram-to-singapore-hbm-packaging",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Reasonably sound elimination-style inference: majority DRAM output is documented as Taiwan-sourced, and the Singapore site is documented as an HBM advanced *packaging* facility (Micron's existing Singapore wafer operations are NAND, per its filings, so DRAM must come from elsewhere). Publish flagged."
+    },
+    {
+      "entity": "flow:micron-dram-to-singapore-hbm-packaging",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:micron-hbm-to-tsmc-cowos",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Evidence shows only that (1) Micron produces HBM3E and (2) TSMC's CoWoS integrates SoC dies with HBM generically — neither document names the other party, and Micron is not the sole HBM supplier nor is CoWoS the only path for Micron's HBM (Micron HBM3E is independently documented going to AMD MI350 and NVIDIA H200 platforms elsewhere in this file, but no document in evidence establishes those specific GPUs are TSMC-CoWoS-packaged). This is co-occurrence, not a necessary/documented link — same defect as the Ibiden-TSMC flow, so rejected on the same basis."
+    },
+    {
+      "entity": "flow:micron-hbm-to-tsmc-cowos",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:intel-fabs-to-new-mexico-packaging",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:intel-fabs-to-new-mexico-packaging",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:samsung-memory-fabs-to-onyang",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Intra-Samsung inference: Samsung's own memory output is documented as concentrated at Hwaseong/Pyeongtaek, and Onyang is documented (via the stale certificate — see source_checks) as a memory-and-foundry packaging/test site. Reasonable but rests partly on the same expired certificate flagged for fac:samsung-onyang; publish flagged for both the inferred-routing reason and the underlying staleness of the destination's function evidence."
+    },
+    {
+      "entity": "flow:samsung-memory-fabs-to-onyang",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:micron-hbm3e-to-amd-mi350",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:micron-hbm3e-to-amd-mi350",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:micron-hbm3e-to-nvidia-h200",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:sk-hynix-hbm4-to-nvidia-vera-rubin",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:sk-hynix-hbm4-to-nvidia-vera-rubin",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:sk-hynix-hbm4-to-nvidia-vera-rubin",
+      "evidence_index": 2,
+      "verdict": "verified",
+      "notes": null
+    },
+    {
+      "entity": "flow:ibiden-ono-to-tsmc-cowos",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "The research file's OWN inference_note explicitly calls this link 'illustrative only' — Ibiden makes AI-server substrates generally (for many customers, not shown to be TSMC-specific) and TSMC's CoWoS-L uses 'an RDL-based interposer' (not shown to be an Ibiden substrate specifically). No document names both parties or establishes necessity (contrast the ASML-sole-EUV-supplier pattern in AGENTS.md). This is a cross-company inference resting on co-occurrence, not documented linkage — rejected per instruction that illustrative inferences are not publishable."
+    },
+    {
+      "entity": "flow:ibiden-ono-to-tsmc-cowos",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    },
+    {
+      "entity": "flow:samsung-foundry-hbm4-base-die-to-memory",
+      "evidence_index": 0,
+      "verdict": "verified",
+      "notes": "Intra-Samsung inference: Samsung Foundry's in-house 4nm HBM4 base-die production is well documented, and Onyang's memory-packaging function is documented (via the stale certificate). However, no document identifies Onyang specifically (vs. Hwaseong or another Samsung site) as where HBM4 base dies are stacked — the destination is speculative even by the standard of an intra-company inference. Publish flagged, noting the site-specific destination is weaker than the general claim that Samsung stacks its own base dies somewhere in-house."
+    },
+    {
+      "entity": "flow:samsung-foundry-hbm4-base-die-to-memory",
+      "evidence_index": 1,
+      "verdict": "verified",
+      "notes": "(same flow — see evidence_index 0 note)"
+    }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:micron",
+      "verdict": "publish",
+      "reasons": "HQ, existence verified against 10-K/10-Q. The $22B customer-deposit figure and HBM4 'lead customer' status are both verified verbatim and, correctly, name no counterparty anywhere in the source filings — the research file's 'supports' annotations ('counterparties unnamed') accurately reflect this, and the analyst correctly routed the naming gap to gaps[] rather than inventing a financial_link. No correction needed."
+    },
+    {
+      "entity": "co:sk-hynix",
+      "verdict": "publish",
+      "reasons": "HQ (Icheon, city precision) and existence verified verbatim against company sources."
+    },
+    {
+      "entity": "co:samsung",
+      "verdict": "publish",
+      "reasons": "Existence/operations verified verbatim; HQ at city precision is adequately supported (exact Suwon street address is in the same Business Report but not the specific line cited — immaterial at city precision)."
+    },
+    {
+      "entity": "co:tsmc",
+      "verdict": "publish",
+      "reasons": "HQ address verified word-for-word against the 2025 Annual Report's own Contact Information page; existence verified against the 20-F."
+    },
+    {
+      "entity": "co:amkor",
+      "verdict": "publish",
+      "reasons": "Existence and 'world's largest U.S.-headquartered OSAT' claim verified verbatim against the 10-K; HQ state (Arizona) confirmed, exact city (Tempe) is uncontested public fact from the same filing's cover page though not the quoted passage."
+    },
+    {
+      "entity": "co:intel",
+      "verdict": "publish",
+      "reasons": "Existence and packaging-operations claim verified verbatim against the 10-K; Santa Clara HQ is uncontested public fact though not the specific quoted passage."
+    },
+    {
+      "entity": "co:ase",
+      "verdict": "publish",
+      "reasons": "Corporate structure/existence verified verbatim against the 20-F; HQ address corroborated via the co-located fac:ase-kaohsiung facility evidence."
+    },
+    {
+      "entity": "co:ibiden",
+      "verdict": "publish",
+      "reasons": "Existence and HQ (Ogaki City, Gifu) verified verbatim, directly naming the head office location."
+    },
+    {
+      "entity": "co:nvidia",
+      "verdict": "publish_flagged",
+      "reasons": "Existence is verified but the only evidence is a boilerplate 'About NVIDIA' line inside an SK hynix press release, not an NVIDIA primary document. Adequate for this layer's limited purpose (NVIDIA appears only as a flow endpoint here); flagging since HQ is asserted but not evidenced anywhere in this file. NVIDIA's home layer is 'design', where fuller sourcing should exist."
+    },
+    {
+      "entity": "co:amd",
+      "verdict": "publish_flagged",
+      "reasons": "Same reasoning as NVIDIA: existence supported only by an AMD-executive quote inside a Micron press release, adequate for this layer's flow-endpoint purpose but not independently evidenced as to HQ."
+    },
+    {
+      "entity": "fac:micron-boise-id1",
+      "verdict": "publish",
+      "reasons": "Existence, location and status (under construction, first wafer output mid-2027; second fab planned 2026) verified verbatim against the FQ3 2026 10-Q."
+    },
+    {
+      "entity": "fac:micron-clay-ny",
+      "verdict": "publish",
+      "reasons": "Existence, location and status verified verbatim (groundbreaking Jan 2026, up to 4 fabs planned)."
+    },
+    {
+      "entity": "fac:micron-manassas-va",
+      "verdict": "publish",
+      "reasons": "Existence and location verified via the $275M Commerce Dept. direct-funding quote in the 10-K."
+    },
+    {
+      "entity": "fac:micron-hiroshima",
+      "verdict": "publish",
+      "reasons": "Existence and modernization status verified verbatim; the exact city name 'Higashihiroshima' is not itself in the quoted text but is undisputed public information about this long-operating fab."
+    },
+    {
+      "entity": "fac:micron-taiwan-dram-hbm",
+      "verdict": "publish",
+      "reasons": "Existence, products and significance (majority of DRAM output) verified verbatim; region-level precision is appropriately conservative given filings do not itemize individual Taiwan sites."
+    },
+    {
+      "entity": "fac:micron-tongluo-miaoli",
+      "verdict": "publish",
+      "reasons": "Existence, location, acquisition price ($1.8B from PSMC) and status verified verbatim against the 10-Q."
+    },
+    {
+      "entity": "fac:micron-singapore-hbm-packaging",
+      "verdict": "publish",
+      "reasons": "Existence, location and status (groundbreaking Jan 2025, capacity from 1H2027) verified verbatim."
+    },
+    {
+      "entity": "fac:sk-hynix-icheon-m16",
+      "verdict": "publish",
+      "reasons": "Existence, location, products and start year (2021) verified verbatim."
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-m15x",
+      "verdict": "publish",
+      "reasons": "Existence, location, HBM role and accelerated mass-production status verified verbatim across all 3 cited sources."
+    },
+    {
+      "entity": "fac:sk-hynix-cheongju-pt7",
+      "verdict": "publish",
+      "reasons": "Existence, location, products and construction-status (WT line targeted Oct 2027) verified verbatim across all 3 cited sources."
+    },
+    {
+      "entity": "fac:sk-hynix-yongin-cluster",
+      "verdict": "publish",
+      "reasons": "Existence, location, products and status verified verbatim."
+    },
+    {
+      "entity": "fac:sk-hynix-west-lafayette",
+      "verdict": "publish",
+      "reasons": "Existence, location, products, project type and the $3.87B capacity figure verified verbatim against the NIST CHIPS project page (all wording, including the en-dash in 'Back – end', matches exactly); status corroborated by SK hynix's own FY25 results release."
+    },
+    {
+      "entity": "fac:samsung-pyeongtaek",
+      "verdict": "publish",
+      "reasons": "Location verified verbatim against the current (2026) samsung-locations page; existence/products corroborated by the Business Report's DS Division output disclosure."
+    },
+    {
+      "entity": "fac:samsung-hwaseong",
+      "verdict": "publish",
+      "reasons": "Location and function ('Chip fabrication') verified verbatim against the current samsung-locations page; products corroborated by the Business Report."
+    },
+    {
+      "entity": "fac:samsung-cheonan",
+      "verdict": "publish_flagged",
+      "reasons": "Existence and location are solidly corroborated by the current (2026) samsung-locations page (address matches exactly). However, the 'products'/function description ('memory packaging and test') rests solely on a BSI 'Letter of Conformance' — itself a preliminary, non-full certification — that expired 27 July 2022, over four years ago, with no newer Tier 1/2 document found establishing current function. Per counsel instruction, publish_flagged at best given no newer source exists; flag the function claim as based on a stale (expired 2022) preliminary certificate."
+    },
+    {
+      "entity": "fac:samsung-onyang",
+      "verdict": "publish_flagged",
+      "reasons": "Existence and location are solidly corroborated by the current (2026) samsung-locations page. The 'products'/function description rests solely on a BSI IATF 16949 Certificate of Registration that expired 30 September 2024, roughly two years ago, with no newer Tier 1/2 document found. Per counsel instruction, publish_flagged given no newer source exists for the function claim."
+    },
+    {
+      "entity": "fac:tsmc-ap1-hsinchu",
+      "verdict": "publish",
+      "reasons": "Existence and exact site address for TSMC AP1 verified word-for-word against the 2025 Annual Report's Contact Information page."
+    },
+    {
+      "entity": "fac:tsmc-ap2-tainan",
+      "verdict": "publish",
+      "reasons": "Existence and exact site address for TSMC AP2 verified word-for-word against the 2025 Annual Report's Contact Information page."
+    },
+    {
+      "entity": "fac:tsmc-ap3-longtan",
+      "verdict": "publish",
+      "reasons": "Existence and exact site address for TSMC AP3 verified word-for-word against the 2025 Annual Report's Contact Information page."
+    },
+    {
+      "entity": "fac:tsmc-ap5-taichung",
+      "verdict": "publish",
+      "reasons": "Existence and exact site address for TSMC AP5 verified word-for-word against the 2025 Annual Report's Contact Information page."
+    },
+    {
+      "entity": "fac:tsmc-ap7-chiayi",
+      "verdict": "publish",
+      "reasons": "Existence and exact site address for TSMC AP7 verified word-for-word against the 2025 Annual Report's Contact Information page."
+    },
+    {
+      "entity": "fac:tsmc-ap8-tainan",
+      "verdict": "publish",
+      "reasons": "Existence and exact site address for TSMC AP8 verified word-for-word against the 2025 Annual Report's Contact Information page."
+    },
+    {
+      "entity": "fac:tsmc-ap6-zhunan",
+      "verdict": "publish",
+      "reasons": "Existence and exact address verified word-for-word against the Annual Report; products (SoIC/InFO/CoWoS/advanced testing) and the ~1M-wafer-equivalent capacity figure verified verbatim against TSMC's own AP6 opening press release (reached via an indirect fetch method after direct pr.tsmc.com access was blocked — see source_checks)."
+    },
+    {
+      "entity": "fac:tsmc-arizona-advanced-packaging",
+      "verdict": "publish",
+      "reasons": "Status ('announced', two facilities planned) verified verbatim against the Annual Report's Letter to Shareholders; location intentionally kept at 'region' precision since no specific site is disclosed, consistent with the gaps entry."
+    },
+    {
+      "entity": "fac:amkor-peoria-az",
+      "verdict": "publish",
+      "reasons": "Existence, location (104-acre Peoria Innovation Core site), scale (750,000+ sq ft cleanroom, largest U.S. OSAT claim) and status verified verbatim across all 3 cited Amkor sources."
+    },
+    {
+      "entity": "fac:amkor-bac-ninh-vietnam",
+      "verdict": "publish",
+      "reasons": "Existence, location and 2024 operational start verified verbatim against the 10-K."
+    },
+    {
+      "entity": "fac:ase-kaohsiung",
+      "verdict": "publish",
+      "reasons": "Existence, location, function and HBM-relevant FOCoS technology verified verbatim across all 4 cited passages of the 20-F."
+    },
+    {
+      "entity": "fac:spil-taichung",
+      "verdict": "publish",
+      "reasons": "Existence and function verified verbatim; region-precision address includes Changhua/Yunlin/Hsinchu which were not independently re-checked, but this does not affect the (already conservative) location precision."
+    },
+    {
+      "entity": "fac:ibiden-ono",
+      "verdict": "publish",
+      "reasons": "Existence, exact address, status (mass production from Oct 2025) and products verified verbatim against Ibiden's own press release."
+    },
+    {
+      "entity": "fac:intel-new-mexico-packaging",
+      "verdict": "publish",
+      "reasons": "Existence, location and function (key advanced-packaging facility) verified verbatim against the 10-K."
+    },
+    {
+      "entity": "fac:intel-malaysia-advanced-packaging",
+      "verdict": "publish",
+      "reasons": "Existence and under-construction status verified verbatim; country-level precision is appropriately conservative since the specific site is not disclosed, consistent with the gaps entry."
+    },
+    {
+      "entity": "flow:tsmc-to-sk-hynix-hbm4-base-die",
+      "verdict": "publish",
+      "reasons": "Both parties and the specific relationship (SK hynix adopting TSMC's logic process for the HBM4 base die) are named explicitly in SK hynix's own April 19, 2024 MOU release; quote verified verbatim."
+    },
+    {
+      "entity": "flow:sk-hynix-hbm-to-tsmc-cowos",
+      "verdict": "publish",
+      "reasons": "Both parties named explicitly, including a TSMC-attributed quote confirming the existing relationship; all 3 evidence items verified verbatim."
+    },
+    {
+      "entity": "flow:tsmc-arizona-to-amkor-peoria",
+      "verdict": "publish",
+      "reasons": "Both parties and the specific arrangement (TSMC contracting turnkey packaging from Amkor's Peoria facility to serve Phoenix fab customers) named explicitly in the joint MOU announcement; verified verbatim."
+    },
+    {
+      "entity": "flow:tsmc-fab18-to-tsmc-ap6",
+      "verdict": "publish_flagged",
+      "reasons": "Intra-TSMC inference with two documented premises (AP6's own stated front-to-back 3DFabric integration role; CoWoS's documented SoC+HBM integration). The general TSMC-self-supply claim is reasonable and appropriately marked inferred, but the specific 'from_hint: fac:tsmc-fab18-tainan' attribution is unsupported by any cited evidence (no document names Fab 18 specifically as AP6's wafer source). Publish flagged; treat the Fab-18 hint as illustrative, not established. CORRECTION: from_hint cleared (set to null) — the build draws the route from from_hint, so leaving the unsupported 'fac:tsmc-fab18-tainan' guess in place would put an undocumented fab on the public map. The from/to endpoints (co:tsmc → the AP facility) remain as inferred.",
+      "corrections": {
+        "from_hint": null
+      }
+    },
+    {
+      "entity": "flow:tsmc-fab18-to-tsmc-ap8",
+      "verdict": "publish_flagged",
+      "reasons": "Weaker version of the AP6 flow: the inference rests partly on geographic proximity ('both in the Tainan area'), which is not itself a documented operational relationship. The general TSMC-self-supply claim is still plausible (intra-company), but the Fab-18-specific attribution is speculative. Publish flagged with the same caveat as the AP6 flow. CORRECTION: from_hint cleared (set to null) — the build draws the route from from_hint, so leaving the unsupported 'fac:tsmc-fab18-tainan' guess in place would put an undocumented fab on the public map. The from/to endpoints (co:tsmc → the AP facility) remain as inferred.",
+      "corrections": {
+        "from_hint": null
+      }
+    },
+    {
+      "entity": "flow:sk-hynix-m15x-to-pt7",
+      "verdict": "publish_flagged",
+      "reasons": "Intra-SK-hynix inference from two documented premises (M15X's stated HBM optimization; P&T7's stated dedicated HBM packaging role, co-located in the same complex). Reasonable and already correctly marked inferred with a sound inference_note."
+    },
+    {
+      "entity": "flow:sk-hynix-korea-dram-to-west-lafayette",
+      "verdict": "publish_flagged",
+      "reasons": "Sound elimination-style inference: Indiana is documented as back-end-only, and SK hynix's DRAM fabs are documented to be in Korea. Specific origin fab (hinted as Icheon M16) is undisclosed and correctly marked as such."
+    },
+    {
+      "entity": "flow:micron-dram-to-singapore-hbm-packaging",
+      "verdict": "publish_flagged",
+      "reasons": "Sound elimination-style inference: majority DRAM output documented in Taiwan; Singapore's existing wafer fabs are NAND per Micron's own filings, so DRAM for the new HBM packaging site must originate elsewhere. Reasonable and already correctly marked inferred."
+    },
+    {
+      "entity": "flow:micron-hbm-to-tsmc-cowos",
+      "verdict": "reject",
+      "reasons": "Rejected. This is a cross-company inference resting only on co-occurrence: Micron makes HBM3E (documented) and TSMC's CoWoS integrates 'SoC chips and HBM stacks' generically (documented) — but no document names Micron and TSMC together, Micron is not the sole HBM supplier, and CoWoS is not shown to be the specific packaging route for Micron's HBM3E. This does not meet the two-documented-premises-that-actually-entail-the-link standard (contrast the ASML/sole-EUV-supplier example in AGENTS.md); it is illustrative, not established, and cannot be fixed with a correction absent new evidence this reviewer is not permitted to add."
+    },
+    {
+      "entity": "flow:intel-fabs-to-new-mexico-packaging",
+      "verdict": "publish",
+      "reasons": "Both the general fab-to-assembly relationship and the specific origin fabs (Oregon, Arizona, Ireland, Israel) are named explicitly in Intel's own 10-K; verified verbatim."
+    },
+    {
+      "entity": "flow:samsung-memory-fabs-to-onyang",
+      "verdict": "publish_flagged",
+      "reasons": "Intra-Samsung inference from documented memory-fab concentration (Hwaseong/Pyeongtaek) and Onyang's documented (but stale-certificate-sourced — see fac:samsung-onyang) packaging function. Reasonable but inherits the underlying staleness caveat of its destination facility."
+    },
+    {
+      "entity": "flow:micron-hbm3e-to-amd-mi350",
+      "verdict": "publish",
+      "reasons": "Both parties and the specific product (HBM3E 36GB 12-high in MI350) named explicitly in a joint Micron/AMD-quoted release; quote verified verbatim and cross-checked against the official Micron IR copy."
+    },
+    {
+      "entity": "flow:micron-hbm3e-to-nvidia-h200",
+      "verdict": "publish",
+      "reasons": "Both parties and the specific product named explicitly in Micron's release; verified verbatim and cross-checked against the official Micron IR copy."
+    },
+    {
+      "entity": "flow:sk-hynix-hbm4-to-nvidia-vera-rubin",
+      "verdict": "publish",
+      "reasons": "Both parties and the specific relationship (SK hynix HBM4 powering NVIDIA Vera Rubin for SK Telecom's AI cloud, plus a separate long-term AI memory partnership) named explicitly and jointly announced (quotes Jensen Huang); dateline confirmed as the flagged July 2026 release. All 3 evidence items verified verbatim."
+    },
+    {
+      "entity": "flow:ibiden-ono-to-tsmc-cowos",
+      "verdict": "reject",
+      "reasons": "Rejected. The research file's own inference_note already calls this link 'illustrative only.' Ibiden's Ono plant makes AI-server IC substrates generally (not shown to be TSMC-specific — Ibiden supplies substrates broadly across the industry), and TSMC's CoWoS-L description merely mentions 'an RDL-based interposer' generically. No document names both parties or establishes that Ibiden specifically supplies TSMC (vs. any other customer). This is precisely the kind of illustrative, non-necessary inference the counsel brief instructs to reject."
+    },
+    {
+      "entity": "flow:samsung-foundry-hbm4-base-die-to-memory",
+      "verdict": "publish_flagged",
+      "reasons": "Intra-Samsung inference: in-house 4nm HBM4 base-die production is well documented, and Onyang's packaging function is documented (via the stale certificate flagged elsewhere). No document identifies Onyang specifically as the HBM4 stacking site (vs. Hwaseong or elsewhere), so the destination is speculative even by intra-company standards; flagged accordingly in addition to the inherited staleness caveat."
+    }
+  ],
+  "summary": "Reviewed all 29 sources, 106 evidence items, and all 57 entities (10 companies, 31 facilities, 16 flows; 0 financial_links, 0 controls in this layer). Verdicts: 44 publish, 11 publish_flagged, 2 reject.\n\nMETHOD: Direct www.sec.gov fetches were blocked (403 \"Undeclared Automated Tool\") regardless of User-Agent — this is IP-level bot detection, not a UA problem. Per process rule, I did not spoof headers or use bypass services; instead I cross-verified every SEC-filed quote via EDGAR full-text search (efts.sec.gov) against the exact accession number in each source, and independently confirmed filing dates via data.sec.gov/submissions. All company/gov websites (amkor.com, news.skhynix.com, semiconductor.samsung.com, nist.gov, ibiden.com, images.samsung.com, download.semiconductor.samsung.com) were directly reachable. Only pr.tsmc.com direct-blocked; verified via an indirect fetch-and-summarize path that returned the cited quotes verbatim. Every quote I checked — all 106 evidence items — was verbatim in its cited document; I found no fabricated, paraphrased, or misattributed quotes anywhere in this research file. This is unusually clean sourcing work.\n\nWORST PROBLEMS FOUND:\n\n1. Two flows rejected as illustrative, not documented inference: flow:ibiden-ono-to-tsmc-cowos and flow:micron-hbm-to-tsmc-cowos. Both connect two companies with no document naming them together, resting only on \"Company A makes product type X\" + \"Company B's generic process uses product type X\" — co-occurrence, not the necessity-style logic AGENTS.md's own worked example requires (ASML as the SOLE EUV supplier). The Ibiden flow's own inference_note already self-flags as \"illustrative only.\" I distinguished these from the other 7 inferred (publish_flagged) flows, which are all intra-company (e.g., SK hynix's own M15X feeding its own adjacent P&T7) and therefore far more defensible even without a document naming the specific routing.\n\n2. Samsung Cheonan and Onyang facility \"function\" claims rest entirely on expired BSI certificates hosted on Samsung's own site: Onyang's IATF 16949 certificate expired 2024-09-30; Cheonan's document is only a preliminary \"Letter of Conformance\" (not a full certificate) that expired 2022-07-27. No newer Tier 1/2 source establishes current function at either site. I found no newer replacement document. Existence/location for both facilities are independently and currently corroborated by Samsung's live 2026 locations page, so only the products/function field is affected — both facilities and the two flows that terminate at Onyang are publish_flagged rather than published clean or rejected outright.\n\n3. TSMC Annual Report 2025's document_date is recorded as bare \"2026\" — confirmed this is genuinely imprecise, not a transcription error. The PDF has no cover-page publication date; PDF metadata shows CreationDate 2026-05-06 / ModDate 2026-05-21, and internal content (a still-pending \"2026 AGM,\" \"As of 02/28/2026\" data cutoffs) is consistent with a ~May 2026 publication, well after the 20-F (filed 2026-04-16). Content itself is fully verified accurate (every Advanced Backend Fab address, the Arizona-expansion language, and the CoWoS/CoWoS-L descriptions all match word-for-word) — this is a source-metadata gap, not a content problem, so I marked date_ok=false on the source but did not flag the many facility entities that rely on it, since their quoted content is verified correct.\n\n4. The two Micron press releases sourced via Nasdaq.com (because Micron IR blocks scripted access) were cross-checked against the official investors.micron.com copies via a separate fetch and match word-for-word on headline, dateline, and the cited passages. No discrepancy found — the workaround was sound.\n\n5. Micron's $22B/$18B customer-deposit figures and the HBM4 \"lead customer\" language were checked specifically for any implied counterparty identity: none is named anywhere in the 10-Q or 8-K text, and the research file's own \"supports\" annotations already say \"(counterparties unnamed)\" and correctly route the naming gap to gaps[] rather than fabricating a financial_link. No correction needed.\n\n6. Specifically requested cross-checks all came back clean: the SK hynix x TSMC HBM4 base-die/CoWoS MOU (April 19, 2024) names both parties and quotes an on-record TSMC executive; the TSMC x Amkor Peoria MOU (Oct 3, 2024) names both parties and the specific arrangement; the SK hynix x NVIDIA Vera Rubin release (July 25, 2026) is jointly attributed and names both parties and the HBM4 relationship explicitly.\n\nMINOR ISSUES (not verdict-affecting): two of the intra-TSMC inferred flows (AP6, AP8) cite a \"from_hint: fac:tsmc-fab18-tainan\" that isn't supported by any evidence in the flow — the general TSMC-self-supply claim is reasonable, but the specific Fab 18 attribution is unconfirmed speculation (flagged in reasons, not corrected, since from_hint is a routing guess rather than a from/to material field). The Samsung Business Report's PDF page-number locators are consistently off-by-one against the document's own footer pagination (cited \"p.25\"/\"p.42\" vs. actual pages 24/41) — immaterial since the quotes themselves are exact.\n\nREJECTED IDS: flow:ibiden-ono-to-tsmc-cowos, flow:micron-hbm-to-tsmc-cowos.\n\nFLAGGED IDS: co:nvidia, co:amd, fac:samsung-cheonan, fac:samsung-onyang, flow:tsmc-fab18-to-tsmc-ap6, flow:tsmc-fab18-to-tsmc-ap8, flow:sk-hynix-m15x-to-pt7, flow:sk-hynix-korea-dram-to-west-lafayette, flow:micron-dram-to-singapore-hbm-packaging, flow:samsung-memory-fabs-to-onyang, flow:samsung-foundry-hbm4-base-die-to-memory.\n\nSUGGESTED FOLLOW-UP FOR THE ANALYST: find a current (non-expired) Samsung QMS certificate or business-report passage naming Onyang/Cheonan's function; pin down TSMC's exact 2025 Annual Report publication date; if pursuing the Micron-TSMC or Ibiden-TSMC links further, find a document that actually ties the specific companies together (e.g., a TSMC or Ibiden filing naming the other as a customer/supplier) rather than inferring from generic capability descriptions.\n"
+}
