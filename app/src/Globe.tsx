@@ -15,6 +15,7 @@ import {
 import { arcPath, graticule, offsetEast, type World, type Country } from "./geo";
 import { C, LAYER_COLOR } from "./theme";
 import { useStore } from "./store";
+import { useTourFocus } from "./ui/Tour";
 
 type RGB = [number, number, number];
 type RGBA = [number, number, number, number];
@@ -68,6 +69,13 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   const [viewState, setViewState] = useState<Record<string, unknown>>(INITIAL);
   const [time, setTime] = useState(0);
   const idleSpin = useRef(true);
+  // Trackball drag: horizontal → longitude, vertical → latitude, scaled so the surface under the
+  // cursor tracks the pointer near the globe's centre. Replaces deck's "grab a point" globe pan,
+  // which swings the globe at odd angles when dragging near the limb or at high latitude.
+  const drag = useRef<{ x: number; y: number; t: number } | null>(null);
+  const vel = useRef<[number, number]>([0, 0]);
+  const radiusPx = useRef(300);
+  const touches = useRef(new Set<number>());
   const stopSpin = () => { idleSpin.current = false; };
   const zoomBy = (dz: number) => {
     stopSpin();
@@ -84,6 +92,11 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
       last = now;
       setTime((now / 1000) % 3.2);
       if (idleSpin.current) setViewState((v) => ({ ...v, longitude: ((v.longitude as number) + dt * 2.2 + 540) % 360 - 180, transitionDuration: 0 }));
+      else if (!drag.current && (Math.abs(vel.current[0]) > 0.02 || Math.abs(vel.current[1]) > 0.02)) {
+        const [vx, vy] = vel.current;               // deg per frame, decays like a flywheel
+        vel.current = [vx * 0.9, vy * 0.9];
+        setViewState((v) => rotate(v, vx, vy));
+      }
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
@@ -141,7 +154,31 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     return traverse(idx, [s.selected], "both");
   }, [s.trace, s.selected, idx]);
 
-  const focus = trace ?? exposure; // null → everything at full strength
+  const tourFocus = useTourFocus(idx);
+  const focus = tourFocus ?? trace ?? exposure; // null → everything at full strength
+
+  // Fly to each walk step: centre on the stage's sites, zoom by how spread out they are.
+  useEffect(() => {
+    if (!tourFocus) return;
+    const pts = [...tourFocus.stepNodes].map((n) => locateAny(idx, n)).filter(Boolean) as [number, number][];
+    if (!pts.length) return;
+    // Frame the densest cluster (sites within 35° of the best-connected site), not the global mean:
+    // the mean of US + Asian sites lands in the Arctic.
+    const near = (a: [number, number], b: [number, number]) => angularDist(a[0], a[1], b[0], b[1]) < 35;
+    const seed = pts.reduce((best, p) => (pts.filter((q) => near(p, q)).length > pts.filter((q) => near(best, q)).length ? p : best), pts[0]);
+    const cluster = pts.filter((q) => near(seed, q));
+    const r = Math.PI / 180;
+    let x = 0, y = 0, z = 0;
+    for (const [lo, la] of cluster) { x += Math.cos(la * r) * Math.cos(lo * r); y += Math.cos(la * r) * Math.sin(lo * r); z += Math.sin(la * r); }
+    const lon = Math.atan2(y, x) / r, lat = Math.atan2(z, Math.hypot(x, y)) / r;
+    const spread = Math.max(...cluster.map(([lo, la]) => angularDist(lo, la, lon, lat)));
+    const zoom = spread < 6 ? 3.4 : spread < 18 ? 2.6 : spread < 40 ? 2.0 : 1.5;
+    // On phones the step card covers the lower half: aim the camera south of the sites so they sit above it.
+    const small = window.innerWidth < 700;
+    const zf = small ? zoom - 0.4 : zoom;
+    s.focus(lon, small ? Math.max(-70, lat - 22 / 2 ** (zf - 1.5)) : lat, zf);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [tourFocus]);
   const inFocusNode = (id: string) => !focus || focus.nodes.has(id);
   const inFocusFlow = (id: string) => !focus || focus.flows.has(id);
 
@@ -454,6 +491,30 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   ];
 
   // Globe halo: measure the globe's on-screen radius after each render and size a CSS glow to it.
+  const onPointerDown = (e: React.PointerEvent) => {
+    stopSpin();
+    if ((e.target as HTMLElement).closest("button, a, input")) return;
+    touches.current.add(e.pointerId);
+    if (touches.current.size > 1) { drag.current = null; return; } // two fingers: let pinch-zoom work
+    drag.current = { x: e.clientX, y: e.clientY, t: performance.now() };
+    vel.current = [0, 0];
+  };
+  const onPointerMove = (e: React.PointerEvent) => {
+    const d = drag.current;
+    if (!d || touches.current.size > 1) return;
+    const degPerPx = 180 / Math.PI / Math.max(60, radiusPx.current);
+    const dLon = -(e.clientX - d.x) * degPerPx, dLat = (e.clientY - d.y) * degPerPx;
+    const now = performance.now(), dt = Math.max(1, now - d.t);
+    vel.current = [dLon * 16 / dt, dLat * 16 / dt];
+    drag.current = { x: e.clientX, y: e.clientY, t: now };
+    setViewState((v) => rotate(v, dLon, dLat));
+  };
+  const onPointerUp = (e: React.PointerEvent) => {
+    touches.current.delete(e.pointerId);
+    if (drag.current && performance.now() - drag.current.t > 80) vel.current = [0, 0]; // paused before release: no fling
+    drag.current = null;
+  };
+
   const onAfterRender = () => {
     const vp = deckRef.current?.deck?.getViewports()[0];
     const box = labelsRef.current;
@@ -487,12 +548,15 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     const e = vp.project([...offsetEast(lon, lat, 89.5), 0]);
     const r = Math.hypot(e[0] - c[0], e[1] - c[1]);
     el.style.setProperty("--r", `${r}px`);
+    radiusPx.current = r;
+    el.dataset.view = `${lon.toFixed(2)},${lat.toFixed(2)}`; // test hook: current camera centre
     el.style.setProperty("--cx", `${c[0]}px`);
     el.style.setProperty("--cy", `${c[1]}px`);
   };
 
   return (
-    <div className="globe-wrap" onPointerDown={stopSpin} onWheel={stopSpin}>
+    <div className="globe-wrap" onPointerDown={onPointerDown} onPointerMove={onPointerMove}
+      onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onPointerLeave={onPointerUp} onWheel={stopSpin}>
       <div className="halo" ref={haloRef} />
       <div className="labels" ref={labelsRef} aria-hidden="true">
         {overlay.map((l) => (
@@ -516,7 +580,8 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         ref={deckRef}
         views={VIEW}
         viewState={viewState as unknown as GlobeViewState}
-        controller={{ inertia: 250, scrollZoom: { speed: 0.012, smooth: false }, doubleClickZoom: true, touchRotate: false, keyboard: true }}
+        controller={{ dragPan: false, dragRotate: false, inertia: false, scrollZoom: { speed: 0.012, smooth: false },
+          touchZoom: true, touchRotate: false, doubleClickZoom: true, keyboard: true }}
         pickingRadius={isTouch ? 14 : 6}
         onViewStateChange={({ viewState: v, interactionState }) => {
           if (interactionState?.isDragging || interactionState?.isZooming || interactionState?.isPanning) idleSpin.current = false;
@@ -545,6 +610,13 @@ function finColor(f: FinancialLink): RGB {
 }
 
 /** Labels: selection, hover, focus set, plus the biggest chokepoints (more as you zoom in). */
+/** Apply a trackball rotation; latitude is clamped so the globe never flips over a pole. */
+function rotate(v: Record<string, unknown>, dLon: number, dLat: number) {
+  return { ...v, transitionDuration: 0,
+    longitude: (((v.longitude as number) + dLon + 540) % 360) - 180,
+    latitude: Math.max(-70, Math.min(75, (v.latitude as number) + dLat)) };
+}
+
 /** Great-circle angle between two lon/lat points, degrees. */
 function angularDist(lon1: number, lat1: number, lon2: number, lat2: number) {
   const r = Math.PI / 180;

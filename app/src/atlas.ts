@@ -216,3 +216,43 @@ export function usdValue(a?: { value: number; currency: string }): number {
   const fx: Record<string, number> = { USD: 1, EUR: 1.1, JPY: 0.0068, KRW: 0.00073, TWD: 0.031, CNY: 0.14, GBP: 1.3 };
   return a.value * (fx[a.currency] ?? 1);
 }
+
+// ─── Chain walk ("tour") ─────────────────────────────────────────────────────
+
+/** Walk order from raw material to finished AI compute. Power is an input to the campus, so it comes last-but-one. */
+export const TOUR_ORDER: Layer[] = ["materials", "wafers_chemicals", "equipment", "fabrication",
+  "memory_packaging", "design", "systems", "power", "datacenter"];
+
+export interface TourStep { layer: Layer; nodes: string[] }
+export interface Tour { anchor: string; dir: "up" | "down"; nodes: Set<string>; flows: Set<string>; steps: TourStep[] }
+
+/**
+ * Everything upstream (dir "up") or downstream (dir "down") of an anchor, grouped by stage in walking order.
+ * "up" walks from the anchor back toward raw materials; "down" walks from the anchor toward AI campuses.
+ */
+export function buildTour(idx: Index, anchor: string, dir: "up" | "down"): Tour {
+  const { nodes, flows } = traverse(idx, [anchor], dir);
+  const byLayer = new Map<Layer, string[]>();
+  for (const n of nodes) {
+    const l = idx.facility.get(n)?.layer;
+    if (!l || !TOUR_ORDER.includes(l)) continue;
+    const a = byLayer.get(l) ?? [];
+    a.push(n);
+    byLayer.set(l, a);
+  }
+  const order = dir === "down" ? TOUR_ORDER : [...TOUR_ORDER].reverse();
+  const steps = order.filter((l) => byLayer.get(l)?.length)
+    .map((layer) => ({ layer, nodes: byLayer.get(layer)!.sort((a, b) => (idx.reach.get(b) ?? 0) - (idx.reach.get(a) ?? 0)) }));
+  return { anchor, dir, nodes, flows, steps };
+}
+
+/** Flows touching a step's sites whose other end is also on the walk. */
+export function stepFlows(idx: Index, tour: Tour, step: TourStep): Flow[] {
+  const here = new Set(step.nodes);
+  const out: Flow[] = [];
+  for (const id of tour.flows) {
+    const f = idx.flow.get(id);
+    if (f && (here.has(f.from_node) || here.has(f.to_node))) out.push(f);
+  }
+  return out;
+}

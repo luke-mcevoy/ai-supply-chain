@@ -3,6 +3,7 @@ import { CHAIN, type Index, nodeName, locateAny, formatMoney, traverse, ctlEffec
 import { LAYER_COLOR, LAYER_LABEL, LAYER_CODE, FIN_LABEL, DOC_LABEL, css } from "../theme";
 import { useStore, type Mode } from "../store";
 import { activeControls } from "../Globe";
+import { defaultAnchors, startTour } from "./Tour";
 
 // ─── Top bar ────────────────────────────────────────────────────────────────
 
@@ -28,6 +29,8 @@ export function TopBar({ idx }: { idx: Index }) {
         ))}
       </nav>
       <div className="top-right">
+        <button className="walk-btn" onClick={() => { const a = defaultAnchors(idx); if (a.campus) { set({ mode: "network" }); startTour(a.campus, "up"); } }}
+          title="Step through the supply chain, stage by stage">▶ <span>Walk the chain</span></button>
         <button className="search-btn" onClick={() => set({ paletteOpen: true })}><span>Search</span><kbd>⌘K</kbd></button>
         <div className="meta mono" title="Share of cited documents that are legal/regulatory (T1) or company-primary (T2)">
           {idx.atlas.sources.length} SOURCES · {pct}% T1/T2
@@ -100,6 +103,12 @@ export function Rail({ idx }: { idx: Index }) {
       <label className="check"><input type="checkbox" checked={s.showFlagged} onChange={(e) => s.set({ showFlagged: e.target.checked })} /> Flagged / Tier-3 items</label>
       <label className="check"><input type="checkbox" checked={s.showPlanned} onChange={(e) => s.set({ showPlanned: e.target.checked })} /> Announced / planned sites</label>
 
+      <h3>Walk the chain</h3>
+      <div className="scenario">
+        <button onClick={() => { const a = defaultAnchors(idx); if (a.mine) { s.set({ mode: "network" }); startTour(a.mine, "down"); } }}>Mine → campus</button>
+        <button onClick={() => { const a = defaultAnchors(idx); if (a.campus) { s.set({ mode: "network" }); startTour(a.campus, "up"); } }}>Campus → mine</button>
+      </div>
+
       <h3>What-if: sever a country</h3>
       <div className="scenario">
         {scenarios.map(([cc, name]) => (
@@ -158,6 +167,8 @@ export function Tooltip({ idx }: { idx: Index }) {
 
 export function Bottom({ idx }: { idx: Index }) {
   const mode = useStore((s) => s.mode);
+  const touring = useStore((s) => !!s.tour);
+  if (touring) return null;
   if (mode === "controls") return <Timeline idx={idx} />;
   return (
     <div className="legend">

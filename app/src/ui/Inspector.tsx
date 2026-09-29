@@ -7,6 +7,7 @@ import { LAYER_COLOR, LAYER_CODE, LAYER_LABEL, FIN_LABEL, css } from "../theme";
 import { useStore } from "../store";
 import { EvidenceList, ReviewBadge, TierBadge } from "./Evidence";
 import { activeControls } from "../Globe";
+import { startTour } from "./Tour";
 
 export default function Inspector({ idx }: { idx: Index }) {
   const selected = useStore((s) => s.selected);
@@ -119,6 +120,8 @@ function Actions({ idx, id }: { idx: Index; id: string }) {
       <button className={trace ? "on" : ""} onClick={() => set({ trace: !trace })} title="Highlight everything upstream and downstream of this node">⟷ Trace chain</button>
       <button className={severed.has(id) ? "on danger" : ""} onClick={() => toggleSever(id)} title="What-if: remove this node and show downstream exposure">✂ Sever</button>
       {p && <button onClick={() => focus(p[0], p[1], 3.2)}>◎ Fly to</button>}
+      <button onClick={() => { useStore.getState().set({ mode: "network" }); startTour(id, "up"); }} title="Step back through everything that feeds this">▲ Walk upstream</button>
+      <button onClick={() => { useStore.getState().set({ mode: "network" }); startTour(id, "down"); }} title="Step forward through everything this feeds">▼ Walk downstream</button>
     </div>
   );
 }

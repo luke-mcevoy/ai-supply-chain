@@ -73,6 +73,52 @@ kbd { font-family: var(--mono); font-size: 10px; border: 1px solid var(--line-2)
 .glabel:hover, .glabel.strong { color: var(--text); background: rgba(8,11,15,.92); }
 @media (max-width: 700px) { .glabel { font-size: 9.5px; max-width: 150px; } }
 
+/* ── chain walk ── */
+.walk-btn { display: flex; gap: 6px; align-items: center; background: var(--accent); color: #fff; padding: 5px 10px; border-radius: var(--r); font: 600 11px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+.walk-btn:hover { filter: brightness(1.1); }
+.tour { left: 50%; transform: translateX(-50%); bottom: 12px; width: min(760px, calc(100vw - 600px)); min-width: 520px; padding: 12px 14px; z-index: 6; }
+.tour-head { display: flex; gap: 10px; align-items: center; padding-right: 26px; }
+.tour-head .close { top: 8px; }
+.tour-kicker { font: 600 10px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+.tour-head select { flex: 1; min-width: 0; background: var(--raise); color: var(--text); border: 1px solid var(--line-2); border-radius: 2px; padding: 5px 6px; font: 500 12px var(--sans); }
+.tour-head .linkish { margin: 0; white-space: nowrap; }
+.tour-steps { list-style: none; display: flex; gap: 2px; margin: 10px 0 8px; padding: 0; }
+.tour-steps li { flex: 1; min-width: 0; }
+.tour-steps button { width: 100%; display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 4px 2px; border-radius: 2px; }
+.tour-steps button:hover { background: var(--raise); }
+.tour-steps i { width: 100%; height: 3px; border-radius: 2px; opacity: .25; }
+.tour-steps .done i { opacity: .6; }
+.tour-steps .on i { opacity: 1; height: 4px; box-shadow: 0 0 8px currentColor; }
+.tour-steps span { font: 500 9.5px/1.2 var(--mono); letter-spacing: .03em; text-transform: uppercase; color: var(--muted); text-align: center; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 100%; }
+.tour-steps .on span { color: var(--text); }
+.tour-body { border-top: 1px solid var(--line); padding-top: 9px; }
+.tour-title { display: flex; gap: 10px; align-items: baseline; }
+.tour-title h3 { margin: 0; font: 600 15px/1.2 var(--sans); letter-spacing: 0; text-transform: none; }
+.tour-sites { display: flex; flex-wrap: wrap; gap: 5px; margin: 8px 0; }
+.chip { font-size: 11.5px; padding: 4px 8px; border: 1px solid var(--line-2); border-radius: 2px; color: var(--text-2); max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chip:hover { border-color: var(--text-2); color: var(--text); }
+.tour-onward { color: var(--text-2); line-height: 1.5; }
+.tour-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 10px; }
+.tour-nav button { border: 1px solid var(--line-2); padding: 7px 14px; border-radius: 2px; font: 500 12px var(--sans); }
+.tour-nav button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tour-nav button:disabled { opacity: .35; cursor: default; }
+.app:has(.tour) .camera .cam-zoom { margin-bottom: 0; }
+@media (max-width: 1100px) { .tour { width: calc(100vw - 24px); min-width: 0; } .app:has(.tour) .rail { display: none; } }
+@media (max-width: 900px) {
+  .walk-btn span { display: none; }
+  .tour { left: 0; right: 0; bottom: 0; transform: none; width: auto; border-radius: 10px 10px 0 0; padding: 10px 12px calc(12px + env(safe-area-inset-bottom)); }
+  .tour-steps span { display: none; }
+  .tour { max-height: 44dvh; overflow-y: auto; }
+  .tour-steps { margin: 8px 0 6px; position: sticky; top: -10px; background: var(--panel-solid); z-index: 1; }
+  .tour-sites .chip:nth-child(n+5) { display: none; }
+  .tour-sites .chip { max-width: 100%; }
+  .tour-nav { position: sticky; bottom: calc(-12px - env(safe-area-inset-bottom)); background: var(--panel-solid); padding: 8px 0 2px; margin-top: 6px; }
+  .tour-steps button { padding: 8px 0; }
+  .hide-sm { display: none; }
+  .app:has(.tour) .cam-zoom, .app:has(.tour) .cam-regions { display: none; }
+  .app:has(.tour) .inspector { max-height: 40dvh; bottom: auto; top: 52px; border-radius: 0 0 10px 10px; }
+}
+
 /* ── panels ────────────────────────────────────────── */
 .panel {
   position: absolute; z-index: 5;

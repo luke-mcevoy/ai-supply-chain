@@ -4,6 +4,7 @@ import { loadWorld, type World } from "./geo";
 import Globe from "./Globe";
 import Inspector from "./ui/Inspector";
 import { TopBar, Rail, Tooltip, Bottom, Palette, About } from "./ui/Chrome";
+import TourPanel from "./ui/Tour";
 
 export default function App() {
   const [idx, setIdx] = useState<Index | null>(null);
@@ -29,6 +30,7 @@ export default function App() {
       <Rail idx={idx} />
       <Inspector idx={idx} />
       <Bottom idx={idx} />
+      <TourPanel idx={idx} />
       <Tooltip idx={idx} />
       <Palette idx={idx} />
       <About idx={idx} />
