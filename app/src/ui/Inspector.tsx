@@ -1,4 +1,4 @@
-import { useMemo, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import {
   type Index, type Facility, type Company, type Flow, type FinancialLink, type Control,
   nodeName, nodeLayer, locateAny, formatMoney, traverse, ctlEffect,
@@ -11,6 +11,8 @@ import { activeControls } from "../Globe";
 export default function Inspector({ idx }: { idx: Index }) {
   const selected = useStore((s) => s.selected);
   const select = useStore((s) => s.select);
+  const [peek, setPeek] = useState(false);
+  useEffect(() => setPeek(false), [selected]);
   if (!selected) return null;
 
   let body: ReactNode = <div className="muted">Not found: {selected}</div>;
@@ -23,7 +25,8 @@ export default function Inspector({ idx }: { idx: Index }) {
   else if (selected.startsWith("gov:")) body = <GovView idx={idx} id={selected} />;
 
   return (
-    <aside className="panel inspector" key={selected}>
+    <aside className={`panel inspector${peek ? " peek" : ""}`} key={selected}>
+      <button className="sheet-handle" onClick={() => setPeek((p) => !p)} aria-label={peek ? "Expand details" : "Collapse details"} />
       <button className="close" onClick={() => select(null)} aria-label="Close inspector">✕</button>
       {body}
     </aside>

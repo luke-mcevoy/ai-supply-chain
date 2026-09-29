@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import DeckGL, { type DeckGLRef } from "@deck.gl/react";
 import { _GlobeView as GlobeView, LinearInterpolator, type PickingInfo, type GlobeViewState } from "@deck.gl/core";
-import { GeoJsonLayer, PathLayer, ScatterplotLayer, TextLayer } from "@deck.gl/layers";
+import { GeoJsonLayer, PathLayer, ScatterplotLayer } from "@deck.gl/layers";
 import { TripsLayer } from "@deck.gl/geo-layers";
 import { SimpleMeshLayer } from "@deck.gl/mesh-layers";
 import { SphereGeometry } from "@luma.gl/engine";
@@ -10,7 +10,7 @@ import { PathStyleExtension, type PathStyleExtensionProps } from "@deck.gl/exten
 import type { Feature, Geometry } from "geojson";
 import {
   type Index, type Facility, type Flow, type FinancialLink, type Control,
-  traverse, locateAny, usdValue, ctlEffect, CHAIN,
+  traverse, locateAny, usdValue, ctlEffect, nodeName, CHAIN,
 } from "./atlas";
 import { arcPath, graticule, offsetEast, type World, type Country } from "./geo";
 import { C, LAYER_COLOR } from "./theme";
@@ -20,6 +20,7 @@ type RGB = [number, number, number];
 type RGBA = [number, number, number, number];
 const rgba = (c: RGB, a: number): RGBA => [c[0], c[1], c[2], Math.round(a)];
 
+const isTouch = typeof window !== "undefined" && matchMedia("(pointer: coarse)").matches;
 const VIEW = new GlobeView({ id: "globe", resolution: 5 });
 // Size the globe to ~38% of the short viewport edge (radius ≈ 170 px at zoom 1.05 on a 950 px-tall viewport).
 const fitZoom = () => 1.05 + Math.log2((0.4 * Math.min(window.innerWidth, window.innerHeight - 90)) / 170);
@@ -27,6 +28,10 @@ const INITIAL = { longitude: -168, latitude: 28, zoom: fitZoom(), minZoom: 0.4, 
 // Ocean: a mesh sphere a hair under Earth's radius, so tessellated land polygons never z-fight with it.
 const OCEAN_MESH = new SphereGeometry({ radius: 6.36e6, nlat: 48, nlong: 96 });
 const GRATICULE = graticule(20);
+/** One-tap camera presets: [label, lon, lat, zoom]. */
+const REGIONS: [string, number, number, number][] = [
+  ["Pacific", -168, 28, 1.6], ["US", -97, 38, 2.5], ["East Asia", 124, 30, 2.5], ["Europe", 8, 50, 2.7],
+];
 const DASH = new PathStyleExtension({ dash: true, highPrecisionDash: true });
 
 interface ArcDatum { id: string; path: [number, number, number][]; ts: number[]; color: RGB; width: number; dashed: boolean; kind: string }
@@ -63,6 +68,12 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   const [viewState, setViewState] = useState<Record<string, unknown>>(INITIAL);
   const [time, setTime] = useState(0);
   const idleSpin = useRef(true);
+  const stopSpin = () => { idleSpin.current = false; };
+  const zoomBy = (dz: number) => {
+    stopSpin();
+    setViewState((v) => ({ ...v, zoom: Math.max(0.4, Math.min(9, (v.zoom as number) + dz)),
+      transitionDuration: 300, transitionInterpolator: new LinearInterpolator(["zoom"]) }));
+  };
 
   // ── animation clock (drives pulses + idle rotation) ──
   useEffect(() => {
@@ -279,6 +290,37 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     return rgba(C.land, 255);
   };
 
+  // ── Stable data arrays: deck.gl diffs by reference, so anything rebuilt per render is
+  //    re-uploaded (and countries re-tessellated) every animation frame. Build each once per real change.
+  const countryData = useMemo(() => world.countries.map((c) => ({ ...c.feature, a2: c.a2, name: c.name, country: c })) as unknown as Feature<Geometry>[], [world]);
+  const pulseData = useMemo(() => flowArcs.filter((d) => inFocusFlow(d.id)),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [flowArcs, focus]);
+  const hoverId = s.hover?.id;
+  const haloData = useMemo(() => facilities.filter((f) => f.id === s.selected || severedSet.has(f.id) || f.id === hoverId),
+    [facilities, s.selected, severedSet, hoverId]);
+  const zoomTier = (viewState.zoom as number) < 1.4 ? 1 : (viewState.zoom as number) < 2.2 ? 2 : (viewState.zoom as number) < 3.2 ? 3 : 4;
+  const camLon = Math.round((viewState.longitude as number) / 8) * 8;
+  const camLat = Math.round((viewState.latitude as number) / 8) * 8;
+  const labelData = useMemo(() => {
+    const facing = facilities.filter((f) => angularDist(f.location.lon, f.location.lat, camLon, camLat) < 68);
+    return labelSet(facing, idx, s.selected, hoverId, focus?.nodes, [0, 1.2, 2, 3, 4][zoomTier]);
+  }, [facilities, idx, s.selected, hoverId, focus, zoomTier, camLon, camLat]);
+  const capitalLabelData = useMemo(() => [...capitalNodes].sort((a, b) => b.v - a.v).slice(0, 18), [capitalNodes]);
+  const listedData = useMemo(() => [...new Set([...ctl.active, ...ctl.listings].flatMap((c) => c.entities ?? []))]
+    .map((id) => ({ id, pos: locateAny(idx, id)! })).filter((d) => d.pos), [ctl, idx]);
+
+  // HTML label overlay (crisp fonts, clickable). Positions are written straight to the DOM each frame.
+  const overlay: { id: string; text: string; lon: number; lat: number; dx: number; strong: boolean }[] = useMemo(() => {
+    if (mode === "network") return [...labelData].sort((a, b) => Number(b.id === s.selected) - Number(a.id === s.selected)).map((f) => ({ id: f.id, text: f.name, lon: f.location.lon, lat: f.location.lat, dx: radiusOf(f.id) + 6, strong: f.id === s.selected }));
+    if (mode === "capital") return capitalLabelData.map((d) => ({ id: d.id, text: idx.company.get(d.id)?.name ?? nodeName(idx, d.id), lon: d.pos![0], lat: d.pos![1], dx: 12, strong: d.id === s.selected }));
+    return [];
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode, labelData, capitalLabelData, s.selected, idx]);
+  const overlayRef = useRef(overlay);
+  overlayRef.current = overlay;
+  const labelsRef = useRef<HTMLDivElement>(null);
+
   const layers = [
     new SimpleMeshLayer({
       id: "ocean", data: [0], mesh: OCEAN_MESH, coordinateSystem: COORDINATE_SYSTEM.CARTESIAN,
@@ -292,7 +334,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     }),
     new GeoJsonLayer<unknown>({
       id: "countries",
-      data: world.countries.map((c) => ({ ...c.feature, a2: c.a2, name: c.name, country: c })) as unknown as Feature<Geometry>[],
+      data: countryData,
       filled: true, stroked: false, pickable: mode === "controls",
       getFillColor: ((d: { country: Country }) => countryFill(d.country)) as unknown as RGBA,
       updateTriggers: { getFillColor: [mode, ctl, s.severed] },
@@ -322,7 +364,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         onHover, onClick,
       }),
       new TripsLayer<ArcDatum>({
-        id: "flow-pulses", data: flowArcs.filter((d) => inFocusFlow(d.id)),
+        id: "flow-pulses", data: pulseData,
         getPath: (d) => d.path, getTimestamps: (d) => d.ts,
         getColor: (d) => (exposure?.flows.has(d.id) ? C.danger : ([Math.min(255, d.color[0] + 60), Math.min(255, d.color[1] + 60), Math.min(255, d.color[2] + 60)] as RGB)),
         opacity: 0.95, widthMinPixels: 2.4, getWidth: 2.4, widthUnits: "pixels",
@@ -330,7 +372,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         updateTriggers: { getColor: [exposure] },
       }),
       new ScatterplotLayer<Facility>({
-        id: "facility-halo", data: facilities.filter((f) => f.id === s.selected || severedSet.has(f.id) || f.id === s.hover?.id),
+        id: "facility-halo", data: haloData,
         getPosition: (f) => [f.location.lon, f.location.lat, 12_000],
         getRadius: (f) => radiusOf(f.id) + 7, radiusUnits: "pixels",
         getFillColor: (f) => rgba(severedSet.has(f.id) ? C.danger : LAYER_COLOR[f.layer], 50),
@@ -349,17 +391,6 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         updateTriggers: { getFillColor: [focus, exposure, severedSet], getLineColor: [focus] },
         transitions: { getFillColor: 300 },
         onHover, onClick,
-      }),
-      new TextLayer<Facility>({
-        id: "labels",
-        data: labelSet(facilities, idx, s.selected, s.hover?.id, focus?.nodes, viewState.zoom as number),
-        getPosition: (f) => [f.location.lon, f.location.lat, 40_000],
-        getText: (f) => f.name.toUpperCase(),
-        getSize: 10.5, sizeUnits: "pixels", getColor: (f) => rgba(f.id === s.selected ? C.text : C.muted, 255),
-        fontFamily: "'IBM Plex Mono', ui-monospace, monospace", fontWeight: 500,
-        getTextAnchor: "start", getAlignmentBaseline: "center", getPixelOffset: (f) => [radiusOf(f.id) + 6, 0],
-        background: true, getBackgroundColor: [8, 11, 15, 190], backgroundPadding: [4, 2],
-        characterSet: "auto", updateTriggers: { getColor: [s.selected] },
       }),
     ] : []),
 
@@ -393,14 +424,6 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         stroked: true, getLineColor: [10, 12, 16, 220], lineWidthUnits: "pixels", getLineWidth: 1,
         onHover, onClick,
       }),
-      new TextLayer<{ id: string; pos?: [number, number]; v: number }>({
-        id: "capital-labels", data: [...capitalNodes].sort((a, b) => b.v - a.v).slice(0, 18),
-        getPosition: (d) => [d.pos![0], d.pos![1], 40_000],
-        getText: (d) => (idx.company.get(d.id)?.name ?? d.id).toUpperCase(), getSize: 10.5, sizeUnits: "pixels",
-        getColor: rgba(C.muted, 255), fontFamily: "'IBM Plex Mono', ui-monospace, monospace",
-        getTextAnchor: "start", getAlignmentBaseline: "center", getPixelOffset: [12, 0],
-        background: true, getBackgroundColor: [8, 11, 15, 190], backgroundPadding: [4, 2], characterSet: "auto",
-      }),
     ] : []),
 
     // ─── CONTROLS ───
@@ -415,14 +438,14 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         getColor: rgba(C.danger, 210), getWidth: (d) => d.width, widthUnits: "pixels",
         getDashArray: [6, 4], extensions: [DASH], onHover, onClick,
       }),
-      new TextLayer<(typeof ctlArcs)[number]>({
-        id: "ctl-x", data: ctlArcs, getPosition: (d) => d.mid, getText: () => "✕", getSize: 15,
-        getColor: rgba(C.danger, 255), characterSet: "auto", fontWeight: 700,
-        background: true, getBackgroundColor: [20, 8, 10, 220], backgroundPadding: [3, 1],
+      new ScatterplotLayer<(typeof ctlArcs)[number]>({
+        id: "ctl-x", data: ctlArcs, pickable: true, getPosition: (d) => d.mid, getRadius: 5, radiusUnits: "pixels",
+        getFillColor: [20, 8, 10, 230], stroked: true, getLineColor: rgba(C.danger, 255), lineWidthUnits: "pixels", getLineWidth: 2,
+        parameters: { depthCompare: "always" }, onHover, onClick,
       }),
       new ScatterplotLayer<{ id: string; pos: [number, number] }>({
         id: "listed-entities", pickable: true,
-        data: [...new Set([...ctl.active, ...ctl.listings].flatMap((c) => c.entities ?? []))].map((id) => ({ id, pos: locateAny(idx, id)! })).filter((d) => d.pos),
+        data: listedData,
         getPosition: (d) => [d.pos[0], d.pos[1], 12_000], getRadius: 6, radiusUnits: "pixels",
         getFillColor: rgba(C.danger, 230), stroked: true, getLineColor: [255, 255, 255, 220], lineWidthUnits: "pixels", getLineWidth: 1.2,
         onHover, onClick,
@@ -433,6 +456,30 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   // Globe halo: measure the globe's on-screen radius after each render and size a CSS glow to it.
   const onAfterRender = () => {
     const vp = deckRef.current?.deck?.getViewports()[0];
+    const box = labelsRef.current;
+    if (vp && box) {
+      const lon0 = viewState.longitude as number, lat0 = viewState.latitude as number;
+      const els = box.children as HTMLCollectionOf<HTMLElement>;
+      // Greedy de-overlap: labels arrive in priority order (selection, then reach); a label that would
+      // collide with one already placed is hidden. Zooming in spreads sites apart and reveals more.
+      const placed: [number, number, number, number][] = [];
+      const cw = window.innerWidth < 700 ? 6.2 : 6.9;
+      overlayRef.current.forEach((l, i) => {
+        const el = els[i];
+        if (!el) return;
+        const hide = () => { el.style.opacity = "0"; el.style.pointerEvents = "none"; };
+        const d = angularDist(l.lon, l.lat, lon0, lat0);
+        if (d > 80) return hide();
+        const [px, py] = vp.project([l.lon, l.lat, 40_000]);
+        const x = px + l.dx, w = Math.min(window.innerWidth < 700 ? 150 : 240, l.text.length * cw + 10), h = 17;
+        const box2: [number, number, number, number] = [x, py - h / 2, x + w, py + h / 2];
+        if (!l.strong && placed.some((b) => box2[0] < b[2] && box2[2] > b[0] && box2[1] < b[3] && box2[3] > b[1])) return hide();
+        placed.push(box2);
+        el.style.transform = `translate(${x}px, ${py}px) translateY(-50%)`;
+        el.style.opacity = d > 70 ? String((80 - d) / 10) : "1";
+        el.style.pointerEvents = "auto";
+      });
+    }
     const el = haloRef.current;
     if (!vp || !el) return;
     const lon = viewState.longitude as number, lat = viewState.latitude as number;
@@ -445,13 +492,32 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   };
 
   return (
-    <div className="globe-wrap">
+    <div className="globe-wrap" onPointerDown={stopSpin} onWheel={stopSpin}>
       <div className="halo" ref={haloRef} />
+      <div className="labels" ref={labelsRef} aria-hidden="true">
+        {overlay.map((l) => (
+          <button key={l.id} className={`glabel${l.strong ? " strong" : ""}`} tabIndex={-1}
+            onClick={() => { stopSpin(); s.select(l.id); }} onPointerEnter={() => s.set({ hover: null })}>{l.text}</button>
+        ))}
+      </div>
+      <div className="camera" role="group" aria-label="Camera">
+        <div className="cam-regions">
+          {REGIONS.map(([label, lon, lat, zoom]) => (
+            <button key={label} onClick={() => s.focus(lon, lat, window.innerWidth < 700 ? zoom - 0.5 : zoom)} title={`Fly to ${label}`}>{label}</button>
+          ))}
+        </div>
+        <div className="cam-zoom">
+          <button aria-label="Zoom in" onClick={() => zoomBy(0.6)}>+</button>
+          <button aria-label="Zoom out" onClick={() => zoomBy(-0.6)}>−</button>
+          <button aria-label="Reset view" title="Reset view" onClick={() => { stopSpin(); setViewState((v) => ({ ...v, ...INITIAL, transitionDuration: 900, transitionInterpolator: new LinearInterpolator(["longitude", "latitude", "zoom"]) })); }}>⟲</button>
+        </div>
+      </div>
       <DeckGL
         ref={deckRef}
         views={VIEW}
         viewState={viewState as unknown as GlobeViewState}
-        controller={{ inertia: 400, scrollZoom: { speed: 0.02, smooth: true } }}
+        controller={{ inertia: 250, scrollZoom: { speed: 0.012, smooth: false }, doubleClickZoom: true, touchRotate: false, keyboard: true }}
+        pickingRadius={isTouch ? 14 : 6}
         onViewStateChange={({ viewState: v, interactionState }) => {
           if (interactionState?.isDragging || interactionState?.isZooming || interactionState?.isPanning) idleSpin.current = false;
           setViewState(v as Record<string, unknown>);
@@ -460,7 +526,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
         onAfterRender={onAfterRender}
         getCursor={({ isHovering, isDragging }) => (isDragging ? "grabbing" : isHovering ? "pointer" : "grab")}
         onClick={(info) => { if (!info.object) onClick(info); }}
-        useDevicePixels={Math.min(2, window.devicePixelRatio)}
+        useDevicePixels={isTouch ? 1.5 : Math.min(2, window.devicePixelRatio)}
       />
     </div>
   );
@@ -479,6 +545,13 @@ function finColor(f: FinancialLink): RGB {
 }
 
 /** Labels: selection, hover, focus set, plus the biggest chokepoints (more as you zoom in). */
+/** Great-circle angle between two lon/lat points, degrees. */
+function angularDist(lon1: number, lat1: number, lon2: number, lat2: number) {
+  const r = Math.PI / 180;
+  const c = Math.sin(lat1 * r) * Math.sin(lat2 * r) + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.cos((lon1 - lon2) * r);
+  return Math.acos(Math.max(-1, Math.min(1, c))) / r;
+}
+
 function labelSet(facs: Facility[], idx: Index, sel: string | null, hov: string | undefined, focus: Set<string> | undefined, zoom: number) {
   const n = zoom < 1.4 ? 10 : zoom < 2.2 ? 22 : zoom < 3.2 ? 60 : 400;
   const ranked = [...facs].sort((a, b) => (idx.reach.get(b.id) ?? 0) - (idx.reach.get(a.id) ?? 0) || CHAIN.indexOf(a.layer) - CHAIN.indexOf(b.layer));

@@ -54,6 +54,25 @@ kbd { font-family: var(--mono); font-size: 10px; border: 1px solid var(--line-2)
   background: radial-gradient(circle, rgba(76,144,240,0) 41.5%, rgba(76,144,240,0.16) 42.4%, rgba(76,144,240,0.05) 46%, rgba(76,144,240,0) 52%);
 }
 
+.camera { position: absolute; z-index: 4; right: 12px; bottom: 12px; display: flex; align-items: flex-end; gap: 8px; }
+.cam-regions { display: flex; gap: 2px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 2px; }
+.cam-regions button { font: 500 10.5px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--text-2); padding: 7px 9px; border-radius: 2px; }
+.cam-regions button:hover { background: var(--raise); color: var(--text); }
+.cam-zoom { display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.cam-zoom button { width: 34px; height: 34px; font-size: 16px; color: var(--text-2); }
+.cam-zoom button + button { border-top: 1px solid var(--line); }
+.cam-zoom button:hover { background: var(--raise); color: var(--text); }
+.app:has(.inspector) .camera { right: 416px; }
+.app:has(.timeline) .camera { bottom: 104px; }
+.sheet-handle { display: none; }
+
+.labels { position: absolute; inset: 0; pointer-events: none; z-index: 2; overflow: hidden; }
+.glabel { position: absolute; left: 0; top: 0; opacity: 0; white-space: nowrap; max-width: 240px; overflow: hidden; text-overflow: ellipsis;
+  font: 500 10.5px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted);
+  background: rgba(8,11,15,.72); padding: 3px 5px; border-radius: 2px; will-change: transform; }
+.glabel:hover, .glabel.strong { color: var(--text); background: rgba(8,11,15,.92); }
+@media (max-width: 700px) { .glabel { font-size: 9.5px; max-width: 150px; } }
+
 /* ── panels ────────────────────────────────────────── */
 .panel {
   position: absolute; z-index: 5;
@@ -252,6 +271,7 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ── responsive ────────────────────────────────────── */
+@media (max-width: 1320px) { .legend { display: none; } }  /* would collide with camera controls; legend is also in Method */
 @media (max-width: 1100px) {
   .timeline { left: 12px; right: 12px; }
   .meta { display: none; }
@@ -277,5 +297,34 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
   .rail { width: calc(100vw - 24px); max-height: 60vh; }
   .stat-row { grid-template-columns: repeat(2, 1fr); }
   .about { padding: 20px 16px; }
+}
+/* ── touch / phone ─────────────────────────────────── */
+@media (pointer: coarse) {
+  .tooltip { display: none; }            /* tap selects; no hover on touch */
+  .flowrow, .choke button, .stage { min-height: 38px; }
+  .check { padding: 7px 2px; }
+  .scenario button, .actions button { padding: 8px 11px; }
+}
+@media (max-width: 900px) {
+  .camera { position: static; }
+  .cam-regions { position: absolute; z-index: 4; top: 52px; left: 58px; right: 8px; overflow-x: auto; scrollbar-width: none; }
+  .cam-regions::-webkit-scrollbar { display: none; }
+  .cam-regions button { padding: 12px 10px; white-space: nowrap; flex: 1; }
+  .cam-zoom { position: absolute; z-index: 4; right: 8px; bottom: 12px; }
+  .cam-zoom button { width: 42px; height: 42px; }
+  .app:has(.inspector) .cam-zoom { display: none; }
+  .app:has(.timeline) .cam-zoom { bottom: 96px; }
+  .app:has(.rail) .cam-regions { display: none; }
+  .tl-head > .muted { display: none; }   /* legend lives in Method on phones */
+  .timeline { left: 8px; right: 8px; bottom: 8px; padding: 8px 10px; }
+  .rail { top: 52px; left: 8px; right: 8px; width: auto; max-height: calc(100dvh - 70px); }
+  .rail-toggle { top: 52px; left: 8px; width: 42px; height: 42px; }
+  .inspector { padding: 6px 16px calc(16px + env(safe-area-inset-bottom)); max-height: 62dvh; transition: max-height .2s ease; }
+  .inspector.peek { max-height: 132px; overflow: hidden; }
+  .sheet-handle { display: block; width: 100%; height: 22px; position: relative; margin-bottom: 2px; }
+  .sheet-handle::before { content: ""; position: absolute; left: 50%; top: 8px; width: 40px; height: 4px; margin-left: -20px; border-radius: 2px; background: var(--line-2); }
+  .inspector .close { top: 10px; }
+  .palette { margin-top: 0; }
+  .scrim { padding-top: 56px; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
