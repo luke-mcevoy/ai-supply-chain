@@ -60,3 +60,18 @@ Build: company endpoints resolve to a site only when unambiguous; otherwise draw
   1 unsupported xAI Colossus 2 "next phase" figure removed. Remaining audit hits are confirmed cross-references.
 - app/public/atlas.json is now the VERIFIED build (no --draft). Deploy should serve this.
 Released 2026-09-28 with user approval: pushed to origin/main and deployed the verified build to https://ai-supply-chain-atlas.fly.dev/ (draft:false confirmed live).
+
+## 2026-09-29 — Claude (Opus 5.5): UX, single points of failure, data table, CI
+- Globe: stable data arrays (31→121 fps), trackball drag (lat clamped), camera presets, HTML labels
+  with collision avoidance, mobile layout; "Walk the chain" upstream/downstream step-through.
+- Map-accuracy fixes: company-level routes now draw at a site only if the route's own evidence names it
+  or the company has one site (had drawn every NVIDIA GPU route from its Israel office; 28 unsupported
+  hints dropped). Regression test in app/test/published-data.test.ts.
+- Single points of failure: knockout model in app/src/atlas.ts (AND across input kinds, OR across
+  suppliers; company suppliers split per input kind; inferred routes can't add requirements to documented
+  nodes). Result: NVIDIA sole recorded AI-hardware source for 19 campuses (6 on documented routes alone).
+- Data table (Sites/Routes/Capital/Rules/Sources) with sort, filter, CSV incl. source URLs + quotes.
+- CI (.github/workflows/ci.yml): validate, fresh non-draft build, prose-number audit vs
+  data/audit-baseline.json, tsc, vitest (27), vite build, Playwright smoke (6). Deploy job needs a
+  FLY_API_TOKEN repo secret (skipped until set). First run green.
+Open: set FLY_API_TOKEN for auto-deploy; bump actions to Node-24 versions before GitHub removes Node 20.
