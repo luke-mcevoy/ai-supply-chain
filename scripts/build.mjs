@@ -9,8 +9,8 @@
 //   - `--draft` publishes unverified layers too, every entity marked
 //     review:"unverified" (for local development only — never deploy a draft build).
 //
-// Cross-layer flow endpoints given as company ids are resolved through
-// from_hint/to_hint, else to the company's facility in the most plausible layer, else to its HQ.
+// Cross-layer flow endpoints given as company ids are resolved through a counsel-approved
+// from_hint/to_hint, else to the company's only site (if it has exactly one), else to its HQ.
 
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -125,17 +125,11 @@ const layerIdx = (l) => ORDER.indexOf(l);
 function resolve(endpoint, hint, otherLayer, side) {
   if (facilities.has(endpoint)) return { id: endpoint, how: "direct" };
   if (hint && facilities.has(hint)) return { id: hint, how: "hint" };
-  const facs = byOperator.get(endpoint) ?? [];
-  if (facs.length) {
-    // Upstream side looks for the operator's site in the stage just before the other end; downstream, just after.
-    // Only resolve when that choice is UNAMBIGUOUS (one candidate in the closest stage). Picking one of several
-    // fabs would put an undocumented site on the map, so ambiguous cases fall back to the company HQ.
-    const target = layerIdx(otherLayer) + (side === "from" ? -1 : 1);
-    const dist = (f) => Math.abs(layerIdx(f.layer) - target);
-    const best = Math.min(...facs.map(dist));
-    const candidates = facs.filter((f) => dist(f) === best && f.status !== "cancelled");
-    if (candidates.length === 1) return { id: candidates[0].id, how: "operator" };
-  }
+  const facs = (byOperator.get(endpoint) ?? []).filter((f) => f.status !== "cancelled");
+  // Resolve a company to a site only when there is no choice to make (the company has exactly one site).
+  // Guessing by stage adjacency put every NVIDIA GPU shipment at NVIDIA's Israel networking office;
+  // anything ambiguous is drawn from the company's headquarters and labelled as such.
+  if (facs.length === 1) return { id: facs[0].id, how: "operator" };
   if (companies.has(endpoint)) return { id: endpoint, how: "hq" };
   return null;
 }
@@ -143,8 +137,24 @@ function resolve(endpoint, hint, otherLayer, side) {
 const locOf = (id) => facilities.get(id)?.location ?? companies.get(id)?.hq;
 const layerOfEnd = (id) => facilities.get(id)?.layer ?? companies.get(id)?.layers?.[0];
 
+// A site hint is an analyst's guess. Use it only when the route's own text (quotes, description,
+// inference note) names something specific to that site; otherwise fall back to company-level drawing.
+const STOP = new Set(["the", "and", "for", "inc", "corp", "ltd", "plant", "site", "campus", "fab", "facility", "facilities",
+  "operations", "center", "headquarters", "manufacturing", "advanced", "data", "semiconductor", "company", "limited",
+  "corporation", "phase", "group", "new", "north", "south", "east", "west", "incl", "main"]);
+function hintSupported(fl, hint) {
+  const F = facilities.get(hint);
+  if (!F) return false;
+  const text = [fl.description, fl.inference_note, ...fl.evidence.map((e) => e.quote)].join(" ").toLowerCase();
+  const opWords = new Set((companies.get(F.operator)?.name ?? "").toLowerCase().split(/[^a-z0-9]+/));
+  return `${F.name} ${F.location.address ?? ""}`.toLowerCase().split(/[^a-z0-9]+/)
+    .some((w) => w.length > 2 && !STOP.has(w) && !opWords.has(w) && text.includes(w));
+}
+let hintsDropped = 0;
+
 let unresolved = 0;
 for (const fl of flows.values()) {
+  for (const k of ["from_hint", "to_hint"]) if (fl[k] && !hintSupported(fl, fl[k])) { fl[k] = undefined; hintsDropped++; }
   const toGuess = facilities.get(fl.to)?.layer ?? facilities.get(fl.to_hint)?.layer ?? fl.source_layer;
   const fromGuess = facilities.get(fl.from)?.layer ?? facilities.get(fl.from_hint)?.layer ?? fl.source_layer;
   const a = resolve(fl.from, fl.from_hint, toGuess, "from");
@@ -166,7 +176,7 @@ const atlas = {
   built_at: new Date().toISOString(),
   draft: DRAFT,
   stats: {
-    ...stats, unresolvedFlows: unresolved,
+    ...stats, unresolvedFlows: unresolved, unsupportedHintsDropped: hintsDropped,
     counts: {
       sources: sources.size, companies: companies.size, facilities: facilities.size,
       flows: flows.size, financial_links: financial.size, controls: controls.size, gaps: gaps.length,

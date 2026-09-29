@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-28T22:48:31.782Z",
+ "built_at": "2026-09-29T17:11:30.661Z",
  "draft": false,
  "stats": {
   "layers": {
@@ -18,6 +18,7 @@
   "withheld": 20,
   "droppedEvidence": 17,
   "unresolvedFlows": 1,
+  "unsupportedHintsDropped": 28,
   "counts": {
    "sources": 377,
    "companies": 140,
@@ -18379,10 +18380,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:crusoe-abilene",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:oracle-oci-racks-to-stargate-abilene",
@@ -18441,10 +18442,10 @@
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:xai-colossus-memphis",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:supermicro-servers-to-xai-colossus",
@@ -18497,10 +18498,10 @@
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:xai-colossus-2-memphis",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gb200-to-fairwater-wisconsin",
@@ -18528,10 +18529,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:microsoft-fairwater-mount-pleasant",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gb200-to-fairwater-atlanta",
@@ -18559,10 +18560,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:microsoft-fairwater-atlanta",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-fairwater-wisconsin-2",
@@ -18591,10 +18592,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:microsoft-fairwater-mount-pleasant-2",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:amazon-trainium2-to-project-rainier",
@@ -18653,10 +18654,10 @@
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:sb-energy-ports-pike",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-core-scientific-denton",
@@ -18684,10 +18685,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:core-scientific-denton",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-core-scientific-dalton-4",
@@ -18716,10 +18717,10 @@
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:core-scientific-dalton-4",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-core-scientific-muskogee",
@@ -18748,10 +18749,10 @@
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:core-scientific-muskogee",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-core-scientific-marble",
@@ -18780,10 +18781,10 @@
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:core-scientific-marble",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-polaris-forge-1",
@@ -18812,10 +18813,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:applied-digital-polaris-forge-1",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-galaxy-helios",
@@ -18844,10 +18845,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:galaxy-helios",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-coreweave-lancaster",
@@ -18876,10 +18877,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:coreweave-lancaster",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-meta-hyperion",
@@ -18908,10 +18909,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:meta-hyperion-richland-parish",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-meta-prometheus",
@@ -18940,10 +18941,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:meta-prometheus-new-albany",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-meta-el-paso",
@@ -18972,10 +18973,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:meta-el-paso",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-stargate-saline",
@@ -19004,10 +19005,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:related-digital-saline-township",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-stargate-port-washington",
@@ -19036,10 +19037,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:vantage-lighthouse-port-washington",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-stargate-shackelford",
@@ -19068,10 +19069,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:vantage-frontier-shackelford",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-stargate-jupiter",
@@ -19100,10 +19101,10 @@
    "best_tier": 2,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:stack-project-jupiter-dona-ana",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:nvidia-gpus-to-stargate-milam",
@@ -19132,10 +19133,10 @@
    "best_tier": 1,
    "layer": "datacenter",
    "source_layer": "datacenter",
-   "from_node": "fac:nvidia-israel-networking",
+   "from_node": "co:nvidia",
    "to_node": "fac:sb-energy-milam-county",
-   "resolution": "operator/direct",
-   "from_layer": "systems"
+   "resolution": "hq/direct",
+   "from_layer": "design"
   },
   {
    "id": "flow:tsmc-nvidia-wafers",
@@ -19167,7 +19168,6 @@
    "id": "flow:tsmc-arizona-nvidia-blackwell-wafers",
    "from": "co:tsmc",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:tsmc-arizona-fab21",
    "commodity": "Blackwell wafers (US-produced)",
    "description": "NVIDIA states Blackwell production started at TSMC's Phoenix, Arizona plants; first US Blackwell wafer celebrated Oct 2025.",
    "basis": "documented",
@@ -19226,7 +19226,6 @@
    "id": "flow:samsung-nvidia-wafers",
    "from": "co:samsung",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:samsung-hwaseong",
    "commodity": "foundry wafers",
    "description": "NVIDIA's 10-K names Samsung as a foundry producing its semiconductor wafers.",
    "basis": "documented",
@@ -19243,16 +19242,15 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:samsung-hwaseong",
+   "from_node": "co:samsung",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "hint/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:sk-hynix-nvidia-memory",
    "from": "co:sk-hynix",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:sk-hynix-icheon",
    "commodity": "memory (HBM/DRAM)",
    "description": "NVIDIA's 10-K names SK Hynix as a memory supplier. Specific HBM generation not stated in the 10-K.",
    "basis": "documented",
@@ -19278,7 +19276,6 @@
    "id": "flow:micron-nvidia-memory",
    "from": "co:micron",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:micron-taichung",
    "commodity": "memory (HBM/DRAM)",
    "description": "NVIDIA's 10-K names Micron as a memory supplier.",
    "basis": "documented",
@@ -19304,7 +19301,6 @@
    "id": "flow:samsung-nvidia-memory",
    "from": "co:samsung",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:samsung-pyeongtaek",
    "commodity": "memory (HBM/DRAM)",
    "description": "NVIDIA's 10-K names Samsung as a memory supplier.",
    "basis": "documented",
@@ -19321,16 +19317,15 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:samsung-pyeongtaek",
+   "from_node": "co:samsung",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "hint/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:amkor-nvidia-packaging-arizona",
    "from": "co:amkor",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:amkor-peoria-arizona",
    "commodity": "packaging and test (Arizona)",
    "description": "NVIDIA states it is partnering with Amkor for packaging and testing operations in Arizona.",
    "basis": "documented",
@@ -19356,7 +19351,6 @@
    "id": "flow:spil-nvidia-packaging-arizona",
    "from": "co:spil",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:spil-arizona",
    "commodity": "packaging and test (Arizona)",
    "description": "NVIDIA states it is partnering with SPIL for packaging and testing operations in Arizona.",
    "basis": "documented",
@@ -19432,7 +19426,6 @@
    "id": "flow:arm-nvidia-grace-cpu-ip",
    "from": "co:arm",
    "to": "fac:nvidia-santa-clara-hq",
-   "from_hint": "fac:arm-cambridge-hq",
    "commodity": "Arm Neoverse V2 CPU cores (Grace CPU)",
    "description": "NVIDIA's Grace CPU Superchip uses 144 Arm Neoverse V2 cores.",
    "basis": "documented",
@@ -19449,9 +19442,9 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:arm-cambridge-hq",
+   "from_node": "co:arm",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "hint/direct",
+   "resolution": "hq/direct",
    "from_layer": "design"
   },
   {
@@ -19484,7 +19477,6 @@
    "id": "flow:globalfoundries-amd-wafers",
    "from": "co:globalfoundries",
    "to": "fac:amd-santa-clara-hq",
-   "from_hint": "fac:globalfoundries-fab8-malta",
    "commodity": "wafers at 12nm/14nm and larger nodes",
    "description": "AMD relies primarily on GF for microprocessor and GPU wafers at nodes larger than 7nm.",
    "basis": "documented",
@@ -19503,7 +19495,7 @@
    "source_layer": "design",
    "from_node": "fac:globalfoundries-fab8-malta",
    "to_node": "fac:amd-santa-clara-hq",
-   "resolution": "hint/direct",
+   "resolution": "operator/direct",
    "from_layer": "fabrication"
   },
   {
@@ -19535,7 +19527,6 @@
    "id": "flow:tongfu-atmp-jvs-amd",
    "from": "co:tongfu-microelectronics",
    "to": "fac:amd-santa-clara-hq",
-   "from_hint": "fac:tf-amd-penang",
    "commodity": "assembly, test, mark and packaging (ATMP)",
    "description": "AMD's two ATMP joint ventures with Tongfu Microelectronics provide ATMP services; AMD reports related-party ATMP purchases.",
    "basis": "documented",
@@ -19631,7 +19622,6 @@
    "id": "flow:micron-amd-hbm3e",
    "from": "co:micron",
    "to": "fac:amd-santa-clara-hq",
-   "from_hint": "fac:micron-taichung",
    "commodity": "HBM3E 36GB 12-high (Instinct MI350 Series)",
    "description": "Micron announced integration of its HBM3E 36GB 12-high into AMD Instinct MI350 Series.",
    "basis": "documented",
@@ -19918,10 +19908,10 @@
    "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "fac:amazon-annapurna-labs-austin",
+   "from_node": "co:amazon",
    "to_node": "fac:marvell-santa-clara",
-   "resolution": "operator/direct",
-   "from_layer": "design"
+   "resolution": "hq/direct",
+   "from_layer": "datacenter"
   },
   {
    "id": "flow:tsmc-microsoft-maia200",
@@ -20148,15 +20138,14 @@
      "supports": "commodity"
     }
    ],
-   "to_hint": "fac:lam-research-fremont",
    "review": "verified",
    "review_note": "Both parties and the relationship verified verbatim in Ichor's FY2025 10-K ('two customers with individual sales over 10%, Lam Research and Applied Materials').",
    "best_tier": 1,
    "layer": "equipment",
    "source_layer": "equipment",
    "from_node": "co:ichor",
-   "to_node": "fac:lam-research-fremont",
-   "resolution": "hq/hint",
+   "to_node": "co:lam-research",
+   "resolution": "hq/hq",
    "from_layer": "equipment"
   },
   {
@@ -20242,15 +20231,14 @@
      "supports": "relationship"
     }
    ],
-   "to_hint": "fac:asml-veldhoven",
    "review": "verified",
    "review_note": "All three evidence items verified verbatim against archived trumpf.com pages; both parties (TRUMPF, ASML) documented directly. Destination facility correctly left as a to_hint rather than asserted as documented, since the receiving ASML site is not stated in the source.",
    "best_tier": 2,
    "layer": "equipment",
    "source_layer": "equipment",
    "from_node": "fac:trumpf-ditzingen",
-   "to_node": "fac:asml-veldhoven",
-   "resolution": "direct/hint",
+   "to_node": "co:asml",
+   "resolution": "direct/hq",
    "from_layer": "equipment"
   },
   {
@@ -21187,7 +21175,6 @@
    "id": "flow:wacker-to-siltronic-polysilicon",
    "from": "co:wacker",
    "to": "co:siltronic",
-   "to_hint": "fac:siltronic-burghausen",
    "commodity": "semiconductor-grade polysilicon",
    "basis": "documented",
    "description": "Siltronic states it obtains most of its polysilicon from Wacker Chemie AG under long-term supply agreements. Wacker is also Siltronic's largest shareholder. Siltronic does not state which Wacker site supplies it.",
@@ -21211,8 +21198,8 @@
    "layer": "materials",
    "source_layer": "materials",
    "from_node": "co:wacker",
-   "to_node": "fac:siltronic-burghausen",
-   "resolution": "hq/hint",
+   "to_node": "co:siltronic",
+   "resolution": "hq/hq",
    "from_layer": "materials"
   },
   {
@@ -21620,7 +21607,6 @@
      "supports": "commodity"
     }
    ],
-   "from_hint": "fac:tsmc-fab21-arizona",
    "review": "verified",
    "review_note": "Both parties and the specific arrangement (TSMC contracting turnkey packaging from Amkor's Peoria facility to serve Phoenix fab customers) named explicitly in the joint MOU announcement; verified verbatim.",
    "best_tier": 2,
@@ -21972,17 +21958,16 @@
      "supports": "base-die demand"
     }
    ],
-   "from_hint": "fac:samsung-hwaseong",
    "inference_note": "Samsung discloses in-house 4nm HBM4 base-die production [Business Report] and that Onyang is a Test & System Package site for memory [IATF certificate]. Which Samsung site stacks HBM4 on these base dies is not in Tier 1/2 sources ⇒ destination inferred.",
    "review": "flagged",
    "review_note": "Intra-Samsung inference: in-house 4nm HBM4 base-die production is well documented, and Onyang's packaging function is documented (via the stale certificate flagged elsewhere). No document identifies Onyang specifically as the HBM4 stacking site (vs. Hwaseong or elsewhere), so the destination is speculative even by intra-company standards; flagged accordingly in addition to the inherited staleness caveat.",
    "best_tier": 1,
    "layer": "memory_packaging",
    "source_layer": "memory_packaging",
-   "from_node": "fac:samsung-hwaseong",
+   "from_node": "co:samsung",
    "to_node": "fac:samsung-onyang",
-   "resolution": "hint/direct",
-   "from_layer": "memory_packaging"
+   "resolution": "hq/direct",
+   "from_layer": "fabrication"
   },
   {
    "id": "flow:crane-to-microsoft",
@@ -22075,7 +22060,6 @@
    "id": "flow:susquehanna-to-amazon",
    "from": "fac:talen-susquehanna",
    "to": "co:amazon",
-   "to_hint": "fac:amazon-susquehanna-salem-township",
    "commodity": "electricity (nuclear, up to 1,920 MW)",
    "description": "Susquehanna supplies AWS under an expanded PPA; ramps to 1,920 MW no later than 2032 and runs through 2042, for the adjacent AWS data center campus with ability to deliver to other Pennsylvania sites. Transitioning from co-located (behind-the-meter) to front-of-the-meter delivery with PPL as transmission provider; the FERC ER24-2172 ISA amendment for expanded co-location was denied in Nov 2024.",
    "basis": "documented",
@@ -22170,7 +22154,6 @@
    "id": "flow:hermes-2-to-alphabet",
    "from": "fac:kairos-hermes-2",
    "to": "co:alphabet",
-   "to_hint": "fac:alphabet-montgomery-county-tn",
    "commodity": "electricity / clean energy attributes (via TVA)",
    "description": "Hermes 2 delivers up to 50 MW to the TVA grid under a Kairos-TVA PPA; Google receives the clean energy attributes for its data center operations in Montgomery County, TN and Jackson County, AL.",
    "basis": "documented",
@@ -22693,8 +22676,8 @@
    "layer": "power",
    "source_layer": "power",
    "from_node": "fac:ge-vernova-greenville",
-   "to_node": "fac:crusoe-abilene-longhorn-turbines",
-   "resolution": "operator/operator",
+   "to_node": "co:crusoe",
+   "resolution": "operator/hq",
    "from_layer": "power"
   },
   {
@@ -22744,7 +22727,6 @@
    "id": "flow:longhorn-turbines-to-oracle-stargate",
    "from": "fac:crusoe-abilene-longhorn-turbines",
    "to": "co:oracle",
-   "to_hint": "fac:oracle-stargate-abilene",
    "commodity": "electricity (onsite gas turbines)",
    "description": "TCEQ-permitted simple-cycle turbines (5 Titan 350 + 5 GE LM2500) generating power for onsite data center use at Crusoe's Longhorn Data Center in Abilene; Crusoe's Abilene campus is Stargate's flagship running on Oracle Cloud Infrastructure.",
    "basis": "inferred",
@@ -22868,8 +22850,8 @@
    "layer": "systems",
    "source_layer": "systems",
    "from_node": "co:foxconn",
-   "to_node": "fac:nvidia-israel-networking",
-   "resolution": "hq/operator",
+   "to_node": "co:nvidia",
+   "resolution": "hq/hq",
    "from_layer": "systems"
   },
   {
@@ -22893,8 +22875,8 @@
    "layer": "systems",
    "source_layer": "systems",
    "from_node": "co:wistron",
-   "to_node": "fac:nvidia-israel-networking",
-   "resolution": "hq/operator",
+   "to_node": "co:nvidia",
+   "resolution": "hq/hq",
    "from_layer": "systems"
   },
   {
@@ -22918,8 +22900,8 @@
    "layer": "systems",
    "source_layer": "systems",
    "from_node": "co:fabrinet",
-   "to_node": "fac:nvidia-israel-networking",
-   "resolution": "hq/operator",
+   "to_node": "co:nvidia",
+   "resolution": "hq/hq",
    "from_layer": "systems"
   },
   {
@@ -23107,8 +23089,8 @@
    "layer": "systems",
    "source_layer": "systems",
    "from_node": "fac:coherent-sherman",
-   "to_node": "fac:nvidia-israel-networking",
-   "resolution": "direct/operator",
+   "to_node": "co:nvidia",
+   "resolution": "direct/hq",
    "from_layer": "systems"
   },
   {
@@ -23191,16 +23173,14 @@
      "supports": "relationship"
     }
    ],
-   "from_hint": "fac:siltronic-singapore",
-   "to_hint": "fac:samsung-pyeongtaek",
    "review": "verified",
    "review_note": "Documented: same Siltronic Annual Report 2025 customer-list quote (Tier 1), confirmed verbatim.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
-   "from_node": "fac:siltronic-singapore",
-   "to_node": "fac:samsung-pyeongtaek",
-   "resolution": "hint/hint",
+   "from_node": "co:siltronic",
+   "to_node": "co:samsung",
+   "resolution": "hq/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23218,16 +23198,15 @@
      "supports": "relationship"
     }
    ],
-   "from_hint": "fac:siltronic-singapore",
    "to_hint": "fac:intel-arizona",
    "review": "verified",
    "review_note": "Documented: same Siltronic Annual Report 2025 customer-list quote (Tier 1), confirmed verbatim.",
    "best_tier": 1,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
-   "from_node": "fac:siltronic-singapore",
+   "from_node": "co:siltronic",
    "to_node": "fac:intel-arizona",
-   "resolution": "hint/hint",
+   "resolution": "hq/hint",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23284,16 +23263,14 @@
      "supports": "commodity"
     }
    ],
-   "from_hint": "fac:sumco-kyushu-imari",
-   "to_hint": "fac:samsung-pyeongtaek",
    "review": "verified",
    "review_note": "Documented: SUMCO's own Sustainability Report (Tier 2) names Samsung specifically ('2025 Best Partner Award from Samsung...due to our contribution... developing silicon wafers for advanced devices'), confirmed in context (the two separately-quoted fragments sit in the same sentence).",
    "best_tier": 2,
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:sumco-kyushu-imari",
-   "to_node": "fac:samsung-pyeongtaek",
-   "resolution": "hint/hint",
+   "to_node": "co:samsung",
+   "resolution": "operator/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23323,8 +23300,6 @@
      "supports": "commodity"
     }
    ],
-   "from_hint": "fac:sk-siltron-gumi-plant3",
-   "to_hint": "fac:sk-hynix-icheon-m16",
    "volume": {
     "value": 502707,
     "unit": "KRW million (purchases and others, all goods/services)",
@@ -23345,8 +23320,8 @@
    "layer": "wafers_chemicals",
    "source_layer": "wafers_chemicals",
    "from_node": "fac:sk-siltron-gumi-plant3",
-   "to_node": "fac:sk-hynix-icheon-m16",
-   "resolution": "hint/hint",
+   "to_node": "co:sk-hynix",
+   "resolution": "operator/hq",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23422,7 +23397,6 @@
     }
    ],
    "from_hint": "fac:globalwafers-memc-st-peters",
-   "to_hint": "fac:globalfoundries-fab8-malta",
    "review": "verified",
    "review_note": "Documented: GlobalFoundries' 20-F (Tier 1) names MEMC LLC as a principal wafer supplier; the NIST CHIPS press release (Tier 1) independently establishes MEMC LLC as a GlobalWafers subsidiary; and a GlobalFoundries executive is directly quoted (Tier 2) calling GlobalWafers a 'longstanding strategic partner.' Three independent, mutually corroborating primary/company sources.",
    "best_tier": 1,
@@ -23430,7 +23404,7 @@
    "source_layer": "wafers_chemicals",
    "from_node": "fac:globalwafers-memc-st-peters",
    "to_node": "fac:globalfoundries-fab8-malta",
-   "resolution": "hint/hint",
+   "resolution": "hint/operator",
    "from_layer": "wafers_chemicals"
   },
   {
@@ -23448,7 +23422,6 @@
      "supports": "relationship"
     }
    ],
-   "to_hint": "fac:globalfoundries-fab8-malta",
    "review": "verified",
    "review_note": "Documented: GlobalFoundries' 20-F (Tier 1) names Shin-Etsu Handotai as a principal wafer supplier, confirmed verbatim.",
    "best_tier": 1,
@@ -23456,7 +23429,7 @@
    "source_layer": "wafers_chemicals",
    "from_node": "co:shin-etsu",
    "to_node": "fac:globalfoundries-fab8-malta",
-   "resolution": "hq/hint",
+   "resolution": "hq/operator",
    "from_layer": "wafers_chemicals"
   },
   {

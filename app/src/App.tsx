@@ -5,6 +5,7 @@ import Globe from "./Globe";
 import Inspector from "./ui/Inspector";
 import { TopBar, Rail, Tooltip, Bottom, Palette, About } from "./ui/Chrome";
 import TourPanel from "./ui/Tour";
+import DataTable from "./ui/DataTable";
 
 export default function App() {
   const [idx, setIdx] = useState<Index | null>(null);
@@ -34,6 +35,7 @@ export default function App() {
       <Tooltip idx={idx} />
       <Palette idx={idx} />
       <About idx={idx} />
+      <DataTable idx={idx} />
     </div>
   );
 }

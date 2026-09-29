@@ -20,6 +20,7 @@ interface State {
   ctlBloc: "allies" | "cn" | "all";
   paletteOpen: boolean;
   aboutOpen: boolean;
+  dataOpen: boolean;
   railOpen: boolean;
   flyTo: { lon: number; lat: number; zoom?: number; t: number } | null;
   /** Active chain walk: anchor node, direction, current step index. */
@@ -50,6 +51,7 @@ export const useStore = create<State>((set, get) => ({
   ctlBloc: "allies",
   paletteOpen: false,
   aboutOpen: false,
+  dataOpen: false,
   railOpen: typeof window !== "undefined" ? window.innerWidth > 900 : true,
   flyTo: null,
   tour: null,

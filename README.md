@@ -51,3 +51,13 @@ Without `--draft`, the build publishes only what verification approved. That is 
 | Build    | `data/build/atlas.json`          | Publishes only approved entities, drops failed evidence, applies corrections and resolves cross-layer routes. |
 
 The evidence standard is in [AGENTS.md](AGENTS.md), and the data contract is in [schema/types.ts](schema/types.ts).
+
+## Checks (CI)
+
+Every push runs `.github/workflows/ci.yml`:
+
+- `node scripts/validate.mjs`: structure and cross-references of every research and verification file.
+- `node scripts/check-build-fresh.mjs`: the committed `app/public/atlas.json` equals a fresh verified build and is never a draft.
+- `node scripts/audit-numbers.mjs --ci`: no *new* number in any description or note that isn't in that entity's quotes. `data/audit-baseline.json` holds the numbers already confirmed by review. After confirming a new one against its source, re-run with `--write-baseline`.
+- `app`: typecheck, unit tests (`npm test`: the chokepoint model, traversal and walk ordering on synthetic chains, plus integrity checks on the published data), production build, and Playwright browser tests (`npm run smoke`).
+- On `main`, when all of that passes, it deploys to Fly. This needs a `FLY_API_TOKEN` repository secret; without one, the deploy step is skipped.

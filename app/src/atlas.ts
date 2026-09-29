@@ -76,6 +76,8 @@ export interface Index {
   reach: Map<string, number>;
   /** Control active interval [start, end) in ms since epoch; end = Infinity if not superseded. */
   controlSpan: Map<string, [number, number]>;
+  /** Single-point-of-failure analysis (see buildKnockout). */
+  ko: Knockout;
 }
 
 const push = <K, V>(m: Map<K, V[]>, k: K, v: V) => { const a = m.get(k); if (a) a.push(v); else m.set(k, [v]); };
@@ -90,7 +92,7 @@ export function buildIndex(atlas: Atlas): Index {
     fin: new Map(atlas.financial_links.map((f) => [f.id, f])),
     control: new Map(atlas.controls.map((c) => [c.id, c])),
     out: new Map(), in: new Map(), facilitiesByOperator: new Map(), finByCompany: new Map(),
-    reach: new Map(), controlSpan: new Map(),
+    reach: new Map(), controlSpan: new Map(), ko: { inputs: new Map(), critical: new Map(), criticalDoc: new Map() },
   };
   for (const f of atlas.flows) { push(idx.out, f.from_node, f); push(idx.in, f.to_node, f); }
   for (const f of atlas.facilities) push(idx.facilitiesByOperator, f.operator, f);
@@ -111,6 +113,7 @@ export function buildIndex(atlas: Atlas): Index {
     const end = next ? t(next.effective_date) : c.status === "rescinded" ? start : Infinity;
     idx.controlSpan.set(c.id, [start, end]);
   }
+  idx.ko = buildKnockout(idx);
   return idx;
 }
 
@@ -255,4 +258,143 @@ export function stepFlows(idx: Index, tour: Tour, step: TourStep): Flow[] {
     if (f && (here.has(f.from_node) || here.has(f.to_node))) out.push(f);
   }
   return out;
+}
+
+// ─── Knockout analysis (single points of failure) ────────────────────────────
+//
+// Model: a node keeps working only if, for EVERY kind of input it takes, at least ONE recorded supplier
+// of that kind still works (AND across input kinds, OR across suppliers of the same kind). Removing one
+// node and propagating shows which AI campuses lose every recorded supplier of some input.
+// Inputs are grouped by kind from the route's commodity text; suppliers of the same kind are treated as
+// substitutes. The dataset is incomplete, so "no recorded alternative" is not "no alternative".
+
+const INPUT_KINDS: [RegExp, string][] = [
+  [/assembly, test and packaging|contract manufacturing/i, "contract manufacturing"],
+  [/electric|uprate/i, "electricity"],
+  [/turbine|reactor module|triso/i, "generation equipment"],
+  [/ethernet|switch|infiniband|transceiver|networking/i, "networking"],
+  [/euv|duv|lithograph|optical column|optical components|light source|reticle|wafer tables|drive laser|optics/i, "lithography"],
+  [/equipment|cmp|metrolog|inspection|delivery subsystem|deposition|etch/i, "process tools"],
+  [/hbm|dram|memory/i, "memory"],
+  [/logic|\bdies?\b|soc|wafers at|foundry wafers|front-end wafers|blackwell wafers|2nm silicon/i, "logic dies"],
+  [/packag|cowos|atmp|assembly and test|test services/i, "packaging"],
+  [/polysilicon/i, "polysilicon"],
+  [/rare earth|ndpr|mrec/i, "rare earths"],
+  [/germanium|zinc and lead/i, "germanium feedstock"],
+  [/fluorspar|fluor/i, "fluorspar"],
+  [/resist|\bmor\b/i, "photoresist"],
+  [/\bgas|nitrogen|argon|oxygen/i, "industrial gases"],
+  [/chemical|materials|filtration/i, "chemicals & materials"],
+  [/wafer|silicon|\bsoi\b/i, "silicon wafers"],
+  [/gpu|nvl|rack|server|superchip|accelerat|trainium|xpu|mtia|maia|blackwell|hopper|rubin|gb[23]00|cloud infrastructure|\bunits\b|system components|custom ai/i, "AI compute hardware"],
+  [/cpu core|\barm\b|eda|licen/i, "IP & EDA"],
+];
+
+export function inputKind(commodity: string, supplierLayer?: string): string {
+  for (const [re, k] of INPUT_KINDS) if (re.test(commodity)) return k;
+  return `other ${supplierLayer ?? "input"}`;
+}
+
+export interface Knockout {
+  /** node → (input kind → supplier nodes). Company suppliers appear as virtual "co:x#kind" nodes. */
+  inputs: Map<string, Map<string, Set<string>>>;
+  /** node → campuses cut off if that node alone is removed (all counsel-approved routes, incl. inferred) */
+  critical: Map<string, { dc: string; kind: string }[]>;
+  /** same, using documented routes only */
+  criticalDoc: Map<string, number>;
+}
+
+/** Which stages produce each input kind (used to decide which of a company's sites back a company-level route). */
+const PRODUCER: Record<string, Layer[]> = {
+  "logic dies": ["fabrication"], memory: ["memory_packaging", "fabrication"], packaging: ["memory_packaging"],
+  lithography: ["equipment"], "process tools": ["equipment"], "AI compute hardware": ["design", "systems"],
+  networking: ["systems", "design"], "contract manufacturing": ["systems"], electricity: ["power"],
+  "generation equipment": ["power"], "silicon wafers": ["wafers_chemicals"], photoresist: ["wafers_chemicals"],
+  "industrial gases": ["wafers_chemicals"], "chemicals & materials": ["wafers_chemicals"], polysilicon: ["materials"],
+  "rare earths": ["materials"], "germanium feedstock": ["materials"], fluorspar: ["materials"], "IP & EDA": ["design"],
+};
+
+function buildInputs(idx: Index, documentedOnly: boolean) {
+  const inputs = new Map<string, Map<string, Set<string>>>();
+  const add = (n: string, kind: string, s: string) => {
+    const g = inputs.get(n) ?? new Map<string, Set<string>>();
+    const set = g.get(kind) ?? new Set<string>();
+    set.add(s); g.set(kind, set); inputs.set(n, g);
+  };
+  const flows = idx.atlas.flows.filter((f) => !documentedOnly || f.basis === "documented");
+  const virtuals = new Map<string, { co: string; kind: string }>();
+  const supplierOf = (f: Flow, kind: string) => {
+    if (!idx.company.has(f.from_node)) return f.from_node;
+    const v = `${f.from_node}#${kind}`;
+    virtuals.set(v, { co: f.from_node, kind });
+    return v;
+  };
+  // Documented routes define what a node requires. An inferred route may add an alternative supplier, or
+  // describe a node with no documented inputs at all, but never adds a new requirement to a documented node
+  // (one inferred link must not turn a well-documented company into a single point of failure).
+  const documentedTo = new Set(flows.filter((f) => f.basis === "documented").map((f) => f.to_node));
+  for (const f of [...flows].sort((a, b) => Number(a.basis === "inferred") - Number(b.basis === "inferred"))) {
+    const kind = inputKind(f.commodity, nodeLayer(idx, f.from_node));
+    if (f.basis === "inferred" && documentedTo.has(f.to_node) && !inputs.get(f.to_node)?.has(kind)) continue;
+    add(f.to_node, kind, supplierOf(f, kind));
+  }
+  // A company-level supplier of kind K works while at least one of the company's K-producing sites works,
+  // and while its own company-level inputs are satisfied.
+  for (const [v, { co, kind }] of virtuals) {
+    const sites = idx.facilitiesByOperator.get(co) ?? [];
+    const producers = sites.filter((f) => (PRODUCER[kind] ?? []).includes(f.layer));
+    for (const f of producers.length ? producers : sites) add(v, "own sites", f.id);
+    for (const [k, set] of inputs.get(co) ?? []) for (const x of set) add(v, k, x);
+    if (!inputs.has(v)) inputs.set(v, new Map());
+  }
+  return { inputs, virtuals };
+}
+
+export function buildKnockout(idx: Index): Knockout {
+  const dcs = idx.atlas.facilities.filter((f) => f.layer === "datacenter").map((f) => f.id);
+  const run = (documentedOnly: boolean) => {
+    const { inputs, virtuals } = buildInputs(idx, documentedOnly);
+    const candidates = new Set<string>();
+    for (const g of inputs.values()) for (const set of g.values()) for (const x of set) candidates.add(x.split("#")[0]);
+    const out = new Map<string, { dc: string; kind: string }[]>();
+    for (const x of candidates) {
+      const removed = new Set([x]);
+      for (const [v, { co }] of virtuals) if (co === x) removed.add(v); // removing a company removes its virtual suppliers
+      const { dead, cause } = knockout(inputs, removed);
+      const hit = dcs.filter((d) => dead.has(d) && d !== x).map((d) => ({ dc: d, kind: cause.get(d)! }));
+      if (hit.length) out.set(x, hit);
+    }
+    return { inputs, out };
+  };
+  const all = run(false);
+  const doc = run(true);
+  return { inputs: all.inputs, critical: all.out, criticalDoc: new Map([...doc.out].map(([k, v]) => [k, v.length])) };
+}
+
+/** Remove `removed`, propagate failures to a fixpoint. Returns dead nodes and, for each, the input kind that ran out. */
+export function knockout(inputs: Knockout["inputs"], removed: Set<string>) {
+  const dead = new Set(removed);
+  const cause = new Map<string, string>();
+  let changed = true;
+  while (changed) {
+    changed = false;
+    for (const [n, groups] of inputs) {
+      if (dead.has(n)) continue;
+      for (const [kind, sup] of groups) {
+        let alive = false;
+        for (const s of sup) if (!dead.has(s)) { alive = true; break; }
+        if (!alive) { dead.add(n); cause.set(n, kind); changed = true; break; }
+      }
+    }
+  }
+  return { dead, cause };
+}
+
+/** Campuses that lose every recorded supplier of some input when `nodes` are removed (company removal includes its virtual suppliers). */
+export function cutOff(idx: Index, nodes: string[]) {
+  const removed = new Set(nodes);
+  for (const k of idx.ko.inputs.keys()) if (k.includes("#") && removed.has(k.split("#")[0])) removed.add(k);
+  const { dead, cause } = knockout(idx.ko.inputs, removed);
+  return idx.atlas.facilities.filter((f) => f.layer === "datacenter" && dead.has(f.id) && !removed.has(f.id))
+    .map((f) => ({ dc: f.id, kind: cause.get(f.id) ?? "" }));
 }

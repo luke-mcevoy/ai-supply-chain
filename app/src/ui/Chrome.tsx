@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { CHAIN, type Index, nodeName, locateAny, formatMoney, traverse, ctlEffect } from "../atlas";
+import { CHAIN, type Index, nodeName, locateAny, formatMoney, traverse, ctlEffect, cutOff } from "../atlas";
 import { LAYER_COLOR, LAYER_LABEL, LAYER_CODE, FIN_LABEL, DOC_LABEL, css } from "../theme";
 import { useStore, type Mode } from "../store";
 import { activeControls } from "../Globe";
@@ -35,6 +35,7 @@ export function TopBar({ idx }: { idx: Index }) {
         <div className="meta mono" title="Share of cited documents that are legal/regulatory (T1) or company-primary (T2)">
           {idx.atlas.sources.length} SOURCES · {pct}% T1/T2
         </div>
+        <button className="about-btn data-btn" onClick={() => set({ dataOpen: true })} title="Every site, route, deal, rule and source as a sortable table, with CSV export">Data</button>
         <button className="about-btn" onClick={() => set({ aboutOpen: true })}>Method</button>
       </div>
     </header>
@@ -54,15 +55,9 @@ export function Rail({ idx }: { idx: Index }) {
     }
     return m;
   }, [idx]);
-  const docOut = (id: string) => (idx.out.get(id) ?? []).filter((f) => f.basis === "documented").length;
-  // Physical production sites only (offices / HQs / engineering centres aren't chokepoints), ranked by
-  // downstream AI campuses; ties go to the more upstream stage, then to better-evidenced sites.
-  const chokepoints = useMemo(() =>
-    [...idx.atlas.facilities]
-      .filter((f) => f.layer !== "datacenter" && f.layer !== "power" && !/headquarter|\bhq\b|office|engineering|design_center|r_and_d/i.test(`${f.kind} ${f.name}`))
-      .sort((a, b) => (idx.reach.get(b.id) ?? 0) - (idx.reach.get(a.id) ?? 0)
-        || docOut(b.id) - docOut(a.id) || CHAIN.indexOf(a.layer) - CHAIN.indexOf(b.layer) || a.best_tier - b.best_tier)
-      .slice(0, 10), [idx]);
+  const spof = useMemo(() => [...idx.ko.critical]
+    .map(([id, hits]) => ({ id, n: hits.length, doc: idx.ko.criticalDoc.get(id) ?? 0, kinds: [...new Set(hits.map((h) => h.kind))] }))
+    .sort((a, b) => b.n - a.n || b.doc - a.doc), [idx]);
   const exposure = useMemo(() => {
     if (!s.severed.size) return null;
     const seeds: string[] = [];
@@ -72,7 +67,7 @@ export function Rail({ idx }: { idx: Index }) {
     }
     const { nodes, flows } = traverse(idx, seeds, "down");
     const dcs = [...nodes].map((n) => idx.facility.get(n)).filter((f) => f?.layer === "datacenter");
-    return { sites: nodes.size, flows: flows.size, dcs: dcs.length };
+    return { sites: nodes.size, flows: flows.size, dcs: dcs.length, cut: cutOff(idx, seeds).length };
   }, [s.severed, idx]);
   const scenarios: [string, string][] = [["TW", "Taiwan"], ["KR", "South Korea"], ["NL", "Netherlands"], ["JP", "Japan"], ["CN", "China"]];
 
@@ -98,6 +93,8 @@ export function Rail({ idx }: { idx: Index }) {
         })}
       </ol>
 
+      <button className="rail-data" onClick={() => s.set({ dataOpen: true })}>▦ Open data table · CSV</button>
+
       <h3>Evidence filters</h3>
       <label className="check"><input type="checkbox" checked={s.showInferred} onChange={(e) => s.set({ showInferred: e.target.checked })} /> Inferred routes <span className="muted">(dashed)</span></label>
       <label className="check"><input type="checkbox" checked={s.showFlagged} onChange={(e) => s.set({ showFlagged: e.target.checked })} /> Flagged / Tier-3 items</label>
@@ -117,23 +114,29 @@ export function Rail({ idx }: { idx: Index }) {
       </div>
       {exposure && (
         <div className="exposure">
-          <div><b className="mono">{exposure.dcs}</b> AI campuses exposed</div>
-          <div className="muted small">{exposure.sites} nodes · {exposure.flows} routes downstream of the severed set. “Exposed” means at least one documented or inferred input passes through a severed site; it does not model substitution or inventory.</div>
+          <div><b className="mono danger-t">{exposure.cut}</b> AI campuses cut off · <b className="mono">{exposure.dcs}</b> exposed</div>
+          <div className="muted small"><b>Cut off</b>: a campus loses every recorded supplier of some input (e.g. all its recorded GPU sources). <b>Exposed</b>: at least one input passes through a severed site. Neither models inventory or suppliers missing from the data.</div>
           <button className="linkish" onClick={() => s.set({ severed: new Set() })}>Clear</button>
         </div>
       )}
 
-      <h3 title="Production sites ranked by how many AI data-center campuses in this dataset sit downstream of them along recorded routes; ties broken by number of documented outbound routes. Reach is not the same as irreplaceability: it doesn't know about second sources.">Widest reach <span className="muted small">· downstream AI campuses</span></h3>
+      <h3 title="Remove one site or company; count AI campuses that then have no recorded supplier left for some input. Suppliers of the same kind of input count as substitutes. The dataset is incomplete, so 'no recorded alternative' is not proof there is none.">Single points of failure</h3>
+      <div className="muted small spof-note">Campuses left with no recorded supplier of an input if this one node goes down. <span className="mono">doc</span> = on documented routes alone.</div>
       <ol className="choke">
-        {chokepoints.map((f) => (
-          <li key={f.id}>
-            <button onClick={() => { s.select(f.id); s.focus(f.location.lon, f.location.lat, 2.6); }}>
-              <i className="dot" style={{ background: css(LAYER_COLOR[f.layer]) }} />
-              <span className="choke-name">{f.name}</span>
-              <span className="mono choke-n">{idx.reach.get(f.id) ?? 0}</span>
-            </button>
-          </li>
-        ))}
+        {spof.map((r) => {
+          const p = locateAny(idx, r.id);
+          const l = idx.facility.get(r.id)?.layer ?? idx.company.get(r.id)?.layers?.[0];
+          return (
+            <li key={r.id}>
+              <button onClick={() => { s.select(r.id); if (p) s.focus(p[0], p[1], 2.6); }} title={`Cuts off ${r.n} campus(es): ${r.kinds.join(", ")}`}>
+                <i className="dot" style={{ background: l ? css(LAYER_COLOR[l]) : "#999" }} />
+                <span className="choke-name">{nodeName(idx, r.id)}<span className="muted small"> · {r.kinds[0]}</span></span>
+                <span className="mono choke-n">{r.n}<span className="muted small"> ({r.doc} doc)</span></span>
+              </button>
+            </li>
+          );
+        })}
+        {!spof.length && <li className="muted small">None in the recorded data.</li>}
       </ol>
     </aside>
   );
@@ -264,7 +267,7 @@ export function Palette({ idx }: { idx: Index }) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") { e.preventDefault(); set({ paletteOpen: !useStore.getState().paletteOpen }); }
-      if (e.key === "Escape") set({ paletteOpen: false, aboutOpen: false });
+      if (e.key === "Escape") set({ paletteOpen: false, aboutOpen: false, dataOpen: false });
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -346,8 +349,8 @@ export function About({ idx }: { idx: Index }) {
         <h2>How to read the map</h2>
         <ul>
           <li><b>Documented</b> routes (solid) have a primary source naming both parties. <b>Inferred</b> routes (dashed) are deduced from documented facts, and the deduction is shown on each one.</li>
-          <li>Where a document names a company but not a site, the route is drawn to that company's single site at the adjacent stage if there is exactly one; otherwise to its headquarters. The map never picks one of several sites. The inspector says when this happens.</li>
-          <li>“Widest reach” counts AI campuses downstream along recorded routes. It measures reach, not irreplaceability, because it doesn't know about second sources.</li>
+          <li>Where a document names a company but not a site, the route is drawn at a specific site only if the route's own evidence names it, or the company has exactly one site. Otherwise it is drawn from the company's headquarters. The inspector says when this happens.</li>
+          <li><b>Single points of failure</b>: remove one site or company, and count the AI campuses left with no recorded supplier for some input. Suppliers of the same kind of input (two wafer makers, say) count as substitutes; different inputs (wafers and lithography) are all required. An inferred route can add an alternative supplier but can't add a new requirement to a company whose inputs are documented. Results show how many hold on documented routes alone. The data is incomplete, so “no recorded alternative” is not proof that none exists.</li>
           <li>The severance what-if shows <i>exposure</i>, not failure. It doesn't model inventory, second sources or substitution.</li>
           <li>Trade rules are shown as in force between their effective date and the date of the rule that superseded them.</li>
         </ul>

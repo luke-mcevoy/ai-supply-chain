@@ -63,6 +63,7 @@ kbd { font-family: var(--mono); font-size: 10px; border: 1px solid var(--line-2)
 .cam-zoom button + button { border-top: 1px solid var(--line); }
 .cam-zoom button:hover { background: var(--raise); color: var(--text); }
 .app:has(.inspector) .camera { right: 416px; }
+.app:has(.inspector) .legend { display: none; }
 .app:has(.timeline) .camera { bottom: 104px; }
 .sheet-handle { display: none; }
 
@@ -72,6 +73,38 @@ kbd { font-family: var(--mono); font-size: 10px; border: 1px solid var(--line-2)
   background: rgba(8,11,15,.72); padding: 3px 5px; border-radius: 2px; will-change: transform; }
 .glabel:hover, .glabel.strong { color: var(--text); background: rgba(8,11,15,.92); }
 @media (max-width: 700px) { .glabel { font-size: 9.5px; max-width: 150px; } }
+
+/* ── data table ── */
+.data-scrim { padding: 56px 16px 16px; align-items: stretch; }
+.datatable { width: min(1400px, 100%); height: 100%; display: flex; flex-direction: column; background: var(--panel-solid); border: 1px solid var(--line-2); border-radius: var(--r); box-shadow: 0 20px 60px rgba(0,0,0,.6); position: relative; }
+.dt-head { display: flex; gap: 10px; align-items: center; padding: 10px 44px 10px 12px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.dt-tabs { display: flex; gap: 2px; background: var(--raise); padding: 2px; border-radius: var(--r); border: 1px solid var(--line); }
+.dt-tabs button { padding: 6px 10px; font: 500 11px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-radius: 2px; white-space: nowrap; }
+.dt-tabs button.on { background: var(--accent); color: #fff; }
+.dt-tabs button.on .muted { color: rgba(255,255,255,.75); }
+.dt-head input { flex: 1; min-width: 160px; background: var(--raise); border: 1px solid var(--line-2); color: var(--text); padding: 7px 9px; border-radius: 2px; font: 13px var(--sans); }
+.dt-csv { border: 1px solid var(--line-2); padding: 7px 10px; border-radius: 2px; font: 500 11.5px var(--mono); white-space: nowrap; }
+.dt-csv:hover { border-color: var(--accent); color: var(--text); }
+.dt-scroll { flex: 1; overflow: auto; }
+.datatable table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.datatable th { position: sticky; top: 0; background: var(--panel-solid); text-align: left; font: 600 10px/1.2 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 9px 10px; border-bottom: 1px solid var(--line-2); cursor: pointer; white-space: nowrap; user-select: none; }
+.datatable th:hover { color: var(--text); }
+.datatable td { padding: 7px 10px; border-bottom: 1px solid var(--line); color: var(--text-2); vertical-align: top; }
+.datatable td:first-child { color: var(--text); }
+.datatable tr { cursor: pointer; }
+.datatable tbody tr:hover td { background: var(--raise); }
+.datatable .num { text-align: right; }
+.datatable .rv-verified { color: #6fdc9d; } .datatable .rv-flagged { color: var(--warn); }
+.dt-empty { padding: 24px; }
+.dt-foot { padding: 8px 12px; border-top: 1px solid var(--line); }
+@media (max-width: 900px) {
+  .data-scrim { padding: 0; }
+  .datatable { border-radius: 0; }
+  .dt-head { padding: 8px 44px 8px 8px; }
+  .dt-tabs { width: 100%; overflow-x: auto; }
+  .datatable table { font-size: 12px; min-width: 760px; }
+  .data-btn { display: none; }
+}
 
 /* ── chain walk ── */
 .walk-btn { display: flex; gap: 6px; align-items: center; background: var(--accent); color: #fff; padding: 5px 10px; border-radius: var(--r); font: 600 11px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
@@ -189,6 +222,13 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
 .choke button:hover { background: var(--raise); }
 .choke-name { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text-2); }
 .choke-n { color: var(--muted); }
+.rail-data { width: 100%; margin-top: 10px; border: 1px solid var(--line-2); padding: 8px; border-radius: 2px; font: 500 11px var(--mono); letter-spacing: .04em; color: var(--text-2); }
+.rail-data:hover { border-color: var(--accent); color: var(--text); }
+.spof-note { margin: -4px 0 6px; line-height: 1.35; }
+.danger-t { color: var(--danger) !important; }
+.reach.spof { border-left-color: var(--danger); background: rgba(236,84,88,.07); }
+.reach.spof ul { margin: 6px 0 4px; padding-left: 16px; }
+.reach.spof li { margin: 2px 0; }
 .dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; flex: none; }
 
 /* ── inspector ─────────────────────────────────────── */
