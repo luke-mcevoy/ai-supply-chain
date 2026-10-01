@@ -344,6 +344,8 @@ function buildInputs(idx: Index, documentedOnly: boolean) {
   }
   // Documented requirements (linkage round) are hard needs, e.g. "this fab needs EUV; ASML is the only maker".
   for (const r of idx.atlas.requirements ?? []) {
+    // Only fully verified requirements create hard dependencies; flagged ones are shown but don't feed the analysis.
+    if (r.review !== "verified") continue;
     for (const sup of r.suppliers) {
       if (idx.company.has(sup)) { const v = `${sup}#${r.kind}`; virtuals.set(v, { co: sup, kind: r.kind }); add(r.node, r.kind, v); }
       else add(r.node, r.kind, sup);

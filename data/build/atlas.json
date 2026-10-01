@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-01T00:27:01.760Z",
+ "built_at": "2026-10-01T00:33:48.398Z",
  "draft": false,
  "stats": {
   "layers": {
@@ -8,6 +8,9 @@
    "equipment": "55 published (verified)",
    "fabrication": "57 published (verified)",
    "finance": "73 published (verified)",
+   "linkage_campuses": "skipped (not yet verified)",
+   "linkage_chips": "skipped (not yet verified)",
+   "linkage_fabs": "skipped (not yet verified)",
    "materials": "40 published (verified)",
    "memory_packaging": "45 published (verified)",
    "policy": "75 published (verified)",

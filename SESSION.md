@@ -79,3 +79,8 @@ Open: set FLY_API_TOKEN for auto-deploy; bump actions to Node-24 versions before
 ## 2026-09-30 — linkage_fabs (EUV requirements)
 - Wrote data/research/linkage_fabs.json: 10 lithography requirements (Intel Oregon/Arizona/Ireland, Samsung Hwaseong V1 + Pyeongtaek foundry + Pyeongtaek DRAM, SK hynix M16 + M15X, Micron Hiroshima → co:asml; ASML Veldhoven → Zeiss Oberkochen + Wetzlar), 0 refinements, 9 gaps. All quotes checked programmatically against raw copies (scratchpad/linkage_fabs/build.py).
 - Unresolved: TSMC fab-level EUV (tsmc.com/esg.tsmc.com behind Cloudflare/403; sec.gov archives refuse the declared UA), Micron Taiwan EUV, Samsung Taylor, TRUMPF sole-supplier wording, and all supplier-site refinements on the worklist.
+
+## 2026-09-30 — linkage_campuses (campus power + hardware)
+- Wrote data/research/linkage_campuses.json: 6 refinements, 24 requirements (16 electricity, 8 AI compute hardware), 20 gaps, 11 new utility/generator companies. Quotes checked programmatically (scratchpad/linkage_campuses/build.py).
+- Key closes: TCEQ "Longhorn Data Center" = Abilene campus (same owner, Abilene DC 1, LLC, per Blue Owl Ex. 99.3); Susquehanna → AWS Salem Township (PA DEP places Susquehanna in Salem Township); DTE documented as 100% supplier for Saline; Core Scientific 8-K names utility per campus; OPSB Socrates South BTM plant for Meta New Albany.
+- Unresolved: www.sec.gov refuses the declared UA (Galaxy/Applied Digital/AEP/Williams 10-Qs unread); Meta El Paso (PUCT 59076 names "Wurldwide", not Meta); Fairwater Atlanta, Google, Rainier/I&M, Frontier, Jupiter suppliers; no doc ties Foxconn Houston/Wistron Fort Worth output to a specific campus.

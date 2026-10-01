@@ -1,0 +1,2128 @@
+{
+  "layer": "linkage",
+  "analyst": "linkage_campuses analyst (Claude)",
+  "generated_at": "2026-09-30",
+  "sources": [
+    {
+      "id": "src:opsb-25-0185-socrates-south-staff-report",
+      "title": "Ohio Power Siting Board Staff Report of Investigation, Case No. 25-0185-EL-BLN: Will-Power OH, LLC, Socrates South Power Generation Project",
+      "publisher": "Ohio Power Siting Board",
+      "url": "https://dis.puc.state.oh.us/ViewImage.aspx?CMID=A1001001A25E29B42006E01696",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-05-29",
+      "accessed": "2026-09-30",
+      "identifier": "OPSB Case No. 25-0185-EL-BLN"
+    },
+    {
+      "id": "src:pa-dep-nuclear-plants",
+      "title": "Pennsylvania's Nuclear Power Plants",
+      "publisher": "Pennsylvania Department of Environmental Protection",
+      "url": "https://www.pa.gov/agencies/dep/programs-and-services/radiation-protection/nuclear-safety/pennsylvanias-nuclear-power-plants",
+      "doc_type": "gov_report",
+      "tier": 1,
+      "document_date": "2026",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:amazon-10k-fy2025",
+      "title": "Amazon.com, Inc. Form 10-K for fiscal year ended December 31, 2025",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-06",
+      "accessed": "2026-09-27",
+      "identifier": "0001018724-26-000004"
+    },
+    {
+      "id": "src:amazon-10q-q2-2026",
+      "title": "Amazon.com, Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-07-31",
+      "accessed": "2026-09-27",
+      "identifier": "0001018724-26-000026"
+    },
+    {
+      "id": "src:amazon-indiana-11b-2024-04-25",
+      "title": "AWS plans to invest $11 billion in Indiana, the largest capital investment in the state's history",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.aboutamazon.com/news/aws/aws-indiana-investment-11-billion",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-04-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amazon-project-rainier-2025-10-29",
+      "title": "AWS activates Project Rainier: One of the world’s largest AI compute clusters comes online",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-29",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:amazon-reinvent-2025-announcements",
+      "title": "AWS re:Invent 2025: Amazon announces Nova 2, Trainium3, frontier agents",
+      "publisher": "Amazon.com, Inc.",
+      "url": "https://www.aboutamazon.com/news/aws/aws-re-invent-2025-ai-news-updates",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2025-12-01",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+      "title": "Blue Owl Real Estate Net Lease Trust Form 10-K (FY2025), Exhibit 99.3: Abilene DC 1, LLC Financial Statements",
+      "publisher": "Blue Owl Real Estate Net Lease Trust (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1944366/000194436626000020/exhibit993-2025abelinedc1l.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-03-13",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001944366-26-000020"
+    },
+    {
+      "id": "src:core-scientific-8k-2026-04-21-ex992",
+      "title": "Core Scientific, Inc. Form 8-K, Exhibit 99.2: Supplemental Information regarding Core Scientific, Inc., dated April 21, 2026",
+      "publisher": "Core Scientific, Inc. (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526165121/d149019dex992.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-04-21",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001193125-26-165121"
+    },
+    {
+      "id": "src:core-scientific-denton-2025-02-26",
+      "title": "Core Scientific and CoreWeave Announce $1.2 Billion Expansion at Denton, TX Site",
+      "publisher": "Core Scientific, Inc.",
+      "url": "https://investors.corescientific.com/news-events/press-releases/detail/110/core-scientific-and-coreweave-announce-1-2-billion-expansion-at-denton-tx-site",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-02-26",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:crusoe-abilene-1-2gw-2025-03-18",
+      "title": "Crusoe expands AI data center campus in Abilene to 1.2 gigawatts",
+      "publisher": "Crusoe Energy Systems",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-expands-ai-data-center-campus-in-abilene-to-1-2-gigawatts",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-03-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:crusoe-abilene-live",
+      "title": "Crusoe Announces Flagship Abilene Data Center is Live",
+      "publisher": "Crusoe Energy Systems LLC",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-flagship-abilene-data-center-is-live",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:ercot-large-load-2026-04",
+      "title": "ERCOT Update, House Committee on State Affairs: Large Load Interconnection",
+      "publisher": "Electric Reliability Council of Texas",
+      "url": "https://www.ercot.com/files/docs/2026/04/09/ERCOTLargeLoadUpdate-April9HouseStateAffairsHearing.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2026-04-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:etr-10k-2025",
+      "title": "Entergy Corporation Form 10-K for fiscal year 2025",
+      "publisher": "Entergy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000174/etr-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-19",
+      "accessed": "2026-09-27",
+      "identifier": "0000065984-26-000174"
+    },
+    {
+      "id": "src:kairos-google-tva-release",
+      "title": "Google, Kairos Power, TVA Collaborate to Meet America's Growing Energy Needs",
+      "publisher": "Kairos Power LLC",
+      "url": "https://www.kairospower.com/updates/google-kairos-power-tva-collaborate-to-meet-americas-growing-energy-needs",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:la-gov-meta-richland-2024-12-04",
+      "title": "Landry Announces Meta Selects North Louisiana as Site of $10 Billion Artificial Intelligence Optimized Data Center",
+      "publisher": "Office of Governor Jeff Landry (Louisiana)",
+      "url": "https://gov.louisiana.gov/news/4697",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2024-12-04",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:lpsc-order-u-37425",
+      "title": "LPSC Order No. U-37425: Entergy Louisiana, LLC, ex parte (generation and transmission for single customer project in North Louisiana)",
+      "publisher": "Louisiana Public Service Commission",
+      "url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/ViewFile?fileId=nDWn/juc2+A%3D",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-08-20",
+      "accessed": "2026-09-27",
+      "identifier": "LPSC Docket U-37425"
+    },
+    {
+      "id": "src:meta-nuclear-2026",
+      "title": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation",
+      "publisher": "Meta Platforms, Inc.",
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-inside-fairwater-2025-09-18",
+      "title": "Inside the world’s most powerful AI datacenter",
+      "publisher": "Microsoft Corporation (Official Microsoft Blog)",
+      "url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-made-in-wisconsin-2025-09-18",
+      "title": "Made in Wisconsin: The world’s most powerful AI datacenter",
+      "publisher": "Microsoft Corporation (Microsoft On the Issues)",
+      "url": "https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-18",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-superfactory-arch-2025-11-12",
+      "title": "Infinite scale: The architecture behind the Azure AI superfactory",
+      "publisher": "Microsoft Corporation (Official Microsoft Blog)",
+      "url": "https://blogs.microsoft.com/blog/2025/11/12/infinite-scale-the-architecture-behind-the-azure-ai-superfactory/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:microsoft-wisconsin-to-atlanta-2025-11-12",
+      "title": "From Wisconsin to Atlanta: Microsoft connects datacenters to build its first AI superfactory",
+      "publisher": "Microsoft Corporation (Source)",
+      "url": "https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-11-12",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:mlgw-xai-update-2025-05-05",
+      "title": "MLGW update to the public regarding utility support for xAI",
+      "publisher": "Memphis Light, Gas and Water Division",
+      "url": "https://www.mlgw.com/images/content/files/pdf/new/5-5-25%20xAI%20Update.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-05-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:naacp-appeal-shelby-01156",
+      "title": "Appeal of Air Permit No. 01156-01PC for CTC Property LLC, filed with the Memphis and Shelby County Air Pollution Control Board by NAACP and Young, Gifted & Green (copy hosted by Ars Technica)",
+      "publisher": "NAACP / Young, Gifted & Green (appellants), Memphis and Shelby County Air Pollution Control Board",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2025/07/NAACP-and-YGGs-xAI-Air-Permit-Appeal-7-15-2025.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-07-15",
+      "accessed": "2026-09-27",
+      "identifier": "Shelby County Health Department Air Permit No. 01156-01PC"
+    },
+    {
+      "id": "src:nvidia-10k-fy2026",
+      "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000021"
+    },
+    {
+      "id": "src:nvidia-10q-q2-fy2027",
+      "title": "NVIDIA Corporation Form 10-Q for quarter ended July 26, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000075"
+    },
+    {
+      "id": "src:nvidia-8k-2025-04-15",
+      "title": "NVIDIA Corporation Form 8-K (H20 license requirement)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-04-15",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001045810-25-000082"
+    },
+    {
+      "id": "src:nvidia-8k-2026-08-17",
+      "title": "NVIDIA Corporation Form 8-K (SB Energy PORTS residual value guaranties)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2026-08-17",
+      "accessed": "2026-09-27",
+      "identifier": "0001045810-26-000069"
+    },
+    {
+      "id": "src:nvidia-build-in-america-2026-08-05",
+      "title": "NVIDIA and Partners Build in America, for America (updated Aug. 5, 2026)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-05",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+      "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-21",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:nvidia-xai-colossus-2024-10-28",
+      "title": "NVIDIA Ethernet Networking Accelerates World’s Largest AI Supercomputer, Built by xAI",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://nvidianews.nvidia.com/news/spectrum-x-ethernet-networking-xai-colossus",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-28",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:oracle-8k-2025-09-26",
+      "title": "Oracle Corporation Form 8-K ($18B notes)",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525220445/d31817d8k.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-09-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-25-220445"
+    },
+    {
+      "id": "src:oracle-saline-construction-2026-06-01",
+      "title": "Oracle, Related Digital, Blackstone, OpenAI, Walbridge and Governor Whitmer Celebrate Construction of Stargate Campus in Saline Township",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.oracle.com/news/announcement/related-digital-oracle-openai-walbridge-and-governor-whitmer-celebrate-construction-of-stargate-campus-in-saline-township-2026-06-01/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-06-01",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:oracle-zettascale10-2025-10-14",
+      "title": "Oracle Unveils Next-Generation Oracle Cloud Infrastructure Zettascale10 Cluster for AI",
+      "publisher": "Oracle Corporation",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-unveils-next-generation-oci-zettascale10-cluster-for-ai-2025-10-14/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-14",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:pa-gov-amazon-20b-2025-06-09",
+      "title": "Governor Josh Shapiro Announces Amazon Plans to Invest $20 Billion in Pennsylvania for AI Infrastructure",
+      "publisher": "Commonwealth of Pennsylvania, Office of the Governor",
+      "url": "https://www.pa.gov/governor/newsroom/2025-press-releases/gov-announces-amazon-to-invest--20b-in-pa--largest-capital-inves",
+      "doc_type": "gov_press_release",
+      "tier": 1,
+      "document_date": "2025-06-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:pjm-2026-load-forecast",
+      "title": "2026 PJM Load Forecast Report",
+      "publisher": "PJM Interconnection, L.L.C.",
+      "url": "https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2026-01-14",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:related-saline-2025-10-30",
+      "title": "OpenAI, Oracle and Related Digital announce Stargate data center site in Michigan",
+      "publisher": "Related Companies / Related Digital",
+      "url": "https://www.related.com/press-releases/2025-10-30/openai-oracle-and-related-digital-announce-stargate-data-center-site",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-30",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sb-energy-openai-2026-01-09",
+      "title": "OpenAI and SoftBank Group Partner with SB Energy to Build and Operate Next-Generation AI Data Centers to Advance Stargate",
+      "publisher": "SB Energy",
+      "url": "https://sbenergy.com/openai-and-softbank-group-partner-with-sb-energy/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-01-09",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:sb-energy-s1a-2026-09-21",
+      "title": "SB Energy, Inc. Form S-1/A (Amendment No. 2) Registration Statement",
+      "publisher": "SB Energy, Inc. (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm",
+      "doc_type": "sec_s1",
+      "tier": 1,
+      "document_date": "2026-09-21",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001628280-26-062846"
+    },
+    {
+      "id": "src:skhynix-sk-nvidia-2026",
+      "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/skhynix-nvidia-partnership-2026/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-07-25",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:softbank-five-stargate-sites-2025-09-24",
+      "title": "OpenAI, Oracle, and SoftBank expand Stargate with five new AI data center sites",
+      "publisher": "SoftBank Group Corp.",
+      "url": "https://group.softbank/en/news/press/20250924",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-24",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:softbank-pr-openai-follow-on",
+      "title": "Follow-on Investments in OpenAI",
+      "publisher": "SoftBank Group Corp.",
+      "url": "https://group.softbank/en/news/press/20260227",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-02-27",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:spacex-s1a-2026-06-03",
+      "title": "Space Exploration Technologies Corp. Form S-1/A Registration Statement (xAI COLOSSUS / COLOSSUS II disclosures)",
+      "publisher": "Space Exploration Technologies Corp. (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm",
+      "doc_type": "sec_s1",
+      "tier": 1,
+      "document_date": "2026-06-03",
+      "accessed": "2026-09-27",
+      "identifier": "Accession 0001628280-26-040364"
+    },
+    {
+      "id": "src:supermicro-10k-fy2026",
+      "title": "Super Micro Computer, Inc. Form 10-K for fiscal year ended June 30, 2026",
+      "publisher": "Super Micro Computer, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-08-31",
+      "accessed": "2026-09-27",
+      "identifier": "0001375365-26-000022"
+    },
+    {
+      "id": "src:supermicro-xai-colossus-story",
+      "title": "How Supermicro Built the xAI Colossus Supercomputer",
+      "publisher": "Super Micro Computer, Inc.",
+      "url": "https://learn-more.supermicro.com/data-center-stories/how-supermicro-built-the-xai-colossus-supercomputer",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2024",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:talen-10k-2025",
+      "title": "Talen Energy Corp. Form 10-K for fiscal year 2025",
+      "publisher": "Talen Energy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000017/tln-20251231.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-26",
+      "accessed": "2026-09-27",
+      "identifier": "0001622536-26-000017"
+    },
+    {
+      "id": "src:talen-8k-2025-06-11",
+      "title": "Talen Energy Corp. Form 8-K Exhibit 99.1: Talen Energy Expands Nuclear Energy Relationship with Amazon",
+      "publisher": "Talen Energy Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025030559/a20250611pressreleasebusin.htm",
+      "doc_type": "sec_8k",
+      "tier": 1,
+      "document_date": "2025-06-11",
+      "accessed": "2026-09-27",
+      "identifier": "0001628280-25-030559"
+    },
+    {
+      "id": "src:tceq-abilene-dc1-177263",
+      "title": "TCEQ Electric Generating Unit Standard Permit Technical Review, Abilene DC 1, LLC (Longhorn Data Center), Registration No. 177263, Project 387309",
+      "publisher": "Texas Commission on Environmental Quality",
+      "url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&dID=8600163&Rendition=Web",
+      "doc_type": "regulatory_filing",
+      "tier": 1,
+      "document_date": "2025-01-22",
+      "accessed": "2026-09-27",
+      "identifier": "TCEQ Standard Permit Registration 177263; RN112029079"
+    },
+    {
+      "id": "src:vantage-port-washington-2025-10-22",
+      "title": "OpenAI, Oracle and Vantage Data Centers Announce Stargate Data Center Site in Wisconsin",
+      "publisher": "Vantage Data Centers",
+      "url": "https://vantage-dc.com/news/openai-oracle-and-vantage-data-centers-announce-stargate-data-center-site-in-wisconsin/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-22",
+      "accessed": "2026-09-27"
+    },
+    {
+      "id": "src:wec-10q-2026q2",
+      "title": "WEC Energy Group, Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "WEC Energy Group, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/783325/000078332526000087/wec-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-04",
+      "accessed": "2026-09-27",
+      "identifier": "0000783325-26-000087"
+    },
+    {
+      "id": "src:xe-10q-2026q2",
+      "title": "X-Energy, Inc. Form 10-Q for quarter ended June 30, 2026",
+      "publisher": "X-Energy, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2088896/000119312526347752/xe-20260630.htm",
+      "doc_type": "sec_10q",
+      "tier": 1,
+      "document_date": "2026-08-13",
+      "accessed": "2026-09-27",
+      "identifier": "0001193125-26-347752"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:mlgw",
+      "name": "Memphis Light, Gas and Water Division (MLGW)",
+      "country": "US",
+      "hq": {
+        "lat": 35.1495,
+        "lon": -90.049,
+        "precision": "city",
+        "address": "Memphis, TN"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:mlgw-xai-update-2025-05-05",
+          "quote": "MLGW is providing this update to the public regarding utility support for xAI.",
+          "locator": "Page 1, opening line",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:lancium",
+      "name": "Lancium",
+      "country": "US",
+      "hq": {
+        "lat": 32.4487,
+        "lon": -99.7331,
+        "precision": "region",
+        "address": "Abilene, Texas area (Lancium Clean Campus); corporate HQ not stated in cited source"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+          "quote": "Lancium’s end-to-end solutions include land acquisition, grid interconnect, site engineering, renewables interconnect, and power orchestration.",
+          "locator": "Release body, Lancium paragraph",
+          "supports": "existence, role"
+        }
+      ]
+    },
+    {
+      "id": "co:dte-energy",
+      "name": "DTE Energy",
+      "country": "US",
+      "hq": {
+        "lat": 42.3314,
+        "lon": -83.0458,
+        "precision": "region",
+        "address": "Michigan (utility serving the Saline Township project per cited source)"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:related-saline-2025-10-30",
+          "quote": "We’re proud to work with Oracle, Related Digital, DTE Energy, and other partners to bring this project to life in a way that benefits the local community.",
+          "locator": "Release body, partner quote",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:will-power-oh",
+      "name": "Will-Power OH, LLC",
+      "country": "US",
+      "hq": {
+        "lat": 40.0812,
+        "lon": -82.8088,
+        "precision": "region",
+        "address": "New Albany, Ohio area (project location per OPSB case); corporate HQ not stated"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:opsb-25-0185-socrates-south-staff-report",
+          "quote": "In this Application, Will-Power OH, LLC (Applicant) proposes to construct, operate, and maintain a 200 megawatt (MW) net capacity electric generation plant and associated facilities in the city of New Albany and Licking County.",
+          "locator": "Staff Report, Project Description, p. 1",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:aep",
+      "name": "American Electric Power (AEP Ohio)",
+      "country": "US",
+      "hq": {
+        "lat": 39.9612,
+        "lon": -82.9988,
+        "precision": "region",
+        "address": "Ohio (AEP Ohio service territory per cited source)"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "Utility service for the 0.8 GW of load at the PORTS-Pike Technology Campus is covered by an Electric Service Agreement and Letter of Agreement with AEP Ohio, which includes the condition that certain transmission upgrades be completed.",
+          "locator": "Business — Utility Service Agreements and Retail Electric Supply Agreements",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:denton-municipal-electric",
+      "name": "Denton Municipal Electric (City of Denton)",
+      "country": "US",
+      "hq": {
+        "lat": 33.2148,
+        "lon": -97.1331,
+        "precision": "city",
+        "address": "Denton, TX"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power for the Denton Campus is supplied by the City of Denton through its municipal electric utility, Denton Municipal Electric (“DME”), pursuant to a power purchase agreement (as amended, the “DME Contract”), for a total potential campus load of approximately 394 MW.",
+          "locator": "Ex. 99.2, The Denton Campus",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:dalton-utilities",
+      "name": "Dalton Utilities (City of Dalton, Georgia)",
+      "country": "US",
+      "hq": {
+        "lat": 34.7698,
+        "lon": -84.9702,
+        "precision": "city",
+        "address": "Dalton, GA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power for the Dalton Campuses is supplied by Dalton Utilities (City of Dalton, Georgia, acting through its Board of Water, Light, and Sinking Fund Commissioners) (“DU”) pursuant to an electric service agreement (“DU Contract”).",
+          "locator": "Ex. 99.2, The Dalton Campuses",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:murphy-electric-power-board",
+      "name": "Murphy Electric Power Board",
+      "country": "US",
+      "hq": {
+        "lat": 35.0876,
+        "lon": -84.0213,
+        "precision": "region",
+        "address": "Western North Carolina (serves the Marble, NC campus per cited source)"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "The agreement (the “Murphy Contract”) with Murphy Electric Power Board (“Murphy Power”), a Tennessee Valley Authority distributor, provides for 35,000 kilowatts (“kW”) of firm power service.",
+          "locator": "Ex. 99.2, The Marble Campus",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:duke-energy",
+      "name": "Duke Energy (Duke Energy Carolinas, LLC)",
+      "country": "US",
+      "hq": {
+        "lat": 35.2271,
+        "lon": -80.8431,
+        "precision": "region",
+        "address": "North Carolina (Duke Energy Carolinas service territory per cited source)"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power is also supplied to Marble Campus pursuant to two Electric Service Agreements with Duke Energy Carolinas, LLC (collectively, the “Duke Energy Contracts”), one with a contract demand of 48,000 kW, and the other with contract demand beginning at 34,000 kW.",
+          "locator": "Ex. 99.2, The Marble Campus",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:oge",
+      "name": "Oklahoma Gas and Electric Company (OG&E)",
+      "country": "US",
+      "hq": {
+        "lat": 35.4676,
+        "lon": -97.5164,
+        "precision": "region",
+        "address": "Oklahoma (serves the Muskogee campus per cited source)"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power for the Muskogee Campus is supplied pursuant to an electric service agreement (as amended, the “OG&E Contract”) with Oklahoma Gas and Electric Company (“OG&E”).",
+          "locator": "Ex. 99.2, The Muskogee Campus",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:ppl",
+      "name": "PPL Electric Utilities",
+      "country": "US",
+      "hq": {
+        "lat": 40.6084,
+        "lon": -75.4902,
+        "precision": "region",
+        "address": "Pennsylvania (PPL Electric Utilities service territory per cited source)"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of the new agreement, Susquehanna will provide its carbon-free power to the PJM grid, Talen will act as the retail electric generation supplier to Amazon, and PPL Electric Utilities (“PPL”) will be responsible for transmission and delivery.",
+          "locator": "Ex. 99.1, body",
+          "supports": "existence"
+        }
+      ]
+    },
+    {
+      "id": "co:amazon",
+      "name": "Amazon.com, Inc. (Amazon Web Services)",
+      "country": "US",
+      "hq": {
+        "lat": 47.6062,
+        "lon": -122.3321,
+        "precision": "city",
+        "address": "Seattle, WA"
+      },
+      "layers": [
+        "datacenter",
+        "design",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:amazon-indiana-11b-2024-04-25",
+          "quote": "Today, Amazon Web Services (AWS) announced plans to invest an estimated $11 billion in Indiana, creating at least 1,000 new jobs and marking the largest capital investment in the state’s history.",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        },
+        {
+          "source": "src:amazon-10k-fy2025",
+          "quote": "We own and lease our corporate headquarters in Washington’s Puget Sound region and Arlington, Virginia.",
+          "locator": "Part I, Item 2. Properties",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:amazon-reinvent-2025-announcements",
+          "quote": "Amazon EC2 Trn3 UltraServers, powered by AWS's first 3nm AI chip, pack up to 144 Trainium3 chips into a single integrated system, delivering up to 4.4x more compute performance and 4x greater energy efficiency than Trainium2 UltraServers.",
+          "locator": "Trainium3 UltraServers section",
+          "supports": "products"
+        },
+        {
+          "source": "src:amazon-10q-q2-2026",
+          "quote": "410 Terry Avenue North, Seattle, Washington 98109-5210",
+          "locator": "Cover page",
+          "supports": "location"
+        },
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of a new power purchase agreement (“PPA”), Talen will supply electricity to Amazon for operations that support AI and other cloud technologies at Amazon’s data center campus adjacent to Susquehanna, with the ability to deliver to other sites throughout Pennsylvania.",
+          "locator": "Exhibit 99.1, first paragraph",
+          "supports": "relationship, destination"
+        },
+        {
+          "source": "src:xe-10q-2026q2",
+          "quote": "Amazon and Energy Northwest entered into a Carbon Free Development and Funding Agreement for an initial deployment of four reactors representing 320 MWe, with the potential to upsize the power capacity to 960 MWe.",
+          "locator": "Part I, Item 2 MD&A, Overview",
+          "supports": "relationship, capacity"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:AMZN"
+      ],
+      "sec_cik": "1018724"
+    },
+    {
+      "id": "co:entergy",
+      "name": "Entergy Corporation (Entergy Louisiana, LLC)",
+      "country": "US",
+      "tickers": [
+        "NYSE:ETR"
+      ],
+      "sec_cik": "65984",
+      "hq": {
+        "lat": 29.9511,
+        "lon": -90.0715,
+        "precision": "city",
+        "address": "New Orleans, LA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In October 2024, Entergy Louisiana filed an application with the LPSC seeking approval of a variety of generation and transmission resources proposed in connection with establishing service to a new data center to be developed by a subsidiary of Meta Platforms, Inc. in north Louisiana, for which an electric service agreement has been executed.",
+          "locator": "Item 7 MD&A, 'Entergy Louisiana Additional Generation and Transmission Resources'",
+          "supports": "relationship"
+        },
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "approval by the Commission for the Company to construct the generation and transmission resources needed to serve significant new load associated with a data center being developed by Meta Platforms, Inc., through its subsidiary, Laidley LLC (the “Customer”), in Richland Parish, Louisiana (the “Project”).",
+          "locator": "Order No. U-37425, Section I, Overview and Procedural History",
+          "supports": "relationship, destination"
+        }
+      ]
+    },
+    {
+      "id": "co:ercot",
+      "name": "Electric Reliability Council of Texas, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 30.5083,
+        "lon": -97.6789,
+        "precision": "city",
+        "address": "Round Rock (Austin area), TX"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:ercot-large-load-2026-04",
+          "quote": "Key Takeaway: ERCOT is tracking approximately 410 GW of Large Loads seeking interconnection of which ~87% are data centers.",
+          "locator": "Slide 3, Large Load Interconnection Requests (as of March 26, 2026)",
+          "supports": "grid large-load queue"
+        }
+      ]
+    },
+    {
+      "id": "co:nvidia",
+      "name": "NVIDIA Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 37.3708,
+        "lon": -121.9637,
+        "precision": "city",
+        "address": "Santa Clara, CA"
+      },
+      "layers": [
+        "design",
+        "finance",
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:nvidia-xai-colossus-2024-10-28",
+          "quote": "NVIDIA today announced that xAI’s Colossus supercomputer cluster comprising 100,000 NVIDIA Hopper GPUs in Memphis, Tennessee, achieved this massive scale",
+          "locator": "Paragraph 1",
+          "supports": "existence"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "existence, location"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "In fiscal year 2025, we launched the NVIDIA Blackwell architecture, a full set of data center scale infrastructure that includes GPUs, CPUs, DPUs, interconnects, switch chips and systems, and networking adapters.",
+          "locator": "Part I, Item 1. Business",
+          "supports": "products"
+        },
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "Our next-generation Data Center architecture, Vera Rubin, began production shipments in the third quarter of fiscal year 2027.",
+          "locator": "Part I, Item 2. MD&A",
+          "supports": "products"
+        },
+        {
+          "source": "src:nvidia-10q-q2-fy2027",
+          "quote": "increasing supply commitments from $119 billion last quarter to $279 billion as of July 26, 2026. These supply commitments are for our data center infrastructure systems, primarily memory and manufacturing facilities, to produce our products for long-term demand across current and future product architectures.",
+          "locator": "Note 10 - Commitments and Contingencies",
+          "supports": "amount"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H20 integrated circuits and any other circuits achieving the H20’s memory bandwidth, interconnect bandwidth, or combination thereof.",
+          "locator": "Part I, Item 1A. Risk Factors",
+          "supports": "status (export controls)"
+        },
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "NVIDIA Corporation",
+          "locator": "Cover page",
+          "supports": "existence"
+        },
+        {
+          "source": "src:skhynix-sk-nvidia-2026",
+          "quote": "NVIDIA (NASDAQ: NVDA) is the world leader in AI and accelerated computing.",
+          "locator": "About NVIDIA",
+          "supports": "existence"
+        },
+        {
+          "source": "src:nvidia-8k-2025-04-15",
+          "quote": "the U.S. government, or USG, informed NVIDIA Corporation, or the Company, that the USG requires a license for export to China",
+          "locator": "Form 8-K, Item 8.01",
+          "supports": "existence"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "2788 San Tomas Expressway, Santa Clara, California",
+          "locator": "Form 10-K cover page",
+          "supports": "existence, hq location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:NVDA"
+      ],
+      "sec_cik": "1045810"
+    },
+    {
+      "id": "co:oracle",
+      "name": "Oracle Corporation",
+      "country": "US",
+      "hq": {
+        "lat": 30.2672,
+        "lon": -97.7431,
+        "precision": "city",
+        "address": "Austin, TX"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:oracle-zettascale10-2025-10-14",
+          "quote": "OCI Zettascale10 is the fabric underpinning the flagship supercluster built in collaboration with OpenAI in Abilene, Texas, as part of Stargate.",
+          "locator": "Body",
+          "supports": "existence"
+        },
+        {
+          "source": "src:oracle-8k-2025-09-26",
+          "quote": "Oracle Corporation (“Oracle”) consummated the issuance and sale",
+          "locator": "Item 8.01",
+          "supports": "existence"
+        },
+        {
+          "source": "src:crusoe-abilene-live",
+          "quote": "today announced that the first phase of Stargate’s flagship data center campus in Abilene, Texas, is now up and running on Oracle Cloud Infrastructure (OCI) and continues to progress rapidly.",
+          "locator": "Press release, first paragraph (ABILENE, TX — September 30, 2025)",
+          "supports": "relationship (Crusoe Abilene campus = Stargate/Oracle)"
+        },
+        {
+          "source": "src:crusoe-abilene-live",
+          "quote": "The Abilene campus is part of a long-term collaboration with Oracle.",
+          "locator": "Press release body",
+          "supports": "relationship"
+        }
+      ],
+      "tickers": [
+        "NYSE:ORCL"
+      ],
+      "sec_cik": "1341439"
+    },
+    {
+      "id": "co:pjm",
+      "name": "PJM Interconnection, L.L.C.",
+      "country": "US",
+      "hq": {
+        "lat": 40.1265,
+        "lon": -75.4057,
+        "precision": "city",
+        "address": "Audubon (Valley Forge), PA"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:pjm-2026-load-forecast",
+          "quote": "The forecasts of the following zones have been adjusted to account for large, unanticipated load changes, market adjustments and peak shaving adjustments",
+          "locator": "Load Adjustments section, p.5 (table lists 'Growth in data center load' for AEP, ATSI, APS, BGE, COMED, DAYTON, DLCO, JCPL, METED, PECO, PEPCO, PL, DOM, PS)",
+          "supports": "grid load forecast"
+        },
+        {
+          "source": "src:pjm-2026-load-forecast",
+          "quote": "Near-term forecast years need “firm” commitments, such as Electric Service Obligation (ESO)/Construction Commitments (CC), while longer-term projects will be considered “non-firm” and will be derated because of their greater uncertainty.",
+          "locator": "Executive Summary, p.4",
+          "supports": "forecast method (large loads)"
+        }
+      ]
+    },
+    {
+      "id": "co:sb-energy",
+      "name": "SB Energy, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.4852,
+        "lon": -122.2364,
+        "precision": "city",
+        "address": "Redwood City, CA (release dateline)"
+      },
+      "layers": [
+        "datacenter",
+        "power",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:sb-energy-openai-2026-01-09",
+          "quote": "OpenAI has also selected SB Energy to build and operate its previously-announced 1.2 GW data center site in Milam County.",
+          "locator": "Paragraph 2",
+          "supports": "existence"
+        },
+        {
+          "source": "src:nvidia-8k-2026-08-17",
+          "quote": "announced a multi-year partnership with SB Energy Corp.",
+          "locator": "Item 1.01",
+          "supports": "existence"
+        }
+      ],
+      "sec_cik": "2133037"
+    },
+    {
+      "id": "co:softbank",
+      "name": "SoftBank Group Corp.",
+      "country": "JP",
+      "hq": {
+        "lat": 35.6655,
+        "lon": 139.7597,
+        "precision": "city",
+        "address": "Minato, Tokyo"
+      },
+      "layers": [
+        "datacenter",
+        "finance"
+      ],
+      "evidence": [
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "These sites will be developed through a partnership by SoftBank and OpenAI that can scale to multiple gigawatts of AI infrastructure.",
+          "locator": "Paragraph 3",
+          "supports": "existence"
+        },
+        {
+          "source": "src:softbank-pr-openai-follow-on",
+          "quote": "SBG has invested an aggregate of USD 34.6 billion in OpenAI through SoftBank Vision Fund 2 since September 2024.",
+          "locator": "Body",
+          "supports": "existence"
+        }
+      ],
+      "tickers": [
+        "TSE:9984"
+      ]
+    },
+    {
+      "id": "co:supermicro",
+      "name": "Super Micro Computer, Inc.",
+      "country": "US",
+      "hq": {
+        "lat": 37.3382,
+        "lon": -121.8863,
+        "precision": "city",
+        "address": "San Jose, CA"
+      },
+      "layers": [
+        "systems"
+      ],
+      "evidence": [
+        {
+          "source": "src:supermicro-xai-colossus-story",
+          "quote": "xAI's Colossus supercomputer cluster achieves remarkable scale by utilizing Supermicro 4U liquid cooled servers containing NVIDIA Hopper Tensor Core GPUs.",
+          "locator": "Body",
+          "supports": "existence"
+        },
+        {
+          "source": "src:supermicro-10k-fy2026",
+          "quote": "Our principal executive offices and headquarters are located in San Jose, California.",
+          "locator": "Item 2. Properties",
+          "supports": "existence, hq location"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:SMCI"
+      ]
+    },
+    {
+      "id": "co:talen",
+      "name": "Talen Energy Corporation",
+      "country": "US",
+      "tickers": [
+        "NASDAQ:TLN"
+      ],
+      "sec_cik": "1622536",
+      "hq": {
+        "lat": 29.7604,
+        "lon": -95.3698,
+        "precision": "city",
+        "address": "Houston, TX"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "in June 2025, we and AWS entered into an expanded power purchase agreement for the long-term, fixed-price supply of up to 1,920 MW of power annually from Susquehanna to the adjacent AWS data center campus through 2042.",
+          "locator": "Item 1. Business, overview",
+          "supports": "relationship, volume, term"
+        },
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "Susquehanna. A nuclear-powered generation facility located near Berwick, Pennsylvania. A subsidiary of Talen Energy Supply operates and owns a 90% undivided interest in Susquehanna.",
+          "locator": "Glossary of Terms and Abbreviations",
+          "supports": "existence, location, ownership"
+        }
+      ]
+    },
+    {
+      "id": "co:tva",
+      "name": "Tennessee Valley Authority",
+      "country": "US",
+      "hq": {
+        "lat": 35.9606,
+        "lon": -83.9207,
+        "precision": "city",
+        "address": "Knoxville, TN"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:kairos-google-tva-release",
+          "quote": "Through a new power purchase agreement (PPA) between Kairos Power and TVA, Kairos Power’s Hermes 2 Plant in Oak Ridge, Tenn., will deliver up to 50 megawatts (MW) of reliable, 24/7 energy to the TVA grid that powers Google data centers in Tennessee and Alabama.",
+          "locator": "Press release, first paragraph",
+          "supports": "relationship, capacity, location"
+        }
+      ]
+    },
+    {
+      "id": "co:wec-energy",
+      "name": "WEC Energy Group, Inc. (We Energies)",
+      "country": "US",
+      "tickers": [
+        "NYSE:WEC"
+      ],
+      "sec_cik": "783325",
+      "hq": {
+        "lat": 43.0389,
+        "lon": -87.9065,
+        "precision": "city",
+        "address": "Milwaukee, WI"
+      },
+      "layers": [
+        "power"
+      ],
+      "evidence": [
+        {
+          "source": "src:wec-10q-2026q2",
+          "quote": "231 West Michigan Street P.O. Box 1331 Milwaukee , WI 53201",
+          "locator": "Cover page",
+          "supports": "hq"
+        },
+        {
+          "source": "src:wec-10q-2026q2",
+          "quote": "Microsoft has announced plans to invest over $20 billion in data centers in southeastern Wisconsin over the next several years, and we expect up to 2.6 GWs of load growth in the Milwaukee-to-Chicago corridor through 2030.",
+          "locator": "Part I, Item 2 MD&A, 'Supporting Economic Growth Within Our Communities'",
+          "supports": "relationship, load"
+        },
+        {
+          "source": "src:wec-10q-2026q2",
+          "quote": "We plan on investing approximately $6.1 billion from 2026 to 2030 in efficient natural gas-fired generation and related infrastructure, including:",
+          "locator": "Part I, Item 2 MD&A",
+          "supports": "capex (gas generation)"
+        }
+      ]
+    },
+    {
+      "id": "co:xai",
+      "name": "xAI (subsidiary of Space Exploration Technologies Corp.)",
+      "country": "US",
+      "hq": {
+        "lat": 39.8283,
+        "lon": -98.5795,
+        "precision": "country"
+      },
+      "layers": [
+        "datacenter",
+        "design"
+      ],
+      "evidence": [
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "We own and operate what we believe to be the largest AI training data center clusters on Earth, including COLOSSUS and COLOSSUS II.",
+          "locator": "Prospectus Summary",
+          "supports": "existence"
+        },
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "The Department suggests that perhaps the temporary combustion turbines on xAI’s Paul R. Lowry site will be removed by the end of July 2025.",
+          "locator": "Appeal, Section on justiciability",
+          "supports": "relationship (xAI site), location"
+        }
+      ]
+    }
+  ],
+  "facilities": [],
+  "flows": [],
+  "financial_links": [],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "Foxconn Houston / Wistron Fort Worth racks to a named AI campus",
+      "why": "No Tier 1/2 document found tying output of Foxconn's Houston plants or Wistron's Fort Worth D1 to a specific campus (e.g., Stargate Abilene, Fairwater). Refinements here only pin the Foxconn/Wistron -> NVIDIA assembly routes to the Texas plants named by NVIDIA; those plants are one documented site each, not the only sites doing this work.",
+      "would_need": "Oracle/OpenAI/Crusoe or Foxconn/Wistron disclosures naming the destination campus for rack shipments; customs/shipping records are not primary documents."
+    },
+    {
+      "topic": "Oracle/OpenAI GPU supply at Stargate sites other than Abilene (Saline, Port Washington, Shackelford, Doña Ana, Milam, Lordstown)",
+      "why": "Oracle's Zettascale10 release names only Abilene; SoftBank's release mentions Oracle's GB200 deliveries only in the Abilene context. SB Energy's S-1/A names NVIDIA dependence only for PORTS-Pike, not Milam.",
+      "would_need": "Oracle 10-Q/10-K or OpenAI/Oracle releases naming GPU systems per site; SB Energy disclosure on Milam tenant hardware."
+    },
+    {
+      "topic": "Meta Hyperion / Prometheus / El Paso AI hardware",
+      "why": "The NVIDIA-Meta partnership release (Feb 2026) names no sites; Meta also deploys MTIA and other accelerators, so a per-site supplier set cannot be asserted.",
+      "would_need": "Meta disclosure naming accelerators deployed at Hyperion, Prometheus or El Paso."
+    },
+    {
+      "topic": "Meta El Paso electricity (El Paso Electric McCloud Generation)",
+      "why": "PUCT Docket 59076 discovery responses (fetched) describe EPE serving the 'Wurldwide Data Center' (Wurldwide LLC) and the 366 MW McCloud Generation facility, but do not name Meta; the Wurldwide-Meta link is in news only.",
+      "would_need": "PUCT Docket 59076 application or order naming Meta/its affiliate, or a Meta/EPE release naming EPE as supplier."
+    },
+    {
+      "topic": "Meta Prometheus — other behind-the-meter plants and AEP Ohio service",
+      "why": "Only the Socrates South OPSB staff report was retrieved. Socrates North (OPSB 25-0188-EL-BGN) and Socrates the Younger, and AEP Ohio data-center-tariff service to Meta, are reported in OPSB news/press coverage but the opsb.ohio.gov pages returned stub content to the fetcher.",
+      "would_need": "OPSB orders/staff reports for 25-0188-EL-BGN and the STY case; PUCO filing for AEP Ohio service to Meta/Sidecat."
+    },
+    {
+      "topic": "Microsoft Fairwater Atlanta electricity",
+      "why": "Microsoft says the site was chosen for resilient utility power but names no utility; Georgia Power/Georgia PSC filings naming Microsoft were not found.",
+      "would_need": "Georgia PSC docket or Southern Company filing naming Microsoft's Atlanta Fairwater load."
+    },
+    {
+      "topic": "Microsoft Mount Pleasant second datacenter electricity and hardware",
+      "why": "WEC's VLC disclosure covers Microsoft's southeastern Wisconsin data centers generally; Microsoft's GPU statements describe Fairwater sites, and the second facility (under construction to 2028) is not named in either.",
+      "would_need": "PSCW VLC/Bespoke Resources filings naming the second facility; Microsoft release on its hardware."
+    },
+    {
+      "topic": "AWS New Carlisle (Project Rainier) electricity",
+      "why": "Indiana Michigan Power (AEP) service and the NIPSCO GenCo 'ADS Contract' are described in news; the NiSource 10-K names Amazon Data Services but not the site, so flow:genco-ccgt-to-amazon could not be pinned to New Carlisle. SEC www.sec.gov refused this project's declared User-Agent, so AEP filings could not be fetched.",
+      "would_need": "IURC orders on I&M large-load/AWS contracts; AEP 10-K/10-Q text naming New Carlisle; IURC NIPSCO GenCo order naming the ADS site."
+    },
+    {
+      "topic": "AWS Falls Township (Bucks County) electricity",
+      "why": "No supplier document found.",
+      "would_need": "PA PUC filing or utility/IPP release naming the Falls Township campus supplier."
+    },
+    {
+      "topic": "Google Armstrong, Haskell and Stillwater campuses: electricity and AI hardware",
+      "why": "Google's Texas release says one Haskell data center will be built alongside a new solar+storage plant but names no developer or utility; no supplier named for Armstrong or Stillwater; no accelerators named per site.",
+      "would_need": "Utility commission filings (Xcel/SPS, Oncor/AEP Texas, OG&E/PSO) or Google releases naming suppliers and TPU deployments per campus."
+    },
+    {
+      "topic": "Vantage Frontier (Shackelford County), Project Jupiter (Doña Ana), SoftBank Lordstown electricity",
+      "why": "Vantage's releases name no power supplier; Doña Ana County lists an onsite microgrid with natural gas generation and battery storage but names no owner/operator; Lordstown has no power documents.",
+      "would_need": "TCEQ/PUCT filings for Frontier; NMED air permit or county IRB documents naming Project Jupiter's microgrid operator; PUCO/Ohio Edison filing for Lordstown."
+    },
+    {
+      "topic": "CoreWeave Lancaster, Galaxy Helios, Applied Digital Polaris Forge 1: electricity and hardware",
+      "why": "Fetched releases name capacities but no utility or GPU supplier. Galaxy, Applied Digital and MDU 10-Q/10-K hits found via EDGAR full-text search could not be retrieved (www.sec.gov returned 403 to the declared project User-Agent).",
+      "would_need": "Galaxy 10-Q (Helios power/ERCOT interconnection), Applied Digital 10-Q / MDU 10-K (Ellendale supply), PPL/Talen filings for Lancaster; CoreWeave disclosures naming GPUs per site."
+    },
+    {
+      "topic": "Core Scientific Dalton 4, Muskogee, Marble, Polaris Forge, Helios, Lancaster AI hardware",
+      "why": "Datacenter-layer flows for these sites are inferred from CoreWeave's NVIDIA usage; no document names the GPU supplier per site.",
+      "would_need": "CoreWeave or landlord disclosure naming GPU systems at each site."
+    },
+    {
+      "topic": "Anthropic/Fluidstack Texas and New York sites",
+      "why": "Sites are undisclosed; no supply documents.",
+      "would_need": "Fluidstack/Anthropic disclosures naming sites and power/hardware suppliers."
+    },
+    {
+      "topic": "xAI Colossus II Southaven turbines (MZX Tech) and Dell servers at Colossus",
+      "why": "The S-1/A references MZX Tech turbines in a lawsuit description only; Dell's role at Colossus is in Tier 3 sources only. No atlas facility exists for the Southaven plant.",
+      "would_need": "MDEQ permit for MZX Tech LLC; Dell filing naming xAI Colossus."
+    },
+    {
+      "topic": "Supermicro -> xAI Colossus: manufacturing site",
+      "why": "Supermicro says it makes most systems in San Jose, but no document says which site built the Colossus servers.",
+      "would_need": "Supermicro disclosure naming the plant for the xAI order."
+    },
+    {
+      "topic": "Arista contract manufacturing sites (Foxconn, Jabil, Sanmina) and Broadcom switch silicon",
+      "why": "Arista's 10-K says partners manufacture in Malaysia, Vietnam, Mexico and other countries without naming plants; no atlas facilities for those plants; Broadcom die sourcing is a chips-layer question.",
+      "would_need": "Arista or CM disclosures naming specific plants."
+    },
+    {
+      "topic": "Foxconn -> Broadcom assembly/test site; Broadcom -> OpenAI custom accelerators site; AWS -> Marvell cloud EDA region",
+      "why": "No document names the site for these company-level relationships.",
+      "would_need": "Company disclosures naming the specific plant or region."
+    },
+    {
+      "topic": "Nuclear PPAs to company-level buyers: Crane -> Microsoft, Clinton -> Meta, Duane Arnold -> Alphabet, Hermes 2 -> Alphabet, Cascade -> Amazon",
+      "why": "The documents name regions/grids (PJM; Illinois; Iowa; TVA service to Montgomery County, TN and Jackson County, AL; central Washington) but the receiving campuses are not atlas facilities, so to_site cannot be set without creating facilities.",
+      "would_need": "Add Google Council Bluffs/Montgomery County/Jackson County, Meta DeKalb, Microsoft PJM and AWS Oregon/Washington campuses as facilities in a datacenter round, then refine."
+    },
+    {
+      "topic": "GE Vernova -> Crusoe (29 LM2500XPRESS units): destination site",
+      "why": "GE Vernova's release says 'Crusoe AI data centers' without a site; TCEQ shows GE LM2500 turbines at Longhorn (already a separate site-level route).",
+      "would_need": "Crusoe/GE disclosure or TCEQ/other state permits allocating the 29 units by site."
+    }
+  ],
+  "refinements": [
+    {
+      "id": "ref:longhorn-turbines-to-abilene-campus",
+      "flow": "flow:longhorn-turbines-to-oracle-stargate",
+      "to_site": "fac:crusoe-abilene",
+      "evidence": [
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "Abilene DC 1, LLC (Abilene DC) dba Crusoe Energy Systems, LLC (Crusoe), has submitted the following modification application for a standard permit for electric generating units for the Longhorn Data Center in Abilene within Taylor County, Texas.",
+          "locator": "Technical review, Project Description",
+          "supports": "relationship (permittee Abilene DC 1, LLC; site 'Longhorn Data Center')"
+        },
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "The purpose of the equipment is to generate power for onsite use only for data centers and computing.",
+          "locator": "Technical review, Project Description",
+          "supports": "relationship (onsite supply to the data center)"
+        },
+        {
+          "source": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+          "quote": "The Company was formed for the purpose of owning, developing, leasing, and operating a data center campus located in Abilene, Texas (the “Investment”), which is comprised of two buildings each containing four data halls, and a power station.",
+          "locator": "Ex. 99.3, Note 1 Organization",
+          "supports": "location (Abilene DC 1, LLC owns the Abilene campus and its power station)"
+        },
+        {
+          "source": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+          "quote": "The sole member of the Company is Longhorn JV, LLC (“Longhorn JV”), a Delaware limited liability company.",
+          "locator": "Ex. 99.3, Note 1 Organization",
+          "supports": "location (Longhorn naming tied to Abilene DC 1, LLC)"
+        },
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "The new Stargate sites being developed by Oracle will join the flagship Stargate campus in Abilene, Texas, which is already up and running on Oracle Cloud Infrastructure (OCI) and continues to progress rapidly.",
+          "locator": "Release body",
+          "supports": "relationship (Oracle OCI at the Abilene campus)"
+        }
+      ]
+    },
+    {
+      "id": "ref:susquehanna-to-aws-salem-township",
+      "flow": "flow:susquehanna-to-amazon",
+      "to_site": "fac:amazon-salem-township-pa",
+      "evidence": [
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of a new power purchase agreement (“PPA”), Talen will supply electricity to Amazon for operations that support AI and other cloud technologies at Amazon’s data center campus adjacent to Susquehanna, with the ability to deliver to other sites throughout Pennsylvania.",
+          "locator": "Ex. 99.1, first paragraph",
+          "supports": "relationship (supply to the campus adjacent to Susquehanna)"
+        },
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "The data center campus initially developed by a subsidiary of Cumulus Digital adjacent to Susquehanna.",
+          "locator": "Glossary, 'AWS Data Campus'",
+          "supports": "relationship (AWS owns the campus adjacent to Susquehanna)"
+        },
+        {
+          "source": "src:pa-dep-nuclear-plants",
+          "quote": "The site is located on the west bank of the Susquehanna River in Salem Township, Luzerne County, Pennsylvania.",
+          "locator": "Susquehanna Steam Electric Station entry",
+          "supports": "location (Susquehanna is in Salem Township)"
+        },
+        {
+          "source": "src:pa-gov-amazon-20b-2025-06-09",
+          "quote": "Salem Township and Falls Township are the first communities identified as sites for these future campuses.",
+          "locator": "Release, paragraph 1",
+          "supports": "location (Amazon campus in Salem Township)"
+        }
+      ]
+    },
+    {
+      "id": "ref:foxconn-houston-nvidia-assembly-test",
+      "flow": "flow:foxconn-nvidia-assembly-test",
+      "from_site": "fac:foxconn-houston",
+      "evidence": [
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "In Houston, Texas, Foxconn is building a state-of-the-art factory for manufacturing NVIDIA AI systems, including NVIDIA GB300 tray modules.",
+          "locator": "Blog body, Texas section",
+          "supports": "location, relationship"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products.",
+          "locator": "Item 1, Manufacturing",
+          "supports": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "ref:foxconn-houston-nvidia-assembly-services",
+      "flow": "flow:foxconn-to-nvidia-assembly-services",
+      "from_site": "fac:foxconn-houston",
+      "evidence": [
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "In Houston, Texas, Foxconn is building a state-of-the-art factory for manufacturing NVIDIA AI systems, including NVIDIA GB300 tray modules.",
+          "locator": "Blog body, Texas section",
+          "supports": "location, relationship"
+        }
+      ]
+    },
+    {
+      "id": "ref:wistron-fort-worth-nvidia-assembly-test",
+      "flow": "flow:wistron-nvidia-assembly-test",
+      "from_site": "fac:wistron-fort-worth",
+      "evidence": [
+        {
+          "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+          "quote": "The plant — Wistron’s D1 facility — currently runs two manufacturing cells: one producing the NVIDIA GB300 Grace Blackwell Ultra Superchip and one that will produce the NVIDIA Vera Rubin Superchip.",
+          "locator": "Blog body",
+          "supports": "location, relationship"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "Wistron and NVIDIA will assemble and test NVIDIA AI systems at a new advanced manufacturing facility in Fort Worth, Texas,",
+          "locator": "Blog body, Texas section",
+          "supports": "relationship (assembly and test)"
+        }
+      ]
+    },
+    {
+      "id": "ref:wistron-fort-worth-nvidia-assembly-services",
+      "flow": "flow:wistron-to-nvidia-assembly-services",
+      "from_site": "fac:wistron-fort-worth",
+      "evidence": [
+        {
+          "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+          "quote": "The plant — Wistron’s D1 facility — currently runs two manufacturing cells: one producing the NVIDIA GB300 Grace Blackwell Ultra Superchip and one that will produce the NVIDIA Vera Rubin Superchip.",
+          "locator": "Blog body",
+          "supports": "location, relationship"
+        }
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "id": "req:stargate-abilene-electricity",
+      "node": "fac:crusoe-abilene",
+      "kind": "electricity",
+      "suppliers": [
+        "fac:crusoe-abilene-longhorn-turbines",
+        "co:lancium"
+      ],
+      "statement": "The Abilene campus is documented as drawing on a 1.2 GW grid interconnection arranged by Lancium with behind-the-meter battery and solar resources, plus a permitted onsite gas-turbine power station owned by the same entity (Abilene DC 1, LLC) that owns the campus; the transmission utility is not named in the cited documents.",
+      "evidence": [
+        {
+          "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+          "quote": "In addition to the 1.2 GW grid interconnection, Lancium’s power plan for the site includes large-scale behind-the-meter battery storage and solar resources, which serve to ensure grid reliability, and economic and carbon optimization.",
+          "locator": "Release body, Lancium paragraph",
+          "supports": "need, supplier (grid interconnect via Lancium)"
+        },
+        {
+          "source": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+          "quote": "The Company was formed for the purpose of owning, developing, leasing, and operating a data center campus located in Abilene, Texas (the “Investment”), which is comprised of two buildings each containing four data halls, and a power station.",
+          "locator": "Ex. 99.3, Note 1 Organization",
+          "supports": "supplier (onsite power station)"
+        },
+        {
+          "source": "src:tceq-abilene-dc1-177263",
+          "quote": "The purpose of the equipment is to generate power for onsite use only for data centers and computing.",
+          "locator": "Technical review, Project Description",
+          "supports": "supplier (onsite turbines)"
+        }
+      ]
+    },
+    {
+      "id": "req:xai-colossus-electricity",
+      "node": "fac:xai-colossus-memphis",
+      "kind": "electricity",
+      "suppliers": [
+        "co:mlgw",
+        "co:tva",
+        "fac:xai-colossus-turbines-memphis"
+      ],
+      "statement": "COLOSSUS (Paul R. Lowry Rd) receives grid power from the MLGW/TVA system (150 MW as of May 2025, with a second 150 MW pending TVA approval) and relies on behind-the-meter self-generation and Megapacks when grid power is curtailed.",
+      "evidence": [
+        {
+          "source": "src:mlgw-xai-update-2025-05-05",
+          "quote": "The facility is receiving 150MW of power, connected to 2 electric substations (1 existing, 1 newly constructed) providing a total of 150MW of power to the facility from the TVA/MLGW Grid.",
+          "locator": "Page 2, 'Electricity' (Paul Lowery Rd)",
+          "supports": "need, supplier (MLGW/TVA)"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "At COLOSSUS, our grid power capabilities are designed to purchase power from the grid as available, and to rely on our behind-the-meter, self-generated power and Megapack installations when grid power is curtailed.",
+          "locator": "Business — AI compute infrastructure",
+          "supports": "supplier (grid + behind-the-meter self-generation)"
+        },
+        {
+          "source": "src:naacp-appeal-shelby-01156",
+          "quote": "The Department suggests that perhaps the temporary combustion turbines on xAI’s Paul R. Lowry site will be removed by the end of July 2025.",
+          "locator": "Appeal, discussion of temporary turbines",
+          "supports": "supplier (onsite turbines at the site)"
+        }
+      ]
+    },
+    {
+      "id": "req:xai-colossus-2-electricity",
+      "node": "fac:xai-colossus-2-memphis",
+      "kind": "electricity",
+      "suppliers": [
+        "co:xai"
+      ],
+      "statement": "SpaceX/xAI states COLOSSUS II is expected to be primarily powered by its own dedicated behind-the-meter natural gas plant, supplemented over time by grid capacity funded through unnamed local utility partners; MLGW reported in May 2025 that no final power request had been made for the Tulane Rd site.",
+      "evidence": [
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "Going forward, COLOSSUS II is expected to be primarily powered by a dedicated natural gas power plant, supplemented over time by additional grid capacity that we are directly funding through our local utility partners.",
+          "locator": "Business — AI compute infrastructure",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "COLOSSUS II is capable of operating entirely by our self-built behind-the-meter gigawatt-scale natural gas power plant.",
+          "locator": "Business — AI compute infrastructure",
+          "supports": "supplier (self-built plant)"
+        },
+        {
+          "source": "src:mlgw-xai-update-2025-05-05",
+          "quote": "xAI has not submitted a ﬁnal request for power at Tulane Road.",
+          "locator": "Page 1",
+          "supports": "status of grid supply (as of May 2025)"
+        }
+      ]
+    },
+    {
+      "id": "req:fairwater-wisconsin-electricity",
+      "node": "fac:microsoft-fairwater-mount-pleasant",
+      "kind": "electricity",
+      "suppliers": [
+        "co:wec-energy"
+      ],
+      "statement": "Microsoft's Mount Pleasant datacenter is served in partnership with We Energies; WEC reports Microsoft signed a service agreement under the PSCW-approved Very Large Customer tariff, with the first phase in service April 2026. Microsoft also cites a 250 MW Portage County solar project used for carbon matching (not named as direct supply).",
+      "evidence": [
+        {
+          "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+          "quote": "And our partnership with WE Energies ensures we will continually explore and add energy transmission, generation, and usage — under transparent tariffs that support grid reliability.",
+          "locator": "Blog body, energy section",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:wec-10q-2026q2",
+          "quote": "Subsequent to its approval, Microsoft entered into a service agreement to obtain service under the VLC tariff.",
+          "locator": "Part I, Item 2 MD&A, 'Supporting Economic Growth Within Our Communities'",
+          "supports": "supplier (VLC tariff service)"
+        },
+        {
+          "source": "src:wec-10q-2026q2",
+          "quote": "Microsoft has announced plans to invest over $20 billion in data centers in southeastern Wisconsin over the next several years, and we expect up to 2.6 GWs of load growth in the Milwaukee-to-Chicago corridor through 2030.",
+          "locator": "Part I, Item 2 MD&A",
+          "supports": "need (load)"
+        }
+      ]
+    },
+    {
+      "id": "req:stargate-port-washington-electricity",
+      "node": "fac:vantage-lighthouse-port-washington",
+      "kind": "electricity",
+      "suppliers": [
+        "co:wec-energy"
+      ],
+      "statement": "Vantage's Port Washington (Lighthouse) campus is to be served under a dedicated electricity rate from We Energies; WEC forecasts 1.3 GW of demand from the site through 2030 (up to 3.5 GW over time).",
+      "evidence": [
+        {
+          "source": "src:vantage-port-washington-2025-10-22",
+          "quote": "Investment Shields Customers from Electricity Price Increases: Vantage is underwriting 100% of the power infrastructure investment with a dedicated electricity rate from WEC Energy Group utility We Energies.",
+          "locator": "Release, campus features list",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:wec-10q-2026q2",
+          "quote": "Additionally, Vantage Data Centers is developing a large data center campus in Port Washington that is forecasted to add 1.3 GWs of demand through 2030.",
+          "locator": "Part I, Item 2 MD&A",
+          "supports": "need (load), supplier"
+        }
+      ]
+    },
+    {
+      "id": "req:stargate-saline-electricity",
+      "node": "fac:related-digital-saline-township",
+      "kind": "electricity",
+      "suppliers": [
+        "co:dte-energy"
+      ],
+      "statement": "Related Digital and Oracle state that DTE Energy is supplying 100% of the power to The Barn (Saline Township) from existing resources plus a project-financed battery storage investment — a documented single utility supplier.",
+      "evidence": [
+        {
+          "source": "src:related-saline-2025-10-30",
+          "quote": "DTE Energy is supplying 100% of the power to the project using existing resources augmented by a new battery storage investment – financed entirely by the project – in a way that ensures there is no impact on DTE’s existing customers’ energy supply or rates.",
+          "locator": "Release body",
+          "supports": "need, supplier (sole: 100%)"
+        },
+        {
+          "source": "src:oracle-saline-construction-2026-06-01",
+          "quote": "DTE is supplying all of the project’s power using existing resources, augmented by a new battery storage investment, financed entirely by the project, that will generate an estimated $300 million in grid savings for DTE’s existing customers and strengthen local grid reliability.",
+          "locator": "Release body",
+          "supports": "supplier (sole: all of the project's power)"
+        }
+      ]
+    },
+    {
+      "id": "req:meta-hyperion-electricity",
+      "node": "fac:meta-hyperion-richland-parish",
+      "kind": "electricity",
+      "suppliers": [
+        "co:entergy",
+        "fac:entergy-franklin-farms",
+        "fac:entergy-waterford-5"
+      ],
+      "statement": "Entergy Louisiana serves Meta's Richland Parish (Laidley LLC) data center; the LPSC approved three new CCCT generators for this load, two near the customer site (Franklin Farms) and one at Waterford (Waterford 5).",
+      "evidence": [
+        {
+          "source": "src:lpsc-order-u-37425",
+          "quote": "the three new 1x1 Combined Cycle Combustion Turbine (“CCCT”) generators (the “Planned Generators”) referenced in the Application—two of which will be located near the Customer’s site and one of which will be located at the Company’s existing Waterford site near Killona, Louisiana",
+          "locator": "Order No. U-37425, p. 1-2",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:la-gov-meta-richland-2024-12-04",
+          "quote": "To power the data center, which at its largest point extends more than one mile from front to back, Entergy will add clean, efficient power plants to its system to meet growing power demands, including from the data center.",
+          "locator": "Release body",
+          "supports": "supplier (Entergy)"
+        },
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In February 2025, Entergy Louisiana filed supplemental testimony with the LPSC stating that the third combined cycle combustion turbine resource presented in the October 2024 application (Waterford 5 Power Station) would be sited at Entergy Louisiana’s Waterford site in Killona, Louisiana, alongside",
+          "locator": "Notes — Entergy Louisiana generation resources",
+          "supports": "supplier (Waterford 5)"
+        }
+      ]
+    },
+    {
+      "id": "req:meta-prometheus-electricity",
+      "node": "fac:meta-prometheus-new-albany",
+      "kind": "electricity",
+      "suppliers": [
+        "co:will-power-oh",
+        "fac:vistra-perry",
+        "fac:vistra-davis-besse",
+        "fac:vistra-beaver-valley"
+      ],
+      "statement": "An OPSB staff report documents a 200 MW behind-the-meter gas plant (Will-Power OH, Socrates South) dedicated to Meta affiliate Sidecat's New Albany data center campus; Meta states its Vistra nuclear agreements deliver power to the PJM grid supporting the Prometheus supercluster in New Albany. The local distribution utility is not named in the cited documents.",
+      "evidence": [
+        {
+          "source": "src:opsb-25-0185-socrates-south-staff-report",
+          "quote": "The facility would be operated in behind the meter (BTM) mode where its electric output is dedicated to a single customer’s electric load and would not be physically connected to the electric grid.",
+          "locator": "Staff Report, Project Description, p. 1",
+          "supports": "supplier (BTM, dedicated)"
+        },
+        {
+          "source": "src:opsb-25-0185-socrates-south-staff-report",
+          "quote": "Sidecat, LLC (“Sidecat” or “customer”) is an affiliate of Meta Platforms, Inc. Sidecat would be the customer of the Applicant’s electric power generation. Sidecat owns a 740-acre industrial property campus within the New Albany Business Park, on which the 20-acre project would be located.",
+          "locator": "Staff Report, Project Description, p. 1",
+          "supports": "need, location"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "The projects we’re announcing today will deliver power to the grids that support our operations, including our Prometheus supercluster in New Albany, Ohio.",
+          "locator": "Release body",
+          "supports": "supplier (grid-delivered nuclear)"
+        },
+        {
+          "source": "src:meta-nuclear-2026",
+          "quote": "All three plants are located in and will continue to deliver power into the PJM grid region, and these expansions will be the largest nuclear uprates supported by a corporate customer in the US.",
+          "locator": "Release body, Vistra section",
+          "supports": "supplier (Perry, Davis-Besse, Beaver Valley)"
+        }
+      ]
+    },
+    {
+      "id": "req:ports-pike-electricity",
+      "node": "fac:sb-energy-ports-pike",
+      "kind": "electricity",
+      "suppliers": [
+        "co:aep",
+        "co:pjm",
+        "co:softbank"
+      ],
+      "statement": "PORTS-Pike's first 0.8 GW is covered by an Electric Service Agreement with AEP Ohio; the campus is to connect to the PJM grid and be matched by ~9.2 GW of neighboring gas-fired generation being developed by a SoftBank affiliate.",
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "Utility service for the 0.8 GW of load at the PORTS-Pike Technology Campus is covered by an Electric Service Agreement and Letter of Agreement with AEP Ohio, which includes the condition that certain transmission upgrades be completed.",
+          "locator": "Business — Utility Service Agreements",
+          "supports": "need, supplier (AEP Ohio)"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "The PORTS-Pike Technology Campus requires approximately 10 GW of gross power load from the grid to support its 8.0 GW-IT of planned data center capacity, expected to be supported by the PJM transmission system and new neighboring gas-fired generation facilities.",
+          "locator": "Risk Factors",
+          "supports": "need, supplier (PJM; neighboring gas generation)"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "In particular, the PORTS-Pike Technology Campus, as well as the planned 9.2 GW gas-fired generation facilities neighboring the PORTS-Pike Technology Campus being developed by an affiliate of SoftBank that is not our subsidiary, are subject to extensive permitting and reviews, including environmental permits and other applicable local, state and federal regulations.",
+          "locator": "Risk Factors",
+          "supports": "supplier (SoftBank affiliate)"
+        }
+      ]
+    },
+    {
+      "id": "req:stargate-milam-electricity",
+      "node": "fac:sb-energy-milam-county",
+      "kind": "electricity",
+      "suppliers": [
+        "co:sb-energy",
+        "co:ercot"
+      ],
+      "statement": "SB Energy expects to supply the Milam County campus from co-located generation it developed (>1.3 GW) under on-site power supply agreements, with phased high-voltage interconnection in ERCOT for ~660 MW initial load.",
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "In connection with the Milam County data center campus, we expect to deliver electricity to the tenant from co-located power generation assets pursuant to on-site power supply agreements.",
+          "locator": "Business — Utility Service Agreements",
+          "supports": "need, supplier (SB Energy co-located)"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "As of the date of this prospectus, we had developed more than 1.3 GW of incremental power generation capacity in Milam County, and these co-located power assets are expected to serve a substantial portion of the data center campus’s total electricity needs.",
+          "locator": "Business",
+          "supports": "supplier"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "Milam County, TX (ERCOT) 308 OpenAI affiliate Vertical construction;",
+          "locator": "Business — data center portfolio table",
+          "supports": "supplier (ERCOT market)"
+        }
+      ]
+    },
+    {
+      "id": "req:core-scientific-denton-electricity",
+      "node": "fac:core-scientific-denton",
+      "kind": "electricity",
+      "suppliers": [
+        "co:denton-municipal-electric"
+      ],
+      "statement": "Power for the Denton campus is supplied by Denton Municipal Electric under a power purchase agreement for ~394 MW of potential load.",
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power for the Denton Campus is supplied by the City of Denton through its municipal electric utility, Denton Municipal Electric (“DME”), pursuant to a power purchase agreement (as amended, the “DME Contract”), for a total potential campus load of approximately 394 MW.",
+          "locator": "Ex. 99.2, The Denton Campus",
+          "supports": "need, supplier"
+        }
+      ]
+    },
+    {
+      "id": "req:core-scientific-dalton-4-electricity",
+      "node": "fac:core-scientific-dalton-4",
+      "kind": "electricity",
+      "suppliers": [
+        "co:dalton-utilities"
+      ],
+      "statement": "Power for the Dalton campuses (including Dalton 4) is supplied by Dalton Utilities under an electric service agreement.",
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power for the Dalton Campuses is supplied by Dalton Utilities (City of Dalton, Georgia, acting through its Board of Water, Light, and Sinking Fund Commissioners) (“DU”) pursuant to an electric service agreement (“DU Contract”).",
+          "locator": "Ex. 99.2, The Dalton Campuses",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "the Dalton 4 campus located at 3024 Old Tilton Road in Dalton, Georgia on approximately 167 acres (“Dalton 4”).",
+          "locator": "Ex. 99.2, The Dalton Campuses",
+          "supports": "scope (Dalton 4 is one of the Dalton Campuses)"
+        }
+      ]
+    },
+    {
+      "id": "req:core-scientific-marble-electricity",
+      "node": "fac:core-scientific-marble",
+      "kind": "electricity",
+      "suppliers": [
+        "co:murphy-electric-power-board",
+        "co:tva",
+        "co:duke-energy"
+      ],
+      "statement": "Power for the Marble campus is supplied through three arrangements: Murphy Electric Power Board (a TVA distributor, 35 MW firm) and two Duke Energy Carolinas electric service agreements.",
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power for the Marble Campus is supplied through three separate contractual arrangements.",
+          "locator": "Ex. 99.2, The Marble Campus",
+          "supports": "need"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "The agreement (the “Murphy Contract”) with Murphy Electric Power Board (“Murphy Power”), a Tennessee Valley Authority distributor, provides for 35,000 kilowatts (“kW”) of firm power service.",
+          "locator": "Ex. 99.2, The Marble Campus",
+          "supports": "supplier (Murphy Power / TVA)"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power is also supplied to Marble Campus pursuant to two Electric Service Agreements with Duke Energy Carolinas, LLC (collectively, the “Duke Energy Contracts”), one with a contract demand of 48,000 kW, and the other with contract demand beginning at 34,000 kW.",
+          "locator": "Ex. 99.2, The Marble Campus",
+          "supports": "supplier (Duke Energy Carolinas)"
+        }
+      ]
+    },
+    {
+      "id": "req:core-scientific-muskogee-electricity",
+      "node": "fac:core-scientific-muskogee",
+      "kind": "electricity",
+      "suppliers": [
+        "co:oge"
+      ],
+      "statement": "Power for the Muskogee campus is supplied by Oklahoma Gas and Electric under an electric service agreement for an estimated maximum demand of 100 MW.",
+      "evidence": [
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "Power for the Muskogee Campus is supplied pursuant to an electric service agreement (as amended, the “OG&E Contract”) with Oklahoma Gas and Electric Company (“OG&E”).",
+          "locator": "Ex. 99.2, The Muskogee Campus",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:core-scientific-8k-2026-04-21-ex992",
+          "quote": "The firm electric service anticipated to be delivered is for an estimated maximum demand of 100,000 kW, subject to customary reductions of such demand due to continuously reduced customer use or, conversely, increases in such demand upon submission of a written request to OG&E.",
+          "locator": "Ex. 99.2, The Muskogee Campus",
+          "supports": "need (MW)"
+        }
+      ]
+    },
+    {
+      "id": "req:aws-salem-township-electricity",
+      "node": "fac:amazon-salem-township-pa",
+      "kind": "electricity",
+      "suppliers": [
+        "fac:talen-susquehanna",
+        "co:talen",
+        "co:ppl"
+      ],
+      "statement": "The AWS campus adjacent to Susquehanna (Salem Township) is supplied with up to 1,920 MW from Susquehanna under Talen's PPA; after the front-of-the-meter transition Talen acts as retail supplier and PPL Electric Utilities handles transmission and delivery.",
+      "evidence": [
+        {
+          "source": "src:talen-10k-2025",
+          "quote": "in June 2025, we and AWS entered into an expanded power purchase agreement for the long-term, fixed-price supply of up to 1,920 MW of power annually from Susquehanna to the adjacent AWS data center campus through 2042.",
+          "locator": "Item 1, Business",
+          "supports": "need, supplier (Susquehanna)"
+        },
+        {
+          "source": "src:talen-8k-2025-06-11",
+          "quote": "Under the terms of the new agreement, Susquehanna will provide its carbon-free power to the PJM grid, Talen will act as the retail electric generation supplier to Amazon, and PPL Electric Utilities (“PPL”) will be responsible for transmission and delivery.",
+          "locator": "Ex. 99.1, body",
+          "supports": "supplier (Talen retail; PPL delivery)"
+        },
+        {
+          "source": "src:pa-dep-nuclear-plants",
+          "quote": "The site is located on the west bank of the Susquehanna River in Salem Township, Luzerne County, Pennsylvania.",
+          "locator": "Susquehanna Steam Electric Station entry",
+          "supports": "location (campus adjacency in Salem Township)"
+        }
+      ]
+    },
+    {
+      "id": "req:aws-madison-county-electricity",
+      "node": "fac:amazon-madison-county-ms",
+      "kind": "electricity",
+      "suppliers": [
+        "co:entergy"
+      ],
+      "statement": "Entergy Mississippi executed a large customer supply and service agreement (March 2024) to serve the two AWS data center campuses in Madison County, Mississippi.",
+      "evidence": [
+        {
+          "source": "src:etr-10k-2025",
+          "quote": "In March 2024, Entergy Mississippi executed a large customer supply and service agreement to serve two data center campuses located in Madison County, Mississippi in which Amazon Web Services is investing.",
+          "locator": "Notes — Entergy Mississippi, Additional Generation and Transmission Resources",
+          "supports": "need, supplier"
+        }
+      ]
+    },
+    {
+      "id": "req:stargate-abilene-ai-hardware",
+      "node": "fac:crusoe-abilene",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:nvidia",
+        "co:oracle"
+      ],
+      "statement": "The Abilene buildings are designed for NVIDIA GB200 NVL72 systems, and Oracle began delivering NVIDIA GB200 racks to the flagship Abilene campus (on OCI) in June 2025.",
+      "evidence": [
+        {
+          "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+          "quote": "Each building is designed to operate up to 50,000 NVIDIA GB200 NVL72s on a single integrated network fabric, advancing the frontier of data center design and scale for AI training and inference workloads.",
+          "locator": "Release body",
+          "supports": "need, supplier (NVIDIA)"
+        },
+        {
+          "source": "src:softbank-five-stargate-sites-2025-09-24",
+          "quote": "Oracle began delivering the first NVIDIA GB200 racks in June.",
+          "locator": "Release body (Abilene paragraph)",
+          "supports": "supplier (Oracle delivers NVIDIA racks)"
+        }
+      ]
+    },
+    {
+      "id": "req:xai-colossus-ai-hardware",
+      "node": "fac:xai-colossus-memphis",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:nvidia",
+        "co:supermicro"
+      ],
+      "statement": "COLOSSUS's first cluster comprises ~100,000 NVIDIA Hopper (H100) GPUs, deployed in Supermicro 4U liquid-cooled servers.",
+      "evidence": [
+        {
+          "source": "src:nvidia-xai-colossus-2024-10-28",
+          "quote": "NVIDIA today announced that xAI’s Colossus supercomputer cluster comprising 100,000 NVIDIA Hopper GPUs in Memphis, Tennessee, achieved this massive scale",
+          "locator": "Release, paragraph 1",
+          "supports": "need, supplier (NVIDIA)"
+        },
+        {
+          "source": "src:supermicro-xai-colossus-story",
+          "quote": "xAI's Colossus supercomputer cluster achieves remarkable scale by utilizing Supermicro 4U liquid cooled servers containing NVIDIA Hopper Tensor Core GPUs.",
+          "locator": "Story body",
+          "supports": "supplier (Supermicro servers)"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "At COLOSSUS, we brought online the first cluster of approximately 100,000 H100 processors, approximately 130 megawatts of compute power, in just 122 days, repurposing the shell of an existing factory.",
+          "locator": "Business",
+          "supports": "need"
+        }
+      ]
+    },
+    {
+      "id": "req:xai-colossus-2-ai-hardware",
+      "node": "fac:xai-colossus-2-memphis",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:nvidia"
+      ],
+      "statement": "COLOSSUS II runs clusters of ~110,000 GB200 and 110,000 GB300 processors; SpaceX's S-1/A describes its compute as ~325,000 NVIDIA GPUs.",
+      "evidence": [
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "At COLOSSUS II, we brought online the first cluster of approximately 110,000 GB200 processors, approximately 210 megawatts of compute power, even faster in 91 days.",
+          "locator": "Business",
+          "supports": "need"
+        },
+        {
+          "source": "src:spacex-s1a-2026-06-03",
+          "quote": "Compute capacity provided includes approximately 325,000 NVIDIA GPUs, backed by hyperscale-class CPUs, exabyte-scale storage and high-speed networking and interconnects purpose-built for AI workloads.",
+          "locator": "Business / customer agreements",
+          "supports": "supplier (NVIDIA)"
+        }
+      ]
+    },
+    {
+      "id": "req:fairwater-wisconsin-ai-hardware",
+      "node": "fac:microsoft-fairwater-mount-pleasant",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:nvidia"
+      ],
+      "statement": "Microsoft's Fairwater Mount Pleasant datacenter runs a single cluster of NVIDIA GB200 servers.",
+      "evidence": [
+        {
+          "source": "src:microsoft-inside-fairwater-2025-09-18",
+          "quote": "This datacenter runs a single, massive cluster of interconnected NVIDIA GB200 servers and millions of compute cores and exabytes of storage, all engineered for the most demanding AI workloads.",
+          "locator": "Blog body",
+          "supports": "need, supplier"
+        }
+      ]
+    },
+    {
+      "id": "req:fairwater-atlanta-ai-hardware",
+      "node": "fac:microsoft-fairwater-atlanta",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:nvidia"
+      ],
+      "statement": "Microsoft's Fairwater Atlanta site uses NVIDIA GB200 NVL72 rack-scale systems (Fairwater sites integrate GB200 and GB300 GPUs).",
+      "evidence": [
+        {
+          "source": "src:microsoft-wisconsin-to-atlanta-2025-11-12",
+          "quote": "NVIDIA GB200 NVL72 rack-scale systems that can scale to hundreds of thousands of NVIDIA Blackwell GPUs",
+          "locator": "Feature body, Atlanta site list",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:microsoft-superfactory-arch-2025-11-12",
+          "quote": "Each Fairwater datacenter runs a single, coherent cluster of interconnected NVIDIA Blackwell GPUs",
+          "locator": "Blog body",
+          "supports": "supplier"
+        }
+      ]
+    },
+    {
+      "id": "req:project-rainier-ai-hardware",
+      "node": "fac:amazon-rainier-new-carlisle",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:amazon"
+      ],
+      "statement": "Project Rainier, of which the St. Joseph County, Indiana campus is one site, runs on AWS's in-house Trainium2 chips (nearly half a million at launch).",
+      "evidence": [
+        {
+          "source": "src:amazon-project-rainier-2025-10-29",
+          "quote": "on Project Rainier, which features nearly half a million Trainium2 chips and provides more than five times the compute power Anthropic used to train its previous AI models.",
+          "locator": "Article body",
+          "supports": "need, supplier (AWS Trainium2)"
+        },
+        {
+          "source": "src:amazon-project-rainier-2025-10-29",
+          "quote": "Joseph County, Indiana—one of the Project Rainier sites—will maximize the use of outside air for cooling.",
+          "locator": "Article body",
+          "supports": "location"
+        }
+      ]
+    },
+    {
+      "id": "req:ports-pike-ai-hardware",
+      "node": "fac:sb-energy-ports-pike",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:nvidia"
+      ],
+      "statement": "SB Energy states OpenAI is dependent on NVIDIA for the GPU units for the PORTS-Pike data centers; NVIDIA also guarantees the first 4.25 GW-IT of OpenAI's leases.",
+      "evidence": [
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "For example, OpenAI is dependent on NVIDIA for providing the necessary GPU units for the PORTS-Pike data centers.",
+          "locator": "Risk Factors",
+          "supports": "need, supplier (dependence)"
+        },
+        {
+          "source": "src:sb-energy-s1a-2026-09-21",
+          "quote": "We and OpenAI are highly dependent on NVIDIA for the successful completion and operation of our PORTS-Pike Technology Campus.",
+          "locator": "Risk Factors",
+          "supports": "supplier"
+        }
+      ]
+    },
+    {
+      "id": "req:core-scientific-denton-ai-hardware",
+      "node": "fac:core-scientific-denton",
+      "kind": "AI compute hardware",
+      "suppliers": [
+        "co:nvidia"
+      ],
+      "statement": "Core Scientific describes the Denton expansion (licensed to CoreWeave) as supporting CoreWeave's NVIDIA GPU operations.",
+      "evidence": [
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "We believe this addition aligns with CoreWeave’s growing need for robust, high-density infrastructure to support NVIDIA GPU operations.",
+          "locator": "Release body",
+          "supports": "need, supplier"
+        },
+        {
+          "source": "src:core-scientific-denton-2025-02-26",
+          "quote": "By expanding our capacity in Denton, we’re building one of the largest GPU supercomputers in North America",
+          "locator": "Release body",
+          "supports": "need"
+        }
+      ]
+    }
+  ]
+}
