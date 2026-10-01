@@ -186,5 +186,12 @@
  "flow:tsmc-nvidia-wafers|10",
  "flow:wistron-nvidia-assembly-test|10",
  "flow:zeiss-oberkochen-to-asml-veldhoven|20",
- "flow:zeiss-wetzlar-to-asml-veldhoven|20"
+ "flow:zeiss-wetzlar-to-asml-veldhoven|20",
+ "req:amd-logic-dies|10",
+ "req:fairwater-atlanta-ai-hardware|300",
+ "req:intel-ireland-euv|10",
+ "req:nvidia-contract-manufacturing|10",
+ "req:nvidia-memory|10",
+ "req:ports-pike-ai-hardware|4.25",
+ "req:xai-colossus-2-ai-hardware|300"
 ]

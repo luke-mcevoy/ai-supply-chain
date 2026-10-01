@@ -84,3 +84,14 @@ Open: set FLY_API_TOKEN for auto-deploy; bump actions to Node-24 versions before
 - Wrote data/research/linkage_campuses.json: 6 refinements, 24 requirements (16 electricity, 8 AI compute hardware), 20 gaps, 11 new utility/generator companies. Quotes checked programmatically (scratchpad/linkage_campuses/build.py).
 - Key closes: TCEQ "Longhorn Data Center" = Abilene campus (same owner, Abilene DC 1, LLC, per Blue Owl Ex. 99.3); Susquehanna → AWS Salem Township (PA DEP places Susquehanna in Salem Township); DTE documented as 100% supplier for Saline; Core Scientific 8-K names utility per campus; OPSB Socrates South BTM plant for Meta New Albany.
 - Unresolved: www.sec.gov refuses the declared UA (Galaxy/Applied Digital/AEP/Williams 10-Qs unread); Meta El Paso (PUCT 59076 names "Wurldwide", not Meta); Fairwater Atlanta, Google, Rainier/I&M, Frontier, Jupiter suppliers; no doc ties Foxconn Houston/Wistron Fort Worth output to a specific campus.
+
+## 2026-10-01 — Claude (Opus 5.5): linkage round, stories, monthly refresh
+- Linkage round (docs/LINKAGE.md): 3 analyst + 3 counsel agents. Published 8 site refinements and 42 requirements
+  (counsel: fabs 9/2/0, chips 6/4/0, campuses 42/12/0). Only fully verified requirements feed the SPOF model.
+  New documented SPOFs: single-utility campuses (We Energies ×2, Denton, Entergy, Dalton, OG&E, DTE); NVIDIA 6 (19 incl. inferred).
+  ASML not a documented SPOF: no capturable doc ties TSMC fabs to EUV (TSMC sites block automated access) — top research gap.
+- Rail ranks SPOFs by documented routes; inferred-only ones (e.g. Wacker) hidden behind a labelled toggle.
+- Stories (app/src/stories.ts): 5 guided stories; captions frame only, claims are verbatim verified quotes; test/stories.test.ts
+  fails if a referenced entity/quote disappears or a caption number isn't in its quotes/dates.
+- Monthly refresh: scripts/refresh-check.mjs (BIS Federal Register + SEC filings since data/refresh/state.json),
+  docs/REFRESH.md, cloud routine trig_01ELXJ4Dxy52UsA3tv2GtWE3 (1st of month 14:00 UTC, opens a PR, never pushes main).

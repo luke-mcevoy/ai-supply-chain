@@ -12,9 +12,9 @@ const baseline = existsSync(BASELINE) ? new Set(JSON.parse(readFileSync(BASELINE
 const found = [];
 const fresh = [];
 let hits = 0;
-for (const kind of ["facilities", "flows", "financial_links", "controls"]) {
+for (const kind of ["facilities", "flows", "financial_links", "controls", "requirements"]) {
   for (const e of a[kind]) {
-    const prose = [e.description, e.inference_note, e.summary, e.capacity?.note, e.amount?.note].filter(Boolean).join(" ");
+    const prose = [e.description, e.inference_note, e.summary, e.statement, e.capacity?.note, e.amount?.note].filter(Boolean).join(" ");
     const quotes = norm([...e.evidence, ...(e.capacity?.evidence ?? [])].map((x) => x.quote).join(" ") + " " + (e.review_note ?? ""));
     const missing = [...new Set(nums(prose))].filter((n) => !quotes.includes(n));
     if (missing.length) {

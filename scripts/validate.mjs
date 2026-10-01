@@ -88,7 +88,7 @@ function checkGeo(file, owner, g) {
 for (const [name, d] of Object.entries(allResearch)) {
   if (only.length && !only.includes(name.replace(".json", ""))) continue;
   if (!LAYERS.includes(d.layer)) err(name, `bad layer ${d.layer}`);
-  if (d.layer + ".json" !== name) warn(name, `file name != layer (${d.layer})`);
+  if (!name.startsWith(d.layer)) warn(name, `file name != layer (${d.layer})`);
   for (const k of ["sources", "companies", "facilities", "flows", "financial_links", "controls", "gaps"])
     if (!Array.isArray(d[k])) err(name, `${k} must be an array`);
 

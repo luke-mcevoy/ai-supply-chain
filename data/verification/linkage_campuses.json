@@ -1,0 +1,1288 @@
+{
+ "layer": "linkage",
+ "verifier": "counsel (Claude)",
+ "verified_at": "2026-09-30",
+ "source_checks": [
+  {
+   "source": "src:opsb-25-0185-socrates-south-staff-report",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:pa-dep-nuclear-plants",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:amazon-10k-fy2025",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:amazon-10q-q2-2026",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:amazon-indiana-11b-2024-04-25",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:amazon-project-rainier-2025-10-29",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:amazon-reinvent-2025-announcements",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:blue-owl-rent-10k-2025-ex993-abilene-dc1",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:core-scientific-8k-2026-04-21-ex992",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:core-scientific-denton-2025-02-26",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:crusoe-abilene-1-2gw-2025-03-18",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:crusoe-abilene-live",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:ercot-large-load-2026-04",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true,
+   "notes": "Reachable (PDF fetched from ercot.com). This is ERCOT's own slide deck presented to a Texas House committee hearing, not a docketed filing in the FERC/PUC sense, though it is an authoritative Tier-1-grade document from the ISO. Quote verified verbatim ('approximately 410 GW... ~87% are data centers')."
+  },
+  {
+   "source": "src:etr-10k-2025",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:kairos-google-tva-release",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:la-gov-meta-richland-2024-12-04",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:lpsc-order-u-37425",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:meta-nuclear-2026",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:microsoft-inside-fairwater-2025-09-18",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:microsoft-made-in-wisconsin-2025-09-18",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:microsoft-superfactory-arch-2025-11-12",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:microsoft-wisconsin-to-atlanta-2025-11-12",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:mlgw-xai-update-2025-05-05",
+   "reachable": true,
+   "doc_type_ok": false,
+   "tier_assigned": 1,
+   "date_ok": true,
+   "notes": "Reachable (PDF fetched directly from mlgw.com). Content is a public informational FAQ/update MLGW posted for the community, not a filing docketed with a commission or agency — closer to gov_press_release than regulatory_filing. Tier remains 1 (direct, authoritative statement from the government-owned utility itself). Quotes verified verbatim."
+  },
+  {
+   "source": "src:naacp-appeal-shelby-01156",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true,
+   "notes": "Reachable (PDF fetched from cdn.arstechnica.net). Content was checked against the full extracted text and is the actual as-filed appeal document (legal argument, permit number, etc.), not a news article about it — it is hosted on a media outlet's CDN rather than the Health Department's own site, but is a faithful, complete copy of the primary filing. Treated as regulatory_filing/Tier 1. Quote verified verbatim."
+  },
+  {
+   "source": "src:nvidia-10k-fy2026",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:nvidia-10q-q2-fy2027",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:nvidia-8k-2025-04-15",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:nvidia-8k-2026-08-17",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:nvidia-build-in-america-2026-08-05",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:nvidia-wistron-fort-worth-opening-2026-07-21",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:nvidia-xai-colossus-2024-10-28",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:oracle-8k-2025-09-26",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true,
+   "notes": "www.sec.gov returned 403 'Undeclared Automated Tool' to curl with the declared project User-Agent, and no Wayback Machine snapshot was retrievable at fetch time (intermittent 404/429 on web.archive.org). Retrieved instead via a direct fetch tool that returned the live SEC document text; the cited sentence ('Oracle Corporation (\"Oracle\") consummated the issuance and sale...') was confirmed verbatim in Item 8.01. Reachable via an alternate path; EDGAR full-text search was not used as a secondary cross-check for this one."
+  },
+  {
+   "source": "src:oracle-saline-construction-2026-06-01",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:oracle-zettascale10-2025-10-14",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:pa-gov-amazon-20b-2025-06-09",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:pjm-2026-load-forecast",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:related-saline-2025-10-30",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:sb-energy-openai-2026-01-09",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:sb-energy-s1a-2026-09-21",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true,
+   "notes": "Filing is ~12MB; www.sec.gov blocked curl (403) and no Wayback snapshot exists yet for this URL. Verified instead via EDGAR full-text search (efts.sec.gov) phrase-matching: all six cited quotes were searched as exact phrases filtered to CIK 0002133037, and each returned a hit on accession 0001628280-26-062846 / sbenergy-sx1a2.htm — the exact filing and file cited. This confirms verbatim presence in the correct document without needing the full raw text."
+  },
+  {
+   "source": "src:skhynix-sk-nvidia-2026",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:softbank-five-stargate-sites-2025-09-24",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:softbank-pr-openai-follow-on",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:spacex-s1a-2026-06-03",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:supermicro-10k-fy2026",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:supermicro-xai-colossus-story",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:talen-10k-2025",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:talen-8k-2025-06-11",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:tceq-abilene-dc1-177263",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true
+  },
+  {
+   "source": "src:vantage-port-washington-2025-10-22",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 2,
+   "date_ok": true
+  },
+  {
+   "source": "src:wec-10q-2026q2",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true,
+   "notes": "www.sec.gov blocked curl (403) and no Wayback snapshot exists for this URL. Verified via EDGAR full-text search filtered to CIK 0000783325: all cited quotes returned hits on accession 0000783325-26-000087 / wec-20260630.htm, matching the cited identifier and filing date (2026-08-04) exactly."
+  },
+  {
+   "source": "src:xe-10q-2026q2",
+   "reachable": true,
+   "doc_type_ok": true,
+   "tier_assigned": 1,
+   "date_ok": true,
+   "notes": "www.sec.gov blocked curl (403) and no Wayback snapshot exists for this URL. Verified via EDGAR full-text search filtered to CIK 0002088896: the cited quote returned a hit on accession 0001193125-26-347752 / xe-20260630.htm, matching the cited identifier and filing date (2026-08-13) exactly."
+  }
+ ],
+ "evidence_checks": [
+  {
+   "entity": "co:mlgw",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:lancium",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:dte-energy",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:will-power-oh",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:aep",
+   "evidence_index": 0,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "co:denton-municipal-electric",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:dalton-utilities",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:murphy-electric-power-board",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:duke-energy",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:oge",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:ppl",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:amazon",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:amazon",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:amazon",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:amazon",
+   "evidence_index": 3,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:amazon",
+   "evidence_index": 4,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:amazon",
+   "evidence_index": 5,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "co:entergy",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:entergy",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:ercot",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 3,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 4,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 5,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 6,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 7,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 8,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:nvidia",
+   "evidence_index": 9,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:oracle",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:oracle",
+   "evidence_index": 1,
+   "verdict": "verified",
+   "notes": "Verified via a direct fetch tool after curl/Wayback access to www.sec.gov failed for this document (see source_checks notes)."
+  },
+  {
+   "entity": "co:oracle",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:oracle",
+   "evidence_index": 3,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:pjm",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:pjm",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:sb-energy",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:sb-energy",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:softbank",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:softbank",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:supermicro",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:supermicro",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:talen",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:talen",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:tva",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:wec-energy",
+   "evidence_index": 0,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "co:wec-energy",
+   "evidence_index": 1,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "co:wec-energy",
+   "evidence_index": 2,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "co:xai",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "co:xai",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:longhorn-turbines-to-abilene-campus",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:longhorn-turbines-to-abilene-campus",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:longhorn-turbines-to-abilene-campus",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:longhorn-turbines-to-abilene-campus",
+   "evidence_index": 3,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:longhorn-turbines-to-abilene-campus",
+   "evidence_index": 4,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:susquehanna-to-aws-salem-township",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:susquehanna-to-aws-salem-township",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:susquehanna-to-aws-salem-township",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:susquehanna-to-aws-salem-township",
+   "evidence_index": 3,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:foxconn-houston-nvidia-assembly-test",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:foxconn-houston-nvidia-assembly-test",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:foxconn-houston-nvidia-assembly-services",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:wistron-fort-worth-nvidia-assembly-test",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:wistron-fort-worth-nvidia-assembly-test",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "ref:wistron-fort-worth-nvidia-assembly-services",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:stargate-abilene-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:stargate-abilene-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:stargate-abilene-electricity",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-electricity",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-2-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-2-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-2-electricity",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:fairwater-wisconsin-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:fairwater-wisconsin-electricity",
+   "evidence_index": 1,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:fairwater-wisconsin-electricity",
+   "evidence_index": 2,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:stargate-port-washington-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:stargate-port-washington-electricity",
+   "evidence_index": 1,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:stargate-saline-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:stargate-saline-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:meta-hyperion-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:meta-hyperion-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:meta-hyperion-electricity",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:meta-prometheus-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:meta-prometheus-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:meta-prometheus-electricity",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:meta-prometheus-electricity",
+   "evidence_index": 3,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:ports-pike-electricity",
+   "evidence_index": 0,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:ports-pike-electricity",
+   "evidence_index": 1,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:ports-pike-electricity",
+   "evidence_index": 2,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:stargate-milam-electricity",
+   "evidence_index": 0,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:stargate-milam-electricity",
+   "evidence_index": 1,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:stargate-milam-electricity",
+   "evidence_index": 2,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:core-scientific-denton-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-dalton-4-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-dalton-4-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-marble-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-marble-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-marble-electricity",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-muskogee-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-muskogee-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:aws-salem-township-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:aws-salem-township-electricity",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:aws-salem-township-electricity",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:aws-madison-county-electricity",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:stargate-abilene-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:stargate-abilene-ai-hardware",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-ai-hardware",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-ai-hardware",
+   "evidence_index": 2,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-2-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:xai-colossus-2-ai-hardware",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:fairwater-wisconsin-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:fairwater-atlanta-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:fairwater-atlanta-ai-hardware",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:project-rainier-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:project-rainier-ai-hardware",
+   "evidence_index": 1,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:ports-pike-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:ports-pike-ai-hardware",
+   "evidence_index": 1,
+   "verdict": "verified",
+   "notes": "Verified via EDGAR full-text search exact-phrase match filtered to the filer's CIK, confirming presence in the exact cited accession/file (see source_checks notes); raw document text was not independently re-grepped."
+  },
+  {
+   "entity": "req:core-scientific-denton-ai-hardware",
+   "evidence_index": 0,
+   "verdict": "verified"
+  },
+  {
+   "entity": "req:core-scientific-denton-ai-hardware",
+   "evidence_index": 1,
+   "verdict": "verified"
+  }
+ ],
+ "entity_verdicts": [
+  {
+   "entity": "co:mlgw",
+   "verdict": "publish",
+   "reasons": "Existence and role documented by MLGW's own public update on xAI utility support; quote verified verbatim. Note: the source is better classified as a gov_press_release/public informational update than a docketed regulatory_filing (see source_checks), but it is still a direct, authoritative Tier 1 statement from the government-owned utility."
+  },
+  {
+   "entity": "co:lancium",
+   "verdict": "publish_flagged",
+   "reasons": "Existence and role (grid interconnect / power orchestration developer for the Abilene campus) are verified verbatim against a Tier 2 Crusoe release. Flagged because hq coordinates are the Abilene project area, not a documented corporate headquarters — the record's own address field discloses 'corporate HQ not stated in cited source.' This is a geocode-from-context caveat, not a wrong fact."
+  },
+  {
+   "entity": "co:dte-energy",
+   "verdict": "publish_flagged",
+   "reasons": "Existence and role as the Saline Township utility partner verified verbatim (Related Digital release). Flagged for the same reason as co:lancium: hq coordinates approximate the project region in Michigan rather than a documented corporate address; disclosed in the record's own address field."
+  },
+  {
+   "entity": "co:will-power-oh",
+   "verdict": "publish_flagged",
+   "reasons": "Existence verified verbatim against the OPSB staff report (Tier 1). Flagged because hq coordinates are the New Albany project area, not a documented corporate headquarters (disclosed in the record's own address field)."
+  },
+  {
+   "entity": "co:aep",
+   "verdict": "publish_flagged",
+   "reasons": "Existence/role verified: the cited SB Energy S-1/A sentence was confirmed present verbatim in the exact cited accession via EDGAR full-text search (direct retrieval of this >10MB filing was not possible; see source_checks). Flagged for the same hq-approximation reason as the other utilities above (region-level, service-territory address rather than a documented corporate HQ)."
+  },
+  {
+   "entity": "co:denton-municipal-electric",
+   "verdict": "publish",
+   "reasons": "Existence and role verified verbatim against Core Scientific's 8-K Exhibit 99.2. This is a city-owned municipal utility whose HQ is, by its nature, Denton, TX — city-level precision is appropriate and not an approximation."
+  },
+  {
+   "entity": "co:dalton-utilities",
+   "verdict": "publish",
+   "reasons": "Existence and role verified verbatim against Core Scientific's 8-K Exhibit 99.2. City-owned utility headquartered in Dalton, GA; city-level precision is appropriate."
+  },
+  {
+   "entity": "co:murphy-electric-power-board",
+   "verdict": "publish_flagged",
+   "reasons": "Existence and role (TVA distributor serving the Marble campus) verified verbatim. Flagged because hq precision is 'region' (Western North Carolina) rather than Murphy, NC specifically; the cited source does not give a precise HQ address."
+  },
+  {
+   "entity": "co:duke-energy",
+   "verdict": "publish",
+   "reasons": "Existence and role (two electric service agreements for the Marble campus) verified verbatim against Core Scientific's 8-K Exhibit 99.2."
+  },
+  {
+   "entity": "co:oge",
+   "verdict": "publish",
+   "reasons": "Existence and role (electric service agreement for the Muskogee campus) verified verbatim against Core Scientific's 8-K Exhibit 99.2."
+  },
+  {
+   "entity": "co:ppl",
+   "verdict": "publish",
+   "reasons": "Existence and role (transmission/delivery for the Susquehanna-to-Amazon PPA) verified verbatim against Talen's 8-K Exhibit 99.1."
+  },
+  {
+   "entity": "co:amazon",
+   "verdict": "publish",
+   "reasons": "All five evidence items verified verbatim (HQ, properties, Trainium3 product claim, cover-page address, Susquehanna PPA relationship, Energy Northwest SMR agreement). Well documented at Tier 1/2."
+  },
+  {
+   "entity": "co:entergy",
+   "verdict": "publish",
+   "reasons": "Existence and role (Richland Parish generation/transmission filing; Meta data center service) verified verbatim against Entergy's 10-K and the LPSC order."
+  },
+  {
+   "entity": "co:ercot",
+   "verdict": "publish",
+   "reasons": "Existence and large-load tracking role verified verbatim against ERCOT's own presentation to the Texas House State Affairs Committee."
+  },
+  {
+   "entity": "co:nvidia",
+   "verdict": "publish",
+   "reasons": "All ten evidence items verified verbatim across NVIDIA's 10-K, 10-Q, two 8-Ks, and company releases. Thoroughly documented."
+  },
+  {
+   "entity": "co:oracle",
+   "verdict": "publish",
+   "reasons": "Existence and Stargate/Abilene relationship verified verbatim; the 8-K quote was confirmed via a direct fetch after SEC/Wayback access issues for that specific document (see source_checks)."
+  },
+  {
+   "entity": "co:pjm",
+   "verdict": "publish",
+   "reasons": "Existence and data-center load-forecasting role verified verbatim against PJM's 2026 Load Forecast Report."
+  },
+  {
+   "entity": "co:sb-energy",
+   "verdict": "publish",
+   "reasons": "Existence and role (Milam County site developer/operator) verified verbatim against SB Energy's own release and NVIDIA's 8-K."
+  },
+  {
+   "entity": "co:softbank",
+   "verdict": "publish",
+   "reasons": "Existence and OpenAI/Stargate relationship verified verbatim against SoftBank's own releases."
+  },
+  {
+   "entity": "co:supermicro",
+   "verdict": "publish",
+   "reasons": "Existence, HQ, and Colossus server role verified verbatim against Supermicro's 10-K and its own case-study page."
+  },
+  {
+   "entity": "co:talen",
+   "verdict": "publish",
+   "reasons": "Existence, Susquehanna ownership/operation, and the AWS PPA verified verbatim against Talen's 10-K."
+  },
+  {
+   "entity": "co:tva",
+   "verdict": "publish",
+   "reasons": "Existence and the Kairos/Hermes 2 PPA relationship verified verbatim against the Kairos Power release."
+  },
+  {
+   "entity": "co:wec-energy",
+   "verdict": "publish",
+   "reasons": "HQ and Microsoft/Vantage load relationships verified: quotes were confirmed present verbatim in the exact cited accession (0000783325-26-000087) via EDGAR full-text search after direct retrieval of the filing was blocked (see source_checks)."
+  },
+  {
+   "entity": "co:xai",
+   "verdict": "publish",
+   "reasons": "Existence of COLOSSUS/COLOSSUS II and the Paul R. Lowry site relationship verified verbatim against SpaceX's S-1/A and the NAACP appeal filing."
+  },
+  {
+   "entity": "ref:longhorn-turbines-to-abilene-campus",
+   "verdict": "publish",
+   "reasons": "Strongly supported: the TCEQ permit and the Blue Owl SEC exhibit independently name the identical legal entity, 'Abilene DC 1, LLC,' as both the turbine permittee ('Longhorn Data Center') and the owner/operator of the Abilene campus and its power station — a direct documentary link, not mere geographic inference. The underlying flow is marked 'inferred' at the power layer; this refinement's evidence materially strengthens that identification. All quotes verified verbatim."
+  },
+  {
+   "entity": "ref:susquehanna-to-aws-salem-township",
+   "verdict": "publish",
+   "reasons": "Well supported: Talen's 8-K and 10-K name the campus 'adjacent to Susquehanna' and define it as the 'AWS Data Campus' by name; PA DEP confirms Susquehanna's location in Salem Township; the PA Governor's own release ties the Amazon AI campus announcement to Salem Township specifically. All quotes verified verbatim."
+  },
+  {
+   "entity": "ref:foxconn-houston-nvidia-assembly-test",
+   "verdict": "publish_flagged",
+   "reasons": "The site claim itself is well supported — NVIDIA's own release names Houston and Foxconn specifically and describes GB300 tray-module manufacturing there (verified verbatim). Flagged because the underlying flow (flow:foxconn-nvidia-assembly-test, defined in design.json) is based solely on NVIDIA's 10-K boilerplate listing Hon Hai/Wistron/Fabrinet collectively, without naming any site; that generic, company-wide relationship predates and is broader than the new Houston plant. The refinement should be read as 'Foxconn's Houston plant is a documented site doing this work,' not as relocating the entirety of Hon Hai's NVIDIA contract-manufacturing relationship to Houston alone."
+  },
+  {
+   "entity": "ref:foxconn-houston-nvidia-assembly-services",
+   "verdict": "publish_flagged",
+   "reasons": "Same basis and same caveat as ref:foxconn-houston-nvidia-assembly-test: the site-specific NVIDIA release evidence is solid and verified verbatim, but it refines a flow (flow:foxconn-to-nvidia-assembly-services) whose own evidentiary basis is NVIDIA's company-wide 10-K subcontractor list, not a Houston-specific document. Flagged so the pin is not read as exclusive."
+  },
+  {
+   "entity": "ref:wistron-fort-worth-nvidia-assembly-test",
+   "verdict": "publish_flagged",
+   "reasons": "The site claim is well supported by two NVIDIA releases naming Wistron's D1 facility in Fort Worth and the specific products (GB300, Vera Rubin Superchips) built there (verified verbatim). Flagged for the same reason as the Foxconn refinements: the underlying flow (flow:wistron-nvidia-assembly-test) rests on NVIDIA's company-wide 10-K subcontractor sentence, which does not itself name Fort Worth and may encompass Wistron sites elsewhere."
+  },
+  {
+   "entity": "ref:wistron-fort-worth-nvidia-assembly-services",
+   "verdict": "publish_flagged",
+   "reasons": "Same basis and caveat as ref:wistron-fort-worth-nvidia-assembly-test."
+  },
+  {
+   "entity": "req:stargate-abilene-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier set (Lancium-arranged grid interconnect plus the onsite Abilene DC 1 turbines) verified verbatim across the Crusoe release, Blue Owl SEC exhibit, and TCEQ permit. The statement correctly notes the transmission utility itself is not named."
+  },
+  {
+   "entity": "req:xai-colossus-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier set (MLGW/TVA grid plus onsite turbines) verified verbatim against MLGW's own update, SpaceX's S-1/A, and the NAACP appeal filing. Thorough and well corroborated."
+  },
+  {
+   "entity": "req:xai-colossus-2-electricity",
+   "verdict": "publish_flagged",
+   "reasons": "Evidence verified verbatim and the statement is accurate: SpaceX's S-1/A states COLOSSUS II is expected to be primarily/self-powered by its own behind-the-meter gas plant. Flagged because the sole listed supplier is co:xai itself — the node's own operator. This correctly documents self-generation (no external utility is named as supplier of record for this site), but readers of the single-point-of-failure analysis should not mistake 'supplier: co:xai' for an external vendor dependency; it means 'self-supplied, no third-party electricity vendor of record.'"
+  },
+  {
+   "entity": "req:fairwater-wisconsin-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier (We Energies VLC tariff service agreement) verified verbatim against Microsoft's own release and WEC's 10-Q (confirmed via EDGAR full-text search for the 10-Q; see source_checks). Prose audit (coordinator, 2026-10-01): removed a figure (250) that no cited quote contains.",
+   "corrections": {
+    "statement": "Microsoft's Mount Pleasant datacenter is served in partnership with We Energies; WEC reports Microsoft signed a service agreement under the PSCW-approved Very Large Customer tariff, with the first phase in service April 2026. Microsoft also cites a Portage County solar project used for carbon matching (not named as direct supply)."
+   }
+  },
+  {
+   "entity": "req:stargate-port-washington-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier (dedicated We Energies rate) verified verbatim against Vantage's release and WEC's 10-Q (confirmed via EDGAR full-text search). Prose audit (coordinator, 2026-10-01): removed a figure (3.5) that no cited quote contains.",
+   "corrections": {
+    "statement": "Vantage's Port Washington (Lighthouse) campus is to be served under a dedicated electricity rate from We Energies; WEC forecasts 1.3 GW of demand from the site through 2030."
+   }
+  },
+  {
+   "entity": "req:stargate-saline-electricity",
+   "verdict": "publish",
+   "reasons": "Sole-supplier language ('DTE Energy is supplying 100% of the power... using existing resources') is explicit and verified verbatim in two independent Tier 2 releases (Related Digital and Oracle), both using near-identical '100%/all of the project's power' language. Solidly supports a 'publish' single-point-of-failure claim."
+  },
+  {
+   "entity": "req:meta-hyperion-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier (Entergy Louisiana generation/transmission for the Laidley LLC/Meta Richland Parish project, including Waterford 5) verified verbatim against the LPSC order, the Governor's release, and Entergy's 10-K."
+  },
+  {
+   "entity": "req:meta-prometheus-electricity",
+   "verdict": "publish_flagged",
+   "reasons": "All quotes verified verbatim. Flagged and statement corrected: the premise that Sidecat LLC's New Albany campus (OPSB Case 25-0185-EL-BLN) is Meta's 'Prometheus' supercluster rests on matching city (New Albany, Ohio) and Meta corporate parentage across two separate documents — no single cited document names both 'Sidecat' and 'Prometheus' together. This is a reasonable inference given the specific 740-acre site description and shared timing, but it is inference, not direct documentation, so the statement has been corrected to disclose this. Prose audit (coordinator, 2026-10-01): removed a figure (200) that no cited quote contains.",
+   "corrections": {
+    "statement": "Identifying this Sidecat campus with Meta's publicly named 'Prometheus' supercluster is an inference from matching location (New Albany, Ohio) and Meta corporate parentage, not a single document naming both; no cited source ties 'Sidecat' and 'Prometheus' together directly. Meta separately states its Vistra nuclear agreements deliver power to the PJM grid supporting the Prometheus supercluster in New Albany. The local distribution utility is not named in the cited documents."
+   }
+  },
+  {
+   "entity": "req:ports-pike-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier set (AEP Ohio ESA for the first 0.8 GW; PJM transmission; an unnamed SoftBank affiliate's neighboring generation) verified verbatim against SB Energy's S-1/A (confirmed via EDGAR full-text search for the >10MB filing; see source_checks). The statement correctly avoids overclaiming PJM or SoftBank itself as a generation supplier."
+  },
+  {
+   "entity": "req:stargate-milam-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier (SB Energy's own co-located generation, >1.3 GW, under on-site power supply agreements; ERCOT market context) verified verbatim via EDGAR full-text search of the S-1/A (direct retrieval blocked; see source_checks). Prose audit (coordinator, 2026-10-01): removed a figure (660) that no cited quote contains.",
+   "corrections": {
+    "statement": "SB Energy expects to supply the Milam County campus from co-located generation it developed (>1.3 GW) under on-site power supply agreements, with phased high-voltage interconnection in ERCOT."
+   }
+  },
+  {
+   "entity": "req:core-scientific-denton-electricity",
+   "verdict": "publish",
+   "reasons": "Sole-supplier language is explicit ('Power for the Denton Campus is supplied by the City of Denton through its municipal electric utility... pursuant to a power purchase agreement') and verified verbatim against Core Scientific's 8-K Exhibit 99.2."
+  },
+  {
+   "entity": "req:core-scientific-dalton-4-electricity",
+   "verdict": "publish",
+   "reasons": "Sole-supplier language verified verbatim against Core Scientific's 8-K Exhibit 99.2; Dalton 4 is confirmed as one of the Dalton Campuses in the same exhibit."
+  },
+  {
+   "entity": "req:core-scientific-marble-electricity",
+   "verdict": "publish",
+   "reasons": "Three-supplier set (Murphy Power/TVA, two Duke Energy Carolinas agreements) verified verbatim against Core Scientific's 8-K Exhibit 99.2."
+  },
+  {
+   "entity": "req:core-scientific-muskogee-electricity",
+   "verdict": "publish",
+   "reasons": "Sole-supplier language verified verbatim against Core Scientific's 8-K Exhibit 99.2."
+  },
+  {
+   "entity": "req:aws-salem-township-electricity",
+   "verdict": "publish",
+   "reasons": "Need and supplier set (Susquehanna/Talen PPA; PPL transmission) verified verbatim against Talen's 10-K, 8-K, and PA DEP's nuclear-plant page."
+  },
+  {
+   "entity": "req:aws-madison-county-electricity",
+   "verdict": "publish",
+   "reasons": "Sole-supplier language ('Entergy Mississippi executed a large customer supply and service agreement... to serve two data center campuses... in which Amazon Web Services is investing') verified verbatim against Entergy's 10-K."
+  },
+  {
+   "entity": "req:stargate-abilene-ai-hardware",
+   "verdict": "publish",
+   "reasons": "Need and supplier (NVIDIA GB200 NVL72 design capacity; Oracle's GB200 rack deliveries) verified verbatim against Crusoe's and SoftBank's own releases."
+  },
+  {
+   "entity": "req:xai-colossus-ai-hardware",
+   "verdict": "publish",
+   "reasons": "Need and supplier set (NVIDIA Hopper GPUs; Supermicro servers) verified verbatim across NVIDIA's own release, Supermicro's case study, and SpaceX's S-1/A."
+  },
+  {
+   "entity": "req:xai-colossus-2-ai-hardware",
+   "verdict": "publish",
+   "reasons": "Need and sole-supplier language ('Compute capacity provided includes approximately 325,000 NVIDIA GPUs') verified verbatim against SpaceX's S-1/A."
+  },
+  {
+   "entity": "req:fairwater-wisconsin-ai-hardware",
+   "verdict": "publish",
+   "reasons": "Sole-supplier language ('a single, massive cluster of interconnected NVIDIA GB200 servers') verified verbatim against Microsoft's own release."
+  },
+  {
+   "entity": "req:fairwater-atlanta-ai-hardware",
+   "verdict": "publish",
+   "reasons": "Need and supplier (NVIDIA GB200 NVL72 rack-scale systems) verified verbatim against two Microsoft releases."
+  },
+  {
+   "entity": "req:project-rainier-ai-hardware",
+   "verdict": "publish",
+   "reasons": "Need and supplier (AWS's in-house Trainium2 chips) verified verbatim against Amazon's own release; the statement correctly scopes the ~500,000-chip figure to the whole multi-site Project Rainier program rather than claiming it for the New Carlisle site alone."
+  },
+  {
+   "entity": "req:ports-pike-ai-hardware",
+   "verdict": "publish",
+   "reasons": "Explicit sole-supplier/dependency language ('OpenAI is dependent on NVIDIA for providing the necessary GPU units for the PORTS-Pike data centers') verified verbatim via EDGAR full-text search of the S-1/A (direct retrieval blocked; see source_checks). This is squarely the kind of named-dependency language that supports a single-point-of-failure publish verdict."
+  },
+  {
+   "entity": "req:core-scientific-denton-ai-hardware",
+   "verdict": "publish_flagged",
+   "reasons": "Quotes verified verbatim, but the evidence is weak for a sole-supplier claim: Core Scientific's release uses hedged, aspirational language ('We believe this addition aligns with CoreWeave's growing need... to support NVIDIA GPU operations') and never states that NVIDIA hardware is deployed at the Denton site specifically — the second quote describes only a generic 'GPU supercomputer' without naming NVIDIA. Flagged and statement corrected to reflect the hedge rather than present it as a confirmed fact.",
+   "corrections": {
+    "statement": "Core Scientific states it believes the Denton expansion (licensed to CoreWeave) 'aligns with' CoreWeave's growing need for infrastructure to support NVIDIA GPU operations; the release does not explicitly confirm that NVIDIA hardware is installed or operating at the Denton site specifically."
+   }
+  }
+ ],
+ "summary": "Verified the linkage_campuses research file: 51 sources, 122 evidence items, and 54 entities (24 companies, 6 refinements, 24 requirements). Result: 42 publish, 12 publish_flagged, 0 reject. All 122 evidence quotes were confirmed verbatim in their cited documents (whitespace/curly-quote/hyphenation differences only) using direct fetches, Wayback Machine mirrors of the exact SEC URL (for filings www.sec.gov blocked to a declared, non-browser-disguised User-Agent), or EDGAR full-text search phrase-matching scoped to the filer's CIK and cross-checked against the cited accession number when a filing was too large or otherwise unreachable by direct fetch (SB Energy's S-1/A, WEC's and X-Energy's 10-Qs, and one Oracle 8-K). No quote was found to be fabricated, paraphrased, or missing.\n\nSystemic/analyst-specific findings:\n1. Foxconn Houston / Wistron Fort Worth (4 refinements): publish_flagged. Each site claim is independently well-supported by NVIDIA's own Tier 2 releases naming the plant and product, but each refines a flow whose only other evidentiary basis is NVIDIA's 10-K boilerplate listing Hon Hai/Wistron/Fabrinet collectively without naming any site. Flagged so the map doesn't read as if 100% of each company's NVIDIA assembly work is concentrated at that one plant.\n2. Colossus II electricity (co:xai as sole supplier): publish_flagged. The S-1/A's \"self-built behind-the-meter\" language is accurate and verified, but listing the operator itself as \"supplier\" documents self-generation, not a third-party dependency; flagged so the single-point-of-failure reading isn't misread as naming an external vendor.\n3. Prometheus (Sidecat = Prometheus): publish_flagged, statement corrected. The identification rests on matching city and Meta parentage across two separate documents, not one document naming both; disclosed as inference in the corrected statement.\n4. Denton AI hardware: publish_flagged, statement corrected. Core Scientific's language is hedged (\"we believe this addition aligns with... NVIDIA GPU operations\") and never confirms NVIDIA hardware at the site; corrected to reflect that.\n5. Eleven/twelve new utility companies: all verified and published; five (Lancium, DTE Energy, Will-Power OH, AEP, Murphy Electric Power Board) flagged only because their hq coordinates approximate a project/service region rather than a documented corporate address (self-disclosed in the record's own address field) — not a factual error.\n6. Susquehanna -> AWS Salem Township and Longhorn turbines -> Abilene campus (via Abilene DC 1, LLC): both publish without flags. The Abilene chain is unusually solid — the identical legal entity name (\"Abilene DC 1, LLC\") appears independently in the TCEQ permit and the Blue Owl SEC exhibit, which is close to direct documentation despite the underlying flow being marked \"inferred\" upstream. The Susquehanna chain is corroborated by Talen's own glossary defining the \"AWS Data Campus\" term plus the PA Governor's release naming Salem Township for Amazon's AI campuses.\n7. Minor, non-blocking note: three requirements (req:ports-pike-electricity, req:stargate-milam-electricity) list PJM and ERCOT as \"suppliers\" of electricity when they are actually grid/market operators, not generators; the underlying statement text already correctly describes their real roles (transmission/interconnection), so no correction was needed, but this is a recurring category looseness worth tightening in future rounds.\n\nNo entity was rejected: every requirement and refinement had at least one verified Tier 1/2 item supporting its material claims, and the SPOF-sensitive single-supplier requirements (Denton, Dalton, Marble, Muskogee, Saline, Madison County, Colossus/Colossus II, Fairwater Wisconsin, PORTS-Pike hardware) all had evidence using explicit sole-supplier/dependency language (\"100% of the power,\" \"dependent on NVIDIA for... the necessary GPU units,\" \"a single... cluster\") sufficient to meet the publish bar, except Denton and Prometheus as flagged above. Prose audit (2026-10-01): removed four statement figures not found in any cited quote."
+}
