@@ -43,6 +43,8 @@ const facilities = new Map();
 const flows = new Map();
 const financial = new Map();
 const controls = new Map();
+const refinements = new Map();
+const requirements = new Map();
 const gaps = [];
 const stats = { layers: {}, withheld: 0, droppedEvidence: 0 };
 
@@ -110,6 +112,8 @@ for (const [layer, file] of Object.entries(research)) {
   for (const f of file.flows) { const o = admit(f, "flow"); if (o) put(flows, o); }
   for (const f of file.financial_links) { const o = admit(f, "fin"); if (o) put(financial, o); }
   for (const f of file.controls) { const o = admit(f, "ctl"); if (o) put(controls, o); }
+  for (const f of file.refinements ?? []) { const o = admit(f, "ref"); if (o) put(refinements, o); }
+  for (const f of file.requirements ?? []) { const o = admit(f, "req"); if (o) put(requirements, o); }
   for (const g of file.gaps ?? []) gaps.push({ ...g, layer });
   stats.layers[layer] = `${published} published (${v ? "verified" : "DRAFT"})`;
 }
@@ -152,6 +156,19 @@ function hintSupported(fl, hint) {
 }
 let hintsDropped = 0;
 
+// Counsel-approved refinements pin a route end to a site named in their own evidence; they take
+// precedence over hints and company-level drawing, and their evidence joins the route's.
+let refined = 0;
+for (const r of refinements.values()) {
+  const fl = flows.get(r.flow);
+  if (!fl) continue;
+  if (r.from_site && facilities.has(r.from_site)) { fl.from = r.from_site; fl.from_hint = undefined; fl.refined_from = r.id; }
+  if (r.to_site && facilities.has(r.to_site)) { fl.to = r.to_site; fl.to_hint = undefined; fl.refined_to = r.id; }
+  fl.evidence.push(...r.evidence);
+  fl.best_tier = Math.min(fl.best_tier, r.best_tier);
+  refined++;
+}
+
 let unresolved = 0;
 for (const fl of flows.values()) {
   for (const k of ["from_hint", "to_hint"]) if (fl[k] && !hintSupported(fl, fl[k])) { fl[k] = undefined; hintsDropped++; }
@@ -161,14 +178,14 @@ for (const fl of flows.values()) {
   const b = resolve(fl.to, fl.to_hint, fromGuess, "to");
   if (!a || !b || !locOf(a.id) || !locOf(b.id)) { flows.delete(fl.id); unresolved++; continue; }
   fl.from_node = a.id; fl.to_node = b.id;
-  fl.resolution = `${a.how}/${b.how}`;
+  fl.resolution = `${fl.refined_from ? "evidence" : a.how}/${fl.refined_to ? "evidence" : b.how}`;
   fl.layer = fl.source_layer;
   fl.from_layer = layerOfEnd(a.id);
 }
 
 // Publish only the sources that back something on the map (published evidence or company records).
 const cited = new Set();
-for (const coll of [companies, facilities, flows, financial, controls])
+for (const coll of [companies, facilities, flows, financial, controls, requirements])
   for (const e of coll.values()) for (const ev of [...e.evidence, ...(e.capacity?.evidence ?? [])]) cited.add(ev.source);
 for (const id of [...sources.keys()]) if (!cited.has(id)) sources.delete(id);
 
@@ -180,6 +197,7 @@ const atlas = {
     counts: {
       sources: sources.size, companies: companies.size, facilities: facilities.size,
       flows: flows.size, financial_links: financial.size, controls: controls.size, gaps: gaps.length,
+      refinements: refined, requirements: requirements.size,
     },
   },
   sources: [...sources.values()],
@@ -188,6 +206,7 @@ const atlas = {
   flows: [...flows.values()],
   financial_links: [...financial.values()],
   controls: [...controls.values()],
+  requirements: [...requirements.values()],
   gaps,
 };
 

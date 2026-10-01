@@ -12,7 +12,10 @@ const RESEARCH = join(ROOT, "data/research");
 const VERIFY = join(ROOT, "data/verification");
 
 const LAYERS = ["materials", "wafers_chemicals", "equipment", "fabrication", "memory_packaging",
-  "design", "systems", "datacenter", "power", "policy", "finance"];
+  "design", "systems", "datacenter", "power", "policy", "finance", "linkage"];
+const INPUT_KINDS = ["contract manufacturing", "electricity", "generation equipment", "networking", "lithography",
+  "process tools", "memory", "logic dies", "packaging", "polysilicon", "rare earths", "germanium feedstock", "fluorspar",
+  "photoresist", "industrial gases", "chemicals & materials", "silicon wafers", "AI compute hardware", "IP & EDA"];
 const TIER_OF = {
   sec_10k: 1, sec_20f: 1, sec_10q: 1, sec_8k: 1, sec_6k: 1, sec_s1: 1, sec_def14a: 1,
   foreign_annual_report: 1, federal_register: 1, cfr: 1, bis_entity_list: 1, legislation: 1,
@@ -51,7 +54,7 @@ for (const name of pick(RESEARCH).length && only.length ? readdirSync(RESEARCH).
   const data = load(RESEARCH, name);
   if (!data) continue;
   allResearch[name] = data;
-  for (const key of ["sources", "companies", "facilities", "flows", "financial_links", "controls"]) {
+  for (const key of ["sources", "companies", "facilities", "flows", "financial_links", "controls", "refinements", "requirements"]) {
     for (const e of data[key] ?? []) {
       if (!e?.id) continue;
       if (key !== "companies" && key !== "sources" && globalIds.has(e.id) && globalIds.get(e.id) !== name)
@@ -154,6 +157,25 @@ for (const [name, d] of Object.entries(allResearch)) {
     for (const e of c.entities ?? []) if (!isRef(e)) warn(name, `${c.id}: entity ${e} undefined`);
     checkEvidence(name, c.id, c.evidence, srcIds);
   }
+
+  for (const r of d.refinements ?? []) {
+    dup(r.id);
+    if (!r.id?.startsWith("ref:")) err(name, `refinement id ${r.id} must start with ref:`);
+    if (!globalIds.has(r.flow) || !r.flow.startsWith("flow:")) err(name, `${r.id}: flow ${r.flow} not found`);
+    if (!r.from_site && !r.to_site) err(name, `${r.id}: needs from_site or to_site`);
+    for (const k of ["from_site", "to_site"]) if (r[k] && !(globalIds.has(r[k]) && r[k].startsWith("fac:"))) err(name, `${r.id}: ${k} ${r[k]} is not a known facility`);
+    checkEvidence(name, r.id, r.evidence, srcIds);
+  }
+  for (const r of d.requirements ?? []) {
+    dup(r.id);
+    if (!r.id?.startsWith("req:")) err(name, `requirement id ${r.id} must start with req:`);
+    if (!isRef(r.node)) err(name, `${r.id}: node ${r.node} undefined`);
+    if (!INPUT_KINDS.includes(r.kind)) err(name, `${r.id}: kind "${r.kind}" not one of ${INPUT_KINDS.join(" | ")}`);
+    if (!Array.isArray(r.suppliers) || !r.suppliers.length) err(name, `${r.id}: suppliers[] required`);
+    for (const x of r.suppliers ?? []) if (!isRef(x)) err(name, `${r.id}: supplier ${x} undefined`);
+    if (!r.statement) err(name, `${r.id}: statement required`);
+    checkEvidence(name, r.id, r.evidence, srcIds);
+  }
 }
 
 // ── Pass 3: verification files ──
@@ -164,7 +186,7 @@ for (const name of pick(VERIFY)) {
   if (!research) { err(`verification/${name}`, "no matching research file"); continue; }
   const ents = new Map();
   const companyIds = new Set((research.companies ?? []).map((c) => c.id));
-  for (const k of ["companies", "facilities", "flows", "financial_links", "controls"])
+  for (const k of ["companies", "facilities", "flows", "financial_links", "controls", "refinements", "requirements"])
     for (const e of research[k] ?? []) ents.set(e.id, e);
   for (const ec of v.evidence_checks ?? []) {
     if (!ents.has(ec.entity)) err(`verification/${name}`, `evidence_check for unknown entity ${ec.entity}`);

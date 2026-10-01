@@ -20,7 +20,8 @@ export type Layer =
   | "datacenter" // AI data center campuses
   | "power" // generation, PPAs, grid, transformers/turbines
   | "policy" // export controls, subsidies (cross-cutting)
-  | "finance"; // cross-cutting money flows
+  | "finance" // cross-cutting money flows
+  | "linkage"; // site-level refinements of existing routes + documented input requirements
 
 export type DocType =
   // Tier 1 — legal / regulatory primary documents
@@ -153,6 +154,32 @@ export interface Control {
   evidence: Evidence[];
 }
 
+/**
+ * Pins one end of an existing route to a specific site, because a document ties the supply to that site
+ * (e.g. "Blackwell is produced at TSMC's Arizona fab"). The evidence must name the site AND the relationship.
+ */
+export interface Refinement {
+  id: string; // "ref:<kebab>"
+  flow: string; // existing Flow.id (in any layer file)
+  from_site?: string; // Facility.id replacing the route's source end
+  to_site?: string; // Facility.id replacing the route's destination end
+  evidence: Evidence[];
+}
+
+/**
+ * A documented input requirement: `node` needs input `kind`, and the documents name `suppliers` as the
+ * source(s) of it (e.g. TSMC Fab 18 needs EUV lithography; ASML is the only maker of EUV systems).
+ * Feeds the single-point-of-failure analysis. `kind` must be one of the input kinds in docs/LINKAGE.md.
+ */
+export interface Requirement {
+  id: string; // "req:<kebab>"
+  node: string; // Facility.id or Company.id that needs the input
+  kind: string;
+  suppliers: string[]; // Company.id / Facility.id; every supplier the documents name, not just one
+  statement: string; // one neutral sentence restating what the documents establish
+  evidence: Evidence[]; // must cover BOTH the need and the supplier set (e.g. sole-supplier language)
+}
+
 export interface Gap {
   topic: string;
   why: string; // why it could not be sourced to Tier 1/2
@@ -170,6 +197,8 @@ export interface ResearchFile {
   financial_links: FinancialLink[];
   controls: Control[];
   gaps: Gap[];
+  refinements?: Refinement[]; // linkage layer
+  requirements?: Requirement[]; // linkage layer
 }
 
 // ─── Verification ─────────────────────────────────────────────────────────
