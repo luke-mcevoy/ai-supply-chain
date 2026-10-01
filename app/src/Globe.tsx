@@ -16,6 +16,7 @@ import { arcPath, graticule, offsetEast, type World, type Country } from "./geo"
 import { C, LAYER_COLOR } from "./theme";
 import { useStore } from "./store";
 import { useTourFocus } from "./ui/Tour";
+import { useStoryFocus } from "./ui/Story";
 
 type RGB = [number, number, number];
 type RGBA = [number, number, number, number];
@@ -155,12 +156,15 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   }, [s.trace, s.selected, idx]);
 
   const tourFocus = useTourFocus(idx);
-  const focus = tourFocus ?? trace ?? exposure; // null → everything at full strength
+  const storyFocus = useStoryFocus(idx);
+  const guide = storyFocus ?? tourFocus;
+  const focus = guide ?? trace ?? exposure; // null → everything at full strength
 
   // Fly to each walk step: centre on the stage's sites, zoom by how spread out they are.
   useEffect(() => {
-    if (!tourFocus) return;
-    const pts = [...tourFocus.stepNodes].map((n) => locateAny(idx, n)).filter(Boolean) as [number, number][];
+    if (!guide) return;
+    const ctlPts = (storyFocus?.controls ?? []).flatMap((id) => idx.control.get(id)!.applies_to.map((a) => world.byA2.get(a)?.centroid)).filter(Boolean) as [number, number][];
+    const pts = [...[...guide.stepNodes].map((n) => locateAny(idx, n)).filter(Boolean) as [number, number][], ...ctlPts];
     if (!pts.length) return;
     // Frame the densest cluster (sites within 35° of the best-connected site), not the global mean:
     // the mean of US + Asian sites lands in the Arctic.
@@ -178,7 +182,7 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
     const zf = small ? zoom - 0.4 : zoom;
     s.focus(lon, small ? Math.max(-70, lat - 22 / 2 ** (zf - 1.5)) : lat, zf);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [tourFocus]);
+  }, [guide]);
   const inFocusNode = (id: string) => !focus || focus.nodes.has(id);
   const inFocusFlow = (id: string) => !focus || focus.flows.has(id);
 

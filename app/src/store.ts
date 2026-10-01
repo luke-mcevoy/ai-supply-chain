@@ -25,6 +25,8 @@ interface State {
   flyTo: { lon: number; lat: number; zoom?: number; t: number } | null;
   /** Active chain walk: anchor node, direction, current step index. */
   tour: { anchor: string; dir: "up" | "down"; step: number } | null;
+  story: { id: string; step: number } | null;
+  storyPicker: boolean;
 
   setMode: (m: Mode) => void;
   toggleLayer: (l: Layer) => void;
@@ -55,6 +57,8 @@ export const useStore = create<State>((set, get) => ({
   railOpen: typeof window !== "undefined" ? window.innerWidth > 900 : true,
   flyTo: null,
   tour: null,
+  story: null,
+  storyPicker: false,
 
   setMode: (mode) => set({ mode }),
   toggleLayer: (l) => {

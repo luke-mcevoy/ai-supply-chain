@@ -1,0 +1,512 @@
+{
+  "layer": "linkage",
+  "analyst": "Claude (Opus 5.5) — linkage analyst, chips worklist",
+  "generated_at": "2026-09-30T00:00:00Z",
+  "sources": [
+    {
+      "id": "src:nvidia-10k-fy2026",
+      "title": "NVIDIA Corporation Form 10-K for fiscal year ended January 25, 2026",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-30",
+      "identifier": "0001045810-26-000021"
+    },
+    {
+      "id": "src:amd-10k-fy2025",
+      "title": "Advanced Micro Devices, Inc. Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "Advanced Micro Devices, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-02-04",
+      "accessed": "2026-09-30",
+      "identifier": "0000002488-26-000018"
+    },
+    {
+      "id": "src:broadcom-10k-fy2025",
+      "title": "Broadcom Inc. Form 10-K for fiscal year ended November 2, 2025",
+      "publisher": "Broadcom Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-12-18",
+      "accessed": "2026-09-30",
+      "identifier": "0001730168-25-000121"
+    },
+    {
+      "id": "src:tsmc-20f-2025",
+      "title": "Taiwan Semiconductor Manufacturing Company Limited Form 20-F for fiscal year 2025",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-04-16",
+      "accessed": "2026-09-30",
+      "identifier": "0001628280-26-025362"
+    },
+    {
+      "id": "src:nvidia-blog-us-manufacturing-2025",
+      "title": "NVIDIA to Manufacture American-Made AI Supercomputers in US for First Time",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-04-14",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025",
+      "title": "NVIDIA and TSMC celebrate first NVIDIA Blackwell wafer produced in the US",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/tsmc-blackwell-manufacturing/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-10-17",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:nvidia-build-in-america-2026-08-05",
+      "title": "NVIDIA and Partners Build in America, for America",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-08-05",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:nvidia-us-ai-manufacturing-page",
+      "title": "US AI Manufacturing (Thank You to Our Manufacturing Partners)",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.nvidia.com/en-us/made-in-usa/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:nvidia-blackwell-architecture-page",
+      "title": "NVIDIA Blackwell Architecture",
+      "publisher": "NVIDIA Corporation",
+      "url": "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:nist-chips-tsmc-arizona",
+      "title": "CHIPS for America: TSMC Arizona (Phoenix, AZ) project page",
+      "publisher": "U.S. Department of Commerce, NIST CHIPS Program Office",
+      "url": "https://www.nist.gov/chips/tsmc-arizona-phoenix",
+      "doc_type": "gov_award",
+      "tier": 1,
+      "document_date": "2024-11-15",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:amkor-tsmc-mou-2024",
+      "title": "Amkor and TSMC to Expand Partnership and Collaborate on Advanced Packaging in Arizona",
+      "publisher": "Amkor Technology, Inc.",
+      "url": "https://amkor.com/blog/amkor-and-tsmc-to-expand-partnership-and-collaborate-on-advanced-packaging-in-arizona/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2024-10-03",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:amkor-peoria-site-2025",
+      "title": "Amkor Announces New Site for U.S. Semiconductor Facility",
+      "publisher": "Amkor Technology, Inc.",
+      "url": "https://amkor.com/blog/amkor-announces-new-site-for-u-s-semiconductor-facility/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-08-28",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:tsmc-pr-ap6-2023",
+      "title": "TSMC Celebrates the Opening of Advanced Backend Fab 6",
+      "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://pr.tsmc.com/english/news/3033",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2023-06-08",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:micron-release-hbm-amd-mi350-2025",
+      "title": "Micron HBM Designed into Leading AMD AI Platform",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-hbm-designed-leading-amd-ai-platform",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-06-12",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:samsung-amd-mou-2026",
+      "title": "Samsung and AMD Expand Strategic Collaboration on Next-Generation AI Memory Solutions",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://news.samsung.com/global/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2026-03-18",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "companies": [],
+  "facilities": [],
+  "flows": [],
+  "financial_links": [],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "SPIL Arizona packaging site for NVIDIA (flow:spil-nvidia-packaging-arizona)",
+      "why": "NVIDIA states it partners with SPIL for packaging and testing in Arizona, but the atlas has no SPIL Arizona facility and no SPIL/ASE document reviewed names the Arizona site or its status.",
+      "would_need": "An ASE Technology Holding 20-F/6-K, MOPS material-information filing, or SPIL release naming the Arizona site (address, status); then a facility record and a refinement."
+    },
+    {
+      "topic": "TSMC Phoenix fab phase supplying Amkor Peoria (flow:tsmc-arizona-to-amkor-peoria)",
+      "why": "The Amkor–TSMC MOU refers to TSMC's 'advanced wafer fabrication facilities in Phoenix' (plural) and Amkor Peoria starts manufacturing in 2028, by which time more than one Fab 21 phase may operate; no document names the phase.",
+      "would_need": "A TSMC or Amkor statement naming which Fab 21 phase supplies wafers for Amkor Peoria packaging."
+    },
+    {
+      "topic": "Which TSMC Advanced Backend Fab packages NVIDIA/AMD/Broadcom products and receives SK hynix HBM (flow:sk-hynix-hbm-to-tsmc-cowos, flow:tsmc-fab18-to-tsmc-ap6, flow:tsmc-fab18-to-tsmc-ap8)",
+      "why": "TSMC states AP6 (Zhunan) can run SoIC, InFO and CoWoS, but no TSMC document reviewed allocates CoWoS to a specific customer or states AP6 is the only CoWoS site; AP3, AP5, AP7 and AP8 roles are not described. TSMC's own sites (tsmc.com, investor.tsmc.com, pr.tsmc.com) returned HTTP 403 to the declared research User-Agent, so the annual report's packaging chapter could not be re-read this round.",
+      "would_need": "TSMC annual report / 20-F text describing CoWoS capacity by Advanced Backend Fab, or a customer release naming the packaging site."
+    },
+    {
+      "topic": "Front-end fab for TSMC-made Microsoft Maia 200 (3nm) and Meta MTIA (5nm) dies",
+      "why": "The documents name only the process node. The TSMC 20-F lists Fab 18 as its 3nm fab, but the table gives only each fab's most advanced node, so it does not rule out other fabs; 5nm runs at both Fab 18 and Arizona Fab 21. No document ties either chip to a fab.",
+      "would_need": "A Microsoft, Meta or TSMC statement naming the fab, or a CHIPS/permit document tying the product to a site."
+    },
+    {
+      "topic": "HBM fab supplying NVIDIA from SK hynix, Micron and Samsung (flow:sk-hynix-nvidia-memory, flow:sk-hynix-hbm4-to-nvidia-vera-rubin, flow:micron-nvidia-memory, flow:samsung-nvidia-memory)",
+      "why": "SK hynix describes M15X as an HBM/DRAM fab and has NVIDIA supply agreements, but no document reviewed ties NVIDIA's HBM to M15X, M16 or any other fab. Micron's 10-K lists Taiwan for wafer fabrication and assembly, but no Micron document reviewed states NVIDIA HBM is made there. Samsung's AMD MOU was signed at Pyeongtaek, which is not a production statement.",
+      "would_need": "A memory-maker release, F-1/424B4 or 10-K passage naming the fab or packaging site for HBM shipped to NVIDIA (or AMD)."
+    },
+    {
+      "topic": "Samsung foundry fab for NVIDIA wafers and for HBM4 base dies (flow:samsung-nvidia-wafers, flow:samsung-foundry-hbm4-base-die-to-memory)",
+      "why": "Samsung's business report states HBM4 base dies are made on its 4nm process, and NVIDIA's 10-K names Samsung as a foundry, but neither names the Hwaseong or Pyeongtaek line.",
+      "would_need": "A Samsung business report or release naming the foundry line for these products."
+    },
+    {
+      "topic": "TSMC fab producing SK hynix HBM4 base dies (flow:tsmc-to-sk-hynix-hbm4-base-die)",
+      "why": "The SK hynix–TSMC MOU names the relationship and process, not a fab.",
+      "would_need": "A TSMC or SK hynix statement naming the fab or the node (with a node-to-fab mapping)."
+    },
+    {
+      "topic": "Broadcom and Marvell logic-die (foundry) requirement",
+      "why": "Broadcom's 10-K names only TSMC ('including TSMC'), and Marvell's FY2026 10-K names no foundry; Marvell's 2nm release names TSMC for one platform. A single named supplier would read as a sole-source claim, which no document makes, so no requirement was recorded.",
+      "would_need": "10-K or release language naming every foundry, or stating that TSMC is the sole or only foundry, for Broadcom or Marvell AI accelerators."
+    },
+    {
+      "topic": "Marvell packaging and HBM suppliers; Broadcom HBM suppliers",
+      "why": "Marvell's FY2026 10-K says it outsources all packaging and testing to 'several assembly and test subcontractors' without naming them. Neither Broadcom's nor Marvell's 10-K names HBM suppliers.",
+      "would_need": "Filings or releases naming Marvell's OSATs and the HBM suppliers for Broadcom and Marvell custom accelerators."
+    },
+    {
+      "topic": "Hyperscaler in-house accelerator requirements (Microsoft Maia, Meta MTIA, Google TPU, AWS Trainium)",
+      "why": "The documents reviewed name TSMC as the process for Maia 200 and MTIA, but name one foundry only and make no sole-source statement; packaging and HBM suppliers are not named.",
+      "would_need": "Hyperscaler 10-K or release language naming the foundry, packaging and memory suppliers for each accelerator."
+    },
+    {
+      "topic": "ASML EUV to a specific Intel fab (flow:asml-to-intel)",
+      "why": "Intel states that Fab 52 (Chandler) manufactures Intel 18A, but no Intel document reviewed this round states that Fab 52 uses EUV tools from ASML.",
+      "would_need": "An Intel 10-K or release stating which fab runs EUV, combined with ASML's 20-F sole-supplier language."
+    }
+  ],
+  "refinements": [
+    {
+      "id": "ref:tsmc-fab21-nvidia-blackwell-wafers",
+      "flow": "flow:tsmc-arizona-nvidia-blackwell-wafers",
+      "from_site": "fac:tsmc-fab21-arizona-p1",
+      "evidence": [
+        {
+          "source": "src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025",
+          "quote": "NVIDIA founder and CEO Jensen Huang today visited TSMC’s semiconductor manufacturing facility in Phoenix to celebrate the first NVIDIA Blackwell wafer produced on U.S. soil, representing that Blackwell has reached volume production.",
+          "locator": "Article body, first paragraph",
+          "supports": "relationship; location (TSMC facility in Phoenix produces NVIDIA Blackwell wafers)"
+        },
+        {
+          "source": "src:nvidia-build-in-america-2026-08-05",
+          "quote": "The new TSMC factory in Phoenix, Arizona, is manufacturing NVIDIA Blackwell wafers in volume.",
+          "locator": "Article body (updated Aug. 5, 2026)",
+          "supports": "relationship; location; status (volume production as of 2026)"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "TSMC Arizona plans to build and operate multiple advanced semiconductor manufacturing facilities in Phoenix, Arizona. Our first facility successfully entered high volume production at the end of 2024.",
+          "locator": "Item 4, Our Subsidiaries and Affiliates: TSMC Arizona",
+          "supports": "location (only the first Phoenix facility is in volume production)"
+        },
+        {
+          "source": "src:tsmc-20f-2025",
+          "quote": "Construction of our second facility is ongoing",
+          "locator": "Item 4, TSMC Arizona",
+          "supports": "location (second Phoenix facility not yet producing)"
+        },
+        {
+          "source": "src:nist-chips-tsmc-arizona",
+          "quote": "4nm and 5nm FinFET process technologies",
+          "locator": "Key Facts — Facility Summary, Technologies, row 'Fab 1'",
+          "supports": "location (Phoenix Fab 1 runs 4nm/5nm)"
+        },
+        {
+          "source": "src:nvidia-blackwell-architecture-page",
+          "quote": "NVIDIA Blackwell-architecture GPUs pack 208 billion transistors and are manufactured using a custom-built TSMC 4NP process.",
+          "locator": "'A New Class of AI Superchip' section",
+          "supports": "relationship (Blackwell uses a TSMC 4nm-class process, consistent with Fab 1's 4nm technology)"
+        }
+      ]
+    },
+    {
+      "id": "ref:amkor-peoria-nvidia-packaging-arizona",
+      "flow": "flow:amkor-nvidia-packaging-arizona",
+      "from_site": "fac:amkor-peoria-az",
+      "evidence": [
+        {
+          "source": "src:nvidia-blog-us-manufacturing-2025",
+          "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
+          "locator": "Article body",
+          "supports": "relationship (Amkor packaging and test for NVIDIA in Arizona)"
+        },
+        {
+          "source": "src:nvidia-us-ai-manufacturing-page",
+          "quote": "Amkor is building advanced semiconductor packaging and test capacity in Peoria, Arizona, creating a critical US link between chip manufacturing and finished AI systems.",
+          "locator": "'Thank You to Our Manufacturing Partners' section, Amkor card",
+          "supports": "location (NVIDIA names Amkor's Peoria, Arizona site among its manufacturing partners)"
+        },
+        {
+          "source": "src:amkor-peoria-site-2025",
+          "quote": "The facility will be constructed on a 104-acre site within the Peoria Innovation Core, in north Peoria, AZ.",
+          "locator": "Release body, first paragraph",
+          "supports": "location (Amkor's Arizona packaging and test facility is in Peoria)"
+        }
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "id": "req:nvidia-logic-dies",
+      "node": "co:nvidia",
+      "kind": "logic dies",
+      "suppliers": [
+        "co:tsmc",
+        "co:samsung"
+      ],
+      "statement": "NVIDIA's FY2026 10-K states that it depends on foundries to manufacture its semiconductor wafers and names TSMC and Samsung as foundries it uses (\"such as\", so the list is not stated to be exhaustive).",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We depend on foundries to manufacture our semiconductor wafers using their fabrication equipment and techniques",
+          "locator": "Part I, Item 1A. Risk Factors",
+          "supports": "need"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "supplier set"
+        }
+      ]
+    },
+    {
+      "id": "req:nvidia-memory",
+      "node": "co:nvidia",
+      "kind": "memory",
+      "suppliers": [
+        "co:sk-hynix",
+        "co:micron",
+        "co:samsung"
+      ],
+      "statement": "NVIDIA's FY2026 10-K states that it may directly procure memory used in its products and that it purchases memory from SK Hynix, Micron and Samsung.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "we may directly procure certain raw materials used in the production of our products, such as memory, substrates, and a variety of components",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "need"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "supplier set"
+        }
+      ]
+    },
+    {
+      "id": "req:nvidia-packaging",
+      "node": "co:nvidia",
+      "kind": "packaging",
+      "suppliers": [
+        "co:tsmc",
+        "co:amkor",
+        "co:spil"
+      ],
+      "statement": "NVIDIA's FY2026 10-K states that it uses CoWoS technology for packaging; TSMC and Amkor describe CoWoS as TSMC's packaging technology, and NVIDIA states it partners with Amkor and SPIL for packaging and testing in Arizona. No document reviewed states which supplier packages a given NVIDIA product or that any supplier is the sole source.",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "we employ and partner with key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "need"
+        },
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We utilize CoWoS technology for semiconductor packaging",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "need (CoWoS packaging)"
+        },
+        {
+          "source": "src:amkor-tsmc-mou-2024",
+          "quote": "The companies will jointly define the specific packaging technologies, such as TSMC’s Integrated Fan-Out (InFO) and Chip on Wafer on Substrate (CoWoS",
+          "locator": "Release body",
+          "supports": "supplier set (CoWoS is TSMC's technology)"
+        },
+        {
+          "source": "src:tsmc-pr-ap6-2023",
+          "quote": "enables TSMC to flexibly allocate capacity for TSMC 3DFabric™ advanced packaging and silicon stacking technologies, such as SoIC, InFO, CoWoS and advanced testing",
+          "locator": "Release body",
+          "supports": "supplier set (TSMC provides CoWoS packaging)"
+        },
+        {
+          "source": "src:nvidia-blog-us-manufacturing-2025",
+          "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
+          "locator": "Article body",
+          "supports": "supplier set (Amkor, SPIL)"
+        }
+      ]
+    },
+    {
+      "id": "req:nvidia-contract-manufacturing",
+      "node": "co:nvidia",
+      "kind": "contract manufacturing",
+      "suppliers": [
+        "co:foxconn",
+        "co:wistron",
+        "co:fabrinet"
+      ],
+      "statement": "NVIDIA's FY2026 10-K states that it engages contract manufacturers such as Hon Hai (Foxconn), Wistron and Fabrinet to perform assembly, testing and packaging of its final products (\"such as\", so the list is not stated to be exhaustive).",
+      "evidence": [
+        {
+          "source": "src:nvidia-10k-fy2026",
+          "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "need; supplier set"
+        }
+      ]
+    },
+    {
+      "id": "req:amd-logic-dies",
+      "node": "co:amd",
+      "kind": "logic dies",
+      "suppliers": [
+        "co:tsmc",
+        "co:globalfoundries"
+      ],
+      "statement": "AMD's FY2025 10-K states that it uses TSMC for wafers for its HPC, FPGA and adaptive SoC products and GlobalFoundries for HPC wafers at 12 nm and 14 nm, and that it relies on TSMC for all microprocessor and GPU wafers at 7 nm or smaller. (Programmable logic devices are also produced by TSMC, UMC and Samsung; that product line is outside this requirement.)",
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We utilize Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and adaptive SoC products and GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes",
+          "locator": "Part I, Item 1. Business — Third-Party Wafer Foundry Facilities",
+          "supports": "need; supplier set"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes",
+          "locator": "Part I, Item 1A. Risk Factors — third-party manufacturers",
+          "supports": "supplier set (TSMC produces all wafers at 7 nm or smaller)"
+        }
+      ]
+    },
+    {
+      "id": "req:amd-packaging",
+      "node": "co:amd",
+      "kind": "packaging",
+      "suppliers": [
+        "co:tongfu-microelectronics",
+        "co:spil",
+        "co:kyec"
+      ],
+      "statement": "AMD's FY2025 10-K states that its wafers go to assembly, test, mark and packaging (ATMP) partners in Asia-Pacific, and that its ATMP joint ventures with Tongfu Microelectronics, SPIL and KYEC provide ATMP services for its products.",
+      "evidence": [
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "Wafers for our products are either sorted by the foundry or delivered by the foundry to our assembly, test, mark and packaging (ATMP) partners or subcontractors located in the Asia-Pacific region, who package and test our final semiconductor products",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "need"
+        },
+        {
+          "source": "src:amd-10k-fy2025",
+          "quote": "The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products",
+          "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+          "supports": "supplier set (ATMP JVs are with Tongfu Microelectronics)"
+        }
+      ]
+    },
+    {
+      "id": "req:amd-memory",
+      "node": "co:amd",
+      "kind": "memory",
+      "suppliers": [
+        "co:samsung",
+        "co:micron"
+      ],
+      "statement": "Micron states its HBM3E 36GB 12-high is integrated into AMD Instinct MI350 Series products, and Samsung states it is the primary HBM3E partner to AMD for MI350X/MI355X and will align with AMD on primary HBM4 supply for the MI455X. \"Primary\" is not sole; no document reviewed names AMD's complete HBM supplier set.",
+      "evidence": [
+        {
+          "source": "src:micron-release-hbm-amd-mi350-2025",
+          "quote": "today announced the integration of its HBM3E 36GB 12-high offering into the upcoming AMD Instinct™ MI350 Series solutions",
+          "locator": "Release body, first paragraph",
+          "supports": "need; supplier (Micron)"
+        },
+        {
+          "source": "src:samsung-amd-mou-2026",
+          "quote": "including Samsung serving as the primary HBM3E partner to AMD, powering the latest AMD Instinct MI350X and MI355X AI accelerators",
+          "locator": "Release body",
+          "supports": "need; supplier (Samsung)"
+        },
+        {
+          "source": "src:samsung-amd-mou-2026",
+          "quote": "Under the MOU, Samsung and AMD will align on primary HBM4 supply for the next-generation AMD AI accelerator, the AMD Instinct MI455X GPU",
+          "locator": "Release body",
+          "supports": "supplier (Samsung, HBM4)"
+        }
+      ]
+    },
+    {
+      "id": "req:broadcom-packaging",
+      "node": "co:broadcom",
+      "kind": "packaging",
+      "suppliers": [
+        "co:tsmc",
+        "co:ase",
+        "co:foxconn",
+        "co:amkor",
+        "co:spil"
+      ],
+      "statement": "Broadcom's FY2025 10-K states that it outsources a majority of its manufacturing, including assembly and test, and uses third-party contract manufacturers for a significant majority of assembly and test, including TSMC, ASE, Foxconn, Amkor and SPIL (\"including\", so not stated to be exhaustive).",
+      "evidence": [
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "Accordingly, we outsource a majority of our manufacturing operations, utilizing third-party foundry and assembly and test capabilities",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "need"
+        },
+        {
+          "source": "src:broadcom-10k-fy2025",
+          "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd",
+          "locator": "Part I, Item 1. Business — Manufacturing",
+          "supports": "supplier set"
+        }
+      ]
+    }
+  ]
+}

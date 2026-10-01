@@ -75,3 +75,7 @@ Released 2026-09-28 with user approval: pushed to origin/main and deployed the v
   data/audit-baseline.json, tsc, vitest (27), vite build, Playwright smoke (6). Deploy job needs a
   FLY_API_TOKEN repo secret (skipped until set). First run green.
 Open: set FLY_API_TOKEN for auto-deploy; bump actions to Node-24 versions before GitHub removes Node 20.
+
+## 2026-09-30 — linkage_fabs (EUV requirements)
+- Wrote data/research/linkage_fabs.json: 10 lithography requirements (Intel Oregon/Arizona/Ireland, Samsung Hwaseong V1 + Pyeongtaek foundry + Pyeongtaek DRAM, SK hynix M16 + M15X, Micron Hiroshima → co:asml; ASML Veldhoven → Zeiss Oberkochen + Wetzlar), 0 refinements, 9 gaps. All quotes checked programmatically against raw copies (scratchpad/linkage_fabs/build.py).
+- Unresolved: TSMC fab-level EUV (tsmc.com/esg.tsmc.com behind Cloudflare/403; sec.gov archives refuse the declared UA), Micron Taiwan EUV, Samsung Taylor, TRUMPF sole-supplier wording, and all supplier-site refinements on the worklist.

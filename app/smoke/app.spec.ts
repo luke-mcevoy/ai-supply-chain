@@ -26,7 +26,7 @@ test("deep link opens the inspector with evidence", async ({ page }) => {
 
 test("walk the chain steps through stages", async ({ page }) => {
   await page.goto("/");
-  await page.locator(".walk-btn").click();
+  await page.locator(".walk-btn:not(.story-btn)").click();
   const title = page.locator(".tour-title h3");
   await expect(title).toHaveText("AI data centers");
   await page.locator(".tour-nav .primary").click();
@@ -61,4 +61,14 @@ test("phone layout: bottom sheet and chips fit", async ({ page }) => {
   expect(box!.width).toBeLessThanOrEqual(390);
   const scrollW = await page.evaluate(() => document.documentElement.scrollWidth);
   expect(scrollW).toBeLessThanOrEqual(390);
+});
+
+test("stories play with verbatim, linked quotes", async ({ page }) => {
+  await page.goto("/");
+  await page.locator(".story-btn").click();
+  await page.locator(".story-picker li").first().locator("button").click();
+  await expect(page.locator(".story-quote blockquote").first()).toBeVisible();
+  await expect(page.locator(".story-quote a").first()).toHaveAttribute("href", /^https?:\/\//);
+  await page.keyboard.press("ArrowRight");
+  await expect(page.locator(".tour-title .mono")).toHaveText("02/05");
 });

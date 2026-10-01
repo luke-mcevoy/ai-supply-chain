@@ -34,7 +34,7 @@ export function defaultAnchors(idx: Index) {
 }
 
 export function startTour(anchor: string, dir: "up" | "down") {
-  useStore.getState().set({ tour: { anchor, dir, step: 0 }, trace: false, railOpen: window.innerWidth > 900 ? useStore.getState().railOpen : false });
+  useStore.getState().set({ tour: { anchor, dir, step: 0 }, story: null, trace: false, railOpen: window.innerWidth > 900 ? useStore.getState().railOpen : false });
 }
 
 export default function TourPanel({ idx }: { idx: Index }) {

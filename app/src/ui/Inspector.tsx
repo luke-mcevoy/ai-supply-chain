@@ -126,6 +126,31 @@ function Actions({ idx, id }: { idx: Index; id: string }) {
   );
 }
 
+function Requirements({ idx, id }: { idx: Index; id: string }) {
+  const select = useStore((s) => s.select);
+  const needs = (idx.atlas.requirements ?? []).filter((r) => r.node === id);
+  const feeds = (idx.atlas.requirements ?? []).filter((r) => r.suppliers.includes(id));
+  if (!needs.length && !feeds.length) return null;
+  return (
+    <Section title="Documented requirements" count={needs.length + feeds.length}>
+      {needs.map((r) => (
+        <div key={r.id} className="req">
+          <div><b>Needs {r.kind}</b> from {r.suppliers.map((x, i) => <span key={x}>{i ? ", " : ""}<button className="link" onClick={() => select(x)}>{nodeName(idx, x)}</button></span>)}
+            {r.suppliers.length === 1 && <span className="muted"> (only documented source)</span>} <ReviewBadge review={r.review} note={r.review_note} /></div>
+          <p className="desc small">{r.statement}</p>
+          <EvidenceList idx={idx} evidence={r.evidence} />
+        </div>
+      ))}
+      {feeds.map((r) => (
+        <div key={r.id} className="req">
+          <b>Documented supplier of {r.kind}</b> to <button className="link" onClick={() => select(r.node)}>{nodeName(idx, r.node)}</button>
+          {r.suppliers.length === 1 && <span className="muted"> (its only documented source)</span>}
+        </div>
+      ))}
+    </Section>
+  );
+}
+
 function reachLine(idx: Index, id: string) {
   const n = idx.reach.get(id) ?? 0;
   const hits = idx.ko.critical.get(id) ?? [];
@@ -181,6 +206,7 @@ function FacilityView({ idx, f }: { idx: Index; f: Facility }) {
       ]} />
       {f.review_note && f.review !== "verified" && <div className="note warn">Counsel: {f.review_note}</div>}
       <Actions idx={idx} id={f.id} />
+      <Requirements idx={idx} id={f.id} />
       <Section title="Inbound" count={ups.length + opFlowsIn.length}>
         <FlowList idx={idx} flows={[...ups, ...opFlowsIn]} dir="in" />
       </Section>
@@ -214,6 +240,7 @@ function CompanyView({ idx, c }: { idx: Index; c: Company }) {
       {reachLine(idx, c.id)}
       <Rows rows={[["Stages", c.layers.map((l) => LAYER_LABEL[l] ?? l).join(" · ")], ["HQ", c.hq.address ?? `${c.hq.lat.toFixed(2)}, ${c.hq.lon.toFixed(2)}`]]} />
       <Actions idx={idx} id={c.id} />
+      <Requirements idx={idx} id={c.id} />
       {!!controls.length && <Section title="Named in trade controls" count={controls.length}><ControlChips idx={idx} controls={controls} /></Section>}
       <Section title="Sites" count={facs.length}>
         <ul className="flowlist">

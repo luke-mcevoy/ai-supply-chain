@@ -1,0 +1,9 @@
+{
+  "_note": "SEC CIKs for tracked companies not recorded on their company entries. Resolved via EDGAR full-text search on 2026-09-30 (ticker shown by EDGAR in brackets).",
+  "ciks": {
+    "co:intel": "0000050863", "co:micron": "0000723125", "co:tsmc": "0001046179", "co:supermicro": "0001375365",
+    "co:dell": "0001571996", "co:globalfoundries": "0001709048", "co:amkor": "0001047127", "co:core-scientific": "0001839341",
+    "co:galaxy-digital": "0001859392", "co:blue-owl": "0001823945", "co:oklo": "0001849056", "co:fabrinet": "0001408710",
+    "co:jabil": "0000898293", "co:sanmina": "0000897723", "co:coherent": "0000820318", "co:lumentum": "0001633978"
+  }
+}

@@ -1,5 +1,5 @@
 {
- "built_at": "2026-09-29T17:11:30.661Z",
+ "built_at": "2026-10-01T00:27:01.760Z",
  "draft": false,
  "stats": {
   "layers": {
@@ -26,7 +26,9 @@
    "flows": 165,
    "financial_links": 152,
    "controls": 53,
-   "gaps": 113
+   "gaps": 113,
+   "refinements": 0,
+   "requirements": 0
   }
  },
  "sources": [
@@ -30044,6 +30046,7 @@
    "source_layer": "policy"
   }
  ],
+ "requirements": [],
  "gaps": [
   {
    "topic": "openai.com Stargate primary releases",

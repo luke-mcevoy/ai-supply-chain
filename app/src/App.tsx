@@ -6,6 +6,7 @@ import Inspector from "./ui/Inspector";
 import { TopBar, Rail, Tooltip, Bottom, Palette, About } from "./ui/Chrome";
 import TourPanel from "./ui/Tour";
 import DataTable from "./ui/DataTable";
+import StoryPanel, { StoryPicker } from "./ui/Story";
 
 export default function App() {
   const [idx, setIdx] = useState<Index | null>(null);
@@ -32,6 +33,8 @@ export default function App() {
       <Inspector idx={idx} />
       <Bottom idx={idx} />
       <TourPanel idx={idx} />
+      <StoryPanel idx={idx} />
+      <StoryPicker />
       <Tooltip idx={idx} />
       <Palette idx={idx} />
       <About idx={idx} />

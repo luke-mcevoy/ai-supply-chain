@@ -84,3 +84,18 @@ describe("ctlEffect", () => {
   test("section 232 is an import measure", () => expect(ctlEffect(c({ authority: "US-President", applies_from: ["*all origins (import measure)"], applies_to: ["US"] }))).toBe("import"));
   test("entity listing marks parties, not countries", () => expect(ctlEffect(c({ id: "ctl:us-bis-2025-09-entity-list-x", instrument: "Additions to the Entity List" }))).toBe("entities"));
 });
+
+describe("documented requirements", () => {
+  test("a sole documented supplier becomes a single point of failure", () => {
+    const idx = buildIndex({
+      ...atlas({
+        companies: [co("co:a", ["equipment"]), co("co:t", ["fabrication"]), co("co:c")],
+        facilities: [fac("fac:tool", "co:a", "equipment"), fac("fac:fab", "co:t", "fabrication"), fac("fac:dc", "co:c", "datacenter")],
+        flows: [flow("fac:fab", "fac:dc", "logic wafers (GPU dies)")],
+      }),
+      requirements: [{ id: "req:x", node: "fac:fab", kind: "lithography", suppliers: ["co:a"], statement: "", evidence: [], review: "verified", best_tier: 1 }],
+    });
+    expect(idx.ko.critical.get("co:a")?.map((h) => h.dc)).toEqual(["fac:dc"]);
+    expect(idx.ko.critical.get("fac:tool")?.map((h) => h.dc)).toEqual(["fac:dc"]); // the company's only equipment site
+  });
+});

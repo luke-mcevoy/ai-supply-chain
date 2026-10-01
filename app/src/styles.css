@@ -106,6 +106,24 @@ kbd { font-family: var(--mono); font-size: 10px; border: 1px solid var(--line-2)
   .data-btn { display: none; }
 }
 
+/* ── stories ── */
+.story-btn { background: transparent; border: 1px solid var(--accent); color: var(--text); }
+.story-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13px; }
+.story .tour-body { max-height: 38vh; overflow-y: auto; }
+.story-caption { margin: 6px 0 10px; color: var(--text); font-size: 13.5px; line-height: 1.55; max-width: 70ch; }
+.story-quote { margin: 0 0 10px; border-left: 2px solid var(--accent); padding: 2px 0 2px 12px; }
+.story-quote blockquote { margin: 0 0 4px; font-family: Georgia, "Times New Roman", serif; font-size: 13.5px; line-height: 1.5; color: var(--text); }
+.story-quote figcaption { font-size: 11px; display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.story-quote a { color: var(--text-2); }
+.story-picker { position: relative; width: min(720px, 100%); max-height: 80vh; overflow: auto; background: var(--panel-solid); border: 1px solid var(--line-2); border-radius: var(--r); padding: 24px; }
+.story-picker h1 { margin: 0 0 6px; font-size: 20px; }
+.story-picker ul { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 8px; }
+.story-picker li button { width: 100%; text-align: left; display: grid; gap: 4px; padding: 12px 14px; border: 1px solid var(--line-2); border-radius: 2px; }
+.story-picker li button:hover { border-color: var(--accent); background: rgba(76,144,240,.06); }
+.story-picker li b { font-size: 15px; }
+.story-picker li span { color: var(--text-2); font-size: 12.5px; }
+@media (max-width: 900px) { .story .tour-body { max-height: none; } }
+
 /* ── chain walk ── */
 .walk-btn { display: flex; gap: 6px; align-items: center; background: var(--accent); color: #fff; padding: 5px 10px; border-radius: var(--r); font: 600 11px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
 .walk-btn:hover { filter: brightness(1.1); }
@@ -224,6 +242,8 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
 .choke-n { color: var(--muted); }
 .rail-data { width: 100%; margin-top: 10px; border: 1px solid var(--line-2); padding: 8px; border-radius: 2px; font: 500 11px var(--mono); letter-spacing: .04em; color: var(--text-2); }
 .rail-data:hover { border-color: var(--accent); color: var(--text); }
+.req { border: 1px solid var(--line); border-radius: 2px; padding: 8px 10px; margin-bottom: 8px; }
+.req .review { margin-left: 4px; font: 600 9px/1 var(--mono); padding: 2px 4px; border: 1px solid var(--line-2); border-radius: 2px; }
 .spof-note { margin: -4px 0 6px; line-height: 1.35; }
 .danger-t { color: var(--danger) !important; }
 .reach.spof { border-left-color: var(--danger); background: rgba(236,84,88,.07); }

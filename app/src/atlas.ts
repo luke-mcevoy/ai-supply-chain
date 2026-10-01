@@ -45,12 +45,16 @@ export interface Control extends Reviewed {
   applies_to: string[]; entities?: string[]; summary: string;
 }
 export interface Gap { topic: string; why: string; would_need: string; layer: Layer }
+export interface Requirement extends Reviewed {
+  id: string; node: string; kind: string; suppliers: string[]; statement: string;
+}
 
 export interface Atlas {
   built_at: string; draft: boolean;
   stats: { counts: Record<string, number>; layers: Record<string, string> };
   sources: Source[]; companies: Company[]; facilities: Facility[]; flows: Flow[];
   financial_links: FinancialLink[]; controls: Control[]; gaps: Gap[];
+  requirements?: Requirement[];
 }
 
 export type Entity =
@@ -337,6 +341,13 @@ function buildInputs(idx: Index, documentedOnly: boolean) {
     const kind = inputKind(f.commodity, nodeLayer(idx, f.from_node));
     if (f.basis === "inferred" && documentedTo.has(f.to_node) && !inputs.get(f.to_node)?.has(kind)) continue;
     add(f.to_node, kind, supplierOf(f, kind));
+  }
+  // Documented requirements (linkage round) are hard needs, e.g. "this fab needs EUV; ASML is the only maker".
+  for (const r of idx.atlas.requirements ?? []) {
+    for (const sup of r.suppliers) {
+      if (idx.company.has(sup)) { const v = `${sup}#${r.kind}`; virtuals.set(v, { co: sup, kind: r.kind }); add(r.node, r.kind, v); }
+      else add(r.node, r.kind, sup);
+    }
   }
   // A company-level supplier of kind K works while at least one of the company's K-producing sites works,
   // and while its own company-level inputs are satisfied.

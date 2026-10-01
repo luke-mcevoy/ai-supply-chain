@@ -29,6 +29,7 @@ export function TopBar({ idx }: { idx: Index }) {
         ))}
       </nav>
       <div className="top-right">
+        <button className="walk-btn story-btn" onClick={() => set({ storyPicker: true })} title="Guided stories with verbatim, sourced quotes">◆ <span>Stories</span></button>
         <button className="walk-btn" onClick={() => { const a = defaultAnchors(idx); if (a.campus) { set({ mode: "network" }); startTour(a.campus, "up"); } }}
           title="Step through the supply chain, stage by stage">▶ <span>Walk the chain</span></button>
         <button className="search-btn" onClick={() => set({ paletteOpen: true })}><span>Search</span><kbd>⌘K</kbd></button>
@@ -170,7 +171,7 @@ export function Tooltip({ idx }: { idx: Index }) {
 
 export function Bottom({ idx }: { idx: Index }) {
   const mode = useStore((s) => s.mode);
-  const touring = useStore((s) => !!s.tour);
+  const touring = useStore((s) => !!s.tour || !!s.story);
   if (touring) return null;
   if (mode === "controls") return <Timeline idx={idx} />;
   return (

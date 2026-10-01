@@ -1,0 +1,515 @@
+{
+  "layer": "linkage",
+  "analyst": "Claude (linkage_fabs analyst)",
+  "generated_at": "2026-09-30",
+  "sources": [
+    {
+      "id": "src:asml-20f-2025",
+      "title": "ASML Holding N.V. Annual Report on Form 20-F for FY2025",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm",
+      "doc_type": "sec_20f",
+      "tier": 1,
+      "document_date": "2026-02-25",
+      "accessed": "2026-09-30",
+      "identifier": "0001628280-26-011378"
+    },
+    {
+      "id": "src:asml-web-veldhoven",
+      "title": "ASML Veldhoven location page",
+      "publisher": "ASML Holding N.V.",
+      "url": "https://www.asml.com/en/company/about-asml/locations/veldhoven",
+      "doc_type": "company_website",
+      "tier": 2,
+      "document_date": "2026-09-27",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:intel-10k-2025",
+      "title": "Intel Corporation Form 10-K for fiscal year ended December 27, 2025",
+      "publisher": "Intel Corporation",
+      "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2026-01-23",
+      "accessed": "2026-09-30",
+      "identifier": "0000050863-26-000011"
+    },
+    {
+      "id": "src:samsung-news-pyeongtaek-2020",
+      "title": "Samsung Electronics Expands its Foundry Capacity with A New Production Line in Pyeongtaek, Korea",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://news.samsung.com/global/samsung-electronics-expands-its-foundry-capacity-with-a-new-production-line-in-pyeongtaek-korea",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2020-05-21",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:samsung-news-v1-2020",
+      "title": "Samsung Electronics Begins Mass Production at New EUV Manufacturing Line",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://news.samsung.com/global/samsung-electronics-begins-mass-production-at-new-euv-manufacturing-line",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2020-02-20",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:micron-10k-fy2025",
+      "title": "Micron Technology, Inc. Form 10-K for fiscal year ended August 28, 2025",
+      "publisher": "Micron Technology, Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+      "doc_type": "sec_10k",
+      "tier": 1,
+      "document_date": "2025-10-03",
+      "accessed": "2026-09-30",
+      "identifier": "0000723125-25-000028"
+    },
+    {
+      "id": "src:skhynix-424b4-2026",
+      "title": "SK hynix Inc. prospectus (Rule 424(b)(4)) for ADS offering, Registration No. 333-296987",
+      "publisher": "SK hynix Inc.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm",
+      "doc_type": "sec_s1",
+      "tier": 1,
+      "document_date": "2026-07-09",
+      "accessed": "2026-09-30",
+      "identifier": "0001193125-26-299963"
+    },
+    {
+      "id": "src:skhynix-m16-completion-2021",
+      "title": "SK hynix Announces the Completion of M16 Plant Construction",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/sk-hynix-announces-the-completion-of-m16-plant-construction/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2021-02-01",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:skhynix-high-na-euv-2025",
+      "title": "SK hynix Introduces Industry's First Commercial High NA EUV",
+      "publisher": "SK hynix Inc.",
+      "url": "https://news.skhynix.com/en/sk-hynix-introduces-industrys-first-commercial-high-na-euv/",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2025-09-03",
+      "accessed": "2026-09-30"
+    },
+    {
+      "id": "src:samsung-news-lpddr5-pyeongtaek-2020",
+      "title": "Samsung Begins Mass Production of 16Gb LPDDR5 DRAM at World's Largest Semiconductor Line",
+      "publisher": "Samsung Electronics Co., Ltd.",
+      "url": "https://news.samsung.com/global/samsung-begins-mass-production-of-16gb-lpddr5-dram-at-worlds-largest-semiconductor-line",
+      "doc_type": "company_press_release",
+      "tier": 2,
+      "document_date": "2020-08-30",
+      "accessed": "2026-09-30"
+    }
+  ],
+  "companies": [
+    {
+      "id": "co:asml",
+      "name": "ASML Holding N.V.",
+      "country": "NL",
+      "hq": {
+        "lat": 51.4076,
+        "lon": 5.4122,
+        "precision": "site",
+        "address": "De Run 6501, 5504 DR Veldhoven, The Netherlands"
+      },
+      "layers": [
+        "equipment"
+      ],
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "existence, role"
+        }
+      ],
+      "tickers": [
+        "NASDAQ:ASML",
+        "EURONEXT:ASML"
+      ],
+      "sec_cik": "0000937966"
+    }
+  ],
+  "facilities": [],
+  "flows": [],
+  "financial_links": [],
+  "controls": [],
+  "gaps": [
+    {
+      "topic": "TSMC fab-level EUV use (Fab 15, Fab 18, Fab 20, Fab 22, Arizona Fab 21)",
+      "why": "TSMC's FY2025 annual report and 20-F mention EUV scanners only at company level and do not tie EUV to a fab. tsmc.com, esg.tsmc.com, pr.tsmc.com and investor.tsmc.com returned Cloudflare challenges or HTTP 403 to the declared project user agent, and sec.gov archive documents (including 2024 TSMC 6-Ks that EDGAR full-text search shows mention EUV) were refused as an undeclared tool. A TSMC ESG article (esg.tsmc.com/en-US/articles/371) is reported to name Fab 15B, Fab 18A and Fab 18B as EUV sites, but it could not be fetched to verify quotes.",
+      "would_need": "A fetchable TSMC document tying EUV to specific fabs, such as esg.tsmc.com/en-US/articles/371, the TSMC sustainability report, tsmc.com logic technology pages (e.g. 'Fab 18 is the main 3nm production facility' plus an N3/N5 EUV statement), or a TSMC 6-K. Combined with ASML's 20-F sole-maker statement this would support req:tsmc-fab18-euv and others."
+    },
+    {
+      "topic": "Samsung Taylor (Texas) EUV requirement",
+      "why": "The CHIPS award page and Samsung documents reviewed describe Taylor as a leading-edge (2nm) logic fab but do not mention EUV lithography.",
+      "would_need": "A Samsung release or filing stating that the Taylor fab uses EUV lithography."
+    },
+    {
+      "topic": "Micron Taiwan (Taichung/Taoyuan), Boise ID1 and Clay NY EUV requirement",
+      "why": "Micron's FY2025 10-K ties EUV only to Hiroshima. Search results indicate Micron said it would ramp 1-gamma EUV in Taiwan and Japan (FY2024 10-K / earnings materials), but sec.gov archives and investors.micron.com refused the declared user agent, so the quote could not be verified.",
+      "would_need": "A fetchable Micron 10-K/10-Q or release stating EUV production in Taiwan or at a named US fab."
+    },
+    {
+      "topic": "SK hynix Yongin cluster EUV requirement",
+      "why": "SK hynix's 2026 424B4 allocates offering proceeds to EUV scanners and to construction of Korean production facilities but does not tie the EUV scanners to Yongin.",
+      "would_need": "An SK hynix document stating that the Yongin fab will incorporate EUV lithography."
+    },
+    {
+      "topic": "TRUMPF as sole supplier of EUV drive lasers to ASML",
+      "why": "TRUMPF's 2025 release calls the TRUMPF-ASML relationship a 'close and exclusive partnership', and ASML's FY2025 20-F does not name TRUMPF. No reviewed document uses 'sole' or 'single supplier' for the drive laser, so no single-supplier requirement was created. No document names the ASML site (e.g. San Diego light-source operations) that receives the lasers, so flow:trumpf-to-asml was not refined.",
+      "would_need": "An ASML or TRUMPF filing or release stating that TRUMPF is the sole/single supplier of EUV CO2 drive lasers, and naming the receiving ASML site."
+    },
+    {
+      "topic": "ASML ship-from site for EUV systems (flow:asml-to-intel, -oregon, -arizona, -ireland)",
+      "why": "ASML's 20-F lists final assembly across nine sites (Veldhoven, Eindhoven, Oirschot, Berlin, Wilton, San Diego, Pyeongtaek, Linkou, Tainan) without saying which site ships EUV systems. The Veldhoven page says the M&P department 'assembles, builds and delivers all our systems' but does not explicitly say EUV systems ship from Veldhoven. Because ASML's HQ is also Veldhoven, a refinement would not move the drawn route.",
+      "would_need": "An ASML filing or release stating that EUV (NXE/EXE) systems undergo final assembly and shipment from Veldhoven."
+    },
+    {
+      "topic": "Wacker polysilicon routes (to Siltronic, Shin-Etsu, SUMCO, GlobalWafers, SK siltron): source site",
+      "why": "Siltronic's 2025 annual report says most of its polysilicon comes from Wacker under long-term agreements, but also says 'several production facilities of Wacker Chemie AG and other suppliers were qualified', so no single Wacker site can be pinned. Shin-Etsu, SUMCO, GlobalWafers and SK siltron documents reviewed do not name Wacker or a Wacker site.",
+      "would_need": "A Wacker or wafer-maker document naming the Wacker plant (Burghausen, Nünchritz or Charleston) that supplies a given wafer maker or site."
+    },
+    {
+      "topic": "Siltronic wafer routes (to Samsung, to Intel Arizona): source site and Samsung destination",
+      "why": "Siltronic's annual report does not name customers or tie customer supply to its Singapore, Freiberg or Burghausen fabs.",
+      "would_need": "A Siltronic or customer document naming the Siltronic fab and the receiving customer fab."
+    },
+    {
+      "topic": "Equipment and materials routes to TSMC/Samsung (Lam Research, Applied Materials, KLA, JSR, Shin-Etsu) and Ichor routes",
+      "why": "The 10-Ks of Lam, Applied Materials, KLA and Ichor, and the JSR/Shin-Etsu releases reviewed, name customers at company level (e.g. >10% customers) but never tie a shipping plant to a customer fab.",
+      "would_need": "A supplier release, CHIPS award or customer document naming the supplier plant and the receiving fab (e.g. a tool delivery to TSMC Arizona or an on-site materials plant)."
+    }
+  ],
+  "refinements": [],
+  "requirements": [
+    {
+      "id": "req:intel-oregon-euv",
+      "node": "fac:intel-oregon",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "Intel's FY2025 10-K says its Oregon fabs were ramping Intel 18A, a node that uses EUV lithography, and names ASML as the sole supplier of the EUV tools for Intel 18A.",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1 Business, Manufacturing",
+          "supports": "node-to-site mapping"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "particularly those utilizing EUV lithography such as Intel 4, Intel 3, Intel 18A, Intel 14A and future nodes",
+          "locator": "Item 1 Business, Intel Foundry",
+          "supports": "need: Intel 4, Intel 3 and Intel 18A use EUV lithography"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "For example, ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+          "locator": "Item 1A Risk Factors, supply chain",
+          "supports": "supplier set: ASML sole supplier of EUV tools for Intel 4, Intel 3, Intel 18A"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies",
+          "locator": "Item 1 Business, Supply chain",
+          "supports": "need and supplier set: EUV tools required for leading-edge nodes; ASML sole source"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:intel-arizona-euv",
+      "node": "fac:intel-arizona",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "Intel's FY2025 10-K says its Arizona fabs were ramping Intel 18A, a node that uses EUV lithography, and names ASML as the sole supplier of the EUV tools for Intel 18A.",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1 Business, Manufacturing",
+          "supports": "node-to-site mapping"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "particularly those utilizing EUV lithography such as Intel 4, Intel 3, Intel 18A, Intel 14A and future nodes",
+          "locator": "Item 1 Business, Intel Foundry",
+          "supports": "need: Intel 4, Intel 3 and Intel 18A use EUV lithography"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "For example, ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+          "locator": "Item 1A Risk Factors, supply chain",
+          "supports": "supplier set: ASML sole supplier of EUV tools for Intel 4, Intel 3, Intel 18A"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies",
+          "locator": "Item 1 Business, Supply chain",
+          "supports": "need and supplier set: EUV tools required for leading-edge nodes; ASML sole source"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:intel-ireland-euv",
+      "node": "fac:intel-ireland",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "Intel's FY2025 10-K says its Ireland fabs run Intel 4 and Intel 3, which use EUV lithography, and names ASML as the sole supplier of the EUV tools for those nodes.",
+      "evidence": [
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+          "locator": "Item 1 Business, Manufacturing",
+          "supports": "node-to-site mapping"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "particularly those utilizing EUV lithography such as Intel 4, Intel 3, Intel 18A, Intel 14A and future nodes",
+          "locator": "Item 1 Business, Intel Foundry",
+          "supports": "need: Intel 4, Intel 3 and Intel 18A use EUV lithography"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "Intel 4 , our first process node incorporating EUV lithography, first went into high-volume manufacturing in 2023",
+          "locator": "Item 1 Business, process technology nodes",
+          "supports": "need: Intel 4 incorporates EUV"
+        },
+        {
+          "source": "src:intel-10k-2025",
+          "quote": "For example, ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+          "locator": "Item 1A Risk Factors, supply chain",
+          "supports": "supplier set: ASML sole supplier of EUV tools for Intel 4, Intel 3, Intel 18A"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:samsung-hwaseong-v1-euv",
+      "node": "fac:samsung-hwaseong-foundry",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "Samsung describes its V1 line in Hwaseong as a production line dedicated to EUV lithography for 7 nm and below; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+      "evidence": [
+        {
+          "source": "src:samsung-news-v1-2020",
+          "quote": "today announced that its new cutting-edge semiconductor fabrication line in Hwaseong, Korea, has begun mass production. The facility, V1, is Samsung’s first semiconductor production line dedicated to the extreme ultraviolet (EUV) lithography technology and produces chips using process node of 7 nanometer (nm) and below.",
+          "locator": "Press release body, first paragraph",
+          "supports": "need: Hwaseong V1 line uses EUV lithography"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:samsung-pyeongtaek-foundry-euv",
+      "node": "fac:samsung-pyeongtaek-foundry",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "Samsung's 2020 release says its Pyeongtaek foundry line will focus on EUV-based 5 nm and below process technology; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+      "evidence": [
+        {
+          "source": "src:samsung-news-pyeongtaek-2020",
+          "quote": "The new foundry line, which will focus on EUV-based 5 nanometer (nm) and below process technology, has just commenced construction this month and is expected to be in full operation in the second half of 2021.",
+          "locator": "Press release body",
+          "supports": "need: Pyeongtaek foundry line uses EUV (planned as of 2020)"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:samsung-pyeongtaek-dram-euv",
+      "node": "fac:samsung-pyeongtaek",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "Samsung's 2020 release says its second Pyeongtaek production line began mass production of 16Gb LPDDR5 DRAM using EUV technology; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+      "evidence": [
+        {
+          "source": "src:samsung-news-lpddr5-pyeongtaek-2020",
+          "quote": "today announced that its second production line in Pyeongtaek, Korea, has commenced mass production of the industry’s first 16-gigabit (Gb) LPDDR5 mobile DRAM, using extreme ultraviolet (EUV) technology.",
+          "locator": "Press release body, first paragraph",
+          "supports": "need: Pyeongtaek Line 2 DRAM production uses EUV"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:sk-hynix-m16-euv",
+      "node": "fac:sk-hynix-icheon-m16",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "SK hynix says M16 in Icheon introduced EUV lithography equipment for 1a nm DRAM and, in 2025, assembled ASML's High NA EUV system (TWINSCAN EXE:5200B) there; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+      "evidence": [
+        {
+          "source": "src:skhynix-m16-completion-2021",
+          "quote": "What’s more special about M16 is its introduction of the extreme ultraviolet (EUV) lithography equipment for the first time in SK hynix.",
+          "locator": "Press release body",
+          "supports": "need: M16 uses EUV lithography"
+        },
+        {
+          "source": "src:skhynix-m16-completion-2021",
+          "quote": "It plans to produce 1a nm DRAM products from the second half of this year by utilizing the EUV equipment.",
+          "locator": "Press release body",
+          "supports": "need: EUV used for 1a nm DRAM at M16"
+        },
+        {
+          "source": "src:skhynix-high-na-euv-2025",
+          "quote": "announced today that it has assembled the industry’s first High NA * EUV * lithography system for mass production at the M16 fabrication plant in Icheon, South Korea.",
+          "locator": "Press release body, first paragraph",
+          "supports": "need and site: High NA EUV system at M16"
+        },
+        {
+          "source": "src:skhynix-high-na-euv-2025",
+          "quote": "The TWINSCAN EXE:5200B, the first model for volume production of ASML’s High NA EUV product line",
+          "locator": "Press release body",
+          "supports": "supplier: the M16 High NA EUV system is ASML's"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:sk-hynix-m15x-euv",
+      "node": "fac:sk-hynix-cheongju-m15x",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "SK hynix's 2026 prospectus says M15X in Cheongju, a fab for HBM and high-performance DRAM, incorporates EUV lithography; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+      "evidence": [
+        {
+          "source": "src:skhynix-424b4-2026",
+          "quote": "M15X is a next-generation extension fab in Cheongju, Korea that is dedicated primarily to the production of HBM and high-performance DRAM products. It incorporates EUV lithography and advanced cleanroom automation, serving as a blueprint for future fabs.",
+          "locator": "Business, Our Facilities (Cheongju M15X)",
+          "supports": "need: M15X incorporates EUV lithography"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:micron-hiroshima-euv",
+      "node": "fac:micron-hiroshima",
+      "kind": "lithography",
+      "suppliers": [
+        "co:asml"
+      ],
+      "statement": "Micron's FY2025 10-K says it is modernizing its Hiroshima facility to produce DRAM using EUV lithography; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+      "evidence": [
+        {
+          "source": "src:micron-10k-fy2025",
+          "quote": "Japan: we are modernizing our Hiroshima manufacturing facility to support the production of DRAM using EUV lithography",
+          "locator": "Item 7 MD&A, capital expenditures",
+          "supports": "need: Hiroshima DRAM production uses EUV"
+        },
+        {
+          "source": "src:micron-10k-fy2025",
+          "quote": "We also receive incentives from the Japanese Ministry of Economy, Trade and Industry to support the production of DRAM using EUV lithography in Hiroshima, Japan.",
+          "locator": "Notes to financial statements, government incentives",
+          "supports": "need: EUV DRAM production in Hiroshima"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+          "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+          "supports": "supplier set: ASML is the only maker of EUV systems"
+        }
+      ]
+    },
+    {
+      "id": "req:asml-veldhoven-zeiss-optics",
+      "node": "fac:asml-veldhoven",
+      "kind": "lithography",
+      "suppliers": [
+        "fac:zeiss-oberkochen",
+        "fac:zeiss-wetzlar"
+      ],
+      "statement": "ASML's FY2025 20-F names Carl Zeiss SMT as its sole supplier of lithography optics and its single supplier of optical columns, and says Zeiss can produce them only at its facilities in Oberkochen and Wetzlar; ASML says Veldhoven is its biggest manufacturing site, where it assembles its systems.",
+      "evidence": [
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "The number of lithography systems we are able to produce is limited by the production capacity of one of our key suppliers, Carl Zeiss SMT, our sole supplier of lenses, mirrors, illuminators, collectors and other critical optical components (which we refer to as optics).",
+          "locator": "Risk factors, supply chain",
+          "supports": "need and supplier set: Zeiss SMT is the sole optics supplier"
+        },
+        {
+          "source": "src:asml-20f-2025",
+          "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany.",
+          "locator": "Notes to consolidated financial statements, Note 26 Related parties",
+          "supports": "supplier sites: Oberkochen and Wetzlar only"
+        },
+        {
+          "source": "src:asml-web-veldhoven",
+          "quote": "Our global headquarters is our biggest R&D and manufacturing site.",
+          "locator": "ASML Veldhoven location page",
+          "supports": "node: Veldhoven is ASML's main manufacturing site"
+        },
+        {
+          "source": "src:asml-web-veldhoven",
+          "quote": "Our Manufacturing and Planning (M&P) department assembles, builds and delivers all our systems from the prototype stage onwards.",
+          "locator": "ASML Veldhoven location page, Manufacturing",
+          "supports": "node: systems assembled at Veldhoven"
+        }
+      ]
+    }
+  ]
+}
