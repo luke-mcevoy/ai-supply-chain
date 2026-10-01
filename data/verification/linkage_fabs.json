@@ -1,0 +1,192 @@
+{
+  "layer": "linkage",
+  "verifier": "counsel (Claude)",
+  "verified_at": "2026-09-30T00:00:00Z",
+  "source_checks": [
+    {
+      "source": "src:asml-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl fetch of www.sec.gov/Archives (declared, non-browser UA, no email) was refused with a 403 'Undeclared Automated Tool' page even for /robots.txt, indicating a blanket block on this environment's egress rather than a UA problem. Per COUNSEL.md fallback, used data.sec.gov/submissions (200 OK) to confirm CIK 937966 / accession 0001628280-26-011378 / primary doc asml-20251231.htm / filed 2026-02-25, and EDGAR full-text search (efts.sec.gov, exact match_phrase queries scoped to form 20-F) to confirm all three quotes used in this file's requirements appear verbatim in that exact accession: 'ASML is currently the world's only manufacturer of EUV lithography systems', 'our sole supplier of lenses, mirrors, illuminators, collectors...', and 'Carl Zeiss SMT GmbH is our single supplier... only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany'. All verified."
+    },
+    {
+      "source": "src:asml-web-veldhoven",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly with declared UA (HTTP 200). Both quoted sentences present verbatim. However, this page's 'assembles, builds and delivers all our systems' claim is marketing copy about ASML's HQ, not a site-specific manufacturing disclosure, and it is in tension with ASML's own FY2025 20-F, which (per EDGAR full-text search, same accession 0001628280-26-011378) names manufacturing/final-assembly facilities in Veldhoven, Eindhoven, Oirschot, Berlin, Wilton, San Diego, Pyeongtaek, Linkou and Tainan -- a nine-site footprint, not Veldhoven alone. See req:asml-veldhoven-zeiss-optics verdict."
+    },
+    {
+      "source": "src:intel-10k-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct Archives fetch blocked (403) as above. Confirmed via data.sec.gov/submissions (CIK 50863, accession 0000050863-26-000011, primary doc intc-20251227.htm, filed 2026-01-23) and EDGAR full-text search: all five quoted passages (fab-to-node mapping, EUV node list, Intel 4 first-EUV-node statement, 'ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools...', and the sole-source-providers sentence) match verbatim, each returning exactly this accession as the only or top FY2025 10-K hit."
+    },
+    {
+      "source": "src:samsung-news-pyeongtaek-2020",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200, declared UA). Page date (May 21, 2020) and quote verified verbatim, including in the page's own JSON-LD description field."
+    },
+    {
+      "source": "src:samsung-news-v1-2020",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Page date (February 20, 2020) and quote verified verbatim."
+    },
+    {
+      "source": "src:micron-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct Archives fetch blocked (403). Confirmed via EDGAR full-text search: accession 0000723125-25-000028, primary doc mu-20250828.htm, filed 2025-10-03, matches the research file's source record exactly. Both quoted passages ('modernizing our Hiroshima manufacturing facility to support the production of DRAM using EUV lithography' and the METI-incentives sentence) match verbatim in that accession."
+    },
+    {
+      "source": "src:skhynix-424b4-2026",
+      "reachable": true,
+      "doc_type_ok": false,
+      "tier_assigned": 1,
+      "date_ok": false,
+      "notes": "Confirmed via EDGAR full-text search and data.sec.gov/submissions (CIK 0002120882): accession 0001193125-26-299963, primary doc d32785d424b4.htm, is a Rule 424(b)(4) prospectus, not a Form S-1 as the research file's doc_type ('sec_s1') states -- it is the final prospectus filed under an S-1/F-1 registration (F-1 no. 333-296987), still a Tier 1 SEC primary document, so tier 1 stands. Also, SEC's own filingDate for this accession is 2026-07-10, not 2026-07-09 as recorded in the research file (1-day discrepancy, confirmed from the submissions JSON). The quoted M15X passage is verified verbatim in this exact accession regardless of these two metadata slips."
+    },
+    {
+      "source": "src:skhynix-m16-completion-2021",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Page dated February 1, 2021; both quoted sentences verified verbatim."
+    },
+    {
+      "source": "src:skhynix-high-na-euv-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Date is ambiguous on the page itself: the newsroom template's visible '<span class=\"date\">' metadata reads 'September 2, 2025', but the press release's own dateline embedded in the body text reads 'Seoul, September 3, 2025' (appearing twice, once in the lede). Treating the release's self-declared dateline -- the document's own stated date, analogous to a filing's cover-page date -- as authoritative, which matches the research file's recorded document_date of 2025-09-03; the CMS display date is page chrome, not part of the document. Both quoted passages (assembly of High NA EUV at M16; TWINSCAN EXE:5200B description) verified verbatim."
+    },
+    {
+      "source": "src:samsung-news-lpddr5-pyeongtaek-2020",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Page dated August 30, 2020; quote verified verbatim."
+    }
+  ],
+  "evidence_checks": [
+    { "entity": "req:intel-oregon-euv", "evidence_index": 0, "verdict": "verified", "notes": "Fab-to-node mapping sentence confirmed verbatim in Intel FY2025 10-K via EDGAR full-text search." },
+    { "entity": "req:intel-oregon-euv", "evidence_index": 1, "verdict": "verified" },
+    { "entity": "req:intel-oregon-euv", "evidence_index": 2, "verdict": "verified", "notes": "'ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools...' confirmed verbatim." },
+    { "entity": "req:intel-oregon-euv", "evidence_index": 3, "verdict": "verified" },
+    { "entity": "req:intel-oregon-euv", "evidence_index": 4, "verdict": "verified", "notes": "Confirmed verbatim in ASML FY2025 20-F, same accession used elsewhere in this file." },
+
+    { "entity": "req:intel-arizona-euv", "evidence_index": 0, "verdict": "verified" },
+    { "entity": "req:intel-arizona-euv", "evidence_index": 1, "verdict": "verified" },
+    { "entity": "req:intel-arizona-euv", "evidence_index": 2, "verdict": "verified" },
+    { "entity": "req:intel-arizona-euv", "evidence_index": 3, "verdict": "verified" },
+    { "entity": "req:intel-arizona-euv", "evidence_index": 4, "verdict": "verified" },
+
+    { "entity": "req:intel-ireland-euv", "evidence_index": 0, "verdict": "verified" },
+    { "entity": "req:intel-ireland-euv", "evidence_index": 1, "verdict": "verified" },
+    { "entity": "req:intel-ireland-euv", "evidence_index": 2, "verdict": "verified", "notes": "'Intel 4, our first process node incorporating EUV lithography, first went into high-volume manufacturing in 2023' confirmed verbatim." },
+    { "entity": "req:intel-ireland-euv", "evidence_index": 3, "verdict": "verified" },
+    { "entity": "req:intel-ireland-euv", "evidence_index": 4, "verdict": "verified" },
+
+    { "entity": "req:samsung-hwaseong-v1-euv", "evidence_index": 0, "verdict": "verified", "notes": "Hwaseong V1 'begun mass production ... dedicated to EUV ... 7nm and below' quote confirmed verbatim; this is a completed-fact statement (mass production had already begun), not a stale forward-looking plan." },
+    { "entity": "req:samsung-hwaseong-v1-euv", "evidence_index": 1, "verdict": "verified" },
+
+    { "entity": "req:samsung-pyeongtaek-foundry-euv", "evidence_index": 0, "verdict": "verified", "notes": "Quote confirmed verbatim. The quote itself is forward-looking: as of May 2020 the line 'has just commenced construction' and was 'expected to be in full operation in the second half of 2021'. The evidence genuinely supports only a planned EUV line as of the document date, not confirmed EUV production -- staleness carried to the entity verdict (see req:samsung-pyeongtaek-foundry-euv entity_verdict)." },
+    { "entity": "req:samsung-pyeongtaek-foundry-euv", "evidence_index": 1, "verdict": "verified" },
+
+    { "entity": "req:samsung-pyeongtaek-dram-euv", "evidence_index": 0, "verdict": "verified", "notes": "'has commenced mass production ... using extreme ultraviolet (EUV) technology' is a completed-fact statement as of the document date, not a plan; not treated as stale." },
+    { "entity": "req:samsung-pyeongtaek-dram-euv", "evidence_index": 1, "verdict": "verified" },
+
+    { "entity": "req:sk-hynix-m16-euv", "evidence_index": 0, "verdict": "verified" },
+    { "entity": "req:sk-hynix-m16-euv", "evidence_index": 1, "verdict": "verified" },
+    { "entity": "req:sk-hynix-m16-euv", "evidence_index": 2, "verdict": "verified", "notes": "Confirmed verbatim; press release's own dateline read as September 3, 2025 (see src:skhynix-high-na-euv-2025 note on the Sept 2 vs Sept 3 ambiguity)." },
+    { "entity": "req:sk-hynix-m16-euv", "evidence_index": 3, "verdict": "verified" },
+    { "entity": "req:sk-hynix-m16-euv", "evidence_index": 4, "verdict": "verified" },
+
+    { "entity": "req:sk-hynix-m15x-euv", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed verbatim in the 424B4 (accession 0001193125-26-299963), filed 2026-07-10 per SEC's own records (research file lists 2026-07-09; see source_check note)." },
+    { "entity": "req:sk-hynix-m15x-euv", "evidence_index": 1, "verdict": "verified" },
+
+    { "entity": "req:micron-hiroshima-euv", "evidence_index": 0, "verdict": "verified" },
+    { "entity": "req:micron-hiroshima-euv", "evidence_index": 1, "verdict": "verified" },
+    { "entity": "req:micron-hiroshima-euv", "evidence_index": 2, "verdict": "verified" },
+
+    { "entity": "req:asml-veldhoven-zeiss-optics", "evidence_index": 0, "verdict": "verified", "notes": "'our sole supplier of lenses, mirrors, illuminators, collectors and other critical optical components' confirmed verbatim in ASML FY2025 20-F." },
+    { "entity": "req:asml-veldhoven-zeiss-optics", "evidence_index": 1, "verdict": "verified", "notes": "'Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns...only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany' confirmed verbatim. This item solidly supports both the sole-supplier language and the Oberkochen/Wetzlar supplier sites." },
+    { "entity": "req:asml-veldhoven-zeiss-optics", "evidence_index": 2, "verdict": "does_not_support", "notes": "Quote ('Our global headquarters is our biggest R&D and manufacturing site') is present verbatim on the live Veldhoven page, but only establishes that Veldhoven is A large manufacturing site, not that it is specifically the site where Zeiss-optics-dependent lithography systems are assembled -- especially given ASML's own FY2025 20-F lists facilities in Veldhoven, Eindhoven, Oirschot, Berlin, Wilton, San Diego, Pyeongtaek, Linkou and Tainan. Does not support pinning the node to fac:asml-veldhoven specifically." },
+    { "entity": "req:asml-veldhoven-zeiss-optics", "evidence_index": 3, "verdict": "does_not_support", "notes": "Quote ('Our Manufacturing and Planning (M&P) department assembles, builds and delivers all our systems from the prototype stage onwards') is present verbatim, but is Tier 2 marketing copy on ASML's own HQ page claiming to cover 'all our systems'; it conflicts with ASML's Tier 1 FY2025 20-F, which documents manufacturing/final-assembly facilities at nine named sites, not Veldhoven alone. A Tier 2 'about us' claim does not establish a site-specific requirement against a more authoritative Tier 1 source describing a distributed footprint. See entity verdict: node corrected from fac:asml-veldhoven to co:asml." }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "co:asml",
+      "verdict": "publish",
+      "reasons": "'ASML is currently the world's only manufacturer of EUV lithography systems' verified verbatim in the FY2025 20-F via EDGAR full-text search against the exact cited accession. HQ address (De Run 6501, Veldhoven) independently confirmed present in the same 20-F's cover materials/exhibits via full-text search, consistent with this canonical company id as already verified in other layer files (e.g. data/verification/equipment.json, data/verification/fabrication.json)."
+    },
+    {
+      "entity": "req:intel-oregon-euv",
+      "verdict": "publish",
+      "reasons": "All five evidence items verified verbatim in Intel's FY2025 10-K (filed 2026-01-23) and ASML's FY2025 20-F. The need (Intel 18A at Oregon uses EUV) and the supplier set (ASML sole supplier of EUV tools for 18A, corroborated independently by ASML's own 'only manufacturer' statement) are both established with explicit sole-source language ('sole supplier', 'sole-source providers')."
+    },
+    {
+      "entity": "req:intel-arizona-euv",
+      "verdict": "publish",
+      "reasons": "Same evidence set as req:intel-oregon-euv, all verified verbatim in the same current (Jan 2026) 10-K. Need and sole-supplier language both established."
+    },
+    {
+      "entity": "req:intel-ireland-euv",
+      "verdict": "publish",
+      "reasons": "All five evidence items verified verbatim, including the Intel-4-first-EUV-node statement specific to the nodes run at the Ireland fabs. Need and sole-supplier language both established."
+    },
+    {
+      "entity": "req:samsung-hwaseong-v1-euv",
+      "verdict": "publish",
+      "reasons": "Samsung's 2020 release states, in the past/completed tense, that mass production using EUV had already begun at the V1 line (not merely planned), so the six-year age of the Tier 2 source does not make the underlying need claim stale. ASML's 20-F independently supports the sole-manufacturer supplier-set claim. Sole-source language present ('world's only manufacturer')."
+    },
+    {
+      "entity": "req:samsung-pyeongtaek-foundry-euv",
+      "verdict": "publish_flagged",
+      "reasons": "Staleness: the only need-evidence is a May 2020 release describing an EUV foundry line that 'has just commenced construction' and was 'expected to be in full operation in the second half of 2021' -- a plan, not a confirmed EUV production fact, as of the cited document. This is exactly the stale-evidence pattern called out in the brief (a release about a then-still-planned line). The supplier-set half (ASML sole EUV manufacturer) is solid, but the need should be flagged as resting on a 2020 construction-start announcement with no later confirmation in this file that the line was completed or is operating EUV lithography."
+    },
+    {
+      "entity": "req:samsung-pyeongtaek-dram-euv",
+      "verdict": "publish",
+      "reasons": "Samsung's August 2020 release states mass production using EUV had already commenced (completed fact at the time of the release, not a forward plan), so this is not treated as stale in the way the foundry-line requirement is. Sole-supplier language present via ASML's 20-F."
+    },
+    {
+      "entity": "req:sk-hynix-m16-euv",
+      "verdict": "publish",
+      "reasons": "M16's 2021 completion announcement confirms EUV equipment was introduced and in place (not merely planned); the 2025 High NA EUV release confirms a specific ASML tool (TWINSCAN EXE:5200B) assembled at M16. Combined with ASML's 'only manufacturer' statement, both need and sole-supplier language are established with current (2025) and contemporaneous (2021) sourcing."
+    },
+    {
+      "entity": "req:sk-hynix-m15x-euv",
+      "verdict": "publish",
+      "reasons": "Current (filed 2026-07-10 per SEC records) 424B4 prospectus states in the present tense that M15X 'incorporates EUV lithography'. Not stale. Sole-supplier language established via ASML's 20-F. Note: the research file's source record lists doc_type sec_s1 and document_date 2026-07-09; the filing is actually a Rule 424(b)(4) prospectus filed 2026-07-10 per EDGAR -- a metadata correction on the source, not a defect in the requirement's substance (see source_checks note; no entity correction needed since the Source record, not this requirement, is affected, and Source isn't a correctable field under this schema)."
+    },
+    {
+      "entity": "req:micron-hiroshima-euv",
+      "verdict": "publish",
+      "reasons": "Current (FY2025, filed Oct 2025) 10-K states Micron 'is modernizing' Hiroshima 'to support the production of DRAM using EUV lithography' and separately confirms it receives METI incentives tied to EUV DRAM production there. Both quotes verified verbatim. Sole-supplier language established via ASML's 20-F."
+    },
+    {
+      "entity": "req:asml-veldhoven-zeiss-optics",
+      "verdict": "publish_flagged",
+      "corrections": { "node": "co:asml" },
+      "reasons": "The supplier-set half of this claim is solidly Tier 1: ASML's 20-F states Zeiss SMT is its 'sole supplier' of lithography optics and its 'single supplier... of optical columns', producible 'only' at Oberkochen and Wetzlar -- unambiguous sole-source language, both quotes verified verbatim, both supplier facility ids (fac:zeiss-oberkochen, fac:zeiss-wetzlar) valid. However, the node (fac:asml-veldhoven) is not supported: it rests entirely on ASML's own Veldhoven marketing page claiming the M&P department there 'assembles, builds and delivers all our systems', which conflicts with ASML's own, more authoritative FY2025 20-F describing manufacturing/final-assembly facilities across nine sites (Veldhoven, Eindhoven, Oirschot, Berlin, Wilton, San Diego, Pyeongtaek, Linkou, Tainan). A Tier 2 'about us' superlative does not establish that Zeiss optics are needed specifically and exclusively at the Veldhoven site rather than ASML as a whole. Corrected node to co:asml, which the cited 20-F passages fully and directly support; publish_flagged for the resulting loss of site-level precision relative to this round's goal."
+    }
+  ],
+  "summary": "Reviewed 10 sources, 35 evidence items and 11 entities (1 company, 10 requirements; refinements[] was empty, so none to review) in linkage_fabs. 9 of 10 requirements publish as drafted; 1 (req:samsung-pyeongtaek-foundry-euv) is publish_flagged for staleness -- its sole need-evidence is a May 2020 release describing an EUV line that had 'just commenced construction', a plan rather than a confirmed fact, matching the brief's example of stale evidence almost exactly; 1 (req:asml-veldhoven-zeiss-optics) is publish_flagged with a correction -- its supplier-set claim (Zeiss SMT as sole/single supplier of lithography optics, producible only at Oberkochen and Wetzlar) is rock solid Tier 1, but its node (fac:asml-veldhoven) is not: it was pinned to that single site using only ASML's own HQ marketing page ('assembles...all our systems'), which is directly in tension with ASML's FY2025 20-F describing a nine-site manufacturing footprint; corrected node to co:asml. No rejections. All four SEC filings flagged for re-verification (ASML 20-F, Intel 10-K, Micron 10-K, SK hynix 424B4) were independently re-confirmed: direct sec.gov/Archives fetches were blocked outright in this environment (403, even on /robots.txt) regardless of a properly declared, non-browser User-Agent, so verification instead used data.sec.gov/submissions (to pin exact CIK/accession/primary-document/filing-date) plus EDGAR full-text search (efts.sec.gov, exact match_phrase queries) to confirm every quoted passage appears verbatim in that exact accession -- all did. One source-metadata slip surfaced this way: the SK hynix prospectus is recorded as doc_type sec_s1 / document_date 2026-07-09, but SEC's own records show it is a Rule 424(b)(4) prospectus filed 2026-07-10 (still Tier 1; substance of the quote unaffected). The SK hynix High-NA EUV press release's Sept 2 vs Sept 3, 2025 date ambiguity resolved in favor of the release's own dateline text ('Seoul, September 3, 2025', appearing twice in the body) over the newsroom template's separate 'date' display span (Sept 2) -- the dateline is the document's own stated date, matching the research file's recorded document_date. Systemic note for the analyst: when a company's own 'about us'/location page is used to pin a facility-level node, check it against that company's own SEC filing for a fuller facility list before relying on it, since marketing superlatives ('all our systems') tend to overstate a single site's role relative to the primary filing."
+}

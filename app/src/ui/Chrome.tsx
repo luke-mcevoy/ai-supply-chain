@@ -58,7 +58,10 @@ export function Rail({ idx }: { idx: Index }) {
   }, [idx]);
   const spof = useMemo(() => [...idx.ko.critical]
     .map(([id, hits]) => ({ id, n: hits.length, doc: idx.ko.criticalDoc.get(id) ?? 0, kinds: [...new Set(hits.map((h) => h.kind))] }))
-    .sort((a, b) => b.n - a.n || b.doc - a.doc), [idx]);
+    .sort((a, b) => b.doc - a.doc || b.n - a.n), [idx]);
+  const [showInferredSpof, setShowInferredSpof] = useState(false);
+  const spofShown = spof.filter((r) => showInferredSpof || r.doc > 0);
+  const inferredOnly = spof.filter((r) => r.doc === 0).length;
   const exposure = useMemo(() => {
     if (!s.severed.size) return null;
     const seeds: string[] = [];
@@ -122,9 +125,9 @@ export function Rail({ idx }: { idx: Index }) {
       )}
 
       <h3 title="Remove one site or company; count AI campuses that then have no recorded supplier left for some input. Suppliers of the same kind of input count as substitutes. The dataset is incomplete, so 'no recorded alternative' is not proof there is none.">Single points of failure</h3>
-      <div className="muted small spof-note">Campuses left with no recorded supplier of an input if this one node goes down. <span className="mono">doc</span> = on documented routes alone.</div>
+      <div className="muted small spof-note">Campuses left with no recorded supplier of an input if this one node goes down, counting documented routes; <span className="mono">+inf</span> = more if inferred routes are included.</div>
       <ol className="choke">
-        {spof.map((r) => {
+        {spofShown.map((r) => {
           const p = locateAny(idx, r.id);
           const l = idx.facility.get(r.id)?.layer ?? idx.company.get(r.id)?.layers?.[0];
           return (
@@ -132,12 +135,17 @@ export function Rail({ idx }: { idx: Index }) {
               <button onClick={() => { s.select(r.id); if (p) s.focus(p[0], p[1], 2.6); }} title={`Cuts off ${r.n} campus(es): ${r.kinds.join(", ")}`}>
                 <i className="dot" style={{ background: l ? css(LAYER_COLOR[l]) : "#999" }} />
                 <span className="choke-name">{nodeName(idx, r.id)}<span className="muted small"> · {r.kinds[0]}</span></span>
-                <span className="mono choke-n">{r.n}<span className="muted small"> ({r.doc} doc)</span></span>
+                <span className="mono choke-n">{r.doc}{r.n > r.doc && <span className="muted small"> +{r.n - r.doc} inf</span>}</span>
               </button>
             </li>
           );
         })}
-        {!spof.length && <li className="muted small">None in the recorded data.</li>}
+        {!spofShown.length && <li className="muted small">None in the recorded data.</li>}
+        {inferredOnly > 0 && (
+          <li><button className="linkish" onClick={() => setShowInferredSpof((v) => !v)}>
+            {showInferredSpof ? "Hide" : "Show"} {inferredOnly} that appear only through inferred routes
+          </button></li>
+        )}
       </ol>
     </aside>
   );

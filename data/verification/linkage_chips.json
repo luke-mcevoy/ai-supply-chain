@@ -1,0 +1,210 @@
+{
+  "layer": "linkage",
+  "verifier": "Claude (Sonnet 5) — counsel, linkage_chips verification",
+  "verified_at": "2026-09-30T00:00:00Z",
+  "source_checks": [
+    {
+      "source": "src:nvidia-10k-fy2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Direct curl to the cited sec.gov/Archives URL returned HTTP 403 ('Undeclared Automated Tool') even with a declared, non-browser, non-email User-Agent — an IP/traffic-pattern block, not a UA problem (data.sec.gov answered the same UA with HTTP 200). Verified instead via EDGAR full-text search (https://efts.sec.gov/LATEST/search-index) with the exact quoted phrases, confirming each appears verbatim in accession 0001045810-26-000021 (form 10-K, filed 2026-02-25), matching the cited document exactly."
+    },
+    {
+      "source": "src:amd-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "sec.gov/Archives direct fetch returned HTTP 403. Confirmed via EDGAR full-text search against accession 0000002488-26-000018 (10-K, filed 2026-02-04), and additionally pulled the full filing text via a Wayback Machine capture of the exact sec.gov URL (capture 20260918075949) to read surrounding context for the Tongfu/SPIL/KYEC quote (see evidence_checks)."
+    },
+    {
+      "source": "src:broadcom-10k-fy2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "sec.gov/Archives direct fetch returned HTTP 403. Confirmed via EDGAR full-text search against accession 0001730168-25-000121 (10-K, filed 2025-12-18), matching the cited document."
+    },
+    {
+      "source": "src:tsmc-20f-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "sec.gov/Archives direct fetch returned HTTP 403. Confirmed via EDGAR full-text search against accession 0001628280-26-025362 (20-F, filed 2026-04-16); both cited TSMC Arizona quotes returned as the SOLE full-text hit in all of EDGAR, i.e. uniquely located in this document."
+    },
+    {
+      "source": "src:nvidia-blog-us-manufacturing-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Byline date 'April 14, 2025' confirmed on page, matching document_date."
+    },
+    {
+      "source": "src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Byline date 'October 17, 2025' confirmed on page."
+    },
+    {
+      "source": "src:nvidia-build-in-america-2026-08-05",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Page shows 'August 5, 2026' as cited, consistent with the locator noting it as a later update to a running post."
+    },
+    {
+      "source": "src:nvidia-us-ai-manufacturing-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200), a living company marketing page with no single publication date; document_date '2026' (year-only) is appropriate for an undated, continuously-updated page."
+    },
+    {
+      "source": "src:nvidia-blackwell-architecture-page",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200), a living product page; year-only document_date is appropriate."
+    },
+    {
+      "source": "src:nist-chips-tsmc-arizona",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 1,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Page carries no visible last-updated date, so date_ok is assessed on content: the stated $6.6B direct-funding figure matches the TSMC Arizona CHIPS award announced 2024-11-15, consistent with document_date."
+    },
+    {
+      "source": "src:amkor-tsmc-mou-2024",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Dateline 'October 3, 2024' confirmed on page."
+    },
+    {
+      "source": "src:amkor-peoria-site-2025",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Dateline 'August 28, 2025' confirmed on page."
+    },
+    {
+      "source": "src:tsmc-pr-ap6-2023",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "pr.tsmc.com/english/news/3033 returned HTTP 403 to a declared, non-browser User-Agent — a known access-policy refusal, not spoofed around. Per the fetching rules, used the best legitimate alternate route: the Wayback Machine's own archival capture of this exact official TSMC URL (capture timestamp 2023-06-09, one day after the stated document_date of 2023-06-08). The cited quote is present verbatim in that capture. Marked unreachable at the canonical URL itself; content independently confirmed via public archive."
+    },
+    {
+      "source": "src:micron-release-hbm-amd-mi350-2025",
+      "reachable": false,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "investors.micron.com returned HTTP 403 to a declared User-Agent. Checked, as instructed, against the nasdaq.com GlobeNewswire-syndicated copy of the same Micron release (dateline 'BOISE, Idaho, June 12, 2025 (GLOBE NEWSWIRE) -- Micron Technology, Inc. ... today announced...'); the cited quote is present verbatim there and the date matches document_date exactly. Per AGENTS.md/COUNSEL.md, a GlobeNewswire copy of an official company release counts as company_press_release. Marked unreachable at the canonical investors.micron.com URL; content independently confirmed via its own wire distribution."
+    },
+    {
+      "source": "src:samsung-amd-mou-2026",
+      "reachable": true,
+      "doc_type_ok": true,
+      "tier_assigned": 2,
+      "date_ok": true,
+      "notes": "Fetched directly (HTTP 200). Dateline 'March 18, 2026' confirmed on page (appears three times)."
+    }
+  ],
+  "evidence_checks": [
+    { "entity": "ref:tsmc-fab21-nvidia-blackwell-wafers", "evidence_index": 0, "verdict": "verified", "notes": "Quote found verbatim in src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025." },
+    { "entity": "ref:tsmc-fab21-nvidia-blackwell-wafers", "evidence_index": 1, "verdict": "verified", "notes": "Quote found verbatim in src:nvidia-build-in-america-2026-08-05." },
+    { "entity": "ref:tsmc-fab21-nvidia-blackwell-wafers", "evidence_index": 2, "verdict": "verified", "notes": "Quote confirmed via EDGAR full-text search as the unique hit in accession 0001628280-26-025362 (TSMC 20-F)." },
+    { "entity": "ref:tsmc-fab21-nvidia-blackwell-wafers", "evidence_index": 3, "verdict": "verified", "notes": "Quote confirmed via EDGAR full-text search as the unique hit in accession 0001628280-26-025362." },
+    { "entity": "ref:tsmc-fab21-nvidia-blackwell-wafers", "evidence_index": 4, "verdict": "verified", "notes": "Found verbatim on src:nist-chips-tsmc-arizona: 'Fab 1 : 4nm and 5nm FinFET process technologies' in the Key Facts/Technologies table." },
+    { "entity": "ref:tsmc-fab21-nvidia-blackwell-wafers", "evidence_index": 5, "verdict": "verified", "notes": "Quote found verbatim on src:nvidia-blackwell-architecture-page under 'A New Class of AI Superchip'." },
+    { "entity": "ref:amkor-peoria-nvidia-packaging-arizona", "evidence_index": 0, "verdict": "verified", "notes": "Quote found verbatim in src:nvidia-blog-us-manufacturing-2025." },
+    { "entity": "ref:amkor-peoria-nvidia-packaging-arizona", "evidence_index": 1, "verdict": "verified", "notes": "Quote found verbatim on src:nvidia-us-ai-manufacturing-page, Amkor card. Present tense 'is building' — does not assert current production." },
+    { "entity": "ref:amkor-peoria-nvidia-packaging-arizona", "evidence_index": 2, "verdict": "verified", "notes": "Quote found verbatim in src:amkor-peoria-site-2025. Future tense ('will be constructed') — does not assert current production." },
+    { "entity": "req:nvidia-logic-dies", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001045810-26-000021." },
+    { "entity": "req:nvidia-logic-dies", "evidence_index": 1, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001045810-26-000021; names TSMC and Samsung with hedge language 'such as' (not exhaustive), correctly reflected by not asserting sole supply." },
+    { "entity": "req:nvidia-memory", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001045810-26-000021." },
+    { "entity": "req:nvidia-memory", "evidence_index": 1, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001045810-26-000021. Unlike the foundry sentence, this list ('SK Hynix Inc., Micron Technology, Inc., and Samsung') is NOT hedged with 'such as' — it reads as the complete named set, which matches the recorded suppliers[] exactly (no more, no fewer)." },
+    { "entity": "req:nvidia-packaging", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001045810-26-000021." },
+    { "entity": "req:nvidia-packaging", "evidence_index": 1, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001045810-26-000021. This sentence names no packaging provider." },
+    { "entity": "req:nvidia-packaging", "evidence_index": 2, "verdict": "verified", "notes": "Quote found verbatim (as a deliberate mid-word truncation at '(CoWoS', matching the source's own '(CoWoS®)') in src:amkor-tsmc-mou-2024. Supports exactly what it is cited for: that CoWoS is TSMC's named technology, not that TSMC packages NVIDIA product specifically." },
+    { "entity": "req:nvidia-packaging", "evidence_index": 3, "verdict": "verified", "notes": "Quote found verbatim in src:tsmc-pr-ap6-2023 via the Wayback Machine capture (direct URL returned 403; see source_checks). Confirms TSMC itself runs CoWoS packaging." },
+    { "entity": "req:nvidia-packaging", "evidence_index": 4, "verdict": "verified", "notes": "Quote found verbatim in src:nvidia-blog-us-manufacturing-2025; directly names Amkor and SPIL for Arizona packaging and test." },
+    { "entity": "req:nvidia-contract-manufacturing", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001045810-26-000021." },
+    { "entity": "req:amd-logic-dies", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0000002488-26-000018 (AMD FY2025 10-K)." },
+    { "entity": "req:amd-logic-dies", "evidence_index": 1, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0000002488-26-000018. This sentence is the 'all wafers ... 7nm or smaller' sole-TSMC statement; it does not extend to the 12/14nm HPC wafers covered by evidence_index 0." },
+    { "entity": "req:amd-packaging", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0000002488-26-000018." },
+    { "entity": "req:amd-packaging", "evidence_index": 1, "verdict": "verified", "notes": "Quote confirmed verbatim by reading the full filing (pulled via Wayback Machine capture of the exact sec.gov URL, since direct fetch and EDGAR FTS snippets alone don't show surrounding context). The immediately preceding sentence in the same paragraph reads: 'We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd.' This establishes that SPIL and KYEC are the names of AMD's two Tongfu-affiliated ATMP joint ventures, so the statement's inclusion of Tongfu Microelectronics as a supplier alongside SPIL/KYEC is fully supported, even though the cited quote fragment alone only names SPIL and KYEC." },
+    { "entity": "req:amd-memory", "evidence_index": 0, "verdict": "verified", "notes": "Quote found verbatim via the nasdaq.com GlobeNewswire copy of the Micron release (canonical investors.micron.com URL returned 403; see source_checks)." },
+    { "entity": "req:amd-memory", "evidence_index": 1, "verdict": "verified", "notes": "Quote found verbatim in src:samsung-amd-mou-2026. 'Primary' language, not 'sole' — correctly not treated as exclusive in the statement." },
+    { "entity": "req:amd-memory", "evidence_index": 2, "verdict": "verified", "notes": "Quote found verbatim in src:samsung-amd-mou-2026. This is a forward-looking MOU ('will align on primary HBM4 supply') for the MI455X, not a current, in-production relationship like the MI350X/MI355X HBM3E item above." },
+    { "entity": "req:broadcom-packaging", "evidence_index": 0, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001730168-25-000121 (Broadcom FY2025 10-K)." },
+    { "entity": "req:broadcom-packaging", "evidence_index": 1, "verdict": "verified", "notes": "Confirmed via EDGAR full-text search in accession 0001730168-25-000121; this exact phrase is the sole full-text hit in all of EDGAR. Hedged with 'including' (not exhaustive), correctly reflected." }
+  ],
+  "entity_verdicts": [
+    {
+      "entity": "ref:tsmc-fab21-nvidia-blackwell-wafers",
+      "verdict": "publish_flagged",
+      "reasons": "The chain is sound enough to publish with a visible caveat, not reject. No single document names 'TSMC Fab 21 Phase 1' as the Blackwell wafer source. The identification is a deduction across four independent Tier 1/2 documents that corroborate rather than merely assume one another: (1) NVIDIA states Blackwell wafers are in volume production at 'TSMC's semiconductor manufacturing facility in Phoenix' (two separate NVIDIA posts, 2025-10 and 2026-08); (2) TSMC's own 20-F states that, as of its filing, only its FIRST Phoenix facility has ever reached high-volume production, and its second facility's construction is merely 'ongoing' (i.e. by elimination, any Phoenix volume production is necessarily happening at Fab 1); (3) NIST's CHIPS project page independently states Fab 1 runs 4nm/5nm process technology; (4) NVIDIA's own architecture page states Blackwell uses a 'custom-built TSMC 4NP process' (a 4nm-class node), which is compatible with Fab 1's stated capability and not with any other named Phoenix fab. No reviewed document contradicts this. This is the kind of convergent, non-circular deduction the eval standard favors ('bugs must conspire to hide'), but it remains an inference rather than a named statement, so it is flagged rather than published outright. Flag for the UI: 'TSMC Fab 21 Phase 1' is identified by elimination (only Phoenix facility in volume production) and node-compatibility, not by a document naming that phase directly."
+    },
+    {
+      "entity": "ref:amkor-peoria-nvidia-packaging-arizona",
+      "verdict": "publish_flagged",
+      "reasons": "The relationship and the specific site are both directly and unambiguously documented: NVIDIA's own manufacturing-partners page names 'Amkor ... in Peoria, Arizona' specifically (not just 'Arizona' generically), and Amkor's own release confirms the Peoria site description. All three evidence quotes are in future/under-construction tense ('is building', 'will be constructed') and none asserts current production; this matches the underlying facility record fac:amkor-peoria-az, whose status is correctly 'under_construction' with manufacturing not expected to begin until 1H 2028 per Amkor's 10-K (verified by the facility's own verification file, out of scope here). Flagged only so the UI carries forward the caveat that this is a future production relationship at a site that does not yet exist as a working fab — nothing in this refinement should be rendered as implying current output."
+    },
+    {
+      "entity": "req:nvidia-logic-dies",
+      "verdict": "publish",
+      "reasons": "Both the need (dependence on foundries) and the supplier set (TSMC, Samsung) are established by verbatim Tier 1 quotes from NVIDIA's own 10-K. The 10-K's own 'such as' hedge is correctly not read as an exhaustive or sole-supplier claim; the statement makes no sole-supply assertion the document doesn't support."
+    },
+    {
+      "entity": "req:nvidia-memory",
+      "verdict": "publish",
+      "reasons": "Both the need and the supplier set are established by verbatim Tier 1 text. Unlike the foundry sentence, NVIDIA's memory-supplier sentence is an unhedged, complete list ('SK Hynix Inc., Micron Technology, Inc., and Samsung'), and the recorded suppliers[] matches it exactly — not more, not fewer."
+    },
+    {
+      "entity": "req:nvidia-packaging",
+      "verdict": "publish_flagged",
+      "reasons": "Amkor and SPIL are directly and currently documented as NVIDIA's named Arizona packaging partners. TSMC's inclusion, however, rests on a deduction, not a direct NVIDIA-TSMC packaging statement: NVIDIA's 10-K says only that NVIDIA 'utilizes CoWoS technology' without naming a provider; TSMC's own AP6 release and the Amkor-TSMC MOU each independently describe CoWoS as TSMC's own branded/proprietary packaging platform. No document states TSMC packages NVIDIA chips specifically, or that CoWoS is licensed to or performed by any party other than TSMC. The statement already discloses this limitation honestly ('No document reviewed states which supplier packages a given NVIDIA product or that any supplier is the sole source'), which is the right way to write it, but the inference behind TSMC's inclusion should stay visible as a flag rather than read as a company-named relationship."
+    },
+    {
+      "entity": "req:nvidia-contract-manufacturing",
+      "verdict": "publish",
+      "reasons": "Need and supplier set (Hon Hai/Foxconn, Wistron, Fabrinet) are established verbatim in a single Tier 1 sentence, correctly hedged with 'such as' and not overstated as exhaustive or sole-source in the statement."
+    },
+    {
+      "entity": "req:amd-logic-dies",
+      "verdict": "publish_flagged",
+      "reasons": "Both evidence items are verbatim Tier 1 quotes and the statement, as written, correctly distinguishes nodes: GlobalFoundries supplies HPC products at 12nm/14nm only, while AMD 'relies on TSMC for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller' — i.e. TSMC is the sole named supplier for AMD's leading-edge GPU/AI-accelerator dies, and GlobalFoundries is not an alternative there. The record does not misstate this. It is flagged only because the requirement's suppliers[] array (which a single-point-of-failure view may read on its own, without the prose) lists both companies at the company/kind level ('co:amd' / 'logic dies') without node granularity the schema doesn't provide; a reader of suppliers[] alone could wrongly conclude AMD has two interchangeable logic-die sources for its AI chips. Flag for the UI/SPOF analysis: GlobalFoundries is a real but node-limited (12nm/14nm, non-AI-accelerator) alternative; for AMD's 7nm-and-below GPU dies, TSMC is the only named supplier."
+    },
+    {
+      "entity": "req:amd-packaging",
+      "verdict": "publish",
+      "reasons": "Need and full supplier set (Tongfu Microelectronics, SPIL, KYEC) are established by AMD's 10-K. The cited evidence quote names only SPIL and KYEC, but I read the full filing (via a Wayback Machine capture, since the live URL and FTS snippets don't expose surrounding context) and confirmed the immediately preceding sentence in the same paragraph states AMD's two ATMP joint ventures are 'with Tongfu Microelectronics Co., Ltd.' and that SPIL and KYEC are those joint ventures' names. The recorded suppliers[] exactly matches the document; no correction needed."
+    },
+    {
+      "entity": "req:amd-memory",
+      "verdict": "publish_flagged",
+      "reasons": "Micron's HBM3E-for-MI350 relationship and Samsung's 'primary HBM3E partner' role for MI350X/MI355X are both documented, current relationships verified verbatim. The statement is honest that 'primary' is not 'sole' and that no document names AMD's complete HBM supplier set. Flagged because one of the three evidence items (Samsung HBM4 for the MI455X) is a forward-looking MOU to 'align on primary HBM4 supply' for a next-generation part, not a current production relationship; the statement already uses future tense correctly, but the UI should carry the caveat that this portion of the supplier set describes intent, not shipped product."
+    },
+    {
+      "entity": "req:broadcom-packaging",
+      "verdict": "publish",
+      "reasons": "Need and supplier set (TSMC, ASE, Foxconn, Amkor, SPIL) are established by a single verbatim Tier 1 sentence from Broadcom's 10-K, hedged with 'including' and correctly not treated as exhaustive or sole-source."
+    }
+  ],
+  "summary": "Reviewed data/research/linkage_chips.json: 15 sources, 2 refinements, 8 requirements (companies[]/facilities[]/flows[]/financial_links[]/controls[] are intentionally empty in this file per docs/LINKAGE.md — every co:/fac:/flow: id it references is already defined in another layer's own research file, so no company verdicts belong in this file; validate.mjs confirms no company entities exist here to judge). All 28 evidence quotes verified verbatim against their cited documents; zero quote_not_found, zero does_not_support, zero superseded, zero insufficient_tier. Two sources (src:tsmc-pr-ap6-2023, src:micron-release-hbm-amd-mi350-2025) returned HTTP 403 at their canonical URLs to a declared, non-browser, non-email User-Agent and are marked unreachable there; both were independently confirmed through the best legitimate alternate route specified by the brief (a Wayback Machine capture of the exact TSMC URL, and the nasdaq.com GlobeNewswire-syndicated copy of the Micron release), so their evidence is still verified rather than discarded. The four SEC filings (NVIDIA, AMD, Broadcom, TSMC) all blocked direct sec.gov/Archives fetches with the undeclared-automated-tool page regardless of User-Agent wording; all quotes were instead confirmed via EDGAR full-text search against the exact cited accession numbers (several as the unique hit in all of EDGAR), and the AMD 10-K was additionally pulled in full via a Wayback Machine capture of the exact sec.gov URL to check surrounding context for one quote. Verdicts: 6 publish, 4 publish_flagged, 0 reject. No rejections. Flagged items and why: ref:tsmc-fab21-nvidia-blackwell-wafers (sound four-document deduction placing Blackwell wafer production at TSMC's Fab 21 Phase 1 by elimination and node-match, but no document names the phase directly); ref:amkor-peoria-nvidia-packaging-arizona (directly documented relationship, correctly non-production language throughout, flagged only to keep the 'under construction, not operating until 2028' caveat visible); req:nvidia-packaging (Amkor/SPIL directly named by NVIDIA; TSMC's inclusion rests on the sound but indirect inference that CoWoS, which NVIDIA says it uses, is TSMC's own branded packaging technology — no document names TSMC as NVIDIA's packager outright); req:amd-logic-dies (the prose statement correctly scopes GlobalFoundries to legacy 12nm/14nm HPC wafers and TSMC as sole supplier for 7nm-and-below GPU/AI dies, but the bare suppliers[] array could be misread by a single-point-of-failure view that doesn't carry the node-level nuance — flagged for that gap rather than corrected, since the statement itself is accurate and no fix to suppliers[] is warranted); req:amd-memory (Micron/Samsung HBM3E relationships are current and documented; the Samsung HBM4/MI455X item is a forward-looking MOU, flagged so it isn't read as shipped product). One correction worth flagging for the analyst, though it did not require changing the record: req:amd-packaging's cited quote fragment names only SPIL and KYEC; the Tongfu Microelectronics attribution in the statement is correct but depends on the previous, uncited sentence in the same 10-K paragraph ('We are party to two ATMP joint ventures ... with Tongfu Microelectronics Co., Ltd.') — future evidence citations for this entity should include that sentence (or extend the locator) so the quote is self-supporting rather than requiring the verifier to pull the full filing. No systemic grounding problems found: every supplier list matched its cited document's named set exactly, hedge language ('such as', 'including') was consistently respected rather than read as exhaustive, and no refinement or requirement overstated a future/under-construction relationship as current production."
+}

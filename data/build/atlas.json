@@ -1,5 +1,5 @@
 {
- "built_at": "2026-10-01T00:33:48.398Z",
+ "built_at": "2026-10-01T00:41:11.325Z",
  "draft": false,
  "stats": {
   "layers": {
@@ -9,8 +9,8 @@
    "fabrication": "57 published (verified)",
    "finance": "73 published (verified)",
    "linkage_campuses": "skipped (not yet verified)",
-   "linkage_chips": "skipped (not yet verified)",
-   "linkage_fabs": "skipped (not yet verified)",
+   "linkage_chips": "10 published (verified)",
+   "linkage_fabs": "10 published (verified)",
    "materials": "40 published (verified)",
    "memory_packaging": "45 published (verified)",
    "policy": "75 published (verified)",
@@ -19,19 +19,19 @@
    "wafers_chemicals": "42 published (verified)"
   },
   "withheld": 20,
-  "droppedEvidence": 17,
+  "droppedEvidence": 19,
   "unresolvedFlows": 1,
-  "unsupportedHintsDropped": 28,
+  "unsupportedHintsDropped": 26,
   "counts": {
-   "sources": 377,
+   "sources": 382,
    "companies": 140,
    "facilities": 231,
    "flows": 165,
    "financial_links": 152,
    "controls": 53,
-   "gaps": 113,
-   "refinements": 0,
-   "requirements": 0
+   "gaps": 133,
+   "refinements": 2,
+   "requirements": 18
   }
  },
  "sources": [
@@ -1718,6 +1718,140 @@
    "layer": "finance"
   },
   {
+   "id": "src:nvidia-build-in-america-2026-08-05",
+   "title": "NVIDIA and Partners Build in America, for America",
+   "publisher": "NVIDIA Corporation",
+   "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2026-08-05",
+   "accessed": "2026-09-30",
+   "layer": "linkage_chips"
+  },
+  {
+   "id": "src:nvidia-us-ai-manufacturing-page",
+   "title": "US AI Manufacturing (Thank You to Our Manufacturing Partners)",
+   "publisher": "NVIDIA Corporation",
+   "url": "https://www.nvidia.com/en-us/made-in-usa/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026",
+   "accessed": "2026-09-30",
+   "layer": "linkage_chips"
+  },
+  {
+   "id": "src:nvidia-blackwell-architecture-page",
+   "title": "NVIDIA Blackwell Architecture",
+   "publisher": "NVIDIA Corporation",
+   "url": "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/",
+   "doc_type": "company_website",
+   "tier": 2,
+   "document_date": "2026",
+   "accessed": "2026-09-30",
+   "layer": "linkage_chips"
+  },
+  {
+   "id": "src:amkor-tsmc-mou-2024",
+   "title": "Amkor and TSMC to Expand Partnership and Collaborate on Advanced Packaging in Arizona",
+   "publisher": "Amkor Technology, Inc.",
+   "url": "https://amkor.com/blog/amkor-and-tsmc-to-expand-partnership-and-collaborate-on-advanced-packaging-in-arizona/",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2024-10-03",
+   "accessed": "2026-09-30",
+   "layer": "linkage_chips"
+  },
+  {
+   "id": "src:amkor-peoria-site-2025",
+   "title": "Amkor Announces New Site for U.S. Semiconductor Facility",
+   "publisher": "Amkor Technology, Inc.",
+   "url": "https://amkor.com/blog/amkor-announces-new-site-for-u-s-semiconductor-facility/",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2025-08-28",
+   "accessed": "2026-09-30",
+   "layer": "linkage_chips"
+  },
+  {
+   "id": "src:tsmc-pr-ap6-2023",
+   "title": "TSMC Celebrates the Opening of Advanced Backend Fab 6",
+   "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
+   "url": "https://pr.tsmc.com/english/news/3033",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2023-06-08",
+   "accessed": "2026-09-30",
+   "layer": "linkage_chips"
+  },
+  {
+   "id": "src:samsung-amd-mou-2026",
+   "title": "Samsung and AMD Expand Strategic Collaboration on Next-Generation AI Memory Solutions",
+   "publisher": "Samsung Electronics Co., Ltd.",
+   "url": "https://news.samsung.com/global/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2026-03-18",
+   "accessed": "2026-09-30",
+   "layer": "linkage_chips"
+  },
+  {
+   "id": "src:micron-10k-fy2025",
+   "title": "Micron Technology, Inc. Form 10-K for fiscal year ended August 28, 2025",
+   "publisher": "Micron Technology, Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
+   "doc_type": "sec_10k",
+   "tier": 1,
+   "document_date": "2025-10-03",
+   "accessed": "2026-09-30",
+   "identifier": "0000723125-25-000028",
+   "layer": "linkage_fabs"
+  },
+  {
+   "id": "src:skhynix-424b4-2026",
+   "title": "SK hynix Inc. prospectus (Rule 424(b)(4)) for ADS offering, Registration No. 333-296987",
+   "publisher": "SK hynix Inc.",
+   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm",
+   "doc_type": "sec_s1",
+   "tier": 1,
+   "document_date": "2026-07-09",
+   "accessed": "2026-09-30",
+   "identifier": "0001193125-26-299963",
+   "layer": "linkage_fabs"
+  },
+  {
+   "id": "src:skhynix-m16-completion-2021",
+   "title": "SK hynix Announces the Completion of M16 Plant Construction",
+   "publisher": "SK hynix Inc.",
+   "url": "https://news.skhynix.com/en/sk-hynix-announces-the-completion-of-m16-plant-construction/",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2021-02-01",
+   "accessed": "2026-09-30",
+   "layer": "linkage_fabs"
+  },
+  {
+   "id": "src:skhynix-high-na-euv-2025",
+   "title": "SK hynix Introduces Industry's First Commercial High NA EUV",
+   "publisher": "SK hynix Inc.",
+   "url": "https://news.skhynix.com/en/sk-hynix-introduces-industrys-first-commercial-high-na-euv/",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2025-09-03",
+   "accessed": "2026-09-30",
+   "layer": "linkage_fabs"
+  },
+  {
+   "id": "src:samsung-news-lpddr5-pyeongtaek-2020",
+   "title": "Samsung Begins Mass Production of 16Gb LPDDR5 DRAM at World's Largest Semiconductor Line",
+   "publisher": "Samsung Electronics Co., Ltd.",
+   "url": "https://news.samsung.com/global/samsung-begins-mass-production-of-16gb-lpddr5-dram-at-worlds-largest-semiconductor-line",
+   "doc_type": "company_press_release",
+   "tier": 2,
+   "document_date": "2020-08-30",
+   "accessed": "2026-09-30",
+   "layer": "linkage_fabs"
+  },
+  {
    "id": "src:usgs-mcs2026-gallium",
    "title": "Mineral Commodity Summaries 2026: Gallium",
    "publisher": "U.S. Geological Survey",
@@ -2120,18 +2254,6 @@
    "layer": "materials"
   },
   {
-   "id": "src:micron-10k-fy2025",
-   "title": "Micron Technology, Inc. Form 10-K for fiscal year ended August 28, 2025",
-   "publisher": "Micron Technology, Inc.",
-   "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
-   "doc_type": "sec_10k",
-   "tier": 1,
-   "document_date": "2025-10-03",
-   "accessed": "2026-09-27",
-   "identifier": "0000723125-25-000028",
-   "layer": "memory_packaging"
-  },
-  {
    "id": "src:micron-10q-fq3-2026",
    "title": "Micron Technology, Inc. Form 10-Q for quarter ended May 28, 2026",
    "publisher": "Micron Technology, Inc.",
@@ -2155,17 +2277,6 @@
    "layer": "memory_packaging"
   },
   {
-   "id": "src:tsmc-pr-ap6-2023",
-   "title": "TSMC Announces the Opening of Advanced Backend Fab 6, Marking a Milestone in the Expansion of 3DFabric System Integration Technology",
-   "publisher": "Taiwan Semiconductor Manufacturing Company Limited",
-   "url": "https://pr.tsmc.com/english/news/3033",
-   "doc_type": "company_press_release",
-   "tier": 2,
-   "document_date": "2023-06-08",
-   "accessed": "2026-09-27",
-   "layer": "memory_packaging"
-  },
-  {
    "id": "src:amkor-10k-2025",
    "title": "Amkor Technology, Inc. Form 10-K for fiscal year ended December 31, 2025",
    "publisher": "Amkor Technology, Inc.",
@@ -2175,28 +2286,6 @@
    "document_date": "2026-02-20",
    "accessed": "2026-09-27",
    "identifier": "0001047127-26-000014",
-   "layer": "memory_packaging"
-  },
-  {
-   "id": "src:amkor-tsmc-mou-2024",
-   "title": "Amkor and TSMC to Expand Partnership and Collaborate on Advanced Packaging in Arizona",
-   "publisher": "Amkor Technology, Inc.",
-   "url": "https://amkor.com/blog/amkor-and-tsmc-to-expand-partnership-and-collaborate-on-advanced-packaging-in-arizona/",
-   "doc_type": "company_press_release",
-   "tier": 2,
-   "document_date": "2024-10-03",
-   "accessed": "2026-09-27",
-   "layer": "memory_packaging"
-  },
-  {
-   "id": "src:amkor-peoria-site-2025",
-   "title": "Amkor Announces New Site for U.S. Semiconductor Facility",
-   "publisher": "Amkor Technology, Inc.",
-   "url": "https://amkor.com/blog/amkor-announces-new-site-for-u-s-semiconductor-facility/",
-   "doc_type": "company_press_release",
-   "tier": 2,
-   "document_date": "2025-08-28",
-   "accessed": "2026-09-27",
    "layer": "memory_packaging"
   },
   {
@@ -3691,28 +3780,6 @@
    "layer": "systems"
   },
   {
-   "id": "src:nvidia-build-in-america-2026-08-05",
-   "title": "NVIDIA and Partners Build in America, for America (updated Aug. 5, 2026)",
-   "publisher": "NVIDIA Corporation",
-   "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
-   "doc_type": "company_press_release",
-   "tier": 2,
-   "document_date": "2026-08-05",
-   "accessed": "2026-09-27",
-   "layer": "systems"
-  },
-  {
-   "id": "src:nvidia-us-ai-manufacturing-page",
-   "title": "US AI Manufacturing (Thank You to Our Manufacturing Partners)",
-   "publisher": "NVIDIA Corporation",
-   "url": "https://www.nvidia.com/en-us/made-in-usa/",
-   "doc_type": "company_website",
-   "tier": 2,
-   "document_date": "2026",
-   "accessed": "2026-09-27",
-   "layer": "systems"
-  },
-  {
    "id": "src:supermicro-10k-fy2026",
    "title": "Super Micro Computer, Inc. Form 10-K for fiscal year ended June 30, 2026",
    "publisher": "Super Micro Computer, Inc.",
@@ -4018,18 +4085,6 @@
    "document_date": "2025-03-20",
    "accessed": "2026-09-27",
    "identifier": "0001709048-25-000024",
-   "layer": "wafers_chemicals"
-  },
-  {
-   "id": "src:skhynix-424b4-2026",
-   "title": "SK hynix Inc. prospectus (Rule 424(b)(4)) for ADS offering, Registration No. 333-296987",
-   "publisher": "SK hynix Inc.",
-   "url": "https://www.sec.gov/Archives/edgar/data/2120882/000119312526299963/d32785d424b4.htm",
-   "doc_type": "sec_s1",
-   "tier": 1,
-   "document_date": "2026-07-09",
-   "accessed": "2026-09-27",
-   "identifier": "0001193125-26-299963",
    "layer": "wafers_chemicals"
   },
   {
@@ -6055,6 +6110,12 @@
      "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
      "locator": "Strategic report, risk factors",
      "supports": "existence, sole EUV supplier"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "existence, role"
     },
     {
      "source": "src:asml-2023-06-30-nl-export-statement",
@@ -19171,7 +19232,7 @@
   },
   {
    "id": "flow:tsmc-arizona-nvidia-blackwell-wafers",
-   "from": "co:tsmc",
+   "from": "fac:tsmc-fab21-arizona-p1",
    "to": "fac:nvidia-santa-clara-hq",
    "commodity": "Blackwell wafers (US-produced)",
    "description": "NVIDIA states Blackwell production started at TSMC's Phoenix, Arizona plants; first US Blackwell wafer celebrated Oct 2025.",
@@ -19188,16 +19249,53 @@
      "quote": "NVIDIA founder and CEO Jensen Huang today visited TSMC’s semiconductor manufacturing facility in Phoenix to celebrate the first NVIDIA Blackwell wafer produced on U.S. soil, representing that Blackwell has reached volume production.",
      "locator": "Blog post",
      "supports": "relationship, status"
+    },
+    {
+     "source": "src:nvidia-blog-tsmc-arizona-blackwell-wafer-2025",
+     "quote": "NVIDIA founder and CEO Jensen Huang today visited TSMC’s semiconductor manufacturing facility in Phoenix to celebrate the first NVIDIA Blackwell wafer produced on U.S. soil, representing that Blackwell has reached volume production.",
+     "locator": "Article body, first paragraph",
+     "supports": "relationship; location (TSMC facility in Phoenix produces NVIDIA Blackwell wafers)"
+    },
+    {
+     "source": "src:nvidia-build-in-america-2026-08-05",
+     "quote": "The new TSMC factory in Phoenix, Arizona, is manufacturing NVIDIA Blackwell wafers in volume.",
+     "locator": "Article body (updated Aug. 5, 2026)",
+     "supports": "relationship; location; status (volume production as of 2026)"
+    },
+    {
+     "source": "src:tsmc-20f-2025",
+     "quote": "TSMC Arizona plans to build and operate multiple advanced semiconductor manufacturing facilities in Phoenix, Arizona. Our first facility successfully entered high volume production at the end of 2024.",
+     "locator": "Item 4, Our Subsidiaries and Affiliates: TSMC Arizona",
+     "supports": "location (only the first Phoenix facility is in volume production)"
+    },
+    {
+     "source": "src:tsmc-20f-2025",
+     "quote": "Construction of our second facility is ongoing",
+     "locator": "Item 4, TSMC Arizona",
+     "supports": "location (second Phoenix facility not yet producing)"
+    },
+    {
+     "source": "src:nist-chips-tsmc-arizona",
+     "quote": "4nm and 5nm FinFET process technologies",
+     "locator": "Key Facts — Facility Summary, Technologies, row 'Fab 1'",
+     "supports": "location (Phoenix Fab 1 runs 4nm/5nm)"
+    },
+    {
+     "source": "src:nvidia-blackwell-architecture-page",
+     "quote": "NVIDIA Blackwell-architecture GPUs pack 208 billion transistors and are manufactured using a custom-built TSMC 4NP process.",
+     "locator": "'A New Class of AI Superchip' section",
+     "supports": "relationship (Blackwell uses a TSMC 4nm-class process, consistent with Fab 1's 4nm technology)"
     }
    ],
    "review": "verified",
    "review_note": "Both parties to the relationship are named in a verified Tier 1/2 source (quotes confirmed verbatim; see evidence_checks); basis 'documented' is correctly applied.",
-   "best_tier": 2,
+   "best_tier": 1,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "co:tsmc",
+   "refined_from": "ref:tsmc-fab21-nvidia-blackwell-wafers",
+   "from_node": "fac:tsmc-fab21-arizona-p1",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "hq/direct",
+   "resolution": "evidence/direct",
    "from_layer": "fabrication"
   },
   {
@@ -19329,7 +19427,7 @@
   },
   {
    "id": "flow:amkor-nvidia-packaging-arizona",
-   "from": "co:amkor",
+   "from": "fac:amkor-peoria-az",
    "to": "fac:nvidia-santa-clara-hq",
    "commodity": "packaging and test (Arizona)",
    "description": "NVIDIA states it is partnering with Amkor for packaging and testing operations in Arizona.",
@@ -19340,6 +19438,24 @@
      "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
      "locator": "Blog post",
      "supports": "relationship"
+    },
+    {
+     "source": "src:nvidia-blog-us-manufacturing-2025",
+     "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
+     "locator": "Article body",
+     "supports": "relationship (Amkor packaging and test for NVIDIA in Arizona)"
+    },
+    {
+     "source": "src:nvidia-us-ai-manufacturing-page",
+     "quote": "Amkor is building advanced semiconductor packaging and test capacity in Peoria, Arizona, creating a critical US link between chip manufacturing and finished AI systems.",
+     "locator": "'Thank You to Our Manufacturing Partners' section, Amkor card",
+     "supports": "location (NVIDIA names Amkor's Peoria, Arizona site among its manufacturing partners)"
+    },
+    {
+     "source": "src:amkor-peoria-site-2025",
+     "quote": "The facility will be constructed on a 104-acre site within the Peoria Innovation Core, in north Peoria, AZ.",
+     "locator": "Release body, first paragraph",
+     "supports": "location (Amkor's Arizona packaging and test facility is in Peoria)"
     }
    ],
    "review": "verified",
@@ -19347,9 +19463,10 @@
    "best_tier": 2,
    "layer": "design",
    "source_layer": "design",
-   "from_node": "co:amkor",
+   "refined_from": "ref:amkor-peoria-nvidia-packaging-arizona",
+   "from_node": "fac:amkor-peoria-az",
    "to_node": "fac:nvidia-santa-clara-hq",
-   "resolution": "hq/direct",
+   "resolution": "evidence/direct",
    "from_layer": "memory_packaging"
   },
   {
@@ -30049,7 +30166,624 @@
    "source_layer": "policy"
   }
  ],
- "requirements": [],
+ "requirements": [
+  {
+   "id": "req:nvidia-logic-dies",
+   "node": "co:nvidia",
+   "kind": "logic dies",
+   "suppliers": [
+    "co:tsmc",
+    "co:samsung"
+   ],
+   "statement": "NVIDIA's FY2026 10-K states that it depends on foundries to manufacture its semiconductor wafers and names TSMC and Samsung as foundries it uses (\"such as\", so the list is not stated to be exhaustive).",
+   "evidence": [
+    {
+     "source": "src:nvidia-10k-fy2026",
+     "quote": "We depend on foundries to manufacture our semiconductor wafers using their fabrication equipment and techniques",
+     "locator": "Part I, Item 1A. Risk Factors",
+     "supports": "need"
+    },
+    {
+     "source": "src:nvidia-10k-fy2026",
+     "quote": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "supplier set"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Both the need (dependence on foundries) and the supplier set (TSMC, Samsung) are established by verbatim Tier 1 quotes from NVIDIA's own 10-K. The 10-K's own 'such as' hedge is correctly not read as an exhaustive or sole-supplier claim; the statement makes no sole-supply assertion the document doesn't support.",
+   "best_tier": 1,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:nvidia-memory",
+   "node": "co:nvidia",
+   "kind": "memory",
+   "suppliers": [
+    "co:sk-hynix",
+    "co:micron",
+    "co:samsung"
+   ],
+   "statement": "NVIDIA's FY2026 10-K states that it may directly procure memory used in its products and that it purchases memory from SK Hynix, Micron and Samsung.",
+   "evidence": [
+    {
+     "source": "src:nvidia-10k-fy2026",
+     "quote": "we may directly procure certain raw materials used in the production of our products, such as memory, substrates, and a variety of components",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "need"
+    },
+    {
+     "source": "src:nvidia-10k-fy2026",
+     "quote": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "supplier set"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Both the need and the supplier set are established by verbatim Tier 1 text. Unlike the foundry sentence, NVIDIA's memory-supplier sentence is an unhedged, complete list ('SK Hynix Inc., Micron Technology, Inc., and Samsung'), and the recorded suppliers[] matches it exactly — not more, not fewer.",
+   "best_tier": 1,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:nvidia-packaging",
+   "node": "co:nvidia",
+   "kind": "packaging",
+   "suppliers": [
+    "co:tsmc",
+    "co:amkor",
+    "co:spil"
+   ],
+   "statement": "NVIDIA's FY2026 10-K states that it uses CoWoS technology for packaging; TSMC and Amkor describe CoWoS as TSMC's packaging technology, and NVIDIA states it partners with Amkor and SPIL for packaging and testing in Arizona. No document reviewed states which supplier packages a given NVIDIA product or that any supplier is the sole source.",
+   "evidence": [
+    {
+     "source": "src:nvidia-10k-fy2026",
+     "quote": "we employ and partner with key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "need"
+    },
+    {
+     "source": "src:nvidia-10k-fy2026",
+     "quote": "We utilize CoWoS technology for semiconductor packaging",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "need (CoWoS packaging)"
+    },
+    {
+     "source": "src:amkor-tsmc-mou-2024",
+     "quote": "The companies will jointly define the specific packaging technologies, such as TSMC’s Integrated Fan-Out (InFO) and Chip on Wafer on Substrate (CoWoS",
+     "locator": "Release body",
+     "supports": "supplier set (CoWoS is TSMC's technology)"
+    },
+    {
+     "source": "src:tsmc-pr-ap6-2023",
+     "quote": "enables TSMC to flexibly allocate capacity for TSMC 3DFabric™ advanced packaging and silicon stacking technologies, such as SoIC, InFO, CoWoS and advanced testing",
+     "locator": "Release body",
+     "supports": "supplier set (TSMC provides CoWoS packaging)"
+    },
+    {
+     "source": "src:nvidia-blog-us-manufacturing-2025",
+     "quote": "NVIDIA is partnering with Amkor and SPIL for packaging and testing operations in Arizona.",
+     "locator": "Article body",
+     "supports": "supplier set (Amkor, SPIL)"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "Amkor and SPIL are directly and currently documented as NVIDIA's named Arizona packaging partners. TSMC's inclusion, however, rests on a deduction, not a direct NVIDIA-TSMC packaging statement: NVIDIA's 10-K says only that NVIDIA 'utilizes CoWoS technology' without naming a provider; TSMC's own AP6 release and the Amkor-TSMC MOU each independently describe CoWoS as TSMC's own branded/proprietary packaging platform. No document states TSMC packages NVIDIA chips specifically, or that CoWoS is licensed to or performed by any party other than TSMC. The statement already discloses this limitation honestly ('No document reviewed states which supplier packages a given NVIDIA product or that any supplier is the sole source'), which is the right way to write it, but the inference behind TSMC's inclusion should stay visible as a flag rather than read as a company-named relationship.",
+   "best_tier": 1,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:nvidia-contract-manufacturing",
+   "node": "co:nvidia",
+   "kind": "contract manufacturing",
+   "suppliers": [
+    "co:foxconn",
+    "co:wistron",
+    "co:fabrinet"
+   ],
+   "statement": "NVIDIA's FY2026 10-K states that it engages contract manufacturers such as Hon Hai (Foxconn), Wistron and Fabrinet to perform assembly, testing and packaging of its final products (\"such as\", so the list is not stated to be exhaustive).",
+   "evidence": [
+    {
+     "source": "src:nvidia-10k-fy2026",
+     "quote": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "need; supplier set"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Need and supplier set (Hon Hai/Foxconn, Wistron, Fabrinet) are established verbatim in a single Tier 1 sentence, correctly hedged with 'such as' and not overstated as exhaustive or sole-source in the statement.",
+   "best_tier": 1,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:amd-logic-dies",
+   "node": "co:amd",
+   "kind": "logic dies",
+   "suppliers": [
+    "co:tsmc",
+    "co:globalfoundries"
+   ],
+   "statement": "AMD's FY2025 10-K states that it uses TSMC for wafers for its HPC, FPGA and adaptive SoC products and GlobalFoundries for HPC wafers at 12 nm and 14 nm, and that it relies on TSMC for all microprocessor and GPU wafers at 7 nm or smaller. (Programmable logic devices are also produced by TSMC, UMC and Samsung; that product line is outside this requirement.)",
+   "evidence": [
+    {
+     "source": "src:amd-10k-fy2025",
+     "quote": "We utilize Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and adaptive SoC products and GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes",
+     "locator": "Part I, Item 1. Business — Third-Party Wafer Foundry Facilities",
+     "supports": "need; supplier set"
+    },
+    {
+     "source": "src:amd-10k-fy2025",
+     "quote": "We rely on Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller nodes",
+     "locator": "Part I, Item 1A. Risk Factors — third-party manufacturers",
+     "supports": "supplier set (TSMC produces all wafers at 7 nm or smaller)"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "Both evidence items are verbatim Tier 1 quotes and the statement, as written, correctly distinguishes nodes: GlobalFoundries supplies HPC products at 12nm/14nm only, while AMD 'relies on TSMC for the production of all wafers for microprocessor and GPU products at 7 nanometer (nm) or smaller' — i.e. TSMC is the sole named supplier for AMD's leading-edge GPU/AI-accelerator dies, and GlobalFoundries is not an alternative there. The record does not misstate this. It is flagged only because the requirement's suppliers[] array (which a single-point-of-failure view may read on its own, without the prose) lists both companies at the company/kind level ('co:amd' / 'logic dies') without node granularity the schema doesn't provide; a reader of suppliers[] alone could wrongly conclude AMD has two interchangeable logic-die sources for its AI chips. Flag for the UI/SPOF analysis: GlobalFoundries is a real but node-limited (12nm/14nm, non-AI-accelerator) alternative; for AMD's 7nm-and-below GPU dies, TSMC is the only named supplier.",
+   "best_tier": 1,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:amd-packaging",
+   "node": "co:amd",
+   "kind": "packaging",
+   "suppliers": [
+    "co:tongfu-microelectronics",
+    "co:spil",
+    "co:kyec"
+   ],
+   "statement": "AMD's FY2025 10-K states that its wafers go to assembly, test, mark and packaging (ATMP) partners in Asia-Pacific, and that its ATMP joint ventures with Tongfu Microelectronics, SPIL and KYEC provide ATMP services for its products.",
+   "evidence": [
+    {
+     "source": "src:amd-10k-fy2025",
+     "quote": "Wafers for our products are either sorted by the foundry or delivered by the foundry to our assembly, test, mark and packaging (ATMP) partners or subcontractors located in the Asia-Pacific region, who package and test our final semiconductor products",
+     "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+     "supports": "need"
+    },
+    {
+     "source": "src:amd-10k-fy2025",
+     "quote": "The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products",
+     "locator": "Part I, Item 1. Business — Assembly, Test, Mark and Packaging Facilities",
+     "supports": "supplier set (ATMP JVs are with Tongfu Microelectronics)"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Need and full supplier set (Tongfu Microelectronics, SPIL, KYEC) are established by AMD's 10-K. The cited evidence quote names only SPIL and KYEC, but I read the full filing (via a Wayback Machine capture, since the live URL and FTS snippets don't expose surrounding context) and confirmed the immediately preceding sentence in the same paragraph states AMD's two ATMP joint ventures are 'with Tongfu Microelectronics Co., Ltd.' and that SPIL and KYEC are those joint ventures' names. The recorded suppliers[] exactly matches the document; no correction needed.",
+   "best_tier": 1,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:amd-memory",
+   "node": "co:amd",
+   "kind": "memory",
+   "suppliers": [
+    "co:samsung",
+    "co:micron"
+   ],
+   "statement": "Micron states its HBM3E 36GB 12-high is integrated into AMD Instinct MI350 Series products, and Samsung states it is the primary HBM3E partner to AMD for MI350X/MI355X and will align with AMD on primary HBM4 supply for the MI455X. \"Primary\" is not sole; no document reviewed names AMD's complete HBM supplier set.",
+   "evidence": [
+    {
+     "source": "src:micron-release-hbm-amd-mi350-2025",
+     "quote": "today announced the integration of its HBM3E 36GB 12-high offering into the upcoming AMD Instinct™ MI350 Series solutions",
+     "locator": "Release body, first paragraph",
+     "supports": "need; supplier (Micron)"
+    },
+    {
+     "source": "src:samsung-amd-mou-2026",
+     "quote": "including Samsung serving as the primary HBM3E partner to AMD, powering the latest AMD Instinct MI350X and MI355X AI accelerators",
+     "locator": "Release body",
+     "supports": "need; supplier (Samsung)"
+    },
+    {
+     "source": "src:samsung-amd-mou-2026",
+     "quote": "Under the MOU, Samsung and AMD will align on primary HBM4 supply for the next-generation AMD AI accelerator, the AMD Instinct MI455X GPU",
+     "locator": "Release body",
+     "supports": "supplier (Samsung, HBM4)"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "Micron's HBM3E-for-MI350 relationship and Samsung's 'primary HBM3E partner' role for MI350X/MI355X are both documented, current relationships verified verbatim. The statement is honest that 'primary' is not 'sole' and that no document names AMD's complete HBM supplier set. Flagged because one of the three evidence items (Samsung HBM4 for the MI455X) is a forward-looking MOU to 'align on primary HBM4 supply' for a next-generation part, not a current production relationship; the statement already uses future tense correctly, but the UI should carry the caveat that this portion of the supplier set describes intent, not shipped product.",
+   "best_tier": 2,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:broadcom-packaging",
+   "node": "co:broadcom",
+   "kind": "packaging",
+   "suppliers": [
+    "co:tsmc",
+    "co:ase",
+    "co:foxconn",
+    "co:amkor",
+    "co:spil"
+   ],
+   "statement": "Broadcom's FY2025 10-K states that it outsources a majority of its manufacturing, including assembly and test, and uses third-party contract manufacturers for a significant majority of assembly and test, including TSMC, ASE, Foxconn, Amkor and SPIL (\"including\", so not stated to be exhaustive).",
+   "evidence": [
+    {
+     "source": "src:broadcom-10k-fy2025",
+     "quote": "Accordingly, we outsource a majority of our manufacturing operations, utilizing third-party foundry and assembly and test capabilities",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "need"
+    },
+    {
+     "source": "src:broadcom-10k-fy2025",
+     "quote": "We use third-party CMs for a significant majority of our assembly and test operations, including TSMC, Advanced Semiconductor Engineering, Inc., Foxconn Technology Group, Amkor Technology, Inc. and Siliconware Precision Industries Co., Ltd",
+     "locator": "Part I, Item 1. Business — Manufacturing",
+     "supports": "supplier set"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Need and supplier set (TSMC, ASE, Foxconn, Amkor, SPIL) are established by a single verbatim Tier 1 sentence from Broadcom's 10-K, hedged with 'including' and correctly not treated as exhaustive or sole-source.",
+   "best_tier": 1,
+   "layer": "linkage_chips",
+   "source_layer": "linkage_chips"
+  },
+  {
+   "id": "req:intel-oregon-euv",
+   "node": "fac:intel-oregon",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "Intel's FY2025 10-K says its Oregon fabs were ramping Intel 18A, a node that uses EUV lithography, and names ASML as the sole supplier of the EUV tools for Intel 18A.",
+   "evidence": [
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+     "locator": "Item 1 Business, Manufacturing",
+     "supports": "node-to-site mapping"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "particularly those utilizing EUV lithography such as Intel 4, Intel 3, Intel 18A, Intel 14A and future nodes",
+     "locator": "Item 1 Business, Intel Foundry",
+     "supports": "need: Intel 4, Intel 3 and Intel 18A use EUV lithography"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "For example, ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+     "locator": "Item 1A Risk Factors, supply chain",
+     "supports": "supplier set: ASML sole supplier of EUV tools for Intel 4, Intel 3, Intel 18A"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies",
+     "locator": "Item 1 Business, Supply chain",
+     "supports": "need and supplier set: EUV tools required for leading-edge nodes; ASML sole source"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All five evidence items verified verbatim in Intel's FY2025 10-K (filed 2026-01-23) and ASML's FY2025 20-F. The need (Intel 18A at Oregon uses EUV) and the supplier set (ASML sole supplier of EUV tools for 18A, corroborated independently by ASML's own 'only manufacturer' statement) are both established with explicit sole-source language ('sole supplier', 'sole-source providers').",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:intel-arizona-euv",
+   "node": "fac:intel-arizona",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "Intel's FY2025 10-K says its Arizona fabs were ramping Intel 18A, a node that uses EUV lithography, and names ASML as the sole supplier of the EUV tools for Intel 18A.",
+   "evidence": [
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+     "locator": "Item 1 Business, Manufacturing",
+     "supports": "node-to-site mapping"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "particularly those utilizing EUV lithography such as Intel 4, Intel 3, Intel 18A, Intel 14A and future nodes",
+     "locator": "Item 1 Business, Intel Foundry",
+     "supports": "need: Intel 4, Intel 3 and Intel 18A use EUV lithography"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "For example, ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+     "locator": "Item 1A Risk Factors, supply chain",
+     "supports": "supplier set: ASML sole supplier of EUV tools for Intel 4, Intel 3, Intel 18A"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "In some cases, however, we are reliant upon sole-source providers, such as with the EUV lithography tools manufactured by ASML that are required for leading-edge process technologies",
+     "locator": "Item 1 Business, Supply chain",
+     "supports": "need and supplier set: EUV tools required for leading-edge nodes; ASML sole source"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Same evidence set as req:intel-oregon-euv, all verified verbatim in the same current (Jan 2026) 10-K. Need and sole-supplier language both established.",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:intel-ireland-euv",
+   "node": "fac:intel-ireland",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "Intel's FY2025 10-K says its Ireland fabs run Intel 4 and Intel 3, which use EUV lithography, and names ASML as the sole supplier of the EUV tools for those nodes.",
+   "evidence": [
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "In 2025, our key production fabs were in Oregon (ramping Intel 18A), Arizona (Intel 7 and ramping Intel 18A), Ireland (Intel 4 and Intel 3) and Israel (Intel 7).",
+     "locator": "Item 1 Business, Manufacturing",
+     "supports": "node-to-site mapping"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "particularly those utilizing EUV lithography such as Intel 4, Intel 3, Intel 18A, Intel 14A and future nodes",
+     "locator": "Item 1 Business, Intel Foundry",
+     "supports": "need: Intel 4, Intel 3 and Intel 18A use EUV lithography"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "Intel 4 , our first process node incorporating EUV lithography, first went into high-volume manufacturing in 2023",
+     "locator": "Item 1 Business, process technology nodes",
+     "supports": "need: Intel 4 incorporates EUV"
+    },
+    {
+     "source": "src:intel-10k-2025",
+     "quote": "For example, ASML Holding N.V. (ASML) is currently the sole supplier of EUV lithography tools that we are deploying in our Intel 4, Intel 3, Intel 18A and planned future leading-edge manufacturing process nodes.",
+     "locator": "Item 1A Risk Factors, supply chain",
+     "supports": "supplier set: ASML sole supplier of EUV tools for Intel 4, Intel 3, Intel 18A"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "All five evidence items verified verbatim, including the Intel-4-first-EUV-node statement specific to the nodes run at the Ireland fabs. Need and sole-supplier language both established.",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:samsung-hwaseong-v1-euv",
+   "node": "fac:samsung-hwaseong-foundry",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "Samsung describes its V1 line in Hwaseong as a production line dedicated to EUV lithography for 7 nm and below; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+   "evidence": [
+    {
+     "source": "src:samsung-news-v1-2020",
+     "quote": "today announced that its new cutting-edge semiconductor fabrication line in Hwaseong, Korea, has begun mass production. The facility, V1, is Samsung’s first semiconductor production line dedicated to the extreme ultraviolet (EUV) lithography technology and produces chips using process node of 7 nanometer (nm) and below.",
+     "locator": "Press release body, first paragraph",
+     "supports": "need: Hwaseong V1 line uses EUV lithography"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Samsung's 2020 release states, in the past/completed tense, that mass production using EUV had already begun at the V1 line (not merely planned), so the six-year age of the Tier 2 source does not make the underlying need claim stale. ASML's 20-F independently supports the sole-manufacturer supplier-set claim. Sole-source language present ('world's only manufacturer').",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:samsung-pyeongtaek-foundry-euv",
+   "node": "fac:samsung-pyeongtaek-foundry",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "Samsung's 2020 release says its Pyeongtaek foundry line will focus on EUV-based 5 nm and below process technology; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+   "evidence": [
+    {
+     "source": "src:samsung-news-pyeongtaek-2020",
+     "quote": "The new foundry line, which will focus on EUV-based 5 nanometer (nm) and below process technology, has just commenced construction this month and is expected to be in full operation in the second half of 2021.",
+     "locator": "Press release body",
+     "supports": "need: Pyeongtaek foundry line uses EUV (planned as of 2020)"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "Staleness: the only need-evidence is a May 2020 release describing an EUV foundry line that 'has just commenced construction' and was 'expected to be in full operation in the second half of 2021' -- a plan, not a confirmed EUV production fact, as of the cited document. This is exactly the stale-evidence pattern called out in the brief (a release about a then-still-planned line). The supplier-set half (ASML sole EUV manufacturer) is solid, but the need should be flagged as resting on a 2020 construction-start announcement with no later confirmation in this file that the line was completed or is operating EUV lithography.",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:samsung-pyeongtaek-dram-euv",
+   "node": "fac:samsung-pyeongtaek",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "Samsung's 2020 release says its second Pyeongtaek production line began mass production of 16Gb LPDDR5 DRAM using EUV technology; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+   "evidence": [
+    {
+     "source": "src:samsung-news-lpddr5-pyeongtaek-2020",
+     "quote": "today announced that its second production line in Pyeongtaek, Korea, has commenced mass production of the industry’s first 16-gigabit (Gb) LPDDR5 mobile DRAM, using extreme ultraviolet (EUV) technology.",
+     "locator": "Press release body, first paragraph",
+     "supports": "need: Pyeongtaek Line 2 DRAM production uses EUV"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Samsung's August 2020 release states mass production using EUV had already commenced (completed fact at the time of the release, not a forward plan), so this is not treated as stale in the way the foundry-line requirement is. Sole-supplier language present via ASML's 20-F.",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:sk-hynix-m16-euv",
+   "node": "fac:sk-hynix-icheon-m16",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "SK hynix says M16 in Icheon introduced EUV lithography equipment for 1a nm DRAM and, in 2025, assembled ASML's High NA EUV system (TWINSCAN EXE:5200B) there; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+   "evidence": [
+    {
+     "source": "src:skhynix-m16-completion-2021",
+     "quote": "What’s more special about M16 is its introduction of the extreme ultraviolet (EUV) lithography equipment for the first time in SK hynix.",
+     "locator": "Press release body",
+     "supports": "need: M16 uses EUV lithography"
+    },
+    {
+     "source": "src:skhynix-m16-completion-2021",
+     "quote": "It plans to produce 1a nm DRAM products from the second half of this year by utilizing the EUV equipment.",
+     "locator": "Press release body",
+     "supports": "need: EUV used for 1a nm DRAM at M16"
+    },
+    {
+     "source": "src:skhynix-high-na-euv-2025",
+     "quote": "announced today that it has assembled the industry’s first High NA * EUV * lithography system for mass production at the M16 fabrication plant in Icheon, South Korea.",
+     "locator": "Press release body, first paragraph",
+     "supports": "need and site: High NA EUV system at M16"
+    },
+    {
+     "source": "src:skhynix-high-na-euv-2025",
+     "quote": "The TWINSCAN EXE:5200B, the first model for volume production of ASML’s High NA EUV product line",
+     "locator": "Press release body",
+     "supports": "supplier: the M16 High NA EUV system is ASML's"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "M16's 2021 completion announcement confirms EUV equipment was introduced and in place (not merely planned); the 2025 High NA EUV release confirms a specific ASML tool (TWINSCAN EXE:5200B) assembled at M16. Combined with ASML's 'only manufacturer' statement, both need and sole-supplier language are established with current (2025) and contemporaneous (2021) sourcing.",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:sk-hynix-m15x-euv",
+   "node": "fac:sk-hynix-cheongju-m15x",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "SK hynix's 2026 prospectus says M15X in Cheongju, a fab for HBM and high-performance DRAM, incorporates EUV lithography; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+   "evidence": [
+    {
+     "source": "src:skhynix-424b4-2026",
+     "quote": "M15X is a next-generation extension fab in Cheongju, Korea that is dedicated primarily to the production of HBM and high-performance DRAM products. It incorporates EUV lithography and advanced cleanroom automation, serving as a blueprint for future fabs.",
+     "locator": "Business, Our Facilities (Cheongju M15X)",
+     "supports": "need: M15X incorporates EUV lithography"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Current (filed 2026-07-10 per SEC records) 424B4 prospectus states in the present tense that M15X 'incorporates EUV lithography'. Not stale. Sole-supplier language established via ASML's 20-F. Note: the research file's source record lists doc_type sec_s1 and document_date 2026-07-09; the filing is actually a Rule 424(b)(4) prospectus filed 2026-07-10 per EDGAR -- a metadata correction on the source, not a defect in the requirement's substance (see source_checks note; no entity correction needed since the Source record, not this requirement, is affected, and Source isn't a correctable field under this schema).",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:micron-hiroshima-euv",
+   "node": "fac:micron-hiroshima",
+   "kind": "lithography",
+   "suppliers": [
+    "co:asml"
+   ],
+   "statement": "Micron's FY2025 10-K says it is modernizing its Hiroshima facility to produce DRAM using EUV lithography; ASML's FY2025 20-F states that ASML is the only manufacturer of EUV lithography systems.",
+   "evidence": [
+    {
+     "source": "src:micron-10k-fy2025",
+     "quote": "Japan: we are modernizing our Hiroshima manufacturing facility to support the production of DRAM using EUV lithography",
+     "locator": "Item 7 MD&A, capital expenditures",
+     "supports": "need: Hiroshima DRAM production uses EUV"
+    },
+    {
+     "source": "src:micron-10k-fy2025",
+     "quote": "We also receive incentives from the Japanese Ministry of Economy, Trade and Industry to support the production of DRAM using EUV lithography in Hiroshima, Japan.",
+     "locator": "Notes to financial statements, government incentives",
+     "supports": "need: EUV DRAM production in Hiroshima"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "ASML is currently the world’s only manufacturer of EUV lithography systems.",
+     "locator": "Our business, EUV lithography (TWINSCAN NXE platform)",
+     "supports": "supplier set: ASML is the only maker of EUV systems"
+    }
+   ],
+   "review": "verified",
+   "review_note": "Current (FY2025, filed Oct 2025) 10-K states Micron 'is modernizing' Hiroshima 'to support the production of DRAM using EUV lithography' and separately confirms it receives METI incentives tied to EUV DRAM production there. Both quotes verified verbatim. Sole-supplier language established via ASML's 20-F.",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  },
+  {
+   "id": "req:asml-veldhoven-zeiss-optics",
+   "node": "co:asml",
+   "kind": "lithography",
+   "suppliers": [
+    "fac:zeiss-oberkochen",
+    "fac:zeiss-wetzlar"
+   ],
+   "statement": "ASML's FY2025 20-F names Carl Zeiss SMT as its sole supplier of lithography optics and its single supplier of optical columns, and says Zeiss can produce them only at its facilities in Oberkochen and Wetzlar; ASML says Veldhoven is its biggest manufacturing site, where it assembles its systems.",
+   "evidence": [
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "The number of lithography systems we are able to produce is limited by the production capacity of one of our key suppliers, Carl Zeiss SMT, our sole supplier of lenses, mirrors, illuminators, collectors and other critical optical components (which we refer to as optics).",
+     "locator": "Risk factors, supply chain",
+     "supports": "need and supplier set: Zeiss SMT is the sole optics supplier"
+    },
+    {
+     "source": "src:asml-20f-2025",
+     "quote": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany.",
+     "locator": "Notes to consolidated financial statements, Note 26 Related parties",
+     "supports": "supplier sites: Oberkochen and Wetzlar only"
+    }
+   ],
+   "review": "flagged",
+   "review_note": "The supplier-set half of this claim is solidly Tier 1: ASML's 20-F states Zeiss SMT is its 'sole supplier' of lithography optics and its 'single supplier... of optical columns', producible 'only' at Oberkochen and Wetzlar -- unambiguous sole-source language, both quotes verified verbatim, both supplier facility ids (fac:zeiss-oberkochen, fac:zeiss-wetzlar) valid. However, the node (fac:asml-veldhoven) is not supported: it rests entirely on ASML's own Veldhoven marketing page claiming the M&P department there 'assembles, builds and delivers all our systems', which conflicts with ASML's own, more authoritative FY2025 20-F describing manufacturing/final-assembly facilities across nine sites (Veldhoven, Eindhoven, Oirschot, Berlin, Wilton, San Diego, Pyeongtaek, Linkou, Tainan). A Tier 2 'about us' superlative does not establish that Zeiss optics are needed specifically and exclusively at the Veldhoven site rather than ASML as a whole. Corrected node to co:asml, which the cited 20-F passages fully and directly support; publish_flagged for the resulting loss of site-level precision relative to this round's goal.",
+   "best_tier": 1,
+   "layer": "linkage_fabs",
+   "source_layer": "linkage_fabs"
+  }
+ ],
  "gaps": [
   {
    "topic": "openai.com Stargate primary releases",
@@ -30380,6 +31114,126 @@
    "why": "Earnings-call transcripts not fetched; only historical cash-flow capex and qualitative guidance from filings recorded.",
    "would_need": "Company IR earnings-call transcripts or CFO commentary.",
    "layer": "finance"
+  },
+  {
+   "topic": "SPIL Arizona packaging site for NVIDIA (flow:spil-nvidia-packaging-arizona)",
+   "why": "NVIDIA states it partners with SPIL for packaging and testing in Arizona, but the atlas has no SPIL Arizona facility and no SPIL/ASE document reviewed names the Arizona site or its status.",
+   "would_need": "An ASE Technology Holding 20-F/6-K, MOPS material-information filing, or SPIL release naming the Arizona site (address, status); then a facility record and a refinement.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "TSMC Phoenix fab phase supplying Amkor Peoria (flow:tsmc-arizona-to-amkor-peoria)",
+   "why": "The Amkor–TSMC MOU refers to TSMC's 'advanced wafer fabrication facilities in Phoenix' (plural) and Amkor Peoria starts manufacturing in 2028, by which time more than one Fab 21 phase may operate; no document names the phase.",
+   "would_need": "A TSMC or Amkor statement naming which Fab 21 phase supplies wafers for Amkor Peoria packaging.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "Which TSMC Advanced Backend Fab packages NVIDIA/AMD/Broadcom products and receives SK hynix HBM (flow:sk-hynix-hbm-to-tsmc-cowos, flow:tsmc-fab18-to-tsmc-ap6, flow:tsmc-fab18-to-tsmc-ap8)",
+   "why": "TSMC states AP6 (Zhunan) can run SoIC, InFO and CoWoS, but no TSMC document reviewed allocates CoWoS to a specific customer or states AP6 is the only CoWoS site; AP3, AP5, AP7 and AP8 roles are not described. TSMC's own sites (tsmc.com, investor.tsmc.com, pr.tsmc.com) returned HTTP 403 to the declared research User-Agent, so the annual report's packaging chapter could not be re-read this round.",
+   "would_need": "TSMC annual report / 20-F text describing CoWoS capacity by Advanced Backend Fab, or a customer release naming the packaging site.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "Front-end fab for TSMC-made Microsoft Maia 200 (3nm) and Meta MTIA (5nm) dies",
+   "why": "The documents name only the process node. The TSMC 20-F lists Fab 18 as its 3nm fab, but the table gives only each fab's most advanced node, so it does not rule out other fabs; 5nm runs at both Fab 18 and Arizona Fab 21. No document ties either chip to a fab.",
+   "would_need": "A Microsoft, Meta or TSMC statement naming the fab, or a CHIPS/permit document tying the product to a site.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "HBM fab supplying NVIDIA from SK hynix, Micron and Samsung (flow:sk-hynix-nvidia-memory, flow:sk-hynix-hbm4-to-nvidia-vera-rubin, flow:micron-nvidia-memory, flow:samsung-nvidia-memory)",
+   "why": "SK hynix describes M15X as an HBM/DRAM fab and has NVIDIA supply agreements, but no document reviewed ties NVIDIA's HBM to M15X, M16 or any other fab. Micron's 10-K lists Taiwan for wafer fabrication and assembly, but no Micron document reviewed states NVIDIA HBM is made there. Samsung's AMD MOU was signed at Pyeongtaek, which is not a production statement.",
+   "would_need": "A memory-maker release, F-1/424B4 or 10-K passage naming the fab or packaging site for HBM shipped to NVIDIA (or AMD).",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "Samsung foundry fab for NVIDIA wafers and for HBM4 base dies (flow:samsung-nvidia-wafers, flow:samsung-foundry-hbm4-base-die-to-memory)",
+   "why": "Samsung's business report states HBM4 base dies are made on its 4nm process, and NVIDIA's 10-K names Samsung as a foundry, but neither names the Hwaseong or Pyeongtaek line.",
+   "would_need": "A Samsung business report or release naming the foundry line for these products.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "TSMC fab producing SK hynix HBM4 base dies (flow:tsmc-to-sk-hynix-hbm4-base-die)",
+   "why": "The SK hynix–TSMC MOU names the relationship and process, not a fab.",
+   "would_need": "A TSMC or SK hynix statement naming the fab or the node (with a node-to-fab mapping).",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "Broadcom and Marvell logic-die (foundry) requirement",
+   "why": "Broadcom's 10-K names only TSMC ('including TSMC'), and Marvell's FY2026 10-K names no foundry; Marvell's 2nm release names TSMC for one platform. A single named supplier would read as a sole-source claim, which no document makes, so no requirement was recorded.",
+   "would_need": "10-K or release language naming every foundry, or stating that TSMC is the sole or only foundry, for Broadcom or Marvell AI accelerators.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "Marvell packaging and HBM suppliers; Broadcom HBM suppliers",
+   "why": "Marvell's FY2026 10-K says it outsources all packaging and testing to 'several assembly and test subcontractors' without naming them. Neither Broadcom's nor Marvell's 10-K names HBM suppliers.",
+   "would_need": "Filings or releases naming Marvell's OSATs and the HBM suppliers for Broadcom and Marvell custom accelerators.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "Hyperscaler in-house accelerator requirements (Microsoft Maia, Meta MTIA, Google TPU, AWS Trainium)",
+   "why": "The documents reviewed name TSMC as the process for Maia 200 and MTIA, but name one foundry only and make no sole-source statement; packaging and HBM suppliers are not named.",
+   "would_need": "Hyperscaler 10-K or release language naming the foundry, packaging and memory suppliers for each accelerator.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "ASML EUV to a specific Intel fab (flow:asml-to-intel)",
+   "why": "Intel states that Fab 52 (Chandler) manufactures Intel 18A, but no Intel document reviewed this round states that Fab 52 uses EUV tools from ASML.",
+   "would_need": "An Intel 10-K or release stating which fab runs EUV, combined with ASML's 20-F sole-supplier language.",
+   "layer": "linkage_chips"
+  },
+  {
+   "topic": "TSMC fab-level EUV use (Fab 15, Fab 18, Fab 20, Fab 22, Arizona Fab 21)",
+   "why": "TSMC's FY2025 annual report and 20-F mention EUV scanners only at company level and do not tie EUV to a fab. tsmc.com, esg.tsmc.com, pr.tsmc.com and investor.tsmc.com returned Cloudflare challenges or HTTP 403 to the declared project user agent, and sec.gov archive documents (including 2024 TSMC 6-Ks that EDGAR full-text search shows mention EUV) were refused as an undeclared tool. A TSMC ESG article (esg.tsmc.com/en-US/articles/371) is reported to name Fab 15B, Fab 18A and Fab 18B as EUV sites, but it could not be fetched to verify quotes.",
+   "would_need": "A fetchable TSMC document tying EUV to specific fabs, such as esg.tsmc.com/en-US/articles/371, the TSMC sustainability report, tsmc.com logic technology pages (e.g. 'Fab 18 is the main 3nm production facility' plus an N3/N5 EUV statement), or a TSMC 6-K. Combined with ASML's 20-F sole-maker statement this would support req:tsmc-fab18-euv and others.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "Samsung Taylor (Texas) EUV requirement",
+   "why": "The CHIPS award page and Samsung documents reviewed describe Taylor as a leading-edge (2nm) logic fab but do not mention EUV lithography.",
+   "would_need": "A Samsung release or filing stating that the Taylor fab uses EUV lithography.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "Micron Taiwan (Taichung/Taoyuan), Boise ID1 and Clay NY EUV requirement",
+   "why": "Micron's FY2025 10-K ties EUV only to Hiroshima. Search results indicate Micron said it would ramp 1-gamma EUV in Taiwan and Japan (FY2024 10-K / earnings materials), but sec.gov archives and investors.micron.com refused the declared user agent, so the quote could not be verified.",
+   "would_need": "A fetchable Micron 10-K/10-Q or release stating EUV production in Taiwan or at a named US fab.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "SK hynix Yongin cluster EUV requirement",
+   "why": "SK hynix's 2026 424B4 allocates offering proceeds to EUV scanners and to construction of Korean production facilities but does not tie the EUV scanners to Yongin.",
+   "would_need": "An SK hynix document stating that the Yongin fab will incorporate EUV lithography.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "TRUMPF as sole supplier of EUV drive lasers to ASML",
+   "why": "TRUMPF's 2025 release calls the TRUMPF-ASML relationship a 'close and exclusive partnership', and ASML's FY2025 20-F does not name TRUMPF. No reviewed document uses 'sole' or 'single supplier' for the drive laser, so no single-supplier requirement was created. No document names the ASML site (e.g. San Diego light-source operations) that receives the lasers, so flow:trumpf-to-asml was not refined.",
+   "would_need": "An ASML or TRUMPF filing or release stating that TRUMPF is the sole/single supplier of EUV CO2 drive lasers, and naming the receiving ASML site.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "ASML ship-from site for EUV systems (flow:asml-to-intel, -oregon, -arizona, -ireland)",
+   "why": "ASML's 20-F lists final assembly across nine sites (Veldhoven, Eindhoven, Oirschot, Berlin, Wilton, San Diego, Pyeongtaek, Linkou, Tainan) without saying which site ships EUV systems. The Veldhoven page says the M&P department 'assembles, builds and delivers all our systems' but does not explicitly say EUV systems ship from Veldhoven. Because ASML's HQ is also Veldhoven, a refinement would not move the drawn route.",
+   "would_need": "An ASML filing or release stating that EUV (NXE/EXE) systems undergo final assembly and shipment from Veldhoven.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "Wacker polysilicon routes (to Siltronic, Shin-Etsu, SUMCO, GlobalWafers, SK siltron): source site",
+   "why": "Siltronic's 2025 annual report says most of its polysilicon comes from Wacker under long-term agreements, but also says 'several production facilities of Wacker Chemie AG and other suppliers were qualified', so no single Wacker site can be pinned. Shin-Etsu, SUMCO, GlobalWafers and SK siltron documents reviewed do not name Wacker or a Wacker site.",
+   "would_need": "A Wacker or wafer-maker document naming the Wacker plant (Burghausen, Nünchritz or Charleston) that supplies a given wafer maker or site.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "Siltronic wafer routes (to Samsung, to Intel Arizona): source site and Samsung destination",
+   "why": "Siltronic's annual report does not name customers or tie customer supply to its Singapore, Freiberg or Burghausen fabs.",
+   "would_need": "A Siltronic or customer document naming the Siltronic fab and the receiving customer fab.",
+   "layer": "linkage_fabs"
+  },
+  {
+   "topic": "Equipment and materials routes to TSMC/Samsung (Lam Research, Applied Materials, KLA, JSR, Shin-Etsu) and Ichor routes",
+   "why": "The 10-Ks of Lam, Applied Materials, KLA and Ichor, and the JSR/Shin-Etsu releases reviewed, name customers at company level (e.g. >10% customers) but never tie a shipping plant to a customer fab.",
+   "would_need": "A supplier release, CHIPS award or customer document naming the supplier plant and the receiving fab (e.g. a tool delivery to TSMC Arizona or an on-site materials plant).",
+   "layer": "linkage_fabs"
   },
   {
    "topic": "High-purity quartz → fused-quartz crucible makers → wafer makers",

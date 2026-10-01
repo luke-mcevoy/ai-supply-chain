@@ -167,8 +167,9 @@ function SpofBox({ idx, hits, doc }: { idx: Index; hits: { dc: string; kind: str
   const select = useStore((s) => s.select);
   return (
     <div className="reach spof">
-      <b>If this went offline:</b> <b className="mono">{hits.length}</b> campus{hits.length === 1 ? "" : "es"} would have no recorded supplier left for an input
-      {doc < hits.length && <span className="muted"> ({doc} on documented routes alone; the rest rely on inferred routes)</span>}.
+      <b>If this went offline:</b> {doc > 0
+        ? <><b className="mono">{doc}</b> campus{doc === 1 ? "" : "es"} would have no recorded supplier left for an input, on documented routes{hits.length > doc && <span className="muted"> ({hits.length - doc} more if inferred routes are included)</span>}.</>
+        : <span>no campus loses all recorded supply on documented routes. <span className="muted">Through <i>inferred</i> routes only, {hits.length} would, which mostly reflects suppliers the documents don't name.</span></span>}
       <ul>{hits.slice(0, 6).map((h) => <li key={h.dc}><button className="link" onClick={() => select(h.dc)}>{nodeName(idx, h.dc)}</button> <span className="muted">· {h.kind}</span></li>)}</ul>
       {hits.length > 6 && <div className="muted small">+{hits.length - 6} more</div>}
       <div className="muted small">Based on recorded suppliers only. Real alternatives may exist that no document names.</div>
