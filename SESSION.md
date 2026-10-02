@@ -95,3 +95,6 @@ Open: set FLY_API_TOKEN for auto-deploy; bump actions to Node-24 versions before
   fails if a referenced entity/quote disappears or a caption number isn't in its quotes/dates.
 - Monthly refresh: scripts/refresh-check.mjs (BIS Federal Register + SEC filings since data/refresh/state.json),
   docs/REFRESH.md, cloud routine trig_01ELXJ4Dxy52UsA3tv2GtWE3 (1st of month 14:00 UTC, opens a PR, never pushes main).
+
+## 2026-10-01 — handoff
+Work continues in ~/Develop/Code/quantum-atlas. Full handoff for other agents (both repos): ~/Develop/Code/quantum-atlas/HANDOFF.md
