@@ -495,28 +495,52 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   ];
 
   // Globe halo: measure the globe's on-screen radius after each render and size a CSS glow to it.
+  // Drag tracking lives on window while a drag is active: it keeps working when the pointer crosses a panel,
+  // and a drag may start anywhere on the globe, including on a site label. A label click counts only if
+  // the pointer barely moved (dragMoved < 6px), so dragging past a label never selects it.
+  const dragMoved = useRef(0);
+  const win = useMemo(() => {
+    const move = (e: PointerEvent) => {
+      const d = drag.current;
+      if (!d || touches.current.size > 1) return;
+      const dx = e.clientX - d.x, dy = e.clientY - d.y;
+      dragMoved.current += Math.abs(dx) + Math.abs(dy);
+      const degPerPx = 180 / Math.PI / Math.max(60, radiusPx.current);
+      const dLon = -dx * degPerPx, dLat = dy * degPerPx;
+      const now = performance.now(), dt = Math.max(1, now - d.t);
+      vel.current = [dLon * 16 / dt, dLat * 16 / dt];
+      drag.current = { x: e.clientX, y: e.clientY, t: now };
+      setViewState((v) => rotate(v, dLon, dLat));
+    };
+    const up = (e: PointerEvent) => {
+      touches.current.delete(e.pointerId);
+      if (drag.current && performance.now() - drag.current.t > 80) vel.current = [0, 0]; // paused before release: no fling
+      drag.current = null;
+      if (touches.current.size === 0) {
+        window.removeEventListener("pointermove", move);
+        window.removeEventListener("pointerup", up);
+        window.removeEventListener("pointercancel", up);
+      }
+    };
+    return { move, up };
+  }, []);
+  useEffect(() => () => {
+    window.removeEventListener("pointermove", win.move);
+    window.removeEventListener("pointerup", win.up);
+    window.removeEventListener("pointercancel", win.up);
+  }, [win]);
   const onPointerDown = (e: React.PointerEvent) => {
     stopSpin();
-    if ((e.target as HTMLElement).closest("button, a, input")) return;
+    // Real controls keep their own behaviour; site labels do not block a drag.
+    if ((e.target as HTMLElement).closest("button:not(.glabel), a, input, select, textarea")) return;
     touches.current.add(e.pointerId);
+    window.addEventListener("pointermove", win.move);
+    window.addEventListener("pointerup", win.up);
+    window.addEventListener("pointercancel", win.up);
     if (touches.current.size > 1) { drag.current = null; return; } // two fingers: let pinch-zoom work
     drag.current = { x: e.clientX, y: e.clientY, t: performance.now() };
+    dragMoved.current = 0;
     vel.current = [0, 0];
-  };
-  const onPointerMove = (e: React.PointerEvent) => {
-    const d = drag.current;
-    if (!d || touches.current.size > 1) return;
-    const degPerPx = 180 / Math.PI / Math.max(60, radiusPx.current);
-    const dLon = -(e.clientX - d.x) * degPerPx, dLat = (e.clientY - d.y) * degPerPx;
-    const now = performance.now(), dt = Math.max(1, now - d.t);
-    vel.current = [dLon * 16 / dt, dLat * 16 / dt];
-    drag.current = { x: e.clientX, y: e.clientY, t: now };
-    setViewState((v) => rotate(v, dLon, dLat));
-  };
-  const onPointerUp = (e: React.PointerEvent) => {
-    touches.current.delete(e.pointerId);
-    if (drag.current && performance.now() - drag.current.t > 80) vel.current = [0, 0]; // paused before release: no fling
-    drag.current = null;
   };
 
   const onAfterRender = () => {
@@ -559,13 +583,12 @@ export default function Globe({ idx, world }: { idx: Index; world: World }) {
   };
 
   return (
-    <div className="globe-wrap" onPointerDown={onPointerDown} onPointerMove={onPointerMove}
-      onPointerUp={onPointerUp} onPointerCancel={onPointerUp} onPointerLeave={onPointerUp} onWheel={stopSpin}>
+    <div className="globe-wrap" onPointerDown={onPointerDown} onWheel={stopSpin}>
       <div className="halo" ref={haloRef} />
       <div className="labels" ref={labelsRef} aria-hidden="true">
         {overlay.map((l) => (
           <button key={l.id} className={`glabel${l.strong ? " strong" : ""}`} tabIndex={-1}
-            onClick={() => { stopSpin(); s.select(l.id); }} onPointerEnter={() => s.set({ hover: null })}>{l.text}</button>
+            onClick={() => { if (dragMoved.current > 6) return; stopSpin(); s.select(l.id); }} onPointerEnter={() => s.set({ hover: null })}>{l.text}</button>
         ))}
       </div>
       <div className="camera" role="group" aria-label="Camera">
@@ -618,7 +641,7 @@ function finColor(f: FinancialLink): RGB {
 function rotate(v: Record<string, unknown>, dLon: number, dLat: number) {
   return { ...v, transitionDuration: 0,
     longitude: (((v.longitude as number) + dLon + 540) % 360) - 180,
-    latitude: Math.max(-70, Math.min(75, (v.latitude as number) + dLat)) };
+    latitude: Math.max(-80, Math.min(80, (v.latitude as number) + dLat)) };
 }
 
 /** Great-circle angle between two lon/lat points, degrees. */

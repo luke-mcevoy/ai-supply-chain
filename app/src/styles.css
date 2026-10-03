@@ -434,3 +434,8 @@ h4 .count { color: var(--text-2); background: var(--raise); border: 1px solid va
   .scrim { padding-top: 56px; }
 }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* inspector Back button (returns to the previously selected item; browser Back works too) */
+.back-btn { display: inline-flex; align-items: center; gap: 4px; margin: -4px 0 8px; padding: 4px 8px; border: 1px solid var(--line-2);
+  border-radius: 2px; font: 500 11px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--text-2); }
+.back-btn:hover { color: var(--text); border-color: var(--text-2); }
